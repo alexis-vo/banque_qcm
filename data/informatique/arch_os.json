@@ -1,0 +1,1105 @@
+{
+  "titre_chapitre": "Introduction à l'architecture des ordinateurs et des systèmes d'exploitation",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Parmi les affirmations suivantes, laquelle caractérise une mémoire de masse par rapport à la mémoire centrale (RAM) ?",
+      "options": [
+        "Elle est volatile et perd ses données à l'extinction.",
+        "Elle est non volatile et sert au stockage à long terme.",
+        "Elle est intégrée directement sur la même puce que le processeur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les mémoires de masse (comme les SSD ou les HDD) sont non volatiles, ce qui signifie que leur contenu n'est pas perdu lorsque l'ordinateur est mis hors tension[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Pourquoi qualifie-t-on la mémoire centrale de RAM (Random Access Memory) ?",
+      "options": [
+        "Parce qu'elle sélectionne les données au hasard de manière imprévisible.",
+        "Parce qu'elle peut être lue et écrite dans n'importe quel ordre sans balayage séquentiel préalable.",
+        "Parce qu'elle efface son contenu aléatoirement en cas de surchauffe."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Elle peut être lue et écrite dans n'importe quel ordre ; il n'est pas nécessaire de balayer les adresses de 0 à i-1 pour accéder au mot à l'adresse i[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "Quel composant du CPU est responsable d'aller chercher (fetch) les instructions en mémoire et de déterminer leur type ?",
+      "options": [
+        "L'unité arithmétique et logique (UAL)",
+        "L'unité de contrôle",
+        "Le gestionnaire de mémoire virtuelle"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'unité de contrôle est responsable d'aller chercher les instructions à partir de la mémoire centrale et de déterminer leur type[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "Qu'est-ce que la propriété de proximité temporelle dans l'exécution d'un programme ?",
+      "options": [
+        "Le CPU accède de manière répétée au même ensemble de mots de mémoire sur une courte période.",
+        "Le CPU accède toujours à des mots situés à des adresses strictement consécutives (a+1).",
+        "Les instructions sont exécutées à un rythme synchronisé avec l'horloge du processeur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La proximité temporelle signifie que le CPU accède de manière répétée au même ensemble de mots de mémoire sur une courte période (par exemple dans une boucle principale)[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Quel est le rôle principal d'un système d'exploitation (OS) ?",
+      "options": [
+        "Traduire tout le code source en langage machine par compilation.",
+        "Fournir un modèle simple de l'ordinateur et gérer toutes ses ressources.",
+        "Augmenter physiquement la fréquence d'horloge du processeur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un système d'exploitation a pour rôle (1) de fournir aux programmes des utilisateurs un modèle propre et simple de l'ordinateur et (2) de gérer toutes les ressources[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 6,
+      "enonce": "Comment appelle-t-on l'algorithme d'ordonnancement préemptif où l'ordonnanceur sélectionne un processus pour un court intervalle de temps (quantum) de manière cyclique ?",
+      "options": [
+        "Le tourniquet (round-robin)",
+        "La pagination virtuelle",
+        "L'écriture différée (write-back)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Cet algorithme d'ordonnancement préemptif est connu sous le nom de tourniquet (en anglais, round-robin)[span_5](start_span)[span_5](end_span)."
+    },
+    {
+      "id": 7,
+      "enonce": "Quel est l'intérêt principal de la mémoire virtuelle avec pagination ?",
+      "options": [
+        "De charger l'intégralité du disque dur en permanence dans les registres du CPU.",
+        "De ne pas avoir à charger tout l'espace d'adressage d'un processus en mémoire centrale pour l'exécuter.",
+        "De supprimer complètement le besoin d'utiliser un processeur multicœur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le système d'exploitation n'a pas besoin de charger en mémoire centrale l'ensemble de l'espace d'adressage d'un processus ; les pages sont chargées uniquement lorsqu'elles sont nécessaires[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelle est la différence entre un langage compilé et un langage interprété ?",
+      "options": [
+        "Le compilateur traduit le programme en langage machine à l'avance, tandis que l'interpréteur l'exécute dynamiquement.",
+        "L'interpréteur génère un fichier exécutable définitif, contrairement au compilateur.",
+        "Il n'y a aucune différence, les deux termes désignent le même mécanisme."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un compilateur traduit un programme de haut niveau en langage machine (ex: C, C++), tandis qu'un interpréteur exécute directement le programme de haut niveau (ex: Python)[span_7](start_span)[span_7](end_span)."
+    },
+    {
+      "id": 9,
+      "enonce": "Comment un microprocesseur multicœur est-il perçu par le système d'exploitation ?",
+      "options": [
+        "Comme un ordinateur unique muni d'un seul cœur séquentiel.",
+        "Comme si l'ordinateur disposait de plusieurs CPUs indépendants.",
+        "Comme une mémoire cache de niveau supérieur (L3)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un microprocesseur multicœur est vu par le système d'exploitation comme si l'ordinateur avait plusieurs CPUs indépendants[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 10,
+      "enonce": "Qu'est-ce qu'un processus par rapport à un programme ?",
+      "options": [
+        "Un programme est une séquence statique, tandis qu'un processus est une instance de ce programme en cours d'exécution.",
+        "Un processus est un fichier statique stocké sur le disque dur, et un programme est en RAM.",
+        "Un processus est un composant matériel de la carte mère."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un programme est une séquence statique d'instructions, alors qu'un processus est une instance d'un programme en exécution (incluant les registres et variables actuels)[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 11,
+      "enonce": "Dans quelle partie du cours le chapitre 1 est-il principalement abordé ?",
+      "options": [
+        "Dans la partie programmation orientée objet.",
+        "Dans la partie systèmes d'information, traitant de l'architecture des ordinateurs et des systèmes d'exploitation.",
+        "Dans la partie dédiée exclusivement aux réseaux informatiques."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le chapitre 1 traite de l'introduction à l'architecture des ordinateurs et aux systèmes d'exploitation dans la partie systèmes d'information[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 12,
+      "enonce": "Quels logiciels sont explicitement listés pour l'installation au début du cours ?",
+      "options": [
+        "Python 3.14, Visual Studio Code, Git et DB Browser for SQLite.",
+        "Java, Eclipse, SVN et MySQL Workbench.",
+        "Word, Excel, PowerPoint et Access."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours requiert l'installation de Python 3.14, Visual Studio Code, Git et DB Browser for SQLite[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 13,
+      "enonce": "Comment se compose la note finale du cours d'après les modalités d'évaluation ?",
+      "options": [
+        "Uniquement par l'examen final sur ordinateur de 1h30.",
+        "Par la moyenne de la note obtenue en contrôle continu (QCM) et de celle obtenue à l'examen final.",
+        "Par la note des travaux pratiques en binôme."
+      ],
+      "reponse_correcte": 1,
+      "explication": "La note finale correspond à la moyenne de la note obtenue en contrôle continu et de celle obtenue à l'examen final[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 14,
+      "enonce": "Sous quelle condition une session de rattrapage de l'examen écrit est-elle organisée ?",
+      "options": [
+        "Si l'étudiant le demande par courriel au responsable.",
+        "Lorsque la note finale est inférieure à 7 ou qu'un étudiant est absent à l'examen écrit.",
+        "Dès que la moyenne de groupe est inférieure à 10."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Une session de rattrapage est organisée lorsque la note finale est inférieure à 7, ou si l'étudiant est absent à l'examen écrit[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 15,
+      "enonce": "Quelles compétences du ingénieur sont évaluées à travers les épreuves du cours ?",
+      "options": [
+        "C2.1 (approfondir un domaine), C6.1 (résoudre un problème numériquement), C6.2 (concevoir un logiciel) et C6.3 (traiter des données).",
+        "Uniquement la compétence de communication écrite et orale.",
+        "Les compétences de gestion financière et de management de projet."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les épreuves évaluent les compétences C2.1, C6.1, C6.2 et C6.3, sanctionnées par une mention PASS/FAIL[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 16,
+      "enonce": "Quels sont les trois grands blocs qui constituent le schéma général d'un ordinateur personnel ?",
+      "options": [
+        "Le clavier, l'écran et l'imprimante.",
+        "Le matériel (hardware), le système d'exploitation et les applications logicielles (software).",
+        "Le processeur, la carte graphique et le disque dur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le schéma distingue le matériel (hardware), le système d'exploitation (operating system) et les applications (software)[span_5](start_span)[span_5](end_span)."
+    },
+    {
+      "id": 17,
+      "enonce": "Qu'est-ce que le matériel (hardware) d'un ordinateur ?",
+      "options": [
+        "L'ensemble des programmes et scripts écrits en Python.",
+        "Les composants physiques de l'ordinateur.",
+        "L'interface utilisateur graphique fournie par l'OS."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le matériel (hardware) désigne les composants physiques de l'ordinateur[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 18,
+      "enonce": "Parmi les propositions suivantes, laquelle désigne une mémoire volatile ?",
+      "options": [
+        "Le disque SSD",
+        "La mémoire centrale (RAM)",
+        "Le disque dur (HDD)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La mémoire centrale (RAM) est une mémoire volatile dont le contenu est perdu lorsque l'ordinateur est mis hors tension[span_7](start_span)[span_7](end_span)."
+    },
+    {
+      "id": 19,
+      "enonce": "Comment appelle-t-on le composant qui relie l'ensemble des éléments de la carte mère (UCC, RAM, périphériques) ?",
+      "options": [
+        "Le bus",
+        "Le cache L3",
+        "Le registre d'index"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bus permet la liaison et le transfert d'informations entre l'UCC, la mémoire centrale et les périphériques sur la carte mère[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 20,
+      "enonce": "Comment les disques SSD stockent-ils les données ?",
+      "options": [
+        "Sur des plateaux magnétiques rotatifs.",
+        "Dans des mémoires à semi-conducteurs, sans aucune pièce mobile.",
+        "Sous forme de creux et de bosses lus par un faisceau lumineux."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les disques SSD stockent les données dans des mémoires à semi-conducteurs et sont dépourvus de pièces mobiles[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 21,
+      "enonce": "Quel dispositif de stockage utilise des plateaux recouverts de matériau magnétique ?",
+      "options": [
+        "Le disque SSD",
+        "Le disque dur (HDD)",
+        "La clé USB"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le disque dur (HDD) stocke et récupère les données sur un ou plusieurs plateaux recouverts de matériau magnétique[span_10](start_span)[span_10](end_span)."
+    },
+    {
+      "id": 22,
+      "enonce": "Quel est le principe de stockage des disques optiques (CD, DVD, Blu-ray) ?",
+      "options": [
+        "Des variations physiques à la surface lues avec un faisceau de lumière.",
+        "Des impulsions électriques sur des puces de silicium flash.",
+        "Un champ magnétique permanent orienté par polarité."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les disques optiques stockent les données sous forme de variations physiques à leur surface, lues par un faisceau lumineux[span_11](start_span)[span_11](end_span)."
+    },
+    {
+      "id": 23,
+      "enonce": "Quel est l'un des avantages majeurs des disques SSD par rapport aux HDD ?",
+      "options": [
+        "Ils possèdent un nombre infini de cycles de lecture/écriture.",
+        "Leur temps d'accès est beaucoup plus rapide (jusqu'à 500 fois plus rapide) et ils n'ont pas de pièces mobiles.",
+        "Ils coûtent nettement moins cher au gigaoctet."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les SSD offrent un temps d'accès beaucoup plus rapide et résistent mieux aux chocs car ils n'ont pas de pièces mobiles[span_12](start_span)[span_12](end_span)."
+    },
+    {
+      "id": 24,
+      "enonce": "Quel est l'inconvénient principal des SSD par rapport aux HDD mentionné dans le cours ?",
+      "options": [
+        "Ils sont sensibles aux champs magnétiques des haut-parleurs.",
+        "Ils ont un nombre limité de cycles de lecture/écriture et sont plus chers.",
+        "Ils pèsent beaucoup plus lourd dans l'ordinateur portable."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les inconvénients des SSD sont leur nombre limité de cycles de lecture/écriture et leur coût plus élevé[span_13](start_span)[span_13](end_span)."
+    },
+    {
+      "id": 25,
+      "enonce": "Que se passe-t-il lorsque l'on ouvre un fichier stocké sur le disque (par exemple une photo ou une feuille de calcul) ?",
+      "options": [
+        "Le fichier reste uniquement sur le disque et le processeur y accède en direct.",
+        "Le contenu du fichier est transféré dans la mémoire centrale (RAM) où les modifications sont appliquées.",
+        "Le fichier est immédiatement dupliqué sur le cloud du fournisseur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le contenu du fichier est transféré dans la mémoire centrale, et les modifications ne sont réécrites sur le disque qu'à l'enregistrement[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 26,
+      "enonce": "Comment est structurée la mémoire centrale (RAM) au niveau de son architecture de base ?",
+      "options": [
+        "En un ensemble de mots de même taille, contenant chacun une séquence de bits et dotés d'une adresse unique.",
+        "En un flux continu de caractères alphabétiques sans repère numérique.",
+        "En fichiers organisés hiérarchiquement par dossiers et sous-dossiers."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La mémoire centrale est composée d'un ensemble de mots de même taille (contenant bits, valeurs ou instructions), chacun ayant une adresse, basé sur l'architecture Von Neumann[span_15](start_span)[span_15](end_span)."
+    },
+    {
+      "id": 27,
+      "enonce": "Combien de bits y a-t-il dans un octet (byte) ?",
+      "options": [
+        "4 bits",
+        "8 bits",
+        "16 bits"
+      ],
+      "reponse_correcte": 1,
+      "explication": "1 octet est égal à 8 bits[span_16](start_span)[span_16](end_span)."
+    },
+    {
+      "id": 28,
+      "enonce": "À combien d'octets correspond 1 téraoctet (1 To / TB) en notation décimale ?",
+      "options": [
+        "10^9 octets",
+        "10^12 octets",
+        "2^40 octets"
+      ],
+      "reponse_correcte": 1,
+      "explication": "1 To correspond à 10^12 octets en notation décimale (métrique)[span_17](start_span)[span_17](end_span)."
+    },
+    {
+      "id": 29,
+      "enonce": "Quel préfixe binaire désigne la valeur 2^30 octets ?",
+      "options": [
+        "Kibioctet (Kio)",
+        "Mébioctet (Mio)",
+        "Gibioctet (Gio)"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Le gibioctet (GiB) correspond à la valeur binaire 2^30[span_18](start_span)[span_18](end_span)."
+    },
+    {
+      "id": 30,
+      "enonce": "Quel terme anglais utilise-t-on pour désigner l'Unité Centrale de Calcul (UCC) ?",
+      "options": [
+        "GPU (Graphics Processing Unit)",
+        "CPU (Central Processing Unit)",
+        "ALU (Arithmetic Logic Unit)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'UCC est appelée en anglais Central Processing Unit (CPU)[span_19](start_span)[span_19](end_span)."
+    },
+    {
+      "id": 31,
+      "enonce": "Qu'est-ce qu'un programme informatique du point de vue du processeur ?",
+      "options": [
+        "Une image statique affichée à l'écran.",
+        "Une séquence d'instructions décrivant comment effectuer une certaine tâche.",
+        "Une zone de stockage persistante sur le disque dur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un programme est une séquence d'instructions décrivant comment effectuer une certaine tâche[span_20](start_span)[span_20](end_span)."
+    },
+    {
+      "id": 32,
+      "enonce": "Qu'appelle-t-on le langage machine ?",
+      "options": [
+        "L'ensemble de toutes les instructions élémentaires reconnues et exécutables par un CPU spécifique.",
+        "Le code source écrit en Python ou en C.",
+        "Les commandes textuelles saisies dans le terminal shell."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'ensemble de toutes les instructions reconnues par un CPU est appelé langage machine[span_21](start_span)[span_21](end_span)."
+    },
+    {
+      "id": 33,
+      "enonce": "Comment est généralement structurée une instruction binaire simple pour un CPU ?",
+      "options": [
+        "Uniquement par une adresse de mémoire vive de 64 bits.",
+        "Par un code opération (opcode) identifiant le type d'instruction et des bits d'opérandes.",
+        "Par un nom de fonction en clair suivi de paramètres textuels."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Une instruction est une séquence de n bits comprenant un code opération (m premiers bits) et des opérandes (bits restants)[span_22](start_span)[span_22](end_span)."
+    },
+    {
+      "id": 34,
+      "enonce": "Sous quelle forme sont exprimées les instructions du langage machine pour être plus lisibles par l'humain ?",
+      "options": [
+        "En langage d'assemblage (assembleur)",
+        "En HTML / CSS",
+        "En code octet Java bytecode"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les instructions du langage machine sont exprimées en langage d'assemblage (ou assembleur)[span_23](start_span)[span_23](end_span)."
+    },
+    {
+      "id": 35,
+      "enonce": "Quels sont les composants principaux qui constituent le chemin de données (data path) d'un processeur ?",
+      "options": [
+        "Le disque dur et la barrette de RAM.",
+        "L'unité arithmétique et logique (UAL) et les registres.",
+        "Le bus système et les ports USB."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le chemin de données comprend l'unité arithmétique et logique (UAL) et les registres[span_24](start_span)[span_24](end_span)."
+    },
+    {
+      "id": 36,
+      "enonce": "Quel est le rôle des registres à l'intérieur d'un processeur ?",
+      "options": [
+        "Stocker durablement les fichiers des utilisateurs en cas de coupure de courant.",
+        "Servir de petites mémoires à haute vitesse pour stocker des résultats temporaires et des informations de contrôle.",
+        "Assurer la connexion réseau sans fil de l'ordinateur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les registres sont de petites mémoires à haute vitesse utilisées pour stocker des résultats temporaires et des informations de contrôle[span_25](start_span)[span_25](end_span)."
+    },
+    {
+      "id": 37,
+      "enonce": "Comment appelle-t-on le circuit intégré unique qui regroupe l'unité de contrôle, l'UAL et les registres ?",
+      "options": [
+        "Une carte mère",
+        "Un microprocesseur",
+        "Un contrôleur de bus"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Tous ces composants inclus dans un seul circuit intégré forment ce qu'on appelle un microprocesseur[span_26](start_span)[span_26](end_span)."
+    },
+    {
+      "id": 38,
+      "enonce": "Qu'est-ce qui caractérise l'architecture d'un CPU ?",
+      "options": [
+        "Son design extérieur en plastique et son système de ventilation.",
+        "Son ensemble d'instructions reconnues, son ensemble de registres et ses modes d'adressage.",
+        "La capacité en gigaoctets de son disque SSD associé."
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'architecture d'un CPU se définit par son jeu d'instructions, son ensemble de registres et ses modes d'adressage[span_27](start_span)[span_27](end_span)."
+    },
+    {
+      "id": 39,
+      "enonce": "Peut-on exécuter directement un programme compilé pour une architecture x86 sur un processeur d'architecture ARM ?",
+      "options": [
+        "Oui, tous les processeurs partagent le même langage machine universel.",
+        "Non, chaque famille de processeurs a son propre langage machine et ses spécificités d'architecture.",
+        "Oui, à condition de renommer l'extension du fichier."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un programme écrit pour une architecture de CPU spécifique ne peut pas être exécuté sur un CPU ayant une architecture différente car chaque famille a son propre langage machine[span_28](start_span)[span_28](end_span)."
+    },
+    {
+      "id": 40,
+      "enonce": "Dans quels types d'appareils l'architecture ARM est-elle particulièrement utilisée ?",
+      "options": [
+        "Uniquement dans les supercalculateurs scientifiques géants.",
+        "Dans les téléphones portables et certains ordinateurs récents (comme ceux d'Apple).",
+        "Exclusivement dans les serveurs d'entreprise sous architecture x86."
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'architecture ARM est utilisée dans les téléphones portables et les ordinateurs (Apple en est un exemple)[span_29](start_span)[span_29](end_span)."
+    },
+    {
+      "id": 41,
+      "enonce": "Quelle est l'origine de la série de processeurs à architecture x86 très répandue aujourd'hui ?",
+      "options": [
+        "Elle a débuté avec le processeur Intel 8086 en 1978.",
+        "Elle a été inventée pour les premiers Macintosh en 1984.",
+        "Elle découle directement des premiers calculateurs à lampes à vide de 1945."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'architecture x86 est une série de processeurs qui a débuté avec l'Intel 8086 en 1978[span_30](start_span)[span_30](end_span)."
+    },
+    {
+      "id": 42,
+      "enonce": "Quel cycle fondamental le processeur répète-t-il continuellement pour exécuter un programme ?",
+      "options": [
+        "Read - Write - Delete",
+        "Fetch - Decode - Execute",
+        "Boot - Load - Shutdown"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le CPU récupère séquentiellement les instructions (fetch), les décode (decode) et les exécute (execute)[span_31](start_span)[span_31](end_span)."
+    },
+    {
+      "id": 43,
+      "enonce": "Pourquoi est-il nécessaire de charger le code d'un programme en mémoire RAM plutôt que de l'exécuter directement depuis le disque dur ?",
+      "options": [
+        "Parce que le disque est beaucoup plus lent que la mémoire centrale.",
+        "Parce que le disque ne possède pas d'adresses électriques.",
+        "Parce que le processeur ne sait pas lire des fichiers de plus de 1 Mo sur disque."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le code doit être chargé en RAM car le disque est beaucoup plus lent que la mémoire centrale[span_32](start_span)[span_32](end_span)."
+    },
+    {
+      "id": 44,
+      "enonce": "Quel logiciel permet de traduire un programme écrit dans un langage de haut niveau (comme le C ou C++) en un fichier exécutable en langage machine ?",
+      "options": [
+        "Un interpréteur",
+        "Un compilateur",
+        "Un hyperviseur de type 1"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un compilateur traduit un programme écrit dans un langage de haut niveau en un nouveau programme écrit en langage machine[span_33](start_span)[span_33](end_span)."
+    },
+    {
+      "id": 45,
+      "enonce": "Quel type de logiciel exécute directement un programme de haut niveau instruction par instruction sans générer de fichier exécutable binaire natif préalable ?",
+      "options": [
+        "Un compilateur",
+        "Un interpréteur",
+        "Un assembleur"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un interpréteur est un logiciel qui exécute un programme écrit dans un langage de haut niveau de manière dynamique[span_34](start_span)[span_34](end_span)."
+    },
+    {
+      "id": 46,
+      "enonce": "Quels langages parmi les suivants sont cités comme exemples de langages interprétés dans le cours ?",
+      "options": [
+        "C et C++",
+        "Javascript et Python",
+        "Assembleur et Langage Machine"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Javascript et Python sont cités comme des exemples de langages interprétés[span_35](start_span)[span_35](end_span)."
+    },
+    {
+      "id": 47,
+      "enonce": "Qu'est-ce que l'horloge (clock) d'un processeur ?",
+      "options": [
+        "Un composant qui affiche l'heure légale sur le bureau de l'OS.",
+        "Un circuit qui émet un signal électrique oscillant dont la période définit le cycle d'horloge.",
+        "Un compteur mesurant le temps total d'utilisation de l'ordinateur."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le CPU possède une horloge, un circuit qui émet un signal électrique oscillant, et la période du signal est le cycle d'horloge[span_36](start_span)[span_36](end_span)."
+    },
+    {
+      "id": 48,
+      "enonce": "Dans quelle unité mesure-t-on généralement la fréquence du signal d'horloge des processeurs modernes ?",
+      "options": [
+        "En mégahertz (MHz) ou gigahertz (GHz)",
+        "En décibels (dB)",
+        "En tours par minute (RPM)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La fréquence du signal d'horloge est mesurée en hertz (Hz), et les CPU modernes sont donnés en GHz[span_37](start_span)[span_37](end_span)."
+    },
+    {
+      "id": 49,
+      "enonce": "Que signifie concrètement un processeur cadencé à 3 GHz ?",
+      "options": [
+        "Qu'il possède 3 milliards de cœurs de calcul indépendants.",
+        "Que son horloge a environ 3 milliards de cycles par seconde.",
+        "Qu'il consomme exactement 3 gigawatts d'électricité."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Dans un processeur de 3 GHz, l'horloge a environ 3 milliards de cycles par seconde[span_38](start_span)[span_38](end_span)."
+    },
+    {
+      "id": 50,
+      "enonce": "Qu'est-ce qu'un processeur multicœur ?",
+      "options": [
+        "Un microprocesseur qui intègre plusieurs CPUs (cœurs) sur une seule puce.",
+        "Un ensemble de plusieurs ordinateurs reliés en réseau local.",
+        "Un processeur doté de plusieurs barrettes de RAM distinctes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les microprocesseurs modernes incluent plusieurs CPUs, appelés cœurs, sur une seule puce, permettant d'exécuter des instructions en parallèle[span_39](start_span)[span_39](end_span)."
+    },
+    {
+      "id": 51,
+      "enonce": "Quelles sont les deux propriétés de proximité exploitées pour contourner le goulot d'étranglement de la mémoire centrale grâce au cache ?",
+      "options": [
+        "La proximité thermique et la proximité électrique.",
+        "La proximité temporelle et la proximité spatiale.",
+        "La proximité séquentielle et la proximité aléatoire."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les deux propriétés de proximité sont la proximité temporelle et la proximité spatiale[span_40](start_span)[span_40](end_span)."
+    },
+    {
+      "id": 52,
+      "enonce": "Comment se définit la proximité spatiale dans l'accès à la mémoire ?",
+      "options": [
+        "Si le CPU accède à un mot à l'adresse a, il accédera probablement au mot à l'adresse a+1 peu après.",
+        "Le CPU accède de manière répétée aux mêmes instructions de boucle.",
+        "Les données sont stockées physiquement à proximité des ports USB."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La proximité spatiale indique que si le CPU accède à une adresse a, il accédera probablement au mot à l'adresse a+1 peu après[span_41](start_span)[span_41](end_span)."
+    },
+    {
+      "id": 53,
+      "enonce": "Qu'est-ce qu'une mémoire cache ?",
+      "options": [
+        "Une mémoire de masse de grande capacité placée sur le disque dur.",
+        "Une mémoire à accès aléatoire plus rapide, plus chère et plus petite, intégrée dans la même puce que le CPU.",
+        "Une zone de swap réservée sur le SSD par le système d'exploitation."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Une mémoire cache est une mémoire à accès aléatoire intégrée dans la même puce que le CPU, plus rapide, plus chère et plus petite que la RAM[span_42](start_span)[span_42](end_span)."
+    },
+    {
+      "id": 54,
+      "enonce": "Que se passe-t-il lorsque le CPU demande un mot qui ne se trouve pas dans le cache (cache miss) ?",
+      "options": [
+        "L'ordinateur plante instantanément.",
+        "Un bloc entier de mots adjacents englobant ce mot est chargé depuis la mémoire centrale vers le cache.",
+        "Le processeur réduit sa fréquence d'horloge de moitié."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Lors d'un cache miss, un bloc de mots adjacents auquel appartient le mot recherché est chargé dans le cache depuis la mémoire centrale[span_43](start_span)[span_43](end_span)."
+    },
+    {
+      "id": 55,
+      "enonce": "Quelles politiques de mise en cache (replacement policies) sont citées dans le cours lorsque le cache est plein ?",
+      "options": [
+        "Aléatoire, First In First Out (FIFO), Least Frequently Used (LRU)",
+        "QuickSort, MergeSort, BinarySearch",
+        "Round-Robin, Preemptive, Cooperative"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les politiques de mise en cache utilisées mentionnées sont : aléatoire, FIFO et LRU[span_44](start_span)[span_44](end_span)."
+    },
+    {
+      "id": 56,
+      "enonce": "Quelles politiques d'écriture (write policies) déterminent quand appliquer une modification du cache vers la mémoire centrale ?",
+      "options": [
+        "Lecture seule, écriture seule, écriture protégée",
+        "Pas d'écriture (no-write), écriture immédiate (write-through), écriture différée (write-back)",
+        "Compression synchrone ou asynchrone"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les politiques d'écriture sont : pas d'écriture, écriture immédiate (write-through) et écriture différée (write-back)[span_45](start_span)[span_45](end_span)."
+    },
+    {
+      "id": 57,
+      "enonce": "Comment sont organisés les différents niveaux de mémoire cache dans un processeur moderne multicœur ?",
+      "options": [
+        "Ils sont tous partagés uniformément sans distinction de cœur.",
+        "Il existe des caches L1 et L2 souvent propres à chaque cœur, et un cache L3 partagé entre les cœurs.",
+        "Ils sont situés à l'extérieur du processeur sur une barrette séparée."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les CPU modernes possèdent des caches de niveaux (L1, L2 par cœur et L3 partagé ou inter-cœurs)[span_46](start_span)[span_46](end_span)."
+    },
+    {
+      "id": 58,
+      "enonce": "Quel élément de la hiérarchie de mémoire présente le temps d'accès le plus rapide et le coût par Go le plus élevé ?",
+      "options": [
+        "La mémoire de masse (HDD / SSD)",
+        "La mémoire centrale (RAM)",
+        "Les registres du CPU"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Les registres du CPU ont la plus petite capacité, le temps d'accès le plus rapide (quelques ns) et le coût le plus élevé[span_47](start_span)[span_47](end_span)."
+    },
+    {
+      "id": 59,
+      "enonce": "Quels sont les principaux systèmes d'exploitation modernes cités dans le cours ?",
+      "options": [
+        "Microsoft Windows, macOS, Linux, iOS, Android",
+        "MS-DOS, Windows 95, OS/2, BeOS",
+        "BIOS, UEFI, GRUB, LILO"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les principaux OS modernes listés sont Microsoft Windows, macOS, Linux, iOS et Android[span_48](start_span)[span_48](end_span)."
+    },
+    {
+      "id": 60,
+      "enonce": "Quelles sont les fonctions principales assurées par un système d'exploitation ?",
+      "options": [
+        "Concevoir les circuits imprimés et souder les composants de la carte mère.",
+        "Fournir des abstractions, gérer les processus, gérer la mémoire, gérer le système de fichiers et contrôler les E/S.",
+        "Compiler automatiquement les codes sources en Python 3.14."
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'OS gère l'abstraction, les processus, la mémoire, le système de fichiers et les entrées/sorties[span_49](start_span)[span_49](end_span)."
+    },
+    {
+      "id": 61,
+      "enonce": "Qu'est-ce qu'une interface graphique (GUI) dans le contexte d'un système d'exploitation ?",
+      "options": [
+        "Une interface textuelle où l'on tape des lignes de commande dans un terminal.",
+        "Une interface où l'on interagit en cliquant sur des fenêtres et des icônes.",
+        "Un protocole de communication réseau entre machines virtuelles."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Dans une interface graphique (GUI), les utilisateurs interagissent en cliquant sur des fenêtres et des icônes[span_50](start_span)[span_50](end_span)."
+    },
+    {
+      "id": 62,
+      "enonce": "Comment appelle-t-on le programme textuel (terminal) qui interprète les commandes dans un système d'exploitation ?",
+      "options": [
+        "Un compilateur",
+        "Un shell",
+        "Un hyperviseur"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un ensemble donné de commandes textuelles est interprété par un programme appelé shell[span_51](start_span)[span_51](end_span)."
+    },
+    {
+      "id": 63,
+      "enonce": "Quels shells sont fournis par défaut ou couramment sous Windows ?",
+      "options": [
+        "Command Shell et PowerShell",
+        "Bash et Zsh",
+        "Fish et Csh"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Windows fournit deux shells : Command Shell et PowerShell[span_52](start_span)[span_52](end_span)."
+    },
+    {
+      "id": 64,
+      "enonce": "Qu'est-ce que le pseudo-parallélisme géré par le système d'exploitation ?",
+      "options": [
+        "Le fait d'avoir plusieurs processeurs physiques distincts sur la carte mère.",
+        "Le fait qu'un CPU unique exécute plusieurs processus en alternance rapide au cours d'une seconde.",
+        "Une illusion d'optique sur l'écran d'affichage."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Au cours d'une seconde, le CPU exécute plusieurs processus en alternance, ce qui est appelé pseudo-parallélisme[span_53](start_span)[span_53](end_span)."
+    },
+    {
+      "id": 65,
+      "enonce": "Quel composant logiciel du système d'exploitation détermine quel processus est exécuté par le CPU à tout moment ?",
+      "options": [
+        "Le compilateur",
+        "L'ordonnanceur (scheduler)",
+        "Le gestionnaire de cache"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le système d'exploitation détermine quel processus est exécuté via un composant logiciel appelé ordonnanceur (scheduler)[span_54](start_span)[span_54](end_span)."
+    },
+    {
+      "id": 66,
+      "enonce": "Qu'appelle-t-on commutation de contexte (context switch) ?",
+      "options": [
+        "Le passage de l'exécution d'un processus à un autre lorsque le quantum expire.",
+        "Le changement de langue dans l'interface utilisateur de l'OS.",
+        "Le transfert d'un fichier du disque vers la clé USB."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsque le quantum expire, un autre processus est sélectionné, ce qui correspond à une commutation de contexte (context switch)[span_55](start_span)[span_55](end_span)."
+    },
+    {
+      "id": 67,
+      "enonce": "Quelles sont les trois listes principales maintenues par l'ordonnanceur pour gérer l'état des processus ?",
+      "options": [
+        "Ouvert, Fermé, En pause",
+        "Prêts (ready), En exécution (running), En attente (blocked)",
+        "Statique, Dynamique, Volatile"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'ordonnanceur maintient trois listes : prêts (ready), en exécution (running) et en attente (blocked)[span_56](start_span)[span_56](end_span)."
+    },
+    {
+      "id": 68,
+      "enonce": "Dans quel état se trouve un processus qui attend qu'une ressource (comme des données du disque) devienne disponible ?",
+      "options": [
+        "Dans la liste des processus prêts (ready)",
+        "Dans la liste des processus en attente (blocked)",
+        "Dans la liste des processus terminés"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La liste en attente (blocked) contient tous les processus en attente qu'une ressource devienne disponible[span_57](start_span)[span_57](end_span)."
+    },
+    {
+      "id": 69,
+      "enonce": "Pourquoi les processus ne peuvent-ils pas se référer directement aux adresses mémoire physiques de la machine ?",
+      "options": [
+        "Parce que les adresses physiques changent constamment et que plusieurs processus doivent utiliser la mémoire de manière isolée.",
+        "Parce que le processeur interdit l'accès aux nombres pairs.",
+        "Parce que la RAM ne comprend que le langage d'assemblage."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les processus ne peuvent pas se référer directement aux adresses physiques car différents processus doivent utiliser différentes plages allouées par le gestionnaire de mémoire[span_58](start_span)[span_58](end_span)."
+    },
+    {
+      "id": 70,
+      "enonce": "Comment appelle-t-on la plage d'adresses (de 0 à N-1) attribuée par le système d'exploitation à un processus ?",
+      "options": [
+        "Un espace d'adressage virtuel",
+        "Un espace de stockage persistant",
+        "Un segment de registre physique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le système d'exploitation attribue à chaque processus une plage d'adresses appelée espace d'adressage virtuel[span_59](start_span)[span_59](end_span)."
+    },
+    {
+      "id": 71,
+      "enonce": "Comment l'espace d'adressage d'un processus est-il découpé pour être géré par la mémoire virtuelle ?",
+      "options": [
+        "En morceaux d'adresses contiguës appelés pages",
+        "En blocs rigides de taille fixe appelés secteurs magnétiques",
+        "En registres de 64 bits"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'espace d'adressage est divisé en morceaux d'adresses contiguës appelés pages[span_60](start_span)[span_60](end_span)."
+    },
+    {
+      "id": 72,
+      "enonce": "Quel composant du système d'exploitation fait correspondre chaque page virtuelle à un emplacement physique spécifique de la mémoire centrale ?",
+      "options": [
+        "Le compilateur JIT",
+        "Le gestionnaire de mémoire (memory manager)",
+        "Le pilote de la carte graphique"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le gestionnaire de mémoire met en correspondance chaque page à un emplacement physique spécifique de la mémoire centrale[span_61](start_span)[span_61](end_span)."
+    },
+    {
+      "id": 73,
+      "enonce": "Quel est l'avantage fondamental de la mémoire virtuelle avec pagination ?",
+      "options": [
+        "Elle permet d'exécuter des processus dont l'espace d'adressage total n'est pas entièrement chargé en mémoire centrale en même temps.",
+        "Elle élimine complètement le temps de latence du processeur.",
+        "Elle transforme la RAM volatile en mémoire de masse non volatile."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La mémoire virtuelle permet de ne charger les pages en mémoire centrale qu'uniquement lorsqu'elles sont nécessaires, optimisant l'utilisation de la RAM[span_62](start_span)[span_62](end_span)."
+    },
+    {
+      "id": 74,
+      "enonce": "Quel problème informatique majeur la virtualisation au niveau des entreprises cherche-t-elle à résoudre ?",
+      "options": [
+        "L'utilisation inefficace des ordinateurs lorsque chaque application nécessite un matériel dédié aux prérequis spécifiques.",
+        "La surchauffe des puces graphiques lors du rendu 3D.",
+        "Le manque de câbles Ethernet dans les salles de serveurs."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La virtualisation résout l'inefficacité d'utiliser des ordinateurs dédiés pour chaque application ayant des prérequis logiciels différents[span_63](start_span)[span_63](end_span)."
+    },
+    {
+      "id": 75,
+      "enonce": "Qu'est-ce qu'une machine virtuelle (Virtual Machine) via un hyperviseur de type 1 ?",
+      "options": [
+        "Un émulateur de jeu vidéo rétro pour console de salon.",
+        "Un environnement logiciel qui permet à un ordinateur d'exécuter plusieurs OS et composants logiciels isolés sur un même matériel.",
+        "Un disque dur externe connecté en USB-C."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Avec un hyperviseur de type 1, un ordinateur peut exécuter plusieurs machines virtuelles, chacune avec son propre OS et ses applications[span_64](start_span)[span_64](end_span)."
+    },
+    {
+      "id": 76,
+      "enonce": "Quelle est la différence conceptuelle majeure entre une machine virtuelle et un conteneur ?",
+      "options": [
+        "Un conteneur virtualise uniquement le niveau du système d'exploitation et partage l'OS hôte, tandis qu'une machine virtuelle embarque un OS complet.",
+        "Un conteneur ne fonctionne que sur architecture ARM.",
+        "Une machine virtuelle ne peut pas exécuter de programmes écrits en Python."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La conteneurisation au niveau de l'OS permet à plusieurs espaces isolés de tourner sans dupliquer un OS complet, contrairement aux machines virtuelles lourdes[span_65](start_span)[span_65](end_span)."
+    },
+    {
+      "id": 77,
+      "enonce": "Que signifient les acronymes IaaS, PaaS et SaaS dans le domaine du cloud computing ?",
+      "options": [
+        "Internet as a Service, Protocol as a Service, Storage as a Service",
+        "Infrastructure as a Service, Platform as a Service, Software as a Service",
+        "Index as a Service, Program as a Service, Session as a Service"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les trois catégories de services cloud sont l'infrastructure (IaaS), la plateforme (PaaS) et le logiciel (SaaS)[span_66](start_span)[span_66](end_span)."
+    },
+    {
+      "id": 78,
+      "enonce": "Quel est l'objectif pédagogique principal du TD 1 associé à ce cours ?",
+      "options": [
+        "Apprendre à souder des composants sur une carte mère.",
+        "Examiner les caractéristiques de son propre ordinateur et discuter d'une comparaison entre différents systèmes informatiques.",
+        "Écrire un compilateur complet en langage C."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Dans le TD 1, les étudiants apprennent à examiner les caractéristiques de leur ordinateur et à comparer différents systèmes[span_67](start_span)[span_67](end_span)."
+    },
+    {
+      "id": 79,
+      "enonce": "Quels auteurs sont référencés dans la bibliographie du cours pour l'organisation des ordinateurs et les systèmes d'exploitation ?",
+      "options": [
+        "Andrew S. Tanenbaum, Todd Austin, Herbert Bos, Jim Ledin, Dave Farley",
+        "Alan Turing, Ada Lovelace, John von Neumann",
+        "Guido van Rossum, Dennis Ritchie, Bjarne Stroustrup"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La bibliographie cite Andrew S. Tanenbaum, Todd Austin, Herbert Bos, Jim Ledin et Dave Farley[span_68](start_span)[span_68](end_span)."
+    },
+    {
+      "id": 80,
+      "enonce": "Comment se nomme le responsable de ce cours d'introduction à l'architecture et aux systèmes d'exploitation ?",
+      "options": [
+        "Gianluca Quercini",
+        "Andrew S. Tanenbaum",
+        "Dominique Marcadet"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le responsable du cours est Gianluca Quercini[span_69](start_span)[span_69](end_span)."
+    },
+    {
+      "id": 81,
+      "enonce": "Où est partagé tout le matériel pédagogique de ce cours (polycopiés, transparents, etc.) ?",
+      "options": [
+        "Sur la plateforme Edunao",
+        "Sur un dépôt public GitHub anonyme",
+        "Uniquement par clef USB distribuée en amphi"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Tout le matériel de cours est partagé sur la page du cours Edunao[span_70](start_span)[span_70](end_span)."
+    },
+    {
+      "id": 82,
+      "enonce": "Quel outil de gestion de version décentralisé est utilisé dans le cadre des enseignements pratiques ?",
+      "options": [
+        "Git",
+        "SVN",
+        "Mercurial"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Git est le logiciel de gestion de version décentralisé utilisé dans le cours[span_71](start_span)[span_71](end_span)."
+    },
+    {
+      "id": 83,
+      "enonce": "Quel logiciel de gestion de bases de données SQLite est demandé dans les installations du cours ?",
+      "options": [
+        "DB Browser for SQLite",
+        "phpMyAdmin",
+        "MongoDB Compass"
+      ],
+      "reponse_correcte": 0,
+      "explication": "DB Browser for SQLite est le logiciel de gestion de bases de données SQLite recommandé[span_72](start_span)[span_72](end_span)."
+    },
+    {
+      "id": 84,
+      "enonce": "Quelle est la conséquence d'une absence injustifiée à une séance de contrôle continu (QCM) ?",
+      "options": [
+        "Une note de 0 pour ce contrôle.",
+        "Un simple avertissement sans incidence sur la note finale.",
+        "L'interdiction de se présenter à l'examen final de code."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Toute absence injustifiée à un contrôle se traduit par une note de 0 pour ce contrôle[span_73](start_span)[span_73](end_span)."
+    },
+    {
+      "id": 85,
+      "enonce": "Quelle est l'autre partie enseignée dans le cours 'Systèmes d'information et programmation' en dehors de l'architecture des ordinateurs ?",
+      "options": [
+        "La programmation orientée objet en Python et les TD associés",
+        "La mécanique des fluides et la thermodynamique appliquée",
+        "L'électronique analogique et la théorie des signaux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La partie programmation comprend les TD sur systèmes d'exploitation, Git et shell, ainsi qu'un cours de POO en Python et des travaux dirigés[span_74](start_span)[span_74](end_span)."
+    },
+    {
+      "id": 86,
+      "enonce": "Quelle est la durée de l'examen final mentionnée dans l'organisation de l'évaluation ?",
+      "options": [
+        "1 heure 30 minutes",
+        "3 heures",
+        "45 minutes"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'examen final a une durée de 1h30 et consiste en une série d'exercices de code sur ordinateur[span_75](start_span)[span_75](end_span)."
+    },
+    {
+      "id": 87,
+      "enonce": "Sur quelle plateforme les QCMs de contrôle continu (15-20 minutes) sont-ils accessibles ?",
+      "options": [
+        "Evalmee",
+        "Moodle",
+        "Blackboard"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les QCMs de contrôle continu sont accessibles sur la plateforme Evalmee[span_76](start_span)[span_76](end_span)."
+    },
+    {
+      "id": 88,
+      "enonce": "Que contient un mot de mémoire centrale selon l'architecture Von Neumann présentée ?",
+      "options": [
+        "Soit des valeurs numériques, soit des instructions de programme",
+        "Uniquement des adresses physiques de disques durs",
+        "Exclusivement des pixels graphiques"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Chaque mot en mémoire centrale contient soit des valeurs, soit des instructions, basé sur l'architecture Von Neumann[span_77](start_span)[span_77](end_span)."
+    },
+    {
+      "id": 89,
+      "enonce": "Qu'est-ce que l'unité arithmétique et logique (UAL / ALU) effectue au sein du processeur ?",
+      "options": [
+        "Des opérations arithmétiques et logiques",
+        "La gestion de l'affichage de la souris sur l'écran",
+        "La traduction des pages de mémoire virtuelle"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'unité arithmétique et logique (UAL / ALU) effectue des opérations arithmétiques et logiques[span_78](start_span)[span_78](end_span)."
+    },
+    {
+      "id": 90,
+      "enonce": "Pourquoi dit-on que les mémoires cache sont plus onéreuses que la mémoire centrale (RAM) ?",
+      "options": [
+        "Parce qu'elles utilisent une technologie de RAM statique très rapide intégrée sur la puce du CPU.",
+        "Parce qu'elles sont fabriquées en verre saphir.",
+        "Parce qu'elles nécessitent un refroidissement à l'azote liquide obligatoire."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cache utilise de la RAM statique intégrée au processeur, ce qui le rend beaucoup plus rapide mais aussi beaucoup plus cher que la RAM dynamique centrale[span_79](start_span)[span_79](end_span)."
+    },
+    {
+      "id": 91,
+      "enonce": "Quel est le comportement d'un programme lorsqu'il applique la propriété de proximité temporelle ?",
+      "options": [
+        "Il passe environ 90 % de son temps d'exécution dans 10 % de son code.",
+        "Il s'exécute exactement en moins de 10 nanosecondes.",
+        "Il n'utilise jamais les mémoires cache du processeur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La proximité temporelle se traduit par le fait que les programmes passent 90 % de leur temps d'exécution dans 10 % du code (souvent les boucles)[span_80](start_span)[span_80](end_span)."
+    },
+    {
+      "id": 92,
+      "enonce": "Quelle est la nature de l'interface de communication proposée par le responsable du cours (Gianluca Quercini) sur Microsoft Teams ?",
+      "options": [
+        "Appels et chat en ligne",
+        "Uniquement des formulaires de contact par e-mail différé de 48h",
+        "Des permanences physiques obligatoires le dimanche"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le responsable du cours est disponible sur Microsoft Teams pour les appels et le chat en ligne[span_81](start_span)[span_81](end_span)."
+    },
+    {
+      "id": 93,
+      "enonce": "Quel type de mémoire représente le stockage non volatile à long terme géré génériquement sous le terme de 'disque' ?",
+      "options": [
+        "La mémoire de masse (mass storage)",
+        "La mémoire cache de niveau 1",
+        "Les registres généraux du CPU"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Par souci de simplicité, le cours utilise le terme générique disque pour désigner la mémoire de masse non volatile où les données sont stockées durablement[span_82](start_span)[span_82](end_span)."
+    },
+    {
+      "id": 94,
+      "enonce": "Dans l'architecture d'un CPU, que gèrent les modes d'adressage ?",
+      "options": [
+        "La manière dont les instructions identifient leurs opérandes.",
+        "L'acheminement des paquets de données sur le réseau Wi-Fi.",
+        "La disposition des icônes sur le bureau de l'ordinateur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les modes d'adressage définissent la manière dont les instructions du processeur identifient leurs opérandes[span_83](start_span)[span_83](end_span)."
+    },
+    {
+      "id": 95,
+      "enonce": "Quel éditeur de code source est recommandé et utilisé dans le cadre des TP de programmation de ce cours ?",
+      "options": [
+        "Visual Studio Code",
+        "Bloc-notes Windows",
+        "Microsoft Word"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Visual Studio Code est l'éditeur de code source recommandé dans le cours[span_84](start_span)[span_84](end_span)."
+    },
+    {
+      "id": 96,
+      "enonce": "Qu'est-ce qu'un système d'exploitation gère en lien direct avec les disques, claviers et écrans ?",
+      "options": [
+        "La gestion des entrées/sorties (E/S)",
+        "La compilation des programmes écrits en C",
+        "La mise à jour automatique du BIOS de la carte mère"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'une des fonctions de l'OS est la gestion des entrées/sorties pour contrôler les périphériques (disques, claviers, écrans)[span_85](start_span)[span_85](end_span)."
+    },
+    {
+      "id": 97,
+      "enonce": "Quel est le rôle du gestionnaire de fichiers (file system) au sein d'un système d'exploitation ?",
+      "options": [
+        "Fournir une abstraction simplifiée du stockage des données sur les supports.",
+        "Gérer l'ordonnancement des processus par tourniquet.",
+        "Traduire les adresses virtuelles en pages physiques de RAM."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le gestionnaire de système de fichiers (file system) fournit une abstraction simplifiée du stockage des données[span_86](start_span)[span_86](end_span)."
+    },
+    {
+      "id": 98,
+      "enonce": "Qu'indique l'abréviation UAL en architecture des ordinateurs ?",
+      "options": [
+        "Unité Arithmétique et Logique",
+        "Unité d'Alimentation Linéaire",
+        "Utilisateur d'Accès Local"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'UAL correspond à l'Unité Arithmétique et Logique (en anglais ALU, Arithmetic Logic Unit)[span_87](start_span)[span_87](end_span)."
+    },
+    {
+      "id": 99,
+      "enonce": "Quel est l'impact de la hiérarchie de mémoire sur les performances globales d'un système informatique ?",
+      "options": [
+        "Elle permet de concilier une grande capacité de stockage à bas coût avec des vitesses d'accès très élevées au plus près du processeur.",
+        "Elle oblige l'utilisateur à redémarrer l'ordinateur toutes les heures pour vider le cache.",
+        "Elle ralentit volontairement le processeur pour économiser de l'énergie."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La hiérarchie de mémoire combine la vitesse des registres et caches avec la grande capacité de la RAM et du stockage de masse pour optimiser les performances[span_88](start_span)[span_88](end_span)."
+    },
+    {
+      "id": 100,
+      "enonce": "Quelle est l'utilité globale de posséder une telle banque de QCM interactive pour votre portfolio ?",
+      "options": [
+        "Tester et valider ses connaissances de manière modulaire, autonome et interactive avant les contrôles continus et l'examen final.",
+        "Remplacer totalement la présence obligatoire aux séances de travaux dirigés.",
+        "Générer automatiquement des programmes en langage machine x86."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Avoir une banque de QCM modulaire permet d'ancrer les notions du cours, de réviser par chapitre et de suivre sa progression interactivement[span_89](start_span)[span_89](end_span)."
+    }
+  ]
+}

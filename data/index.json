@@ -1,0 +1,11 @@
+{
+  "matieres": [
+    {
+      "nom": "Informatique",
+      "dossier": "informatique",
+      "chapitres": [
+        { "titre": "Architecture des ordinateurs et SE", "fichier": "arch_os.json" }
+      ]
+    }
+  ]
+}

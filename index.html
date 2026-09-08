@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Banque de QCM - Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ma Banque de QCM</h1>
+        <p class="subtitle">Sélectionnez un cours et un chapitre pour commencer vos révisions.</p>
+        
+        <!-- Zone de sélection (Le Lanceur) -->
+        <div id="selector-section">
+            <h2>1. Choisir une matière et un chapitre</h2>
+            <div id="menu-container">Chargement des cours...</div>
+        </div>
+
+        <!-- Zone du Quiz (affichée dynamiquement) -->
+        <div id="quiz-section" style="display: none;">
+            <button class="btn-back" onclick="retourMenu()">← Retour au menu</button>
+            <h2 id="quiz-title"></h2>
+            <div id="questions-container"></div>
+            <button class="btn" id="submit-btn" onclick="validerQuiz()">Valider mes réponses</button>
+            <div id="results-container"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
