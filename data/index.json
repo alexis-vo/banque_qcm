@@ -4,7 +4,33 @@
       "nom": "Informatique",
       "dossier": "informatique",
       "chapitres": [
-        { "titre": "Architecture des ordinateurs et SE", "fichier": "arch_os.json" }
+        { "titre": "Architecture des ordinateurs et SE 1", "fichier": "arch_os_cm.json" },
+        { "titre": "Architecture des ordinateurs et SE 2", "fichier": "arch_os_td.json" },
+        { "titre": "Visual Studio Code", "fichier": "vsc.json" },
+        { "titre": "Réseaux 1", "fichier": "reseaux_cm.json" },
+        { "titre": "Réseaux 2", "fichier": "reseaux_td.json" },
+        { "titre": "Cybersécurité 1", "fichier": "cyber_cm.json" },
+        { "titre": "Cybersécurité 2", "fichier": "cyber_td.json" }
+      ]
+    },
+    {
+      "nom": "Mathématiques",
+      "dossier": "mathematiques",
+      "chapitres": [
+        { "titre": "...", "fichier": "..."},
+        { "titre": "...", "fichier": "..."},
+        { "titre": "...", "fichier": "..."},
+        { "titre": "...", "fichier": "..."}
+      ]
+    },
+    {
+      "nom": "Autres",
+      "dossier": "Autres",
+      "chapitres": [
+        { "titre": "...", "fichier": "..."},
+        { "titre": "...", "fichier": "..."},
+        { "titre": "...", "fichier": "..."},
+        { "titre": "...", "fichier": "..."}
       ]
     }
   ]

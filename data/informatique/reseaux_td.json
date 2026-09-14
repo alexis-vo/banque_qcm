@@ -1,0 +1,589 @@
+{
+  "titre_chapitre": "TD 3 : Réseaux — corrigé sous forme de QCM",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quelle interface de R1 est directement connectée au réseau où se trouvent les machines A et B ?",
+      "options": ["192.168.1.1", "192.168.2.1", "10.1.5.1"],
+      "reponse_correcte": 0,
+      "explication": "A (192.168.1.10) et B (192.168.1.11) sont sur le sous-réseau 192.168.1.0/24, connecté à R1 par l'interface 192.168.1.1."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle interface de R1 est directement connectée au réseau où se trouvent les machines C, D et E ?",
+      "options": ["192.168.2.1", "192.168.1.1", "10.1.5.1"],
+      "reponse_correcte": 0,
+      "explication": "C, D et E sont sur le sous-réseau 192.168.2.0/24, connecté à R1 par l'interface 192.168.2.1."
+    },
+    {
+      "id": 3,
+      "enonce": "Par quelle interface R1 relie-t-il R2 ?",
+      "options": ["10.1.5.1", "192.168.1.1", "192.168.2.1"],
+      "reponse_correcte": 0,
+      "explication": "R1 est relié à R2 par le lien point-à-point 10.1.5.0/30, avec l'interface 10.1.5.1 côté R1 (et 10.1.5.2 côté R2)."
+    },
+    {
+      "id": 4,
+      "enonce": "Quelle est la route par défaut (0.0.0.0/0) dans la table de routage de R1 ?",
+      "options": ["Via 10.1.5.2 (R2)", "Via 192.168.1.1", "Via 192.168.2.1"],
+      "reponse_correcte": 0,
+      "explication": "L'entrée n°10 de la table de R1 indique 0.0.0.0 0.0.0.0 avec passerelle 10.1.5.2, c'est-à-dire vers R2."
+    },
+    {
+      "id": 5,
+      "enonce": "Quel masque de sous-réseau est utilisé pour les liens point-à-point entre routeurs (par exemple 10.1.5.0, 10.1.2.0, etc.) ?",
+      "options": ["255.255.255.252 (/30)", "255.255.255.0 (/24)", "255.255.0.0 (/16)"],
+      "reponse_correcte": 0,
+      "explication": "Les liens entre routeurs utilisent un masque /30, adapté à une liaison point-à-point."
+    },
+    {
+      "id": 6,
+      "enonce": "Pourquoi un masque /30 est-il typiquement utilisé pour un lien point-à-point entre deux routeurs ?",
+      "options": [
+        "Parce qu'il ne fournit que deux adresses utilisables, ce qui suffit exactement pour les deux extrémités du lien.",
+        "Parce qu'il permet d'adresser jusqu'à 254 machines.",
+        "Parce qu'il correspond à la classe C historique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un /30 offre exactement deux adresses hôtes utilisables, ce qui correspond précisément aux deux interfaces d'un lien point-à-point."
+    },
+    {
+      "id": 7,
+      "enonce": "Selon la table de routage de R2, quelle est la passerelle utilisée pour atteindre le réseau 192.168.3.0/24 ?",
+      "options": ["10.1.2.2 (R3)", "10.1.3.2 (R4)", "10.1.5.1 (R1)"],
+      "reponse_correcte": 0,
+      "explication": "L'entrée 13 de la table de R2 route 192.168.3.0/24 (réseau de F) via 10.1.2.2, l'interface de R3."
+    },
+    {
+      "id": 8,
+      "enonce": "Selon la table de routage de R2, quelle est la passerelle utilisée pour atteindre le réseau 192.168.1.0/24 ?",
+      "options": ["10.1.5.1 (R1)", "10.1.3.2 (R4)", "10.1.2.2 (R3)"],
+      "reponse_correcte": 0,
+      "explication": "L'entrée 10 de la table de R2 pointe correctement vers R1 (10.1.5.1) pour le réseau 192.168.1.0/24, avec une métrique de 2."
+    },
+    {
+      "id": 9,
+      "enonce": "Selon la table de routage de R2, quelle passerelle est utilisée pour le réseau 192.168.4.0/24 (où se trouve G) ?",
+      "options": ["10.1.3.2 (R4)", "10.1.2.2 (R3)", "10.1.5.1 (R1)"],
+      "reponse_correcte": 0,
+      "explication": "L'entrée 12 de la table de R2 indique une route vers 192.168.4.0/24 via 10.1.3.2 (R4), avec une métrique de 3."
+    },
+    {
+      "id": 10,
+      "enonce": "Quelle passerelle la table de routage de R2 indique-t-elle pour atteindre le réseau 192.168.2.0/24 (où se trouvent C, D, E) ?",
+      "options": ["10.1.3.2 (R4)", "10.1.5.1 (R1)", "10.1.2.2 (R3)"],
+      "reponse_correcte": 0,
+      "explication": "C'est précisément l'erreur de configuration : l'entrée 11 pointe vers R4 (10.1.3.2) au lieu de R1 (10.1.5.1), alors que 192.168.2.0/24 est directement connecté à R1."
+    },
+    {
+      "id": 11,
+      "enonce": "Quelle est l'erreur de configuration identifiée dans le réseau du TD ?",
+      "options": [
+        "L'entrée de la table de R2 pour le réseau 192.168.2.0/24 pointe vers R4 au lieu de R1.",
+        "L'entrée de la table de R1 pour le réseau 192.168.1.0/24 est absente.",
+        "R3 n'a aucune route vers le réseau 192.168.4.0/24."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le réseau 192.168.2.0/24 est directement connecté à R1, tout comme 192.168.1.0/24 ; la table de R2 devrait donc router ce réseau via R1 (10.1.5.1), pas via R4."
+    },
+    {
+      "id": 12,
+      "enonce": "Comment corriger l'erreur de configuration identifiée sur R2 ?",
+      "options": [
+        "Remplacer la passerelle de l'entrée 192.168.2.0/24 par 10.1.5.1, via l'interface 10.1.5.2, comme pour l'entrée 192.168.1.0/24.",
+        "Supprimer purement et simplement l'entrée concernant 192.168.2.0/24.",
+        "Ajouter une route statique sur R4 vers 192.168.1.0/24."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La correction consiste à aligner l'entrée 192.168.2.0/24 sur celle de 192.168.1.0/24, en pointant vers R1 (gateway 10.1.5.1, interface 10.1.5.2)."
+    },
+    {
+      "id": 13,
+      "enonce": "D'après la table de routage de R3, quelle passerelle permet d'atteindre les réseaux 192.168.1.0/24 et 192.168.2.0/24 ?",
+      "options": ["10.1.2.1 (R2)", "10.1.1.2 (R5)", "192.168.3.1 (F)"],
+      "reponse_correcte": 0,
+      "explication": "R3 route correctement les deux réseaux situés derrière R1 via R2 (10.1.2.1), avec une métrique de 3."
+    },
+    {
+      "id": 14,
+      "enonce": "D'après la table de routage de R3, quelle passerelle permet d'atteindre le réseau 192.168.4.0/24 (où se trouve G) ?",
+      "options": ["10.1.1.2 (R5)", "10.1.2.1 (R2)", "192.168.3.1"],
+      "reponse_correcte": 0,
+      "explication": "R3 route le réseau 192.168.4.0/24 via R5 (10.1.1.2), avec une métrique de 2."
+    },
+    {
+      "id": 15,
+      "enonce": "D'après la table de routage de R4, quelle passerelle permet d'atteindre le réseau 192.168.1.0/24 ?",
+      "options": ["10.1.3.1 (R2)", "10.1.4.2 (R5)", "192.168.4.1"],
+      "reponse_correcte": 0,
+      "explication": "R4 route correctement le réseau 192.168.1.0/24 via R2 (10.1.3.1), avec une métrique de 3."
+    },
+    {
+      "id": 16,
+      "enonce": "D'après la table de routage de R4, quelle passerelle est indiquée pour le réseau 192.168.2.0/24 ?",
+      "options": ["10.1.4.2 (R5)", "10.1.3.1 (R2)", "192.168.4.1"],
+      "reponse_correcte": 0,
+      "explication": "De façon surprenante, l'entrée de R4 pour 192.168.2.0/24 pointe vers R5 (10.1.4.2), avec une métrique de 5, nettement plus élevée que celle vers R2."
+    },
+    {
+      "id": 17,
+      "enonce": "Quelle est la métrique la plus élevée observée dans la table de routage de R4, et pour quelle destination ?",
+      "options": [
+        "Métrique 5, pour le réseau 192.168.2.0/24.",
+        "Métrique 2, pour le réseau 192.168.4.0/24.",
+        "Métrique 3, pour le réseau 192.168.1.0/24."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La route vers 192.168.2.0/24 via R5 a la métrique la plus élevée (5) de toute la table de R4, traduisant un chemin indirect et peu satisfaisant."
+    },
+    {
+      "id": 18,
+      "enonce": "En suivant les tables de routage fournies, quel est le chemin aller emprunté par un ping de A vers G ?",
+      "options": [
+        "A → R1 → R2 → R4 → R5 → G",
+        "A → R1 → R2 → R3 → R5 → G",
+        "A → R1 → R3 → R5 → G"
+      ],
+      "reponse_correcte": 0,
+      "explication": "R1 envoie par défaut vers R2 ; R2 route 192.168.4.0/24 vers R4 (entrée 12) ; R4 route ce même réseau vers R5 (entrée 09) ; R5 délivre directement à G, qui lui est directement connecté."
+    },
+    {
+      "id": 19,
+      "enonce": "Le chemin retour d'un ping de G vers A est-il identique au chemin aller, en sens inverse ?",
+      "options": [
+        "Oui, car le réseau 192.168.1.0/24 n'est pas concerné par l'erreur de configuration de R2.",
+        "Non, car R1 n'a pas de route de retour vers G.",
+        "Non, car R3 n'a pas de route vers 192.168.1.0/24."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'erreur de configuration ne concerne que le réseau 192.168.2.0/24 ; le trafic vers/depuis 192.168.1.0/24 emprunte donc un chemin cohérent et symétrique via R4 et R2."
+    },
+    {
+      "id": 20,
+      "enonce": "Que se passe-t-il lorsqu'on tente un ping de G vers C (dans le réseau 192.168.2.0/24) ?",
+      "options": [
+        "Les paquets bouclent entre R2, R4, R5 (et R3) à cause de l'erreur de configuration, et n'atteignent jamais C.",
+        "Le ping fonctionne normalement, en suivant le même chemin que pour A.",
+        "Le paquet est immédiatement rejeté par R1."
+      ],
+      "reponse_correcte": 0,
+      "explication": "À cause de l'entrée erronée sur R2 (192.168.2.0/24 vers R4), combinée à l'entrée de R4 vers R5, les paquets destinés à C tournent en boucle entre les routeurs sans jamais atteindre leur destination."
+    },
+    {
+      "id": 21,
+      "enonce": "Pourquoi le ping de G vers C finit-il par échouer plutôt que de boucler indéfiniment ?",
+      "options": [
+        "Parce que le champ TTL (Time To Live) de l'en-tête IP est décrémenté à chaque saut, et le paquet est détruit lorsqu'il atteint zéro.",
+        "Parce que les routeurs détectent et corrigent automatiquement les boucles.",
+        "Parce que le protocole ICMP interdit les boucles réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le TTL limite le nombre de sauts qu'un paquet IP peut effectuer ; à zéro, le paquet est abandonné, ce qui empêche une boucle infinie mais empêche aussi le paquet d'atteindre C."
+    },
+    {
+      "id": 22,
+      "enonce": "Quel routeur constitue le point de passage unique entre le réseau de R1 (A, B, C, D, E) et le reste de la topologie (R3, R4, R5) ?",
+      "options": ["R2", "R3", "R4"],
+      "reponse_correcte": 0,
+      "explication": "R1 n'est relié qu'à R2 par le lien 10.1.5.0/30 ; tout le trafic entre le réseau de R1 et le reste de la topologie transite obligatoirement par R2."
+    },
+    {
+      "id": 23,
+      "enonce": "Quels routeurs forment un cycle dans la topologie du réseau étudié ?",
+      "options": [
+        "R2, R3, R5 et R4",
+        "R1, R2 et R3 uniquement",
+        "R3, R4 et R5 uniquement"
+      ],
+      "reponse_correcte": 0,
+      "explication": "R2 est relié à R3 et R4, qui sont eux-mêmes reliés à R5, formant un cycle R2-R3-R5-R4-R2."
+    },
+    {
+      "id": 24,
+      "enonce": "Le réseau où se trouve la machine G (192.168.4.0/24) est directement connecté à quel routeur ?",
+      "options": ["R5", "R4", "R3"],
+      "reponse_correcte": 0,
+      "explication": "D'après le schéma, l'interface 192.168.4.1 appartient à R5, directement relié à G."
+    },
+    {
+      "id": 25,
+      "enonce": "Quel équipement relie les machines A et B, ainsi que C, D et E, à R1 ?",
+      "options": [
+        "Un commutateur (switch)",
+        "Un routeur intermédiaire",
+        "Un point d'accès WiFi"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le schéma indique explicitement un switch entre R1 et les groupes de machines (A, B) et (C, D, E)."
+    },
+    {
+      "id": 26,
+      "enonce": "L'ordinateur local (192.168.0.2) veut envoyer un message à une machine externe (8.1.3.8). Quels protocoles sont impliqués au niveau local avant l'envoi effectif ?",
+      "options": [
+        "ARP (pour résoudre l'adresse MAC de la passerelle), IP et Ethernet.",
+        "Uniquement HTTP.",
+        "Uniquement DNS."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La machine locale doit résoudre l'adresse MAC de sa passerelle par ARP (la destination étant hors de son sous-réseau), puis encapsuler le paquet IP dans une trame Ethernet adressée à cette passerelle."
+    },
+    {
+      "id": 27,
+      "enonce": "Pourquoi la machine locale utilise-t-elle l'adresse MAC de la passerelle, et non celle du serveur distant 8.1.3.8, pour la trame Ethernet ?",
+      "options": [
+        "Parce que 8.1.3.8 n'est pas sur le même réseau local ; la trame doit d'abord atteindre la passerelle qui la relaiera.",
+        "Parce que l'adresse MAC du serveur distant est toujours inconnue et non résolvable.",
+        "Parce que l'adresse IP de destination n'est jamais utilisée au niveau local."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une trame Ethernet ne peut circuler que dans le réseau local ; la passerelle est donc la destination de la trame, même si l'adresse IP de destination reste celle du serveur distant."
+    },
+    {
+      "id": 28,
+      "enonce": "Dans la trame envoyée par l'ordinateur local à la passerelle, quelles adresses MAC apparaissent dans l'en-tête Ethernet ?",
+      "options": [
+        "MAC source = celle de l'ordinateur local, MAC destination = celle de la passerelle.",
+        "MAC source et destination sont toutes deux celles du serveur distant.",
+        "MAC source = passerelle, MAC destination = serveur distant."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La trame part de l'ordinateur local (6E:FF:FF:A2:AF:03) vers la passerelle (56:10:07:32:7F:13, adresse de son interface locale)."
+    },
+    {
+      "id": 29,
+      "enonce": "Dans l'en-tête IP de cette trame, quelles adresses apparaissent ?",
+      "options": [
+        "IP source = 192.168.0.2 (l'ordinateur local), IP destination = 8.1.3.8 (le serveur distant).",
+        "IP source et destination sont toutes deux celles de la passerelle.",
+        "IP source = passerelle, IP destination = ordinateur local."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Contrairement aux adresses MAC, qui changent à chaque saut, les adresses IP source et destination restent celles des machines qui communiquent réellement, tant qu'aucune traduction NAT n'a eu lieu."
+    },
+    {
+      "id": 30,
+      "enonce": "Si 8.1.3.8 est un serveur web et que l'ordinateur local demande la page « index.html », quels protocoles supplémentaires interviennent par rapport à la trame précédente ?",
+      "options": [
+        "TCP (établissement de connexion) et HTTP (requête GET).",
+        "UDP et DNS uniquement.",
+        "ARP uniquement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une requête web nécessite l'établissement d'une connexion TCP (généralement sur le port 80) puis l'envoi d'une requête HTTP GET pour récupérer la page demandée."
+    },
+    {
+      "id": 31,
+      "enonce": "Quelles modifications la passerelle doit-elle apporter à la trame avant de l'acheminer vers Internet ?",
+      "options": [
+        "Remplacer l'adresse IP source privée par son adresse IP publique (NAT), et changer les adresses MAC pour le prochain saut.",
+        "Ne rien modifier ; la trame est transmise telle quelle.",
+        "Remplacer uniquement l'adresse IP de destination."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La passerelle effectue une traduction d'adresse (NAT), remplaçant l'IP privée source par son IP publique, tout en mettant à jour les adresses MAC de la trame pour le saut suivant."
+    },
+    {
+      "id": 32,
+      "enonce": "Lorsque le serveur web répond, quelle adresse IP source figure dans les paquets qu'il envoie ?",
+      "options": [
+        "L'adresse IP du serveur (8.1.3.8).",
+        "L'adresse IP privée de l'ordinateur local (192.168.0.2).",
+        "L'adresse IP publique de la passerelle."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le serveur répond depuis sa propre adresse IP (8.1.3.8), à destination de l'adresse IP publique de la passerelle (87.52.7.5), seule adresse visible côté Internet."
+    },
+    {
+      "id": 33,
+      "enonce": "Quand la réponse du serveur atteint la passerelle, quelle modification celle-ci doit-elle apporter avant de la transmettre au réseau local ?",
+      "options": [
+        "Remplacer l'adresse IP de destination (l'IP publique de la passerelle) par l'adresse IP privée de l'ordinateur local d'origine.",
+        "Remplacer l'adresse IP source par celle du serveur web.",
+        "Ne rien modifier."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La passerelle inverse la traduction NAT effectuée à l'aller, en remplaçant sa propre IP publique (destination) par l'IP privée de la machine locale ayant initié la requête."
+    },
+    {
+      "id": 34,
+      "enonce": "Pourquoi est-il possible que deux ordinateurs de deux réseaux domestiques différents partagent la même adresse IP privée 192.168.0.2 ?",
+      "options": [
+        "Parce que les adresses IP privées ne sont uniques qu'au sein de leur propre réseau local, et ne sont jamais visibles telles quelles sur Internet grâce au NAT.",
+        "Parce que ces adresses sont automatiquement réattribuées chaque jour par l'IANA.",
+        "Parce que le protocole IP autorise les doublons d'adresses à l'échelle mondiale."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les adresses IP privées (RFC 1918) ne sont uniques qu'à l'intérieur de leur réseau local ; le NAT masque ces adresses derrière l'IP publique de la passerelle lors des échanges avec Internet."
+    },
+    {
+      "id": 35,
+      "enonce": "Dans un réseau local avec plusieurs ordinateurs partageant la même passerelle NAT, quel problème se pose si l'on se contente de remplacer l'IP locale par l'IP de la passerelle ?",
+      "options": [
+        "La passerelle ne sait plus à quelle machine locale transmettre la réponse reçue.",
+        "Les ordinateurs ne peuvent plus recevoir aucune adresse IP.",
+        "Le trafic sortant devient totalement impossible."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sans information supplémentaire, la passerelle ne peut pas déterminer quelle machine locale a émis la requête à l'origine d'une réponse donnée."
+    },
+    {
+      "id": 36,
+      "enonce": "Quelle solution basée sur les ports (NAPT / PAT) permet à la passerelle de résoudre ce problème ?",
+      "options": [
+        "Associer à chaque connexion sortante un port source unique côté passerelle, et conserver une table de correspondance (IP privée, port privé) ↔ (IP publique, port public).",
+        "Attribuer à chaque ordinateur local une adresse IP publique différente.",
+        "Interdire à plusieurs ordinateurs d'utiliser Internet simultanément."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La traduction de ports (PAT/NAPT) permet à la passerelle de maintenir une table de correspondance entre chaque connexion locale et un port public unique, afin de réacheminer correctement les réponses."
+    },
+    {
+      "id": 37,
+      "enonce": "Qu'est-ce qu'un pare-feu (firewall) ?",
+      "options": [
+        "Un dispositif qui contrôle le flux de données et filtre le trafic entrant et sortant d'un réseau.",
+        "Un serveur qui stocke des copies de pages web pour accélérer leur accès.",
+        "Un protocole qui traduit les noms de domaine en adresses IP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un pare-feu contrôle et filtre le trafic réseau selon des critères définis, isolant des zones de confiance différente."
+    },
+    {
+      "id": 38,
+      "enonce": "Selon quels critères un pare-feu peut-il filtrer le trafic ?",
+      "options": [
+        "L'origine/destination des paquets, le type de protocole (TCP/UDP) et les données elles-mêmes.",
+        "Uniquement la taille des paquets.",
+        "Uniquement l'heure de la journée."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le filtrage se fait notamment selon l'origine ou la destination des paquets, le protocole utilisé, et le contenu des données."
+    },
+    {
+      "id": 39,
+      "enonce": "Où se trouve typiquement le pare-feu dans le schéma d'un réseau domestique connecté à Internet ?",
+      "options": [
+        "Au niveau de la passerelle résidentielle.",
+        "Uniquement sur chaque ordinateur individuel.",
+        "Uniquement chez le fournisseur d'accès Internet."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le pare-feu est souvent associé à la passerelle résidentielle (qui contient aussi le NAT), protégeant les ordinateurs du réseau local."
+    },
+    {
+      "id": 40,
+      "enonce": "Comment est généralement configuré le pare-feu d'une passerelle résidentielle vis-à-vis du trafic entrant et sortant ?",
+      "options": [
+        "Il laisse passer tout le trafic sortant, mais bloque le trafic entrant sauf celui correspondant à une réponse à une requête initiée localement (via la table NAT).",
+        "Il bloque tout le trafic, entrant comme sortant, par défaut.",
+        "Il laisse passer tout le trafic entrant et sortant sans restriction."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le pare-feu résidentiel autorise le trafic sortant, mais coupe le trafic entrant non sollicité, sauf s'il correspond à une entrée de la table de traduction NAT."
+    },
+    {
+      "id": 41,
+      "enonce": "Qu'autorise le pare-feu situé au niveau du routeur de la ferme de serveurs web (Web Server Farm) dans l'exemple du cours ?",
+      "options": [
+        "Le trafic TCP entrant sur les ports 80 (HTTP) et 443 (HTTPS).",
+        "Tout le trafic entrant, quel que soit le port.",
+        "Uniquement le trafic UDP entrant."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Ce pare-feu laisse entrer les connexions TCP sur les ports 80 et 443, correspondant respectivement à HTTP et HTTPS."
+    },
+    {
+      "id": 42,
+      "enonce": "Qu'est-ce qu'un proxy ?",
+      "options": [
+        "Un serveur intermédiaire qui relaie les requêtes entre un client et d'autres serveurs.",
+        "Un protocole de chiffrement des échanges réseau.",
+        "Un type particulier d'adresse IP privée."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un proxy agit comme intermédiaire entre le client et le serveur final, pouvant filtrer, mettre en cache ou anonymiser les requêtes."
+    },
+    {
+      "id": 43,
+      "enonce": "Pourquoi un proxy est-il souvent utilisé en association avec un pare-feu ?",
+      "options": [
+        "Parce qu'il peut inspecter et filtrer le contenu au niveau applicatif, complétant le filtrage plus basique du pare-feu.",
+        "Parce qu'il remplace entièrement le besoin d'un pare-feu.",
+        "Parce qu'il attribue les adresses IP aux machines du réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Contrairement au pare-feu, qui filtre généralement jusqu'à la couche transport, le proxy peut inspecter le contenu applicatif (HTTP, par exemple) et offrir un filtrage plus fin, en plus d'autres fonctions comme la mise en cache."
+    },
+    {
+      "id": 44,
+      "enonce": "Qu'est-ce que le DNS (Domain Name System) ?",
+      "options": [
+        "Un système qui traduit les noms de domaine en adresses IP.",
+        "Un protocole qui traduit les adresses IP privées en adresses publiques.",
+        "Un mécanisme de chiffrement des pages web."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le DNS est une base de données hiérarchique et distribuée qui associe les noms de domaine (comme www.example.fr) à des adresses IP."
+    },
+    {
+      "id": 45,
+      "enonce": "Quel protocole de transport est principalement utilisé par le DNS pour ses requêtes ?",
+      "options": [
+        "UDP, sur le port 53.",
+        "TCP, sur le port 80.",
+        "ICMP, sans numéro de port."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le DNS utilise principalement UDP sur le port 53 pour ses requêtes/réponses, et TCP dans certains cas (réponses volumineuses, transferts de zone)."
+    },
+    {
+      "id": 46,
+      "enonce": "Lorsqu'un navigateur accède à http://www.example.fr/index.html, quelle est généralement la première étape réseau réalisée ?",
+      "options": [
+        "Une résolution DNS du nom de domaine www.example.fr en adresse IP.",
+        "L'établissement direct d'une connexion TCP avec l'adresse IP du domaine, sans résolution de nom.",
+        "L'envoi immédiat de la requête HTTP GET sans configuration préalable."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Avant de pouvoir établir une connexion TCP, le navigateur doit résoudre le nom de domaine en adresse IP via une requête DNS."
+    },
+    {
+      "id": 47,
+      "enonce": "Après la résolution DNS, quelle est l'étape suivante pour accéder à une page web via HTTP ?",
+      "options": [
+        "L'établissement d'une connexion TCP (généralement sur le port 80) avec le serveur, suivi d'une requête HTTP GET.",
+        "L'envoi direct d'une trame Ethernet contenant le code HTML.",
+        "Une nouvelle requête DNS pour vérifier l'adresse obtenue."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une fois l'adresse IP connue, une connexion TCP est établie avec le serveur, puis la requête HTTP GET est envoyée pour récupérer la ressource demandée."
+    },
+    {
+      "id": 48,
+      "enonce": "À quoi sert la commande ping ?",
+      "options": [
+        "À envoyer une requête à un serveur pour vérifier s'il est actif et mesurer le temps aller-retour (round-trip time).",
+        "À afficher les interfaces réseau disponibles sur la machine.",
+        "À afficher le chemin complet emprunté par les paquets jusqu'à un serveur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La commande ping envoie une requête ICMP Echo et mesure le temps de retour, permettant de savoir si un serveur est actif."
+    },
+    {
+      "id": 49,
+      "enonce": "Pourquoi certains serveurs ne répondent-ils pas à une requête ping, alors qu'ils sont bien actifs ?",
+      "options": [
+        "Pour des raisons de sécurité, certains serveurs sont configurés pour ignorer les requêtes ICMP Echo.",
+        "Parce que ping ne fonctionne que sur les réseaux locaux.",
+        "Parce que ces serveurs n'ont pas d'adresse IP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours indique explicitement que certains serveurs, pour des raisons de sécurité, ne répondent pas au ping, bien qu'ils soient actifs."
+    },
+    {
+      "id": 50,
+      "enonce": "Que signifie exactement le round-trip time mesuré par ping ?",
+      "options": [
+        "Le temps que met un message à arriver à destination et la réponse à revenir à la source.",
+        "Le temps nécessaire pour établir une connexion TCP complète.",
+        "Le temps de résolution DNS d'un nom de domaine."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le round-trip time correspond au temps aller-retour d'un message, de la source vers la destination puis retour."
+    },
+    {
+      "id": 51,
+      "enonce": "À quoi sert la commande traceroute (ou tracert sous Windows) ?",
+      "options": [
+        "À déterminer les points de passage (routeurs intermédiaires) d'un message envoyé entre la machine locale et un serveur.",
+        "À afficher uniquement l'adresse IP publique de la machine locale.",
+        "À bloquer le trafic entrant non sollicité."
+      ],
+      "reponse_correcte": 0,
+      "explication": "traceroute permet d'identifier la séquence des routeurs traversés par les paquets jusqu'à une destination donnée."
+    },
+    {
+      "id": 52,
+      "enonce": "Pourquoi certains routeurs intermédiaires n'apparaissent-ils pas ou ne répondent-ils pas dans un traceroute ?",
+      "options": [
+        "Parce que certains équipements sont configurés pour ne pas répondre aux messages utilisés par traceroute, par exemple pour des raisons de sécurité.",
+        "Parce que traceroute ne fonctionne qu'avec des adresses IPv6.",
+        "Parce que ces routeurs n'utilisent pas le protocole IP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Comme pour ping, certains équipements réseau intermédiaires sont configurés pour ne pas répondre à ce type de sondes, ce qui se traduit par des sauts « manquants » dans le résultat."
+    },
+    {
+      "id": 53,
+      "enonce": "Sous macOS, quelle commande permet d'afficher les interfaces réseau disponibles sur la machine ?",
+      "options": ["ifconfig", "ipconfig", "traceroute"],
+      "reponse_correcte": 0,
+      "explication": "Sous macOS, la commande ifconfig liste les interfaces réseau (dont les adresses IP associées) ; sous Windows, l'équivalent est ipconfig."
+    },
+    {
+      "id": 54,
+      "enonce": "À quoi correspondent les interfaces nommées loX (par exemple lo0) affichées par ifconfig/ipconfig ?",
+      "options": [
+        "À la boucle locale (loopback), notamment l'adresse 127.0.0.1.",
+        "À l'interface WiFi principale de la machine.",
+        "À l'interface reliée directement à la passerelle Internet."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les interfaces loX correspondent aux boucles locales (loopback), dont l'adresse bien connue est 127.0.0.1."
+    },
+    {
+      "id": 55,
+      "enonce": "Que permet d'observer Wireshark lors d'une capture réseau ?",
+      "options": [
+        "Les trames échangées, l'encapsulation des protocoles, l'ordre des requêtes et des mécanismes comme l'acquittement TCP.",
+        "Uniquement le contenu chiffré des communications HTTPS.",
+        "Uniquement les adresses IP, sans autre information."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Wireshark permet d'observer en détail les trames capturées, leur encapsulation en couches, ainsi que le déroulement des sessions (par exemple TCP avec ses accusés de réception)."
+    },
+    {
+      "id": 56,
+      "enonce": "Dans l'exercice du réseau domestique, à quelle adresse MAC correspond l'ordinateur local (192.168.0.2) ?",
+      "options": ["6E:FF:FF:A2:AF:03", "56:10:07:32:7F:13", "87.52.7.5"],
+      "reponse_correcte": 0,
+      "explication": "Le schéma associe l'adresse MAC 6E:FF:FF:A2:AF:03 à l'ordinateur local 192.168.0.2."
+    },
+    {
+      "id": 57,
+      "enonce": "Dans le même exercice, quelle est l'adresse MAC de l'interface locale de la passerelle (192.168.0.1) ?",
+      "options": ["56:10:07:32:7F:13", "6E:FF:FF:A2:AF:03", "92.5.2.1"],
+      "reponse_correcte": 0,
+      "explication": "L'interface locale de la passerelle (192.168.0.1) est associée à l'adresse MAC 56:10:07:32:7F:13."
+    },
+    {
+      "id": 58,
+      "enonce": "Quelle est l'adresse IP publique de la passerelle du réseau domestique 1, dans l'exemple du cours ?",
+      "options": ["87.52.7.5", "192.168.0.1", "8.1.3.8"],
+      "reponse_correcte": 0,
+      "explication": "La passerelle possède une adresse privée (192.168.0.1) côté réseau local et une adresse publique (87.52.7.5) côté Internet."
+    },
+    {
+      "id": 59,
+      "enonce": "Pourquoi deux réseaux domestiques différents (Home Network 1 et Home Network 2) peuvent-ils tous deux utiliser 192.168.0.1 pour leur passerelle ?",
+      "options": [
+        "Parce que les adresses privées ne sont uniques qu'au sein de leur propre réseau local, et le NAT les rend invisibles depuis Internet.",
+        "Parce que ces adresses sont réservées à un unique fournisseur d'accès.",
+        "Parce que le protocole DHCP interdit les doublons uniquement pour les adresses publiques."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Comme pour les hôtes, les adresses privées des passerelles ne sont uniques qu'à l'intérieur de leur réseau local respectif."
+    },
+    {
+      "id": 60,
+      "enonce": "Dans l'architecture combinant NAT, pare-feu, proxy et DNS pour accéder à http://www.example.fr/index.html, quel est l'ordre logique probable des étapes ?",
+      "options": [
+        "Résolution DNS → établissement de la connexion TCP (via NAT et pare-feu) → requête HTTP (éventuellement via un proxy) → réponse acheminée en sens inverse.",
+        "Requête HTTP → résolution DNS → connexion TCP.",
+        "Connexion TCP → requête HTTP → résolution DNS."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le nom de domaine doit d'abord être résolu en adresse IP par le DNS, avant que la connexion TCP (soumise au NAT et au pare-feu) puisse être établie et que la requête HTTP soit envoyée, éventuellement relayée par un proxy."
+    }
+  ]
+}

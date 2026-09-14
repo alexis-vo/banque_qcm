@@ -1,0 +1,225 @@
+{
+  "titre_chapitre": "TD 2 : Prise en main de Visual Studio Code et du débogage",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quelle combinaison de touches permet d'ouvrir la palette de commandes sous Windows dans Visual Studio Code (VSC) ?",
+      "options": [
+        "Ctrl + Maj + P",
+        "Ctrl + O",
+        "Alt + F4"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sous Windows, la palette de commandes s'ouvre en appuyant simultanément sur les touches Ctrl + Maj + P[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Quel bouton de la barre d'activité de VSC permet d'accéder au panneau Explorateur pour voir les fichiers d'un dossier ouvert ?",
+      "options": [
+        "Le bouton Explorateur (Explorer)",
+        "Le bouton Recherche (Search)",
+        "Le bouton Extensions"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bouton Explorateur dans la barre d'activité donne accès au panneau Explorateur où apparaissent les fichiers[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "Comment appelle-t-on un fichier source Python s'il peut être exécuté directement ?",
+      "options": [
+        "Un script",
+        "Un module",
+        "Un paquet"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un fichier source est appelé un script s'il peut être exécuté directement[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "Qu'est-ce qu'un module Python par définition dans le cours ?",
+      "options": [
+        "Un fichier contenant la définition de variables et l'implémentation de fonctions pouvant être importées dans d'autres fichiers",
+        "Un dossier compressé contenant l'intégralité du système d'exploitation",
+        "Un outil graphique de compilation binaire"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un module est un fichier contenant des variables et des fonctions pouvant être importées dans d'autres sources[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Quel gestionnaire de paquets est inclus par défaut dans l'installation standard de Python pour télécharger et installer des modules supplémentaires ?",
+      "options": [
+        "pip",
+        "git",
+        "pylint"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'installation comprend un gestionnaire de paquets appelé pip pour installer des paquets supplémentaires[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 6,
+      "enonce": "Dans le schéma de gestion sémantique des versions (X.Y.Z), que représente le numéro Y ?",
+      "options": [
+        "Le numéro de version mineure, lorsqu'une nouvelle fonctionnalité rétro-compatible est ajoutée",
+        "Le numéro de version majeure, pour les changements non rétro-compatibles",
+        "Le numéro de correctif (patch) pour les bugs"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Y correspond au numéro de version mineure, incrémenté lorsqu'une nouvelle fonctionnalité rétro-compatible est ajoutée[span_5](start_span)[span_5](end_span)."
+    },
+    {
+      "id": 7,
+      "enonce": "Quelle est la bonne pratique recommandée pour éviter d'encombrer l'environnement Python global avec des paquets spécifiques à un projet ?",
+      "options": [
+        "Créer un environnement Python virtuel (venv) dédié pour chaque projet",
+        "Désinstaller complètement Python après chaque utilisation",
+        "Modifier directement les sources de la bibliothèque standard"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Créer un environnement virtuel (venv) pour chaque projet permet d'isoler les dépendances sans altérer l'environnement global[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelle commande permet de créer un environnement virtuel nommé venv dans le dossier courant ?",
+      "options": [
+        "python -m venv venv (ou python3 -m venv venv)",
+        "pip install venv",
+        "git init venv"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La commande appelle le module venv via python -m venv venv pour créer le dossier de l'environnement virtuel[span_7](start_span)[span_7](end_span)."
+    },
+    {
+      "id": 9,
+      "enonce": "Quelle commande permet de désactiver un environnement virtuel actif dans le terminal ?",
+      "options": [
+        "deactivate",
+        "exit_venv",
+        "stop"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Taper la commande deactivate dans le terminal permet de quitter l'environnement virtuel[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 10,
+      "enonce": "Qu'est-ce qu'un point d'arrêt (breakpoint) dans un débogueur ?",
+      "options": [
+        "Un pointeur vers une instruction d'un programme où le débogueur met en pause l'exécution",
+        "Un signal d'erreur critique qui arrête définitivement l'ordinateur",
+        "Un commentaire masqué dans le code source Python"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un point d'arrêt pointe vers une instruction où le débogueur met en pause l'exécution pour inspecter les variables[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 11,
+      "enonce": "Quel bouton de la barre d'outils du débogueur permet de poursuivre l'exécution jusqu'au prochain point d'arrêt ou la fin du programme ?",
+      "options": [
+        "Continuer / Pause",
+        "Pas à pas principal (Step Over)",
+        "Redémarrer (Restart)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bouton Continuer/Pause permet de laisser s'exécuter le programme jusqu'au prochain point d'arrêt[span_10](start_span)[span_10](end_span)."
+    },
+    {
+      "id": 12,
+      "enonce": "Quelle est la différence entre le bouton 'Pas à pas principal' (Step Over) et 'Pas à pas détaillé' (Step Into) ?",
+      "options": [
+        "Step Over exécute la ligne courante sans entrer dans les fonctions appelées, tandis que Step Into entre à l'intérieur de la fonction appelée.",
+        "Step Over arrête le programme, tandis que Step Into le redémarre.",
+        "Il n'y a aucune différence technique entre les deux boutons."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Step Over passe par-dessus les appels de fonctions, alors que Step Into entre dans le détail de l'implémentation de la fonction[span_11](start_span)[span_11](end_span)."
+    },
+    {
+      "id": 13,
+      "enonce": "À quoi sert le panneau Espion (Watch) dans le débogueur de VSC ?",
+      "options": [
+        "À ajouter des expressions personnalisées pour suivre l'évolution de leurs valeurs pendant le débogage",
+        "À afficher la liste de tous les virus détectés par l'antivirus",
+        "À compiler le code source en langage machine"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le panneau Espion permet d'ajouter des expressions spécifiques à surveiller lors de l'exécution du code[span_12](start_span)[span_12](end_span)."
+    },
+    {
+      "id": 14,
+      "enonce": "Qu'est-ce qu'un point de journalisation (logpoint) dans VSC ?",
+      "options": [
+        "Un point qui affiche un message personnalisé dans la console de débogage sans mettre en pause l'exécution du programme",
+        "Un journal système enregistrant les pannes de courant de la carte mère",
+        "Un fichier texte répertoriant les mots de passe saisis"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un point de journalisation sert à afficher un message avec des variables sans interrompre l'exécution[span_13](start_span)[span_13](end_span)."
+    },
+    {
+      "id": 15,
+      "enonce": "Qu'est-ce qu'un linter comme Pylint, qui génère des soulignements ondulés dans VSC ?",
+      "options": [
+        "Un programme qui analyse statiquement le code source pour mettre en évidence des constructions problématiques sans l'exécuter",
+        "Un moteur de rendu graphique 3D pour interfaces utilisateur",
+        "Un outil de formatage automatique des disques durs"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un linter lit et analyse le code source (analyse statique) pour détecter des erreurs potentielles sans exécuter le programme[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 16,
+      "enonce": "Que désigne le terme 'docstring' en Python, souvent vérifié par les linters ?",
+      "options": [
+        "Une chaîne de caractères placée au début d'un module, d'une classe ou d'une fonction pour documenter son code",
+        "Une extension de fichier pour les documents Word",
+        "Un type de données réservé aux nombres décimaux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une docstring est une chaîne de caractères utilisée comme commentaire pour documenter un segment de code[span_15](start_span)[span_15](end_span)."
+    },
+    {
+      "id": 17,
+      "enonce": "Comment accède-t-on aux arguments passés en ligne de commande à un script Python dans le code ?",
+      "options": [
+        "Via la variable sys.argv du module sys",
+        "Via la variable globale args.input",
+        "Via la fonction input() interactive"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les arguments de la ligne de commande sont accessibles via sys.argv sous forme d'une liste de chaînes de caractères[span_16](start_span)[span_16](end_span)."
+    },
+    {
+      "id": 18,
+      "enonce": "Que contient l'élément sys.argv[0] dans un script Python exécuté avec des arguments ?",
+      "options": [
+        "Le nom du script en cours d'exécution",
+        "Le premier argument transmis par l'utilisateur",
+        "Le chemin complet de l'interpréteur Python global"
+      ],
+      "reponse_correcte": 0,
+      "explication": "sys.argv[0] correspond toujours au nom du script exécuté[span_17](start_span)[span_17](end_span)."
+    },
+    {
+      "id": 19,
+      "enonce": "Quelle est l'origine historique du nom 'Lint' pour les analyseurs de code, remontant à 1978 avec Stephen C. Johnson ?",
+      "options": [
+        "Il a été nommé d'après les peluches (lint) qui se forment sur un pull-over sorti de la machine à laver",
+        "C'est l'acronyme de Logical Interpreter Network Tool",
+        "C'est le nom du premier microprocesseur d'Intel"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le nom provient des peluches de pull-over (lint) récoltées à la sortie de la machine à laver, symbolisant la chasse aux petits résidus indésirables[span_18](start_span)[span_18](end_span)."
+    },
+    {
+      "id": 20,
+      "enonce": "Où est stocké par défaut le fichier de configuration launch.json créé pour le débogueur dans un projet VSC ?",
+      "options": [
+        "Dans le sous-dossier .vscode du projet",
+        "À la racine du disque dur principal C:\\",
+        "Dans le dossier temporaire du système d'exploitation"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le fichier de configuration launch.json est stocké dans le dossier .vscode du projet[span_19](start_span)[span_19](end_span)."
+    }
+  ]
+}

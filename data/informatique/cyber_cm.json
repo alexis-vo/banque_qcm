@@ -1,0 +1,280 @@
+{
+  "titre_chapitre": "Cybersécurité",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Comment la cybersécurité est-elle définie dans le cours ?",
+      "options": [
+        "L'ensemble des mesures prises pour protéger un système informatique contre les accès non autorisés ou les attaques.",
+        "Un protocole exclusif de chiffrement des routeurs Wi-Fi.",
+        "Une méthode de développement logiciel agile sans faille."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La cybersécurité est l'ensemble des mesures prises pour protéger un système informatique contre les accès non autorisés ou les attaques[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Que recouvre la sécurité de l'information ?",
+      "options": [
+        "Protéger l'intégrité et la non-divulgation des données, qu'elles soient stockées ou transmises.",
+        "Empêcher physiquement le vol des ordinateurs portables dans les salles de cours.",
+        "Gérer uniquement les licences des applications bureautiques."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La sécurité de l'information consiste à protéger l'intégrité et la non-divulgation des données, quand elles sont stockées ou transmises via un lien de communication[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "Qu'est-ce qu'un logiciel malveillant (malware) ?",
+      "options": [
+        "Un programme qui vise à nuire à un système informatique ou à ses utilisateurs.",
+        "Un système d'exploitation obsolète présentant des bugs de lenteur.",
+        "Un outil de diagnostic pour tester la vitesse de la mémoire RAM."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un logiciel malveillant (malware) est un programme qui vise à nuire à un système informatique ou à ses utilisateurs[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "Qu'est-ce qu'un cheval de Troie (Trojan) ?",
+      "options": [
+        "Un programme qui se présente comme légitime alors qu'il inclut une partie malveillante.",
+        "Un ver informatique autonome qui se propage sans intervention humaine.",
+        "Une clé USB cryptée contenant des correctifs de sécurité."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un cheval de Troie est un programme qui se présente comme légitime alors qu'il inclut une partie malveillante, s'appuyant sur l'ingénierie sociale[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Sur quoi s'appuient principalement les chevaux de Troie pour s'installer ?",
+      "options": [
+        "Les erreurs humaines et la crédulité (ingénierie sociale).",
+        "Des failles de pile dans le noyau du système d'exploitation.",
+        "Des faiblesses mathématiques dans les fonctions de hachage MD5."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les chevaux de Troie n'utilisent pas de vulnérabilités pour s'installer ; ils s'appuient sur les erreurs humaines et la crédulité[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 6,
+      "enonce": "Quelle est la principale caractéristique d'un virus informatique ?",
+      "options": [
+        "Il est caché à l'intérieur d'un autre programme hôte et s'auto-réplique.",
+        "Il fonctionne de manière totalement autonome sans aucun fichier hôte.",
+        "Il sert exclusivement à chiffrer les disques durs contre rançon."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un virus est un logiciel malveillant qui est caché à l'intérieur d'un autre programme (hôte) et qui s'auto-réplique d'un ordinateur à l'autre[span_5](start_span)[span_5](end_span)."
+    },
+    {
+      "id": 7,
+      "enonce": "En quoi un ver (worm) se distingue-t-il d'un virus classique ?",
+      "options": [
+        "C'est un programme autonome qui ne nécessite pas de se cacher dans une application hôte ni d'action de l'utilisateur pour se répliquer.",
+        "Il ne peut infecter que les systèmes d'exploitation mobiles.",
+        "Il est inoffensif et sert uniquement à mesurer le trafic réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un ver est un programme autonome qui se réplique et infecte le système sans action de l'utilisateur, combinant les aspects d'un cheval de Troie et d'un virus[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 8,
+      "enonce": "Qu'est-ce qu'un rançongiciel (ransomware) ?",
+      "options": [
+        "Un logiciel malveillant qui chiffre les données de la victime et demande le paiement d'une rançon pour les rendre lisibles.",
+        "Un programme espion qui enregistre discrètement les frappes au clavier.",
+        "Un pare-feu payant bloquant les connexions non sécurisées."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un rançongiciel est un logiciel malveillant qui chiffre les données de la victime et demande le paiement d'une rançon pour les rendre de nouveau lisibles[span_7](start_span)[span_7](end_span)."
+    },
+    {
+      "id": 9,
+      "enonce": "Que désigne-t-on par le terme 'script kiddie' en cybersécurité ?",
+      "options": [
+        "Un attaquant non expérimenté qui utilise des outils existants sans les comprendre.",
+        "Un développeur professionnel rédigeant des scripts de sécurité en Python.",
+        "Un auditeur spécialisé dans les tests de pénétration bancaires."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les attaquants non expérimentés qui utilisent des outils sans les comprendre sont appelés des script kiddies[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 10,
+      "enonce": "Quels sont les trois piliers composant les politiques de cybersécurité sous l'appellation CID (ou CIA) ?",
+      "options": [
+        "Confidentialité, Intégrité, Disponibilité",
+        "Compilation, Interprétation, Débogage",
+        "Contrôle, Isolation, Distribution"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les politiques de cybersécurité sont centrées autour des propriétés CID (Confidentialité, Intégrité, Disponibilité)[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 11,
+      "enonce": "Quel type d'attaque vise spécifiquement à compromettre la disponibilité des services (la lettre 'D' du modèle CID) ?",
+      "options": [
+        "Une attaque en déni de service (Denial of Service, DoS)",
+        "Une attaque par écoute illicite (sniffing)",
+        "Une modification non autorisée de la base de hachage"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une attaque en déni de service (Denial of Service, DoS) vise à compromettre la disponibilité des services[span_10](start_span)[span_10](end_span)."
+    },
+    {
+      "id": 12,
+      "enonce": "Quel est le principe du privilège minimum en matière de contrôle d'accès ?",
+      "options": [
+        "Ne donner aux utilisateurs que les droits stricts dont ils ont besoin pour accomplir leurs tâches.",
+        "Donner les privilèges administrateur à tous les collaborateurs pour éviter les blocages.",
+        "Supprimer complètement les mots de passe pour simplifier la connexion."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le principe du privilège minimum consiste à ne donner aux utilisateurs que les droits dont ils ont besoin[span_11](start_span)[span_11](end_span)."
+    },
+    {
+      "id": 13,
+      "enonce": "Quelle est la différence entre l'identification et l'authentification ?",
+      "options": [
+        "L'identification consiste à demander à l'utilisateur de se nommer, tandis que l'authentification consiste à vérifier son identité.",
+        "L'identification chiffre les données, tandis que l'authentification gère les droits sur les fichiers.",
+        "Il s'exactement de la même notion technique sans aucune distinction."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'identification demande à l'utilisateur de s'identifier, et l'authentification vérifie cette identité[span_12](start_span)[span_12](end_span)."
+    },
+    {
+      "id": 14,
+      "enonce": "Comment un système d'authentification stocke-t-il généralement les mots de passe de manière sécurisée ?",
+      "options": [
+        "Sous forme de hachés (hashes) calculés via une fonction de hachage cryptographique à sens unique.",
+        "En texte clair dans un fichier de configuration accessible à tous.",
+        "En clair dans un tableau croisé dynamique chiffré par clé symétrique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le système applique une fonction de hachage cryptographique au mot de passe et stocke uniquement le résultat hashé[span_13](start_span)[span_13](end_span)."
+    },
+    {
+      "id": 15,
+      "enonce": "Qu'est-ce qu'une fonction de hachage cryptographique ?",
+      "options": [
+        "Une fonction déterministe à sens unique qui transforme des données de longueur variable en un tableau de bits de taille fixe.",
+        "Un algorithme réversible permettant de retrouver le mot de passe original à partir du hash.",
+        "Un protocole d'échange de clés publiques entre deux entités distantes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une fonction de hachage cryptographique transforme des données de longueur variable en un tableau de bits de taille fixe de manière déterministe et à sens unique[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 16,
+      "enonce": "Parmi les fonctions suivantes, lesquelles sont citées comme des exemples de hachage ou de familles de hachage dans le cours ?",
+      "options": [
+        "MD5, SHA-1, SHA-256",
+        "AES-128, RSA, Diffie-Hellman",
+        "HTTP, FTP, SSH"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les exemples de fonctions de hachage incluent MD5, SHA1 et SHA256[span_15](start_span)[span_15](end_span)."
+    },
+    {
+      "id": 17,
+      "enonce": "Quel est le principe d'une attaque par force brute contre un système de mots de passe ?",
+      "options": [
+        "Essayer un très grand nombre de combinaisons de caractères ou de mots de passe connus jusqu'à trouver le bon.",
+        "Intercepter les ondes électromagnétiques du clavier de l'utilisateur.",
+        "Modifier directement la table des utilisateurs dans la base de données sans authentification."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une attaque par force brute essaie un très grand nombre de mots de passe (combinaisons ou mots connus)[span_16](start_span)[span_16](end_span)."
+    },
+    {
+      "id": 18,
+      "enonce": "Comment les systèmes de fichiers de type Unix (Linux, macOS) représentent-ils les droits d'accès aux fichiers pour le propriétaire, le groupe et les autres ?",
+      "options": [
+        "À l'aide de triplets de lettres r (Read), w (Write) et x (execute).",
+        "À l'aide d'un niveau de sécurité chiffré en SHA-3.",
+        "À l'aide d'une liste de contrôle d'accès basée sur les adresses IP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sous Unix, les droits sont représentés par les permissions de lecture (r), d'écriture (w) et d'exécution (x) pour le propriétaire, le groupe et les autres[span_17](start_span)[span_17](end_span)."
+    },
+    {
+      "id": 19,
+      "enonce": "Dans un système de chiffrement symétrique, qu'utilisent Alice et Bob pour chiffrer et déchiffrer les messages ?",
+      "options": [
+        "La même clé secrète partagée.",
+        "Une clé publique pour l'expéditeur et une clé privée pour le destinataire.",
+        "Un certificat numérique délivré par une autorité externe obligatoire."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le chiffrement symétrique, Bob et Alice partagent la même clé utilisée à la fois pour le chiffrement et le déchiffrement[span_18](start_span)[span_18](end_span)."
+    },
+    {
+      "id": 20,
+      "enonce": "Quelle est la principale faiblesse du chiffrement symétrique ?",
+      "options": [
+        "Le problème du partage initial de la clé secrète de manière sûre si les parties ne peuvent se rencontrer physiquement.",
+        "La lenteur extrême du calcul mathématique par rapport au chiffrement asymétrique.",
+        "L'impossibilité totale d'utiliser des blocs de données de taille fixe."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Alice et Bob n'ont aucun moyen sûr de se mettre d'accord sur une clé partagée s'ils ne peuvent pas se rencontrer physiquement[span_19](start_span)[span_19](end_span)."
+    },
+    {
+      "id": 21,
+      "enonce": "En quelle année l'algorithme d'échange de clés permettant de se mettre d'accord sur une clé secrète sans l'échanger a-t-il été décrit par Diffie et Hellman ?",
+      "options": [
+        "1976",
+        "1988",
+        "2004"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1976, Diffie et Hellman ont décrit un algorithme permettant à Bob et Alice de trouver une clé secrète commune sans qu'elle ne soit échangée[span_20](start_span)[span_20](end_span)."
+    },
+    {
+      "id": 22,
+      "enonce": "Dans le chiffrement par clé publique, comment procède-t-on pour assurer la confidentialité ?",
+      "options": [
+        "L'expéditeur chiffre le message avec la clé publique du destinataire, qui le déchiffre ensuite avec sa propre clé privée.",
+        "L'expéditeur utilise sa clé privée pour chiffrer, et tout le monde utilise sa clé publique pour lire.",
+        "Les deux utilisateurs échangent une clé symétrique temporaire via un canal non sécurisé."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Alice chiffre le message en clair avec la clé publique de Bob, et Bob déchiffre le message chiffré avec sa clé privée[span_21](start_span)[span_21](end_span)."
+    },
+    {
+      "id": 23,
+      "enonce": "À quoi servent principalement les signatures numériques ?",
+      "options": [
+        "À garantir l'authenticité de l'expéditeur et l'intégrité du message transmis.",
+        "À compresser les fichiers volumineux avant leur envoi sur le réseau.",
+        "À masquer l'adresse IP source de l'ordinateur attaquant."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les signatures numériques permettent de s'assurer de l'identité de l'expéditeur et de l'intégrité du document, en combinant clé publique et hachage[span_22](start_span)[span_22](end_span)."
+    },
+    {
+      "id": 24,
+      "enonce": "Quel organisme ou entité certifie qu'une clé publique appartient bien à la personne prétendue ?",
+      "options": [
+        "Une autorité de certification (Certification Authority, CA)",
+        "Le fournisseur d'accès à Internet local (FAI)",
+        "L'éditeur du navigateur web par défaut"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une autorité de certification (CA) est un tiers de confiance permettant de certifier qu'une clé publique appartient bien à une entité donnée[span_23](start_span)[span_23](end_span)."
+    },
+    {
+      "id": 25,
+      "enonce": "Quel incident de cybersécurité a touché l'université Paris-Saclay en août 2024 ?",
+      "options": [
+        "Une cyberattaque par rançongiciel",
+        "Une attaque en déni de service de niveau 7 de 46 millions de requêtes",
+        "Une fuite de numéros de téléphone due à une base de données non protégée"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'université Paris-Saclay a été victime d'une cyberattaque par rançongiciel en août 2024[span_24](start_span)[span_24](end_span)."
+    }
+  ]
+}

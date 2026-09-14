@@ -1,0 +1,225 @@
+{
+  "titre_chapitre": "TD 1 : Comparaison d'ordinateurs et de composants matériels",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quel ordinateur décrit dans le TD 1 est qualifié de portable léger adapté à une utilisation personnelle et/ou bureautique ?",
+      "options": [
+        "Dell Latitude 3440",
+        "Dell Precision Mobile 7780",
+        "Dell Precision 7960"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Dell Latitude 3440 est présenté comme un ordinateur portable léger adapté à une utilisation personnelle et/ou bureautique[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Quel est le prix et le poids de la station de travail portable Dell Precision Mobile 7780 ?",
+      "options": [
+        "4 600 € et 2.5 kg",
+        "900 € et 1.5 kg",
+        "32 100 € et un poids non précisé"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Dell Precision Mobile 7780 coûte 4 600 € et pèse 2.5 kg[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "Quel processeur équipe la station de travail Dell Precision 7960 ?",
+      "options": [
+        "Intel Xeon w9-3495X",
+        "Intel Core i9-13950HX",
+        "Intel Core i5-1335U"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Dell Precision 7960 est équipé d'un processeur Intel Xeon w9-3495X[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "Quel type de stockage est configuré sur le serveur Dell Precision 7960 ?",
+      "options": [
+        "Un RAID 5 avec 4 SSD de 4 To",
+        "Un unique SSD de 256 Go",
+        "Un SSD de 1 To"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le stockage de la station Precision 7960 utilise un RAID 5 composé de 4 SSD de 4 To[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Combien de cœurs possède le processeur Intel Core i5-1335U selon le tableau comparatif des CPU ?",
+      "options": [
+        "2 + 8 cœurs",
+        "8 + 16 cœurs",
+        "56 cœurs"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'Intel Core i5-1335U possède 2 + 8 cœurs[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 6,
+      "enonce": "Quelle est la fréquence turbo maximale du processeur Intel Core i9-13950HX ?",
+      "options": [
+        "5.50 GHz",
+        "4.60 GHz",
+        "4.80 GHz"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La fréquence turbo de l'Intel Core i9-13950HX est de 5.50 GHz[span_5](start_span)[span_5](end_span)."
+    },
+    {
+      "id": 7,
+      "enonce": "Quelle est la taille de la mémoire cache du processeur Intel Xeon w9-3495X ?",
+      "options": [
+        "105 MB",
+        "36 MB",
+        "12 MB"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le processeur Intel Xeon w9-3495X dispose d'une mémoire cache de 105 MB[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelle est la puissance (consommation indicative) du processeur Intel Core i9-13950HX ?",
+      "options": [
+        "55W",
+        "15W",
+        "350W"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La puissance du processeur Intel Core i9-13950HX est de 55W[span_7](start_span)[span_7](end_span)."
+    },
+    {
+      "id": 9,
+      "enonce": "Quelle est la taille mémoire maximale supportée par le processeur Intel Xeon w9-3495X ?",
+      "options": [
+        "4 TB",
+        "128 GB",
+        "64 GB"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'Intel Xeon w9-3495X supporte une taille mémoire maximale de 4 TB[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 10,
+      "enonce": "Combien de canaux mémoire max possède l'Intel Xeon w9-3495X ?",
+      "options": [
+        "8 canaux",
+        "2 canaux",
+        "4 canaux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'Intel Xeon w9-3495X possède 8 canaux mémoire max[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 11,
+      "enonce": "Quel est le score Geekbench 5 multi-core de l'Intel Core i9-13950HX selon le tableau ?",
+      "options": [
+        "19 759",
+        "7 240",
+        "56 911"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le score Geekbench 5 multi-core de l'Intel Core i9-13950HX est de 19 759[span_10](start_span)[span_10](end_span)."
+    },
+    {
+      "id": 12,
+      "enonce": "Quelle est la taille d'un bloc mémoire de l'Intel Core i5-1335U mentionnée dans la question 5 du TD 1 ?",
+      "options": [
+        "64 octets",
+        "32 octets",
+        "128 octets"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le texte du TD 1 indique que la taille d'un bloc mémoire de l'Intel Core i5-1335U est de 64 octets[span_11](start_span)[span_11](end_span)."
+    },
+    {
+      "id": 13,
+      "enonce": "Quel GPU équipe la station de travail Dell Precision 7960 ?",
+      "options": [
+        "NVIDIA RTX A6000",
+        "NVIDIA RTX 3500",
+        "Intel Iris Xe Graphics G7 80EUs"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le GPU de la station Precision 7960 est une NVIDIA RTX A6000[span_12](start_span)[span_12](end_span)."
+    },
+    {
+      "id": 14,
+      "enonce": "Combien de cœurs CUDA possède la carte graphique NVIDIA RTX 3500 ?",
+      "options": [
+        "5 120",
+        "640",
+        "10 752"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La NVIDIA RTX 3500 possède 5 120 cœurs CUDA[span_13](start_span)[span_13](end_span)."
+    },
+    {
+      "id": 15,
+      "enonce": "Quelle est la quantité de mémoire vidéo (VRAM) de la NVIDIA RTX A6000 ?",
+      "options": [
+        "48 GB",
+        "12 GB",
+        "8 GB (shared)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La NVIDIA RTX A6000 dispose de 48 GB de mémoire[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 16,
+      "enonce": "Quelle est la consommation d'énergie maximale de l'Intel Iris Xe Graphics G7 intégrée ?",
+      "options": [
+        "< 15W",
+        "100W",
+        "300W"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La consommation d'énergie max de l'Intel Iris Xe Graphics est inférieure à 15W (< 15W)[span_15](start_span)[span_15](end_span)."
+    },
+    {
+      "id": 17,
+      "enonce": "Combien de cœurs Tensor (dédiés au Deep Learning) possède la NVIDIA RTX A6000 ?",
+      "options": [
+        "336",
+        "160",
+        "0"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La NVIDIA RTX A6000 possède 336 cœurs Tensor[span_16](start_span)[span_16](end_span)."
+    },
+    {
+      "id": 18,
+      "enonce": "Quel type d'utilisation est principalement visé par le troisième ordinateur (Precision 7960) d'après l'introduction du TD 1 ?",
+      "options": [
+        "Des calculs massifs tels que l'apprentissage profond (deep learning)",
+        "Une utilisation bureautique et de navigation web basique",
+        "Le jeu vidéo portable en déplacement"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le troisième ordinateur est un serveur puissant capable de travailler sur des calculs massifs tels que l'apprentissage profond[span_17](start_span)[span_17](end_span)."
+    },
+    {
+      "id": 19,
+      "enonce": "Quel est le prix recommandé du processeur Intel Core i5-1335U selon le tableau des CPU ?",
+      "options": [
+        "$340.00",
+        "$590.00",
+        "$5889.00"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le prix recommandé de l'Intel Core i5-1335U est de $340.00[span_18](start_span)[span_18](end_span)."
+    },
+    {
+      "id": 20,
+      "enonce": "Quelle est la performance FP32 de la carte graphique NVIDIA RTX 3500 ?",
+      "options": [
+        "15.82 TFLOPS",
+        "2.816 TFLOPS",
+        "38.71 TFLOPS"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La performance FP32 de la NVIDIA RTX 3500 est de 15.82 TFLOPS[span_19](start_span)[span_19](end_span)."
+    }
+  ]
+}

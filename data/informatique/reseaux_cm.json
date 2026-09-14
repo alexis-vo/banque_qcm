@@ -1,0 +1,1105 @@
+{
+  "titre_chapitre": "Introduction aux réseaux informatiques",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Qu'est-ce que la commutation de circuits ?",
+      "options": [
+        "Deux nœuds établissent un canal de communication dédié pour échanger des messages.",
+        "Un message est divisé en paquets envoyés séparément dans le réseau.",
+        "Les données suivent un chemin différent à chaque nouvel envoi."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le réseau téléphonique reposait sur la commutation de circuits : deux nœuds établissent un canal de communication dédié pour échanger des messages."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle propriété caractérise la commutation de circuits ?",
+      "options": [
+        "Les données échangées suivent toujours le même chemin dans le réseau.",
+        "Les données sont réassemblées à la réception à partir de plusieurs paquets.",
+        "Les données sont acheminées indépendamment les unes des autres."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans la commutation de circuits, le canal étant dédié, les données suivent toujours le même chemin."
+    },
+    {
+      "id": 3,
+      "enonce": "Quel est le principe fondamental sur lequel reposent les réseaux modernes ?",
+      "options": [
+        "La commutation de circuits.",
+        "La commutation de paquets.",
+        "Le multiplexage temporel synchrone du réseau téléphonique."
+      ],
+      "reponse_correcte": 1,
+      "explication": "La commutation de paquets a été conçue indépendamment aux États-Unis et au Royaume-Uni et constitue l'idée sur laquelle reposent les réseaux modernes."
+    },
+    {
+      "id": 4,
+      "enonce": "Que se passe-t-il avec un message dans un réseau à commutation de paquets ?",
+      "options": [
+        "Il est divisé en blocs (paquets) acheminés séparément puis réassemblés à la réception.",
+        "Il emprunte un canal dédié établi à l'avance entre les deux nœuds.",
+        "Il est dupliqué et envoyé simultanément à tous les nœuds du réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un message est divisé en blocs, ou paquets, qui sont acheminés dans le réseau séparément puis réassemblés dans leur forme originale à la réception."
+    },
+    {
+      "id": 5,
+      "enonce": "Quels réseaux à commutation de paquets voient le jour en 1969 ?",
+      "options": [
+        "ARPANET et NPL",
+        "CYCLADES et Tymnet",
+        "ALOHAnet et IPSS"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1969, deux réseaux à commutation de paquets voient le jour : ARPANET (soutenu par la DARPA aux États-Unis) et NPL (soutenu par le National Physical Laboratory, au Royaume-Uni)."
+    },
+    {
+      "id": 6,
+      "enonce": "Quelle agence a soutenu la création d'ARPANET ?",
+      "options": [
+        "La DARPA (Defense Advanced Research Projects Agency)",
+        "Le CERN",
+        "L'ISO"
+      ],
+      "reponse_correcte": 0,
+      "explication": "ARPANET est créé avec le soutien de la DARPA aux États-Unis."
+    },
+    {
+      "id": 7,
+      "enonce": "Quel organisme a soutenu la création du réseau NPL ?",
+      "options": [
+        "Le National Physical Laboratory, au Royaume-Uni",
+        "Le CERN, en Suisse",
+        "L'IANA, aux États-Unis"
+      ],
+      "reponse_correcte": 0,
+      "explication": "NPL est créé avec le soutien du National Physical Laboratory, au Royaume-Uni."
+    },
+    {
+      "id": 8,
+      "enonce": "Quel est le nom du premier réseau français à commutation de paquets ?",
+      "options": [
+        "CYCLADES",
+        "ARPANET",
+        "Tymnet"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En France, le premier réseau à commutation de paquets, appelé CYCLADES, a été créé en 1973."
+    },
+    {
+      "id": 9,
+      "enonce": "En quelle année le réseau CYCLADES a-t-il été créé ?",
+      "options": [
+        "1969",
+        "1973",
+        "1980"
+      ],
+      "reponse_correcte": 1,
+      "explication": "CYCLADES, le premier réseau français à commutation de paquets, a été créé en 1973."
+    },
+    {
+      "id": 10,
+      "enonce": "Parmi les projets réseaux suivants, lequel est cité comme datant des années 1970 ?",
+      "options": [
+        "ALOHAnet",
+        "ARPANET",
+        "Le World Wide Web"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours cite ALOHAnet (1970), NORSAR (1973), SERCnet (1974), Tymnet (1978) et IPSS (1978) comme projets réseaux des années 70."
+    },
+    {
+      "id": 11,
+      "enonce": "Quel problème s'est posé avec la multiplication des réseaux dans les années 1970 ?",
+      "options": [
+        "Comment interconnecter tous ces réseaux, qui utilisaient des protocoles propriétaires.",
+        "Comment réduire le coût du matériel réseau.",
+        "Comment augmenter la fréquence du signal électrique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Ces différents protocoles propriétaires devaient être normalisés pour permettre l'interconnexion des réseaux."
+    },
+    {
+      "id": 12,
+      "enonce": "Selon la définition du Larousse citée dans le cours, à quoi correspond un protocole au sens diplomatique ?",
+      "options": [
+        "Un ensemble de règles établies en matière d'étiquette, d'honneurs et de préséances dans les cérémonies officielles.",
+        "Un document juridique international signé par plusieurs États.",
+        "Un logiciel de communication chiffré entre diplomates."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le protocole diplomatique permet aux diplomates de communiquer efficacement, sans conflit, en sachant ce qui est attendu et ce qui doit être respecté."
+    },
+    {
+      "id": 13,
+      "enonce": "Comment le cours définit-il un protocole informatique ?",
+      "options": [
+        "Ensemble des conventions permettant la communication sans ambiguïté entre différents acteurs autonomes et hétérogènes, pour réaliser un algorithme.",
+        "Un langage de programmation de bas niveau.",
+        "Un protocole diplomatique appliqué aux ordinateurs."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Définition du cours : ensemble des conventions permettant la communication sans ambiguïté entre différents acteurs autonomes et hétérogènes permettant la réalisation d'un algorithme."
+    },
+    {
+      "id": 14,
+      "enonce": "Que signifie l'acronyme RFC ?",
+      "options": [
+        "Request For Comments",
+        "Router Function Control",
+        "Remote File Copy"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les Request for Comments (RFC) sont une série de documents décrivant les spécifications techniques d'Internet."
+    },
+    {
+      "id": 15,
+      "enonce": "Qui est l'auteur du tout premier RFC (RFC 1), daté du 7 avril 1969 ?",
+      "options": [
+        "Steve Crocker",
+        "Vinton Cerf",
+        "Tim Berners-Lee"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le RFC 1, intitulé 'Host Software', a été rédigé par Steve Crocker (UCLA) le 7 avril 1969."
+    },
+    {
+      "id": 16,
+      "enonce": "Un protocole informatique peut-il être implémenté de plusieurs manières différentes ?",
+      "options": [
+        "Non, un protocole correspond toujours à une seule implémentation.",
+        "Oui, un protocole peut être implémenté de plusieurs manières.",
+        "Seulement s'il est validé par l'ISO."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le cours indique explicitement qu'un protocole peut être implémenté de plusieurs manières."
+    },
+    {
+      "id": 17,
+      "enonce": "Quelles méthodes d'accès à un média de communication partagé sont évoquées dans le cours ?",
+      "options": [
+        "Master/slave (polling), token ring et détection de collision.",
+        "Round-robin et FIFO uniquement.",
+        "Client/serveur et pair-à-pair."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours illustre trois méthodes d'accès au média partagé : master/slave avec polling, token ring et détection de collision."
+    },
+    {
+      "id": 18,
+      "enonce": "Dans la méthode « master/slave », comment le nœud maître interroge-t-il les autres nœuds ?",
+      "options": [
+        "Par polling (interrogation successive) suivi d'une réponse.",
+        "En diffusant un jeton qui circule entre les nœuds.",
+        "En détectant les collisions sur le média."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le modèle master/slave, le maître interroge (polling) et attend la réponse des nœuds esclaves."
+    },
+    {
+      "id": 19,
+      "enonce": "Dans un réseau en « token ring », comment l'accès au média est-il régulé ?",
+      "options": [
+        "Par un jeton (token) qui circule entre les nœuds.",
+        "Par une interrogation centralisée du maître.",
+        "Par détection systématique de collisions."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le token ring utilise un jeton (token) qui circule pour autoriser l'accès au média."
+    },
+    {
+      "id": 20,
+      "enonce": "Que faut-il définir pour permettre à plusieurs nœuds de communiquer sur un média partagé, selon le cours ?",
+      "options": [
+        "La méthode d'accès et les règles de prise de parole (occupation du média).",
+        "Uniquement l'adresse IP de chaque nœud.",
+        "Uniquement le protocole de chiffrement utilisé."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours souligne la nécessité de définir la méthode d'accès et les règles de prise de la parole sur le média partagé."
+    },
+    {
+      "id": 21,
+      "enonce": "Quel problème pose l'interconnexion de réseaux fonctionnant de manière indépendante ?",
+      "options": [
+        "L'impossibilité d'utiliser des équipements hétérogènes et la question de l'adressage inter-réseau.",
+        "L'augmentation du coût de l'électricité consommée.",
+        "La nécessité de changer de langage de programmation."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours pose les questions : comment identifier chaque machine et comment trouver le chemin entre deux machines de réseaux différents."
+    },
+    {
+      "id": 22,
+      "enonce": "Pourquoi les protocoles doivent-ils pouvoir être utilisés indépendamment les uns des autres ?",
+      "options": [
+        "Parce qu'une communication entre deux nœuds implique de nombreux problèmes reposant les uns sur les autres.",
+        "Parce que chaque protocole nécessite un matériel dédié.",
+        "Parce que les protocoles doivent être écrits dans le même langage de programmation."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La solution d'un problème peut dépendre de la solution d'un autre problème ; les protocoles doivent donc pouvoir être utilisés indépendamment."
+    },
+    {
+      "id": 23,
+      "enonce": "Que voit la couche N+1 dans un modèle en couches ?",
+      "options": [
+        "Le service offert par la couche N, sans voir la couche N-1.",
+        "Directement les couches N-1, N et N+2 simultanément.",
+        "Uniquement la couche physique du réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche N+1 voit le service offert par la couche N, mais ne voit pas la couche N-1."
+    },
+    {
+      "id": 24,
+      "enonce": "Quel est le but de la couche N dans une architecture en couches ?",
+      "options": [
+        "Offrir à la couche N+1 un service plus riche que celui de la couche N-1.",
+        "Réduire la bande passante disponible pour la couche supérieure.",
+        "Dupliquer les fonctions déjà assurées par la couche N+1."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le but de la couche N est d'offrir à la couche N+1 un service plus riche que celui de la couche N-1."
+    },
+    {
+      "id": 25,
+      "enonce": "Combien de couches comporte le modèle OSI ?",
+      "options": [
+        "4 couches",
+        "5 couches",
+        "7 couches"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Le modèle OSI présenté dans le cours comporte 7 couches, de la couche Physique à la couche Application."
+    },
+    {
+      "id": 26,
+      "enonce": "Quelle couche du modèle OSI correspond au « point d'accès aux services réseau » ?",
+      "options": [
+        "La couche Application (couche 7)",
+        "La couche Physique (couche 1)",
+        "La couche Liaison (couche 2)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Application (7) constitue le point d'accès aux services réseau."
+    },
+    {
+      "id": 27,
+      "enonce": "Quel est le rôle de la couche Présentation (couche 6) du modèle OSI ?",
+      "options": [
+        "La conversion et le chiffrement des données.",
+        "L'adressage physique des machines.",
+        "Le contrôle de flux et la notion de port."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Présentation assure la conversion et le chiffrement des données."
+    },
+    {
+      "id": 28,
+      "enonce": "À quoi sert la couche Session (couche 5) du modèle OSI ?",
+      "options": [
+        "À gérer les sessions entre applications différentes.",
+        "À déterminer le parcours des données dans le réseau.",
+        "À assurer la transmission binaire numérique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Session gère les sessions entre applications différentes."
+    },
+    {
+      "id": 29,
+      "enonce": "Que gère la couche Transport (couche 4) du modèle OSI ?",
+      "options": [
+        "La connexion de bout en bout, le contrôle de flux et la notion de port.",
+        "L'adressage physique des machines.",
+        "La transmission binaire numérique ou analogique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Transport assure la connexion de bout en bout et le contrôle de flux, avec la notion de port."
+    },
+    {
+      "id": 30,
+      "enonce": "Que détermine la couche Réseau (couche 3) du modèle OSI ?",
+      "options": [
+        "Le parcours des données et l'adressage logique.",
+        "L'adressage physique des machines.",
+        "Les sessions entre applications différentes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Réseau détermine le parcours des données et l'adressage logique."
+    },
+    {
+      "id": 31,
+      "enonce": "Que gère la couche Liaison (couche 2, « Link ») du modèle OSI ?",
+      "options": [
+        "L'adressage physique.",
+        "L'adressage logique.",
+        "Le chiffrement des données applicatives."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Liaison gère l'adressage physique (adresses MAC)."
+    },
+    {
+      "id": 32,
+      "enonce": "Que fait la couche Physique (couche 1) du modèle OSI ?",
+      "options": [
+        "La transmission binaire numérique ou analogique.",
+        "La conversion et le chiffrement des données.",
+        "Le contrôle de flux entre applications."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La couche Physique assure la transmission binaire numérique ou analogique."
+    },
+    {
+      "id": 33,
+      "enonce": "Qu'est-ce qu'une adresse MAC (Media Access Control) ?",
+      "options": [
+        "L'adresse physique associée à l'interface (carte) réseau d'une machine.",
+        "L'adresse logique attribuée par le fournisseur d'accès Internet.",
+        "Le numéro de port utilisé par une application."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'adresse MAC est l'adresse physique associée à l'interface réseau d'une machine."
+    },
+    {
+      "id": 34,
+      "enonce": "Combien d'adresses MAC une machine peut-elle avoir ?",
+      "options": [
+        "Une seule adresse MAC, quel que soit le nombre d'interfaces.",
+        "Autant que ses interfaces réseau.",
+        "Aucune, l'adresse MAC est réservée aux routeurs."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Une machine a autant d'adresses MAC que ses interfaces réseau ; sans interface réseau, elle n'a pas d'adresse MAC."
+    },
+    {
+      "id": 35,
+      "enonce": "Dans le modèle Ethernet (1980) présenté dans le cours, comment un message est-il transmis par un hub ?",
+      "options": [
+        "À toutes les stations du réseau.",
+        "Uniquement à la station destinataire.",
+        "Uniquement à la passerelle du réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un message est transmis par le hub à toutes les stations du réseau, avec détection des collisions et ré-émissions."
+    },
+    {
+      "id": 36,
+      "enonce": "Quel équipement utilise-t-on aujourd'hui à la place du hub dans un réseau Ethernet ?",
+      "options": [
+        "Un commutateur (switch).",
+        "Un répéteur analogique.",
+        "Un routeur BGP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Aujourd'hui, nous utilisons un commutateur (switch) au lieu d'un hub."
+    },
+    {
+      "id": 37,
+      "enonce": "Dans le modèle WiFi (1997) présenté dans le cours, à qui un message est-il diffusé ?",
+      "options": [
+        "À la borne (access point).",
+        "À toutes les machines du réseau simultanément sans intermédiaire.",
+        "Uniquement au serveur DNS."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un message est diffusé à la borne (access point), avec détection des collisions et ré-émissions."
+    },
+    {
+      "id": 38,
+      "enonce": "Où le chiffrement est-il intégré dans le modèle WiFi présenté dans le cours ?",
+      "options": [
+        "Dans la couche 2 (Liaison).",
+        "Dans la couche 7 (Application).",
+        "Dans la couche 4 (Transport)."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le WiFi intègre un chiffrement directement dans la couche 2."
+    },
+    {
+      "id": 39,
+      "enonce": "Quels problèmes se posent lors de l'interconnexion de deux réseaux via une passerelle ?",
+      "options": [
+        "L'incompatibilité possible des protocoles, l'identification des machines et la recherche du chemin entre elles.",
+        "Le manque d'adresses MAC disponibles sur le marché.",
+        "L'absence de couche physique commune aux deux réseaux."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours pose les problèmes de protocoles incompatibles, d'identification des machines et de recherche du chemin entre deux machines."
+    },
+    {
+      "id": 40,
+      "enonce": "Quelle est la fonction principale du protocole Internet Protocol (IP) ?",
+      "options": [
+        "Le relais des messages (appelés datagrammes) à travers les limites du réseau.",
+        "Le chiffrement des communications de bout en bout.",
+        "La gestion des sessions entre applications."
+      ],
+      "reponse_correcte": 0,
+      "explication": "IP est le protocole pour le relais des messages (datagrammes) à travers les limites du réseau."
+    },
+    {
+      "id": 41,
+      "enonce": "Quelles sont les deux fonctions principales du protocole IP mentionnées dans le cours ?",
+      "options": [
+        "L'adressage (identification des machines) et le routage (trouver le bon chemin).",
+        "La compression et le chiffrement des données.",
+        "Le contrôle de flux et la retransmission des messages perdus."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les fonctions du protocole IP sont l'adressage et le routage."
+    },
+    {
+      "id": 42,
+      "enonce": "Sur combien de bits est codée une adresse IPv4 selon le cours ?",
+      "options": [
+        "16 bits",
+        "32 bits",
+        "64 bits"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Chaque machine est associée à une adresse IP unique sur 32 bits."
+    },
+    {
+      "id": 43,
+      "enonce": "Combien d'adresses IP une machine peut-elle avoir ?",
+      "options": [
+        "Une seule, quel que soit le nombre d'interfaces réseau.",
+        "Autant que ses interfaces réseau.",
+        "Zéro, l'adresse IP est réservée aux routeurs."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Une machine peut avoir autant d'adresses IP que ses interfaces réseau."
+    },
+    {
+      "id": 44,
+      "enonce": "Que partagent les adresses IP des machines connectées à un même réseau spécifique ?",
+      "options": [
+        "Le même préfixe.",
+        "La même adresse MAC.",
+        "Le même numéro de port."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les adresses IP des machines connectées à un réseau spécifique partagent le même préfixe."
+    },
+    {
+      "id": 45,
+      "enonce": "Comment les plages d'adresses IP (préfixes) sont-elles définies ?",
+      "options": [
+        "Avec une adresse IP et un masque de sous-réseau.",
+        "Avec uniquement un numéro de port.",
+        "Avec une adresse MAC et une adresse IP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les plages sont définies avec une adresse IP et un masque, ou masque de sous-réseau (subnet mask)."
+    },
+    {
+      "id": 46,
+      "enonce": "Dans l'exemple du cours, quel masque de sous-réseau correspond au préfixe 207.187.4.* ?",
+      "options": [
+        "255.255.255.0",
+        "255.255.0.0",
+        "255.0.0.0"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'exemple du cours associe l'adresse 207.187.4.0 et le masque 255.255.255.0 au préfixe 207.187.4.*."
+    },
+    {
+      "id": 47,
+      "enonce": "Où un message est-il envoyé si sa destination appartient au sous-réseau local ?",
+      "options": [
+        "Directement, sans passer par la passerelle.",
+        "Systématiquement à la passerelle.",
+        "Au serveur DNS le plus proche."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les messages à destination du sous-réseau local sont envoyés directement."
+    },
+    {
+      "id": 48,
+      "enonce": "Où un message est-il envoyé si sa destination n'appartient pas au sous-réseau local ?",
+      "options": [
+        "À la passerelle (gateway).",
+        "Il est simplement perdu.",
+        "Il est renvoyé automatiquement à l'émetteur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sinon, les messages sont envoyés à la passerelle."
+    },
+    {
+      "id": 49,
+      "enonce": "Quelle couche est utilisée pour acheminer les messages, que ce soit vers le sous-réseau local ou vers la passerelle ?",
+      "options": [
+        "La couche 2 (Liaison).",
+        "La couche 4 (Transport).",
+        "La couche 7 (Application)."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans les deux cas, on utilise le protocole de la couche 2 pour acheminer les messages."
+    },
+    {
+      "id": 50,
+      "enonce": "Comment la passerelle retransmet-elle les messages qu'elle reçoit ?",
+      "options": [
+        "En fonction d'une table de routage.",
+        "De manière aléatoire vers un réseau voisin.",
+        "En les dupliquant vers tous les réseaux connus."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La passerelle retransmet les messages en fonction d'une table de routage."
+    },
+    {
+      "id": 51,
+      "enonce": "Quelles informations contient une entrée typique d'une table de routage présentée dans le cours ?",
+      "options": [
+        "Réseau (Network), Masque (Mask), Passerelle (Gateway) et Interface.",
+        "Adresse MAC, numéro de port et protocole.",
+        "Nom de domaine, adresse IP et TTL."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les tables de routage présentées comportent les colonnes Network, Mask, Gateway et Interface."
+    },
+    {
+      "id": 52,
+      "enonce": "Que représente une route par défaut telle que 0.0.0.0 avec le masque 0.0.0.0 dans une table de routage ?",
+      "options": [
+        "La route utilisée quand aucune autre entrée ne correspond, généralement vers Internet.",
+        "Une route réservée exclusivement au réseau local.",
+        "Une erreur de configuration à corriger."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans l'exemple du cours, l'entrée 0.0.0.0/0.0.0.0 pointe vers l'interface donnant accès au réseau extérieur (via la passerelle 189.17.0.1)."
+    },
+    {
+      "id": 53,
+      "enonce": "Qu'est-ce que l'encapsulation, telle que présentée dans le cours sur la couche réseau ?",
+      "options": [
+        "L'ajout des adresses MAC et IP (source et destination) autour des données à chaque passage d'un réseau à un autre.",
+        "La compression des données avant leur transmission.",
+        "Le chiffrement systématique des données utilisateur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le schéma d'encapsulation montre une trame contenant les adresses MAC source/destination, les adresses IP source/destination et les données."
+    },
+    {
+      "id": 54,
+      "enonce": "Lorsqu'un message traverse deux réseaux différents, que change entre la trame du réseau 1 et celle du réseau 2, selon l'exemple d'encapsulation du cours ?",
+      "options": [
+        "Les adresses MAC source et destination.",
+        "Les adresses IP source et destination.",
+        "Les données transportées elles-mêmes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les adresses IP source et destination restent identiques d'un réseau à l'autre ; seules les adresses MAC changent."
+    },
+    {
+      "id": 55,
+      "enonce": "Dans la pile de protocoles illustrée pour l'encapsulation, quel est l'ordre des couches de haut en bas ?",
+      "options": [
+        "Application, Transport, Network (IP), Link, Physical.",
+        "Physical, Link, Network, Transport, Application.",
+        "Transport, Application, Network, Physical, Link."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le schéma présente la pile de haut en bas : Application, Transport, Network (IP), Link, Physical."
+    },
+    {
+      "id": 56,
+      "enonce": "Quel modèle de coopération entre applications est décrit dans la partie sur la couche transport du cours ?",
+      "options": [
+        "Le modèle client/serveur.",
+        "Le modèle peer-to-peer exclusivement.",
+        "Le modèle maître/esclave."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle client/serveur est présenté comme un mode de coopération entre applications."
+    },
+    {
+      "id": 57,
+      "enonce": "Comment le cours définit-il un serveur dans le modèle client/serveur ?",
+      "options": [
+        "Un programme qui rend des services à la demande.",
+        "Un programme qui émet uniquement des requêtes.",
+        "Un ordinateur physique sans logiciel associé."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un serveur est un programme qui rend des services à la demande."
+    },
+    {
+      "id": 58,
+      "enonce": "Qu'est-ce qu'un client selon le modèle décrit dans le cours ?",
+      "options": [
+        "Un programme capable d'émettre des requêtes.",
+        "Un programme qui héberge plusieurs services simultanément.",
+        "Un routeur de périphérie du réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un client est un programme capable d'émettre des requêtes."
+    },
+    {
+      "id": 59,
+      "enonce": "Le client a-t-il besoin de savoir comment le serveur rend le service ?",
+      "options": [
+        "Non, le client n'a pas à savoir comment le serveur rend le service.",
+        "Oui, c'est indispensable pour établir la connexion.",
+        "Seulement pour les services utilisant TCP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le client ne sait pas (n'a pas à savoir) comment le serveur rend le service."
+    },
+    {
+      "id": 60,
+      "enonce": "Un serveur peut-il héberger différents services ?",
+      "options": [
+        "Oui, un serveur peut héberger différents services.",
+        "Non, un serveur ne peut héberger qu'un seul service.",
+        "Seulement si le service utilise UDP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours indique explicitement qu'un serveur peut héberger différents services."
+    },
+    {
+      "id": 61,
+      "enonce": "Quels sont les deux principaux protocoles de la couche transport permettant d'implémenter le modèle client/serveur ?",
+      "options": [
+        "UDP et TCP",
+        "IP et ICMP",
+        "HTTP et FTP"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Deux principaux protocoles permettent d'implémenter le modèle client/serveur : UDP (User Datagram Protocol) et TCP (Transmission Control Protocol)."
+    },
+    {
+      "id": 62,
+      "enonce": "À quoi sert un port dans les protocoles UDP et TCP ?",
+      "options": [
+        "À identifier une application sur une machine.",
+        "À identifier une machine sur le réseau.",
+        "À chiffrer les données échangées."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un port permet l'identification d'une application sur une machine."
+    },
+    {
+      "id": 63,
+      "enonce": "Sur combien de bits est codé un numéro de port ?",
+      "options": [
+        "8 bits",
+        "16 bits",
+        "32 bits"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Un numéro de port est un entier sur 16 bits, avec des valeurs comprises entre 0 et 65535."
+    },
+    {
+      "id": 64,
+      "enonce": "Que fait le système d'exploitation lorsqu'un message est reçu sur un port associé à un processus ?",
+      "options": [
+        "Il transmet le message au processus concerné.",
+        "Il rejette systématiquement le message.",
+        "Il le retransmet à tous les processus en cours d'exécution."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsqu'un message est reçu, le système d'exploitation transmet le message au processus affecté au port."
+    },
+    {
+      "id": 65,
+      "enonce": "À quelle catégorie de ports appartient le port 80 (HTTP) ?",
+      "options": [
+        "Ports bien connus (well-known ports) [0;1023]",
+        "Ports enregistrés (registered ports) [1024;49151]",
+        "Ports dynamiques [49152;65535]"
+      ],
+      "reponse_correcte": 0,
+      "explication": "HTTP (port 80) fait partie des ports bien connus, tout comme FTP, SSH, Telnet, SMTP, DNS, DHCP, IMAP et HTTPS."
+    },
+    {
+      "id": 66,
+      "enonce": "Quel port bien connu est associé au protocole DNS ?",
+      "options": [
+        "Le port 53",
+        "Le port 443",
+        "Le port 3306"
+      ],
+      "reponse_correcte": 0,
+      "explication": "DNS est associé au port bien connu 53."
+    },
+    {
+      "id": 67,
+      "enonce": "Quel port bien connu est associé au protocole HTTPS ?",
+      "options": [
+        "Le port 443",
+        "Le port 80",
+        "Le port 22"
+      ],
+      "reponse_correcte": 0,
+      "explication": "HTTPS est associé au port bien connu 443."
+    },
+    {
+      "id": 68,
+      "enonce": "Dans quelle plage se situent les ports enregistrés (registered ports) attribués par l'IANA ?",
+      "options": [
+        "[0; 1023]",
+        "[1024; 49151]",
+        "[49152; 65535]"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les ports enregistrés, comme MySQL (3306), PostgreSQL (5432), IRC (6667) ou Minecraft (25565), se situent dans la plage [1024; 49151]."
+    },
+    {
+      "id": 69,
+      "enonce": "À quelle catégorie de ports appartiennent les ports pouvant être utilisés par n'importe quelle application ?",
+      "options": [
+        "Les ports dynamiques [49152; 65535]",
+        "Les ports bien connus [0;1023]",
+        "Les ports enregistrés [1024;49151]"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les ports dynamiques, dans la plage [49152; 65535], peuvent être utilisés par toute application."
+    },
+    {
+      "id": 70,
+      "enonce": "Dans une communication UDP telle que décrite dans le cours, que fait un serveur au démarrage ?",
+      "options": [
+        "Il écoute un port X.",
+        "Il ouvre une connexion TCP avec le client.",
+        "Il diffuse son adresse MAC à tous les clients."
+      ],
+      "reponse_correcte": 0,
+      "explication": "En UDP, un serveur écoute un port X."
+    },
+    {
+      "id": 71,
+      "enonce": "Dans le modèle UDP décrit, comment le client initie-t-il l'échange ?",
+      "options": [
+        "Il ouvre un port Y et envoie un message sur le port X du serveur.",
+        "Il établit d'abord une connexion avant d'envoyer un message.",
+        "Il attend que le serveur le contacte en premier."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un client ouvre un port Y et envoie un message sur le port X ; le serveur peut lui répondre sur le port Y."
+    },
+    {
+      "id": 72,
+      "enonce": "Quelle fonction Python est utilisée côté serveur pour créer un socket UDP, selon l'exemple du cours ?",
+      "options": [
+        "socket(AF_INET, SOCK_DGRAM)",
+        "socket(AF_INET, SOCK_STREAM)",
+        "connect(AF_INET, SOCK_DGRAM)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'exemple Python crée un socket UDP avec socket(AF_INET, SOCK_DGRAM)."
+    },
+    {
+      "id": 73,
+      "enonce": "Quelle méthode Python permet à un serveur UDP d'attendre un message, selon l'exemple du cours ?",
+      "options": [
+        "server_socket.recvfrom(1024)",
+        "server_socket.connect(1024)",
+        "server_socket.listen(1024)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "server_socket.recvfrom(1024) bloque le processus en attente d'un message."
+    },
+    {
+      "id": 74,
+      "enonce": "Quelle méthode Python le client UDP utilise-t-il pour envoyer un message, selon le cours ?",
+      "options": [
+        "client_socket.sendto(message, adresse)",
+        "client_socket.recvfrom(message, adresse)",
+        "client_socket.bind(message, adresse)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'exemple montre client_socket.sendto(message, (\"127.0.0.1\", 5005)) pour envoyer le message et débloquer le serveur."
+    },
+    {
+      "id": 75,
+      "enonce": "Dans le protocole TCP, comment un client initie-t-il la communication avec le serveur, selon le cours ?",
+      "options": [
+        "Il ouvre un port Y et demande l'établissement d'une connexion avec le serveur sur le port X.",
+        "Il envoie directement un message sans négociation préalable.",
+        "Il diffuse un datagramme à toutes les machines du réseau."
+      ],
+      "reponse_correcte": 0,
+      "explication": "En TCP, le client ouvre un port Y et demande l'établissement d'une connexion sur le port X du serveur, qui répond ensuite."
+    },
+    {
+      "id": 76,
+      "enonce": "Qu'est-ce qui distingue fondamentalement TCP d'UDP selon le cours ?",
+      "options": [
+        "TCP utilise des accusés de réception (ack) et retransmet les messages en cas de problème.",
+        "TCP ne permet pas d'identifier les applications par des ports.",
+        "TCP fonctionne uniquement sur les réseaux locaux."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Client et serveur TCP échangent des messages avec accusés de réception ; en cas de problème, les messages sont réémis."
+    },
+    {
+      "id": 77,
+      "enonce": "Que contiennent les entêtes des messages TCP, selon le cours ?",
+      "options": [
+        "Les numéros de port source/destination ainsi que les numéros de séquence et d'acquittement (ack).",
+        "Uniquement l'adresse IP source.",
+        "Le contenu chiffré du message applicatif."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les entêtes TCP contiennent les numéros de port et les numéros de séquence/ack pour gérer les messages perdus et retransmis."
+    },
+    {
+      "id": 78,
+      "enonce": "À quoi sert le mécanisme d'ajustement du débit (taille de la fenêtre) en TCP ?",
+      "options": [
+        "À limiter les pertes de messages.",
+        "À augmenter la taille des adresses IP.",
+        "À chiffrer les messages échangés."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un mécanisme permet d'ajuster le débit (taille de la fenêtre) pour limiter les pertes de messages."
+    },
+    {
+      "id": 79,
+      "enonce": "Pourquoi dit-on que TCP crée une sorte de « connexion virtuelle » entre deux applications ?",
+      "options": [
+        "Parce que c'est comme si les deux applications n'étaient pas séparées par les réseaux.",
+        "Parce qu'aucune donnée n'est réellement transmise entre les deux applications.",
+        "Parce que TCP n'utilise pas d'adresses IP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "TCP crée une connexion virtuelle entre deux applications, comme si elles n'étaient pas séparées par (éventuellement plusieurs) réseaux."
+    },
+    {
+      "id": 80,
+      "enonce": "Dans l'exemple Python du cours, quelle méthode permet au client TCP de se connecter au serveur ?",
+      "options": [
+        "client_socket.connect((adresse, port))",
+        "client_socket.bind((adresse, port))",
+        "client_socket.sendto((adresse, port))"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le client TCP utilise client_socket.connect((\"127.0.0.1\", 5005)) pour se connecter au serveur."
+    },
+    {
+      "id": 81,
+      "enonce": "Contrairement au socket UDP, quel paramètre est omis lors de la création d'un socket TCP dans l'exemple Python du cours ?",
+      "options": [
+        "Le type de socket (comme SOCK_DGRAM pour UDP).",
+        "AF_INET.",
+        "Le numéro de port."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans l'exemple TCP, le socket est créé simplement avec socket(), sans préciser explicitement le type comme en UDP."
+    },
+    {
+      "id": 82,
+      "enonce": "Quel comité a été créé en 1972 pour tenter de standardiser les réseaux, selon le cours ?",
+      "options": [
+        "L'INWG (International Network Working Group)",
+        "L'ISO",
+        "L'IANA"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1972, une première tentative de normalisation est faite avec la création de l'INWG."
+    },
+    {
+      "id": 83,
+      "enonce": "Qui s'est opposé à l'approche de réseau à commutation de paquets proposée par l'INWG en 1972 ?",
+      "options": [
+        "IBM et les monopoles de téléphonie en Europe",
+        "Le gouvernement américain",
+        "Le CERN"
+      ],
+      "reponse_correcte": 0,
+      "explication": "IBM et les monopoles de téléphonie en Europe se sont opposés à cette approche."
+    },
+    {
+      "id": 84,
+      "enonce": "Qui sont les auteurs du modèle à 4 couches proposé en 1973, selon le cours ?",
+      "options": [
+        "Vinton Cerf et Robert Kahn",
+        "Steve Crocker et Tim Berners-Lee",
+        "Andrew Tanenbaum et Dennis Ritchie"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1973, Vinton Cerf et Robert Kahn proposent un modèle à 4 couches."
+    },
+    {
+      "id": 85,
+      "enonce": "En quelle année un comité de normalisation a-t-il été créé à l'ISO selon le cours ?",
+      "options": [
+        "1977",
+        "1969",
+        "1990"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1977, un comité de normalisation est créé à l'ISO."
+    },
+    {
+      "id": 86,
+      "enonce": "Combien de couches comporte le modèle TCP/IP présenté dans le cours, par opposition au modèle OSI ?",
+      "options": [
+        "4 couches",
+        "7 couches",
+        "5 couches"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle TCP/IP comporte 4 couches : Application, Transport, Internet (IP) et Accès réseau."
+    },
+    {
+      "id": 87,
+      "enonce": "En quelle année ARPANET a-t-il adopté le modèle Internet, selon le cours ?",
+      "options": [
+        "1983",
+        "1969",
+        "1990"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1983, ARPANET adopte le modèle Internet."
+    },
+    {
+      "id": 88,
+      "enonce": "Pourquoi le modèle OSI, devenu une norme en 1984, n'a-t-il finalement pas dominé ?",
+      "options": [
+        "Parce qu'il est arrivé trop tard, le modèle Internet s'étant déjà largement diffusé.",
+        "Parce qu'il était incompatible avec les adresses MAC.",
+        "Parce qu'il ne comportait que 3 couches."
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1984, OSI devient une norme, mais trop tard : de plus en plus de réseaux avaient déjà basculé sur le modèle Internet."
+    },
+    {
+      "id": 89,
+      "enonce": "Qui a inventé le World Wide Web en 1989, selon le cours ?",
+      "options": [
+        "Tim Berners-Lee, au CERN",
+        "Vinton Cerf, à la DARPA",
+        "Steve Crocker, à l'UCLA"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1989, Tim Berners-Lee invente le World Wide Web au CERN."
+    },
+    {
+      "id": 90,
+      "enonce": "Que s'est-il passé en 1990 concernant ARPANET, selon le cours ?",
+      "options": [
+        "ARPANET a disparu, suite à sa démilitarisation.",
+        "ARPANET est devenu la norme officielle de l'ISO.",
+        "ARPANET a fusionné avec le réseau NPL."
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 1990, ARPANET disparaît suite à sa démilitarisation, tandis que de plus en plus d'ordinateurs se connectent."
+    },
+    {
+      "id": 91,
+      "enonce": "Pourquoi le déploiement d'IPv6 est-il en cours, selon le cours ?",
+      "options": [
+        "Parce que les adresses IPv4, codées sur 32 bits, sont pratiquement épuisées.",
+        "Parce qu'IPv4 ne permet pas le routage inter-domaine.",
+        "Parce qu'IPv4 est incompatible avec le protocole TCP."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les adresses IPv4 étant pratiquement épuisées, une nouvelle norme IPv6, codée sur 128 bits, est en cours de déploiement."
+    },
+    {
+      "id": 92,
+      "enonce": "Sur combien de bits sont codées les adresses IPv6, selon le cours ?",
+      "options": [
+        "64 bits",
+        "128 bits",
+        "256 bits"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les adresses IPv6 sont codées sur 128 bits, offrant 2^128 adresses différentes."
+    },
+    {
+      "id": 93,
+      "enonce": "Qu'est-ce qu'un système autonome (Autonomous System, AS) selon le cours ?",
+      "options": [
+        "Un réseau IP dont la politique de routage interne est cohérente, généralement sous le contrôle d'une entité unique.",
+        "Un ordinateur capable de fonctionner sans alimentation électrique.",
+        "Un protocole de chiffrement utilisé sur Internet."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un AS est un réseau IP dont la politique de routage interne est cohérente, et est généralement sous le contrôle d'une entité ou organisation unique."
+    },
+    {
+      "id": 94,
+      "enonce": "Parmi les exemples d'AS cités dans le cours, lequel dispose du plus grand nombre d'adresses IPv4 ?",
+      "options": [
+        "AS 15169 GOOGLE",
+        "AS 2269 FR-U-PARISSUD-ORSAY",
+        "AS 2200 FR-RENATER"
+      ],
+      "reponse_correcte": 0,
+      "explication": "AS 15169 GOOGLE dispose de 23 117 056 adresses IPv4, contre 197 632 pour AS 2269 et 2 649 088 pour AS 2200."
+    },
+    {
+      "id": 95,
+      "enonce": "Quels sont les deux niveaux de routage évoqués dans le cours ?",
+      "options": [
+        "Le routage intra-domaine et le routage inter-domaine.",
+        "Le routage statique et le routage dynamique uniquement.",
+        "Le routage local et le routage régional."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le routage a deux niveaux : intra-domaine et inter-domaine."
+    },
+    {
+      "id": 96,
+      "enonce": "Comment le routage intra-domaine est-il défini, selon le cours ?",
+      "options": [
+        "Au cas par cas par l'opérateur, avec des protocoles comme OSPF et RIP.",
+        "De manière identique pour tous les AS via BGP.",
+        "Par un organisme international unique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le routage intra-domaine est défini au cas par cas par l'opérateur, avec des protocoles classiques comme OSPF et RIP."
+    },
+    {
+      "id": 97,
+      "enonce": "Quel protocole est utilisé pour le routage inter-domaine, selon le cours ?",
+      "options": [
+        "Border Gateway Protocol (BGP)",
+        "Open Shortest Path First (OSPF)",
+        "Routing Information Protocol (RIP)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le routage inter-domaine, défini pour tous les AS, utilise le protocole BGP."
+    },
+    {
+      "id": 98,
+      "enonce": "Que font les routeurs de frontière dans le fonctionnement de BGP, selon le cours ?",
+      "options": [
+        "Ils s'échangent les nouvelles routes, conservent les « meilleures » et les propagent.",
+        "Ils chiffrent systématiquement tous les paquets transitant par le réseau.",
+        "Ils attribuent les adresses MAC aux nouvelles machines connectées."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les routeurs de frontière s'échangent les nouvelles routes, conservent les meilleures routes et les propagent."
+    },
+    {
+      "id": 99,
+      "enonce": "Dans le schéma BGP du cours, que se passe-t-il pour le préfixe 1.0.0.0/8 lorsqu'il est propagé d'AS en AS ?",
+      "options": [
+        "Le chemin d'AS (ASPath) s'allonge à chaque passage, par exemple AS1, puis AS2:AS1, puis AS4:AS2:AS1.",
+        "Le préfixe change de valeur à chaque passage.",
+        "Le préfixe est supprimé dès le premier saut entre AS."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'exemple montre l'ASPath s'allonger progressivement au fur et à mesure que la route annoncée par AS1 se propage à AS2, AS3 et AS4."
+    },
+    {
+      "id": 100,
+      "enonce": "Dans le fonctionnement décrit pour BGP, à quoi sert la politique d'importation (import policy) d'un routeur de frontière ?",
+      "options": [
+        "À rejeter toutes les routes inacceptables reçues d'un voisin.",
+        "À rejeter les routes qui ne doivent pas être annoncées aux voisins.",
+        "À choisir la meilleure route pour chaque destination."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La politique d'importation rejette les routes inacceptables reçues d'un voisin ; c'est la politique d'exportation qui rejette les routes ne devant pas être annoncées, avant le choix de la meilleure route pour la table de routage."
+    }
+  ]
+}
