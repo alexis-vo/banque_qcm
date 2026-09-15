@@ -17,7 +17,8 @@
       "nom": "Mathématiques",
       "dossier": "mathematiques",
       "chapitres": [
-        { "titre": "Probas Test", "fichier": "probas.json"}
+        { "titre": "Probas Test", "fichier": "probas.json"},
+        { "titre": "Convergence Intégration Probabilités", "fichier": "cip_1_2.json"}
       ]
     },
     {

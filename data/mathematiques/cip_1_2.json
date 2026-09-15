@@ -1,0 +1,411 @@
+{
+  "titre_chapitre": "CIP - Topologie dans les espaces métriques et espaces de Hilbert",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Dans les notes, que désigne \\(\\mathbb{R}\\) ?",
+      "options": ["Les seuls réels finis", "La droite réelle étendue \\(\\mathbb{R}\\cup\\{-\\infty,+\\infty\\}\\)", "Les seuls réels positifs", "Les nombres complexes"],
+      "reponse_correcte": 1,
+      "explication": "La notation \\(\\mathbb{R}\\) désigne ici la droite réelle étendue, qui comprend \\(-\\infty\\) et \\(+\\infty\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Pour un sous-ensemble \\(A\\) d'un espace métrique, que note-t-on \\(A^c\\) ?",
+      "options": ["Son adhérence", "Son intérieur", "Son complémentaire dans l'ensemble ambiant", "Sa frontière"],
+      "reponse_correcte": 2,
+      "explication": "Les notes posent \\(A^c=E\\setminus A\\), où \\(E\\) est l'ensemble ambiant."
+    },
+    {
+      "id": 3,
+      "enonce": "Laquelle n'est pas une propriété exigée dans la définition d'une norme ?",
+      "options": ["La séparation", "L'homogénéité", "L'inégalité triangulaire", "La multiplicativité : \\(\\|x+y\\|=\\|x\\|\\|y\\|\\)"],
+      "reponse_correcte": 3,
+      "explication": "Une norme doit vérifier séparation, homogénéité et inégalité triangulaire ; elle n'est pas multiplicative."
+    },
+    {
+      "id": 4,
+      "enonce": "Quelle implication exprime la séparation d'une norme ?",
+      "options": ["\\(x=0\\Rightarrow\\|x\\|=1\\)", "\\(\\|x\\|=0\\Rightarrow x=0\\)", "\\(\\|x\\|=\\|y\\|\\Rightarrow x=y\\)", "\\(x\\neq0\\Rightarrow\\|x\\|<0\\)"],
+      "reponse_correcte": 1,
+      "explication": "La propriété de séparation impose qu'un vecteur de norme nulle soit le vecteur nul."
+    },
+    {
+      "id": 5,
+      "enonce": "Pour \\(\\lambda\\in\\mathbb K\\), l'homogénéité d'une norme donne :",
+      "options": ["\\(\\|\\lambda x\\|=\\lambda\\|x\\|\\)", "\\(\\|\\lambda x\\|=|\\lambda|\\,\\|x\\|\\)", "\\(\\|\\lambda x\\|=\\|x\\|+|\\lambda|\\)", "\\(\\|\\lambda x\\|=\\|x\\|/|\\lambda|\\)"],
+      "reponse_correcte": 1,
+      "explication": "Le module est nécessaire, notamment sur \\(\\mathbb C\\) ou lorsque le scalaire réel est négatif."
+    },
+    {
+      "id": 6,
+      "enonce": "Quelle inégalité est toujours vraie pour une norme ?",
+      "options": ["\\(\\|x+y\\|\\geq\\|x\\|+\\|y\\|\\)", "\\(\\|x-y\\|\\leq |\\|x\\|-\\|y\\||\\)", "\\(|\\|x\\|-\\|y\\||\\leq\\|x-y\\|\\)", "\\(\\|x\\|\\leq0\\)"],
+      "reponse_correcte": 2,
+      "explication": "C'est l'inégalité triangulaire inverse."
+    },
+    {
+      "id": 7,
+      "enonce": "Quelle distance est associée à une norme \\(\\|\\cdot\\|\\) ?",
+      "options": ["\\(d(x,y)=\\|x+y\\|\\)", "\\(d(x,y)=|\\|x\\|-\\|y\\||\\)", "\\(d(x,y)=\\|x-y\\|\\)", "\\(d(x,y)=\\|x\\|\\,\\|y\\|\\)"],
+      "reponse_correcte": 2,
+      "explication": "Toute norme induit la distance \\(d(x,y)=\\|x-y\\|\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Pour \\(x=(x_1,\\ldots,x_n)\\in\\mathbb K^n\\), quelle est la norme infinie ?",
+      "options": ["\\(\\sum_i|x_i|\\)", "\\(\\sqrt{\\sum_i|x_i|^2}\\)", "\\(\\max_i|x_i|\\)", "\\(\\prod_i|x_i|\\)"],
+      "reponse_correcte": 2,
+      "explication": "La norme infinie est le maximum des modules des coordonnées."
+    },
+    {
+      "id": 9,
+      "enonce": "Quelle norme sur \\(\\mathbb R^n\\) est associée à la distance de Manhattan ?",
+      "options": ["La norme 1", "La norme 2", "La norme infinie", "La norme d'opérateur"],
+      "reponse_correcte": 0,
+      "explication": "La distance de Manhattan est celle induite par \\(\\|x\\|_1=\\sum_i|x_i|\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Sur \\(C([0,1],\\mathbb K)\\), quelle expression définit la norme uniforme ?",
+      "options": ["\\(\\int_0^1|f(u)|\\,du\\)", "\\(\\sqrt{\\int_0^1|f(u)|^2\\,du}\\)", "\\(\\max_{u\\in[0,1]}|f(u)|\\)", "\\(f(0)\\)"],
+      "reponse_correcte": 2,
+      "explication": "La norme uniforme est la norme infinie des fonctions continues sur le segment."
+    },
+    {
+      "id": 11,
+      "enonce": "Pourquoi \\(\\int_0^1|f(u)|\\,du=0\\) implique-t-il \\(f=0\\) pour \\(f\\in C([0,1])\\) ?",
+      "options": ["Parce que toute intégrale est positive", "Parce qu'une fonction continue positive d'intégrale nulle est identiquement nulle", "Parce que \\(f\\) est dérivable", "Ce n'est jamais vrai"],
+      "reponse_correcte": 1,
+      "explication": "La continuité exclut qu'une fonction positive en un point ait une intégrale nulle."
+    },
+    {
+      "id": 12,
+      "enonce": "La norme subordonnée d'une application linéaire \\(T:F\\to G\\) est :",
+      "options": ["\\(\\sup_{u\\in F}\\|T(u)\\|_G\\)", "\\(\\sup_{\\|u\\|_F\\leq1}\\|T(u)\\|_G\\)", "\\(\\inf_{\\|u\\|_F\\leq1}\\|T(u)\\|_G\\)", "\\(\\|T(0)\\|_G\\)"],
+      "reponse_correcte": 1,
+      "explication": "On prend le supremum de la norme de l'image de la boule unité."
+    },
+    {
+      "id": 13,
+      "enonce": "Selon les conventions des notes, quelle est la valeur de \\(\\sup\\varnothing\\) ?",
+      "options": ["\\(0\\)", "\\(+\\infty\\)", "\\(-\\infty\\)", "Elle n'est pas définie"],
+      "reponse_correcte": 2,
+      "explication": "La borne supérieure de l'ensemble vide vaut \\(-\\infty\\) dans la droite réelle étendue."
+    },
+    {
+      "id": 14,
+      "enonce": "Selon les conventions des notes, quelle est la valeur de \\(\\inf\\varnothing\\) ?",
+      "options": ["\\(0\\)", "\\(+\\infty\\)", "\\(-\\infty\\)", "Elle n'est pas définie"],
+      "reponse_correcte": 1,
+      "explication": "La borne inférieure de l'ensemble vide vaut \\(+\\infty\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Si \\(A\\subset B\\subset\\mathbb R\\), quelle relation est correcte ?",
+      "options": ["\\(\\sup A\\geq\\sup B\\)", "\\(\\sup A\\leq\\sup B\\)", "\\(\\inf A\\leq\\inf B\\)", "\\(\\sup A=\\inf B\\)"],
+      "reponse_correcte": 1,
+      "explication": "L'application \\(A\\mapsto\\sup A\\) est croissante pour l'inclusion. Inversement, \\(A\\mapsto\\inf A\\) est décroissante."
+    },
+    {
+      "id": 16,
+      "enonce": "Pour \\(A_n=\\{x_k:k\\geq n\\}\\), la suite \\(\\sup A_n\\) est :",
+      "options": ["Croissante", "Décroissante", "Toujours constante", "Toujours divergente"],
+      "reponse_correcte": 1,
+      "explication": "Les ensembles de queues \\(A_n\\) sont décroissants pour l'inclusion, donc leurs supremums le sont aussi."
+    },
+    {
+      "id": 17,
+      "enonce": "Quelle égalité caractérise la convergence d'une suite réelle dans \\(\\mathbb R\\) étendue ?",
+      "options": ["\\(\\liminf x_n<\\limsup x_n\\)", "\\(\\liminf x_n=0\\)", "\\(\\liminf x_n=\\limsup x_n\\)", "\\(\\limsup x_n=+\\infty\\)"],
+      "reponse_correcte": 2,
+      "explication": "Une suite converge si et seulement si son liminf et son limsup coïncident ; leur valeur commune est sa limite."
+    },
+    {
+      "id": 18,
+      "enonce": "Pour \\(x_n=\\sin(n\\pi/2)\\), quel couple \\((\\liminf x_n,\\limsup x_n)\\) obtient-on ?",
+      "options": ["\\((0,0)\\)", "\\((-1,1)\\)", "\\((-\\infty,+\\infty)\\)", "\\((1,1)\\)"],
+      "reponse_correcte": 1,
+      "explication": "La suite prend notamment les valeurs \\(-1\\) et \\(1\\) une infinité de fois."
+    },
+    {
+      "id": 19,
+      "enonce": "Pour \\(x_n=(-1)^n n\\), quel est le limsup ?",
+      "options": ["\\(-\\infty\\)", "\\(0\\)", "\\(1\\)", "\\(+\\infty\\)"],
+      "reponse_correcte": 3,
+      "explication": "La sous-suite de termes positifs tend vers \\(+\\infty\\), tandis que la sous-suite négative tend vers \\(-\\infty\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Un sous-ensemble \\(A\\subset E\\) est fermé lorsque :",
+      "options": ["\\(A\\) est borné", "\\(E\\setminus A\\) est ouvert", "\\(A\\) est ouvert", "\\(A\\) est fini"],
+      "reponse_correcte": 1,
+      "explication": "C'est la définition d'un fermé dans un espace métrique."
+    },
+    {
+      "id": 21,
+      "enonce": "Dans tout espace métrique, lequel des ensembles suivants est toujours fermé ?",
+      "options": ["Toute boule ouverte", "Toute boule fermée", "Toute réunion infinie de fermés", "Tout sous-ensemble dense"],
+      "reponse_correcte": 1,
+      "explication": "Toute boule fermée, et en particulier tout singleton, est fermé."
+    },
+    {
+      "id": 22,
+      "enonce": "Quelle opération conserve toujours le caractère fermé ?",
+      "options": ["Une réunion quelconque", "Une intersection quelconque", "Le complémentaire sans condition", "Une union dénombrable seulement"],
+      "reponse_correcte": 1,
+      "explication": "Toute intersection, même infinie, de fermés est fermée. Les réunions ne le sont qu'en nombre fini."
+    },
+    {
+      "id": 23,
+      "enonce": "Un point \\(x\\) est adhérent à \\(A\\) si :",
+      "options": ["\\(x\\in A\\) uniquement", "Toute boule ouverte centrée en \\(x\\) rencontre \\(A\\)", "Il existe une boule ouverte centrée en \\(x\\) contenue dans \\(A\\)", "\\(d(x,A)>0\\)"],
+      "reponse_correcte": 1,
+      "explication": "L'adhérence est définie par l'intersection non vide de toute boule ouverte centrée au point avec \\(A\\)."
+    },
+    {
+      "id": 24,
+      "enonce": "Que représente \\(\\overline A\\) ?",
+      "options": ["Le complémentaire de \\(A\\)", "L'ensemble des points adhérents à \\(A\\)", "L'intérieur de \\(A\\)", "La frontière de \\(A\\) seulement"],
+      "reponse_correcte": 1,
+      "explication": "\\(\\overline A\\) est l'adhérence de \\(A\\)."
+    },
+    {
+      "id": 25,
+      "enonce": "Quelle propriété de l'adhérence est correcte ?",
+      "options": ["\\(\\overline A\\subset A\\) toujours", "\\(\\overline A\\) est le plus petit ouvert contenant \\(A\\)", "\\(\\overline A\\) est le plus petit fermé contenant \\(A\\)", "\\(\\overline A=E\\setminus A\\)"],
+      "reponse_correcte": 2,
+      "explication": "L'adhérence est un fermé contenant \\(A\\), inclus dans tout autre fermé contenant \\(A\\)."
+    },
+    {
+      "id": 26,
+      "enonce": "Quelle équivalence caractérise un fermé \\(A\\) ?",
+      "options": ["\\(A\\) est fermé si et seulement si \\(A=\\overline A\\)", "\\(A\\) est fermé si et seulement si \\(A=\\varnothing\\)", "\\(A\\) est fermé si et seulement si \\(A\\) est compact", "\\(A\\) est fermé si et seulement si \\(A\\) est fini"],
+      "reponse_correcte": 0,
+      "explication": "Un ensemble est fermé exactement lorsqu'il contient tous ses points adhérents."
+    },
+    {
+      "id": 27,
+      "enonce": "Dans un espace métrique quelconque, l'adhérence d'une boule ouverte est-elle toujours la boule fermée de même centre et rayon ?",
+      "options": ["Oui, toujours", "Non, un contre-exemple existe avec la distance discrète", "Oui, seulement si le rayon est nul", "Non, jamais"],
+      "reponse_correcte": 1,
+      "explication": "Les notes signalent que l'égalité peut échouer en espace métrique général ; elle est vraie dans un espace vectoriel normé réel ou complexe."
+    },
+    {
+      "id": 28,
+      "enonce": "La caractérisation séquentielle d'un point adhérent à \\(A\\) est :",
+      "options": ["Il existe une suite dans \\(A\\) qui converge vers ce point", "Toute suite de \\(A\\) converge vers ce point", "Le point appartient nécessairement à \\(A\\)", "La distance au point est strictement positive"],
+      "reponse_correcte": 0,
+      "explication": "Dans un espace métrique, \\(x\\in\\overline A\\) si et seulement si une suite d'éléments de \\(A\\) converge vers \\(x\\)."
+    },
+    {
+      "id": 29,
+      "enonce": "Quelle condition séquentielle équivaut à la fermeture de \\(A\\) dans un espace métrique ?",
+      "options": ["Toute suite de \\(A\\) est constante", "Toute suite convergente d'éléments de \\(A\\) a sa limite dans \\(A\\)", "Toute suite dans \\(A\\) est de Cauchy", "Toute suite converge vers 0"],
+      "reponse_correcte": 1,
+      "explication": "Un fermé retient les limites de toutes ses suites convergentes."
+    },
+    {
+      "id": 30,
+      "enonce": "Quelle est la définition séquentielle d'un compact \\(A\\) ?",
+      "options": ["Toute suite de \\(A\\) converge", "Toute suite de \\(A\\) possède une sous-suite convergeant dans \\(A\\)", "\\(A\\) est fermé", "\\(A\\) est borné"],
+      "reponse_correcte": 1,
+      "explication": "C'est la propriété de Bolzano-Weierstrass adoptée comme définition dans les notes."
+    },
+    {
+      "id": 31,
+      "enonce": "Dans un espace métrique, tout compact est :",
+      "options": ["Ouvert et non borné", "Fermé et borné", "Seulement fermé", "Seulement borné"],
+      "reponse_correcte": 1,
+      "explication": "Tout compact métrique est à la fois fermé et borné."
+    },
+    {
+      "id": 32,
+      "enonce": "Dans un espace métrique quelconque, « fermé et borné » implique-t-il compact ?",
+      "options": ["Oui", "Non, pas en général", "Oui, si l'ensemble est non vide", "Oui, si l'espace est complet"],
+      "reponse_correcte": 1,
+      "explication": "La réciproque de « compact implique fermé et borné » est fausse en général."
+    },
+    {
+      "id": 33,
+      "enonce": "Le théorème de Heine-Borel des notes s'applique à :",
+      "options": ["Tout espace métrique", "Un espace vectoriel normé de dimension finie", "Seulement \\(\\mathbb R\\)", "Tout espace de Hilbert"],
+      "reponse_correcte": 1,
+      "explication": "En dimension finie, un ensemble est compact si et seulement s'il est fermé et borné."
+    },
+    {
+      "id": 34,
+      "enonce": "Si \\(f:E\\to\\mathbb R\\) est continue et \\(A\\subset E\\) est compact, quel résultat est garanti ?",
+      "options": ["\\(f\\) atteint son infimum sur \\(A\\)", "\\(f\\) est constante", "\\(f\\) est injective", "\\(A\\) est un singleton"],
+      "reponse_correcte": 0,
+      "explication": "Une fonction réelle continue sur un compact atteint son infimum ; le résultat analogue vaut aussi pour le supremum."
+    },
+    {
+      "id": 35,
+      "enonce": "Pourquoi tout espace vectoriel normé de dimension finie est-il complet dans la démonstration donnée ?",
+      "options": ["Parce que toute suite est constante", "Parce qu'une suite de Cauchy est bornée, donc admet une sous-suite convergente, puis converge", "Parce que toutes les normes y sont identiques", "Parce qu'il est nécessairement compact"],
+      "reponse_correcte": 1,
+      "explication": "La boule fermée contenant la suite est compacte par Heine-Borel, et une suite de Cauchy ayant une sous-suite convergente converge."
+    },
+    {
+      "id": 36,
+      "enonce": "Sur \\(E=\\mathbb R\\), on pose \\(d(x,y)=|e^{-x}-e^{-y}|\\). Pourquoi \\(d\\) est-elle une distance ?",
+      "options": ["Car \\(e^{-x}\\) est injective et la distance est de la forme \\(|\\varphi(x)-\\varphi(y)|\\)", "Car elle est égale à \\(|x-y|\\)", "Car toute fonction réelle définit une distance", "Car \\(e^{-x}\\) est constante"],
+      "reponse_correcte": 0,
+      "explication": "Une fonction injective \\(\\varphi:E\\to\\mathbb R\\) induit la distance \\(|\\varphi(x)-\\varphi(y)|\\)."
+    },
+    {
+      "id": 37,
+      "enonce": "Dans cet espace \\(d(x,y)=|e^{-x}-e^{-y}|\\), la suite \\(u_n=n\\) est :",
+      "options": ["Convergente dans \\(E\\)", "De Cauchy mais non convergente dans \\(E\\)", "Non bornée donc non de Cauchy", "Stationnaire"],
+      "reponse_correcte": 1,
+      "explication": "Les \\(e^{-n}\\) tendent vers 0, valeur qui ne correspond à aucun réel par \\(x\\mapsto e^{-x}\\)."
+    },
+    {
+      "id": 38,
+      "enonce": "Comment peut-on compléter l'espace précédent ?",
+      "options": ["En retirant tous les entiers", "En ajoutant un point dont l'image par l'extension de \\(e^{-x}\\) vaut 0", "En remplaçant \\(d\\) par la distance nulle", "Il est impossible de le compléter"],
+      "reponse_correcte": 1,
+      "explication": "L'ajout d'un point \\(\\clubsuit\\) envoyé sur 0 identifie l'espace complété à l'image \\([0,+\\infty[\\)."
+    },
+    {
+      "id": 39,
+      "enonce": "Dire que la norme \\(N_A\\) est plus fine que \\(N_B\\), noté \\(N_A\\succeq N_B\\), signifie :",
+      "options": ["\\(\\exists C>0,\\ \forall f,\\ N_B(f)\\leq C N_A(f)\\)", "\\(N_A(f)=N_B(f)\\) pour tout \\(f\\)", "\\(N_A(f)\\leq N_B(f)\\) pour tout \\(f\\)", "\\(N_A\\) est une distance"],
+      "reponse_correcte": 0,
+      "explication": "Cette domination uniforme implique notamment que la convergence pour \\(N_A\\) entraîne celle pour \\(N_B\\)."
+    },
+    {
+      "id": 40,
+      "enonce": "Deux normes \\(N_A\\) et \\(N_B\\) sont équivalentes si :",
+      "options": ["Elles ont les mêmes valeurs", "\\(N_A\\succeq N_B\\) et \\(N_B\\succeq N_A\\)", "Elles sont toutes deux bornées", "Elles sont définies en dimension finie"],
+      "reponse_correcte": 1,
+      "explication": "L'équivalence exige une comparaison dans les deux sens par des constantes strictement positives."
+    },
+    {
+      "id": 41,
+      "enonce": "Sur \\(C([0,1])\\), quelle chaîne de finesse est établie dans les notes ?",
+      "options": ["\\(\\|\\cdot\\|_1\\succeq\\|\\cdot\\|_2\\succeq\\|\\cdot\\|_\\infty\\)", "\\(\\|\\cdot\\|_\\infty\\succeq\\|\\cdot\\|_2\\succeq\\|\\cdot\\|_1\\)", "Les trois normes sont équivalentes", "Aucune comparaison n'est possible"],
+      "reponse_correcte": 1,
+      "explication": "Sur l'intervalle de longueur 1, Cauchy-Schwarz puis la monotonie de l'intégrale donnent cette chaîne."
+    },
+    {
+      "id": 42,
+      "enonce": "Dans le cas réel, un produit scalaire est :",
+      "options": ["Bilinéaire", "Antilinéaire dans ses deux arguments", "Toujours nul", "Une norme"],
+      "reponse_correcte": 0,
+      "explication": "En réel il est bilinéaire ; en complexe, il est sesquilinéaire."
+    },
+    {
+      "id": 43,
+      "enonce": "Quelle formule donne la norme induite par un produit scalaire ?",
+      "options": ["\\(\\|x\\|=\\langle x,x\\rangle\\)", "\\(\\|x\\|=\\sqrt{\\langle x,x\\rangle}\\)", "\\(\\|x\\|=\\langle x,0\\rangle\\)", "\\(\\|x\\|=|\\langle x,y\\rangle|\\)"],
+      "reponse_correcte": 1,
+      "explication": "La positivité du produit scalaire permet de définir la norme par cette racine carrée."
+    },
+    {
+      "id": 44,
+      "enonce": "L'inégalité de Cauchy-Schwarz s'écrit :",
+      "options": ["\\(|\\langle x,y\\rangle|\\leq\\|x\\|\\,\\|y\\|\\)", "\\(|\\langle x,y\\rangle|\\geq\\|x\\|+\\|y\\|\\)", "\\(\\langle x,y\\rangle=0\\) toujours", "\\(\\|x+y\\|=\\|x\\|+\\|y\\|\\) toujours"],
+      "reponse_correcte": 0,
+      "explication": "Cauchy-Schwarz majore la valeur absolue du produit scalaire par le produit des normes."
+    },
+    {
+      "id": 45,
+      "enonce": "Quel est l'ensemble \\(\\ell^2(\\mathbb N;\\mathbb K)\\) ?",
+      "options": ["Les suites bornées", "Les suites à support fini", "Les suites dont la somme des carrés des modules est finie", "Toutes les suites réelles"],
+      "reponse_correcte": 2,
+      "explication": "On impose \\(\\sum_{n=0}^{+\\infty}|u_n|^2<+\\infty\\)."
+    },
+    {
+      "id": 46,
+      "enonce": "Quel produit scalaire est utilisé sur \\(\\ell^2(\\mathbb N;\\mathbb K)\\) ?",
+      "options": ["\\(\\sum_n u_n+v_n\\)", "\\(\\sum_n u_nv_n^*\\)", "\\(\\sup_n|u_n-v_n|\\)", "\\(\\sum_n|u_n-v_n|\\)"],
+      "reponse_correcte": 1,
+      "explication": "La conjugaison dans le second facteur est indispensable dans le cas complexe."
+    },
+    {
+      "id": 47,
+      "enonce": "Pourquoi la série définissant \\(\\langle u,v\\rangle\\) sur \\(\\ell^2\\) converge-t-elle ?",
+      "options": ["Elle a toujours un nombre fini de termes", "Elle est absolument convergente, grâce à \\(|u_nv_n^*|\\leq(|u_n|^2+|v_n|^2)/2\\)", "Les termes sont tous nuls", "Cela n'est pas garanti"],
+      "reponse_correcte": 1,
+      "explication": "La majoration terme à terme par une série sommable établit la convergence absolue."
+    },
+    {
+      "id": 48,
+      "enonce": "Pour la base canonique \\(e^{(k)}\\) de \\(\\ell^2\\), que vaut \\(\\langle e^{(i)},e^{(j)}\\rangle\\) ?",
+      "options": ["\\(0\\) pour tous \\(i,j\\)", "\\(1\\) pour tous \\(i,j\\)", "\\(\\delta_{i,j}\\)", "\\(i+j\\)"],
+      "reponse_correcte": 2,
+      "explication": "La famille canonique est orthonormée."
+    },
+    {
+      "id": 49,
+      "enonce": "Pourquoi la famille canonique de \\(\\ell^2\\) est-elle totale ?",
+      "options": ["Parce qu'elle est finie", "Parce que les troncatures d'une suite \\(\\ell^2\\) convergent vers elle", "Parce que tout vecteur y est égal à \\(e^{(0)}\\)", "Parce que \\(\\ell^2\\) est fini"],
+      "reponse_correcte": 1,
+      "explication": "Les suites à support fini, combinaisons linéaires de la famille canonique, sont denses dans \\(\\ell^2\\)."
+    },
+    {
+      "id": 50,
+      "enonce": "Un espace métrique séparable possède :",
+      "options": ["Un sous-ensemble dense au plus dénombrable", "Une base algébrique finie", "Une distance bornée", "Un unique point dense"],
+      "reponse_correcte": 0,
+      "explication": "C'est la définition de la séparabilité."
+    },
+    {
+      "id": 51,
+      "enonce": "Quel sous-ensemble montre que \\(\\mathbb R\\), muni de sa distance usuelle, est séparable ?",
+      "options": ["\\(\\varnothing\\)", "\\(\\mathbb Q\\)", "\\(\\mathbb R\\setminus\\mathbb Q\\)", "\\(\\{0\\}\\)"],
+      "reponse_correcte": 1,
+      "explication": "Les rationnels sont dénombrables et denses dans les réels."
+    },
+    {
+      "id": 52,
+      "enonce": "Un espace de Hilbert de dimension infinie est séparable si et seulement s'il :",
+      "options": ["Est compact", "Admet une base hilbertienne dénombrable", "Est de dimension finie", "A une norme nulle"],
+      "reponse_correcte": 1,
+      "explication": "C'est la caractérisation donnée par le théorème 2.2.15."
+    },
+    {
+      "id": 53,
+      "enonce": "Quelle est la norme subordonnée d'une forme linéaire continue \\(\\varphi\\in H'\\) ?",
+      "options": ["\\(\\sup_{\\|x\\|\\leq1}|\\varphi(x)|\\)", "\\(\\inf_{\\|x\\|\\leq1}|\\varphi(x)|\\)", "\\(\\varphi(0)\\)", "\\(\\sum_{x\\in H}|\\varphi(x)|\\)"],
+      "reponse_correcte": 0,
+      "explication": "Il s'agit de la norme d'opérateur de \\(\\varphi:H\\to\\mathbb K\\)."
+    },
+    {
+      "id": 54,
+      "enonce": "Si \\(\\varphi(x)=\\langle x,y\\rangle\\) est la représentation de Riesz-Fréchet, alors :",
+      "options": ["\\(\\|\\varphi\\|_{H'}=0\\)", "\\(\\|\\varphi\\|_{H'}=\\|y\\|\\)", "\\(\\|\\varphi\\|_{H'}=\\|y\\|^2\\)", "\\(\\|\\varphi\\|_{H'}=1/\\|y\\|\\)"],
+      "reponse_correcte": 1,
+      "explication": "Cauchy-Schwarz donne la majoration, atteinte pour \\(x=y/\\|y\\|\\) lorsque \\(y\\neq0\\)."
+    },
+    {
+      "id": 55,
+      "enonce": "Dans le cas réel, quelle propriété a l'application \\(J:y\\mapsto\\langle\\cdot,y\\rangle\\) de \\(H\\) vers \\(H'\\) ?",
+      "options": ["Elle est linéaire, surjective et isométrique", "Elle est nulle", "Elle n'est jamais injective", "Elle est seulement définie en dimension finie"],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Riesz-Fréchet et l'égalité des normes font de \\(J\\) une isométrie linéaire surjective dans le cas réel."
+    },
+    {
+      "id": 56,
+      "enonce": "Dans le cas complexe, l'application de Riesz \\(J:y\\mapsto\\langle\\cdot,y\\rangle\\) est :",
+      "options": ["Linéaire", "Anti-linéaire", "Non continue", "Constante"],
+      "reponse_correcte": 1,
+      "explication": "Avec la convention des notes, elle est anti-linéaire dans le cas complexe."
+    },
+    {
+      "id": 57,
+      "enonce": "Comment le produit scalaire sur \\(H'\\) est-il construit dans le cas réel ?",
+      "options": ["\\(\\langle\\varphi,\\psi\\rangle_{H'}=\\langle J^{-1}(\\varphi),J^{-1}(\\psi)\\rangle_H\\)", "\\(\\langle\\varphi,\\psi\\rangle_{H'}=\\varphi+\\psi\\)", "\\(\\langle\\varphi,\\psi\\rangle_{H'}=0\\)", "Il ne peut pas être construit"],
+      "reponse_correcte": 0,
+      "explication": "La structure hilbertienne est transportée de \\(H\\) vers son dual au moyen de l'isométrie de Riesz-Fréchet."
+    },
+    {
+      "id": 58,
+      "enonce": "Quelle conséquence en tire-t-on pour \\(H'\\), muni de sa norme subordonnée ?",
+      "options": ["\\(H'\\) est un espace de Hilbert", "\\(H'\\) n'est jamais complet", "\\(H'\\) est compact", "\\(H'\\) est nécessairement de dimension finie"],
+      "reponse_correcte": 0,
+      "explication": "Dans le cas réel, la structure et la complétude de \\(H\\) se transportent à \\(H'\\)."
+    }
+  ]
+}
