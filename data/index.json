@@ -17,20 +17,15 @@
       "nom": "Mathématiques",
       "dossier": "mathematiques",
       "chapitres": [
-        { "titre": "...", "fichier": "..."},
-        { "titre": "...", "fichier": "..."},
-        { "titre": "...", "fichier": "..."},
-        { "titre": "...", "fichier": "..."}
+        { "titre": "Probas Test", "fichier": "probas.json"}
       ]
     },
     {
       "nom": "Autres",
       "dossier": "Autres",
       "chapitres": [
-        { "titre": "...", "fichier": "..."},
-        { "titre": "...", "fichier": "..."},
-        { "titre": "...", "fichier": "..."},
-        { "titre": "...", "fichier": "..."}
+        { "titre": "Climat 1", "fichier": "climat1.json"},
+        { "titre": "Climat 2", "fichier": "climat2.json"}
       ]
     }
   ]

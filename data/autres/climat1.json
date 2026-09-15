@@ -1,0 +1,1105 @@
+{
+  "titre_chapitre": "Limites planétaires et biodiversité - Sciences du Climat (D. Paillard, CentraleSupélec 2025-2026)",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quels sont les deux thèmes principaux du cours dont ce document est extrait ?",
+      "options": [
+        "« Limites planétaires et biodiversité » et « Sciences du Climat »",
+        "« Programmation orientée objet » et « Bases de données »",
+        "« Mécanique des fluides » et « Thermodynamique appliquée »"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intitulé du cours de D. Paillard est « Limites planétaires et biodiversité » / « Sciences du Climat », dispensé à CentraleSupélec en 2025-2026."
+    },
+    {
+      "id": 2,
+      "enonce": "Que signifie étymologiquement le mot grec « climat » (klima) ?",
+      "options": [
+        "Une inclinaison (l'angle, la hauteur du Soleil)",
+        "Un cycle temporel répétitif",
+        "Une masse d'air en mouvement"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'étymologie du mot « climat » (klima) renvoie à une inclinaison, liée à la hauteur du Soleil au-dessus de l'horizon, donc à la latitude."
+    },
+    {
+      "id": 3,
+      "enonce": "Selon le concept géographique originel du « climat », comment celui-ci varie-t-il ?",
+      "options": [
+        "Il varie dans l'espace mais est supposé fixe dans le temps",
+        "Il varie dans le temps mais est supposé fixe dans l'espace",
+        "Il ne varie ni dans le temps ni dans l'espace"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le climat est originellement un concept de géographe : il dépend de l'espace (la latitude) mais est supposé fixe dans le temps, permettant de définir les conditions d'habitabilité de la Planète."
+    },
+    {
+      "id": 4,
+      "enonce": "Jusqu'à quel siècle le mot « climat » a-t-il souvent été utilisé comme synonyme de « latitude géographique » ?",
+      "options": [
+        "Le 12e siècle",
+        "Le 17e siècle",
+        "Le 20e siècle"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Jusqu'au 17e siècle, le mot « climat » était souvent utilisé comme synonyme de latitude géographique."
+    },
+    {
+      "id": 5,
+      "enonce": "Selon la théorie plutoniste dominante au début du 19e siècle, comment évoluait la température de la Terre depuis sa formation ?",
+      "options": [
+        "Elle se réchauffait progressivement",
+        "Elle se refroidissait lentement et continuellement",
+        "Elle oscillait de manière cyclique sans tendance"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Au début du 19e siècle, le point de vue dominant (théorie plutoniste) était celui d'un lent refroidissement de la Terre depuis une origine très chaude."
+    },
+    {
+      "id": 6,
+      "enonce": "Quel âge de la Terre Buffon a-t-il estimé en 1755 par extrapolation linéaire du refroidissement ?",
+      "options": [
+        "Environ 74 000 ans",
+        "Environ 4,5 milliards d'années",
+        "Environ 100 millions d'années"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Buffon (1755) a estimé l'âge de la Terre à environ 74 000 ans par extrapolation linéaire du temps de refroidissement."
+    },
+    {
+      "id": 7,
+      "enonce": "Quel âge de la Terre Kelvin a-t-il calculé en 1860 en utilisant la diffusion de la chaleur ?",
+      "options": [
+        "Environ 74 000 ans",
+        "Environ 100 millions d'années",
+        "Environ 4,5 milliards d'années"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Kelvin (1860), en modélisant la diffusion de la chaleur, a estimé l'âge de la Terre à environ 100 millions d'années, un chiffre qui s'est révélé faux (les géologues avaient raison)."
+    },
+    {
+      "id": 8,
+      "enonce": "Qu'est-ce qui a permis, dès le 18e siècle avec de Saussure, de mettre en évidence l'ancienne extension des glaciers ?",
+      "options": [
+        "Les « roches moutonnées » et les striations glaciaires",
+        "Les fossiles de dinosaures",
+        "Les mesures de température des océans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les « roches moutonnées » (de Saussure, 18e siècle) et les striations témoignent du passage et de la direction d'écoulement d'anciens glaciers."
+    },
+    {
+      "id": 9,
+      "enonce": "Que révèlent les striations observées sur certaines roches ?",
+      "options": [
+        "La composition chimique du substratum rocheux",
+        "La direction d'écoulement de la glace sur de longues distances",
+        "L'âge exact de la roche par datation radiométrique"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les striations montrent la direction du flux glaciaire sur de longues distances."
+    },
+    {
+      "id": 10,
+      "enonce": "Que sont les « blocs erratiques » évoqués dans la découverte des glaciations ?",
+      "options": [
+        "De grandes roches (parfois des milliers de tonnes) transportées loin de leur origine par les glaciers",
+        "Des météorites tombées lors de la dernière ère glaciaire",
+        "Des formations volcaniques typiques des zones tempérées"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les blocs erratiques sont de grandes roches, parfois de plusieurs milliers de tonnes, transportées sur des kilomètres le long des vallées par les glaciers."
+    },
+    {
+      "id": 11,
+      "enonce": "Qui a décrit dès 1824 l'effet de serre atmosphérique lié à la « chaleur obscure » (rayonnement infrarouge) ?",
+      "options": [
+        "J. Fourier",
+        "S. Arrhenius",
+        "J. Tyndall"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'effet de serre a été décrit par Fourier dès 1824 : l'atmosphère capture la « chaleur obscure » (rayonnement infrarouge) selon sa composition."
+    },
+    {
+      "id": 12,
+      "enonce": "Quel scientifique a mesuré expérimentalement l'absorption du rayonnement infrarouge par les gaz atmosphériques, identifiant la vapeur d'eau et le CO2 comme principaux gaz à effet de serre ?",
+      "options": [
+        "Tyndall",
+        "Croll",
+        "Chamberlin"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Tyndall (1861, 1863) a mesuré l'absorption IR des gaz atmosphériques, montrant que la vapeur d'eau et le CO2 sont les principaux gaz à effet de serre."
+    },
+    {
+      "id": 13,
+      "enonce": "En 1896, quel effet de refroidissement Arrhenius a-t-il calculé si le CO2 atmosphérique était réduit à 0,62-0,55 de sa valeur de l'époque ?",
+      "options": [
+        "Un réchauffement de 4-5°C",
+        "Une baisse de température de 4-5°C entre les 40e et 50e parallèles",
+        "Aucun changement significatif de température"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Arrhenius (1896) a calculé qu'une réduction du CO2 à 0,62-0,55 de sa valeur alors présente entraînerait un abaissement de température de 4 à 5°C entre les 40e et 50e parallèles, compatible avec un âge glaciaire."
+    },
+    {
+      "id": 14,
+      "enonce": "Quelle est la seconde grande théorie physique (indépendante du CO2) expliquant les changements climatiques, développée notamment par Adhémar, Croll et Milankovic ?",
+      "options": [
+        "La théorie de la dérive des continents",
+        "La théorie astronomique (variations des paramètres orbitaux de la Terre)",
+        "La théorie de l'activité solaire cyclique à courte période"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La théorie astronomique (Adhémar 1842, Croll 1864/1867, Milankovic 1920/1941) relie les changements climatiques aux variations des paramètres orbitaux de la Terre, en lien avec le « 3e mouvement de la Terre » connu depuis l'Antiquité (Hipparque, 127 av. J.-C.)."
+    },
+    {
+      "id": 15,
+      "enonce": "Comment a évolué l'estimation de la sensibilité climatique à l'équilibre (ECS, ΔT pour un doublement de CO2) entre 1896 (Arrhenius) et 2021 (GIEC) ?",
+      "options": [
+        "Elle est passée d'environ 5°C à environ 3°C [1,5 à 4,5°C], restant dans un ordre de grandeur comparable",
+        "Elle est passée de 0°C à 10°C, montrant une totale absence de consensus historique",
+        "Elle a été révisée à la baisse jusqu'à devenir négligeable (<0,5°C)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "De 1896 (~5°C, Arrhenius) à 2021 (3°C [1,5-4,5°C], GIEC), les estimations de la sensibilité climatique sont restées dans un ordre de grandeur comparable, malgré l'affinement des modèles."
+    },
+    {
+      "id": 16,
+      "enonce": "Qui a été le premier à « détecter » en 1938 un réchauffement observé compatible avec l'augmentation du CO2 atmosphérique ?",
+      "options": [
+        "Callendar",
+        "Plass",
+        "Charney"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Callendar (1938) a été le premier à détecter dans les observations un réchauffement compatible avec l'augmentation de la concentration en CO2."
+    },
+    {
+      "id": 17,
+      "enonce": "Quel scientifique a reçu le prix Nobel de physique en 2021 pour ses travaux sur la modélisation du climat (notamment liés au calcul de la sensibilité climatique) ?",
+      "options": [
+        "Manabe",
+        "Charney",
+        "Callendar"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Manabe a obtenu le prix Nobel de physique en 2021 pour ses contributions à la modélisation physique du climat de la Terre."
+    },
+    {
+      "id": 18,
+      "enonce": "Qu'est-ce que le rapport Charney (1979) ?",
+      "options": [
+        "Le premier rapport scientifique d'évaluation pour les décideurs politiques, commandé par le gouvernement américain",
+        "Le premier accord international contraignant sur les émissions de CO2",
+        "Le premier manuel scolaire sur le changement climatique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le rapport Charney (1979) est le premier rapport d'évaluation scientifique préparé à la demande du gouvernement américain (J. Carter) à destination des décideurs politiques."
+    },
+    {
+      "id": 19,
+      "enonce": "Dans le téléfilm éducatif américain « The Unchained Goddess » (Frank Capra, 1958), quel phénomène climatique est déjà clairement présenté ?",
+      "options": [
+        "Le réchauffement climatique lié aux émissions de CO2 industrielles",
+        "Le retour prochain d'une ère glaciaire",
+        "La disparition de la couche d'ozone"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dès 1958, ce programme éducatif américain présentait clairement l'idée qu'en libérant plus de 6 milliards de tonnes de CO2 par an, l'humanité pourrait réchauffer l'atmosphère : le réchauffement climatique n'est pas une découverte récente."
+    },
+    {
+      "id": 20,
+      "enonce": "D'après les observations NASA/GISS (1880-2021), le réchauffement est-il identique sur les continents et sur les océans ?",
+      "options": [
+        "Non, il est plus fort sur les terres (~+1,4°C) que sur les océans (~+0,65°C) en 2022 par rapport à 1950-1980",
+        "Non, il est plus fort sur les océans que sur les terres",
+        "Oui, il est rigoureusement identique sur les terres et sur les océans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le réchauffement observé est plus marqué sur les terres (+1,4°C) que sur la surface des océans (+0,65°C) en raison de la plus faible capacité thermique des sols par rapport à celle de l'océan."
+    },
+    {
+      "id": 21,
+      "enonce": "Sur l'échelle de temps du diagramme « Une petite histoire du climat » (du Cambrien à aujourd'hui), quelle particularité faut-il garder à l'esprit ?",
+      "options": [
+        "L'échelle temporelle est non-linéaire",
+        "L'échelle temporelle est parfaitement linéaire et continue",
+        "Le diagramme ne couvre que les 10 000 dernières années"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le diagramme couvre 540 millions d'années jusqu'à aujourd'hui avec une échelle de temps non-linéaire, qu'il faut garder à l'esprit pour son interprétation."
+    },
+    {
+      "id": 22,
+      "enonce": "Il y a environ combien de temps la calotte glaciaire de l'Antarctique est-elle apparue ?",
+      "options": [
+        "Environ 34 millions d'années",
+        "Environ 3 millions d'années",
+        "Environ 500 000 ans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La calotte glaciaire de l'Antarctique apparaît il y a environ 34 millions d'années."
+    },
+    {
+      "id": 23,
+      "enonce": "Il y a environ combien de temps la calotte glaciaire du Groenland (et des autres calottes de l'hémisphère nord) est-elle apparue ?",
+      "options": [
+        "Environ 3 millions d'années",
+        "Environ 34 millions d'années",
+        "Environ 2,3 milliards d'années"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les calottes du Groenland et d'autres régions de l'hémisphère nord apparaissent il y a environ 3 millions d'années."
+    },
+    {
+      "id": 24,
+      "enonce": "Quelle était l'anomalie de température globale estimée pendant l'Eocène par rapport à aujourd'hui ?",
+      "options": [
+        "+8 à +12°C",
+        "-4 à -6°C",
+        "0°C (climat identique à aujourd'hui)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'Eocène, période la plus chaude du Cénozoïque, présentait une anomalie de température estimée entre +8 et +12°C par rapport à aujourd'hui."
+    },
+    {
+      "id": 25,
+      "enonce": "Quel type de végétation et de faune a été retrouvé en zone arctique (au-delà du cercle polaire) durant l'Eocène ?",
+      "options": [
+        "Une végétation tropicale (palmiers, conifères) et des animaux à sang froid (crocodiles, tortues)",
+        "Une toundra similaire à celle observée aujourd'hui",
+        "Des glaciers permanents avec une faune polaire actuelle"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Durant l'Eocène, une forêt tropicale (palmiers, conifères) et des animaux à sang froid (crocodiles, tortues) existaient en zone arctique, même durant la nuit polaire."
+    },
+    {
+      "id": 26,
+      "enonce": "Quelle preuve fossile de climat chaud a été trouvée sur Axel Heiberg Island, dans l'Arctique canadien ?",
+      "options": [
+        "Des vertèbres de crocodilien",
+        "Des ossements de mammouth",
+        "Des coquilles de crustacés d'eau froide"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Des vertèbres de crocodilien ont été retrouvées sur Axel Heiberg Island, témoignant d'un climat très chaud en zone arctique durant l'Eocène."
+    },
+    {
+      "id": 27,
+      "enonce": "Quelle fourchette de pCO2 atmosphérique est estimée pour l'Eocène par différents proxies (stomates, phytoplancton, paléosols, etc.) ?",
+      "options": [
+        "Entre 800 et 3000 ppm",
+        "Entre 100 et 200 ppm",
+        "Environ 420 ppm, comme aujourd'hui"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les différents proxies (stomates, phytoplancton, paléosols, bore, nahcolite-trona) situent le pCO2 de l'Eocène entre environ 800 et 3000 ppm."
+    },
+    {
+      "id": 28,
+      "enonce": "Quelle difficulté les modèles climatiques rencontrent-ils pour reproduire le climat chaud de l'Eocène (palmiers polaires, etc.) avec les niveaux de CO2 estimés ?",
+      "options": [
+        "Les modèles ont du mal à obtenir un réchauffement suffisant même avec un CO2 4 à 8 fois supérieur au niveau actuel",
+        "Les modèles surestiment largement le réchauffement de l'Eocène",
+        "Il n'existe aucune difficulté, les modèles reproduisent parfaitement l'Eocène"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Avec un CO2 estimé entre 4xCO2 et 8xCO2, les modèles ont du mal à produire un climat suffisamment chaud pour avoir des palmiers polaires ou faire fondre l'Antarctique, ce qui reste une question non résolue."
+    },
+    {
+      "id": 29,
+      "enonce": "Contrairement à l'idée reçue au 19e siècle d'un refroidissement continu de la Terre, quel était réellement le climat du Carbonifère ?",
+      "options": [
+        "Froid, correspondant à une glaciation sévère de plusieurs dizaines de millions d'années",
+        "Chaud, plus chaud que l'Eocène",
+        "Identique au climat actuel"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Contrairement à ce qu'on pensait au 19e siècle, le Carbonifère correspond à une période froide, une glaciation sévère durant des dizaines de millions d'années, en cohérence avec un CO2 atmosphérique bas à cette époque."
+    },
+    {
+      "id": 30,
+      "enonce": "Comment expliquer le faible taux de CO2 atmosphérique au Carbonifère dans le cadre du cycle géologique du carbone ?",
+      "options": [
+        "Une préservation importante de matière organique (formation de gisements de charbon) a agi comme puits de carbone",
+        "Une activité volcanique anormalement basse a réduit les émissions de CO2",
+        "L'érosion des carbonates a capturé le CO2 atmosphérique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le faible CO2 du Carbonifère s'explique par un enfouissement important de carbone (formation de gisements de charbon), agissant comme puits de carbone alors que les autres flux restent globalement inchangés."
+    },
+    {
+      "id": 31,
+      "enonce": "Quel grand continent de l'hémisphère sud était largement recouvert d'une immense calotte glaciaire au Carbonifère ?",
+      "options": [
+        "Le Gondwana",
+        "La Laurasie",
+        "La Pangée équatoriale"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Gondwana, le plus grand continent de l'hémisphère sud à cette époque, était en grande partie recouvert d'une immense calotte glaciaire."
+    },
+    {
+      "id": 32,
+      "enonce": "Où étaient situés l'Europe, l'Amérique du Nord, une partie de la Russie et de la Chine durant le Carbonifère, expliquant leurs futurs gisements de charbon ?",
+      "options": [
+        "Proches de l'équateur",
+        "Aux pôles",
+        "Sous l'océan"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'Europe, l'Amérique du Nord, une partie de la Russie et de la Chine se trouvaient alors proches de l'équateur, ce qui explique leurs gisements de charbon exploités bien plus tard lors de la révolution industrielle."
+    },
+    {
+      "id": 33,
+      "enonce": "Quels sont les deux épisodes bien documentés d'épisodes de « Terre boule de neige » (Snowball Earth) au Précambrien ?",
+      "options": [
+        "Environ 750-700 millions d'années et environ 2,3 milliards d'années",
+        "Environ 34 millions d'années et environ 3 millions d'années",
+        "Environ 21 000 ans et environ 120 000 ans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Deux épisodes bien documentés de Terre boule de neige, où la planète était presque entièrement couverte de glace, se situent vers 750-700 millions d'années et vers 2,3 milliards d'années."
+    },
+    {
+      "id": 34,
+      "enonce": "À quel événement le premier épisode « Snowball Earth » (il y a environ 2,3 milliards d'années) est-il associé ?",
+      "options": [
+        "Le « Great Oxydation Event » (grande oxydation de l'atmosphère)",
+        "L'extinction des dinosaures",
+        "La formation de la Lune"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le premier épisode de Terre boule de neige, il y a environ 2,3 milliards d'années, correspond au Great Oxydation Event, une hausse considérable de l'oxygène terrestre."
+    },
+    {
+      "id": 35,
+      "enonce": "De combien la température moyenne était-elle abaissée lors du dernier maximum glaciaire (il y a environ 21 000 ans) ?",
+      "options": [
+        "Environ -4 à -6°C",
+        "Environ -20°C",
+        "Environ -1°C"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le dernier maximum glaciaire (il y a environ 21 000 ans) correspond à une température globale inférieure d'environ 4 à 6°C à celle d'aujourd'hui, une amplitude comparable (mais de signe opposé) à celle attendue en 2100."
+    },
+    {
+      "id": 36,
+      "enonce": "Où se trouve l'entrée de la Grotte Cosquer, célèbre pour ses peintures datant du dernier maximum glaciaire ?",
+      "options": [
+        "37 mètres sous le niveau de la mer actuel, dans les Calanques de Marseille",
+        "Au sommet du Mont-Blanc",
+        "Dans le désert du Sahara"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'entrée de la Grotte Cosquer, dans les Calanques de Marseille, est aujourd'hui à 37 mètres sous le niveau de la mer, car le niveau marin était beaucoup plus bas lors du dernier maximum glaciaire."
+    },
+    {
+      "id": 37,
+      "enonce": "Quel oiseau, aujourd'hui éteint depuis le 19e siècle, est représenté dans la Grotte Cosquer et vivait dans les zones froides de l'Atlantique Nord ?",
+      "options": [
+        "Le Grand Pingouin (Pinguinus impennis)",
+        "Le manchot empereur",
+        "L'albatros hurleur"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Grand Pingouin (Pinguinus impennis, « Great Auk »), un oiseau des zones froides de l'Atlantique Nord éteint au 19e siècle, est représenté dans la Grotte Cosquer."
+    },
+    {
+      "id": 38,
+      "enonce": "De combien environ le niveau marin était-il plus bas lors du dernier maximum glaciaire ?",
+      "options": [
+        "Environ 120 à 130 mètres",
+        "Environ 10 mètres",
+        "Environ 500 mètres"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le niveau marin était environ 120 à 130 mètres plus bas lors du dernier maximum glaciaire, en raison du volume d'eau stocké dans les calottes glaciaires continentales."
+    },
+    {
+      "id": 39,
+      "enonce": "Lors du dernier maximum glaciaire, quelles régions de l'hémisphère nord étaient recouvertes de calottes de glace ?",
+      "options": [
+        "Le Canada et la Scandinavie, notamment",
+        "L'Australie et l'Afrique du Sud",
+        "Seule l'Antarctique était concernée"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Canada était couvert de glace, tout comme la Scandinavie, du fait de l'extension des calottes glaciaires de l'hémisphère nord."
+    },
+    {
+      "id": 40,
+      "enonce": "Comment appelle-t-on la région aujourd'hui submergée sous la mer du Nord, occupée par des populations mésolithiques il y a environ 10 000 ans lors du bas niveau marin ?",
+      "options": [
+        "Le Doggerland",
+        "L'Atlantide",
+        "Le Sundaland"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Doggerland est la région aujourd'hui submergée sous la mer du Nord, occupée par des populations mésolithiques il y a environ 10 000 ans, comme l'attestent des vestiges archéologiques."
+    },
+    {
+      "id": 41,
+      "enonce": "Quelle est l'épaisseur typique de glace d'une calotte glaciaire comme l'Antarctique aujourd'hui ?",
+      "options": [
+        "Environ 2 à 4 km",
+        "Environ 1 mètre",
+        "Environ 50 mètres"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une calotte glaciaire comme l'Antarctique a une épaisseur de glace typique de 2 à 4 km, à ne pas confondre avec la banquise (sea-ice), typiquement épaisse de 1 mètre."
+    },
+    {
+      "id": 42,
+      "enonce": "Quelle proportion de l'eau douce mondiale l'Antarctique représente-t-il ?",
+      "options": [
+        "Environ 70%",
+        "Environ 10%",
+        "Environ 1%"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'Antarctique constitue le plus grand réservoir d'eau douce de la Terre, représentant environ 70% de l'eau douce mondiale."
+    },
+    {
+      "id": 43,
+      "enonce": "Quelle est la différence essentielle entre une banquise (sea-ice) et un ice-shelf (plateau glaciaire flottant) ?",
+      "options": [
+        "Le sea-ice est fait d'eau de mer gelée (environ 1 m d'épaisseur), tandis que l'ice-shelf est la partie flottante d'une calotte glaciaire d'eau douce (glace continentale)",
+        "Le sea-ice est toujours plus épais que l'ice-shelf",
+        "Il n'existe aucune différence entre les deux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le sea-ice est de l'eau de mer gelée, typiquement d'environ 1 mètre d'épaisseur, tandis que l'ice-shelf est la partie flottante d'une calotte glaciaire faite d'eau douce accumulée sous forme de neige."
+    },
+    {
+      "id": 44,
+      "enonce": "Comment la dynamique de l'écoulement d'une calotte glaciaire (comme l'Antarctique) est-elle principalement contrôlée ?",
+      "options": [
+        "Par des petites structures topographiques créant des courants de glace (streams) bien définis",
+        "Uniquement par la température de l'air en surface",
+        "De manière parfaitement uniforme sur toute la calotte"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La dynamique d'une calotte glaciaire est largement contrôlée par des caractéristiques topographiques à petite échelle, la glace s'écoulant surtout via des courants de glace (streams) kilométriques bien définis, comparables à des vallées de montagne."
+    },
+    {
+      "id": 45,
+      "enonce": "Que mesure le d18O benthique utilisé comme proxy dans les enregistrements du Quaternaire ?",
+      "options": [
+        "Le volume des glaces (taille des calottes / niveau marin)",
+        "La température de l'air en Antarctique uniquement",
+        "La concentration en méthane atmosphérique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le d18O benthique (mesuré dans les foraminifères benthiques) est un proxy du volume de glace, donc de la taille des calottes glaciaires ou du niveau marin."
+    },
+    {
+      "id": 46,
+      "enonce": "À quelle période astronomique principale est associée la périodicité dominante des cycles glaciaires du Quaternaire (environ 100 000 ans) ?",
+      "options": [
+        "L'excentricité de l'orbite terrestre",
+        "La rotation propre de la Terre sur elle-même",
+        "Le cycle solaire de 11 ans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La périodicité principale des cycles glaciaires, autour de 100 000 ans, est liée (de façon encore mal comprise) à l'excentricité de l'orbite terrestre."
+    },
+    {
+      "id": 47,
+      "enonce": "Quelle est l'amplitude de variation de température observée lors des événements de Dansgaard-Oeschger dans les carottes de glace du Groenland ?",
+      "options": [
+        "Un saut de 10° à 16°C en quelques années ou décennies",
+        "Une variation continue de moins de 1°C sur des millénaires",
+        "Une variation identique à celle de la variabilité interannuelle actuelle"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les événements de Dansgaard-Oeschger montrent des sauts de température moyenne de 10° à 16°C en quelques années ou décennies, suivis d'un retour au froid glaciaire en quelques décennies ou siècles."
+    },
+    {
+      "id": 48,
+      "enonce": "Quelle nouvelle notion, introduite par le GIEC en 2001, découle de la découverte des événements de Dansgaard-Oeschger ?",
+      "options": [
+        "La notion de « surprise climatique » (climatic surprise) et de points de bascule (tipping points)",
+        "La notion d'effet de serre",
+        "La notion de sensibilité climatique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La variabilité abrupte révélée par les événements de Dansgaard-Oeschger a mené à la notion de « surprise climatique » (GIEC 2001) : de petits changements peuvent parfois avoir de grandes conséquences, révélant l'existence de points de bascule dans le système climatique."
+    },
+    {
+      "id": 49,
+      "enonce": "Que révèlent les événements de Heinrich identifiés dans les sédiments marins de l'Atlantique Nord ?",
+      "options": [
+        "Des épisodes abrupts de décharges massives d'icebergs (débris glaciaires, eaux moins salées, refroidissement)",
+        "Des périodes de sécheresse extrême en Afrique",
+        "Des éruptions volcaniques majeures en Islande"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les événements de Heinrich correspondent à des épisodes abrupts de décharge massive d'icebergs entre 40° et 55°N, avec beaucoup de débris glaciaires, des eaux moins salées et un refroidissement."
+    },
+    {
+      "id": 50,
+      "enonce": "À quelle calotte glaciaire est associé un « effondrement » abrupt à l'origine des événements de Heinrich ?",
+      "options": [
+        "La calotte Laurentide",
+        "La calotte du Groenland",
+        "La calotte de l'Antarctique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une partie de la calotte Laurentide (Amérique du Nord) s'est effondrée de manière assez abrupte, produisant les événements de Heinrich."
+    },
+    {
+      "id": 51,
+      "enonce": "Aujourd'hui, dans quel sens l'océan Atlantique transporte-t-il la chaleur, à la différence des autres bassins océaniques et de l'atmosphère ?",
+      "options": [
+        "De l'hémisphère sud vers l'hémisphère nord",
+        "De l'hémisphère nord vers l'hémisphère sud",
+        "De l'équateur vers les pôles, dans les deux hémisphères de façon symétrique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'océan Atlantique transporte aujourd'hui la chaleur de l'hémisphère sud vers l'hémisphère nord, contrairement aux autres bassins océaniques et à l'atmosphère qui transportent la chaleur de l'équateur vers les pôles."
+    },
+    {
+      "id": 52,
+      "enonce": "Que suggère la corrélation observée entre les carottes de glace du Groenland (GRIP) et de l'Antarctique (Byrd, Vostok) durant les changements abrupts glaciaires ?",
+      "options": [
+        "Un lien avec des réorganisations abruptes de la circulation océanique de l'Atlantique",
+        "Une absence totale de corrélation entre les deux hémisphères",
+        "Un phénomène purement local sans lien inter-hémisphérique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsque le transport de chaleur atlantique est arrêté ou inversé, l'hémisphère nord se refroidit tandis que l'hémisphère sud se réchauffe, ce qui est précisément observé dans les carottes de glace du Groenland et de l'Antarctique, suggérant un lien avec des changements abrupts de circulation océanique."
+    },
+    {
+      "id": 53,
+      "enonce": "Dans le modèle simplifié de Stommel (1961) étudié en TD, quelle grandeur détermine l'intensité de la circulation thermohaline m ?",
+      "options": [
+        "La différence de densité entre les deux boîtes (équateur et pôle), fonction des températures et salinités",
+        "Uniquement la différence de pression atmosphérique",
+        "Uniquement la vitesse des vents de surface"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le modèle de Stommel, la circulation thermohaline m est proportionnelle à la différence de densité entre les deux réservoirs (équateur, pôle), elle-même fonction des différences de température et de salinité."
+    },
+    {
+      "id": 54,
+      "enonce": "Quelle loi physique (Planck, 1901) décrit la puissance électromagnétique rayonnée par un corps à l'équilibre thermodynamique ?",
+      "options": [
+        "La loi du corps noir",
+        "La loi de Coulomb",
+        "La loi de Boyle-Mariotte"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi du corps noir (Planck, 1901), dérivée de la statistique des photons, décrit la puissance électromagnétique rayonnée par unité de surface à l'équilibre thermodynamique."
+    },
+    {
+      "id": 55,
+      "enonce": "Que donne la loi du déplacement de Wien à partir de la loi du corps noir ?",
+      "options": [
+        "La longueur d'onde correspondant au maximum de puissance rayonnée, en fonction de la température",
+        "La puissance totale intégrée sur tout le spectre",
+        "La constante de Stefan-Boltzmann"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi du déplacement de Wien (λmax ≈ 3000 μm / T) donne la longueur d'onde correspondant au maximum d'émission du corps noir, en fonction de sa température."
+    },
+    {
+      "id": 56,
+      "enonce": "Que vaut l'intégrale de la loi de Planck sur l'ensemble du spectre électromagnétique ?",
+      "options": [
+        "P = σ T⁴ (loi de Stefan)",
+        "P = k T (loi des gaz parfaits)",
+        "P = h ν (relation de Planck-Einstein)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégration de la loi de Planck sur tout le spectre donne simplement P = σ T⁴, où σ est la constante de Stefan."
+    },
+    {
+      "id": 57,
+      "enonce": "Dans le bilan radiatif d'une sphère isotherme illuminée d'un côté (comme la Terre), pourquoi la constante solaire est-elle divisée par 4 ?",
+      "options": [
+        "Pour rendre compte de la géométrie : le rayonnement intercepté (disque de rayon R) est moyenné sur toute la surface de la sphère (4πR²)",
+        "Parce que la Terre reçoit seulement un quart de l'énergie du Soleil comparé à Vénus",
+        "Parce que l'albédo terrestre vaut exactement 0,25"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La surface interceptant le rayonnement solaire est πR² (un disque), alors que le rayonnement est réémis sur toute la surface de la sphère 4πR² ; en moyenne, cela revient à diviser la constante solaire par 4."
+    },
+    {
+      "id": 58,
+      "enonce": "Quelle est la valeur approximative de l'albédo terrestre utilisée dans le bilan radiatif simplifié de la Terre ?",
+      "options": [
+        "0,31",
+        "0,75",
+        "0,05"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'albédo terrestre utilisé dans le bilan radiatif simplifié est d'environ 0,31 (0,306 dans le tableau comparatif des planètes)."
+    },
+    {
+      "id": 59,
+      "enonce": "Quelle est la température effective (Te) calculée pour la Terre à partir du bilan radiatif simple (1-α)S/4 = σT⁴ ?",
+      "options": [
+        "Environ 255 K (soit -18°C)",
+        "Environ 288 K (soit 15°C)",
+        "Environ 373 K (soit 100°C)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La température effective de la Terre calculée par le bilan radiatif simple est d'environ 255 K (-18°C), inférieure à la température de surface réelle (environ 288 K / 15°C), la différence étant due à l'effet de serre."
+    },
+    {
+      "id": 60,
+      "enonce": "Pourquoi le calcul simple de température effective échoue-t-il « dramatiquement » pour la planète Vénus ?",
+      "options": [
+        "Parce qu'un effet de serre très puissant (atmosphère de CO2 dense) élève fortement la température de surface bien au-delà de la température effective",
+        "Parce que Vénus n'a pas d'atmosphère du tout",
+        "Parce que l'albédo de Vénus est nul"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sur Vénus, la température de surface (~464°C) est bien supérieure à la température effective calculée (~-41°C), en raison d'un effet de serre extrêmement puissant lié à sa dense atmosphère de CO2, absent du modèle simple."
+    },
+    {
+      "id": 61,
+      "enonce": "Où exactement les météorologues mesurent-ils conventionnellement la « température de surface » (dite T2m) ?",
+      "options": [
+        "Dans un abri (type abri Stevenson) à environ 1,50-2 mètres au-dessus du sol",
+        "Directement à la surface du sol",
+        "En moyenne sur toute l'épaisseur de la troposphère"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La température dite « de surface » ou T2m est en réalité mesurée dans un abri standardisé (abri Stevenson) placé à environ 1,50 mètre au-dessus du sol naturel, et non la température du sol lui-même."
+    },
+    {
+      "id": 62,
+      "enonce": "Selon le cours, pourquoi ce choix de mesurer la température à 1,5 m dans un abri est-il qualifié de très « anthropocentrique » ?",
+      "options": [
+        "Parce que c'est l'endroit où vivent les humains, correspondant à la définition géographique originelle du climat, mais pas nécessairement le lieu le plus pertinent physiquement",
+        "Parce que c'est le seul endroit techniquement accessible pour poser un thermomètre",
+        "Parce que la température y est totalement indépendante du climat global"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le climat étant un concept géographique centré sur l'habitabilité humaine, on mesure la température « là où l'on vit » (1,5 m), ce qui n'est pas forcément le meilleur endroit d'un point de vue purement physique pour caractériser « la température de la Terre »."
+    },
+    {
+      "id": 63,
+      "enonce": "Pourquoi l'océan est-il, d'un point de vue physique, un meilleur endroit que l'atmosphère de surface pour suivre l'accumulation de chaleur liée au changement climatique ?",
+      "options": [
+        "Sa capacité thermique globale est environ 1000 fois supérieure à celle de l'atmosphère (masse ~300x plus grande, chaleur spécifique ~4x plus grande)",
+        "Sa capacité thermique est environ 1000 fois inférieure à celle de l'atmosphère",
+        "L'océan ne participe pas au bilan énergétique du système climatique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La masse de l'océan est environ 300 fois supérieure à celle de l'atmosphère, et la chaleur spécifique de l'eau est environ 4 fois celle de l'air : la capacité thermique globale de l'océan est donc environ 1000 fois plus grande, ce qui en fait un lieu privilégié pour enregistrer un changement climatique global."
+    },
+    {
+      "id": 64,
+      "enonce": "Dans l'image infrarouge de la Terre vue de l'espace, quelle est approximativement la répartition d'énergie entre le rayonnement infrarouge sortant et le rayonnement solaire visible réfléchi ?",
+      "options": [
+        "Environ 235 W/m² en infrarouge contre environ 107 W/m² en visible réfléchi",
+        "Environ 107 W/m² en infrarouge contre environ 235 W/m² en visible réfléchi",
+        "Une répartition strictement égale (50/50) entre les deux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "À l'équilibre, la Terre émet environ 235 W/m² en infrarouge (σTe⁴) et réfléchit environ 107 W/m² en lumière visible (αSc/4) : l'image infrarouge « pèse » donc en réalité plus que l'image visible classique de la « planète bleue »."
+    },
+    {
+      "id": 65,
+      "enonce": "Pourquoi la haute troposphère (8-15 km d'altitude) est-elle beaucoup plus transparente aux infrarouges que les couches basses de l'atmosphère ?",
+      "options": [
+        "Parce qu'il y fait très froid et qu'il n'y a presque plus de vapeur d'eau (piégée par condensation à plus basse altitude)",
+        "Parce que la pression atmosphérique y est plus élevée",
+        "Parce que le CO2 y est totalement absent"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En haut de la troposphère, il fait très froid (-50° à -70°C) et il n'y a presque plus de vapeur d'eau, ce qui rend l'atmosphère beaucoup plus transparente aux rayons infrarouges pouvant s'échapper vers l'espace."
+    },
+    {
+      "id": 66,
+      "enonce": "Quel rôle joue la tropopause en tant que « piège froid » (cold trap) vis-à-vis de la vapeur d'eau ?",
+      "options": [
+        "Elle empêche la vapeur d'eau de s'échapper vers la stratosphère en la condensant, préservant ainsi l'eau terrestre sur le long terme",
+        "Elle accélère la perte d'eau de la Terre vers l'espace",
+        "Elle n'a aucun rôle particulier vis-à-vis de la vapeur d'eau"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La haute troposphère agit comme un « piège froid » qui condense la vapeur d'eau, empêchant sa migration vers la stratosphère où elle pourrait être dissociée et perdre l'hydrogène vers l'espace ; sans ce piège froid, l'eau terrestre disparaîtrait rapidement."
+    },
+    {
+      "id": 67,
+      "enonce": "Dans le bilan radiatif terrestre schématique, à combien de W/m² s'élève environ le rayonnement solaire entrant total (« Incoming Solar Radiation ») ?",
+      "options": [
+        "342 W/m²",
+        "168 W/m²",
+        "390 W/m²"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bilan radiatif terrestre indique un rayonnement solaire entrant moyen d'environ 342 W/m², dont une partie est réfléchie et une partie absorbée par le système Terre-atmosphère."
+    },
+    {
+      "id": 68,
+      "enonce": "Dans le bilan radiatif terrestre, comment évoluent les flux internes (rayonnement de surface, rayonnement de retour) lorsque la concentration en gaz à effet de serre augmente ?",
+      "options": [
+        "Ils augmentent, ce qui élève la température de surface à un nouvel équilibre, même si le rayonnement sortant vers l'espace reste globalement inchangé",
+        "Ils diminuent systématiquement",
+        "Ils restent rigoureusement constants quel que soit le forçage"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsque la concentration en gaz à effet de serre augmente, les échanges entre basse et haute troposphère (rayonnement de surface, rayonnement de retour) augmentent ; à un nouvel équilibre, le rayonnement solaire et sortant peut rester inchangé, mais les flux internes et la température de surface restent plus élevés."
+    },
+    {
+      "id": 69,
+      "enonce": "Dans le modèle simplifié de rétroaction glace-albédo, quel coefficient empirique ε représente l'effet de serre ?",
+      "options": [
+        "ε = 0,4",
+        "ε = 1,0",
+        "ε = 0"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle introduit empiriquement un coefficient d'effet de serre ε = 0,4 tel que (1-α)S/4 = (1-ε)σT⁴."
+    },
+    {
+      "id": 70,
+      "enonce": "Dans ce modèle simplifié de rétroaction glace-albédo, que se passe-t-il lorsqu'on fait varier le paramètre d'effet de serre (ou tout autre forçage) autour de certains seuils ?",
+      "options": [
+        "On observe une hystérésis avec possibilité de plusieurs équilibres climatiques (dont un seul stable très froid ou très chaud selon le régime)",
+        "Il n'existe jamais qu'un seul équilibre climatique possible",
+        "Le système revient toujours instantanément à un état unique indépendant du forçage"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle prévoit jusqu'à 3 équilibres possibles (dont un instable), avec une hystérésis : en dessous d'un certain seuil de forçage, seul un équilibre très froid est possible, et au-dessus d'un autre seuil, seul un équilibre très chaud est possible."
+    },
+    {
+      "id": 71,
+      "enonce": "À quel phénomène géologique le modèle de rétroaction glace-albédo à hystérésis est-il relié dans le cours ?",
+      "options": [
+        "Aux épisodes de Terre boule de neige (« Snowball Earth ») du Protérozoïque",
+        "À la sensibilité climatique de l'Eocène",
+        "Aux cycles saisonniers annuels"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Ce mécanisme d'hystérésis à plusieurs équilibres constitue la base théorique expliquant les épisodes de « Snowball Earth » du Protérozoïque (750 et 2300 millions d'années) : facile d'y entrer, plus difficile d'en sortir."
+    },
+    {
+      "id": 72,
+      "enonce": "Quelle est la valeur de l'obliquité (inclinaison de l'axe de rotation terrestre) actuelle, à l'origine des saisons ?",
+      "options": [
+        "ε = 23,4°",
+        "ε = 0°",
+        "ε = 66,6°"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'obliquité actuelle de l'axe de rotation terrestre, à l'origine des saisons, vaut ε = 23,4°."
+    },
+    {
+      "id": 73,
+      "enonce": "Comment la latitude des tropiques et des cercles polaires est-elle liée à l'obliquité ε de l'axe terrestre ?",
+      "options": [
+        "Tropiques = ±ε ; Cercles polaires = ±(90°-ε)",
+        "Tropiques = ±90° ; Cercles polaires = ±ε",
+        "Ces latitudes sont totalement indépendantes de l'obliquité"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les tropiques se situent à une latitude ±ε, et les cercles polaires à une latitude ±(90°-ε), tous deux directement liés à l'inclinaison de l'axe terrestre."
+    },
+    {
+      "id": 74,
+      "enonce": "De combien de paramètres astronomiques dépend le rayonnement solaire reçu au sommet de l'atmosphère selon la latitude et la saison ?",
+      "options": [
+        "Trois : obliquité, excentricité de l'orbite terrestre et précession climatique",
+        "Un seul : l'obliquité",
+        "Cinq : les cinq zones climatiques de l'Antiquité"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le rayonnement solaire reçu au sommet de l'atmosphère dépend de trois paramètres astronomiques : l'obliquité (ε), l'excentricité de l'orbite terrestre (e) et la précession climatique (ϖ, position relative du périhélie et des saisons)."
+    },
+    {
+      "id": 75,
+      "enonce": "Que désigne la « précession climatique » (ϖ) parmi les paramètres astronomiques du climat ?",
+      "options": [
+        "La position relative du périhélie de l'orbite terrestre par rapport aux saisons",
+        "La vitesse de rotation de la Terre sur elle-même",
+        "L'angle d'obliquité de l'axe terrestre"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La précession climatique (ϖ) désigne la position relative du périhélie (point de l'orbite le plus proche du Soleil) par rapport aux saisons."
+    },
+    {
+      "id": 76,
+      "enonce": "Pourquoi le maximum de rayonnement au solstice d'été est-il plus fort au pôle Sud qu'au pôle Nord actuellement ?",
+      "options": [
+        "Parce que la Terre est plus proche du Soleil (périhélie) autour du 4 janvier, ce qui coïncide avec l'été austral",
+        "Parce que le pôle Sud reçoit un rayonnement solaire plus direct toute l'année",
+        "Parce que l'obliquité de la Terre diffère selon l'hémisphère"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le maximum de rayonnement au solstice est plus fort au pôle sud car la Terre est plus proche du Soleil (périhélie) autour du 4 janvier, ce qui correspond à l'été austral."
+    },
+    {
+      "id": 77,
+      "enonce": "Aux hautes latitudes, quel facteur domine davantage la variation saisonnière du rayonnement solaire reçu : la hauteur du Soleil ou la durée du jour ?",
+      "options": [
+        "La durée du jour a un rôle dominant aux hautes latitudes",
+        "La hauteur du Soleil a un rôle dominant partout, quelle que soit la latitude",
+        "Ces deux facteurs n'ont aucune influence sur le rayonnement reçu"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le contraste thermique saisonnier dépend à la fois de la hauteur du Soleil sur l'horizon et de la durée du jour ; à nos latitudes moyennes, les deux jouent un rôle similaire en été, tandis que la durée du jour devient dominante aux plus hautes latitudes."
+    },
+    {
+      "id": 78,
+      "enonce": "Sur quelle période oscille l'obliquité de l'axe terrestre, entre environ 22° et 24,5° ?",
+      "options": [
+        "Environ 41 000 ans",
+        "Environ 100 000 ans",
+        "Environ 26 000 ans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'obliquité de la Terre varie entre environ 22° et 24,5° avec une périodicité d'environ 41 000 ans."
+    },
+    {
+      "id": 79,
+      "enonce": "Quel rôle joue l'insolation estivale reçue aux hautes latitudes nord (65°N) dans les cycles glaciaires-interglaciaires ?",
+      "options": [
+        "Elle détermine si la neige va fondre ou, au contraire, s'accumuler d'une année sur l'autre, favorisant la croissance ou la fonte des calottes",
+        "Elle n'a aucun impact sur la dynamique des calottes glaciaires",
+        "Elle influence uniquement le niveau du CO2 atmosphérique, sans lien avec les calottes"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'énergie reçue en été aux hautes latitudes nord détermine si la neige va fondre ou s'accumuler d'une année sur l'autre, ce qui est l'une des causes majeures des changements glaciaire-interglaciaire."
+    },
+    {
+      "id": 80,
+      "enonce": "D'après le diagramme des cycles glaciaires, quand se produit typiquement une déglaciation ?",
+      "options": [
+        "Lorsque l'insolation atteint un nouveau maximum après une période prolongée de faible insolation ayant permis la croissance maximale des calottes",
+        "De façon totalement aléatoire, indépendamment de l'insolation",
+        "Uniquement lors des minima d'excentricité de l'orbite terrestre"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les calottes de l'hémisphère nord croissent à leur maximum lorsque le forçage d'insolation reste faible pendant une période prolongée, puis une déglaciation se produit au maximum d'insolation suivant, pour des raisons encore mal comprises dans le détail."
+    },
+    {
+      "id": 81,
+      "enonce": "Dans le schéma du cycle du carbone (valeurs pré-industrielles), quel est approximativement le plus grand réservoir de carbone parmi l'atmosphère, la végétation/sol et l'océan ?",
+      "options": [
+        "L'océan (environ 38 000 GtC)",
+        "L'atmosphère (environ 600 GtC)",
+        "La végétation et le sol (environ 2300 GtC)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'océan est de loin le plus grand réservoir de carbone parmi les réservoirs de surface, avec environ 38 000 GtC, contre environ 2300 GtC pour la végétation/sol et seulement environ 600 GtC pour l'atmosphère."
+    },
+    {
+      "id": 82,
+      "enonce": "Entre 1960 et 2005, quelle proportion des émissions totales de carbone est restée dans l'atmosphère ?",
+      "options": [
+        "Environ 45%",
+        "Environ 100%",
+        "Environ 5%"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Entre 1960 et 2005, environ 45% des émissions totales de carbone sont restées dans l'atmosphère, le reste ayant été absorbé par l'océan et la végétation/les terres."
+    },
+    {
+      "id": 83,
+      "enonce": "Pourquoi n'est-il pas certain que l'océan et la végétation pourront continuer à absorber une part importante des futures émissions de CO2 ?",
+      "options": [
+        "Parce que l'océan pourrait progressivement saturer et que la végétation pourrait être affectée négativement par le changement climatique",
+        "Parce que l'océan a déjà entièrement cessé d'absorber du CO2",
+        "Parce que la végétation absorbe déjà 100% des émissions actuelles"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les données suggèrent que l'océan pourrait progressivement saturer sa capacité d'absorption, et que la végétation pourrait, dans le futur, être affectée par le changement climatique et avoir plus de difficultés à stocker du carbone."
+    },
+    {
+      "id": 84,
+      "enonce": "En chimie des carbonates, en quelles espèces le CO2 dissous se dissocie-t-il principalement dans l'eau de mer ?",
+      "options": [
+        "Ions bicarbonate (HCO3-) et ions carbonate (CO3=)",
+        "Uniquement en acide sulfurique",
+        "En méthane et en oxygène"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le CO2 étant un acide, il se dissocie dans l'eau de mer en ions bicarbonate (HCO3-) puis en ions carbonate (CO3=), selon les constantes de dissociation K1 et K2."
+    },
+    {
+      "id": 85,
+      "enonce": "De combien le pH de l'océan a-t-il déjà été abaissé du fait du carbone anthropique ?",
+      "options": [
+        "Environ 0,1 unité de pH",
+        "Environ 3 unités de pH",
+        "Le pH de l'océan n'a pas du tout changé"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le pH de l'océan a déjà été abaissé d'environ 0,1 unité de pH en raison du carbone anthropique absorbé par l'océan."
+    },
+    {
+      "id": 86,
+      "enonce": "Quel effet a l'ajout de CO2 atmosphérique sur la concentration en ions carbonate [CO3=] et sur les roches calcaires (coquilles, récifs coralliens) ?",
+      "options": [
+        "Il diminue la concentration en carbonate et favorise la dissolution des roches calcaires",
+        "Il augmente la concentration en carbonate et favorise la précipitation de nouvelles roches calcaires",
+        "Il n'a aucun effet sur la chimie des carbonates"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'ajout de CO2 abaisse le pH et diminue la concentration en ions carbonate [CO3=], ce qui favorise la dissolution des roches calcaires (coquilles, récifs coralliens)."
+    },
+    {
+      "id": 87,
+      "enonce": "Sur quelle échelle de temps la « compensation carbonatée » (dissolution des carbonates restaurant [CO3=]) agit-elle ?",
+      "options": [
+        "De l'ordre de plusieurs milliers d'années",
+        "De l'ordre de quelques secondes",
+        "De l'ordre de plusieurs millions d'années uniquement"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sur le long terme (échelle de plusieurs milliers d'années), la dissolution des carbonates peut restaurer la concentration en ions carbonate [CO3=] : c'est la compensation carbonatée."
+    },
+    {
+      "id": 88,
+      "enonce": "Quel processus géologique lent permet, sur le très long terme, de neutraliser le CO2 atmosphérique en apportant de l'alcalinité à l'océan via les rivières ?",
+      "options": [
+        "L'érosion (altération) des silicates continentaux",
+        "La fonte des calottes glaciaires",
+        "L'évaporation de l'eau de mer"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'érosion des silicates des montagnes utilise le CO2 atmosphérique comme acide, neutralisé sur la roche, apportant des ions HCO3- à l'océan via les rivières : cela ajoute de l'alcalinité sans changer le carbone total du système océan-atmosphère."
+    },
+    {
+      "id": 89,
+      "enonce": "Quelle est l'origine probable de la brutale injection de carbone lors de la transition Paléocène-Eocène (PETM) ?",
+      "options": [
+        "La déstabilisation d'hydrates de méthane (clathrates)",
+        "Un impact de météorite géante",
+        "Une explosion volcanique unique et instantanée"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une baisse marquée du δ13C suggère une injection massive de carbone appauvri en 13C, dont un candidat probable est la déstabilisation d'hydrates de méthane (clathrates), stables uniquement sous certaines conditions de température et pression."
+    },
+    {
+      "id": 90,
+      "enonce": "De combien la température a-t-elle augmenté lors de la transition Paléocène-Eocène (PETM), probablement conséquence de l'injection massive de carbone ?",
+      "options": [
+        "Environ 5°C",
+        "Environ 50°C",
+        "Aucune augmentation notable de température"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La transition Paléocène-Eocène (PETM) est associée à une augmentation de température d'environ 5°C, une conséquence probable de l'injection massive de carbone."
+    },
+    {
+      "id": 91,
+      "enonce": "Quel autre effet marquant est observé lors du PETM sur la précipitation des carbonates marins ?",
+      "options": [
+        "Un arrêt quasi complet de la précipitation carbonatée (chute du %CaCO3 dans les sédiments)",
+        "Une augmentation massive de la précipitation carbonatée",
+        "Aucun effet sur la précipitation carbonatée"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le PETM montre un arrêt quasi complet de la précipitation de CaCO3 dans les sédiments océaniques, conséquence probable de la dissolution des carbonates liée à l'injection massive de carbone."
+    },
+    {
+      "id": 92,
+      "enonce": "Combien de temps a-t-il fallu au système climatique pour revenir « à la normale » après le PETM ?",
+      "options": [
+        "Environ 200 000 ans",
+        "Environ 200 ans",
+        "Environ 2 millions d'années"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le système est revenu progressivement à la normale après environ 200 000 ans, probablement grâce à l'érosion des silicates."
+    },
+    {
+      "id": 93,
+      "enonce": "Selon le modèle du « carbone = thermostat de la planète » (Walker et al., 1981), quel mécanisme régule le climat sur les temps géologiques ?",
+      "options": [
+        "L'érosion des silicates, qui augmente avec le CO2 (via les précipitations) et neutralise ce dernier en formant des carbonates",
+        "La photosynthèse uniquement, indépendamment de l'érosion",
+        "Les émissions volcaniques, qui diminuent automatiquement avec le réchauffement"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle dC/dt = V - O - E(T(C)) montre que l'érosion des silicates E dépend du climat T(C) : si le pCO2 augmente, l'érosion s'intensifie (plus de précipitations), formant plus de carbonates, ce qui crée une rétroaction négative stabilisant le climat."
+    },
+    {
+      "id": 94,
+      "enonce": "Pourquoi le pCO2 atmosphérique a-t-il globalement diminué au cours des 500 derniers millions d'années selon les proxies (Foster et al., 2017) ?",
+      "options": [
+        "Pour compenser l'augmentation progressive de la luminosité solaire (constante solaire croissante)",
+        "Parce que l'activité volcanique a totalement cessé",
+        "Parce que la photosynthèse a disparu progressivement"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La tendance décroissante du pCO2 sur les 500 derniers millions d'années compense l'augmentation de la constante solaire (le Soleil devient plus lumineux au cours de son évolution), l'érosion des silicates devenant plus efficace avec un rayonnement solaire accru."
+    },
+    {
+      "id": 95,
+      "enonce": "Que prédisent les modèles pour la Terre dans environ 1 milliard d'années lorsque le « thermostat carbone » sera « cassé » (CO2 devenu trop faible) ?",
+      "options": [
+        "Un emballement de l'effet de serre (« run-away greenhouse »), avec une vaporisation complète des océans",
+        "Un nouvel âge glaciaire permanent",
+        "Une stabilisation parfaite du climat autour de 15°C"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsque le CO2 atmosphérique deviendra trop faible pour compenser la luminosité solaire croissante, la Terre connaîtra un emballement de l'effet de serre (« run-away greenhouse », comme sur Vénus), menant à la vaporisation complète des océans (température de surface pouvant atteindre environ 1600°C selon Leconte et al., 2013)."
+    },
+    {
+      "id": 96,
+      "enonce": "Sur l'échelle du million d'années, de quoi dépend le moment où pourrait revenir un cycle de glaciation, selon Talento & Ganopolski (2021) ?",
+      "options": [
+        "De la quantité totale de carbone fossile émise par l'humanité (0, 500, 1000 ou 3000 GtC)",
+        "Uniquement de l'excentricité orbitale actuelle, indépendamment des émissions humaines",
+        "D'un paramètre purement aléatoire sans lien avec les émissions de carbone"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Selon les scénarios d'émissions cumulées de carbone fossile (0, 500, 1000 ou 3000 GtC), le retour d'un prochain cycle glaciaire est estimé entre environ 50 000 ans (0 GtC) et environ 820 000 ans (3000 GtC)."
+    },
+    {
+      "id": 97,
+      "enonce": "Sur l'échelle du millier d'années, quel phénomène majeur est associé à la « super-déglaciation » potentielle liée au CO2 anthropique ?",
+      "options": [
+        "Une élévation importante et durable du niveau marin global, avec un possible dépassement de plusieurs mètres",
+        "Un retour immédiat à une ère glaciaire",
+        "Une stabilisation instantanée du niveau marin dès l'arrêt des émissions"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sur l'échelle du millier d'années, le réchauffement anthropique pourrait induire une élévation importante et durable du niveau marin (plusieurs mètres), en raison du temps long nécessaire pour équilibrer thermiquement l'océan profond et faire fondre les calottes glaciaires."
+    },
+    {
+      "id": 98,
+      "enonce": "Quelle est approximativement la concentration atmosphérique de CO2 mesurée récemment (autour de 2020), d'après le suivi du Global Carbon Project ?",
+      "options": [
+        "Environ 410-420 ppm",
+        "Environ 280 ppm",
+        "Environ 1000 ppm"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La concentration atmosphérique de CO2 a récemment dépassé 410-420 ppm, poursuivant sa hausse malgré les différentes conférences internationales sur le climat (Kyoto 1997, Copenhague 2009, Paris 2015)."
+    },
+    {
+      "id": 99,
+      "enonce": "Pourquoi les émissions mondiales de CO2 continuent-elles d'augmenter selon les données de consommation d'énergie 2000-2018 ?",
+      "options": [
+        "Parce que l'augmentation de la consommation d'énergies fossiles (charbon, pétrole, gaz) reste bien supérieure à celle des énergies renouvelables et bas-carbone",
+        "Parce que la consommation d'énergie fossile est en baisse constante depuis 2000",
+        "Parce que le nucléaire a totalement remplacé les énergies fossiles"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Bien que les énergies renouvelables croissent rapidement en pourcentage (par exemple +13,8%/an), leur volume reste faible comparé à l'augmentation en valeur absolue de la consommation de combustibles fossiles (charbon, pétrole, gaz), ce qui explique la poursuite de la hausse des émissions."
+    },
+    {
+      "id": 100,
+      "enonce": "Quel est le nom du modèle scientifique introduit par Stommel en 1961, étudié en travaux dirigés, pour illustrer les changements abrupts de circulation océanique ?",
+      "options": [
+        "Un modèle à deux boîtes (équateur/pôle) de circulation thermohaline",
+        "Le modèle de Milankovic des paramètres orbitaux",
+        "Le modèle du corps noir de Planck"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle de Stommel (1961), étudié en TD, est un modèle simplifié à deux boîtes (équateur et pôle) décrivant la circulation thermohaline m en fonction des différences de température et de salinité, permettant d'illustrer des changements abrupts (bistabilité) de la circulation océanique."
+    }
+  ]
+}

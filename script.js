@@ -77,6 +77,10 @@ function renderQuiz() {
     container.innerHTML = html;
     document.getElementById('submit-btn').style.display = 'block';
     document.getElementById('results-container').style.display = 'none';
+
+    if (window.MathJax) {
+        MathJax.typesetPromise([container]);
+    }
 }
 
 // Valider les réponses et afficher le score
@@ -108,6 +112,15 @@ function validerQuiz() {
     resultsDiv.innerHTML = `<h3>Score final : ${score} / ${currentQuizData.questions.length}</h3><p>Retrouvez les corrections détaillées ci-dessus.</p>`;
     window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
 }
+
+if (window.MathJax) {
+    MathJax.typesetPromise();
+}
+
+window.scrollTo({
+    top: document.body.scrollHeight,
+    behavior: 'smooth'
+});
 
 // Revenir au menu principal
 function retourMenu() {
