@@ -3,7 +3,7 @@
   "questions": [
     {
       "id": 1,
-      "enonce": "Dans les notes, que désigne \\(\\mathbb{R}\\) ?",
+      "enonce": "Lorsque l'on travaille sur la droite réelle étendue, quel ensemble désigne \\(\\mathbb{R}\\) ?",
       "options": ["Les seuls réels finis", "La droite réelle étendue \\(\\mathbb{R}\\cup\\{-\\infty,+\\infty\\}\\)", "Les seuls réels positifs", "Les nombres complexes"],
       "reponse_correcte": 1,
       "explication": "La notation \\(\\mathbb{R}\\) désigne ici la droite réelle étendue, qui comprend \\(-\\infty\\) et \\(+\\infty\\)."
@@ -13,7 +13,7 @@
       "enonce": "Pour un sous-ensemble \\(A\\) d'un espace métrique, que note-t-on \\(A^c\\) ?",
       "options": ["Son adhérence", "Son intérieur", "Son complémentaire dans l'ensemble ambiant", "Sa frontière"],
       "reponse_correcte": 2,
-      "explication": "Les notes posent \\(A^c=E\\setminus A\\), où \\(E\\) est l'ensemble ambiant."
+      "explication": "Par définition, \\(A^c=E\\setminus A\\), où \\(E\\) est l'ensemble ambiant."
     },
     {
       "id": 3,
@@ -87,14 +87,14 @@
     },
     {
       "id": 13,
-      "enonce": "Selon les conventions des notes, quelle est la valeur de \\(\\sup\\varnothing\\) ?",
+      "enonce": "Dans la droite réelle étendue, avec la convention usuelle pour les bornes, quelle est la valeur de \\(\\sup\\varnothing\\) ?",
       "options": ["\\(0\\)", "\\(+\\infty\\)", "\\(-\\infty\\)", "Elle n'est pas définie"],
       "reponse_correcte": 2,
       "explication": "La borne supérieure de l'ensemble vide vaut \\(-\\infty\\) dans la droite réelle étendue."
     },
     {
       "id": 14,
-      "enonce": "Selon les conventions des notes, quelle est la valeur de \\(\\inf\\varnothing\\) ?",
+      "enonce": "Dans la droite réelle étendue, avec la convention usuelle pour les bornes, quelle est la valeur de \\(\\inf\\varnothing\\) ?",
       "options": ["\\(0\\)", "\\(+\\infty\\)", "\\(-\\infty\\)", "Elle n'est pas définie"],
       "reponse_correcte": 1,
       "explication": "La borne inférieure de l'ensemble vide vaut \\(+\\infty\\)."
@@ -188,7 +188,7 @@
       "enonce": "Dans un espace métrique quelconque, l'adhérence d'une boule ouverte est-elle toujours la boule fermée de même centre et rayon ?",
       "options": ["Oui, toujours", "Non, un contre-exemple existe avec la distance discrète", "Oui, seulement si le rayon est nul", "Non, jamais"],
       "reponse_correcte": 1,
-      "explication": "Les notes signalent que l'égalité peut échouer en espace métrique général ; elle est vraie dans un espace vectoriel normé réel ou complexe."
+      "explication": "Cette égalité peut échouer en espace métrique général ; elle est vraie dans un espace vectoriel normé réel ou complexe."
     },
     {
       "id": 28,
@@ -209,7 +209,7 @@
       "enonce": "Quelle est la définition séquentielle d'un compact \\(A\\) ?",
       "options": ["Toute suite de \\(A\\) converge", "Toute suite de \\(A\\) possède une sous-suite convergeant dans \\(A\\)", "\\(A\\) est fermé", "\\(A\\) est borné"],
       "reponse_correcte": 1,
-      "explication": "C'est la propriété de Bolzano-Weierstrass adoptée comme définition dans les notes."
+      "explication": "C'est la propriété séquentielle de Bolzano-Weierstrass, utilisée ici comme définition de la compacité."
     },
     {
       "id": 31,
@@ -227,7 +227,7 @@
     },
     {
       "id": 33,
-      "enonce": "Le théorème de Heine-Borel des notes s'applique à :",
+      "enonce": "Dans quel cadre le théorème de Heine-Borel affirme-t-il qu'un ensemble est compact si et seulement s'il est fermé et borné ?",
       "options": ["Tout espace métrique", "Un espace vectoriel normé de dimension finie", "Seulement \\(\\mathbb R\\)", "Tout espace de Hilbert"],
       "reponse_correcte": 1,
       "explication": "En dimension finie, un ensemble est compact si et seulement s'il est fermé et borné."
@@ -241,7 +241,7 @@
     },
     {
       "id": 35,
-      "enonce": "Pourquoi tout espace vectoriel normé de dimension finie est-il complet dans la démonstration donnée ?",
+      "enonce": "Quelle idée permet de montrer qu'un espace vectoriel normé de dimension finie est complet ?",
       "options": ["Parce que toute suite est constante", "Parce qu'une suite de Cauchy est bornée, donc admet une sous-suite convergente, puis converge", "Parce que toutes les normes y sont identiques", "Parce qu'il est nécessairement compact"],
       "reponse_correcte": 1,
       "explication": "La boule fermée contenant la suite est compacte par Heine-Borel, et une suite de Cauchy ayant une sous-suite convergente converge."
@@ -262,8 +262,8 @@
     },
     {
       "id": 38,
-      "enonce": "Comment peut-on compléter l'espace précédent ?",
-      "options": ["En retirant tous les entiers", "En ajoutant un point dont l'image par l'extension de \\(e^{-x}\\) vaut 0", "En remplaçant \\(d\\) par la distance nulle", "Il est impossible de le compléter"],
+      "enonce": "Soit \\(d(x,y)=|e^{-x}-e^{-y}|\\) sur \\(\\mathbb R\\). Quelle construction donne un complété de cet espace métrique ?",
+      "options": ["Retirer tous les entiers de \\(\\mathbb R\\)", "Ajouter un point \\(\\clubsuit\\) et prolonger \\(x\\mapsto e^{-x}\\) en posant \\(\\widetilde\\varphi(\\clubsuit)=0\\)", "Remplacer \\(d\\) par la distance nulle", "Aucun complété n'existe"],
       "reponse_correcte": 1,
       "explication": "L'ajout d'un point \\(\\clubsuit\\) envoyé sur 0 identifie l'espace complété à l'image \\([0,+\\infty[\\)."
     },
@@ -283,7 +283,7 @@
     },
     {
       "id": 41,
-      "enonce": "Sur \\(C([0,1])\\), quelle chaîne de finesse est établie dans les notes ?",
+      "enonce": "Sur \\(C([0,1])\\), quelle chaîne de comparaison entre les normes \\(1\\), \\(2\\) et \\(\\infty\\) est correcte ?",
       "options": ["\\(\\|\\cdot\\|_1\\succeq\\|\\cdot\\|_2\\succeq\\|\\cdot\\|_\\infty\\)", "\\(\\|\\cdot\\|_\\infty\\succeq\\|\\cdot\\|_2\\succeq\\|\\cdot\\|_1\\)", "Les trois normes sont équivalentes", "Aucune comparaison n'est possible"],
       "reponse_correcte": 1,
       "explication": "Sur l'intervalle de longueur 1, Cauchy-Schwarz puis la monotonie de l'intégrale donnent cette chaîne."
@@ -363,7 +363,7 @@
       "enonce": "Un espace de Hilbert de dimension infinie est séparable si et seulement s'il :",
       "options": ["Est compact", "Admet une base hilbertienne dénombrable", "Est de dimension finie", "A une norme nulle"],
       "reponse_correcte": 1,
-      "explication": "C'est la caractérisation donnée par le théorème 2.2.15."
+      "explication": "C'est la caractérisation classique des espaces de Hilbert séparables de dimension infinie."
     },
     {
       "id": 53,
@@ -391,7 +391,7 @@
       "enonce": "Dans le cas complexe, l'application de Riesz \\(J:y\\mapsto\\langle\\cdot,y\\rangle\\) est :",
       "options": ["Linéaire", "Anti-linéaire", "Non continue", "Constante"],
       "reponse_correcte": 1,
-      "explication": "Avec la convention des notes, elle est anti-linéaire dans le cas complexe."
+      "explication": "Avec la convention où le produit scalaire est linéaire dans le premier argument, cette application est anti-linéaire en complexe."
     },
     {
       "id": 57,
@@ -402,7 +402,7 @@
     },
     {
       "id": 58,
-      "enonce": "Quelle conséquence en tire-t-on pour \\(H'\\), muni de sa norme subordonnée ?",
+      "enonce": "Si \\(H\\) est un espace de Hilbert réel, quelle structure peut-on donner à son dual topologique \\(H'\\), muni de la norme subordonnée ?",
       "options": ["\\(H'\\) est un espace de Hilbert", "\\(H'\\) n'est jamais complet", "\\(H'\\) est compact", "\\(H'\\) est nécessairement de dimension finie"],
       "reponse_correcte": 0,
       "explication": "Dans le cas réel, la structure et la complétude de \\(H\\) se transportent à \\(H'\\)."
