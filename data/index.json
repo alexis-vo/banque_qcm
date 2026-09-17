@@ -24,7 +24,7 @@
     },
     {
       "nom": "Autres",
-      "dossier": "Autres",
+      "dossier": "autres",
       "chapitres": [
         { "titre": "Climat 1", "fichier": "climat1.json"},
         { "titre": "Climat 2", "fichier": "climat2.json"},
