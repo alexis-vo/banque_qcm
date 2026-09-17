@@ -1,0 +1,222 @@
+{
+  "titre_chapitre": "C2 - Espaces de Hilbert",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Qu'est-ce qu'un produit scalaire sur un espace vectoriel \\(E\\) sur \\(\\mathbb K\\in\\{\\mathbb R,\\mathbb C\\}\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est une application \\(\\langle\\cdot,\\cdot\\rangle:E\\times E\\to\\mathbb K\\), \\((x,y)\\mapsto\\langle x,y\\rangle\\), qui est linéaire dans le premier argument, hermitienne et définie positive."
+    },
+    {
+      "id": 2,
+      "enonce": "Pour tout \\(y\\in E\\), quelle est la nature de l'application \\(x\\mapsto\\langle x,y\\rangle\\) ? Quelle propriété a le produit scalaire en réel et en complexe ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour \\(y\\) fixé, \\(x\\mapsto\\langle x,y\\rangle\\) est linéaire. Le produit scalaire est bilinéaire dans le cas réel et sesquilinéaire dans le cas complexe : il est linéaire dans le premier argument et anti-linéaire dans le second."
+    },
+    {
+      "id": 3,
+      "enonce": "Pour tous \\(x,y\\in E\\), quelle relation de symétrie vérifie un produit scalaire ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\langle x,y\\rangle=\\langle y,x\\rangle^*\\), où \\(z^*\\) désigne le conjugué de \\(z\\). Dans le cas réel, cela devient \\(\\langle x,y\\rangle=\\langle y,x\\rangle\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Que sait-on de \\(\\langle x,x\\rangle\\) pour tout \\(x\\in E\\) ? Dans quel cas cette quantité est-elle nulle ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\langle x,x\\rangle\\ge0\\), et \\(\\langle x,x\\rangle=0\\) si et seulement si \\(x=0\\). C'est la positivité définie."
+    },
+    {
+      "id": 5,
+      "enonce": "Comment appelle-t-on un espace vectoriel \\(E\\) muni d'un produit scalaire \\(\\langle\\cdot,\\cdot\\rangle\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est un espace préhilbertien."
+    },
+    {
+      "id": 6,
+      "enonce": "Rappeler l'inégalité de Cauchy-Schwarz dans un espace préhilbertien.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tous \\(x,y\\in E\\), \\( |\\langle x,y\\rangle|\\le\\|x\\|\\,\\|y\\|\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Quelle est la nature de l'application \\(x\\mapsto\\sqrt{\\langle x,x\\rangle}\\), notée \\(\\|x\\|\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est une norme, appelée la norme induite par le produit scalaire."
+    },
+    {
+      "id": 8,
+      "enonce": "Dans le cas complexe, développer \\(\\|x+y\\|^2\\) à l'aide du produit scalaire.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\|x+y\\|^2=\\|x\\|^2+\\|y\\|^2+2\\operatorname{Re}\\langle x,y\\rangle\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Qu'appelle-t-on un espace de Hilbert ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est un espace préhilbertien complet pour la distance induite par sa norme : \\(d(x,y)=\\|x-y\\|\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Pour un sous-ensemble \\(F\\subset E\\), définir son orthogonal \\(F^\\perp\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(F^\\perp=\\{x\\in E\\mid\\forall y\\in F,\\ \\langle x,y\\rangle=0\\}\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Comment appelle-t-on un espace préhilbertien réel \\(E\\) de dimension finie ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est un espace euclidien."
+    },
+    {
+      "id": 12,
+      "enonce": "Comment appelle-t-on un espace préhilbertien complexe \\(E\\) de dimension finie ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est un espace hermitien."
+    },
+    {
+      "id": 13,
+      "enonce": "Définir l'espace \\(\\ell^2(\\mathbb N;\\mathbb K)\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\ell^2(\\mathbb N;\\mathbb K)=\\{(u_n)_{n\\in\\mathbb N}\\in\\mathbb K^{\\mathbb N}\\mid\\sum_{n=0}^{+\\infty}|u_n|^2<+\\infty\\}\\). Il s'agit des suites à carrés sommables."
+    },
+    {
+      "id": 14,
+      "enonce": "Tous les espaces vectoriels normés de dimension finie sont-ils complets ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Oui. Tout espace vectoriel normé de dimension finie est complet."
+    },
+    {
+      "id": 15,
+      "enonce": "Quel produit scalaire munit \\(\\ell^2(\\mathbb N;\\mathbb K)\\) d'une structure d'espace de Hilbert ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour \\(u,v\\in\\ell^2(\\mathbb N;\\mathbb K)\\), on pose \\(\\langle u,v\\rangle=\\sum_{n=0}^{+\\infty}u_nv_n^*\\). Avec ce produit scalaire, \\(\\ell^2(\\mathbb N;\\mathbb K)\\) est complet."
+    },
+    {
+      "id": 16,
+      "enonce": "Comment s'appelle l'étude des fonctions \\(2\\pi\\)-périodiques, et quel produit scalaire usuel utilise-t-on sur les fonctions continues complexes \\(2\\pi\\)-périodiques ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Elle relève de l'analyse en séries de Fourier. Sur \\(E=\\{f\\in C(\\mathbb R,\\mathbb C)\\mid f(x+2\\pi)=f(x)\\}\\), on utilise \\(\\langle f,g\\rangle=\\frac1{2\\pi}\\int_0^{2\\pi}f(x)g(x)^*\\,dx\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Soit \\(L:E\\to F\\) une application linéaire entre espaces vectoriels normés. Donner deux caractérisations équivalentes de sa continuité.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(L\\) est continue si et seulement s'il existe \\(C>0\\) tel que \\(\\|L(x)\\|_F\\le C\\|x\\|_E\\) pour tout \\(x\\in E\\). Cela équivaut à \\(\\sup_{\\|x\\|_E\\le1}\\|L(x)\\|_F<+\\infty\\)."
+    },
+    {
+      "id": 18,
+      "enonce": "Comment appelle-t-on une application linéaire \\(\\varphi:E\\to\\mathbb K\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est une forme linéaire."
+    },
+    {
+      "id": 19,
+      "enonce": "Comment appelle-t-on l'ensemble des formes linéaires continues sur \\(E\\), noté \\(E'\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(E'\\) est le dual topologique de \\(E\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Soit \\(H\\) un espace préhilbertien de dimension finie, de base orthonormée \\((e_1,\\ldots,e_n)\\), et \\(\\varphi:H\\to\\mathbb K\\) une forme linéaire. Comment construire \\(y\\in H\\) tel que \\(\\varphi(x)=\\langle x,y\\rangle\\) pour tout \\(x\\in H\\), et quelle conséquence en déduit-on ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On pose \\(y=\\sum_{j=1}^n\\varphi(e_j)^*e_j\\). Si \\(x=\\sum_{i=1}^n\\alpha_ie_i\\), alors \\(\\varphi(x)=\\sum_i\\alpha_i\\varphi(e_i)=\\langle x,y\\rangle\\). Par Cauchy-Schwarz, \\( |\\varphi(x)|\\le\\|y\\|\\,\\|x\\|\\) : toute forme linéaire sur un espace de dimension finie est donc continue."
+    },
+    {
+      "id": 21,
+      "enonce": "Énoncer le théorème de représentation de Fréchet-Riesz pour un espace de Hilbert \\(H\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Une forme linéaire \\(\\varphi:H\\to\\mathbb K\\) est continue, c'est-à-dire \\(\\varphi\\in H'\\), si et seulement s'il existe \\(y\\in H\\) tel que \\(\\varphi(x)=\\langle x,y\\rangle\\) pour tout \\(x\\in H\\). Ce représentant \\(y\\) est unique."
+    },
+    {
+      "id": 22,
+      "enonce": "Pour une application \\(J:E\\to F\\) entre espaces vectoriels normés, donner les deux formulations équivalentes disant que \\(J\\) est une isométrie.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(J\\) est une isométrie si et seulement si \\(\\|J(x)\\|_F=\\|x\\|_E\\) pour tout \\(x\\in E\\), ce qui équivaut à \\(\\|J(x)-J(y)\\|_F=\\|x-y\\|_E\\) pour tous \\(x,y\\in E\\)."
+    },
+    {
+      "id": 23,
+      "enonce": "Quelles deux propriétés possède toute isométrie linéaire entre espaces vectoriels normés ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Toute isométrie linéaire est injective et continue."
+    },
+    {
+      "id": 24,
+      "enonce": "Soit \\(J:E\\to F\\) une isométrie linéaire. Montrer, à l'aide des normes, pourquoi \\(J(x)=0\\) implique \\(x=0\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\(J(x)=0\\), alors \\(\\|x\\|_E=\\|J(x)\\|_F=0\\), donc \\(x=0\\). C'est l'injectivité de \\(J\\)."
+    },
+    {
+      "id": 25,
+      "enonce": "Quelle inégalité prouve immédiatement qu'une isométrie linéaire \\(J:E\\to F\\) est continue ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\|J(x)\\|_F=\\|x\\|_E\\le1\\cdot\\|x\\|_E\\). Le critère de continuité des applications linéaires s'applique avec \\(C=1\\)."
+    },
+    {
+      "id": 26,
+      "enonce": "Si \\(E\\) et \\(F\\) sont préhilbertiens et \\(J:E\\to F\\) est linéaire, quelle condition caractérise le fait que \\(J\\) soit une isométrie ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(J\\) est une isométrie si et seulement si, pour tous \\(x,y\\in E\\), \\(\\langle J(x),J(y)\\rangle_F=\\langle x,y\\rangle_E\\)."
+    },
+    {
+      "id": 27,
+      "enonce": "Donner un exemple d'isométrie linéaire non surjective.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Sur \\(\\ell^2(\\mathbb N)\\), l'application \\(J:(x_0,x_1,\\ldots)\\mapsto(0,x_0,x_1,\\ldots)\\) est une isométrie linéaire, mais n'est pas surjective : aucune suite de son image n'a un premier terme non nul."
+    },
+    {
+      "id": 28,
+      "enonce": "Énoncer le théorème de projection sur un sous-ensemble convexe fermé non vide \\(C\\) d'un espace de Hilbert \\(H\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(x\\in H\\), il existe un unique point \\(p_C(x)\\in C\\), appelé projection de \\(x\\) sur \\(C\\), tel que \\(\\|x-p_C(x)\\|=\\inf_{z\\in C}\\|x-z\\|\\). L'application \\(p_C:H\\to C\\) est continue, et même 1-lipschitzienne."
+    },
+    {
+      "id": 29,
+      "enonce": "Si \\(C\\) est un sous-espace vectoriel fermé d'un espace de Hilbert \\(H\\), quelles propriétés vérifie sa projection \\(p_C\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(p_C\\) est linéaire. Pour tout \\(x\\in H\\), \\(p_C(x)\\) est l'unique \\(z\\in C\\) tel que \\(\\langle x-z,y\\rangle=0\\) pour tout \\(y\\in C\\), autrement dit \\(x-p_C(x)\\in C^\\perp\\)."
+    },
+    {
+      "id": 30,
+      "enonce": "Quand une famille \\((e_i)_{i\\in I}\\) d'un espace préhilbertien \\(E\\) est-elle une base hilbertienne ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Elle doit être orthonormée, c'est-à-dire \\(\\langle e_i,e_j\\rangle=\\delta_{i,j}\\) pour tous \\(i,j\\in I\\), et totale : \\(\\overline{\\operatorname{Vect}(e_i\\mid i\\in I)}=E\\)."
+    },
+    {
+      "id": 31,
+      "enonce": "Soit \\(H\\) un espace de Hilbert ayant une base hilbertienne dénombrable \\((e_n)_{n\\in\\mathbb N}\\). Énoncer le développement de Fourier et l'égalité de Parseval.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(x\\in H\\), \\(x=\\sum_{n=0}^{+\\infty}\\langle x,e_n\\rangle e_n=\\lim_{N\\to+\\infty}\\sum_{n=0}^N\\langle x,e_n\\rangle e_n\\). De plus, l'égalité de Parseval donne \\(\\|x\\|^2=\\sum_{n=0}^{+\\infty}|\\langle x,e_n\\rangle|^2\\)."
+    }
+  ]
+}

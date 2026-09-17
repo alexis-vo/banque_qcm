@@ -17,8 +17,9 @@
       "nom": "Mathématiques",
       "dossier": "mathematiques",
       "chapitres": [
-        { "titre": "Probas Test", "fichier": "probas.json"},
-        { "titre": "Convergence Intégration Probabilités", "fichier": "cip_1_2.json"}
+        { "titre": "Chapitre 1 - Topologie, cours", "fichier": "CIP_C1_LN.json"},
+        { "titre": "Chapitre 1 - Topologie, ECTA", "fichier": "CIP_C1_ECTA.json"},
+        { "titre": "Chapitre 2 - Hilbert, cours", "fichier": "CIP_C2_LN.json"}
       ]
     },
     {
@@ -26,7 +27,9 @@
       "dossier": "Autres",
       "chapitres": [
         { "titre": "Climat 1", "fichier": "climat1.json"},
-        { "titre": "Climat 2", "fichier": "climat2.json"}
+        { "titre": "Climat 2", "fichier": "climat2.json"},
+        { "titre": "Entreprise 1", "fichier": "gte_qcm1.json"},
+        { "titre": "Entreprise 2", "fichier": "gte_qcm2.json"}
       ]
     }
   ]

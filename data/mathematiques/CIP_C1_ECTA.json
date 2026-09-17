@@ -1,0 +1,187 @@
+{
+  "titre_chapitre": "ECTA - C1",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Rappeler les axiomes puis les propriétés d'une norme sur un espace vectoriel \\(E\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Les trois axiomes sont : séparation, \\(\\|x\\|=0\\Rightarrow x=0\\) ; homogénéité, \\(\\|\\lambda x\\|=|\\lambda|\\,\\|x\\|\\) ; inégalité triangulaire, \\(\\|x+y\\|\\le\\|x\\|+\\|y\\|\\). Les quatre propriétés qui en découlent sont : \\(\\|0\\|=0\\), positivité \\(\\|x\\|\\ge0\\), inégalité triangulaire inverse \\(\\big|\\|x\\|-\\|y\\|\\big|\\le\\|x-y\\|\\), et \\(d(x,y)=\\|x-y\\|\\) est une distance."
+    },
+    {
+      "id": 2,
+      "enonce": "Comment s'appelle un espace vectoriel \\(E\\) muni d'une norme \\(\\|\\cdot\\|\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Un espace vectoriel muni d'une norme est un espace vectoriel normé (EVN)."
+    },
+    {
+      "id": 3,
+      "enonce": "Donner trois exemples de normes sur \\(\\mathbb K^n\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour \\(x=(x_1,\\ldots,x_n)\\), on peut citer \\(\\|x\\|_1=\\sum_{i=1}^n|x_i|\\), la norme 1 ou distance de Manhattan ; \\(\\|x\\|_2=\\sqrt{\\sum_{i=1}^n|x_i|^2}\\), norme euclidienne sur \\(\\mathbb R^n\\) et hermitienne sur \\(\\mathbb C^n\\) ; et \\(\\|x\\|_\\infty=\\max_{1\\le i\\le n}|x_i|\\), norme infinie ou distance de Tchebychev."
+    },
+    {
+      "id": 4,
+      "enonce": "Donner l'inégalité de Cauchy-Schwarz dans un espace préhilbertien.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tous \\(x,y\\), on a \\( |\\langle x,y\\rangle|\\le\\|x\\|\\,\\|y\\|\\), où la norme est celle induite par le produit scalaire."
+    },
+    {
+      "id": 5,
+      "enonce": "Donner la définition de la norme subordonnée, ou norme d'opérateur, d'une application linéaire \\(T:F\\to G\\) entre deux espaces vectoriels normés.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La norme subordonnée est \\(\\|T\\|=\\sup_{\\substack{u\\in F\\\\\\|u\\|_F\\le1}}\\|T(u)\\|_G\\). C'est le supremum de la norme de l'image de la boule unité de \\(F\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Donner les définitions de \\(\\sup A\\) et \\(\\inf A\\) pour \\(A\\subset\\overline{\\mathbb R}\\), en distinguant les trois cas pour chacune.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\sup A=-\\infty\\) si \\(A=\\varnothing\\), c'est le plus petit majorant de \\(A\\) si \\(A\\) est non vide et majorée, et \\(\\sup A=+\\infty\\) si \\(A\\) n'est pas majorée. Symétriquement, \\(\\inf A=+\\infty\\) si \\(A=\\varnothing\\), c'est le plus grand minorant de \\(A\\) si \\(A\\) est non vide et minorée, et \\(\\inf A=-\\infty\\) si \\(A\\) n'est pas minorée."
+    },
+    {
+      "id": 7,
+      "enonce": "Exprimer \\(\\inf A\\) à partir du supremum.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\inf A=-\\sup(-A)\\), où \\(-A=\\{-a\\mid a\\in A\\}\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Pour tout ensemble non vide \\(A\\subset\\overline{\\mathbb R}\\), quelle relation a-t-on entre \\(\\inf A\\) et \\(\\sup A\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a toujours \\(\\inf A\\le\\sup A\\). Cette relation reste vraie avec les valeurs \\(\\pm\\infty\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "L'application \\(A\\mapsto\\sup A\\) est-elle croissante ou décroissante pour l'inclusion ? Énoncer la propriété.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Elle est croissante : si \\(A\\subset B\\), alors \\(\\sup A\\le\\sup B\\). À l'inverse, \\(A\\mapsto\\inf A\\) est décroissante : \\(A\\subset B\\Rightarrow\\inf A\\ge\\inf B\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Soit \\((x_n)\\) une suite réelle. Définir \\(\\limsup_{n\\to+\\infty}x_n\\) et \\(\\liminf_{n\\to+\\infty}x_n\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "En posant \\(A_n=\\{x_k\\mid k\\ge n\\}\\), on définit \\(\\limsup_{n\\to+\\infty}x_n=\\lim_{n\\to+\\infty}\\sup A_n\\) et \\(\\liminf_{n\\to+\\infty}x_n=\\lim_{n\\to+\\infty}\\inf A_n\\). Ces quantités sont définies dans \\(\\overline{\\mathbb R}\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Quelle est l'utilité des notions de limite supérieure et de limite inférieure d'une suite réelle ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Elles permettent d'étudier la convergence des suites réelles : une suite converge exactement lorsque son liminf et son limsup coïncident."
+    },
+    {
+      "id": 12,
+      "enonce": "Soit \\((x_n)\\) une suite réelle. Donner (i) l'inégalité entre son liminf et son limsup, puis (ii) le critère de convergence dans \\(\\overline{\\mathbb R}\\), ainsi que la valeur de la limite dans ce cas.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a toujours \\(\\liminf_{n\\to+\\infty}x_n\\le\\limsup_{n\\to+\\infty}x_n\\). La suite converge dans \\(\\overline{\\mathbb R}\\) si et seulement si ces deux quantités sont égales. Leur valeur commune est alors \\(\\lim_{n\\to+\\infty}x_n\\)."
+    },
+    {
+      "id": 13,
+      "enonce": "Déterminer le liminf et le limsup, puis conclure sur la convergence dans \\(\\overline{\\mathbb R}\\), pour : (i) \\(x_n=\\sin(n\\pi/2)\\), (ii) \\(x_n=n^2\\), (iii) \\(x_n=1/n\\), (iv) \\(x_n=(-1)^n n\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "(i) \\(\\liminf=-1\\), \\(\\limsup=1\\) : pas de convergence. (ii) \\(\\liminf=\\limsup=+\\infty\\) : convergence vers \\(+\\infty\\). (iii) \\(\\liminf=\\limsup=0\\) : convergence vers 0. (iv) \\(\\liminf=-\\infty\\), \\(\\limsup=+\\infty\\) : pas de convergence."
+    },
+    {
+      "id": 14,
+      "enonce": "Soit \\(A\\subset E\\). À quelle condition \\(A\\) est-il fermé dans l'espace métrique \\((E,d)\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(A\\) est fermé si et seulement si son complémentaire \\(E\\setminus A\\) est ouvert."
+    },
+    {
+      "id": 15,
+      "enonce": "Pour \\(x\\in E\\) et \\(\\varepsilon\\ge0\\), que peut-on dire de la boule fermée \\(\\overline B(x,\\varepsilon)\\) ? Et du singleton \\(\\{x\\}\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La boule fermée \\(\\overline B(x,\\varepsilon)=\\{y\\in E\\mid d(x,y)\\le\\varepsilon\\}\\) est un fermé. En particulier, \\(\\{x\\}=\\overline B(x,0)\\) est un fermé."
+    },
+    {
+      "id": 16,
+      "enonce": "Énoncer les propriétés de stabilité des fermés suivantes : (i) \\(E\\) et \\(\\varnothing\\), (ii) l'intersection d'une famille quelconque de fermés, (iii) l'union finie de fermés.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "(i) \\(E\\) et \\(\\varnothing\\) sont fermés. (ii) Si \\((A_i)_{i\\in I}\\) est une famille de fermés, alors \\(\\bigcap_{i\\in I}A_i\\) est fermé. (iii) Si \\(A_1,\\ldots,A_n\\) sont fermés, alors \\(\\bigcup_{i=1}^n A_i\\) est fermé."
+    },
+    {
+      "id": 17,
+      "enonce": "Soit \\(A\\subset E\\). Quand dit-on qu'un point \\(x\\in E\\) est adhérent à \\(A\\) ? Donner aussi la formulation avec les voisinages.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le point \\(x\\) est adhérent à \\(A\\) si, pour tout \\(\\varepsilon>0\\), \\(B(x,\\varepsilon)\\cap A\\ne\\varnothing\\). De manière équivalente, tout voisinage de \\(x\\) rencontre \\(A\\)."
+    },
+    {
+      "id": 18,
+      "enonce": "Définir l'adhérence d'un sous-ensemble \\(A\\subset E\\), notée \\(\\overline A\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "L'adhérence \\(\\overline A\\) est l'ensemble des points de \\(E\\) adhérents à \\(A\\)."
+    },
+    {
+      "id": 19,
+      "enonce": "Donner quatre propriétés fondamentales de l'adhérence \\(\\overline A\\) d'un ensemble \\(A\\subset E\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "(1) \\(A\\subset\\overline A\\). (2) \\(\\overline A\\) est le plus petit fermé, pour l'inclusion, contenant \\(A\\). (3) \\(A\\) est fermé si et seulement si \\(A=\\overline A\\), soit encore s'il contient tous ses points adhérents. (4) \\(\\overline{\\overline A}=\\overline A\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Dans un espace métrique quelconque, la boule fermée \\(\\overline B(x,r)\\) est-elle toujours l'adhérence de la boule ouverte \\(B(x,r)\\) ? Justifier par un contre-exemple.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Non. Dans \\(\\mathbb R\\) muni de la distance discrète, \\(B(0,1)=\\{0\\}\\) et son adhérence vaut \\(\\{0\\}\\), alors que \\(\\overline B(0,1)=\\mathbb R\\)."
+    },
+    {
+      "id": 21,
+      "enonce": "Soit \\(A\\subset E\\). Donner les caractérisations séquentielles de : (i) « \\(x\\) est adhérent à \\(A\\) » ; (ii) « \\(A\\) est fermé ».",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "(i) \\(x\\in\\overline A\\) si et seulement s'il existe une suite \\((x_n)\\) telle que \\(x_n\\in A\\) pour tout \\(n\\) et \\(x_n\\to x\\). (ii) \\(A\\) est fermé si et seulement si \\(x_n\\to x\\) et \\(x_n\\in A\\) pour tout \\(n\\) impliquent \\(x\\in A\\)."
+    },
+    {
+      "id": 22,
+      "enonce": "Donner la définition séquentielle d'un sous-ensemble compact \\(A\\subset E\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(A\\) est compact si, de toute suite à valeurs dans \\(A\\), on peut extraire une sous-suite qui converge vers un élément de \\(A\\)."
+    },
+    {
+      "id": 23,
+      "enonce": "Donner la définition d'un sous-ensemble borné \\(A\\subset E\\) d'un espace métrique \\((E,d)\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(A\\) est borné s'il existe \\(M>0\\) tel que, pour tous \\(x,y\\in A\\), \\(d(x,y)\\le M\\)."
+    },
+    {
+      "id": 24,
+      "enonce": "Énoncer le théorème de Heine-Borel en précisant ses hypothèses.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\(E\\) est un espace vectoriel normé de dimension finie sur \\(\\mathbb K=\\mathbb R\\) ou \\(\\mathbb C\\), alors, pour tout \\(A\\subset E\\), \\(A\\) est compact si et seulement si \\(A\\) est fermé et borné. Cette équivalence est fausse en général en dimension infinie ou dans un espace métrique quelconque."
+    },
+    {
+      "id": 25,
+      "enonce": "Donner une application importante de la compacité pour une fonction réelle continue.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\((E,d)\\) est un espace métrique, \\(f:E\\to\\mathbb R\\) est continue et \\(A\\subset E\\) est compact, alors \\(f\\) atteint son infimum sur \\(A\\) : il existe \\(x^*\\in A\\) tel que \\(f(x^*)=\\inf_{x\\in A}f(x)\\)."
+    },
+    {
+      "id": 26,
+      "enonce": "Citer le théorème de complétude des espaces vectoriels normés de dimension finie.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Tout espace vectoriel normé de dimension finie sur \\(\\mathbb K=\\mathbb R\\) ou \\(\\mathbb C\\) est complet."
+    }
+  ]
+}

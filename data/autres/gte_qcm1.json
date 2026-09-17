@@ -1,0 +1,775 @@
+{
+  "titre_chapitre": "1SL2000 - Gestion & Transformation des Entreprises - QCM complet de révision",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Selon la définition de l'INSEE citée dans le cours, qu'est-ce qu'une entreprise ?",
+      "options": [
+        "Une unité économique, juridiquement autonome, dont la fonction principale est de produire des biens ou des services pour le marché",
+        "Une organisation à but exclusivement lucratif reconnue par le Code du travail",
+        "Toute structure employant plus de 10 salariés et générant un chiffre d'affaires"
+      ],
+      "reponse_correcte": 0,
+      "explication": "C'est la définition exacte donnée par l'INSEE dans le cours : une unité économique, juridiquement autonome, dont la fonction principale est de produire des biens ou des services pour le marché."
+    },
+    {
+      "id": 2,
+      "enonce": "Que signifie l'acronyme POP utilisé pour définir la gestion ?",
+      "options": [
+        "Planification, Organisation, Pilotage",
+        "Prévision, Optimisation, Production",
+        "Profit, Objectifs, Performance"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La gestion regroupe les fonctions de Planification (anticiper/orienter), d'Organisation (répartir/coordonner) et de Pilotage (animer/mesurer) des activités menées : c'est POP."
+    },
+    {
+      "id": 3,
+      "enonce": "Quel était l'ancien acronyme définissant la gestion avant POP, et que signifie-t-il ?",
+      "options": [
+        "POCCC : Prévoir, Organiser, Commander, Coordonner, Contrôler",
+        "PDCA : Plan, Do, Check, Act",
+        "SWOT : Strengths, Weaknesses, Opportunities, Threats"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La gestion a d'abord été définie par l'acronyme POCCC (Fayol) : Prévoir, Organiser, Commander, Coordonner, Contrôler."
+    },
+    {
+      "id": 4,
+      "enonce": "Combien de types de capital distingue-t-on le plus souvent dans le cours ?",
+      "options": [
+        "3 (économique, environnemental, sociétal) ou 5 (manufacturé, financier, humain, social, naturel)",
+        "2 (matériel et immatériel) uniquement",
+        "4 (financier, humain, technique, juridique)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue souvent 3 types de capital (économique, environnemental, sociétal) ou 5 types (manufacturé, financier, humain, social, naturel)."
+    },
+    {
+      "id": 5,
+      "enonce": "Que trace la comptabilité selon le cours ?",
+      "options": [
+        "Uniquement le capital économique (capital financier = passif ; capital manufacturé = actifs)",
+        "L'ensemble des cinq capitaux de façon équilibrée",
+        "Uniquement le capital naturel et le capital social"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La comptabilité ne trace que le capital économique (capital financier = passif ; capital manufacturé = actifs) et a été inventée pour préserver le capital financier."
+    },
+    {
+      "id": 6,
+      "enonce": "Qu'accorde le droit à une société de capitaux (société par actions) ?",
+      "options": [
+        "Un régime fiscal plus favorable, une responsabilité limitée aux apports, et un transfert de propriété facilité",
+        "Une exonération totale d'impôts sur les sociétés",
+        "Une garantie de l'État contre la faillite"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les sociétés de capitaux sont soumises à un régime fiscal plus favorable, offrent une responsabilité limitée à leurs associés (pertes limitées aux apports) et permettent un transfert de propriété facilité."
+    },
+    {
+      "id": 7,
+      "enonce": "Que possèdent réellement les actionnaires d'une entreprise selon le cours ?",
+      "options": [
+        "Des parts (actions) de la société, et non l'entreprise elle-même",
+        "L'intégralité des actifs physiques de l'entreprise",
+        "Un droit de véto sur toutes les décisions opérationnelles"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours insiste : « Les actionnaires ne possèdent pas l'entreprise mais les parts de la société ! »"
+    },
+    {
+      "id": 8,
+      "enonce": "Qu'est-ce que la loi PACTE de 2019 a défini ?",
+      "options": [
+        "Le statut de « société à mission », pour les sociétés qui intègrent des objectifs sociaux/environnementaux dans leurs statuts",
+        "L'obligation de publier un bilan carbone pour toutes les PME",
+        "La création de l'ANSSI"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi PACTE (2019) définit la qualité de « société à mission », attribuée aux sociétés qui intègrent des objectifs sociaux et/ou environnementaux dans leurs statuts."
+    },
+    {
+      "id": 9,
+      "enonce": "Comment le cours définit-il la RSE (responsabilité sociétale des entreprises) ?",
+      "options": [
+        "La prise en compte volontaire par l'entreprise des enjeux environnementaux, sociaux et éthiques dans ses activités",
+        "Une obligation légale identique dans tous les pays européens",
+        "Un simple outil de communication publicitaire sans effet sur la stratégie"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La RSE désigne la prise en compte par l'entreprise, sur base volontaire, des enjeux environnementaux, sociaux et éthiques dans ses activités."
+    },
+    {
+      "id": 10,
+      "enonce": "D'après Karl W. Kapp, quelle est la « double logique » de l'entreprise privée dénoncée dans le cours ?",
+      "options": [
+        "La privatisation des profits et la mutualisation (socialisation) des coûts",
+        "La centralisation du pouvoir et la décentralisation des risques",
+        "La maximisation du chiffre d'affaires et la minimisation des salaires"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Kapp analyse que l'entreprise privée fait assumer les coûts sociétaux à la collectivité tout en privatisant les profits : c'est la double logique de privatisation des profits et de mutualisation des coûts."
+    },
+    {
+      "id": 11,
+      "enonce": "Quels sont les trois moteurs de la croissance économique présentés en Amphi 2 ?",
+      "options": [
+        "Industrialisation, mondialisation, financiarisation",
+        "Automatisation, digitalisation, robotisation",
+        "Urbanisation, natalité, éducation"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le second amphi détaille les moteurs de la croissance économique : industrialisation, mondialisation et financiarisation."
+    },
+    {
+      "id": 12,
+      "enonce": "Qui a proposé le terme de « Grande Accélération » en 2005, et pour désigner quoi ?",
+      "options": [
+        "Will Steffen, Paul Crutzen et John McNeill, pour désigner les bouleversements socio-économiques et environnementaux en cours",
+        "Milton Friedman, pour désigner la croissance du PIB mondial",
+        "Karl Kapp, pour désigner l'augmentation des coûts sociaux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En 2005, les climatologues Will Steffen, Paul Crutzen et l'historien John McNeill ont proposé le terme de « Grande Accélération »."
+    },
+    {
+      "id": 13,
+      "enonce": "Quelle proportion de l'énergie primaire mondiale provient des énergies fossiles selon le cours ?",
+      "options": [
+        "Plus de 80%",
+        "Environ 30%",
+        "Moins de 50%"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Plus de 80% de l'énergie primaire consommée dans le monde est d'origine fossile, ce qui conduit à l'augmentation du CO2 atmosphérique."
+    },
+    {
+      "id": 14,
+      "enonce": "Qu'observe-t-on historiquement concernant les transitions énergétiques, selon le cours ?",
+      "options": [
+        "Il n'y a jamais eu de véritable transition d'une énergie à une autre, mais des additions d'énergies, toutes en croissance",
+        "Chaque nouvelle énergie a totalement remplacé la précédente",
+        "Les énergies fossiles ont diminué de 50% depuis 1950"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Si de nouvelles énergies sont apparues, il n'y a jamais eu de transition d'une énergie à une autre, mais plutôt des additions des différentes énergies, toutes en croissance."
+    },
+    {
+      "id": 15,
+      "enonce": "Comment le cours définit-il une externalité ?",
+      "options": [
+        "Un transfert de valeur sans compensation monétaire, lié aux modes de production ou de consommation",
+        "Une taxe imposée par l'État sur les activités polluantes",
+        "Un revenu supplémentaire généré par une activité annexe de l'entreprise"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les économistes appellent « externalités » ces effets externes, définis comme des transferts de valeur sans compensation monétaire, liés aux modes de production ou de consommation."
+    },
+    {
+      "id": 16,
+      "enonce": "Qu'est-ce que l'effet rebond (ou paradoxe de Jevons) ?",
+      "options": [
+        "Lorsque des améliorations technologiques augmentent l'efficacité d'usage d'une ressource, la consommation globale de cette ressource augmente",
+        "Une baisse mécanique de la demande suite à une hausse des prix",
+        "Le retour à la croissance après une récession économique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'effet rebond, ou paradoxe de Jevons, constate que lorsque des améliorations technologiques augmentent l'efficacité avec laquelle une ressource est employée, la consommation globale de cette ressource augmente."
+    },
+    {
+      "id": 17,
+      "enonce": "Quelle nouvelle ère géologique le cours évoque-t-il pour qualifier l'impact de l'activité humaine sur la planète ?",
+      "options": [
+        "L'Anthropocène, marquant la fin de l'Holocène après 12 000 ans",
+        "Le Pléistocène, marquant la fin du Jurassique",
+        "L'Éocène industriel"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'activité humaine a atteint un tel degré de développement qu'elle fait entrer la Terre dans une nouvelle ère géologique, l'Anthropocène, marquant la fin de l'Holocène après 12 000 ans."
+    },
+    {
+      "id": 18,
+      "enonce": "Quel cadre analytique le Stockholm Resilience Center a-t-il proposé pour décrire les enjeux environnementaux ?",
+      "options": [
+        "Le cadre des « limites planétaires »",
+        "Le cadre du « PIB vert »",
+        "Le modèle RAP"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cadre d'analyse des « Limites planétaires » proposé par le Stockholm Resilience Center s'est progressivement imposé comme cadre de référence pour décrire ces enjeux."
+    },
+    {
+      "id": 19,
+      "enonce": "Parmi les catégories d'entreprises selon l'effectif salarié, laquelle correspond à une ETI ?",
+      "options": [
+        "Plus de 250 salariés",
+        "Moins de 10 salariés",
+        "Plus de 5000 salariés"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une Entreprise de Taille Intermédiaire (ETI) compte plus de 250 salariés ; les grandes entreprises comptent plus de 5000 salariés, les PME moins de 250 et les microentreprises moins de 10."
+    },
+    {
+      "id": 20,
+      "enonce": "Comment se calcule la valeur ajoutée d'une entreprise ?",
+      "options": [
+        "Chiffre d'affaires moins les achats et charges liées à l'exploitation",
+        "Chiffre d'affaires moins le résultat net",
+        "Effectif salarié multiplié par le salaire moyen"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La valeur ajoutée exprime la richesse créée au cours d'une année d'activité ; elle se calcule par la différence entre le chiffre d'affaires et les achats et charges liées à l'exploitation."
+    },
+    {
+      "id": 21,
+      "enonce": "Quelle est la différence entre le compte de résultat et le bilan de l'entreprise ?",
+      "options": [
+        "Le compte de résultat synthétise charges et produits sur une période (flux), le bilan présente le stock des ressources accumulées et leur financement",
+        "Le compte de résultat concerne uniquement les impôts, le bilan concerne uniquement les salaires",
+        "Ce sont deux noms différents pour le même document comptable"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le compte de résultat synthétise les charges et produits rattachés à une période (l'exercice), tandis que le bilan présente le stock des ressources accumulées par l'entreprise et les moyens de financement associés."
+    },
+    {
+      "id": 22,
+      "enonce": "Que représentent les créances clients ?",
+      "options": [
+        "Le décalage entre la date de facturation d'une vente et la date effective d'encaissement",
+        "Le montant total des dettes fournisseurs impayées",
+        "La trésorerie disponible en banque"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les créances clients enregistrent le décalage entre la date de création de la facture de vente et la date d'encaissement effectif du paiement par le client."
+    },
+    {
+      "id": 23,
+      "enonce": "Quelle est la différence entre gestion opérationnelle et gestion stratégique ?",
+      "options": [
+        "L'opérationnel vise l'efficience dans l'usage des ressources (compte de résultat), le stratégique vise à constituer le potentiel de l'entreprise (bilan)",
+        "L'opérationnel concerne le long terme, le stratégique le court terme",
+        "Il n'existe pas de différence, ce sont des synonymes"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Gérer opérationnellement, c'est rechercher l'efficience dans l'usage des ressources (traduit dans le compte de résultat) ; gérer stratégiquement, c'est constituer le potentiel de l'entreprise (traduit dans le bilan)."
+    },
+    {
+      "id": 24,
+      "enonce": "Quels sont les trois types de managers présentés dans le cours ?",
+      "options": [
+        "Le manager local, le manager intermédiaire, les managers généraux/dirigeants",
+        "Le manager junior, le manager senior, le manager expert",
+        "Le manager de production, le manager commercial, le manager financier"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue le manager local (animation opérationnelle d'équipe), le manager intermédiaire (relais stratégie/reporting) et les managers généraux ou dirigeants (politique générale)."
+    },
+    {
+      "id": 25,
+      "enonce": "Qu'est-ce que le « contrat psychologique » évoqué dans le cours ?",
+      "options": [
+        "Un accord largement implicite sur les contributions attendues des individus et les rétributions (financières et non financières) à attendre en retour",
+        "Un contrat de travail signé lors de l'entretien annuel",
+        "Une clause de non-concurrence obligatoire"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Au-delà du contrat de travail, il existe un « contrat psychologique » largement implicite sur les contributions attendues des individus et les rétributions attendues en retour."
+    },
+    {
+      "id": 26,
+      "enonce": "Que signifient les lettres de l'analyse SWOT ?",
+      "options": [
+        "Strengths, Weaknesses, Opportunities, Threats",
+        "Systèmes, Web, Organisation, Technologie",
+        "Stratégie, Winning, Opérations, Talent"
+      ],
+      "reponse_correcte": 0,
+      "explication": "SWOT signifie Strengths (forces), Weaknesses (faiblesses), Opportunities (opportunités), Threats (menaces)."
+    },
+    {
+      "id": 27,
+      "enonce": "Qu'est-ce qu'un « indicateur pastèque » évoqué dans le cours à propos des KPI ?",
+      "options": [
+        "Un indicateur qui affiche le vert (bon) en surface tout en masquant une réalité rouge (mauvaise)",
+        "Un indicateur mesurant uniquement les ventes saisonnières",
+        "Un indicateur validé par un audit externe indépendant"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les indicateurs « pastèques » affichent le vert en façade alors qu'ils masquent une réalité bien rouge, car les indicateurs orientent les comportements et peuvent conduire à « jouer l'indicateur »."
+    },
+    {
+      "id": 28,
+      "enonce": "Selon la sociologue Marie-Anne Dujarier citée dans le cours, quel est le risque du management par des « planneurs » ?",
+      "options": [
+        "Un management désincarné, élaboré loin du terrain, jugé « inhumain » par les salariés opérationnels",
+        "Une amélioration systématique de la performance sans effet secondaire",
+        "Une disparition complète des managers intermédiaires"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dujarier identifie le risque de « planneurs » qui élaborent des plans abstraits loin du terrain, instaurant un management désincarné jugé maladroit, voire inhumain, par les salariés opérationnels."
+    },
+    {
+      "id": 29,
+      "enonce": "Que désigne la proposition de valeur (Value Proposition) d'une entreprise ?",
+      "options": [
+        "La promesse faite au client, définissant les qualités de l'offre (problèmes traités, bénéfices apportés, preuves de valeur)",
+        "Le prix de vente fixé par le service financier",
+        "La part de marché visée à horizon 5 ans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'entreprise développe une Proposition de Valeur (problèmes traités / bénéfices apportés / preuves de valeur) que la communication traduit en une Promesse (slogan/style)."
+    },
+    {
+      "id": 30,
+      "enonce": "Quelle est la différence entre marketing et commercial (vente) ?",
+      "options": [
+        "Le commercial est en charge de l'acte de vente et de la relation client, le marketing facilite et accompagne la vente",
+        "Le marketing s'occupe uniquement de la publicité télévisée",
+        "Le commercial définit la stratégie de prix, le marketing gère la logistique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le marketing n'est pas le commercial : le commercial est en charge de l'acte de vente et de la relation avec les clients, tandis que le marketing facilite et accompagne la vente."
+    },
+    {
+      "id": 31,
+      "enonce": "Que désignent les « 4P » du Marketing Mix ?",
+      "options": [
+        "Produit, Prix, Place (distribution), Promotion (communication)",
+        "Personnel, Processus, Physique, Performance",
+        "Prévision, Pilotage, Prospection, Profit"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le Marketing Mix vise la cohérence entre les 4P : Produit, Prix, ainsi que Place/Position (canaux et points de vente) et Promotion (communication)."
+    },
+    {
+      "id": 32,
+      "enonce": "Quelle est la hiérarchie des « 3R » de l'économie circulaire ?",
+      "options": [
+        "Reduce (réduire), Reuse (réutiliser), Recycle (recycler), le recyclage n'intervenant qu'en dernier recours",
+        "Recycle, Reduce, Reuse, dans cet ordre de priorité",
+        "Repair, Rebuild, Resell"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La logique des 3R est : d'abord réduire, ensuite réutiliser, enfin recycler (Reduce, Reuse, Recycle), le recyclage ne devant venir qu'en dernier recours."
+    },
+    {
+      "id": 33,
+      "enonce": "Que vaut approximativement, selon l'estimation citée dans le cours, la ressource récupérable dans un smartphone ?",
+      "options": [
+        "Environ 1 euro",
+        "Environ 50 euros",
+        "Environ 500 euros"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Il est estimé que les ressources récupérables dans un smartphone valent environ 1 €, ce qui illustre les limites économiques du recyclage."
+    },
+    {
+      "id": 34,
+      "enonce": "Comment se calcule le point mort (break-even point) ?",
+      "options": [
+        "Charges fixes / (prix de vente unitaire - charges variables unitaires)",
+        "Chiffre d'affaires / nombre de salariés",
+        "Marges brutes x nombre de clients"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le point mort se calcule ainsi : PM = charges fixes / (prix de vente unitaire – charges variables unitaires). C'est le niveau d'activité où le résultat est nul."
+    },
+    {
+      "id": 35,
+      "enonce": "Comment se calcule le CAC (coût d'acquisition client) ?",
+      "options": [
+        "Dépenses marketing / nombre de nouveaux clients acquis",
+        "Chiffre d'affaires total / nombre de clients existants",
+        "Marge nette / nombre de commerciaux"
+      ],
+      "reponse_correcte": 0,
+      "explication": "CAC = Dépenses Marketing / Nouveaux Clients acquis. Le cours rappelle qu'il coûte souvent moins cher de fidéliser un client que d'en acquérir un nouveau."
+    },
+    {
+      "id": 36,
+      "enonce": "Quelle est la différence entre intégration et externalisation pour une entreprise ?",
+      "options": [
+        "L'intégration développe des compétences mais augmente les charges fixes ; l'externalisation variabilise les charges au risque de dépendance",
+        "L'intégration est toujours moins chère que l'externalisation",
+        "L'externalisation est interdite pour les activités stratégiques"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégration permet le développement de compétences mais augmente les charges fixes ; l'externalisation permet de variabiliser les charges au risque de dépendance et de perte de contrôle."
+    },
+    {
+      "id": 37,
+      "enonce": "Quelle est la différence entre la « value chain » (chaîne de valeur) et la « supply chain » (chaîne d'approvisionnement) ?",
+      "options": [
+        "La supply chain correspond aux flux d'informations, de produits, de matériels et financiers, tandis que la value chain analyse la création/captation de valeur entre acteurs",
+        "Ce sont des synonymes utilisés indifféremment",
+        "La supply chain concerne uniquement les entreprises publiques"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La supply chain correspond aux flux d'informations, de produits, de matériels et financiers, tandis que la chaîne de valeur (value chain) analyse les acteurs, transactions et la valeur créée, captée ou perdue."
+    },
+    {
+      "id": 38,
+      "enonce": "D'après le concept de « prime au vice » évoqué dans le cours (exemple de Loom), pourquoi les pratiques les moins vertueuses sont-elles souvent récompensées économiquement ?",
+      "options": [
+        "Car produire de façon irresponsable (pollution, coûts sociaux bas) permet de réduire les coûts et d'être plus compétitif",
+        "Car les consommateurs préfèrent systématiquement les marques les moins éthiques",
+        "Car les lois environnementales sont identiques partout dans le monde"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La « prime au vice » désigne le fait que plus une entreprise pollue et produit dans des pays aux lois permissives, moins sa production coûte cher et plus elle est compétitive : il existe un avantage économique à produire de manière irresponsable."
+    },
+    {
+      "id": 39,
+      "enonce": "Qu'est-ce que le devoir de vigilance (loi française de 2017) ?",
+      "options": [
+        "Une obligation légale imposant aux sociétés mères d'établir, publier et mettre en œuvre un plan de vigilance sur les atteintes aux droits humains et à l'environnement liées à leurs filiales/sous-traitants",
+        "Une obligation de vidéosurveillance dans les entrepôts industriels",
+        "Une obligation de vérifier l'identité des actionnaires étrangers"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi sur le devoir de vigilance (n°2017-399) impose trois obligations préventives : établir un plan de vigilance, le publier, et le mettre en œuvre, suite notamment à la catastrophe du Rana Plaza."
+    },
+    {
+      "id": 40,
+      "enonce": "Quel événement a motivé l'adoption de la loi française sur le devoir de vigilance ?",
+      "options": [
+        "L'effondrement du Rana Plaza au Bangladesh en avril 2013",
+        "La catastrophe de Tchernobyl",
+        "Le scandale Enron"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi sur le devoir de vigilance est intervenue en réaction à l'effondrement du Rana Plaza au Bangladesh en avril 2013, qui a causé la mort de plus de 1100 ouvriers."
+    },
+    {
+      "id": 41,
+      "enonce": "Comment Karl W. Kapp définit-il les coûts sociétaux ?",
+      "options": [
+        "L'ensemble des pertes et dépenses, directes et indirectes, présentes et futures, supportées par des tiers ou la collectivité, et qui auraient pu être évitées",
+        "Le montant des impôts payés par les entreprises multinationales",
+        "Le coût de formation des nouveaux salariés"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Selon Kapp, les coûts sociétaux correspondent à l'ensemble des pertes et dépenses, directes et indirectes, présentes et futures, supportées par des tiers ou la collectivité du fait des impacts de la production, et qui auraient pu être évitées."
+    },
+    {
+      "id": 42,
+      "enonce": "Que désigne la « matérialité » en comptabilité, appliquée au risque climatique ?",
+      "options": [
+        "Ce qui peut avoir un impact significatif sur les activités d'une organisation et sa capacité à créer de la valeur",
+        "La valeur physique (matérielle) des actifs de l'entreprise",
+        "Le montant des matières premières consommées chaque année"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La matérialité définit en comptabilité ce qui peut avoir un impact significatif sur les activités d'une organisation et sur sa capacité à créer de la valeur."
+    },
+    {
+      "id": 43,
+      "enonce": "Quelle est la différence entre risques physiques et risques de transition liés au climat ?",
+      "options": [
+        "Les risques physiques sont liés aux effets directs/indirects du changement climatique, les risques de transition sont liés aux pertes financières causées par le passage à une économie bas-carbone",
+        "Les risques physiques concernent uniquement les catastrophes naturelles passées",
+        "Les risques de transition ne concernent que les entreprises publiques"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le risque climat comprend des risques physiques (dommages, baisse de productivité, perturbation des chaînes d'approvisionnement) et des risques de transition (pertes financières liées aux politiques climatiques défavorables à certains secteurs)."
+    },
+    {
+      "id": 44,
+      "enonce": "Qu'est-ce que la « double matérialité » selon les lignes directrices de la CSRD ?",
+      "options": [
+        "L'évaluation à la fois de la matérialité financière (impact du climat sur l'entreprise) et de la matérialité d'impact (impact de l'entreprise sur le climat/ESG)",
+        "Le double calcul du chiffre d'affaires en devise locale et en euros",
+        "L'obligation de produire deux rapports financiers distincts chaque année"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La double matérialité (CSRD) prend en compte à la fois la matérialité financière (impacts du climat sur l'entreprise) et la matérialité d'impact (impacts de l'entreprise sur des enjeux ESG)."
+    },
+    {
+      "id": 45,
+      "enonce": "Quels sont les deux objectifs principaux de la Stratégie Nationale Bas-Carbone (SNBC) ?",
+      "options": [
+        "Atteindre la neutralité carbone en 2050 et diviser par six les émissions nationales entre 1990 et 2050",
+        "Doubler le PIB français d'ici 2050 tout en réduisant les impôts",
+        "Interdire totalement les énergies fossiles dès 2030"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La SNBC vise à atteindre la neutralité carbone à l'horizon 2050 et une division par six des émissions nationales entre 1990 et 2050 (ainsi qu'une réduction de 40% entre 1990 et 2030)."
+    },
+    {
+      "id": 46,
+      "enonce": "Que signifie la « neutralité carbone » (net zéro) selon le cours ?",
+      "options": [
+        "L'équilibre entre émissions et absorptions anthropiques de CO2 au niveau mondial ; une organisation seule ne peut que « contribuer » à cet objectif",
+        "L'absence totale d'émissions de CO2 pour chaque organisation individuellement",
+        "Un objectif purement volontaire sans référence internationale"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La neutralité carbone désigne l'équilibre entre émissions et absorptions de CO2 anthropiques à l'échelle mondiale ; elle ne s'applique pas à une organisation individuelle, qui ne peut que contribuer à cette trajectoire."
+    },
+    {
+      "id": 47,
+      "enonce": "Quels sont les deux leviers de décarbonation identifiés dans le cours au-delà des énergies renouvelables et de l'électrification ?",
+      "options": [
+        "L'amélioration de l'efficacité énergétique et la sobriété (réduction planifiée et volontaire de la consommation)",
+        "La délocalisation de la production et l'augmentation des exportations",
+        "L'automatisation complète des usines et la suppression des syndicats"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Deux autres leviers de décarbonation sont identifiés : l'amélioration de l'efficacité énergétique et la sobriété. Seule la sobriété permet d'éviter les effets rebond liés à l'efficacité."
+    },
+    {
+      "id": 48,
+      "enonce": "Dans le Business Model Canvas, que décrit la « cost structure » (structure de coûts) ?",
+      "options": [
+        "Les conséquences financières majeures selon que le modèle est « cost-driven » (minimiser les coûts) ou « value-driven » (créer de la valeur)",
+        "Uniquement le salaire des dirigeants",
+        "Le montant des subventions publiques reçues"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La structure de coûts distingue les modèles cost-driven (focalisés sur la minimisation des coûts) et value-driven (moins concernés par le coût, focalisés sur la création de valeur)."
+    },
+    {
+      "id": 49,
+      "enonce": "Lequel des exemples suivants illustre un revenu de type « usage fee » dans le Business Model Canvas ?",
+      "options": [
+        "UPS facturant en fonction de l'utilisation du service de livraison",
+        "Netflix facturant un abonnement mensuel",
+        "Un agent immobilier facturant une commission"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours donne l'exemple d'UPS pour illustrer le revenu par « usage fee » (argent généré par l'utilisation d'un service particulier), à distinguer de l'abonnement (Netflix) ou du courtage (agent immobilier)."
+    },
+    {
+      "id": 50,
+      "enonce": "D'après Milton Friedman cité dans le cours, quelle est l'unique responsabilité sociale d'une entreprise ?",
+      "options": [
+        "Utiliser ses ressources pour accroître ses profits, dans le respect des règles du jeu (concurrence libre, sans tromperie ni fraude)",
+        "Investir prioritairement dans des projets environnementaux",
+        "Redistribuer l'intégralité de ses bénéfices aux salariés"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Friedman affirme que l'entreprise a une seule responsabilité sociale : utiliser ses ressources et s'engager dans des activités visant à accroître ses profits, à condition de respecter les règles du jeu."
+    },
+    {
+      "id": 51,
+      "enonce": "Quelle est la particularité de la gouvernance dans une entreprise de l'Économie Sociale et Solidaire (ESS) ?",
+      "options": [
+        "Elle est démocratique, selon le principe « une personne, une voix », et le but social prime sur le partage des bénéfices",
+        "Elle est dirigée exclusivement par l'État",
+        "Elle repose sur le principe « un euro investi, une voix »"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour être qualifiée d'ESS, une entreprise doit poursuivre un but d'utilité sociale autre que le partage des bénéfices et avoir une gouvernance démocratique (« un homme, une voix »)."
+    },
+    {
+      "id": 52,
+      "enonce": "Qu'engage l'acheteur (entreprise) dans une filière de commerce équitable ?",
+      "options": [
+        "À payer un prix juste couvrant tous les coûts (y compris environnementaux) et à garantir une relation commerciale durable",
+        "À acheter exclusivement des produits fabriqués en Europe",
+        "À verser un salaire minimum identique dans tous les pays"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le commerce équitable, l'acheteur s'engage à payer un prix juste couvrant les coûts de production et d'exploitation (y compris environnementaux) et à garantir une relation commerciale durable."
+    },
+    {
+      "id": 53,
+      "enonce": "Quelles sont les quatre libertés du logiciel libre définies par la Free Software Foundation ?",
+      "options": [
+        "Exécuter, étudier, redistribuer et améliorer le programme",
+        "Vendre, breveter, licencier et copyrighter le programme",
+        "Modifier le prix, changer le nom, revendre et sous-traiter le programme"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les quatre libertés du logiciel libre sont : la liberté d'exécuter le programme (liberté 0), de l'étudier (liberté 1), de redistribuer des copies (liberté 2), et de l'améliorer et publier ses améliorations (liberté 3)."
+    },
+    {
+      "id": 54,
+      "enonce": "Qu'est-ce qu'une entreprise « régénérative » selon le cours ?",
+      "options": [
+        "Une entreprise dont les activités contribuent à la régénération de l'environnement et à l'amélioration de la qualité de vie, tout en restant économiquement viable",
+        "Une entreprise qui recycle 100% de ses déchets",
+        "Une entreprise publique financée uniquement par l'État"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une entreprise régénérative est celle dont les activités contribuent à la régénération de l'environnement et à l'amélioration de la qualité de vie des citoyens, tout en restant économiquement viable — au-delà de la simple réduction d'impact."
+    },
+    {
+      "id": 55,
+      "enonce": "Comment le cours définit-il l'extractivisme ?",
+      "options": [
+        "Un mode d'accumulation de richesses reposant sur l'extraction de grandes quantités de ressources naturelles peu ou pas transformées, principalement destinées à l'export",
+        "Une méthode de fabrication de matériaux recyclés à haute valeur ajoutée",
+        "Une politique fiscale favorisant les exportations de produits manufacturés"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'extractivisme désigne un mode d'accumulation de richesses reposant sur des activités qui extraient de grandes quantités de ressources naturelles peu ou pas transformées, principalement destinées à l'export."
+    },
+    {
+      "id": 56,
+      "enonce": "Qu'est-ce que la « malédiction des ressources » ?",
+      "options": [
+        "Le fait qu'une abondance de ressources naturelles ne se traduise pas toujours par une amélioration du bien-être des populations locales",
+        "L'épuisement inévitable de toutes les ressources minières d'ici 2050",
+        "Une taxe internationale prélevée sur l'exportation de matières premières"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La malédiction des ressources désigne le fait que l'exploitation de ressources naturelles abondantes ne se traduit pas nécessairement par une amélioration du bien-être des populations locales."
+    },
+    {
+      "id": 57,
+      "enonce": "Selon José Halloy, pourquoi la plupart des technologies modernes sont-elles qualifiées de « technologies zombies » ?",
+      "options": [
+        "Parce qu'elles se fondent sur une chimie linéaire (extraction → décharge) incompatible avec le vivant et ne sont pas soutenables sur le long terme",
+        "Parce qu'elles sont obsolètes techniquement et remplacées rapidement",
+        "Parce qu'elles nécessitent une maintenance humaine constante"
+      ],
+      "reponse_correcte": 0,
+      "explication": "José Halloy explique que les technologies modernes reposent sur une chimie différente du vivant, se déployant linéairement de l'extraction minière à la décharge ; par construction, elles ne sont pas soutenables sur la longue durée : ce sont des « technologies zombies »."
+    },
+    {
+      "id": 58,
+      "enonce": "Que distingue Dominique Bourg entre durabilité forte et durabilité faible ?",
+      "options": [
+        "La durabilité faible (Solow) suppose que le capital naturel détruit peut être compensé par du capital reproductible/technologique ; la durabilité forte affirme que le capital naturel n'est pas substituable",
+        "La durabilité forte concerne uniquement les entreprises publiques",
+        "La durabilité faible interdit toute activité industrielle"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La durabilité faible (Solow) considère que la destruction du capital naturel peut être compensée par la création de capital reproductible/technologique ; la durabilité forte affirme qu'une grande part du capital naturel n'est pas technologiquement substituable."
+    },
+    {
+      "id": 59,
+      "enonce": "Comment la Loi pour une République numérique du 7 octobre 2016 définit-elle une plateforme ?",
+      "options": [
+        "Toute personne proposant un service de communication en ligne basé sur le classement/référencement de contenus ou la mise en relation de parties pour un échange",
+        "Toute entreprise de plus de 250 salariés utilisant un site internet",
+        "Un simple hébergeur de données sans traitement algorithmique"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi définit une plateforme comme toute personne proposant un service de communication au public en ligne reposant sur le classement/référencement algorithmique de contenus, ou la mise en relation de parties pour une transaction."
+    },
+    {
+      "id": 60,
+      "enonce": "Comment le cours définit-il l'« ubérisation » ?",
+      "options": [
+        "La transformation d'un secteur d'activité par une offre digitale (souvent portée par une plateforme) remettant en cause les entreprises établies via des propositions de valeur plus attractives",
+        "L'obligation pour les entreprises de taxis de passer au numérique",
+        "La fusion de plusieurs plateformes concurrentes en un seul groupe"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'ubérisation désigne la transformation d'un secteur d'activité par une offre digitale, le plus souvent portée par une plateforme, qui remet en cause la place des entreprises établies grâce à des propositions de valeur plus attractives et des structures de coûts plus légères."
+    },
+    {
+      "id": 61,
+      "enonce": "Quelles conséquences l'ubérisation a-t-elle sur le statut des travailleurs, selon le cours ?",
+      "options": [
+        "Elle remet en cause le salariat comme norme, via le statut de micro-entrepreneur, offrant moins de protection et des revenus souvent plus faibles",
+        "Elle garantit automatiquement le statut de salarié protégé à tous les travailleurs",
+        "Elle supprime totalement le travail indépendant"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les personnes travaillant pour les plateformes le font le plus souvent sous statut de micro-entrepreneur, ce qui donne une illusion de liberté mais offre moins de protection que le statut de salarié et des revenus plus faibles."
+    },
+    {
+      "id": 62,
+      "enonce": "Quels sont les trois piliers de la souveraineté numérique définis par la Commission Européenne ?",
+      "options": [
+        "La puissance de calcul, le contrôle par les Européens de leurs données, et une connectivité sécurisée",
+        "La monnaie unique, la défense commune, et la politique agricole",
+        "L'énergie nucléaire, l'espace, et les télécommunications"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La Commission Européenne définit la souveraineté numérique par trois piliers : la puissance de calcul, le contrôle par les Européens de leurs données, et une connectivité sécurisée."
+    },
+    {
+      "id": 63,
+      "enonce": "Selon Antoinette Rouvroy, en quoi l'IA générative constitue-t-elle avant tout une « entreprise de réorganisation » ?",
+      "options": [
+        "Énergétique, territoriale et industrielle (data centers, centrales électriques, réseaux, refroidissement)",
+        "Purement informationnelle, sans impact matériel ou territorial",
+        "Exclusivement financière, sans lien avec les infrastructures physiques"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Rouvroy souligne que l'IA générative est avant tout une vaste entreprise de réorganisation énergétique, territoriale et industrielle (data centers, centrales électriques, réseaux, refroidissement), contrairement à l'idée que l'information remplacerait la matière."
+    },
+    {
+      "id": 64,
+      "enonce": "Que vise principalement le Cloud and AI Development Act (CADA), présenté en 2026 ?",
+      "options": [
+        "Lever les obstacles réglementaires, énergétiques et fonciers freinant le déploiement des infrastructures numériques, et tripler la capacité européenne",
+        "Interdire le développement de l'intelligence artificielle en Europe",
+        "Imposer un moratoire de 10 ans sur la construction de data centers"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le CADA vise à lever les obstacles réglementaires, énergétiques, fonciers et administratifs qui ralentissent le déploiement des infrastructures numériques, et fixe un objectif de triplement de la capacité européenne."
+    },
+    {
+      "id": 65,
+      "enonce": "Quelle part de la croissance du PIB réel américain les investissements dans les infrastructures d'IA auraient-ils représentée sur les trois premiers trimestres de 2025, selon le texte de Rouvroy ?",
+      "options": [
+        "Près de 39%",
+        "Près de 5%",
+        "Près de 75%"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Selon le texte, les investissements en infrastructures d'IA auraient représenté près de 39% de la croissance du PIB réel américain sur les trois premiers trimestres de 2025, après avoir atteint près de 92% au premier semestre."
+    },
+    {
+      "id": 66,
+      "enonce": "Quelle est la structure d'évaluation du cours 1SL2000 (première session) ?",
+      "options": [
+        "35% contrôle continu, 30% examen de groupe (séance 5), 35% quiz final individuel",
+        "50% examen final, 50% assiduité",
+        "100% basé sur un unique projet de groupe noté"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'évaluation se répartit ainsi : 35% de contrôle continu (7/20), 30% pour l'examen obligatoire en groupe de 3 en séance 5 (6/20), et 35% pour le quiz final individuel (7/20)."
+    },
+    {
+      "id": 67,
+      "enonce": "Dans quelles conditions se déroule l'examen obligatoire de la séance 5 ?",
+      "options": [
+        "En groupe de 3, sur document, mais sans connexion internet",
+        "Individuellement, sans document et sans connexion",
+        "En groupe de 6, avec accès libre à internet"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'examen obligatoire de la séance 5 se déroule en groupe de 3, sur document mais sans connexion internet, et représente 30% de la note finale."
+    },
+    {
+      "id": 68,
+      "enonce": "Le quiz final individuel se déroule-t-il avec ou sans document ?",
+      "options": [
+        "Sans document : il faut réviser les « Que retenir » et connaître les cas étudiés en séance",
+        "Avec l'intégralité du polycopié de cours autorisé",
+        "Avec un accès internet limité à 10 minutes"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le quiz final individuel est un examen sans document ; il faut réviser les sections « Que retenir » et connaître les cas étudiés en classe intégrée."
+    },
+    {
+      "id": 69,
+      "enonce": "Quelle compétence le cours 1SL2000 permet-il de valider ?",
+      "options": [
+        "La compétence C9.2 : percevoir le champ de responsabilité des structures auxquelles on contribue (dimensions environnementales, sociales, éthiques)",
+        "La compétence C1.1 : maîtriser les langages de programmation",
+        "La compétence C5.3 : gérer un projet en méthode agile"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours permet de valider la compétence C9.2 : percevoir le champ de responsabilité des structures auxquelles on contribue, en intégrant les dimensions environnementales, sociales et éthiques."
+    },
+    {
+      "id": 70,
+      "enonce": "Que se passe-t-il en cas d'absence non justifiée en classe intégrée ?",
+      "options": [
+        "Un point malus est appliqué sur la note de contrôle continu",
+        "L'élève est automatiquement exclu du cours",
+        "Aucune conséquence n'est prévue"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'absence non justifiée en classe intégrée entraîne un point malus sur la note de contrôle continu."
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "titre_chapitre": "C1 Topologie dans les espaces métriques",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit \\(E\\) un ensemble non vide. À quelles conditions une application \\(d : E \\times E \\to \\mathbb{R}_+\\) est-elle une distance ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une distance vérifie, pour tous \\(x,y,z\\in E\\) : (1) la séparation : \\(d(x,y)=0\\) si et seulement si \\(x=y\\) ; (2) la symétrie : \\(d(x,y)=d(y,x)\\) ; (3) l'inégalité triangulaire : \\(d(x,z)\\le d(x,y)+d(y,z)\\). En particulier, \\(d(x,y)\\ge0\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Donner un exemple de distance sur un ensemble.",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sur \\(\\mathbb{R}\\), la distance usuelle est \\(d(x,y)=|x-y|\\). Sur tout ensemble \\(E\\), la distance discrète est définie par \\(d(x,y)=0\\) si \\(x=y\\), et \\(d(x,y)=1\\) sinon."
+    },
+    {
+      "id": 3,
+      "enonce": "Quelle méthode classique peut aider à démontrer une inégalité triangulaire ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On introduit un terme intermédiaire par un artifice algébrique : par exemple \\(x-z=(x-y)+(y-z)\\), ou plus généralement on ajoute et retranche un même terme \\(a\\). On applique ensuite l'inégalité triangulaire connue, par exemple \\(|u+v|\\le |u|+|v|\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Laquelle des deux implications suivantes est vraie en général : « distance \\(\\Rightarrow\\) norme » ou « norme \\(\\Rightarrow\\) distance » ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une norme induit toujours une distance : si \\(\\|\\cdot\\|\\) est une norme sur un espace vectoriel, alors \\(d(x,y)=\\|x-y\\|\\) est une distance. La réciproque est fausse : une distance n'est pas nécessairement issue d'une norme."
+    },
+    {
+      "id": 5,
+      "enonce": "Quelles propriétés faut-il vérifier pour montrer qu'une application \\(N:E\\to\\mathbb{R}_+\\), définie sur un espace vectoriel \\(E\\), est une norme ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Il faut vérifier : (1) séparation : \\(N(x)=0\\) si et seulement si \\(x=0\\) ; (2) homogénéité : \\(N(\\lambda x)=|\\lambda|N(x)\\) pour tout scalaire \\(\\lambda\\) ; (3) inégalité triangulaire : \\(N(x+y)\\le N(x)+N(y)\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Définir une boule ouverte de centre \\(x\\in E\\) et de rayon \\(r>0\\) dans l'espace métrique \\((E,d)\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La boule ouverte est \\(B(x,r)=\\{y\\in E\\mid d(x,y)<r\\}\\). Elle contient les points dont la distance à \\(x\\) est strictement inférieure à \\(r\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Définir une boule fermée de centre \\(x\\in E\\) et de rayon \\(r\\ge0\\) dans l'espace métrique \\((E,d)\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La boule fermée est \\(\\overline{B}(x,r)=\\{y\\in E\\mid d(x,y)\\le r\\}\\). Contrairement à la boule ouverte, elle inclut les points situés exactement à distance \\(r\\) du centre."
+    },
+    {
+      "id": 8,
+      "enonce": "Soient \\((x_n)_{n\\in\\mathbb N}\\in E^{\\mathbb N}\\) et \\(x\\in E\\). À quelle condition, exprimée d'abord avec la distance puis avec les boules, a-t-on \\(x_n\\to x\\) lorsque \\(n\\to+\\infty\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On a \\(x_n\\to x\\) si et seulement si \\(d(x_n,x)\\to0\\). Équivalemment, pour tout \\(\\varepsilon>0\\), il existe \\(N\\in\\mathbb N\\) tel que, pour tout \\(n\\ge N\\), \\(d(x_n,x)<\\varepsilon\\), c'est-à-dire \\(x_n\\in B(x,\\varepsilon)\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Soit \\(f:E\\to F\\), où \\((E,d_E)\\) et \\((F,d_F)\\) sont des espaces métriques. Quelle condition séquentielle caractérise la continuité de \\(f\\) en un point \\(x\\in E\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La fonction \\(f\\) est continue en \\(x\\) si et seulement si, pour toute suite \\((x_n)\\) de \\(E\\), \\(x_n\\to x\\) implique \\(f(x_n)\\to f(x)\\). Elle est continue sur \\(E\\) lorsqu'elle est continue en tout point de \\(E\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Pour un sous-ensemble \\(A\\subset E\\), quelle caractérisation séquentielle équivaut au fait que \\(A\\) est ouvert ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "\\(A\\) est ouvert si et seulement si, pour toute suite \\((x_n)\\) telle que \\(x_n\\to x\\) et \\(x\\in A\\), on a \\(x_n\\in A\\) à partir d'un certain rang. Cela équivaut aussi à : pour tout \\(x\\in A\\), il existe \\(r>0\\) tel que \\(B(x,r)\\subset A\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Soit \\(A\\subset E\\). À quelle condition \\(A\\) est-il fermé dans l'espace métrique \\((E,d)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "\\(A\\) est fermé si et seulement si son complémentaire \\(E\\setminus A\\) est ouvert. De manière équivalente, toute suite d'éléments de \\(A\\) qui converge dans \\(E\\) a sa limite dans \\(A\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Toute suite convergente \\((x_n)\\) dans un espace métrique est-elle de Cauchy ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Oui. Si \\(x_n\\to x\\), alors pour \\(m,n\\) assez grands, l'inégalité triangulaire donne \\(d(x_m,x_n)\\le d(x_m,x)+d(x,x_n)\\), et ce majorant peut être rendu arbitrairement petit."
+    },
+    {
+      "id": 13,
+      "enonce": "Quand dit-on qu'un espace métrique est complet ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un espace métrique est complet si toute suite de Cauchy à valeurs dans cet espace y converge. La limite doit donc appartenir à l'espace lui-même."
+    },
+    {
+      "id": 14,
+      "enonce": "Comment appelle-t-on un espace vectoriel normé complet ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un espace vectoriel normé complet est appelé un espace de Banach. La complétude se réfère à la distance induite par sa norme."
+    },
+    {
+      "id": 15,
+      "enonce": "Tout espace vectoriel normé de dimension finie est-il complet ? En particulier, qu'en est-il de \\(\\mathbb{R}\\) muni de sa valeur absolue ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Oui. Tout espace vectoriel normé de dimension finie est complet. En particulier, \\(\\mathbb{R}\\), muni de la norme \\(|x|\\), est complet."
+    }
+  ]
+}

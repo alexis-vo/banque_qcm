@@ -1,0 +1,1325 @@
+{
+  "titre_chapitre": "1SL2000 – Business Management & Transformation – QCM d'entraînement complet",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Selon la définition donnée dans le cours, qu'est-ce qu'une entreprise ?",
+      "options": [
+        "Une unité économiquement autonome et juridiquement indépendante dont la fonction principale est de produire des biens ou services pour le marché.",
+        "Une organisation dont la seule fonction est de maximiser les salaires de ses employés.",
+        "Une organisation publique chargée exclusivement de redistribuer les richesses."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours reprend la définition de l'INSEE : l'entreprise est une unité économiquement autonome et juridiquement indépendante produisant principalement des biens ou services pour le marché."
+    },
+    {
+      "id": 2,
+      "enonce": "Quel élément caractérise particulièrement le système économique capitaliste dans le cours ?",
+      "options": [
+        "La propriété privée des moyens de production et des profits issus de la vente de la production.",
+        "La suppression de toute propriété privée.",
+        "L'interdiction des échanges sur les marchés."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le capitalisme est présenté comme un système accordant aux entreprises la propriété privée des moyens de production ainsi que des profits issus de la vente."
+    },
+    {
+      "id": 3,
+      "enonce": "Quels sont les quatre éléments organisationnels explicitement associés à l'entreprise dans le cours ?",
+      "options": [
+        "Membres, ressources, rôles et règles.",
+        "Clients, banques, impôts et publicité.",
+        "Prix, salaires, dividendes et taxes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'entreprise rassemble des membres, mutualise des ressources, définit des rôles et établit des règles."
+    },
+    {
+      "id": 4,
+      "enonce": "Dans le modèle RAP, que représentent les trois lettres ?",
+      "options": [
+        "Resources, Activities, Partners.",
+        "Revenue, Assets, Profit.",
+        "Risk, Accounting, Production."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle RAP décrit les Resources, Activities et Partners de l'entreprise."
+    },
+    {
+      "id": 5,
+      "enonce": "Que permet notamment la personnalité juridique d'une société ?",
+      "options": [
+        "Elle lui permet notamment de conclure des contrats, d'agir en justice et d'assumer ses responsabilités en son propre nom.",
+        "Elle permet automatiquement à tous les salariés de devenir actionnaires.",
+        "Elle supprime toute responsabilité juridique de l'entreprise."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La personnalité juridique permet à la société d'avoir ses propres droits et obligations, distincts de ceux de ses membres."
+    },
+    {
+      "id": 6,
+      "enonce": "Dans une société à responsabilité limitée pour les actionnaires, leur responsabilité est principalement limitée à quoi ?",
+      "options": [
+        "Au montant de leurs contributions au capital.",
+        "À leur salaire annuel.",
+        "À la totalité de leur patrimoine personnel."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours indique que les actionnaires sont responsables des pertes jusqu'à concurrence de leurs contributions."
+    },
+    {
+      "id": 7,
+      "enonce": "Que possèdent juridiquement les actionnaires d'une société par actions ?",
+      "options": [
+        "Des actions ou parts dans la société.",
+        "Directement chacun des actifs physiques de l'entreprise.",
+        "Les salariés de l'entreprise."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours insiste sur la distinction : les actionnaires possèdent des actions dans la société, et non directement les actifs de celle-ci."
+    },
+    {
+      "id": 8,
+      "enonce": "Quels types de droits les actions confèrent-elles principalement ?",
+      "options": [
+        "Des droits financiers et des droits politiques/corporate.",
+        "Uniquement des droits sur les salariés.",
+        "Uniquement des droits fiscaux."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les actions donnent notamment des droits financiers, comme les dividendes, et des droits de participation aux décisions."
+    },
+    {
+      "id": 9,
+      "enonce": "Qu'est-ce qu'une entreprise cotée en bourse ?",
+      "options": [
+        "Une entreprise dont tout ou partie du capital est coté sur un marché boursier.",
+        "Une entreprise dont tous les salariés sont fonctionnaires.",
+        "Une entreprise qui ne peut plus émettre d'actions."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours définit une entreprise cotée comme une entreprise dont tout ou partie du capital est inscrit sur une place boursière."
+    },
+    {
+      "id": 10,
+      "enonce": "Que signifie IPO ?",
+      "options": [
+        "Initial Public Offering.",
+        "Internal Production Organization.",
+        "International Profit Optimization."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une IPO est une opération financière permettant notamment à une entreprise d'augmenter sa capacité de financement en offrant des actions au public."
+    },
+    {
+      "id": 11,
+      "enonce": "Dans une coopérative, quel principe de gouvernance est mis en avant ?",
+      "options": [
+        "One person, one vote.",
+        "One share, one employee.",
+        "One manager, one vote."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours présente la coopérative comme une entreprise à propriété collective dans laquelle le pouvoir est exercé démocratiquement selon le principe « one person, one vote »."
+    },
+    {
+      "id": 12,
+      "enonce": "À quel ensemble les coopératives sont-elles rattachées dans le cours ?",
+      "options": [
+        "L'économie sociale et solidaire (ESS/SSE).",
+        "L'économie exclusivement financière.",
+        "L'économie informelle."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les coopératives font partie de l'économie sociale et solidaire avec notamment les mutuelles et certaines associations."
+    },
+    {
+      "id": 13,
+      "enonce": "Quel est le principe général d'une entreprise dite « mission-driven company » selon le cours ?",
+      "options": [
+        "Intégrer des objectifs sociaux et/ou environnementaux dans ses statuts et adapter son fonctionnement pour les poursuivre.",
+        "Supprimer tout objectif économique.",
+        "Être obligatoirement détenue par l'État."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours présente ce statut issu de la loi PACTE de 2019 comme intégrant des objectifs sociaux et/ou environnementaux dans les statuts."
+    },
+    {
+      "id": 14,
+      "enonce": "Que signifie CSR dans le cours ?",
+      "options": [
+        "Corporate Social Responsibility.",
+        "Corporate Sales Regulation.",
+        "Capital Sustainability Ratio."
+      ],
+      "reponse_correcte": 0,
+      "explication": "CSR signifie Corporate Social Responsibility, ou responsabilité sociale des entreprises."
+    },
+    {
+      "id": 15,
+      "enonce": "Comment le cours définit-il principalement la CSR ?",
+      "options": [
+        "Comme la prise en compte volontaire des enjeux environnementaux, sociaux et éthiques dans les activités de l'entreprise.",
+        "Comme l'obligation pour toutes les entreprises de devenir coopératives.",
+        "Comme une méthode exclusivement destinée à augmenter les ventes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La CSR est présentée comme la prise en compte volontaire d'enjeux environnementaux, sociaux et éthiques, avec des initiatives et des restrictions allant au-delà du strict minimum réglementaire."
+    },
+    {
+      "id": 16,
+      "enonce": "Quel risque est associé dans le cours à la formulation d'une mission ou d'un purpose par une entreprise ?",
+      "options": [
+        "Le mission washing.",
+        "Le cash pooling.",
+        "Le stock splitting."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours souligne le risque de « mission washing », lorsque la mission affichée ne correspond pas nécessairement aux pratiques réelles."
+    },
+    {
+      "id": 17,
+      "enonce": "Dans le cours, quels sont les deux grands principes du management ?",
+      "options": [
+        "Valorization et Regulation.",
+        "Marketing et Finance.",
+        "Production et Distribution."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le management repose sur la valorisation des ressources et compétences et sur la régulation via les règles, procédures et évaluations."
+    },
+    {
+      "id": 18,
+      "enonce": "Que signifie le principe de valorisation dans le management ?",
+      "options": [
+        "Chercher à maximiser la valeur des ressources, des actifs et des compétences disponibles.",
+        "Réduire systématiquement tous les salaires.",
+        "Supprimer les procédures de contrôle."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La valorisation consiste à utiliser au mieux les ressources financières, humaines, matérielles et informationnelles ainsi que les compétences."
+    },
+    {
+      "id": 19,
+      "enonce": "Que signifie le principe de régulation ?",
+      "options": [
+        "Créer des règles et évaluer les résultats et le travail réalisé.",
+        "Augmenter systématiquement les prix.",
+        "Remplacer les salariés par des machines."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La régulation structure l'organisation par des règles, procédures, mesures et évaluations."
+    },
+    {
+      "id": 20,
+      "enonce": "Que signifie l'acronyme POP dans le cours ?",
+      "options": [
+        "Planning, Organization, Steering.",
+        "Price, Organization, Production.",
+        "Profit, Operations, Planning."
+      ],
+      "reponse_correcte": 0,
+      "explication": "POP désigne Planning, Organization et Steering dans la première présentation du cours."
+    },
+    {
+      "id": 21,
+      "enonce": "Dans la formulation POC présentée plus loin, quelles sont les trois fonctions du management ?",
+      "options": [
+        "Planning, Organizing, Controlling.",
+        "Pricing, Outsourcing, Communication.",
+        "Production, Organization, Capital."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours utilise également POC : Plan, Organize, Control."
+    },
+    {
+      "id": 22,
+      "enonce": "Que signifie la fonction Planning ?",
+      "options": [
+        "Anticiper, définir les objectifs, les rôles, les marchés et les produits.",
+        "Uniquement contrôler les comptes.",
+        "Uniquement recruter."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Planning correspond au travail de prévision et de conception : marchés, produits, rôles et objectifs."
+    },
+    {
+      "id": 23,
+      "enonce": "Que signifie la fonction Organization ?",
+      "options": [
+        "Définir la division du travail, les relations, les règles et les méthodes de coordination.",
+        "Calculer uniquement le bénéfice.",
+        "Définir uniquement la publicité."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'organisation concerne la répartition du travail, la coordination et les règles nécessaires au fonctionnement collectif."
+    },
+    {
+      "id": 24,
+      "enonce": "Que signifie la fonction Controlling dans le modèle POC ?",
+      "options": [
+        "Piloter les opérations, réévaluer les plans d'action et mesurer/analyser les résultats.",
+        "Interdire toute modification du plan initial.",
+        "Définir uniquement les produits."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le contrôle inclut le management opérationnel et l'évaluation des résultats."
+    },
+    {
+      "id": 25,
+      "enonce": "Quelle ancienne formulation du management est donnée dans le cours ?",
+      "options": [
+        "POCCC.",
+        "PESTEL.",
+        "SWOT."
+      ],
+      "reponse_correcte": 0,
+      "explication": "POCCC correspond à Forecast, Organize, Command, Coordinate, Control."
+    },
+    {
+      "id": 26,
+      "enonce": "Quelle est une limite potentielle de la formalisation des comportements par des règles ?",
+      "options": [
+        "Elle peut accroître la rigidité et réduire l'autonomie.",
+        "Elle supprime automatiquement tous les coûts.",
+        "Elle garantit automatiquement l'innovation."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les règles peuvent améliorer l'efficacité et la cohérence, mais aussi produire rigidité et perte d'autonomie."
+    },
+    {
+      "id": 27,
+      "enonce": "Quelle est l'idée centrale de l'organisation scientifique du travail de Taylor ?",
+      "options": [
+        "Séparer la conception du travail et son exécution et standardiser les tâches.",
+        "Supprimer toute spécialisation.",
+        "Donner à chaque salarié la responsabilité de définir librement tous les processus."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Taylor met l'accent sur la séparation entre conception et exécution et sur la standardisation des tâches."
+    },
+    {
+      "id": 28,
+      "enonce": "Quel outil symbolise dans le cours l'organisation scientifique du travail de Taylor ?",
+      "options": [
+        "Le chronomètre.",
+        "Le bilan comptable.",
+        "Le logo."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le chronomètre symbolise la mesure des temps et la recherche de la meilleure méthode de travail."
+    },
+    {
+      "id": 29,
+      "enonce": "Quel principe est particulièrement associé à Henri Fayol ?",
+      "options": [
+        "L'autorité, la hiérarchie et l'unité de commandement.",
+        "La suppression de toute hiérarchie.",
+        "Le marketing digital."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Fayol insiste notamment sur l'autorité, la hiérarchie et l'unité de commandement."
+    },
+    {
+      "id": 30,
+      "enonce": "Quelle est une limite commune des organisations inspirées de Taylor et Fayol mentionnée dans le cours ?",
+      "options": [
+        "Une possible perte de motivation et déshumanisation du travail.",
+        "Une absence totale de productivité.",
+        "Une impossibilité de définir des procédures."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours mentionne notamment la perte de motivation, la déshumanisation du travail et les difficultés à favoriser l'apprentissage et l'innovation."
+    },
+    {
+      "id": 31,
+      "enonce": "Comment le cours définit-il un processus ?",
+      "options": [
+        "Une séquence d'activités orientées vers un résultat correspondant à un service fourni à un client interne ou externe.",
+        "Un simple organigramme.",
+        "Une liste de salariés."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un processus est une séquence d'activités dont le résultat correspond à un service fourni à un ou plusieurs clients."
+    },
+    {
+      "id": 32,
+      "enonce": "Quelle différence existe entre processus opérationnels et processus support ?",
+      "options": [
+        "Les processus opérationnels sont destinés aux clients finaux, tandis que les processus support servent les processus opérationnels.",
+        "Les processus support sont toujours plus importants que les processus opérationnels.",
+        "Les processus opérationnels ne créent jamais de valeur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les processus opérationnels sont orientés vers les clients finaux ; les processus support permettent leur fonctionnement."
+    },
+    {
+      "id": 33,
+      "enonce": "Quelle est la différence fondamentale entre coût, prix et valeur ?",
+      "options": [
+        "Le coût correspond aux dépenses, le prix dépend notamment du consentement à payer et du rapport de force, tandis que la valeur est subjective.",
+        "Les trois termes désignent exactement la même chose.",
+        "Le coût est toujours supérieur au prix et à la valeur."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue clairement les trois perspectives : coût, prix et valeur."
+    },
+    {
+      "id": 34,
+      "enonce": "Selon le cours, la valeur est-elle nécessairement monétaire ?",
+      "options": [
+        "Non, elle peut être subjective et non monétaire.",
+        "Oui, par définition.",
+        "Uniquement lorsqu'elle concerne un produit industriel."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La valeur dépend de ce qui compte pour une personne ou un groupe et n'est pas nécessairement monétaire."
+    },
+    {
+      "id": 35,
+      "enonce": "Quelle phrase résume la position du cours sur les entreprises ?",
+      "options": [
+        "Les entreprises sont prises entre rentabilité et responsabilité.",
+        "Les entreprises doivent uniquement poursuivre la responsabilité sociale.",
+        "Les entreprises sont uniquement des structures comptables."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'un des messages centraux du cours est le compromis permanent entre profitability et responsibility."
+    },
+    {
+      "id": 36,
+      "enonce": "Parmi les propositions suivantes, laquelle constitue un exemple de capital naturel ?",
+      "options": [
+        "Une forêt.",
+        "Une obligation bancaire.",
+        "Un logiciel de comptabilité."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La forêt constitue un actif de capital naturel, avec notamment des fonctions de stockage de carbone et d'habitat."
+    },
+    {
+      "id": 37,
+      "enonce": "Qu'est-ce qu'un stock de capital ?",
+      "options": [
+        "Une quantité d'actifs mesurée à un instant donné.",
+        "Une variation d'actifs pendant une année.",
+        "Uniquement une somme d'argent en banque."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le stock correspond à une quantité d'actifs à un moment donné."
+    },
+    {
+      "id": 38,
+      "enonce": "Qu'est-ce qu'un flux dans l'exemple de la forêt ?",
+      "options": [
+        "La croissance des arbres ou le nombre d'arbres récoltés pendant une période.",
+        "Le nombre d'arbres présents à une date donnée.",
+        "La superficie totale de la forêt à un instant donné."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La croissance et les prélèvements modifient le stock : ce sont des flux."
+    },
+    {
+      "id": 39,
+      "enonce": "Quels sont les cinq types de capital cités dans le cours ?",
+      "options": [
+        "Manufactured, financial, human, social et natural capital.",
+        "Political, military, legal, digital et monetary capital.",
+        "Industrial, commercial, agricultural, public et private capital."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours propose notamment cette classification en cinq formes de capital."
+    },
+    {
+      "id": 40,
+      "enonce": "Que suit principalement la comptabilité selon le cours ?",
+      "options": [
+        "Le capital économique.",
+        "Toutes les formes de capital de manière équivalente.",
+        "Uniquement le capital naturel."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours souligne que la comptabilité suit principalement le capital économique."
+    },
+    {
+      "id": 41,
+      "enonce": "Quelle relation est donnée entre économie, société et biosphère ?",
+      "options": [
+        "L'économie est intégrée à la société, elle-même intégrée à la biosphère.",
+        "La biosphère est intégrée à l'entreprise.",
+        "L'économie est indépendante de l'environnement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours présente une structure emboîtée : économie, société, puis biosphère."
+    },
+    {
+      "id": 42,
+      "enonce": "Quels sont les trois moteurs de croissance économique étudiés dans la deuxième lecture ?",
+      "options": [
+        "Industrialisation, mondialisation et financiarisation.",
+        "Agriculture, artisanat et tourisme.",
+        "Marketing, publicité et consommation."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La lecture 2 analyse industrialization, globalization et financialization."
+    },
+    {
+      "id": 43,
+      "enonce": "Selon le cours, quelle relation est observée entre croissance du PIB et consommation d'énergie et de matières ?",
+      "options": [
+        "Une corrélation avec une augmentation de la consommation d'énergie et de matériaux.",
+        "Une indépendance systématique.",
+        "Une baisse systématique de la consommation."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours souligne que la croissance du PIB est corrélée à la consommation d'énergie et de matières."
+    },
+    {
+      "id": 44,
+      "enonce": "Pourquoi le coût d'extraction de certaines ressources augmente-t-il selon le cours ?",
+      "options": [
+        "Les gisements les plus facilement accessibles ou les plus concentrés ont déjà été exploités.",
+        "Les ressources deviennent systématiquement plus abondantes.",
+        "Les entreprises cessent d'utiliser les ressources naturelles."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours met en avant l'épuisement progressif des gisements les plus accessibles ou concentrés."
+    },
+    {
+      "id": 45,
+      "enonce": "Quelle proportion de l'énergie primaire mondiale est indiquée dans le cours comme provenant des combustibles fossiles ?",
+      "options": [
+        "Plus de 80 %.",
+        "Environ 20 %.",
+        "Moins de 5 %."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours indique que plus de 80 % de l'énergie primaire consommée dans le monde provient des combustibles fossiles."
+    },
+    {
+      "id": 46,
+      "enonce": "Que désigne la « Great Acceleration » dans le cours ?",
+      "options": [
+        "L'accélération exponentielle de la consommation de ressources, d'énergie et de la pollution liée à la croissance de l'activité humaine.",
+        "L'accélération du développement des seules énergies renouvelables.",
+        "La diminution mondiale de l'activité industrielle."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La Great Acceleration décrit l'intensification rapide des pressions humaines sur le système Terre."
+    },
+    {
+      "id": 47,
+      "enonce": "Qu'est-ce qu'une externalité ?",
+      "options": [
+        "Un transfert de valeur sans compensation monétaire lié à la production ou à la consommation.",
+        "Un paiement volontaire entre deux entreprises.",
+        "Une taxe sur les bénéfices."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours définit les externalités comme des transferts de valeur sans compensation monétaire."
+    },
+    {
+      "id": 48,
+      "enonce": "La pollution industrielle supportée par la communauté locale constitue quel type d'externalité ?",
+      "options": [
+        "Une externalité négative.",
+        "Une externalité positive.",
+        "Une externalité financière interne."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La pollution impose un coût à des tiers sans compensation : c'est une externalité négative."
+    },
+    {
+      "id": 49,
+      "enonce": "Quel principe cherche à faire supporter le coût de la pollution à celui qui la génère ?",
+      "options": [
+        "Le principe pollueur-payeur.",
+        "Le principe one person, one vote.",
+        "Le principe de neutralité financière."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le principe pollueur-payeur vise à internaliser les coûts de la pollution."
+    },
+    {
+      "id": 50,
+      "enonce": "Quel est l'effet externe de la croissance économique présenté comme le plus documenté ?",
+      "options": [
+        "Le changement climatique.",
+        "La baisse des échanges internationaux.",
+        "La disparition des marchés."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours présente le changement climatique comme l'effet externe de la croissance économique le mieux documenté."
+    },
+    {
+      "id": 51,
+      "enonce": "Pourquoi les externalités posent-elles un problème économique ?",
+      "options": [
+        "Parce que certains coûts ou bénéfices ne sont pas intégrés dans les transactions de marché.",
+        "Parce qu'elles sont toujours monétaires.",
+        "Parce qu'elles ne concernent jamais des tiers."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une externalité concerne précisément des effets non compensés qui ne sont pas correctement intégrés dans le prix de marché."
+    },
+    {
+      "id": 52,
+      "enonce": "Que signifie le concept d'Anthropocène dans le cours ?",
+      "options": [
+        "Une nouvelle ère géologique caractérisée par l'importance des transformations humaines du système Terre.",
+        "Une nouvelle théorie du marketing.",
+        "Une méthode de calcul du PIB."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours présente l'Anthropocène comme une nouvelle période géologique marquée par l'ampleur des activités humaines."
+    },
+    {
+      "id": 53,
+      "enonce": "Quel est le principe général de la gestion opérationnelle ?",
+      "options": [
+        "Faire correctement les choses et utiliser efficacement les ressources pour atteindre les objectifs.",
+        "Choisir uniquement les marchés futurs.",
+        "Modifier systématiquement le business model."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Operational management correspond au « doing things right » et porte notamment sur l'efficacité et les flux."
+    },
+    {
+      "id": 54,
+      "enonce": "Quel est le principe général de la gestion stratégique ?",
+      "options": [
+        "Faire les bonnes choses et construire le potentiel futur de l'entreprise.",
+        "Contrôler uniquement les opérations quotidiennes.",
+        "Mesurer uniquement les flux de trésorerie."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Strategic management correspond au « doing the right things » et concerne la construction du potentiel futur."
+    },
+    {
+      "id": 55,
+      "enonce": "À quel document comptable le cours associe-t-il principalement le stock de ressources de l'entreprise ?",
+      "options": [
+        "Au bilan.",
+        "Au compte de résultat.",
+        "Au budget marketing."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bilan présente les ressources accumulées et leurs sources de financement."
+    },
+    {
+      "id": 56,
+      "enonce": "À quel document comptable les revenus et dépenses d'une période sont-ils associés ?",
+      "options": [
+        "Au compte de résultat.",
+        "Au bilan uniquement.",
+        "À l'organigramme."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le compte de résultat résume les revenus et dépenses sur une période donnée."
+    },
+    {
+      "id": 57,
+      "enonce": "Que représente le cash flow ?",
+      "options": [
+        "Le solde des encaissements et décaissements de trésorerie.",
+        "Le stock total des actifs.",
+        "Le bénéfice futur anticipé."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cash flow concerne les mouvements de trésorerie réels."
+    },
+    {
+      "id": 58,
+      "enonce": "Pourquoi une entreprise rentable peut-elle néanmoins connaître des difficultés de trésorerie ?",
+      "options": [
+        "Parce que les encaissements et décaissements peuvent être décalés dans le temps.",
+        "Parce qu'une entreprise rentable ne possède jamais d'actifs.",
+        "Parce que le bénéfice est toujours égal au cash disponible."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours insiste sur le décalage temporel entre revenus/dépenses comptabilisés et encaissements/décaissements."
+    },
+    {
+      "id": 59,
+      "enonce": "Quel compte enregistre le décalage entre une vente facturée et son encaissement ?",
+      "options": [
+        "Accounts receivable / créances clients.",
+        "Accounts payable / dettes fournisseurs.",
+        "Share capital."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les créances clients enregistrent les montants facturés mais pas encore encaissés."
+    },
+    {
+      "id": 60,
+      "enonce": "Quel compte correspond au décalage entre une facture fournisseur reçue et son paiement ?",
+      "options": [
+        "Accounts payable / dettes fournisseurs.",
+        "Accounts receivable / créances clients.",
+        "Goodwill."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les dettes fournisseurs représentent les dépenses enregistrées mais pas encore payées."
+    },
+    {
+      "id": 61,
+      "enonce": "Quels sont les trois niveaux de managers distingués dans le cours ?",
+      "options": [
+        "Local manager, middle manager et general manager/executive.",
+        "CEO, shareholder et customer.",
+        "Engineer, accountant et lawyer."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue les managers locaux, intermédiaires et généraux/exécutifs."
+    },
+    {
+      "id": 62,
+      "enonce": "Quel est principalement le rôle d'un local manager ?",
+      "options": [
+        "Gérer les opérations quotidiennes de son équipe.",
+        "Définir seul la stratégie mondiale de l'entreprise.",
+        "Gérer exclusivement les relations avec les actionnaires."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le local manager est proche des opérations quotidiennes de son équipe."
+    },
+    {
+      "id": 63,
+      "enonce": "Quel est le rôle principal d'un middle manager ?",
+      "options": [
+        "Transmettre la stratégie aux managers locaux et faire remonter les propositions.",
+        "Définir seul les comptes annuels.",
+        "Remplacer systématiquement le CEO."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le middle manager fait le lien entre la stratégie et les unités opérationnelles."
+    },
+    {
+      "id": 64,
+      "enonce": "Quel est le rôle principal des general managers ou executives ?",
+      "options": [
+        "Définir la politique générale et la communiquer aux parties prenantes.",
+        "Effectuer uniquement les tâches administratives quotidiennes.",
+        "Gérer uniquement les stocks."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les dirigeants généraux définissent la politique globale et l'intègrent avec les différents stakeholders."
+    },
+    {
+      "id": 65,
+      "enonce": "Que signifie PESTEL ?",
+      "options": [
+        "Political, Economic, Social, Technological, Environmental, Legal.",
+        "Product, Economy, Sales, Technology, Energy, Logistics.",
+        "Planning, Execution, Strategy, Targets, Evaluation, Leadership."
+      ],
+      "reponse_correcte": 0,
+      "explication": "PESTEL est une grille d'analyse de l'environnement macroéconomique."
+    },
+    {
+      "id": 66,
+      "enonce": "Dans une analyse PESTEL, une nouvelle réglementation environnementale relève principalement de quelle dimension ?",
+      "options": [
+        "Legal.",
+        "Social uniquement.",
+        "Technological uniquement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une réglementation relève de la dimension Legal, même si elle peut avoir des effets environnementaux."
+    },
+    {
+      "id": 67,
+      "enonce": "Dans une analyse PESTEL, l'évolution d'une technologie de production relève de quelle dimension ?",
+      "options": [
+        "Technological.",
+        "Political.",
+        "Legal uniquement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les évolutions technologiques appartiennent à la dimension Technological."
+    },
+    {
+      "id": 68,
+      "enonce": "Quelle est la différence fondamentale entre SWOT et PESTEL ?",
+      "options": [
+        "SWOT distingue notamment facteurs internes et externes, tandis que PESTEL analyse l'environnement macro.",
+        "PESTEL ne porte que sur les salariés et SWOT uniquement sur les clients.",
+        "SWOT est exclusivement comptable."
+      ],
+      "reponse_correcte": 0,
+      "explication": "SWOT identifie Strengths, Weaknesses, Opportunities et Threats ; PESTEL analyse les grandes dimensions de l'environnement."
+    },
+    {
+      "id": 69,
+      "enonce": "Dans SWOT, une force est-elle un facteur interne ou externe ?",
+      "options": [
+        "Interne.",
+        "Externe.",
+        "Elle est toujours à la fois interne et externe."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Strengths et Weaknesses concernent les facteurs internes à l'entreprise."
+    },
+    {
+      "id": 70,
+      "enonce": "Dans SWOT, une opportunité est-elle un facteur interne ou externe ?",
+      "options": [
+        "Externe.",
+        "Interne.",
+        "Uniquement financier."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Opportunities et Threats correspondent aux facteurs externes."
+    },
+    {
+      "id": 71,
+      "enonce": "Quel est l'objectif principal de SWOT selon le cours ?",
+      "options": [
+        "Mettre en relation les facteurs internes et externes pour identifier des actions pertinentes et possibles.",
+        "Calculer uniquement le bénéfice.",
+        "Remplacer l'ensemble des études de marché."
+      ],
+      "reponse_correcte": 0,
+      "explication": "SWOT sert à confronter forces/faiblesses internes et opportunités/menaces externes."
+    },
+    {
+      "id": 72,
+      "enonce": "Que risque-t-il de se produire lorsqu'un KPI devient l'objectif principal d'une personne évaluée ?",
+      "options": [
+        "Elle peut chercher à optimiser l'indicateur plutôt que la réalité qu'il est censé représenter.",
+        "L'indicateur devient automatiquement parfait.",
+        "L'entreprise n'a plus besoin de management."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours parle de « playing to the indicator » : les individus peuvent optimiser l'indicateur plutôt que la performance réelle."
+    },
+    {
+      "id": 73,
+      "enonce": "Que désigne l'expression « watermelon indicator » ?",
+      "options": [
+        "Un indicateur qui paraît vert alors que la réalité sous-jacente est rouge.",
+        "Un indicateur exclusivement environnemental.",
+        "Un indicateur calculé uniquement à partir du chiffre d'affaires."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours utilise cette image pour décrire un KPI qui donne une apparence satisfaisante tout en masquant une situation problématique."
+    },
+    {
+      "id": 74,
+      "enonce": "Quelle est la définition du chiffre d'affaires donnée dans le cours ?",
+      "options": [
+        "Le total des ventes réalisées sur une période donnée.",
+        "Le bénéfice net après impôts.",
+        "La valeur totale des actifs."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Revenue/turnover correspond au total des ventes réalisées pendant une année."
+    },
+    {
+      "id": 75,
+      "enonce": "Comment le cours définit-il la valeur ajoutée ?",
+      "options": [
+        "La richesse générée par l'entreprise au cours de son activité, calculée comme le chiffre d'affaires moins les achats et dépenses opérationnelles selon la formulation du cours.",
+        "Le montant total des dividendes.",
+        "La valeur des immobilisations."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours définit la value added comme la richesse générée par l'entreprise, obtenue par différence entre revenus et achats/dépenses opérationnelles."
+    },
+    {
+      "id": 76,
+      "enonce": "Comment le cours définit-il le profit ?",
+      "options": [
+        "La différence entre les revenus et les dépenses engagées pour produire et vendre les biens ou services.",
+        "La somme des actifs et des passifs.",
+        "Le chiffre d'affaires avant toute vente."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le profit est le revenu résiduel après prise en compte des coûts et dépenses."
+    },
+    {
+      "id": 77,
+      "enonce": "Pourquoi le profit est-il qualifié de revenu résiduel ?",
+      "options": [
+        "Parce qu'il reste après paiement des autres coûts et revenus contractuels tels que salaires et intérêts.",
+        "Parce qu'il est toujours garanti.",
+        "Parce qu'il est fixé contractuellement à l'avance."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue le profit, revenu résiduel, des salaires et intérêts qui sont contractuels."
+    },
+    {
+      "id": 78,
+      "enonce": "Quels sont les principaux éléments de la définition du business model donnée dans le cours ?",
+      "options": [
+        "Value proposition, value chain/value architecture et structure de coûts et revenus.",
+        "Uniquement le logo et le prix.",
+        "Uniquement la structure juridique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le business model combine ce que l'entreprise offre, comment elle le produit/fournit et comment elle capture de la valeur."
+    },
+    {
+      "id": 79,
+      "enonce": "Que doit chercher à produire un business model durable selon le cours ?",
+      "options": [
+        "Une valeur économique, sociale et environnementale à long terme pour les différentes parties prenantes.",
+        "Uniquement le rendement financier à court terme.",
+        "Uniquement une augmentation du nombre d'employés."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours oppose explicitement une vision durable orientée vers une valeur économique, sociale et environnementale de long terme."
+    },
+    {
+      "id": 80,
+      "enonce": "Que combine la conception d'une offre selon le cours ?",
+      "options": [
+        "Désirabilité, faisabilité technique et rentabilité.",
+        "Uniquement marketing et publicité.",
+        "Uniquement recherche et développement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La conception d'une offre doit prendre en compte les clients et la valeur recherchée, la capacité technique de production et la viabilité économique."
+    },
+    {
+      "id": 81,
+      "enonce": "Quel est l'objectif général du marketing selon le cours ?",
+      "options": [
+        "Aligner l'offre avec la demande.",
+        "Remplacer le département commercial.",
+        "Réduire systématiquement les salaires."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le marketing regroupe les méthodes permettant d'aligner l'offre avec les besoins et attentes du marché."
+    },
+    {
+      "id": 82,
+      "enonce": "Quelle est la distinction entre marketing et sales ?",
+      "options": [
+        "Le marketing comprend et façonne l'offre et soutient la vente, tandis que sales réalise la vente et gère la relation client.",
+        "Le marketing vend directement tous les produits et sales réalise uniquement des études.",
+        "Les deux termes sont strictement synonymes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue clairement les fonctions de marketing et de sales."
+    },
+    {
+      "id": 83,
+      "enonce": "Quelle méthode d'étude de marché sert notamment à quantifier et segmenter un marché ?",
+      "options": [
+        "La recherche quantitative.",
+        "La recherche qualitative uniquement.",
+        "La recherche documentaire uniquement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les études quantitatives servent notamment à mesurer la taille et segmenter les marchés."
+    },
+    {
+      "id": 84,
+      "enonce": "Quel est l'objectif principal d'une étude qualitative de consommateurs ?",
+      "options": [
+        "Comprendre pourquoi et comment les consommateurs achètent et consomment.",
+        "Calculer automatiquement le chiffre d'affaires.",
+        "Mesurer uniquement le nombre de concurrents."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le qualitatif cherche à comprendre les comportements, motivations et pratiques des consommateurs."
+    },
+    {
+      "id": 85,
+      "enonce": "Que signifie segmenter un marché ?",
+      "options": [
+        "Diviser le marché en groupes de clients relativement homogènes.",
+        "Réduire le prix pour tous les clients.",
+        "Supprimer les différences entre les consommateurs."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La segmentation consiste à diviser le marché en segments homogènes."
+    },
+    {
+      "id": 86,
+      "enonce": "Que signifie targeting ?",
+      "options": [
+        "Sélectionner le ou les segments de clients que l'entreprise souhaite viser.",
+        "Modifier le produit après sa vente.",
+        "Calculer le coût fixe."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le targeting intervient après la segmentation et consiste à choisir les segments visés."
+    },
+    {
+      "id": 87,
+      "enonce": "Que signifie positioning ?",
+      "options": [
+        "Déterminer comment l'offre se différencie dans l'esprit des consommateurs par rapport aux concurrents.",
+        "Choisir uniquement le lieu de production.",
+        "Calculer le salaire des commerciaux."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le positionnement concerne la place et la différenciation de l'offre dans l'esprit des consommateurs."
+    },
+    {
+      "id": 88,
+      "enonce": "Quels sont les 4P du marketing mix ?",
+      "options": [
+        "Product, Price, Place, Promotion.",
+        "Product, People, Profit, Planning.",
+        "Price, Production, Profit, Partnership."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les quatre P sont Product, Price, Place et Promotion."
+    },
+    {
+      "id": 89,
+      "enonce": "Dans les 4P, que recouvre principalement « Place » ?",
+      "options": [
+        "Les canaux de distribution, points de vente et plateformes.",
+        "La conception technique du produit.",
+        "La politique salariale."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Place concerne la distribution et les canaux permettant de rendre l'offre accessible."
+    },
+    {
+      "id": 90,
+      "enonce": "Quelle est la différence entre marketing stratégique et marketing opérationnel ?",
+      "options": [
+        "Le marketing stratégique conçoit notamment la cible et l'offre, tandis que l'opérationnel prépare et soutient la vente.",
+        "Le marketing stratégique ne concerne que la comptabilité.",
+        "Le marketing opérationnel définit toujours seul la stratégie globale."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le stratégique porte sur la conception de l'offre et de la cible ; l'opérationnel accompagne sa commercialisation."
+    },
+    {
+      "id": 91,
+      "enonce": "De quoi est constituée une value proposition selon le cours ?",
+      "options": [
+        "Des problèmes traités, des bénéfices fournis et des preuves de valeur.",
+        "Uniquement d'un slogan publicitaire.",
+        "Uniquement du prix du produit."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La value proposition correspond aux bénéfices, problèmes adressés et preuves de valeur perçus par le client."
+    },
+    {
+      "id": 92,
+      "enonce": "Quel est le rapport entre value proposition et promise ?",
+      "options": [
+        "La communication transforme la value proposition en une promise exprimée notamment par un slogan ou un style.",
+        "La promise remplace entièrement la value proposition.",
+        "La value proposition est uniquement un slogan."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue la valeur proposée au client de sa traduction communicative sous forme de promesse."
+    },
+    {
+      "id": 93,
+      "enonce": "Pourquoi les garanties sont-elles importantes dans une value proposition ?",
+      "options": [
+        "Elles contribuent à établir la confiance nécessaire à la transaction.",
+        "Elles remplacent systématiquement le produit.",
+        "Elles servent uniquement à réduire les impôts."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours insiste sur la nécessité de garanties ou preuves de qualité pour établir la confiance."
+    },
+    {
+      "id": 94,
+      "enonce": "Lequel constitue un exemple de « use value » ?",
+      "options": [
+        "La valeur liée à la satisfaction d'un besoin par l'utilisation d'un produit.",
+        "La valeur liée uniquement au prestige de posséder un produit.",
+        "La valeur d'une action en bourse."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La use value correspond à la satisfaction d'un besoin grâce à l'utilisation."
+    },
+    {
+      "id": 95,
+      "enonce": "Qu'est-ce que l'esteem value ?",
+      "options": [
+        "La valeur liée au désir de posséder un bien, notamment pour son caractère ostentatoire.",
+        "La valeur liée uniquement à la consommation énergétique.",
+        "Le coût de production d'un bien."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue l'esteem value, associée au désir de possession et au statut, de la use value."
+    },
+    {
+      "id": 96,
+      "enonce": "Quel est le rôle d'un forecast de ventes ?",
+      "options": [
+        "Aider notamment les ventes, la production, les RH et la finance à planifier leurs décisions.",
+        "Déterminer uniquement le cours de l'action.",
+        "Remplacer toutes les études qualitatives."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les prévisions de ventes servent à fixer des objectifs, planifier les capacités, les recrutements, les budgets et les investissements."
+    },
+    {
+      "id": 97,
+      "enonce": "Une moving average sert principalement à quoi ?",
+      "options": [
+        "Lisser les fluctuations de court terme et faire apparaître des tendances sous-jacentes.",
+        "Calculer directement le bénéfice net.",
+        "Mesurer la satisfaction d'un client."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une moyenne mobile lisse une série temporelle sur une fenêtre glissante."
+    },
+    {
+      "id": 98,
+      "enonce": "Quelle est la formule du break-even point donnée dans le cours ?",
+      "options": [
+        "BP = fixed costs / (unit selling price − unit variable costs).",
+        "BP = revenue × fixed costs.",
+        "BP = variable costs / revenue."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le seuil de rentabilité est donné par les coûts fixes divisés par la marge unitaire sur coûts variables."
+    },
+    {
+      "id": 99,
+      "enonce": "Que signifie le break-even point ?",
+      "options": [
+        "Le niveau d'activité où le chiffre d'affaires couvre exactement les coûts totaux et où le résultat net est nul.",
+        "Le niveau où le bénéfice est maximal.",
+        "Le niveau où les coûts variables sont nuls."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Au seuil de rentabilité, les recettes couvrent les coûts totaux et le résultat est nul."
+    },
+    {
+      "id": 100,
+      "enonce": "Une entreprise a 100 000 € de coûts fixes, un prix unitaire de 50 € et un coût variable unitaire de 30 €. Quel est son seuil de rentabilité en unités ?",
+      "options": [
+        "5 000 unités.",
+        "2 000 unités.",
+        "20 000 unités."
+      ],
+      "reponse_correcte": 0,
+      "explication": "BP = 100 000 / (50 − 30) = 5 000 unités."
+    },
+    {
+      "id": 101,
+      "enonce": "Qu'est-ce que le CAC ?",
+      "options": [
+        "Customer Acquisition Cost.",
+        "Corporate Accounting Cost.",
+        "Customer Asset Capital."
+      ],
+      "reponse_correcte": 0,
+      "explication": "CAC désigne le coût d'acquisition d'un nouveau client."
+    },
+    {
+      "id": 102,
+      "enonce": "Quelle est la formule du CAC donnée dans le cours ?",
+      "options": [
+        "CAC = Marketing Expenses / New Customers Acquired.",
+        "CAC = Revenue / Employees.",
+        "CAC = Fixed Costs × Customers."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le CAC est calculé comme les dépenses marketing divisées par le nombre de nouveaux clients acquis."
+    },
+    {
+      "id": 103,
+      "enonce": "Une entreprise dépense 20 000 € en marketing et acquiert 500 nouveaux clients. Quel est son CAC ?",
+      "options": [
+        "40 €.",
+        "25 €.",
+        "10 €."
+      ],
+      "reponse_correcte": 0,
+      "explication": "CAC = 20 000 / 500 = 40 € par nouveau client."
+    },
+    {
+      "id": 104,
+      "enonce": "Quelle affirmation sur la circular economy est correcte ?",
+      "options": [
+        "Elle vise à limiter la consommation de ressources et la production de déchets et à rompre avec le modèle linéaire.",
+        "Elle consiste uniquement à recycler.",
+        "Elle consiste à augmenter l'extraction des ressources."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'économie circulaire cherche à limiter l'extraction, les déchets et les dommages environnementaux."
+    },
+    {
+      "id": 105,
+      "enonce": "Quel est le modèle économique linéaire présenté dans le cours ?",
+      "options": [
+        "Extract, manufacture, consume, discard.",
+        "Reduce, reuse, recycle, regenerate.",
+        "Design, finance, vote, distribute."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le modèle linéaire suit la logique extraction → fabrication → consommation → rejet."
+    },
+    {
+      "id": 106,
+      "enonce": "Quelle est la hiérarchie des 3R présentée dans le cours ?",
+      "options": [
+        "Reduce, Reuse, Recycle.",
+        "Recycle, Reuse, Reduce.",
+        "Reuse, Recycle, Reduce."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours donne une hiérarchie dans laquelle la réduction intervient avant la réutilisation et le recyclage."
+    },
+    {
+      "id": 107,
+      "enonce": "Pourquoi le recyclage n'est-il pas considéré comme le premier levier de circularité ?",
+      "options": [
+        "Parce que la hiérarchie privilégie d'abord la réduction puis la réutilisation.",
+        "Parce que le recyclage est toujours impossible.",
+        "Parce que le recyclage augmente systématiquement les déchets."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue l'économie circulaire du simple recyclage et place le recyclage en dernier recours."
+    },
+    {
+      "id": 108,
+      "enonce": "Qu'est-ce que l'effet rebond ou paradoxe de Jevons ?",
+      "options": [
+        "Une amélioration de l'efficacité dans l'utilisation d'une ressource peut conduire à une augmentation de la consommation totale de cette ressource.",
+        "Une diminution de l'efficacité provoque toujours une baisse de consommation.",
+        "Une augmentation des prix entraîne nécessairement une baisse du PIB."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'effet rebond peut annuler une partie des gains attendus d'une amélioration d'efficacité."
+    },
+    {
+      "id": 109,
+      "enonce": "Selon le cours, quel levier permet spécifiquement d'empêcher l'effet rebond lié à une hausse d'efficacité ?",
+      "options": [
+        "La moderation/sobriété, c'est-à-dire la réduction volontaire de la consommation.",
+        "Une hausse automatique de la production.",
+        "Une augmentation du nombre de produits disponibles."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours indique que seule la modération peut empêcher les effets rebond liés à l'augmentation de la consommation."
+    },
+    {
+      "id": 110,
+      "enonce": "Quel était le positionnement central de Loewi dans le cas étudié ?",
+      "options": [
+        "Le reconditionnement de vélos électriques.",
+        "La fabrication de batteries nucléaires.",
+        "La vente de voitures thermiques neuves."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Loewi se positionne comme spécialiste du reconditionnement de vélos électriques."
+    },
+    {
+      "id": 111,
+      "enonce": "Quel problème environnemental Loewi cherche-t-il notamment à traiter ?",
+      "options": [
+        "Les déchets électroniques et le gaspillage de ressources liés aux produits électriques.",
+        "La pollution lumineuse uniquement.",
+        "La déforestation tropicale uniquement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cas présente le reconditionnement comme un moyen de lutter contre les déchets électroniques et de favoriser une économie plus circulaire."
+    },
+    {
+      "id": 112,
+      "enonce": "Dans le cas Loewi, pourquoi le reconditionnement constitue-t-il une proposition de valeur ?",
+      "options": [
+        "Il permet de proposer des vélos électriques à un coût inférieur au neuf tout en prolongeant leur usage.",
+        "Il rend les vélos neufs plus chers.",
+        "Il supprime toute nécessité de maintenance."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cas associe accessibilité économique, expertise technique et prolongation de la durée de vie."
+    },
+    {
+      "id": 113,
+      "enonce": "Quelle caractéristique distingue notamment Upway dans le cas étudié ?",
+      "options": [
+        "Une approche fortement orientée plateforme et expansion européenne du marché du vélo électrique d'occasion.",
+        "Une activité limitée exclusivement à la fabrication de vélos neufs.",
+        "Une activité sans aucun lien avec le marché de seconde main."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Upway développe une plateforme et une activité de revente/reconditionnement à une échelle européenne."
+    },
+    {
+      "id": 114,
+      "enonce": "Quel est l'enjeu stratégique central lorsque Upway arrive sur le marché de Loewi ?",
+      "options": [
+        "Analyser les forces, faiblesses, opportunités et menaces de Loewi et déterminer une réponse stratégique.",
+        "Supprimer immédiatement tous les produits de Loewi.",
+        "Ignorer le nouveau concurrent."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cas demande explicitement d'utiliser une analyse SWOT pour répondre à l'arrivée d'Upway."
+    },
+    {
+      "id": 115,
+      "enonce": "Qu'est-ce qu'une value chain selon le cours ?",
+      "options": [
+        "Un ensemble d'activités principales et de support coordonnées pour produire et distribuer une offre.",
+        "Uniquement une chaîne de fournisseurs.",
+        "Uniquement une chaîne logistique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La value chain englobe les activités qui contribuent directement ou indirectement à la création de l'offre."
+    },
+    {
+      "id": 116,
+      "enonce": "Quelle est la différence entre core activities et support activities ?",
+      "options": [
+        "Les core activities contribuent directement à la production/vente de l'offre ; les support activities facilitent leur fonctionnement.",
+        "Les support activities créent toujours plus de valeur que les core activities.",
+        "Les core activities sont toujours externalisées."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le cours distingue activités opérationnelles principales et fonctions support."
+    },
+    {
+      "id": 117,
+      "enonce": "Lequel peut être considéré comme une activité cœur ?",
+      "options": [
+        "La production.",
+        "La paie uniquement.",
+        "Le recrutement uniquement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Production fait partie des core/operational activities typiques."
+    },
+    {
+      "id": 118,
+      "enonce": "Lequel est typiquement une fonction support ?",
+      "options": [
+        "Les ressources humaines.",
+        "La fabrication du produit final.",
+        "La vente au client final."
+      ],
+      "reponse_correcte": 0,
+      "explication": "HRM est présentée comme une fonction support."
+    },
+    {
+      "id": 119,
+      "enonce": "Pourquoi une entreprise peut-elle choisir l'intégration ?",
+      "options": [
+        "Pour développer des compétences, accroître le contrôle et parfois bénéficier d'économies d'échelle ou sécuriser ses approvisionnements.",
+        "Pour éliminer tous ses coûts fixes.",
+        "Pour perdre volontairement son savoir-faire."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégration favorise expertise, contrôle, pouvoir de marché et parfois économies d'échelle."
+    },
+    {
+      "id": 120,
+      "enonce": "Quel est un inconvénient potentiel de l'intégration ?",
+      "options": [
+        "L'augmentation des coûts fixes et de la complexité organisationnelle.",
+        "La disparition de toute expertise.",
+        "La suppression automatique des barrières à l'entrée."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégration augmente notamment les coûts fixes, la complexité et peut créer des barrières à la sortie."
+    }
+  ]
+}
