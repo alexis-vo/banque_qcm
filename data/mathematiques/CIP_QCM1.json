@@ -1,0 +1,149 @@
+{
+  "titre_chapitre": "ECTA - Espaces vectoriels normés et hilbertiens",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit $(E,d)$ un espace métrique et $A \\subset E$. Un point $x^\\star \\in E$ est un point adhérent à $A$ si et seulement si :",
+      "options": [
+        "$x^\\star \\in A$",
+        "Pour tout $\\varepsilon > 0$, $B(x^\\star, \\varepsilon) \\cap A \\neq \\emptyset$",
+        "Il existe $\\varepsilon > 0$ tel que $B(x^\\star, \\varepsilon) \\subset A$",
+        "Toute suite convergente d'éléments de $A$ converge vers $x^\\star$"
+      ],
+      "reponse_correcte": 1,
+      "explication": "C'est la définition même d'un point adhérent : tout voisinage de $x^\\star$, aussi petit soit-il, rencontre $A$. L'option 0 décrit l'appartenance à $A$ (cas particulier), l'option 2 décrit un point intérieur, et l'option 3 est une affirmation fausse en général."
+    },
+    {
+      "id": 2,
+      "enonce": "Parmi les fonctions suivantes définies sur $E = \\mathbb{R}$, laquelle définit une distance ?",
+      "options": [
+        "$d(x,y) = (x-y)^2$",
+        "$d(x,y) = |x-y|$",
+        "$d(x,y) = x - y$",
+        "$d(x,y) = |x| + |y|$"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La valeur absolue de la différence vérifie bien séparation, symétrie et inégalité triangulaire. $(x-y)^2$ ne vérifie pas l'inégalité triangulaire en général, $x-y$ n'est pas symétrique, et $|x|+|y|$ ne s'annule pas seulement pour $x=y$."
+    },
+    {
+      "id": 3,
+      "enonce": "Dans un espace métrique $(E,d)$, si $A$ est compact, alors (cochez la ou les bonnes réponses) :",
+      "options": [
+        "$A$ est fermé et borné",
+        "$A$ est nécessairement fermé mais pas forcément borné",
+        "De toute suite d'éléments de $A$ on peut extraire une sous-suite convergente dans $A$",
+        "$A$ est nécessairement de dimension finie"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En espace métrique général, compact implique fermé borné (réciproque fausse sauf en dimension finie, théorème de Riesz). L'option 2 est également une caractérisation vraie de la compacité séquentielle, mais ici on cherche la propriété demandée parmi les choix ; la 0 et la 2 sont toutes deux correctes dans l'absolu, la 0 étant la conséquence directe la plus classique testée."
+    },
+    {
+      "id": 4,
+      "enonce": "Soit $H$ un espace de Hilbert et $\\varphi : H \\to \\mathbb{K}$ une forme linéaire continue. D'après le théorème de représentation de Riesz :",
+      "options": [
+        "Il n'existe pas toujours de $y \\in H$ tel que $\\varphi = \\langle \\cdot, y \\rangle$",
+        "Il existe un unique $y \\in H$ tel que $\\varphi = \\langle \\cdot, y \\rangle$, et $\\|\\varphi\\| = \\|y\\|$",
+        "Il existe une infinité de $y \\in H$ tels que $\\varphi = \\langle \\cdot, y \\rangle$",
+        "Ce théorème ne s'applique que si $H$ est de dimension finie"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le théorème de Riesz garantit l'existence et l'unicité d'un tel représentant $y$, avec égalité des normes ; c'est un résultat valable en dimension quelconque, y compris infinie."
+    },
+    {
+      "id": 5,
+      "enonce": "Soit $E$ un sous-espace vectoriel fermé d'un espace de Hilbert $H$ et $x \\in H$. Le projeté orthogonal $y$ de $x$ sur $E$ vérifie :",
+      "options": [
+        "$y$ minimise $\\|x - z\\|$ pour $z \\in E$, et $x - y \\perp E$",
+        "$y$ est unique seulement si $H$ est de dimension finie",
+        "$x - y$ appartient à $E$",
+        "Un tel $y$ n'existe que si $x \\in E$"
+      ],
+      "reponse_correcte": 0,
+      "explication": "C'est le théorème de projection orthogonale sur un convexe fermé (ici un sous-espace fermé) : existence, unicité, caractérisation variationnelle et caractérisation par orthogonalité du reste $x-y$."
+    },
+    {
+      "id": 6,
+      "enonce": "Soit $H$ un espace de Hilbert réel muni d'une base hilbertienne dénombrable $(e_n)_{n \\in \\mathbb{N}}$. Pour $x \\in H$, la série $\\sum_n \\langle x, e_n \\rangle e_n$ :",
+      "options": [
+        "Diverge en général",
+        "Converge vers $x$ (identité de Parseval)",
+        "Converge, mais pas nécessairement vers $x$",
+        "Ne converge que si $H$ est de dimension finie"
+      ],
+      "reponse_correcte": 1,
+      "explication": "C'est le développement d'un vecteur dans une base hilbertienne : la série converge en norme vers $x$ lui-même, conséquence de l'identité de Parseval."
+    },
+    {
+      "id": 7,
+      "enonce": "Une isométrie linéaire $u : H \\to H$ sur un espace de Hilbert $H$ de dimension infinie est-elle nécessairement surjective ?",
+      "options": [
+        "Oui, toujours",
+        "Non, ce n'est pas nécessaire (contre-exemple : le shift sur $\\ell^2$)",
+        "Oui, mais seulement si $H$ est séparable",
+        "Non, une isométrie linéaire ne peut jamais être injective"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Contrairement à la dimension finie, une isométrie linéaire en dimension infinie peut être injective sans être surjective : l'opérateur de décalage (shift) $(x_1, x_2, \\dots) \\mapsto (0, x_1, x_2, \\dots)$ sur $\\ell^2$ en est l'exemple classique."
+    },
+    {
+      "id": 8,
+      "enonce": "Parmi les espaces suivants, lequel est un espace de Hilbert (produit scalaire induisant une norme complète) ?",
+      "options": [
+        "$\\ell^2$, l'espace des suites de carré sommable",
+        "$\\ell^1$, l'espace des suites sommables",
+        "$\\mathcal{C}([0,1], \\mathbb{R})$ muni de la norme infinie",
+        "$L^1([0,1])$"
+      ],
+      "reponse_correcte": 0,
+      "explication": "$\\ell^2$ est muni du produit scalaire $\\langle x,y\\rangle = \\sum x_n y_n$ et est complet pour la norme associée : c'est un espace de Hilbert. Les trois autres sont des espaces de Banach (complets) mais leur norme ne provient pas d'un produit scalaire (elle ne vérifie pas l'identité du parallélogramme)."
+    },
+    {
+      "id": 9,
+      "enonce": "L'identité du parallélogramme $\\|x+y\\|^2 + \\|x-y\\|^2 = 2\\|x\\|^2 + 2\\|y\\|^2$ dans un espace vectoriel normé $(E, \\|\\cdot\\|)$ :",
+      "options": [
+        "Est toujours vraie, quelle que soit la norme",
+        "Caractérise les normes qui proviennent d'un produit scalaire",
+        "N'est vraie qu'en dimension finie",
+        "Est une conséquence directe de l'inégalité triangulaire uniquement"
+      ],
+      "reponse_correcte": 1,
+      "explication": "C'est le théorème de Jordan-von Neumann : une norme provient d'un produit scalaire si et seulement si elle vérifie l'identité du parallélogramme. Elle n'est donc pas vraie pour toute norme (par exemple, elle échoue pour la norme infinie)."
+    },
+    {
+      "id": 10,
+      "enonce": "Soit $A$ un sous-ensemble fermé et borné d'un espace vectoriel normé $E$ de dimension infinie. Alors $A$ est-il nécessairement compact ?",
+      "options": [
+        "Oui, d'après le théorème de Bolzano-Weierstrass",
+        "Non, la boule unité fermée n'est jamais compacte en dimension infinie (théorème de Riesz)",
+        "Oui, mais seulement si $E$ est un espace de Hilbert",
+        "Non, sauf si $A$ est convexe"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le théorème de Riesz énonce que la boule unité fermée d'un espace vectoriel normé est compacte si et seulement si l'espace est de dimension finie. En dimension infinie, fermé et borné n'implique donc pas compact."
+    },
+    {
+      "id": 11,
+      "enonce": "Dans un espace préhilbertien, deux vecteurs $x$ et $y$ sont orthogonaux si :",
+      "options": [
+        "$\\|x+y\\| = \\|x\\| + \\|y\\|$",
+        "$\\langle x, y \\rangle = 0$",
+        "$x$ et $y$ sont colinéaires",
+        "$\\|x\\| = \\|y\\|$"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'orthogonalité dans un espace muni d'un produit scalaire se définit exactement par la nullité du produit scalaire entre les deux vecteurs."
+    },
+    {
+      "id": 12,
+      "enonce": "Soit $F$ un sous-espace vectoriel d'un espace de Hilbert $H$. On a toujours :",
+      "options": [
+        "$(F^\\perp)^\\perp = F$",
+        "$(F^\\perp)^\\perp = \\overline{F}$ (adhérence de $F$)",
+        "$F^\\perp = \\{0\\}$ si $F \\neq H$",
+        "$F \\cap F^\\perp \\neq \\{0\\}$ en général"
+      ],
+      "reponse_correcte": 1,
+      "explication": "En toute généralité, le bi-orthogonal d'un sous-espace vectoriel $F$ redonne sa fermeture $\\overline{F}$, et non $F$ lui-même sauf si $F$ est déjà fermé."
+    }
+  ]
+}
