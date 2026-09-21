@@ -19,7 +19,9 @@
       "chapitres": [
         { "titre": "Chapitre 1 - Topologie, cours", "fichier": "CIP_C1_LN.json"},
         { "titre": "Chapitre 1 - Topologie, ECTA", "fichier": "CIP_C1_ECTA.json"},
-        { "titre": "Chapitre 2 - Hilbert, cours", "fichier": "CIP_C2_LN.json"}
+        { "titre": "Chapitre 2 - Hilbert, cours", "fichier": "CIP_C2_LN.json"},
+        { "titre": "Chapitre 2 - Hilbert, ECTA", "fichier": "CIP_C2_ECTA.json"},
+        { "titre": "Chapitre 2 - Hilbert, divers", "fichier": "CIP_C2_divers.json"}
       ]
     },
     {

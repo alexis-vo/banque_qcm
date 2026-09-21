@@ -1,21 +1,440 @@
-body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f0f2f5; color: #333; margin: 0; padding: 20px; }
-.container { max-width: 800px; margin: 40px auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); }
-h1 { color: #2c3e50; text-align: center; margin-bottom: 5px; }
-.subtitle { text-align: center; color: #7f8c8d; margin-bottom: 30px; }
-.matiere-card { background: #f8f9fa; border-left: 5px solid #3498db; padding: 15px 20px; margin-bottom: 15px; border-radius: 4px; }
-.matiere-card h3 { margin: 0 0 10px 0; color: #2c3e50; }
-.chapitre-btn { background: #3498db; color: white; border: none; padding: 8px 15px; margin: 5px 5px 5px 0; border-radius: 4px; cursor: pointer; transition: background 0.2s; }
-.chapitre-btn:hover { background: #2980b9; }
-.question-card { margin-bottom: 25px; padding: 20px; border: 1px solid #e2e8f0; border-radius: 8px; background: #fff; }
-.question-title { font-weight: bold; margin-bottom: 12px; color: #2d3748; }
-.options label { display: block; margin: 8px 0; padding: 10px 12px; background: #f7fafc; border: 1px solid #e2e8f0; border-radius: 6px; cursor: pointer; transition: background 0.2s; }
-.options label:hover { background: #edf2f7; }
-input[type="radio"] { margin-right: 10px; }
-.btn, .btn-back { display: inline-block; background: #2ecc71; color: white; border: none; padding: 12px 20px; font-size: 1em; border-radius: 6px; cursor: pointer; font-weight: bold; margin-top: 20px; }
-.btn-back { background: #95a5a6; margin-bottom: 20px; margin-top: 0; }
-.btn:hover { background: #27ae60; }
-.btn-back:hover { background: #7f8c8d; }
-#results-container { margin-top: 30px; padding: 20px; background: #e8f8f5; border: 1px solid #a3e4d7; border-radius: 8px; display: none; }
-.correct { color: #27ae60; font-weight: bold; }
-.incorrect { color: #c0392b; font-weight: bold; }
-.rationale { font-size: 0.9em; color: #555; margin-top: 8px; padding-left: 15px; border-left: 3px solid #cbd5e0; }
+/* ==========================================================================
+   Banque de QCM — styles
+   ========================================================================== */
+
+:root {
+  --color-bg: #f4f6f9;
+  --color-surface: #ffffff;
+  --color-border: #dfe3ea;
+  --color-text: #1f2937;
+  --color-text-muted: #5b6472;
+  --color-primary: #2f5aa8;
+  --color-primary-hover: #24478a;
+  --color-success: #1f8a53;
+  --color-success-bg: #e7f6ee;
+  --color-error: #b3372c;
+  --color-error-bg: #fbeceb;
+  --radius: 10px;
+  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
+  --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
+  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --action-bar-height: 64px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-base);
+  background: var(--color-bg);
+  color: var(--color-text);
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: clamp(16px, 4vw, 40px) clamp(16px, 4vw, 24px) 48px;
+}
+
+h1 {
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  font-weight: 700;
+  margin: 0 0 4px;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  font-size: clamp(1.05rem, 3vw, 1.25rem);
+  font-weight: 600;
+  margin: 0 0 16px;
+}
+
+h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  margin: 0 0 28px;
+  font-size: 0.95rem;
+}
+
+/* ---------- Menu principal ---------- */
+
+.matiere-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.chapitre-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-top: 8px;
+  font-size: 0.95rem;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.chapitre-btn:hover {
+  border-color: var(--color-primary);
+  background: #fff;
+}
+
+.chapitre-btn:active {
+  transform: scale(0.99);
+}
+
+/* ---------- Boutons ---------- */
+
+.btn {
+  display: inline-block;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 13px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.15s ease;
+}
+
+.btn:hover {
+  background: var(--color-primary-hover);
+}
+
+.btn-back {
+  display: inline-block;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  padding: 4px 0;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+
+.btn-back:hover {
+  color: var(--color-text);
+}
+
+/* ---------- Écran de réglages ---------- */
+
+.options-form {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 20px;
+  box-shadow: var(--shadow-sm);
+}
+
+.option-row {
+  margin-bottom: 20px;
+  border: none;
+  padding: 0;
+}
+
+.option-row:last-of-type {
+  margin-bottom: 24px;
+}
+
+.option-row > label,
+.option-row > legend {
+  display: block;
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  padding: 0;
+}
+
+.option-row input[type="number"] {
+  width: 100%;
+  max-width: 160px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--color-bg);
+}
+
+.mode-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  margin-bottom: 8px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.mode-option:hover {
+  border-color: var(--color-primary);
+}
+
+.mode-option input {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.mode-option span {
+  font-size: 0.92rem;
+}
+
+.checkbox-row {
+  display: flex !important;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600 !important;
+  cursor: pointer;
+}
+
+#temps-limite-wrapper {
+  margin-top: 12px;
+  padding-left: 2px;
+}
+
+#temps-limite-wrapper label {
+  display: block;
+  font-weight: 400;
+  font-size: 0.88rem;
+  color: var(--color-text-muted);
+  margin-bottom: 6px;
+}
+
+#temps-limite-wrapper input {
+  width: 100%;
+  max-width: 160px;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  font-size: 1rem;
+  background: var(--color-bg);
+}
+
+/* ---------- Minuteur ---------- */
+
+.timer {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+/* ---------- Questions ---------- */
+
+.question-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.question-title {
+  font-weight: 600;
+  margin-bottom: 14px;
+  font-size: 1rem;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.options label {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px 14px;
+  cursor: pointer;
+  font-size: 0.94rem;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.options label:hover {
+  border-color: var(--color-primary);
+  background: #f9fbfd;
+}
+
+.options input[type="radio"] {
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+  flex-shrink: 0;
+  accent-color: var(--color-primary);
+}
+
+.options label.option-correcte {
+  border-color: var(--color-success);
+  background: var(--color-success-bg);
+}
+
+.badge-correcte {
+  margin-left: auto;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--color-success);
+  white-space: nowrap;
+  padding-left: 8px;
+}
+
+.correct {
+  color: var(--color-success);
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+
+.incorrect {
+  color: var(--color-error);
+  font-weight: 600;
+  margin: 12px 0 4px;
+}
+
+.rationale {
+  margin-top: 8px;
+  padding: 12px 14px;
+  background: var(--color-bg);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.rationale strong {
+  color: var(--color-text);
+}
+
+/* ---------- Résultats ---------- */
+
+#results-container h3 {
+  font-size: 1.2rem;
+}
+
+.results-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.results-actions .btn-back {
+  text-align: center;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 0;
+}
+
+/* ---------- Barre d'action (Valider / Question suivante) ---------- */
+
+.action-bar {
+  margin-top: 4px;
+}
+
+/* ==========================================================================
+   Responsive : tablette
+   ========================================================================== */
+
+@media (max-width: 768px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .mode-option span {
+    font-size: 0.9rem;
+  }
+}
+
+/* ==========================================================================
+   Responsive : mobile
+   ========================================================================== */
+
+@media (max-width: 480px) {
+  body {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .container {
+    padding: 16px 14px 24px;
+  }
+
+  .question-card,
+  .options-form {
+    padding: 14px;
+    border-radius: 8px;
+  }
+
+  .options label {
+    padding: 13px 12px;
+  }
+
+  .badge-correcte {
+    display: block;
+    margin-left: 0;
+    padding-left: 0;
+    margin-top: 4px;
+  }
+
+  /* La barre d'action colle en bas de l'écran pour rester accessible au pouce,
+     sans avoir à faire défiler jusqu'en bas de la page. */
+  #quiz-section .action-bar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 30;
+    background: var(--color-surface);
+    border-top: 1px solid var(--color-border);
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0));
+    box-shadow: 0 -2px 10px rgba(16, 24, 40, 0.08);
+  }
+
+  /* Espace réservé en bas du contenu pour ne pas être masqué par la barre fixe */
+  #quiz-section #questions-container {
+    margin-bottom: calc(var(--action-bar-height) + 12px);
+  }
+
+  .timer {
+    top: 0;
+    font-size: 0.85rem;
+    padding: 8px 12px;
+  }
+}

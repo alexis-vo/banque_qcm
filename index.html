@@ -1,34 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>Banque de QCM - Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Banque de QCM - Mon Portfolio</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Banque de QCM</h1>
-        <p class="subtitle">Sélectionner un cours et un chapitre pour commencer les révisions.</p>
-        
-        <!-- Zone de sélection (Le Lanceur) -->
-        <div id="selector-section">
-            <h2>1. Choisir une matière et un chapitre</h2>
-            <div id="menu-container">Chargement des cours...</div>
-        </div>
+<div class="container">
+<h1>Banque de QCM</h1>
+<p class="subtitle">Sélectionner un cours et un chapitre pour commencer les révisions.</p>
 
-        <!-- Zone du Quiz (affichée dynamiquement) -->
-        <div id="quiz-section" style="display: none;">
-            <button class="btn-back" onclick="retourMenu()">← Retour au menu</button>
-            <h2 id="quiz-title"></h2>
-            <div id="questions-container"></div>
-            <button class="btn" id="submit-btn" onclick="validerQuiz()">Valider mes réponses</button>
-            <div id="results-container"></div>
-        </div>
+<!-- Zone de sélection (Le Lanceur) -->
+<div id="selector-section">
+  <h2>1. Choisir une matière et un chapitre</h2>
+  <div id="menu-container">Chargement des cours...</div>
+</div>
+
+<!-- Zone de réglages du quiz (nombre de questions, mode, minuteur) -->
+<div id="options-section" style="display: none;">
+  <button class="btn-back" onclick="retourMenu()">← Retour au menu</button>
+  <h2 id="options-title"></h2>
+
+  <div class="options-form">
+    <div class="option-row" id="nb-questions-row">
+      <label for="nb-questions">Nombre de questions (1–<span id="max-questions">20</span>)</label>
+      <input type="number" id="nb-questions" min="1" max="20" value="10">
     </div>
-    <script
-        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
-        async>
-    </script>
-    <script src="script.js"></script>
+
+    <fieldset class="option-row">
+      <legend>Mode de correction</legend>
+      <label class="mode-option">
+        <input type="radio" name="mode-quiz" value="classique" checked>
+        <span>Classique — correction à la fin</span>
+      </label>
+      <label class="mode-option">
+        <input type="radio" name="mode-quiz" value="immediat">
+        <span>Immédiat — une question à la fois, correction directe</span>
+      </label>
+      <label class="mode-option">
+        <input type="radio" name="mode-quiz" value="revision">
+        <span>Révision — voir toutes les questions avec réponses et corrections</span>
+      </label>
+    </fieldset>
+
+    <div class="option-row" id="temps-limite-row">
+      <label class="checkbox-row">
+        <input type="checkbox" id="temps-limite-check" onchange="toggleTempsLimiteInput()">
+        <span>Temps limité</span>
+      </label>
+      <div id="temps-limite-wrapper" style="display: none;">
+        <label id="temps-limite-label" for="temps-limite-valeur">Durée totale (minutes)</label>
+        <input type="number" id="temps-limite-valeur" min="1" value="5">
+      </div>
+    </div>
+
+    <button class="btn" onclick="demarrerQuiz()">Commencer le quiz</button>
+  </div>
+</div>
+
+<!-- Zone du Quiz (affichée dynamiquement) -->
+<div id="quiz-section" style="display: none;">
+  <button class="btn-back" onclick="retourMenu()">← Retour au menu</button>
+  <h2 id="quiz-title"></h2>
+  <div id="timer-display" class="timer" style="display: none;"></div>
+  <div id="questions-container"></div>
+  <div class="action-bar">
+    <button class="btn" id="submit-btn" onclick="validerQuiz()">Valider mes réponses</button>
+  </div>
+  <div id="results-container"></div>
+</div>
+
+</div>
+
+<script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"
+  async>
+</script>
+<script src="script.js"></script>
 </body>
 </html>

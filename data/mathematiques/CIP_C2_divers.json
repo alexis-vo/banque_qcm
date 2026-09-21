@@ -1,0 +1,40 @@
+{
+  "titre_chapitre": "ECTA - Espaces vectoriels normés et hilbertiens",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Si $F$ est un sous-espace vectoriel non fermé d'un espace de Hilbert $X$, alors $F$ et son orthogonal $F^\\perp$ ne peuvent pas être supplémentaires.",
+      "options": ["VRAI", "FAUX"],
+      "reponse_correcte": 0,
+      "explication": "C'est vrai. Pour que $F \\oplus F^\\perp = X$, il est strictement nécessaire que $F$ soit fermé ($F = \\bar{F}$)."
+    },
+    {
+      "id": 2,
+      "enonce": "La norme 1 d'un vecteur correspond géométriquement à la distance de Manhattan.",
+      "options": ["VRAI", "FAUX"],
+      "reponse_correcte": 0,
+      "explication": "C'est vrai. La norme 1 est la somme des valeurs absolues des coordonnées, ce qui définit précisément la distance de Manhattan."
+    },
+    {
+      "id": 3,
+      "enonce": "L'écriture $E = \\mathcal{C}([0,1], K)$ désigne un espace vectoriel normé abstrait quelconque.",
+      "options": ["VRAI", "FAUX"],
+      "reponse_correcte": 1,
+      "explication": "C'est faux. Il s'agit d'un exemple particulier et concret d'espace vectoriel normé (l'espace des fonctions continues), et non d'une définition générique."
+    },
+    {
+      "id": 4,
+      "enonce": "L'inégalité de Cauchy-Schwarz s'écrit $|\\langle x, y \\rangle| \\leq \\|x\\| \\cdot \\|y\\|$ pour tout couple de vecteurs dans un espace préhilbertien.",
+      "options": ["VRAI", "FAUX"],
+      "reponse_correcte": 0,
+      "explication": "C'est vrai, c'est la formulation fondamentale de l'inégalité de Cauchy-Schwarz valable pour tout produit scalaire."
+    },
+    {
+      "id": 5,
+      "enonce": "Un espace préhilbertien est nécessairement de dimension finie.",
+      "options": ["VRAI", "FAUX"],
+      "reponse_correcte": 1,
+      "explication": "C'est faux. Un espace préhilbertien est simplement un espace muni d'un produit scalaire, qui peut être de dimension finie ou infinie."
+    }
+  ]
+}
