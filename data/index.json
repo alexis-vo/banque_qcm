@@ -21,7 +21,12 @@
         { "titre": "Chapitre 1 - Topologie, ECTA", "fichier": "CIP_C1_ECTA.json"},
         { "titre": "Chapitre 2 - Hilbert, cours", "fichier": "CIP_C2_LN.json"},
         { "titre": "Chapitre 2 - Hilbert, ECTA", "fichier": "CIP_C2_ECTA.json"},
-        { "titre": "Chapitre 2 - Hilbert, divers", "fichier": "CIP_C2_divers.json"}
+        { "titre": "Chapitre 2 - Hilbert, divers", "fichier": "CIP_C2_divers.json"},
+        { "titre": "QCM1", "fichier": "CIP_QCM1.json"},
+        { "titre": "Chapitre 3 - Espaces mesurés et fonctions mesurables, cours", "fichier": "CIP_C3_LN.json"},
+        { "titre": "Chapitre 3 - Espaces mesurés et fonctions mesurables, ECTA", "fichier": "CIP_C3_ECTA.json"},
+        { "titre": "Chapitre 4 - Mesures et intégration, ECTA", "fichier": "CIP_C4_LN.json"},
+        { "titre": "Chapitre 4 - Mesures et intégration, ECTA", "fichier": "CIP_C4_ECTA.json"}
       ]
     },
     {

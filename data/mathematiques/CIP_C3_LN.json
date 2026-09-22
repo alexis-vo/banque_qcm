@@ -1,0 +1,166 @@
+{
+  "titre_chapitre": "C3 - Espaces mesurés et fonctions mesurables",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "On dit « tribu », mais comment appelle-t-on aussi cet objet ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Une \\(\\sigma\\)-algèbre."
+    },
+    {
+      "id": 2,
+      "enonce": "Soit \\(\\Omega\\) un ensemble. Donner les trois propriétés caractérisant une tribu \\(\\mathcal A\\subset \\mathcal P(\\Omega)\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\mathcal A\\) est une tribu (\\(\\sigma\\)-algèbre) sur \\(\\Omega\\) si : (i) \\(\\emptyset\\in\\mathcal A\\) (donc \\(\\Omega\\in\\mathcal A\\)) ; (ii) \\(\\mathcal A\\) est stable par passage au complémentaire : \\(\\forall A\\in\\mathcal A,\\ \\Omega\\setminus A\\in\\mathcal A\\) ; (iii) \\(\\mathcal A\\) est stable par union dénombrable : si \\((A_n)_{n\\in\\mathbb N}\\) est une suite d'éléments de \\(\\mathcal A\\), alors \\(\\bigcup_{n\\in\\mathbb N}A_n\\in\\mathcal A\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Comment appelle-t-on le couple \\((\\Omega,\\mathcal A)\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Un espace mesurable (ou espace probabilisable)."
+    },
+    {
+      "id": 4,
+      "enonce": "Donner 3 exemples de tribus sur un ensemble \\(\\Omega\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La tribu grossière \\(\\{\\emptyset,\\Omega\\}\\) ; la tribu discrète \\(\\mathcal P(\\Omega)\\) ; la tribu engendrée par une partie \\(\\mathcal A_0\\subset\\mathcal P(\\Omega)\\), notée \\(\\sigma(\\mathcal A_0)\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Soit \\((\\Omega,\\mathcal A)\\) un espace mesurable. Définir une mesure sur \\((\\Omega,\\mathcal A)\\) et donner les deux propriétés qu'elle vérifie.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Une mesure sur \\((\\Omega,\\mathcal A)\\) est une application \\(\\mu:\\mathcal A\\to[0,+\\infty]\\) telle que : \\(\\mu(\\emptyset)=0\\) ; \\(\\mu\\) est \\(\\sigma\\)-additive, c'est-à-dire que pour toute suite \\((A_n)_{n\\in\\mathbb N}\\) d'éléments de \\(\\mathcal A\\) deux à deux disjoints, \\(\\mu\\Big(\\bigcup_{n\\in\\mathbb N}A_n\\Big)=\\sum_{n\\in\\mathbb N}\\mu(A_n)\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Comment appelle-t-on le triplet \\((\\Omega,\\mathcal A,\\mu)\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Un espace mesuré."
+    },
+    {
+      "id": 7,
+      "enonce": "Une mesure de probabilité est une mesure \\(\\mu\\) telle que … ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\mu(\\Omega)=1\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Compléter le tableau de vocabulaire faisant correspondre le cas général et le cas des probabilités : \\((\\Omega,\\mathcal A,\\mu)\\), \\(\\mu(A)\\), \\(A\\in\\mathcal A\\), \\(A\\in\\mathcal A\\) tel que \\(\\mu(A)=0\\), \\(A\\in\\mathcal A\\) tel que \\(\\mu(A)=1\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\[\\begin{array}{c|c}\\text{Cas général} & \\text{Probabilités}\\\\\\hline (\\Omega,\\mathcal A,\\mu)\\text{ espace mesuré} & (\\Omega,\\mathcal A,\\mathbb P)\\text{ espace de probabilité}\\\\ \\mu(A)\\text{ : mesure de }A & \\mathbb P(A)\\text{ : probabilité de }A\\\\ A\\in\\mathcal A\\text{ : sous-ensemble mesurable} & A\\in\\mathcal A\\text{ : événement}\\\\ \\mu(A)=0\\text{ : }A\\text{ négligeable} & \\mathbb P(A)=0\\text{ : }A\\text{ presque impossible}\\\\ - & \\mathbb P(A)=1\\text{ : }A\\text{ presque sûr}\\end{array}\\]"
+    },
+    {
+      "id": 9,
+      "enonce": "Donner 4 exemples de mesures.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure nulle ; la mesure de Dirac en un point \\(a\\), \\(\\delta_a\\) ; la mesure de comptage ; la mesure (ou loi) uniforme sur un ensemble \\(\\Omega\\) fini."
+    },
+    {
+      "id": 10,
+      "enonce": "Soit \\(\\mathcal A\\) une tribu sur \\(\\Omega\\). Que peut-on dire de \\(\\Omega\\) lui-même, et de la stabilité de \\(\\mathcal A\\) par différentes opérations ensemblistes ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "(i) \\(\\Omega\\in\\mathcal A\\) ; (ii) \\(\\mathcal A\\) est stable par union finie ou dénombrable, par intersection finie ou dénombrable, et par différence : si \\(A,B\\in\\mathcal A\\) alors \\(A\\setminus B = A\\cap (\\Omega\\setminus B)\\in\\mathcal A\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Soit \\((\\mathcal A_i)_{i\\in I}\\) une famille de tribus sur \\(\\Omega\\). Que dire de \\(\\bigcap_{i\\in I}\\mathcal A_i\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est encore une tribu sur \\(\\Omega\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Soit \\(\\mathcal A_0\\subset\\mathcal P(\\Omega)\\). Qu'appelle-t-on tribu engendrée par \\(\\mathcal A_0\\) ? Comment la caractériser ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est la plus petite tribu (au sens de l'inclusion) contenant \\(\\mathcal A_0\\), notée \\(\\sigma(\\mathcal A_0)\\). Elle est égale à l'intersection de toutes les tribus sur \\(\\Omega\\) contenant \\(\\mathcal A_0\\)."
+    },
+    {
+      "id": 13,
+      "enonce": "Définir la tribu borélienne sur un espace topologique \\(\\Omega\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "C'est la tribu engendrée par les ouverts de \\(\\Omega\\) : \\(\\mathcal B(\\Omega)=\\sigma(\\{U\\subset\\Omega \\mid U\\text{ ouvert}\\})\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Vocabulaire : que signifie « \\(A\\in\\mathcal B(\\Omega)\\) » ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\(A\\) est un borélien de \\(\\Omega\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Si \\(\\Omega\\) est séparable, comment peut-on engendrer \\(\\mathcal B(\\Omega)\\) plus simplement ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\mathcal B(\\Omega)=\\sigma(\\{B\\subset\\Omega \\mid B\\text{ boule ouverte}\\})\\) : la tribu borélienne est engendrée par les boules ouvertes."
+    },
+    {
+      "id": 16,
+      "enonce": "Que désigne \\(\\overline{\\mathbb R}_+\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\overline{\\mathbb R}_+=\\mathbb R_+\\cup\\{+\\infty\\}\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Définir \\(\\mathcal B(\\overline{\\mathbb R}_+)\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\mathcal B(\\overline{\\mathbb R}_+)=\\sigma\\big(\\mathcal B(\\mathbb R_+)\\cup\\{\\{+\\infty\\}\\}\\big)\\), autrement dit la tribu engendrée par les boréliens de \\(\\mathbb R_+\\) et le singleton \\(\\{+\\infty\\}\\) (de façon équivalente, engendrée par les intervalles \\(]a,+\\infty]\\), \\(a\\in\\mathbb R_+\\))."
+    },
+    {
+      "id": 18,
+      "enonce": "Soient \\((\\Omega,\\mathcal A)\\) et \\((E,\\varepsilon)\\) deux espaces mesurables. Définir la mesurabilité d'une fonction \\(f:\\Omega\\to E\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(f\\) est dite mesurable (ou \\(\\mathcal A/\\varepsilon\\)-mesurable) si pour tout \\(A\\in\\varepsilon\\), \\(f^{-1}(A)\\in\\mathcal A\\)."
+    },
+    {
+      "id": 19,
+      "enonce": "Donner les deux notations équivalentes pour \\(f^{-1}(A)\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(f^{-1}(A)=\\{\\omega\\in\\Omega \\mid f(\\omega)\\in A\\}=\\{f\\in A\\}\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Sur un espace de probabilité \\((\\Omega,\\mathcal A,\\mathbb P)\\), comment appelle-t-on une fonction mesurable \\(X:\\Omega\\to E\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On l'appelle une variable aléatoire (VAR), réelle si \\(E=\\mathbb R\\) et \\(\\varepsilon=\\mathcal B(\\mathbb R)\\)."
+    },
+    {
+      "id": 21,
+      "enonce": "À quelle condition sur \\(A\\) la fonction indicatrice \\(\\mathbb 1_A\\) est-elle mesurable ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\mathbb 1_A\\) est mesurable si et seulement si \\(A\\in\\mathcal A\\)."
+    },
+    {
+      "id": 22,
+      "enonce": "Énoncer le lemme (théorème) de transport.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Soient \\((\\Omega,\\mathcal A,\\mu)\\) un espace mesuré, \\((E,\\varepsilon)\\) un espace mesurable et \\(f:\\Omega\\to E\\) mesurable. Notons \\(f_*\\mu\\) la mesure image de \\(\\mu\\) par \\(f\\) sur \\((E,\\varepsilon)\\), définie par \\(f_*\\mu(A)=\\mu(f^{-1}(A))\\) pour \\(A\\in\\varepsilon\\). Alors pour toute fonction \\(\\varphi:E\\to\\overline{\\mathbb R}\\) mesurable, positive ou \\(f_*\\mu\\)-intégrable, on a \\(\\int_E \\varphi\\, d(f_*\\mu)=\\int_\\Omega \\varphi\\circ f \\, d\\mu\\)."
+    },
+    {
+      "id": 23,
+      "enonce": "Soient \\(\\Omega,E\\) deux espaces métriques munis de leurs tribus boréliennes \\(\\mathcal A,\\varepsilon\\). Si \\(f:\\Omega\\to E\\) est continue, que peut-on dire de \\(f\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(f\\) est mesurable."
+    }
+  ]
+}
