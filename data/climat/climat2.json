@@ -1,32 +1,8 @@
 {
-  "titre_chapitre": "Climat(s) : dynamique et statique — QCM de révision",
+  "titre_chapitre": "Climat : dynamique et statique",
   "questions": [
     {
       "id": 1,
-      "enonce": "Selon l'avant-propos, quel double point de vue l'ouvrage cherche-t-il à articuler ?",
-      "options": [
-        "Une approche uniquement météorologique et une approche uniquement géographique",
-        "Une approche dynamique fondée sur des mécanismes et une approche statique/systémique",
-        "Une approche biologique et une approche économique uniquement",
-        "Une approche locale et une approche astrologique"
-      ],
-      "reponse_correcte": 1,
-      "explication": "L'auteur distingue la dynamique de l'évolution du climat et une approche plus systémique de son état à un instant donné."
-    },
-    {
-      "id": 2,
-      "enonce": "Selon le cours, la climatologie est avant tout présentée comme une science de quoi ?",
-      "options": [
-        "L'atmosphère uniquement",
-        "La géographie humaine",
-        "La planète Terre",
-        "La météorologie opérationnelle"
-      ],
-      "reponse_correcte": 2,
-      "explication": "L'auteur propose de considérer la climatologie comme une science de la planète Terre."
-    },
-    {
-      "id": 3,
       "enonce": "Quelle durée est traditionnellement utilisée par l'OMM pour définir statistiquement le climat ?",
       "options": [
         "3 ans",
@@ -35,10 +11,10 @@
         "100 ans"
       ],
       "reponse_correcte": 2,
-      "explication": "Le cours rappelle la convention d'une statistique sur 30 ans."
+      "explication": "Le cours rappelle la convention d'une statistique sur 30 ans[span_1](start_span)[span_1](end_span)."
     },
     {
-      "id": 4,
+      "id": 2,
       "enonce": "Pourquoi la définition traditionnelle du climat est-elle qualifiée d'anthropocentrique ?",
       "options": [
         "Parce qu'elle ne mesure que les océans",
@@ -47,10 +23,10 @@
         "Parce qu'elle ne concerne que les villes"
       ],
       "reponse_correcte": 1,
-      "explication": "Elle privilégie notamment température et précipitations à la surface, liées à l'environnement humain."
+      "explication": "Elle privilégie notamment température et précipitations à la surface, liées à l'environnement humain[span_2](start_span)[span_2](end_span)."
     },
     {
-      "id": 5,
+      "id": 3,
       "enonce": "Quelle opposition conceptuelle est mise en avant entre météo et climat ?",
       "options": [
         "La météo est globale, le climat local",
@@ -59,10 +35,10 @@
         "La météo concerne l'océan, le climat l'atmosphère"
       ],
       "reponse_correcte": 1,
-      "explication": "Le climat est construit à partir de statistiques de variables météorologiques sur une durée suffisamment longue."
+      "explication": "Le climat est construit à partir de statistiques de variables météorologiques sur une durée suffisamment longue[span_3](start_span)[span_3](end_span)."
     },
     {
-      "id": 6,
+      "id": 4,
       "enonce": "Dans le cours, le climat peut être défini plus généralement comme :",
       "options": [
         "La seule moyenne annuelle de température",
@@ -71,10 +47,10 @@
         "La moyenne mondiale du niveau marin"
       ],
       "reponse_correcte": 1,
-      "explication": "L'auteur souligne que la distribution statistique est plus générale que la seule moyenne."
+      "explication": "L'auteur souligne que la distribution statistique est plus générale que la seule moyenne[span_4](start_span)[span_4](end_span)."
     },
     {
-      "id": 7,
+      "id": 5,
       "enonce": "Quelle hypothèse est implicitement requise par une définition statistique stationnaire du climat ?",
       "options": [
         "L'absence de saisons",
@@ -83,10 +59,10 @@
         "L'absence de variabilité interannuelle"
       ],
       "reponse_correcte": 1,
-      "explication": "Une moyenne climatique traditionnelle suppose que la distribution ne dérive pas significativement sur la période considérée."
+      "explication": "Une moyenne climatique traditionnelle suppose que la distribution ne dérive pas significativement sur la période considérée[span_5](start_span)[span_5](end_span)."
     },
     {
-      "id": 8,
+      "id": 6,
       "enonce": "Quelle classification est citée comme exemple de classification climatique fondée sur température et précipitations ?",
       "options": [
         "Köppen",
@@ -95,10 +71,10 @@
         "Walker"
       ],
       "reponse_correcte": 0,
-      "explication": "La classification de Köppen utilise notamment les moyennes mensuelles de température et de précipitations."
+      "explication": "La classification de Köppen utilise notamment les moyennes mensuelles de température et de précipitations[span_6](start_span)[span_6](end_span)."
     },
     {
-      "id": 9,
+      "id": 7,
       "enonce": "Selon l'étymologie présentée, que signifie le grec klima (κλιμα) ?",
       "options": [
         "Chaleur",
@@ -107,10 +83,10 @@
         "Vent"
       ],
       "reponse_correcte": 2,
-      "explication": "Le terme renvoie à l'inclinaison, notamment celle des rayons solaires."
+      "explication": "Le terme renvoie à l'inclinaison, notamment celle des rayons solaires[span_7](start_span)[span_7](end_span)."
     },
     {
-      "id": 10,
+      "id": 8,
       "enonce": "Pourquoi l'alternance des saisons est-elle historiquement importante pour la naissance de l'astronomie ?",
       "options": [
         "Elle permettait de prévoir les marées uniquement",
@@ -119,10 +95,10 @@
         "Elle expliquait les séismes"
       ],
       "reponse_correcte": 1,
-      "explication": "L'agriculture nécessitait de prévoir semailles et récoltes indépendamment du temps quotidien."
+      "explication": "L'agriculture nécessitait de prévoir semailles et récoltes indépendamment du temps quotidien[span_8](start_span)[span_8](end_span)."
     },
     {
-      "id": 11,
+      "id": 9,
       "enonce": "Selon le cours, le retour régulier des saisons constitue une première illustration du climat comme concept :",
       "options": [
         "Purement aléatoire",
@@ -131,10 +107,10 @@
         "Biologique uniquement"
       ],
       "reponse_correcte": 1,
-      "explication": "Le retour des saisons est prévisible à partir des mouvements astronomiques."
+      "explication": "Le retour des saisons est prévisible à partir des mouvements astronomiques[span_9](start_span)[span_9](end_span)."
     },
     {
-      "id": 12,
+      "id": 10,
       "enonce": "Quelles zones Aristote distingue-t-il schématiquement dans son découpage antique de la Terre ?",
       "options": [
         "Deux zones seulement",
@@ -143,10 +119,10 @@
         "Une seule zone habitable"
       ],
       "reponse_correcte": 1,
-      "explication": "Le cours décrit une zone torride, deux zones tempérées et deux zones polaires."
+      "explication": "Le cours décrit une zone torride, deux zones tempérées et deux zones polaires[span_10](start_span)[span_10](end_span)."
     },
     {
-      "id": 13,
+      "id": 11,
       "enonce": "Quelle était une question centrale des premières conceptions géographiques du climat ?",
       "options": [
         "La vitesse de la lumière",
@@ -155,10 +131,10 @@
         "La radioactivité"
       ],
       "reponse_correcte": 1,
-      "explication": "Le climat était notamment pensé à travers la possibilité de vivre dans une région."
+      "explication": "Le climat était notamment pensé à travers la possibilité de vivre dans une région[span_11](start_span)[span_11](end_span)."
     },
     {
-      "id": 14,
+      "id": 12,
       "enonce": "Au XVIIe-XVIIIe siècle, pourquoi cherchait-on notamment à distinguer des climats « sains » et « malsains » ?",
       "options": [
         "Pour calculer l'orbite de Mars",
@@ -167,10 +143,10 @@
         "Pour définir les isotopes"
       ],
       "reponse_correcte": 1,
-      "explication": "Avant la théorie microbienne, l'environnement climatique était fortement associé à la santé."
+      "explication": "Avant la théorie microbienne, l'environnement climatique était fortement associé à la santé[span_12](start_span)[span_12](end_span)."
     },
     {
-      "id": 15,
+      "id": 13,
       "enonce": "À quelle hauteur la température est-elle traditionnellement mesurée pour caractériser la température de surface ?",
       "options": [
         "Au sol exactement",
@@ -179,10 +155,10 @@
         "À 10 m"
       ],
       "reponse_correcte": 2,
-      "explication": "Le cours précise la mesure à environ 1,50 m au-dessus du sol."
+      "explication": "Le cours précise la mesure à environ 1,50 m au-dessus du sol[span_13](start_span)[span_13](end_span)."
     },
     {
-      "id": 16,
+      "id": 14,
       "enonce": "Quelle variable est signalée comme physiquement importante mais souvent absente de la définition géographique simple du climat ?",
       "options": [
         "La température des océans",
@@ -191,10 +167,10 @@
         "La vitesse du son"
       ],
       "reponse_correcte": 0,
-      "explication": "L'océan stocke une grande partie de la chaleur du système."
+      "explication": "L'océan stocke une grande partie de la chaleur du système[span_14](start_span)[span_14](end_span)."
     },
     {
-      "id": 17,
+      "id": 15,
       "enonce": "Quels facteurs supplémentaires influencent la végétation au-delà de température et précipitations ?",
       "options": [
         "Seulement la latitude",
@@ -203,10 +179,10 @@
         "Aucun"
       ],
       "reponse_correcte": 1,
-      "explication": "Le cours énumère notamment CO2, nutriments, sols, écoulement, compétition, pathogènes et occupation des sols."
+      "explication": "Le cours énumère notamment CO2, nutriments, sols, écoulement, compétition, pathogènes et occupation des sols[span_15](start_span)[span_15](end_span)."
     },
     {
-      "id": 18,
+      "id": 16,
       "enonce": "Que montre notamment le succès de la classification de Köppen ?",
       "options": [
         "Que température et précipitations n'ont aucun rôle",
@@ -215,10 +191,10 @@
         "Que le climat est parfaitement stationnaire"
       ],
       "reponse_correcte": 1,
-      "explication": "Malgré ses limites, cette approche rend assez bien compte de grands types d'environnements."
+      "explication": "Malgré ses limites, cette approche rend assez bien compte de grands types d'environnements[span_16](start_span)[span_16](end_span)."
     },
     {
-      "id": 19,
+      "id": 17,
       "enonce": "Quels deux grands mécanismes historiques sont proposés au XIXe siècle pour expliquer les changements climatiques ?",
       "options": [
         "Tectonique et volcanisme uniquement",
@@ -227,22 +203,10 @@
         "Météorologie et géographie"
       ],
       "reponse_correcte": 1,
-      "explication": "La théorie astronomique invoque la mécanique céleste ; la géochimique les gaz à effet de serre."
+      "explication": "La théorie astronomique invoque la mécanique céleste ; la géochimique les gaz à effet de serre[span_17](start_span)[span_17](end_span)."
     },
     {
-      "id": 20,
-      "enonce": "Quelle découverte du XIXe siècle a constitué un tournant majeur dans la reconnaissance du changement climatique planétaire ?",
-      "options": [
-        "La découverte de Neptune",
-        "La découverte des âges glaciaires",
-        "La découverte de l'électricité",
-        "La découverte de l'ADN"
-      ],
-      "reponse_correcte": 1,
-      "explication": "Les indices de glaciations anciennes ont établi que le climat de la Terre avait changé à l'échelle planétaire."
-    },
-    {
-      "id": 21,
+      "id": 18,
       "enonce": "Les moraines sont, dans le cours, des indices de :",
       "options": [
         "L'activité volcanique",
@@ -251,10 +215,10 @@
         "La dérive des continents uniquement"
       ],
       "reponse_correcte": 1,
-      "explication": "Les moraines témoignent d'anciennes extensions glaciaires."
+      "explication": "Les moraines témoignent d'anciennes extensions glaciaires[span_18](start_span)[span_18](end_span)."
     },
     {
-      "id": 22,
+      "id": 19,
       "enonce": "Que montrent les striations glaciaires sur les roches ?",
       "options": [
         "La composition de l'atmosphère",
@@ -263,10 +227,10 @@
         "La salinité de l'océan"
       ],
       "reponse_correcte": 1,
-      "explication": "Elles indiquent de manière cohérente la direction passée de l'écoulement glaciaire."
+      "explication": "Elles indiquent de manière cohérente la direction passée de l'écoulement glaciaire[span_19](start_span)[span_19](end_span)."
     },
     {
-      "id": 23,
+      "id": 20,
       "enonce": "Quelle était l'idée dominante au début du XIXe siècle concernant l'origine de la température terrestre ?",
       "options": [
         "Elle dépendait principalement de la radioactivité",
@@ -275,10 +239,10 @@
         "Elle était constante"
       ],
       "reponse_correcte": 1,
-      "explication": "Avant la découverte de la radioactivité, on attribuait une grande importance au refroidissement d'une Terre initialement chaude."
+      "explication": "Avant la découverte de la radioactivité, on attribuait une grande importance au refroidissement d'une Terre initialement chaude[span_20](start_span)[span_20](end_span)."
     },
     {
-      "id": 24,
+      "id": 21,
       "enonce": "Quelle théorie défendaient les plutonistes ?",
       "options": [
         "Les roches se forment dans un océan primitif",
@@ -287,10 +251,10 @@
         "Les glaces sont d'origine atmosphérique"
       ],
       "reponse_correcte": 1,
-      "explication": "Les plutonistes attribuaient la formation des roches au feu."
+      "explication": "Les plutonistes attribuaient la formation des roches au feu[span_21](start_span)[span_21](end_span)."
     },
     {
-      "id": 25,
+      "id": 22,
       "enonce": "Quelle théorie défendaient les neptunistes ?",
       "options": [
         "Une origine océanique/sédimentaire des roches",
@@ -299,22 +263,10 @@
         "Une origine solaire"
       ],
       "reponse_correcte": 0,
-      "explication": "Les neptunistes proposaient une formation des roches dans un océan primitif."
+      "explication": "Les neptunistes proposaient une formation des roches dans un océan primitif[span_22](start_span)[span_22](end_span)."
     },
     {
-      "id": 26,
-      "enonce": "Quelle estimation de l'âge de la Terre Buffon propose-t-il dans Les époques de la Nature ?",
-      "options": [
-        "Environ 75 000 ans",
-        "Environ 4,5 milliards d'années",
-        "Environ 20 ans",
-        "Environ 400 millions d'années"
-      ],
-      "reponse_correcte": 0,
-      "explication": "Buffon obtient environ 75 000 ans à partir d'une extrapolation du refroidissement de boulets de canon."
-    },
-    {
-      "id": 27,
+      "id": 23,
       "enonce": "Quel phénomène a réfuté l'idée d'une histoire climatique réduite à un simple refroidissement depuis les origines ?",
       "options": [
         "Les marées",
@@ -323,22 +275,10 @@
         "Les éclipses"
       ],
       "reponse_correcte": 1,
-      "explication": "Les glaciations montrent une histoire climatique beaucoup plus complexe."
+      "explication": "Les glaciations montrent une histoire climatique beaucoup plus complexe[span_23](start_span)[span_23](end_span)."
     },
     {
-      "id": 28,
-      "enonce": "Selon Fourier et les travaux ultérieurs cités, quelle est la source de chaleur déterminante pour la Terre ?",
-      "options": [
-        "La chaleur interne",
-        "Le Soleil",
-        "Les volcans uniquement",
-        "La radioactivité humaine"
-      ],
-      "reponse_correcte": 1,
-      "explication": "La contribution solaire domine largement la chaleur interne à la surface."
-    },
-    {
-      "id": 29,
+      "id": 24,
       "enonce": "Quel rayonnement est particulièrement concerné par le rôle de l'atmosphère dans l'effet de serre ?",
       "options": [
         "Ultraviolet uniquement",
@@ -347,10 +287,10 @@
         "Ondes radio uniquement"
       ],
       "reponse_correcte": 1,
-      "explication": "Le cours parle de la « chaleur obscure rayonnante », c'est-à-dire du rayonnement infrarouge."
+      "explication": "Le cours parle de la « chaleur obscure rayonnante », c'est-à-dire du rayonnement infrarouge[span_24](start_span)[span_24](end_span)."
     },
     {
-      "id": 30,
+      "id": 25,
       "enonce": "Quel scientifique est explicitement associé au premier calcul de l'effet de serre terrestre en 1896 ?",
       "options": [
         "Svante Arrhenius",
@@ -359,10 +299,10 @@
         "Emiliani"
       ],
       "reponse_correcte": 0,
-      "explication": "Arrhenius présente en 1896 un calcul de l'effet de serre motivé par la question des glaciations."
+      "explication": "Arrhenius présente en 1896 un calcul de l'effet de serre motivé par la question des glaciations[span_25](start_span)[span_25](end_span)."
     },
     {
-      "id": 31,
+      "id": 26,
       "enonce": "Quel rôle John Tyndall est-il associé à l'étude du climat ?",
       "options": [
         "Il mesure les glaciers",
@@ -371,46 +311,10 @@
         "Il définit les tropiques"
       ],
       "reponse_correcte": 1,
-      "explication": "Tyndall fait partie des travaux sur l'interception du rayonnement infrarouge par l'atmosphère."
+      "explication": "Tyndall fait partie des travaux sur l'interception du rayonnement infrarouge par l'atmosphère[span_26](start_span)[span_26](end_span)."
     },
     {
-      "id": 32,
-      "enonce": "Pourquoi les physiciens du XIXe siècle étaient-ils réticents à prédire le temps selon Arago ?",
-      "options": [
-        "Parce que les instruments n'existaient pas",
-        "Par prudence face aux limites scientifiques et aux implications sociétales",
-        "Parce que le Soleil était inconnu",
-        "Parce que la météo était interdite"
-      ],
-      "reponse_correcte": 1,
-      "explication": "Arago exprimait une forte méfiance envers le rôle de « Nostradamus » de la science."
-    },
-    {
-      "id": 33,
-      "enonce": "Quel instrument de Saussure est cité pour mesurer l'humidité ?",
-      "options": [
-        "Pyrhéliomètre",
-        "Hygromètre à cheveux",
-        "Baromètre à mercure",
-        "Thermocouple"
-      ],
-      "reponse_correcte": 1,
-      "explication": "Saussure est associé à l'hygromètre à cheveux."
-    },
-    {
-      "id": 34,
-      "enonce": "Quel instrument est cité comme permettant des mesures quantitatives du flux solaire ?",
-      "options": [
-        "Pyrhéliomètre",
-        "Hygromètre",
-        "Sismographe",
-        "Spectromètre de masse"
-      ],
-      "reponse_correcte": 0,
-      "explication": "Pouillet développe le pyrhéliomètre."
-    },
-    {
-      "id": 35,
+      "id": 27,
       "enonce": "Pourquoi l'estimation de Kelvin de l'âge de la Terre était-elle trop faible ?",
       "options": [
         "Il ignorait la gravité",
@@ -419,10 +323,10 @@
         "Il connaissait déjà les isotopes"
       ],
       "reponse_correcte": 1,
-      "explication": "La découverte de la radioactivité a montré que l'énergie interne n'était pas limitée à la seule chaleur originelle."
+      "explication": "La découverte de la radioactivité a montré que l'énergie interne n'était pas limitée à la seule chaleur originelle[span_27](start_span)[span_27](end_span)."
     },
     {
-      "id": 36,
+      "id": 28,
       "enonce": "Que permet la découverte de l'oxygène et la compréhension de la photosynthèse à la fin du XVIIIe siècle ?",
       "options": [
         "D'établir un lien entre composition atmosphérique et vie végétale",
@@ -431,10 +335,10 @@
         "De mesurer directement les glaciers"
       ],
       "reponse_correcte": 0,
-      "explication": "Lavoisier, Priestley, Scheele et les travaux sur la photosynthèse établissent ce lien."
+      "explication": "Lavoisier, Priestley, Scheele et les travaux sur la photosynthèse établissent ce lien[span_28](start_span)[span_28](end_span)."
     },
     {
-      "id": 37,
+      "id": 29,
       "enonce": "Pourquoi le charbon était-il particulièrement avantageux par rapport au bois lors de la révolution industrielle ?",
       "options": [
         "Il était renouvelable",
@@ -443,10 +347,10 @@
         "Il ne contenait pas de carbone"
       ],
       "reponse_correcte": 1,
-      "explication": "Le charbon constituait un stock fossile abondant, contrairement à la ressource forestière limitée par d'autres usages."
+      "explication": "Le charbon constituait un stock fossile abondant, contrairement à la ressource forestière limitée par d'autres usages[span_29](start_span)[span_29](end_span)."
     },
     {
-      "id": 38,
+      "id": 30,
       "enonce": "Quelle erreur historique le cours souligne-t-il concernant le Carbonifère ?",
       "options": [
         "L'Europe était déjà au pôle Nord",
@@ -455,10 +359,10 @@
         "Le CO2 n'existait pas"
       ],
       "reponse_correcte": 1,
-      "explication": "L'Europe se trouvait alors près de l'équateur en raison de la dérive des continents."
+      "explication": "L'Europe se trouvait alors près de l'équateur en raison de la dérive des continents[span_30](start_span)[span_30](end_span)."
     },
     {
-      "id": 39,
+      "id": 31,
       "enonce": "Selon les connaissances actuelles présentées, comment était vraisemblablement l'atmosphère du Carbonifère par rapport à l'hypothèse ancienne ?",
       "options": [
         "Riche en CO2 et pauvre en O2",
@@ -467,10 +371,10 @@
         "Identique à celle de Mars"
       ],
       "reponse_correcte": 1,
-      "explication": "Le cours corrige l'ancienne interprétation et indique un O2 élevé et un CO2 faible."
+      "explication": "Le cours corrige l'ancienne interprétation et indique un O2 élevé et un CO2 faible[span_31](start_span)[span_31](end_span)."
     },
     {
-      "id": 40,
+      "id": 32,
       "enonce": "Quel concept Ebelmen introduit-il explicitement dans son analyse du cycle du carbone ?",
       "options": [
         "Rétroaction",
@@ -479,10 +383,10 @@
         "Effet de marée"
       ],
       "reponse_correcte": 0,
-      "explication": "Ebelmen décrit déjà des mécanismes de régulation/rétroaction du cycle du carbone."
+      "explication": "Ebelmen décrit déjà des mécanismes de régulation/rétroaction du cycle du carbone[span_32](start_span)[span_32](end_span)."
     },
     {
-      "id": 41,
+      "id": 33,
       "enonce": "Pourquoi faut-il homogénéiser les longues séries de mesures météorologiques ?",
       "options": [
         "Pour supprimer les saisons",
@@ -491,22 +395,10 @@
         "Pour transformer toutes les données en précipitations"
       ],
       "reponse_correcte": 1,
-      "explication": "Les séries peuvent comporter des ruptures liées au déplacement des stations, au remplacement des capteurs ou à la modification de l'environnement."
+      "explication": "Les séries peuvent comporter des ruptures liées au déplacement des stations, au remplacement des capteurs ou à la modification de l'environnement[span_33](start_span)[span_33](end_span)."
     },
     {
-      "id": 42,
-      "enonce": "Quel événement de 1854 est présenté comme déclencheur du développement d'un réseau météorologique en France ?",
-      "options": [
-        "La tempête du 14 novembre 1854",
-        "Le minimum de Maunder",
-        "Le MWP1a",
-        "Une éruption solaire"
-      ],
-      "reponse_correcte": 0,
-      "explication": "La tempête du 14 novembre 1854 pendant la guerre de Crimée est citée comme événement déclencheur."
-    },
-    {
-      "id": 43,
+      "id": 34,
       "enonce": "Quel rôle le télégraphe électrique a-t-il joué dans l'histoire de la météorologie ?",
       "options": [
         "Il permettait de transmettre rapidement observations et prévisions",
@@ -515,10 +407,10 @@
         "Il produisait des images satellites"
       ],
       "reponse_correcte": 0,
-      "explication": "La transmission rapide des données a permis les premières prévisions utiles notamment à la marine."
+      "explication": "La transmission rapide des données a permis les premières prévisions utiles notamment à la marine[span_34](start_span)[span_34](end_span)."
     },
     {
-      "id": 44,
+      "id": 35,
       "enonce": "Quels groupes produisent les principales compilations modernes de température globale citées dans le cours ?",
       "options": [
         "Hadley/CRU, NOAA et NASA",
@@ -527,10 +419,10 @@
         "MIT, Stanford et Oxford uniquement"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours cite HadCRUT, NOAA et NASA/GISS."
+      "explication": "Le cours cite HadCRUT, NOAA et NASA/GISS[span_35](start_span)[span_35](end_span)."
     },
     {
-      "id": 45,
+      "id": 36,
       "enonce": "Quel ordre de grandeur du réchauffement global au XXe siècle est indiqué dans la série NASA/GISS citée ?",
       "options": [
         "Environ 0,01 °C",
@@ -539,10 +431,10 @@
         "Environ 100 °C"
       ],
       "reponse_correcte": 1,
-      "explication": "Le cours indique un réchauffement de l'ordre de 1 °C au XXe siècle."
+      "explication": "Le cours indique un réchauffement de l'ordre de 1 °C au XXe siècle[span_36](start_span)[span_36](end_span)."
     },
     {
-      "id": 46,
+      "id": 37,
       "enonce": "Pourquoi les reconstructions du climat du dernier millénaire sont-elles particulièrement robustes dans l'hémisphère Nord ?",
       "options": [
         "Les données y sont plus abondantes et concordantes",
@@ -551,10 +443,10 @@
         "Les océans n'existent pas au Sud"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne le manque de proxys globaux et de surfaces continentales tempérées dans l'hémisphère Sud."
+      "explication": "Le cours souligne le manque de proxys globaux et de surfaces continentales tempérées dans l'hémisphère Sud[span_37](start_span)[span_37](end_span)."
     },
     {
-      "id": 47,
+      "id": 38,
       "enonce": "Que désigne le « petit âge de glace » dans le cours ?",
       "options": [
         "Une période froide approximativement entre le XVe et le XIXe siècle",
@@ -563,10 +455,10 @@
         "Le dernier maximum glaciaire"
       ],
       "reponse_correcte": 0,
-      "explication": "Il s'agit d'une période froide historique, sans rapport avec une période glaciaire au sens géologique."
+      "explication": "Il s'agit d'une période froide historique, sans rapport avec une période glaciaire au sens géologique[span_38](start_span)[span_38](end_span)."
     },
     {
-      "id": 48,
+      "id": 39,
       "enonce": "Dans le modèle de décroissance du CO2 cité pour les projections lointaines, quelle est la forme générale de la réponse impulsionnelle f(t) ?",
       "options": [
         "Une somme de plusieurs exponentielles de constantes de temps différentes",
@@ -575,10 +467,10 @@
         "Une fonction linéaire strictement croissante"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours cite une réponse impulsionnelle composée de plusieurs exponentielles, avec des constantes de temps d'environ 365, 5500, 8200 et 200 000 ans."
+      "explication": "Le cours cite une réponse impulsionnelle composée de plusieurs exponentielles, avec des constantes de temps d'environ 365, 5500, 8200 et 200 000 ans[span_39](start_span)[span_39](end_span)."
     },
     {
-      "id": 49,
+      "id": 40,
       "enonce": "Pourquoi la variabilité solaire du dernier millénaire ne suffit-elle probablement pas à expliquer à elle seule le petit âge de glace ?",
       "options": [
         "La variation du flux solaire estimée est trop faible pour produire l'ampleur climatique observée",
@@ -587,10 +479,10 @@
         "La variabilité solaire n'existe pas"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours estime la variation d'énergie solaire de l'ordre de 1 W.m−2, insuffisante à elle seule."
+      "explication": "Le cours estime la variation d'énergie solaire de l'ordre de 1 W.m−2, insuffisante à elle seule[span_40](start_span)[span_40](end_span)."
     },
     {
-      "id": 50,
+      "id": 41,
       "enonce": "Quel phénomène climatique est associé à l'optimum pluvial de l'Holocène dans le Sahara ?",
       "options": [
         "Un Sahara plus humide avec davantage de précipitations",
@@ -599,10 +491,10 @@
         "Une baisse universelle des pluies"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours décrit un optimum pluvial avec des paysages et plans d'eau beaucoup plus humides."
+      "explication": "Le cours décrit un optimum pluvial avec des paysages et plans d'eau beaucoup plus humides[span_41](start_span)[span_41](end_span)."
     },
     {
-      "id": 51,
+      "id": 42,
       "enonce": "Quelle périodicité est associée aux alternances humides/sèches des tropiques discutées dans le cours ?",
       "options": [
         "Environ 23 000 ans",
@@ -611,10 +503,10 @@
         "Environ 1 million d'années"
       ],
       "reponse_correcte": 0,
-      "explication": "Le signal tropical est fortement lié au cycle de précession d'environ 23 kyr."
+      "explication": "Le signal tropical est fortement lié au cycle de précession d'environ 23 kyr[span_42](start_span)[span_42](end_span)."
     },
     {
-      "id": 52,
+      "id": 43,
       "enonce": "Que sont les sapropèles méditerranéens ?",
       "options": [
         "Des dépôts marins riches en matière organique",
@@ -623,10 +515,10 @@
         "Des calottes glaciaires"
       ],
       "reponse_correcte": 0,
-      "explication": "Ils se forment notamment lorsque le fond marin manque d'oxygène et que la matière organique est mieux préservée."
+      "explication": "Ils se forment notamment lorsque le fond marin manque d'oxygène et que la matière organique est mieux préservée[span_43](start_span)[span_43](end_span)."
     },
     {
-      "id": 53,
+      "id": 44,
       "enonce": "Quel facteur peut favoriser la formation de sapropèles en Méditerranée ?",
       "options": [
         "Un apport important d'eau douce modifiant la circulation et l'oxygénation",
@@ -635,10 +527,10 @@
         "Une augmentation de la banquise arctique"
       ],
       "reponse_correcte": 0,
-      "explication": "Les périodes pluviales peuvent augmenter les apports fluviaux et faire basculer le régime de circulation."
+      "explication": "Les périodes pluviales peuvent augmenter les apports fluviaux et faire basculer le régime de circulation[span_44](start_span)[span_44](end_span)."
     },
     {
-      "id": 54,
+      "id": 45,
       "enonce": "Pourquoi les sapropèles sont-ils utiles en cyclostratigraphie ?",
       "options": [
         "Leur occurrence présente une régularité astronomique permettant de caler une chronologie",
@@ -647,10 +539,10 @@
         "Ils sont radioactifs"
       ],
       "reponse_correcte": 0,
-      "explication": "La régularité des dépôts permet de relier les couches à des cycles astronomiques."
+      "explication": "La régularité des dépôts permet de relier les couches à des cycles astronomiques[span_45](start_span)[span_45](end_span)."
     },
     {
-      "id": 55,
+      "id": 46,
       "enonce": "Pourquoi la durée des saisons n'est-elle pas constante dans une orbite excentrique ?",
       "options": [
         "Parce que la vitesse orbitale varie : elle est plus grande près du périhélie",
@@ -659,10 +551,10 @@
         "Parce que la Terre s'arrête aux équinoxes"
       ],
       "reponse_correcte": 0,
-      "explication": "La deuxième loi de Kepler implique une vitesse plus élevée près du périhélie, donc des saisons de durée différente."
+      "explication": "La deuxième loi de Kepler implique une vitesse plus élevée près du périhélie, donc des saisons de durée différente[span_46](start_span)[span_46](end_span)."
     },
     {
-      "id": 56,
+      "id": 47,
       "enonce": "Depuis environ combien de temps les périodes glaciaires surviennent-elles de façon récurrente selon le cours ?",
       "options": [
         "Environ 3 millions d'années",
@@ -671,10 +563,10 @@
         "Environ 20 000 ans seulement"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours situe leur récurrence à environ 3 millions d'années."
+      "explication": "Le cours situe leur récurrence à environ 3 millions d'années[span_47](start_span)[span_47](end_span)."
     },
     {
-      "id": 57,
+      "id": 48,
       "enonce": "Quelle périodicité la théorie de Milankovitch associe-t-elle principalement à l'obliquité ?",
       "options": [
         "41 000 ans",
@@ -683,10 +575,10 @@
         "200 000 ans"
       ],
       "reponse_correcte": 0,
-      "explication": "L'obliquité possède un cycle d'environ 41 kyr, important dans la théorie des glaciations."
+      "explication": "L'obliquité possède un cycle d'environ 41 kyr, important dans la théorie des glaciations[span_48](start_span)[span_48](end_span)."
     },
     {
-      "id": 58,
+      "id": 49,
       "enonce": "Quelle périodicité domine les glaciations du dernier million d'années ?",
       "options": [
         "Environ 100 000 ans",
@@ -695,10 +587,10 @@
         "Environ 3 ans"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne le passage à une périodicité proche de 100 kyr."
+      "explication": "Le cours souligne le passage à une périodicité proche de 100 kyr[span_49](start_span)[span_49](end_span)."
     },
     {
-      "id": 59,
+      "id": 50,
       "enonce": "Quel problème pose cette périodicité de 100 kyr par rapport à la théorie simple de Milankovitch ?",
       "options": [
         "Elle ne correspond pas directement à la principale période d'obliquité et nécessite des mécanismes supplémentaires",
@@ -707,10 +599,10 @@
         "Elle ne concerne pas les glaces"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cycle de 100 kyr demande des mécanismes climatiques plus complexes."
+      "explication": "Le cycle de 100 kyr demande des mécanismes climatiques plus complexes[span_50](start_span)[span_50](end_span)."
     },
     {
-      "id": 60,
+      "id": 51,
       "enonce": "Que montre la dernière déglaciation concernant le rôle du CO2 ?",
       "options": [
         "Le réchauffement global et la hausse du CO2 précèdent de quelques milliers d'années la principale fonte des glaces",
@@ -719,10 +611,10 @@
         "La glace fond uniquement à cause des marées"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne une hausse du CO2 et un réchauffement avant la phase principale de fonte."
+      "explication": "Le cours souligne une hausse du CO2 et un réchauffement avant la phase principale de fonte[span_51](start_span)[span_51](end_span)."
     },
     {
-      "id": 61,
+      "id": 52,
       "enonce": "Quelle circulation océanique est évoquée pour expliquer des événements climatiques abrupts du dernier âge glaciaire ?",
       "options": [
         "La circulation océanique profonde de l'Atlantique",
@@ -731,10 +623,10 @@
         "La circulation des continents"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours envisage des réorganisations brutales de la circulation profonde atlantique."
+      "explication": "Le cours envisage des réorganisations brutales de la circulation profonde atlantique[span_52](start_span)[span_52](end_span)."
     },
     {
-      "id": 62,
+      "id": 53,
       "enonce": "Que représente schématiquement le modèle de Stommel ?",
       "options": [
         "Deux boîtes océaniques bien mélangées couplées par un mélange dépendant de la densité",
@@ -743,10 +635,10 @@
         "Un modèle de population"
       ],
       "reponse_correcte": 0,
-      "explication": "Le modèle réduit l'océan à deux boîtes et met en jeu température, salinité et mélange."
+      "explication": "Le modèle réduit l'océan à deux boîtes et met en jeu température, salinité et mélange[span_53](start_span)[span_53](end_span)."
     },
     {
-      "id": 63,
+      "id": 54,
       "enonce": "Dans le modèle de Stommel, quelle grandeur contrôle notamment le mélange entre les deux boîtes ?",
       "options": [
         "La différence de densité",
@@ -755,10 +647,10 @@
         "La masse de la Lune"
       ],
       "reponse_correcte": 0,
-      "explication": "Le mélange est supposé proportionnel à la différence de densité."
+      "explication": "Le mélange est supposé proportionnel à la différence de densité[span_54](start_span)[span_54](end_span)."
     },
     {
-      "id": 64,
+      "id": 55,
       "enonce": "Que signifie qu'un équilibre du modèle de Stommel est instable ?",
       "options": [
         "Une petite perturbation peut l'éloigner davantage de cet équilibre",
@@ -767,10 +659,10 @@
         "La salinité est nulle"
       ],
       "reponse_correcte": 0,
-      "explication": "L'équilibre intermédiaire est instable : une perturbation peut amplifier l'écart."
+      "explication": "L'équilibre intermédiaire est instable : une perturbation peut amplifier l'écart[span_55](start_span)[span_55](end_span)."
     },
     {
-      "id": 65,
+      "id": 56,
       "enonce": "Dans le modèle vertical simplifié de l'océan, quels paramètres déterminent la différence de densité ?",
       "options": [
         "Différences de température et de salinité",
@@ -779,10 +671,10 @@
         "Uniquement le CO2"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours utilise Δρ = −α(T1−T0)+β(S1−S0)."
+      "explication": "Le cours utilise Δρ = −α(T1−T0)+β(S1−S0)[span_56](start_span)[span_56](end_span)."
     },
     {
-      "id": 66,
+      "id": 57,
       "enonce": "Que sont les événements de Heinrich ?",
       "options": [
         "Des arrivées massives et épisodiques de débris transportés par des icebergs",
@@ -791,10 +683,10 @@
         "Des variations de l'orbite terrestre"
       ],
       "reponse_correcte": 0,
-      "explication": "Les niveaux de Heinrich témoignent notamment d'apports massifs d'icebergs et de débris associés."
+      "explication": "Les niveaux de Heinrich témoignent notamment d'apports massifs d'icebergs et de débris associés[span_57](start_span)[span_57](end_span)."
     },
     {
-      "id": 67,
+      "id": 58,
       "enonce": "Quel phénomène est associé au Melt Water Pulse 1A ?",
       "options": [
         "Une remontée brutale du niveau marin d'environ 15 m en quelques siècles",
@@ -803,10 +695,10 @@
         "Une disparition de l'océan"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours indique environ 15 m en 3 à 4 siècles vers 14 600 ans BP."
+      "explication": "Le cours indique environ 15 m en 3 à 4 siècles vers 14 600 ans BP[span_58](start_span)[span_58](end_span)."
     },
     {
-      "id": 68,
+      "id": 59,
       "enonce": "Pourquoi les événements de Heinrich posent-ils un problème aux modèles de calottes ?",
       "options": [
         "Les modèles ne parviennent pas à simuler correctement ces événements massifs et épisodiques",
@@ -815,10 +707,10 @@
         "Ils sont trop anciens pour exister"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne que les modèles de calotte ne simulent pas encore correctement ces instabilités."
+      "explication": "Le cours souligne que les modèles de calotte ne simulent pas encore correctement ces instabilités[span_59](start_span)[span_59](end_span)."
     },
     {
-      "id": 69,
+      "id": 60,
       "enonce": "Quelle grandeur astronomique est particulièrement liée aux cycles de précipitations tropicales dans le cours ?",
       "options": [
         "La précession climatique",
@@ -827,10 +719,10 @@
         "La rotation de la Lune"
       ],
       "reponse_correcte": 0,
-      "explication": "La précession modifie la saisonnalité et joue un rôle majeur dans les cycles pluviaux tropicaux."
+      "explication": "La précession modifie la saisonnalité et joue un rôle majeur dans les cycles pluviaux tropicaux[span_60](start_span)[span_60](end_span)."
     },
     {
-      "id": 70,
+      "id": 61,
       "enonce": "Quel phénomène explique que l'effet de précession soit modulé par l'excentricité ?",
       "options": [
         "L'amplitude de l'effet saisonnier de précession dépend de e, notamment via le paramètre e sin(ω)",
@@ -839,10 +731,10 @@
         "Le jour devient plus court"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours introduit le paramètre de précession climatique e sin ω et montre le rôle modulateur de l'excentricité."
+      "explication": "Le cours introduit le paramètre de précession climatique e sin ω et montre le rôle modulateur de l'excentricité[span_61](start_span)[span_61](end_span)."
     },
     {
-      "id": 71,
+      "id": 62,
       "enonce": "Depuis quand les émissions anthropiques de CO2 sont-elles observées de façon continue à l'observatoire de Mona Loa selon le cours ?",
       "options": [
         "Depuis le milieu des années 1950",
@@ -851,10 +743,10 @@
         "Depuis l'Antiquité"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours situe le début des observations continues à Mona Loa au milieu des années 1950."
+      "explication": "Le cours situe le début des observations continues à Mona Loa au milieu des années 1950[span_62](start_span)[span_62](end_span)."
     },
     {
-      "id": 72,
+      "id": 63,
       "enonce": "Quel niveau préindustriel de CO2 atmosphérique est utilisé comme référence dans le cours ?",
       "options": [
         "280 ppm",
@@ -863,10 +755,10 @@
         "1000 ppm"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours rappelle un niveau préindustriel d'environ 280 ppm."
+      "explication": "Le cours rappelle un niveau préindustriel d'environ 280 ppm[span_63](start_span)[span_63](end_span)."
     },
     {
-      "id": 73,
+      "id": 64,
       "enonce": "Quel indice isotopique soutient l'origine fossile du carbone ajouté à l'atmosphère ?",
       "options": [
         "La baisse du 13C atmosphérique",
@@ -875,10 +767,10 @@
         "La hausse du 3He"
       ],
       "reponse_correcte": 0,
-      "explication": "Le carbone organique fossile est isotopiquement plus pauvre en 13C, ce qui contribue au signal observé."
+      "explication": "Le carbone organique fossile est isotopiquement plus pauvre en 13C, ce qui contribue au signal observé[span_64](start_span)[span_64](end_span)."
     },
     {
-      "id": 74,
+      "id": 65,
       "enonce": "Qu'est-ce que l'effet Suess ?",
       "options": [
         "La diminution du 14C atmosphérique liée à l'ajout de carbone fossile",
@@ -887,10 +779,10 @@
         "La compensation des carbonates"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours associe l'effet Suess à la baisse du 14C dans la première moitié du XXe siècle due au carbone fossile."
+      "explication": "Le cours associe l'effet Suess à la baisse du 14C dans la première moitié du XXe siècle due au carbone fossile[span_65](start_span)[span_65](end_span)."
     },
     {
-      "id": 75,
+      "id": 66,
       "enonce": "Quel horizon temporel est habituellement utilisé pour calculer le potentiel de réchauffement global (PRG/GWP) ?",
       "options": [
         "20 ans",
@@ -899,10 +791,10 @@
         "1 million d'années"
       ],
       "reponse_correcte": 1,
-      "explication": "Le tableau du cours utilise notamment l'horizon de 100 ans, avec le CO2 comme référence."
+      "explication": "Le tableau du cours utilise notamment l'horizon de 100 ans, avec le CO2 comme référence[span_66](start_span)[span_66](end_span)."
     },
     {
-      "id": 76,
+      "id": 67,
       "enonce": "Quelle est la valeur actuelle approximative de l'obliquité terrestre donnée dans le cours ?",
       "options": [
         "2,34°",
@@ -911,10 +803,10 @@
         "66,6°"
       ],
       "reponse_correcte": 1,
-      "explication": "L'axe terrestre est incliné d'environ 23°27', soit 23,4°, par rapport au plan de l'écliptique."
+      "explication": "L'axe terrestre est incliné d'environ 23°27', soit 23,4°, par rapport au plan de l'écliptique[span_67](start_span)[span_67](end_span)."
     },
     {
-      "id": 77,
+      "id": 68,
       "enonce": "Comment appelle-t-on l'inclinaison de l'axe terrestre par rapport au plan de l'écliptique ?",
       "options": [
         "Excentricité",
@@ -923,10 +815,10 @@
         "Anomalie vraie"
       ],
       "reponse_correcte": 1,
-      "explication": "L'obliquité est notée ε dans le cours."
+      "explication": "L'obliquité est notée ε dans le cours[span_68](start_span)[span_68](end_span)."
     },
     {
-      "id": 78,
+      "id": 69,
       "enonce": "À quelles latitudes se trouvent approximativement les tropiques ?",
       "options": [
         "±ε",
@@ -935,10 +827,10 @@
         "0° uniquement"
       ],
       "reponse_correcte": 0,
-      "explication": "Les tropiques sont aux latitudes ±ε, soit environ ±23,4°."
+      "explication": "Les tropiques sont aux latitudes ±ε, soit environ ±23,4°[span_69](start_span)[span_69](end_span)."
     },
     {
-      "id": 79,
+      "id": 70,
       "enonce": "Que caractérisent les cercles polaires ?",
       "options": [
         "Les régions où le Soleil peut ne pas se lever ou ne pas se coucher pendant une partie de l'année",
@@ -947,10 +839,10 @@
         "Les régions toujours glacées"
       ],
       "reponse_correcte": 0,
-      "explication": "Ils se situent à ±(π/2−ε) et délimitent les régions de jour/nuit polaire."
+      "explication": "Ils se situent à ±(π/2−ε) et délimitent les régions de jour/nuit polaire[span_70](start_span)[span_70](end_span)."
     },
     {
-      "id": 80,
+      "id": 71,
       "enonce": "Pourquoi le cycle de précession est-il important pour le climat même si l'excentricité seule a un faible effet global ?",
       "options": [
         "Parce qu'elle déplace les saisons par rapport au périhélie et modifie fortement l'insolation saisonnière",
@@ -959,10 +851,10 @@
         "Parce qu'elle modifie directement la gravité"
       ],
       "reponse_correcte": 0,
-      "explication": "La précession affecte la distribution saisonnière de l'énergie reçue, avec un effet régional important."
+      "explication": "La précession affecte la distribution saisonnière de l'énergie reçue, avec un effet régional important[span_71](start_span)[span_71](end_span)."
     },
     {
-      "id": 81,
+      "id": 72,
       "enonce": "Quel est l'ordre de grandeur du temps de résidence du carbone dans l'océan profond selon le cours ?",
       "options": [
         "Environ 3 ans",
@@ -971,10 +863,10 @@
         "Environ 200 000 ans"
       ],
       "reponse_correcte": 1,
-      "explication": "Le calcul présenté donne environ 37000 GtC / 100 GtC/an ≈ 400 ans."
+      "explication": "Le calcul présenté donne environ 37000 GtC / 100 GtC/an ≈ 400 ans[span_72](start_span)[span_72](end_span)."
     },
     {
-      "id": 82,
+      "id": 73,
       "enonce": "Après mélange de l'océan profond, quelle fraction de la perturbation anthropique est estimée pouvoir être capturée par l'océan ?",
       "options": [
         "Environ 1/4",
@@ -983,10 +875,10 @@
         "100 %"
       ],
       "reponse_correcte": 2,
-      "explication": "Le cours estime que l'océan profond pourrait capturer environ les trois quarts de la perturbation."
+      "explication": "Le cours estime que l'océan profond pourrait capturer environ les trois quarts de la perturbation[span_73](start_span)[span_73](end_span)."
     },
     {
-      "id": 83,
+      "id": 74,
       "enonce": "Après la compensation des carbonates, quelle fraction de la perturbation initiale pourrait rester ?",
       "options": [
         "Environ 5 à 10 %",
@@ -995,10 +887,10 @@
         "100 %"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours indique qu'il pourrait rester environ 5 à 10 % après cette étape."
+      "explication": "Le cours indique qu'il pourrait rester environ 5 à 10 % après cette étape[span_74](start_span)[span_74](end_span)."
     },
     {
-      "id": 84,
+      "id": 75,
       "enonce": "Quel terme du potentiel de réchauffement global sert de référence pour définir les équivalents CO2 ?",
       "options": [
         "CO2",
@@ -1007,10 +899,10 @@
         "SF6"
       ],
       "reponse_correcte": 0,
-      "explication": "Le CO2 est choisi comme gaz de référence avec un PRG égal à 1."
+      "explication": "Le CO2 est choisi comme gaz de référence avec un PRG égal à 1[span_75](start_span)[span_75](end_span)."
     },
     {
-      "id": 85,
+      "id": 76,
       "enonce": "Quel procédé industriel est cité comme source majeure d'azote réactif pour l'agriculture ?",
       "options": [
         "Haber-Bosch",
@@ -1019,10 +911,10 @@
         "Stommel"
       ],
       "reponse_correcte": 0,
-      "explication": "Le procédé Haber-Bosch permet la fixation industrielle de l'azote et la production de nitrates."
+      "explication": "Le procédé Haber-Bosch permet la fixation industrielle de l'azote et la production de nitrates[span_76](start_span)[span_76](end_span)."
     },
     {
-      "id": 86,
+      "id": 77,
       "enonce": "Quelles sont les trois formes principales du carbone inorganique dissous dans l'océan ?",
       "options": [
         "CO2d, HCO3− et CO3²−",
@@ -1031,10 +923,10 @@
         "H2CO3, CH4 et N2"
       ],
       "reponse_correcte": 0,
-      "explication": "Le DIC est la somme de CO2 dissous, bicarbonate et carbonate."
+      "explication": "Le DIC est la somme de CO2 dissous, bicarbonate et carbonate[span_77](start_span)[span_77](end_span)."
     },
     {
-      "id": 87,
+      "id": 78,
       "enonce": "Que représente K0 dans la chimie océanique simplifiée du cours ?",
       "options": [
         "La constante de dissolution du CO2, K0 = [CO2d]/pCO2",
@@ -1043,10 +935,10 @@
         "La constante solaire"
       ],
       "reponse_correcte": 0,
-      "explication": "K0 relie CO2 dissous et pression partielle de CO2."
+      "explication": "K0 relie CO2 dissous et pression partielle de CO2[span_78](start_span)[span_78](end_span)."
     },
     {
-      "id": 88,
+      "id": 79,
       "enonce": "Que représente K2 dans le système carbonate ?",
       "options": [
         "La constante de deuxième dissociation, K2 = [H+][CO3²−]/[HCO3−]",
@@ -1055,10 +947,10 @@
         "La constante solaire"
       ],
       "reponse_correcte": 0,
-      "explication": "K2 correspond à la deuxième dissociation de l'acide carbonique."
+      "explication": "K2 correspond à la deuxième dissociation de l'acide carbonique[span_79](start_span)[span_79](end_span)."
     },
     {
-      "id": 89,
+      "id": 80,
       "enonce": "Comment est définie l'alcalinité simplifiée A dans le cours ?",
       "options": [
         "A ≈ 2[CO3²−] + [HCO3−]",
@@ -1067,10 +959,10 @@
         "A = pCO2"
       ],
       "reponse_correcte": 0,
-      "explication": "Les borates et petits termes sont négligés dans l'approximation."
+      "explication": "Les borates et petits termes sont négligés dans l'approximation[span_80](start_span)[span_80](end_span)."
     },
     {
-      "id": 90,
+      "id": 81,
       "enonce": "Que se passe-t-il pour C et A lorsqu'on ajoute une mole de CO2 au système océanique ?",
       "options": [
         "ΔC = +1 et ΔA = 0",
@@ -1079,10 +971,10 @@
         "ΔC = −1 et ΔA = −2"
       ],
       "reponse_correcte": 0,
-      "explication": "Le CO2 ajouté augmente le carbone total mais pas l'alcalinité."
+      "explication": "Le CO2 ajouté augmente le carbone total mais pas l'alcalinité[span_81](start_span)[span_81](end_span)."
     },
     {
-      "id": 91,
+      "id": 82,
       "enonce": "Que se passe-t-il pour C et A lorsqu'une mole de CaCO3 se dissout ?",
       "options": [
         "ΔC = +1 et ΔA = +2",
@@ -1091,10 +983,10 @@
         "ΔC = −1 et ΔA = −2"
       ],
       "reponse_correcte": 0,
-      "explication": "La dissolution d'un carbonate ajoute une unité de carbone et deux d'alcalinité."
+      "explication": "La dissolution d'un carbonate ajoute une unité de carbone et deux d'alcalinité[span_82](start_span)[span_82](end_span)."
     },
     {
-      "id": 92,
+      "id": 83,
       "enonce": "Dans l'approximation du cours, quelle relation relie le carbonate à C et A ?",
       "options": [
         "[CO3²−] ≈ A − C",
@@ -1103,10 +995,10 @@
         "[CO3²−] ≈ A/C"
       ],
       "reponse_correcte": 0,
-      "explication": "En combinant C ≈ [CO3²−]+[HCO3−] et A ≈ 2[CO3²−]+[HCO3−], on obtient A−C."
+      "explication": "En combinant C ≈ [CO3²−]+[HCO3−] et A ≈ 2[CO3²−]+[HCO3−], on obtient A−C[span_83](start_span)[span_83](end_span)."
     },
     {
-      "id": 93,
+      "id": 84,
       "enonce": "Dans la même approximation, quelle relation relie le bicarbonate à C et A ?",
       "options": [
         "[HCO3−] ≈ 2C − A",
@@ -1115,10 +1007,10 @@
         "[HCO3−] ≈ A/2"
       ],
       "reponse_correcte": 0,
-      "explication": "La résolution du système donne 2C−A."
+      "explication": "La résolution du système donne 2C−A[span_84](start_span)[span_84](end_span)."
     },
     {
-      "id": 94,
+      "id": 85,
       "enonce": "Que provoque une injection de 1000 GtC de CO2 dans l'océan après mélange océanique selon l'exemple ?",
       "options": [
         "Environ −0,3 unité de pH et une baisse du carbonate d'environ 1000 GtC",
@@ -1127,10 +1019,10 @@
         "Une disparition totale du CO2"
       ],
       "reponse_correcte": 0,
-      "explication": "L'exemple donne ΔpH ≈ −0,3 et Δ[CO3²−] ≈ −1000 GtC après mélange."
+      "explication": "L'exemple donne ΔpH ≈ −0,3 et Δ[CO3²−] ≈ −1000 GtC après mélange[span_85](start_span)[span_85](end_span)."
     },
     {
-      "id": 95,
+      "id": 86,
       "enonce": "Quel mécanisme compense à plus long terme la diminution de carbonate après une injection de CO2 ?",
       "options": [
         "La dissolution de CaCO3, appelée compensation des carbonates",
@@ -1139,10 +1031,10 @@
         "La congélation de l'océan"
       ],
       "reponse_correcte": 0,
-      "explication": "La baisse de [CO3²−] favorise la dissolution de CaCO3 jusqu'au réajustement du produit de solubilité."
+      "explication": "La baisse de [CO3²−] favorise la dissolution de CaCO3 jusqu'au réajustement du produit de solubilité[span_86](start_span)[span_86](end_span)."
     },
     {
-      "id": 96,
+      "id": 87,
       "enonce": "Quel ordre de grandeur est donné pour le temps de la compensation des carbonates ?",
       "options": [
         "Quelques milliers d'années, environ 5000 à 10 000 ans",
@@ -1151,10 +1043,10 @@
         "200 000 ans"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours donne une constante de temps de plusieurs milliers d'années."
+      "explication": "Le cours donne une constante de temps de plusieurs milliers d'années[span_87](start_span)[span_87](end_span)."
     },
     {
-      "id": 97,
+      "id": 88,
       "enonce": "Pourquoi l'érosion des silicates est-elle cruciale pour le retour vers l'état initial du carbone ?",
       "options": [
         "Elle consomme du CO2 et augmente l'alcalinité, permettant à terme de stocker durablement du carbone sous forme de carbonates",
@@ -1163,10 +1055,10 @@
         "Elle ne concerne que l'atmosphère"
       ],
       "reponse_correcte": 0,
-      "explication": "L'érosion des silicates utilise du CO2 pour produire du bicarbonate et augmente l'alcalinité ; la précipitation de carbonates permet ensuite un stockage durable."
+      "explication": "L'érosion des silicates utilise du CO2 pour produire du bicarbonate et augmente l'alcalinité ; la précipitation de carbonates permet ensuite un stockage durable[span_88](start_span)[span_88](end_span)."
     },
     {
-      "id": 98,
+      "id": 89,
       "enonce": "Dans le bilan dC/dt = V − E − B, que représente V ?",
       "options": [
         "Les sources volcaniques et autres dégazages",
@@ -1175,10 +1067,10 @@
         "La photosynthèse uniquement"
       ],
       "reponse_correcte": 0,
-      "explication": "V représente les apports volcaniques, hydrothermaux et autres dégazages du manteau."
+      "explication": "V représente les apports volcaniques, hydrothermaux et autres dégazages du manteau[span_89](start_span)[span_89](end_span)."
     },
     {
-      "id": 99,
+      "id": 90,
       "enonce": "Dans ce même bilan, quel mécanisme fournit la principale rétroaction stabilisante du climat géologique selon le cours ?",
       "options": [
         "E(C), l'érosion des silicates croissante avec le carbone et la température",
@@ -1187,10 +1079,10 @@
         "La rotation de la Terre"
       ],
       "reponse_correcte": 0,
-      "explication": "Si E croît avec C, un point d'équilibre stable peut satisfaire E(C)=V−B."
+      "explication": "Si E croît avec C, un point d'équilibre stable peut satisfaire E(C)=V−B[span_90](start_span)[span_90](end_span)."
     },
     {
-      "id": 100,
+      "id": 91,
       "enonce": "Quelle distinction fondamentale le cours fait-il entre temps de résidence atmosphérique et durée d'une perturbation anthropique du carbone ?",
       "options": [
         "Le temps de résidence atmosphérique est d'environ 3 ans, tandis que la perturbation complète peut persister de l'ordre de 200 000 ans",
@@ -1199,7 +1091,7 @@
         "Il n'existe aucune différence"
       ],
       "reponse_correcte": 0,
-      "explication": "Les échanges rapides donnent un temps de résidence atmosphérique d'environ 3 ans, mais le retour du carbone vers les réservoirs géologiques est de l'ordre de 200 000 ans."
+      "explication": "Les échanges rapides donnent un temps de résidence atmosphérique d'environ 3 ans, mais le retour du carbone vers les réservoirs géologiques est de l'ordre de 200 000 ans[span_91](start_span)[span_91](end_span)."
     }
   ]
 }

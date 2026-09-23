@@ -1,5 +1,5 @@
 {
-  "titre_chapitre": "1SL2000 – Business Management & Transformation – QCM d'entraînement complet",
+  "titre_chapitre": "Business Management & Transformation",
   "questions": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
         "Une organisation publique chargée exclusivement de redistribuer les richesses."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours reprend la définition de l'INSEE : l'entreprise est une unité économiquement autonome et juridiquement indépendante produisant principalement des biens ou services pour le marché."
+      "explication": "Le cours reprend la définition de l'INSEE : l'entreprise est une unité économiquement autonome et juridiquement indépendante produisant principalement des biens ou services pour le marché[span_1](start_span)[span_1](end_span)."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "L'interdiction des échanges sur les marchés."
       ],
       "reponse_correcte": 0,
-      "explication": "Le capitalisme est présenté comme un système accordant aux entreprises la propriété privée des moyens de production ainsi que des profits issus de la vente."
+      "explication": "Le capitalisme est présenté comme un système accordant aux entreprises la propriété privée des moyens de production ainsi que des profits issus de la vente[span_2](start_span)[span_2](end_span)."
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
         "Prix, salaires, dividendes et taxes."
       ],
       "reponse_correcte": 0,
-      "explication": "L'entreprise rassemble des membres, mutualise des ressources, définit des rôles et établit des règles."
+      "explication": "L'entreprise rassemble des membres, mutualise des ressources, définit des rôles et établit des règles[span_3](start_span)[span_3](end_span)."
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
         "Risk, Accounting, Production."
       ],
       "reponse_correcte": 0,
-      "explication": "Le modèle RAP décrit les Resources, Activities et Partners de l'entreprise."
+      "explication": "Le modèle RAP décrit les Resources, Activities et Partners de l'entreprise[span_4](start_span)[span_4](end_span)."
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
         "Elle supprime toute responsabilité juridique de l'entreprise."
       ],
       "reponse_correcte": 0,
-      "explication": "La personnalité juridique permet à la société d'avoir ses propres droits et obligations, distincts de ceux de ses membres."
+      "explication": "La personnalité juridique permet à la société d'avoir ses propres droits et obligations, distincts de ceux de ses membres[span_5](start_span)[span_5](end_span)."
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
         "À la totalité de leur patrimoine personnel."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours indique que les actionnaires sont responsables des pertes jusqu'à concurrence de leurs contributions."
+      "explication": "Le cours indique que les actionnaires sont responsables des pertes jusqu'à concurrence de leurs contributions[span_6](start_span)[span_6](end_span)."
     },
     {
       "id": 7,
@@ -76,7 +76,7 @@
         "Les salariés de l'entreprise."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours insiste sur la distinction : les actionnaires possèdent des actions dans la société, et non directement les actifs de celle-ci."
+      "explication": "Le cours insiste sur la distinction : les actionnaires possèdent des actions dans la société, et non directement les actifs de celle-ci[span_7](start_span)[span_7](end_span)."
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
         "Uniquement des droits fiscaux."
       ],
       "reponse_correcte": 0,
-      "explication": "Les actions donnent notamment des droits financiers, comme les dividendes, et des droits de participation aux décisions."
+      "explication": "Les actions donnent notamment des droits financiers, comme les dividendes, et des droits de participation aux décisions[span_8](start_span)[span_8](end_span)."
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
         "Une entreprise qui ne peut plus émettre d'actions."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours définit une entreprise cotée comme une entreprise dont tout ou partie du capital est inscrit sur une place boursière."
+      "explication": "Le cours définit une entreprise cotée comme une entreprise dont tout ou partie du capital est inscrit sur une place boursière[span_9](start_span)[span_9](end_span)."
     },
     {
       "id": 10,
@@ -109,7 +109,7 @@
         "International Profit Optimization."
       ],
       "reponse_correcte": 0,
-      "explication": "Une IPO est une opération financière permettant notamment à une entreprise d'augmenter sa capacité de financement en offrant des actions au public."
+      "explication": "Une IPO est une opération financière permettant notamment à une entreprise d'augmenter sa capacité de financement en offrant des actions au public[span_10](start_span)[span_10](end_span)."
     },
     {
       "id": 11,
@@ -120,7 +120,7 @@
         "One manager, one vote."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours présente la coopérative comme une entreprise à propriété collective dans laquelle le pouvoir est exercé démocratiquement selon le principe « one person, one vote »."
+      "explication": "Le cours présente la coopérative comme une entreprise à propriété collective dans laquelle le pouvoir est exercé démocratiquement selon le principe « one person, one vote »[span_11](start_span)[span_11](end_span)."
     },
     {
       "id": 12,
@@ -131,7 +131,7 @@
         "L'économie informelle."
       ],
       "reponse_correcte": 0,
-      "explication": "Les coopératives font partie de l'économie sociale et solidaire avec notamment les mutuelles et certaines associations."
+      "explication": "Les coopératives font partie de l'économie sociale et solidaire avec notamment les mutuelles et certaines associations[span_12](start_span)[span_12](end_span)."
     },
     {
       "id": 13,
@@ -142,7 +142,7 @@
         "Être obligatoirement détenue par l'État."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours présente ce statut issu de la loi PACTE de 2019 comme intégrant des objectifs sociaux et/ou environnementaux dans les statuts."
+      "explication": "Le cours présente ce statut issu de la loi PACTE de 2019 comme intégrant des objectifs sociaux et/ou environnementaux dans les statuts[span_13](start_span)[span_13](end_span)."
     },
     {
       "id": 14,
@@ -153,7 +153,7 @@
         "Capital Sustainability Ratio."
       ],
       "reponse_correcte": 0,
-      "explication": "CSR signifie Corporate Social Responsibility, ou responsabilité sociale des entreprises."
+      "explication": "CSR signifie Corporate Social Responsibility, ou responsabilité sociale des entreprises[span_14](start_span)[span_14](end_span)."
     },
     {
       "id": 15,
@@ -164,7 +164,7 @@
         "Comme une méthode exclusivement destinée à augmenter les ventes."
       ],
       "reponse_correcte": 0,
-      "explication": "La CSR est présentée comme la prise en compte volontaire d'enjeux environnementaux, sociaux et éthiques, avec des initiatives et des restrictions allant au-delà du strict minimum réglementaire."
+      "explication": "La CSR est présentée comme la prise en compte volontaire d'enjeux environnementaux, sociaux et éthiques, avec des initiatives et des restrictions allant au-delà du strict minimum réglementaire[span_15](start_span)[span_15](end_span)."
     },
     {
       "id": 16,
@@ -175,7 +175,7 @@
         "Le stock splitting."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne le risque de « mission washing », lorsque la mission affichée ne correspond pas nécessairement aux pratiques réelles."
+      "explication": "Le cours souligne le risque de « mission washing », lorsque la mission affichée ne correspond pas nécessairement aux pratiques réelles[span_16](start_span)[span_16](end_span)."
     },
     {
       "id": 17,
@@ -186,7 +186,7 @@
         "Production et Distribution."
       ],
       "reponse_correcte": 0,
-      "explication": "Le management repose sur la valorisation des ressources et compétences et sur la régulation via les règles, procédures et évaluations."
+      "explication": "Le management repose sur la valorisation des ressources et compétences et sur la régulation via les règles, procédures et évaluations[span_17](start_span)[span_17](end_span)."
     },
     {
       "id": 18,
@@ -197,7 +197,7 @@
         "Supprimer les procédures de contrôle."
       ],
       "reponse_correcte": 0,
-      "explication": "La valorisation consiste à utiliser au mieux les ressources financières, humaines, matérielles et informationnelles ainsi que les compétences."
+      "explication": "La valorisation consiste à utiliser au mieux les ressources financières, humaines, matérielles et informationnelles ainsi que les compétences[span_18](start_span)[span_18](end_span)."
     },
     {
       "id": 19,
@@ -208,7 +208,7 @@
         "Remplacer les salariés par des machines."
       ],
       "reponse_correcte": 0,
-      "explication": "La régulation structure l'organisation par des règles, procédures, mesures et évaluations."
+      "explication": "La régulation structure l'organisation par des règles, procédures, mesures et évaluations[span_19](start_span)[span_19](end_span)."
     },
     {
       "id": 20,
@@ -219,7 +219,7 @@
         "Profit, Operations, Planning."
       ],
       "reponse_correcte": 0,
-      "explication": "POP désigne Planning, Organization et Steering dans la première présentation du cours."
+      "explication": "POP désigne Planning, Organization et Steering dans la première présentation du cours[span_20](start_span)[span_20](end_span)."
     },
     {
       "id": 21,
@@ -230,7 +230,7 @@
         "Production, Organization, Capital."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours utilise également POC : Plan, Organize, Control."
+      "explication": "Le cours utilise également POC : Plan, Organize, Control[span_21](start_span)[span_21](end_span)."
     },
     {
       "id": 22,
@@ -241,7 +241,7 @@
         "Uniquement recruter."
       ],
       "reponse_correcte": 0,
-      "explication": "Planning correspond au travail de prévision et de conception : marchés, produits, rôles et objectifs."
+      "explication": "Planning correspond au travail de prévision et de conception : marchés, produits, rôles et objectifs[span_22](start_span)[span_22](end_span)."
     },
     {
       "id": 23,
@@ -252,7 +252,7 @@
         "Définir uniquement la publicité."
       ],
       "reponse_correcte": 0,
-      "explication": "L'organisation concerne la répartition du travail, la coordination et les règles nécessaires au fonctionnement collectif."
+      "explication": "L'organisation concerne la répartition du travail, la coordination et les règles nécessaires au fonctionnement collectif[span_23](start_span)[span_23](end_span)."
     },
     {
       "id": 24,
@@ -263,7 +263,7 @@
         "Définir uniquement les produits."
       ],
       "reponse_correcte": 0,
-      "explication": "Le contrôle inclut le management opérationnel et l'évaluation des résultats."
+      "explication": "Le contrôle inclut le management opérationnel et l'évaluation des résultats[span_24](start_span)[span_24](end_span)."
     },
     {
       "id": 25,
@@ -274,7 +274,7 @@
         "SWOT."
       ],
       "reponse_correcte": 0,
-      "explication": "POCCC correspond à Forecast, Organize, Command, Coordinate, Control."
+      "explication": "POCCC correspond à Forecast, Organize, Command, Coordinate, Control[span_25](start_span)[span_25](end_span)."
     },
     {
       "id": 26,
@@ -285,7 +285,7 @@
         "Elle garantit automatiquement l'innovation."
       ],
       "reponse_correcte": 0,
-      "explication": "Les règles peuvent améliorer l'efficacité et la cohérence, mais aussi produire rigidité et perte d'autonomie."
+      "explication": "Les règles peuvent améliorer l'efficacité et la cohérence, mais aussi produire rigidité et perte d'autonomie[span_26](start_span)[span_26](end_span)."
     },
     {
       "id": 27,
@@ -296,7 +296,7 @@
         "Donner à chaque salarié la responsabilité de définir librement tous les processus."
       ],
       "reponse_correcte": 0,
-      "explication": "Taylor met l'accent sur la séparation entre conception et exécution et sur la standardisation des tâches."
+      "explication": "Taylor met l'accent sur la séparation entre conception et exécution et sur la standardisation des tâches[span_27](start_span)[span_27](end_span)."
     },
     {
       "id": 28,
@@ -307,7 +307,7 @@
         "Le logo."
       ],
       "reponse_correcte": 0,
-      "explication": "Le chronomètre symbolise la mesure des temps et la recherche de la meilleure méthode de travail."
+      "explication": "Le chronomètre symbolise la mesure des temps et la recherche de la meilleure méthode de travail[span_28](start_span)[span_28](end_span)."
     },
     {
       "id": 29,
@@ -318,7 +318,7 @@
         "Le marketing digital."
       ],
       "reponse_correcte": 0,
-      "explication": "Fayol insiste notamment sur l'autorité, la hiérarchie et l'unité de commandement."
+      "explication": "Fayol insiste notamment sur l'autorité, la hiérarchie et l'unité de commandement[span_29](start_span)[span_29](end_span)."
     },
     {
       "id": 30,
@@ -329,7 +329,7 @@
         "Une impossibilité de définir des procédures."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours mentionne notamment la perte de motivation, la déshumanisation du travail et les difficultés à favoriser l'apprentissage et l'innovation."
+      "explication": "Le cours mentionne notamment la perte de motivation, la déshumanisation du travail et les difficultés à favoriser l'apprentissage et l'innovation[span_30](start_span)[span_30](end_span)."
     },
     {
       "id": 31,
@@ -340,7 +340,7 @@
         "Une liste de salariés."
       ],
       "reponse_correcte": 0,
-      "explication": "Un processus est une séquence d'activités dont le résultat correspond à un service fourni à un ou plusieurs clients."
+      "explication": "Un processus est une séquence d'activités dont le résultat correspond à un service fourni à un ou plusieurs clients[span_31](start_span)[span_31](end_span)."
     },
     {
       "id": 32,
@@ -351,7 +351,7 @@
         "Les processus opérationnels ne créent jamais de valeur."
       ],
       "reponse_correcte": 0,
-      "explication": "Les processus opérationnels sont orientés vers les clients finaux ; les processus support permettent leur fonctionnement."
+      "explication": "Les processus opérationnels sont orientés vers les clients finaux ; les processus support permettent leur fonctionnement[span_32](start_span)[span_32](end_span)."
     },
     {
       "id": 33,
@@ -362,7 +362,7 @@
         "Le coût est toujours supérieur au prix et à la valeur."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue clairement les trois perspectives : coût, prix et valeur."
+      "explication": "Le cours distingue clairement les trois perspectives : coût, prix et valeur[span_33](start_span)[span_33](end_span)."
     },
     {
       "id": 34,
@@ -373,7 +373,7 @@
         "Uniquement lorsqu'elle concerne un produit industriel."
       ],
       "reponse_correcte": 0,
-      "explication": "La valeur dépend de ce qui compte pour une personne ou un groupe et n'est pas nécessairement monétaire."
+      "explication": "La valeur dépend de ce qui compte pour une personne ou un groupe et n'est pas nécessairement monétaire[span_34](start_span)[span_34](end_span)."
     },
     {
       "id": 35,
@@ -384,7 +384,7 @@
         "Les entreprises sont uniquement des structures comptables."
       ],
       "reponse_correcte": 0,
-      "explication": "L'un des messages centraux du cours est le compromis permanent entre profitability et responsibility."
+      "explication": "L'un des messages centraux du cours est le compromis permanent entre profitability et responsibility[span_35](start_span)[span_35](end_span)."
     },
     {
       "id": 36,
@@ -395,7 +395,7 @@
         "Un logiciel de comptabilité."
       ],
       "reponse_correcte": 0,
-      "explication": "La forêt constitue un actif de capital naturel, avec notamment des fonctions de stockage de carbone et d'habitat."
+      "explication": "La forêt constitue un actif de capital naturel, avec notamment des fonctions de stockage de carbone et d'habitat[span_36](start_span)[span_36](end_span)."
     },
     {
       "id": 37,
@@ -406,7 +406,7 @@
         "Uniquement une somme d'argent en banque."
       ],
       "reponse_correcte": 0,
-      "explication": "Le stock correspond à une quantité d'actifs à un moment donné."
+      "explication": "Le stock correspond à une quantité d'actifs à un moment donné[span_37](start_span)[span_37](end_span)."
     },
     {
       "id": 38,
@@ -417,7 +417,7 @@
         "La superficie totale de la forêt à un instant donné."
       ],
       "reponse_correcte": 0,
-      "explication": "La croissance et les prélèvements modifient le stock : ce sont des flux."
+      "explication": "La croissance et les prélèvements modifient le stock : ce sont des flux[span_38](start_span)[span_38](end_span)."
     },
     {
       "id": 39,
@@ -428,7 +428,7 @@
         "Industrial, commercial, agricultural, public et private capital."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours propose notamment cette classification en cinq formes de capital."
+      "explication": "Le cours propose notamment cette classification en cinq formes de capital[span_39](start_span)[span_39](end_span)."
     },
     {
       "id": 40,
@@ -439,7 +439,7 @@
         "Uniquement le capital naturel."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne que la comptabilité suit principalement le capital économique."
+      "explication": "Le cours souligne que la comptabilité suit principalement le capital économique[span_40](start_span)[span_40](end_span)."
     },
     {
       "id": 41,
@@ -450,7 +450,7 @@
         "L'économie est indépendante de l'environnement."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours présente une structure emboîtée : économie, société, puis biosphère."
+      "explication": "Le cours présente une structure emboîtée : économie, société, puis biosphère[span_41](start_span)[span_41](end_span)."
     },
     {
       "id": 42,
@@ -461,7 +461,7 @@
         "Marketing, publicité et consommation."
       ],
       "reponse_correcte": 0,
-      "explication": "La lecture 2 analyse industrialization, globalization et financialization."
+      "explication": "La lecture 2 analyse industrialization, globalization et financialization[span_42](start_span)[span_42](end_span)."
     },
     {
       "id": 43,
@@ -472,7 +472,7 @@
         "Une baisse systématique de la consommation."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours souligne que la croissance du PIB est corrélée à la consommation d'énergie et de matières."
+      "explication": "Le cours souligne que la croissance du PIB est corrélée à la consommation d'énergie et de matières[span_43](start_span)[span_43](end_span)."
     },
     {
       "id": 44,
@@ -483,7 +483,7 @@
         "Les entreprises cessent d'utiliser les ressources naturelles."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours met en avant l'épuisement progressif des gisements les plus accessibles ou concentrés."
+      "explication": "Le cours met en avant l'épuisement progressif des gisements les plus accessibles ou concentrés[span_44](start_span)[span_44](end_span)."
     },
     {
       "id": 45,
@@ -494,7 +494,7 @@
         "Moins de 5 %."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours indique que plus de 80 % de l'énergie primaire consommée dans le monde provient des combustibles fossiles."
+      "explication": "Le cours indique que plus de 80 % de l'énergie primaire consommée dans le monde provient des combustibles fossiles[span_45](start_span)[span_45](end_span)."
     },
     {
       "id": 46,
@@ -505,7 +505,7 @@
         "La diminution mondiale de l'activité industrielle."
       ],
       "reponse_correcte": 0,
-      "explication": "La Great Acceleration décrit l'intensification rapide des pressions humaines sur le système Terre."
+      "explication": "La Great Acceleration décrit l'intensification rapide des pressions humaines sur le système Terre[span_46](start_span)[span_46](end_span)."
     },
     {
       "id": 47,
@@ -516,7 +516,7 @@
         "Une taxe sur les bénéfices."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours définit les externalités comme des transferts de valeur sans compensation monétaire."
+      "explication": "Le cours définit les externalités comme des transferts de valeur sans compensation monétaire[span_47](start_span)[span_47](end_span)."
     },
     {
       "id": 48,
@@ -527,7 +527,7 @@
         "Une externalité financière interne."
       ],
       "reponse_correcte": 0,
-      "explication": "La pollution impose un coût à des tiers sans compensation : c'est une externalité négative."
+      "explication": "La pollution impose un coût à des tiers sans compensation : c'est une externalité négative[span_48](start_span)[span_48](end_span)."
     },
     {
       "id": 49,
@@ -538,7 +538,7 @@
         "Le principe de neutralité financière."
       ],
       "reponse_correcte": 0,
-      "explication": "Le principe pollueur-payeur vise à internaliser les coûts de la pollution."
+      "explication": "Le principe pollueur-payeur vise à internaliser les coûts de la pollution[span_49](start_span)[span_49](end_span)."
     },
     {
       "id": 50,
@@ -549,7 +549,7 @@
         "La disparition des marchés."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours présente le changement climatique comme l'effet externe de la croissance économique le mieux documenté."
+      "explication": "Le cours présente le changement climatique comme l'effet externe de la croissance économique le mieux documenté[span_50](start_span)[span_50](end_span)."
     },
     {
       "id": 51,
@@ -560,7 +560,7 @@
         "Parce qu'elles ne concernent jamais des tiers."
       ],
       "reponse_correcte": 0,
-      "explication": "Une externalité concerne précisément des effets non compensés qui ne sont pas correctement intégrés dans le prix de marché."
+      "explication": "Une externalité concerne précisément des effets non compensés qui ne sont pas correctement intégrés dans le prix de marché[span_51](start_span)[span_51](end_span)."
     },
     {
       "id": 52,
@@ -571,7 +571,7 @@
         "Une méthode de calcul du PIB."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours présente l'Anthropocène comme une nouvelle période géologique marquée par l'ampleur des activités humaines."
+      "explication": "Le cours présente l'Anthropocène comme une nouvelle période géologique marquée par l'ampleur des activités humaines[span_52](start_span)[span_52](end_span)."
     },
     {
       "id": 53,
@@ -582,7 +582,7 @@
         "Modifier systématiquement le business model."
       ],
       "reponse_correcte": 0,
-      "explication": "Operational management correspond au « doing things right » et porte notamment sur l'efficacité et les flux."
+      "explication": "Operational management correspond au « doing things right » et porte notamment sur l'efficacité et les flux[span_53](start_span)[span_53](end_span)."
     },
     {
       "id": 54,
@@ -593,7 +593,7 @@
         "Mesurer uniquement les flux de trésorerie."
       ],
       "reponse_correcte": 0,
-      "explication": "Strategic management correspond au « doing the right things » et concerne la construction du potentiel futur."
+      "explication": "Strategic management correspond au « doing the right things » et concerne la construction du potentiel futur[span_54](start_span)[span_54](end_span)."
     },
     {
       "id": 55,
@@ -604,7 +604,7 @@
         "Au budget marketing."
       ],
       "reponse_correcte": 0,
-      "explication": "Le bilan présente les ressources accumulées et leurs sources de financement."
+      "explication": "Le bilan présente les ressources accumulées et leurs sources de financement[span_55](start_span)[span_55](end_span)."
     },
     {
       "id": 56,
@@ -615,7 +615,7 @@
         "À l'organigramme."
       ],
       "reponse_correcte": 0,
-      "explication": "Le compte de résultat résume les revenus et dépenses sur une période donnée."
+      "explication": "Le compte de résultat résume les revenus et dépenses sur une période donnée[span_56](start_span)[span_56](end_span)."
     },
     {
       "id": 57,
@@ -626,7 +626,7 @@
         "Le bénéfice futur anticipé."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cash flow concerne les mouvements de trésorerie réels."
+      "explication": "Le cash flow concerne les mouvements de trésorerie réels[span_57](start_span)[span_57](end_span)."
     },
     {
       "id": 58,
@@ -637,7 +637,7 @@
         "Parce que le bénéfice est toujours égal au cash disponible."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours insiste sur le décalage temporel entre revenus/dépenses comptabilisés et encaissements/décaissements."
+      "explication": "Le cours insiste sur le décalage temporel entre revenus/dépenses comptabilisés et encaissements/décaissements[span_58](start_span)[span_58](end_span)."
     },
     {
       "id": 59,
@@ -648,7 +648,7 @@
         "Share capital."
       ],
       "reponse_correcte": 0,
-      "explication": "Les créances clients enregistrent les montants facturés mais pas encore encaissés."
+      "explication": "Les créances clients enregistrent les montants facturés mais pas encore encaissés[span_59](start_span)[span_59](end_span)."
     },
     {
       "id": 60,
@@ -659,7 +659,7 @@
         "Goodwill."
       ],
       "reponse_correcte": 0,
-      "explication": "Les dettes fournisseurs représentent les dépenses enregistrées mais pas encore payées."
+      "explication": "Les dettes fournisseurs représentent les dépenses enregistrées mais pas encore payées[span_60](start_span)[span_60](end_span)."
     },
     {
       "id": 61,
@@ -670,7 +670,7 @@
         "Engineer, accountant et lawyer."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue les managers locaux, intermédiaires et généraux/exécutifs."
+      "explication": "Le cours distingue les managers locaux, intermédiaires et généraux/exécutifs[span_61](start_span)[span_61](end_span)."
     },
     {
       "id": 62,
@@ -681,7 +681,7 @@
         "Gérer exclusivement les relations avec les actionnaires."
       ],
       "reponse_correcte": 0,
-      "explication": "Le local manager est proche des opérations quotidiennes de son équipe."
+      "explication": "Le local manager est proche des opérations quotidiennes de son équipe[span_62](start_span)[span_62](end_span)."
     },
     {
       "id": 63,
@@ -692,7 +692,7 @@
         "Remplacer systématiquement le CEO."
       ],
       "reponse_correcte": 0,
-      "explication": "Le middle manager fait le lien entre la stratégie et les unités opérationnelles."
+      "explication": "Le middle manager fait le lien entre la stratégie et les unités opérationnelles[span_63](start_span)[span_63](end_span)."
     },
     {
       "id": 64,
@@ -703,7 +703,7 @@
         "Gérer uniquement les stocks."
       ],
       "reponse_correcte": 0,
-      "explication": "Les dirigeants généraux définissent la politique globale et l'intègrent avec les différents stakeholders."
+      "explication": "Les dirigeants généraux définissent la politique globale et l'intègrent avec les différents stakeholders[span_64](start_span)[span_64](end_span)."
     },
     {
       "id": 65,
@@ -714,7 +714,7 @@
         "Planning, Execution, Strategy, Targets, Evaluation, Leadership."
       ],
       "reponse_correcte": 0,
-      "explication": "PESTEL est une grille d'analyse de l'environnement macroéconomique."
+      "explication": "PESTEL est une grille d'analyse de l'environnement macroéconomique[span_65](start_span)[span_65](end_span)."
     },
     {
       "id": 66,
@@ -725,7 +725,7 @@
         "Technological uniquement."
       ],
       "reponse_correcte": 0,
-      "explication": "Une réglementation relève de la dimension Legal, même si elle peut avoir des effets environnementaux."
+      "explication": "Une réglementation relève de la dimension Legal, même si elle peut avoir des effets environnementaux[span_66](start_span)[span_66](end_span)."
     },
     {
       "id": 67,
@@ -736,7 +736,7 @@
         "Legal uniquement."
       ],
       "reponse_correcte": 0,
-      "explication": "Les évolutions technologiques appartiennent à la dimension Technological."
+      "explication": "Les évolutions technologiques appartiennent à la dimension Technological[span_67](start_span)[span_67](end_span)."
     },
     {
       "id": 68,
@@ -747,7 +747,7 @@
         "SWOT est exclusivement comptable."
       ],
       "reponse_correcte": 0,
-      "explication": "SWOT identifie Strengths, Weaknesses, Opportunities et Threats ; PESTEL analyse les grandes dimensions de l'environnement."
+      "explication": "SWOT identifie Strengths, Weaknesses, Opportunities et Threats ; PESTEL analyse les grandes dimensions de l'environnement[span_68](start_span)[span_68](end_span)."
     },
     {
       "id": 69,
@@ -758,7 +758,7 @@
         "Elle est toujours à la fois interne et externe."
       ],
       "reponse_correcte": 0,
-      "explication": "Strengths et Weaknesses concernent les facteurs internes à l'entreprise."
+      "explication": "Strengths et Weaknesses concernent les facteurs internes à l'entreprise[span_69](start_span)[span_69](end_span)."
     },
     {
       "id": 70,
@@ -769,7 +769,7 @@
         "Uniquement financier."
       ],
       "reponse_correcte": 0,
-      "explication": "Opportunities et Threats correspondent aux facteurs externes."
+      "explication": "Opportunities et Threats correspondent aux facteurs externes[span_70](start_span)[span_70](end_span)."
     },
     {
       "id": 71,
@@ -780,7 +780,7 @@
         "Remplacer l'ensemble des études de marché."
       ],
       "reponse_correcte": 0,
-      "explication": "SWOT sert à confronter forces/faiblesses internes et opportunités/menaces externes."
+      "explication": "SWOT sert à confronter forces/faiblesses internes et opportunités/menaces externes[span_71](start_span)[span_71](end_span)."
     },
     {
       "id": 72,
@@ -791,7 +791,7 @@
         "L'entreprise n'a plus besoin de management."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours parle de « playing to the indicator » : les individus peuvent optimiser l'indicateur plutôt que la performance réelle."
+      "explication": "Le cours parle de « playing to the indicator » : les individus peuvent optimiser l'indicateur plutôt que la performance réelle[span_72](start_span)[span_72](end_span)."
     },
     {
       "id": 73,
@@ -802,7 +802,7 @@
         "Un indicateur calculé uniquement à partir du chiffre d'affaires."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours utilise cette image pour décrire un KPI qui donne une apparence satisfaisante tout en masquant une situation problématique."
+      "explication": "Le cours utilise cette image pour décrire un KPI qui donne une apparence satisfaisante tout en masquant une situation problématique[span_73](start_span)[span_73](end_span)."
     },
     {
       "id": 74,
@@ -813,7 +813,7 @@
         "La valeur totale des actifs."
       ],
       "reponse_correcte": 0,
-      "explication": "Revenue/turnover correspond au total des ventes réalisées pendant une année."
+      "explication": "Revenue/turnover correspond au total des ventes réalisées pendant une année[span_74](start_span)[span_74](end_span)."
     },
     {
       "id": 75,
@@ -824,7 +824,7 @@
         "La valeur des immobilisations."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours définit la value added comme la richesse générée par l'entreprise, obtenue par différence entre revenus et achats/dépenses opérationnelles."
+      "explication": "Le cours définit la value added comme la richesse générée par l'entreprise, obtenue par différence entre revenus et achats/dépenses opérationnelles[span_75](start_span)[span_75](end_span)."
     },
     {
       "id": 76,
@@ -835,7 +835,7 @@
         "Le chiffre d'affaires avant toute vente."
       ],
       "reponse_correcte": 0,
-      "explication": "Le profit est le revenu résiduel après prise en compte des coûts et dépenses."
+      "explication": "Le profit est le revenu résiduel après prise en compte des coûts et dépenses[span_76](start_span)[span_76](end_span)."
     },
     {
       "id": 77,
@@ -846,7 +846,7 @@
         "Parce qu'il est fixé contractuellement à l'avance."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue le profit, revenu résiduel, des salaires et intérêts qui sont contractuels."
+      "explication": "Le cours distingue le profit, revenu résiduel, des salaires et intérêts qui sont contractuels[span_77](start_span)[span_77](end_span)."
     },
     {
       "id": 78,
@@ -857,7 +857,7 @@
         "Uniquement la structure juridique."
       ],
       "reponse_correcte": 0,
-      "explication": "Le business model combine ce que l'entreprise offre, comment elle le produit/fournit et comment elle capture de la valeur."
+      "explication": "Le business model combine ce que l'entreprise offre, comment elle le produit/fournit et comment elle capture de la valeur[span_78](start_span)[span_78](end_span)."
     },
     {
       "id": 79,
@@ -868,7 +868,7 @@
         "Uniquement une augmentation du nombre d'employés."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours oppose explicitement une vision durable orientée vers une valeur économique, sociale et environnementale de long terme."
+      "explication": "Le cours oppose explicitement une vision durable orientée vers une valeur économique, sociale et environnementale de long terme[span_79](start_span)[span_79](end_span)."
     },
     {
       "id": 80,
@@ -879,7 +879,7 @@
         "Uniquement recherche et développement."
       ],
       "reponse_correcte": 0,
-      "explication": "La conception d'une offre doit prendre en compte les clients et la valeur recherchée, la capacité technique de production et la viabilité économique."
+      "explication": "La conception d'une offre doit prendre en compte les clients et la valeur recherchée, la capacité technique de production et la viabilité économique[span_80](start_span)[span_80](end_span)."
     },
     {
       "id": 81,
@@ -890,7 +890,7 @@
         "Réduire systématiquement les salaires."
       ],
       "reponse_correcte": 0,
-      "explication": "Le marketing regroupe les méthodes permettant d'aligner l'offre avec les besoins et attentes du marché."
+      "explication": "Le marketing regroupe les méthodes permettant d'aligner l'offre avec les besoins et attentes du marché[span_81](start_span)[span_81](end_span)."
     },
     {
       "id": 82,
@@ -901,7 +901,7 @@
         "Les deux termes sont strictement synonymes."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue clairement les fonctions de marketing et de sales."
+      "explication": "Le cours distingue clairement les fonctions de marketing et de sales[span_82](start_span)[span_82](end_span)."
     },
     {
       "id": 83,
@@ -912,7 +912,7 @@
         "La recherche documentaire uniquement."
       ],
       "reponse_correcte": 0,
-      "explication": "Les études quantitatives servent notamment à mesurer la taille et segmenter les marchés."
+      "explication": "Les études quantitatives servent notamment à mesurer la taille et segmenter les marchés[span_83](start_span)[span_83](end_span)."
     },
     {
       "id": 84,
@@ -923,7 +923,7 @@
         "Mesurer uniquement le nombre de concurrents."
       ],
       "reponse_correcte": 0,
-      "explication": "Le qualitatif cherche à comprendre les comportements, motivations et pratiques des consommateurs."
+      "explication": "Le qualitatif cherche à comprendre les comportements, motivations et pratiques des consommateurs[span_84](start_span)[span_84](end_span)."
     },
     {
       "id": 85,
@@ -934,7 +934,7 @@
         "Supprimer les différences entre les consommateurs."
       ],
       "reponse_correcte": 0,
-      "explication": "La segmentation consiste à diviser le marché en segments homogènes."
+      "explication": "La segmentation consiste à diviser le marché en segments homogènes[span_85](start_span)[span_85](end_span)."
     },
     {
       "id": 86,
@@ -945,7 +945,7 @@
         "Calculer le coût fixe."
       ],
       "reponse_correcte": 0,
-      "explication": "Le targeting intervient après la segmentation et consiste à choisir les segments visés."
+      "explication": "Le targeting intervient après la segmentation et consiste à choisir les segments visés[span_86](start_span)[span_86](end_span)."
     },
     {
       "id": 87,
@@ -956,7 +956,7 @@
         "Calculer le salaire des commerciaux."
       ],
       "reponse_correcte": 0,
-      "explication": "Le positionnement concerne la place et la différenciation de l'offre dans l'esprit des consommateurs."
+      "explication": "Le positionnement concerne la place et la différenciation de l'offre dans l'esprit des consommateurs[span_87](start_span)[span_87](end_span)."
     },
     {
       "id": 88,
@@ -967,7 +967,7 @@
         "Price, Production, Profit, Partnership."
       ],
       "reponse_correcte": 0,
-      "explication": "Les quatre P sont Product, Price, Place et Promotion."
+      "explication": "Les quatre P sont Product, Price, Place et Promotion[span_88](start_span)[span_88](end_span)."
     },
     {
       "id": 89,
@@ -978,7 +978,7 @@
         "La politique salariale."
       ],
       "reponse_correcte": 0,
-      "explication": "Place concerne la distribution et les canaux permettant de rendre l'offre accessible."
+      "explication": "Place concerne la distribution et les canaux permettant de rendre l'offre accessible[span_89](start_span)[span_89](end_span)."
     },
     {
       "id": 90,
@@ -989,7 +989,7 @@
         "Le marketing opérationnel définit toujours seul la stratégie globale."
       ],
       "reponse_correcte": 0,
-      "explication": "Le stratégique porte sur la conception de l'offre et de la cible ; l'opérationnel accompagne sa commercialisation."
+      "explication": "Le marketing stratégique porte sur la conception de l'offre et de la cible ; l'opérationnel accompagne sa commercialisation[span_90](start_span)[span_90](end_span)."
     },
     {
       "id": 91,
@@ -1000,7 +1000,7 @@
         "Uniquement du prix du produit."
       ],
       "reponse_correcte": 0,
-      "explication": "La value proposition correspond aux bénéfices, problèmes adressés et preuves de valeur perçus par le client."
+      "explication": "La value proposition correspond aux bénéfices, problèmes adressés et preuves de valeur perçus par le client[span_91](start_span)[span_91](end_span)."
     },
     {
       "id": 92,
@@ -1011,7 +1011,7 @@
         "La value proposition est uniquement un slogan."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue la valeur proposée au client de sa traduction communicative sous forme de promesse."
+      "explication": "Le cours distingue la valeur proposée au client de sa traduction communicative sous forme de promesse[span_92](start_span)[span_92](end_span)."
     },
     {
       "id": 93,
@@ -1022,7 +1022,7 @@
         "Elles servent uniquement à réduire les impôts."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours insiste sur la nécessité de garanties ou preuves de qualité pour établir la confiance."
+      "explication": "Le cours insiste sur la nécessité de garanties ou preuves de qualité pour établir la confiance[span_93](start_span)[span_93](end_span)."
     },
     {
       "id": 94,
@@ -1033,7 +1033,7 @@
         "La valeur d'une action en bourse."
       ],
       "reponse_correcte": 0,
-      "explication": "La use value correspond à la satisfaction d'un besoin grâce à l'utilisation."
+      "explication": "La use value correspond à la satisfaction d'un besoin grâce à l'utilisation[span_94](start_span)[span_94](end_span)."
     },
     {
       "id": 95,
@@ -1044,7 +1044,7 @@
         "Le coût de production d'un bien."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue l'esteem value, associée au désir de possession et au statut, de la use value."
+      "explication": "Le cours distingue l'esteem value, associée au désir de possession et au statut, de la use value[span_95](start_span)[span_95](end_span)."
     },
     {
       "id": 96,
@@ -1055,7 +1055,7 @@
         "Remplacer toutes les études qualitatives."
       ],
       "reponse_correcte": 0,
-      "explication": "Les prévisions de ventes servent à fixer des objectifs, planifier les capacités, les recrutements, les budgets et les investissements."
+      "explication": "Les prévisions de ventes servent à fixer des objectifs, planifier les capacités, les recrutements, les budgets et les investissements[span_96](start_span)[span_96](end_span)."
     },
     {
       "id": 97,
@@ -1066,7 +1066,7 @@
         "Mesurer la satisfaction d'un client."
       ],
       "reponse_correcte": 0,
-      "explication": "Une moyenne mobile lisse une série temporelle sur une fenêtre glissante."
+      "explication": "Une moyenne mobile lisse une série temporelle sur une fenêtre glissante[span_97](start_span)[span_97](end_span)."
     },
     {
       "id": 98,
@@ -1077,7 +1077,7 @@
         "BP = variable costs / revenue."
       ],
       "reponse_correcte": 0,
-      "explication": "Le seuil de rentabilité est donné par les coûts fixes divisés par la marge unitaire sur coûts variables."
+      "explication": "Le seuil de rentabilité est donné par les coûts fixes divisés par la marge unitaire sur coûts variables[span_98](start_span)[span_98](end_span)."
     },
     {
       "id": 99,
@@ -1088,7 +1088,7 @@
         "Le niveau où les coûts variables sont nuls."
       ],
       "reponse_correcte": 0,
-      "explication": "Au seuil de rentabilité, les recettes couvrent les coûts totaux et le résultat est nul."
+      "explication": "Au seuil de rentabilité, les recettes couvrent les coûts totaux et le résultat est nul[span_99](start_span)[span_99](end_span)."
     },
     {
       "id": 100,
@@ -1099,7 +1099,7 @@
         "20 000 unités."
       ],
       "reponse_correcte": 0,
-      "explication": "BP = 100 000 / (50 − 30) = 5 000 unités."
+      "explication": "BP = 100 000 / (50 − 30) = 5 000 unités[span_100](start_span)[span_100](end_span)."
     },
     {
       "id": 101,
@@ -1110,7 +1110,7 @@
         "Customer Asset Capital."
       ],
       "reponse_correcte": 0,
-      "explication": "CAC désigne le coût d'acquisition d'un nouveau client."
+      "explication": "CAC désigne le coût d'acquisition d'un nouveau client[span_101](start_span)[span_101](end_span)."
     },
     {
       "id": 102,
@@ -1121,7 +1121,7 @@
         "CAC = Fixed Costs × Customers."
       ],
       "reponse_correcte": 0,
-      "explication": "Le CAC est calculé comme les dépenses marketing divisées par le nombre de nouveaux clients acquis."
+      "explication": "Le CAC est calculé comme les dépenses marketing divisées par le nombre de nouveaux clients acquis[span_102](start_span)[span_102](end_span)."
     },
     {
       "id": 103,
@@ -1132,7 +1132,7 @@
         "10 €."
       ],
       "reponse_correcte": 0,
-      "explication": "CAC = 20 000 / 500 = 40 € par nouveau client."
+      "explication": "CAC = 20 000 / 500 = 40 € par nouveau client[span_103](start_span)[span_103](end_span)."
     },
     {
       "id": 104,
@@ -1143,7 +1143,7 @@
         "Elle consiste à augmenter l'extraction des ressources."
       ],
       "reponse_correcte": 0,
-      "explication": "L'économie circulaire cherche à limiter l'extraction, les déchets et les dommages environnementaux."
+      "explication": "L'économie circulaire cherche à limiter l'extraction, les déchets et les dommages environnementaux[span_104](start_span)[span_104](end_span)."
     },
     {
       "id": 105,
@@ -1154,7 +1154,7 @@
         "Design, finance, vote, distribute."
       ],
       "reponse_correcte": 0,
-      "explication": "Le modèle linéaire suit la logique extraction → fabrication → consommation → rejet."
+      "explication": "Le modèle linéaire suit la logique extraction → fabrication → consommation → rejet[span_105](start_span)[span_105](end_span)."
     },
     {
       "id": 106,
@@ -1165,7 +1165,7 @@
         "Reuse, Recycle, Reduce."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours donne une hiérarchie dans laquelle la réduction intervient avant la réutilisation et le recyclage."
+      "explication": "Le cours donne une hiérarchie dans laquelle la réduction intervient avant la réutilisation et le recyclage[span_106](start_span)[span_106](end_span)."
     },
     {
       "id": 107,
@@ -1176,7 +1176,7 @@
         "Parce que le recyclage augmente systématiquement les déchets."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue l'économie circulaire du simple recyclage et place le recyclage en dernier recours."
+      "explication": "Le cours distingue l'économie circulaire du simple recyclage et place le recyclage en dernier recours[span_107](start_span)[span_107](end_span)."
     },
     {
       "id": 108,
@@ -1187,7 +1187,7 @@
         "Une augmentation des prix entraîne nécessairement une baisse du PIB."
       ],
       "reponse_correcte": 0,
-      "explication": "L'effet rebond peut annuler une partie des gains attendus d'une amélioration d'efficacité."
+      "explication": "L'effet rebond peut annuler une partie des gains attendus d'une amélioration d'efficacité[span_108](start_span)[span_108](end_span)."
     },
     {
       "id": 109,
@@ -1198,7 +1198,7 @@
         "Une augmentation du nombre de produits disponibles."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours indique que seule la modération peut empêcher les effets rebond liés à l'augmentation de la consommation."
+      "explication": "Le cours indique que seule la modération peut empêcher les effets rebond liés à l'augmentation de la consommation[span_109](start_span)[span_109](end_span)."
     },
     {
       "id": 110,
@@ -1209,7 +1209,7 @@
         "La vente de voitures thermiques neuves."
       ],
       "reponse_correcte": 0,
-      "explication": "Loewi se positionne comme spécialiste du reconditionnement de vélos électriques."
+      "explication": "Loewi se positionne comme spécialiste du reconditionnement de vélos électriques[span_110](start_span)[span_110](end_span)."
     },
     {
       "id": 111,
@@ -1220,7 +1220,7 @@
         "La déforestation tropicale uniquement."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cas présente le reconditionnement comme un moyen de lutter contre les déchets électroniques et de favoriser une économie plus circulaire."
+      "explication": "Le cas présente le reconditionnement comme un moyen de lutter contre les déchets électroniques et de favoriser une économie plus circulaire[span_111](start_span)[span_111](end_span)."
     },
     {
       "id": 112,
@@ -1231,7 +1231,7 @@
         "Il supprime toute nécessité de maintenance."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cas associe accessibilité économique, expertise technique et prolongation de la durée de vie."
+      "explication": "Le cas associe accessibilité économique, expertise technique et prolongation de la durée de vie[span_112](start_span)[span_112](end_span)."
     },
     {
       "id": 113,
@@ -1242,7 +1242,7 @@
         "Une activité sans aucun lien avec le marché de seconde main."
       ],
       "reponse_correcte": 0,
-      "explication": "Upway développe une plateforme et une activité de revente/reconditionnement à une échelle européenne."
+      "explication": "Upway développe une plateforme et une activité de revente/reconditionnement à une échelle européenne[span_113](start_span)[span_113](end_span)."
     },
     {
       "id": 114,
@@ -1253,7 +1253,7 @@
         "Ignorer le nouveau concurrent."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cas demande explicitement d'utiliser une analyse SWOT pour répondre à l'arrivée d'Upway."
+      "explication": "Le cas demande explicitement d'utiliser une analyse SWOT pour répondre à l'arrivée d'Upway[span_114](start_span)[span_114](end_span)."
     },
     {
       "id": 115,
@@ -1264,7 +1264,7 @@
         "Uniquement une chaîne logistique."
       ],
       "reponse_correcte": 0,
-      "explication": "La value chain englobe les activités qui contribuent directement ou indirectement à la création de l'offre."
+      "explication": "La value chain englobe les activités qui contribuent directement ou indirectement à la création de l'offre[span_115](start_span)[span_115](end_span)."
     },
     {
       "id": 116,
@@ -1275,7 +1275,7 @@
         "Les core activities sont toujours externalisées."
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue activités opérationnelles principales et fonctions support."
+      "explication": "Le cours distingue activités opérationnelles principales et fonctions support[span_116](start_span)[span_116](end_span)."
     },
     {
       "id": 117,
@@ -1286,7 +1286,7 @@
         "Le recrutement uniquement."
       ],
       "reponse_correcte": 0,
-      "explication": "Production fait partie des core/operational activities typiques."
+      "explication": "Production fait partie des core/operational activities typiques[span_117](start_span)[span_117](end_span)."
     },
     {
       "id": 118,
@@ -1297,7 +1297,7 @@
         "La vente au client final."
       ],
       "reponse_correcte": 0,
-      "explication": "HRM est présentée comme une fonction support."
+      "explication": "HRM est présentée comme une fonction support[span_118](start_span)[span_118](end_span)."
     },
     {
       "id": 119,
@@ -1308,7 +1308,7 @@
         "Pour perdre volontairement son savoir-faire."
       ],
       "reponse_correcte": 0,
-      "explication": "L'intégration favorise expertise, contrôle, pouvoir de marché et parfois économies d'échelle."
+      "explication": "L'intégration favorise expertise, contrôle, pouvoir de marché et parfois économies d'échelle[span_119](start_span)[span_119](end_span)."
     },
     {
       "id": 120,
@@ -1319,7 +1319,7 @@
         "La suppression automatique des barrières à l'entrée."
       ],
       "reponse_correcte": 0,
-      "explication": "L'intégration augmente notamment les coûts fixes, la complexité et peut créer des barrières à la sortie."
+      "explication": "L'intégration augmente notamment les coûts fixes, la complexité et peut créer des barrières à la sortie[span_120](start_span)[span_120](end_span)."
     }
   ]
 }

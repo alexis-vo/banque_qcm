@@ -1,5 +1,5 @@
 {
-  "titre_chapitre": "1SL2000 - Gestion & Transformation des Entreprises - QCM complet de révision",
+  "titre_chapitre": "Gestion & Transformation des Entreprises",
   "questions": [
     {
       "id": 1,
@@ -10,7 +10,7 @@
         "Toute structure employant plus de 10 salariés et générant un chiffre d'affaires"
       ],
       "reponse_correcte": 0,
-      "explication": "C'est la définition exacte donnée par l'INSEE dans le cours : une unité économique, juridiquement autonome, dont la fonction principale est de produire des biens ou des services pour le marché."
+      "explication": "C'est la définition exacte donnée par l'INSEE dans le cours : une unité économique, juridiquement autonome, dont la fonction principale est de produire des biens ou des services pour le marché[span_1](start_span)[span_1](end_span)."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "Profit, Objectifs, Performance"
       ],
       "reponse_correcte": 0,
-      "explication": "La gestion regroupe les fonctions de Planification (anticiper/orienter), d'Organisation (répartir/coordonner) et de Pilotage (animer/mesurer) des activités menées : c'est POP."
+      "explication": "La gestion regroupe les fonctions de Planification (anticiper/orienter), d'Organisation (répartir/coordonner) et de Pilotage (animer/mesurer) des activités menées : c'est POP[span_2](start_span)[span_2](end_span)."
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
         "SWOT : Strengths, Weaknesses, Opportunities, Threats"
       ],
       "reponse_correcte": 0,
-      "explication": "La gestion a d'abord été définie par l'acronyme POCCC (Fayol) : Prévoir, Organiser, Commander, Coordonner, Contrôler."
+      "explication": "La gestion a d'abord été définie par l'acronyme POCCC (Fayol) : Prévoir, Organiser, Commander, Coordonner, Contrôler[span_3](start_span)[span_3](end_span)."
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
         "4 (financier, humain, technique, juridique)"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue souvent 3 types de capital (économique, environnemental, sociétal) ou 5 types (manufacturé, financier, humain, social, naturel)."
+      "explication": "Le cours distingue souvent 3 types de capital (économique, environnemental, sociétal) ou 5 types (manufacturé, financier, humain, social, naturel)[span_4](start_span)[span_4](end_span)."
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
         "Uniquement le capital naturel et le capital social"
       ],
       "reponse_correcte": 0,
-      "explication": "La comptabilité ne trace que le capital économique (capital financier = passif ; capital manufacturé = actifs) et a été inventée pour préserver le capital financier."
+      "explication": "La comptabilité ne trace que le capital économique (capital financier = passif ; capital manufacturé = actifs) et a été inventée pour préserver le capital financier[span_5](start_span)[span_5](end_span)."
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
         "Une garantie de l'État contre la faillite"
       ],
       "reponse_correcte": 0,
-      "explication": "Les sociétés de capitaux sont soumises à un régime fiscal plus favorable, offrent une responsabilité limitée à leurs associés (pertes limitées aux apports) et permettent un transfert de propriété facilité."
+      "explication": "Les sociétés de capitaux sont soumises à un régime fiscal plus favorable, offrent une responsabilité limitée à leurs associés (pertes limitées aux apports) et permettent un transfert de propriété facilité[span_6](start_span)[span_6](end_span)."
     },
     {
       "id": 7,
@@ -76,7 +76,7 @@
         "Un droit de véto sur toutes les décisions opérationnelles"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours insiste : « Les actionnaires ne possèdent pas l'entreprise mais les parts de la société ! »"
+      "explication": "Le cours insiste : « Les actionnaires ne possèdent pas l'entreprise mais les parts de la société ! »[span_7](start_span)[span_7](end_span)"
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
         "La création de l'ANSSI"
       ],
       "reponse_correcte": 0,
-      "explication": "La loi PACTE (2019) définit la qualité de « société à mission », attribuée aux sociétés qui intègrent des objectifs sociaux et/ou environnementaux dans leurs statuts."
+      "explication": "La loi PACTE (2019) définit la qualité de « société à mission », attribuée aux sociétés qui intègrent des objectifs sociaux et/ou environnementaux dans leurs statuts[span_8](start_span)[span_8](end_span)."
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
         "Un simple outil de communication publicitaire sans effet sur la stratégie"
       ],
       "reponse_correcte": 0,
-      "explication": "La RSE désigne la prise en compte par l'entreprise, sur base volontaire, des enjeux environnementaux, sociaux et éthiques dans ses activités."
+      "explication": "La RSE désigne la prise en compte par l'entreprise, sur base volontaire, des enjeux environnementaux, sociaux et éthiques dans ses activités[span_9](start_span)[span_9](end_span)."
     },
     {
       "id": 10,
@@ -109,7 +109,7 @@
         "La maximisation du chiffre d'affaires et la minimisation des salaires"
       ],
       "reponse_correcte": 0,
-      "explication": "Kapp analyse que l'entreprise privée fait assumer les coûts sociétaux à la collectivité tout en privatisant les profits : c'est la double logique de privatisation des profits et de mutualisation des coûts."
+      "explication": "Kapp analyse que l'entreprise privée fait assumer les coûts sociétaux à la collectivité tout en privatisant les profits : c'est la double logique de privatisation des profits et de mutualisation des coûts[span_10](start_span)[span_10](end_span)."
     },
     {
       "id": 11,
@@ -120,7 +120,7 @@
         "Urbanisation, natalité, éducation"
       ],
       "reponse_correcte": 0,
-      "explication": "Le second amphi détaille les moteurs de la croissance économique : industrialisation, mondialisation et financiarisation."
+      "explication": "Le second amphi détaille les moteurs de la croissance économique : industrialisation, mondialisation et financiarisation[span_11](start_span)[span_11](end_span)."
     },
     {
       "id": 12,
@@ -131,7 +131,7 @@
         "Karl Kapp, pour désigner l'augmentation des coûts sociaux"
       ],
       "reponse_correcte": 0,
-      "explication": "En 2005, les climatologues Will Steffen, Paul Crutzen et l'historien John McNeill ont proposé le terme de « Grande Accélération »."
+      "explication": "En 2005, les climatologues Will Steffen, Paul Crutzen et l'historien John McNeill ont proposé le terme de « Grande Accélération »[span_12](start_span)[span_12](end_span)."
     },
     {
       "id": 13,
@@ -142,7 +142,7 @@
         "Moins de 50%"
       ],
       "reponse_correcte": 0,
-      "explication": "Plus de 80% de l'énergie primaire consommée dans le monde est d'origine fossile, ce qui conduit à l'augmentation du CO2 atmosphérique."
+      "explication": "Plus de 80% de l'énergie primaire consommée dans le monde est d'origine fossile, ce qui conduit à l'augmentation du CO2 atmosphérique[span_13](start_span)[span_13](end_span)."
     },
     {
       "id": 14,
@@ -153,7 +153,7 @@
         "Les énergies fossiles ont diminué de 50% depuis 1950"
       ],
       "reponse_correcte": 0,
-      "explication": "Si de nouvelles énergies sont apparues, il n'y a jamais eu de transition d'une énergie à une autre, mais plutôt des additions des différentes énergies, toutes en croissance."
+      "explication": "Si de nouvelles énergies sont apparues, il n'y a jamais eu de transition d'une énergie à une autre, mais plutôt des additions des différentes énergies, toutes en croissance[span_14](start_span)[span_14](end_span)."
     },
     {
       "id": 15,
@@ -164,7 +164,7 @@
         "Un revenu supplémentaire généré par une activité annexe de l'entreprise"
       ],
       "reponse_correcte": 0,
-      "explication": "Les économistes appellent « externalités » ces effets externes, définis comme des transferts de valeur sans compensation monétaire, liés aux modes de production ou de consommation."
+      "explication": "Les économistes appellent « externalités » ces effets externes, définis comme des transferts de valeur sans compensation monétaire, liés aux modes de production ou de consommation[span_15](start_span)[span_15](end_span)."
     },
     {
       "id": 16,
@@ -175,7 +175,7 @@
         "Le retour à la croissance après une récession économique"
       ],
       "reponse_correcte": 0,
-      "explication": "L'effet rebond, ou paradoxe de Jevons, constate que lorsque des améliorations technologiques augmentent l'efficacité avec laquelle une ressource est employée, la consommation globale de cette ressource augmente."
+      "explication": "L'effet rebond, ou paradoxe de Jevons, constate que lorsque des améliorations technologiques augmentent l'efficacité avec laquelle une ressource est employée, la consommation globale de cette ressource augmente[span_16](start_span)[span_16](end_span)."
     },
     {
       "id": 17,
@@ -186,7 +186,7 @@
         "L'Éocène industriel"
       ],
       "reponse_correcte": 0,
-      "explication": "L'activité humaine a atteint un tel degré de développement qu'elle fait entrer la Terre dans une nouvelle ère géologique, l'Anthropocène, marquant la fin de l'Holocène après 12 000 ans."
+      "explication": "L'activité humaine a atteint un tel degré de développement qu'elle fait entrer la Terre dans une nouvelle ère géologique, l'Anthropocène, marquant la fin de l'Holocène après 12 000 ans[span_17](start_span)[span_17](end_span)."
     },
     {
       "id": 18,
@@ -197,7 +197,7 @@
         "Le modèle RAP"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cadre d'analyse des « Limites planétaires » proposé par le Stockholm Resilience Center s'est progressivement imposé comme cadre de référence pour décrire ces enjeux."
+      "explication": "Le cadre d'analyse des « Limites planétaires » proposé par le Stockholm Resilience Center s'est progressivement imposé comme cadre de référence pour décrire ces enjeux[span_18](start_span)[span_18](end_span)."
     },
     {
       "id": 19,
@@ -208,7 +208,7 @@
         "Plus de 5000 salariés"
       ],
       "reponse_correcte": 0,
-      "explication": "Une Entreprise de Taille Intermédiaire (ETI) compte plus de 250 salariés ; les grandes entreprises comptent plus de 5000 salariés, les PME moins de 250 et les microentreprises moins de 10."
+      "explication": "Une Entreprise de Taille Intermédiaire (ETI) compte plus de 250 salariés ; les grandes entreprises comptent plus de 5000 salariés, les PME moins de 250 et les microentreprises moins de 10[span_19](start_span)[span_19](end_span)."
     },
     {
       "id": 20,
@@ -219,7 +219,7 @@
         "Effectif salarié multiplié par le salaire moyen"
       ],
       "reponse_correcte": 0,
-      "explication": "La valeur ajoutée exprime la richesse créée au cours d'une année d'activité ; elle se calcule par la différence entre le chiffre d'affaires et les achats et charges liées à l'exploitation."
+      "explication": "La valeur ajoutée exprime la richesse créée au cours d'une année d'activité ; elle se calcule par la différence entre le chiffre d'affaires et les achats et charges liées à l'exploitation[span_20](start_span)[span_20](end_span)."
     },
     {
       "id": 21,
@@ -230,7 +230,7 @@
         "Ce sont deux noms différents pour le même document comptable"
       ],
       "reponse_correcte": 0,
-      "explication": "Le compte de résultat synthétise les charges et produits rattachés à une période (l'exercice), tandis que le bilan présente le stock des ressources accumulées par l'entreprise et les moyens de financement associés."
+      "explication": "Le compte de résultat synthétise les charges et produits rattachés à une période (l'exercice), tandis que le bilan présente le stock des ressources accumulées par l'entreprise et les moyens de financement associés[span_21](start_span)[span_21](end_span)."
     },
     {
       "id": 22,
@@ -241,7 +241,7 @@
         "La trésorerie disponible en banque"
       ],
       "reponse_correcte": 0,
-      "explication": "Les créances clients enregistrent le décalage entre la date de création de la facture de vente et la date d'encaissement effectif du paiement par le client."
+      "explication": "Les créances clients enregistrent le décalage entre la date de création de la facture de vente et la date d'encaissement effectif du paiement par le client[span_22](start_span)[span_22](end_span)."
     },
     {
       "id": 23,
@@ -252,7 +252,7 @@
         "Il n'existe pas de différence, ce sont des synonymes"
       ],
       "reponse_correcte": 0,
-      "explication": "Gérer opérationnellement, c'est rechercher l'efficience dans l'usage des ressources (traduit dans le compte de résultat) ; gérer stratégiquement, c'est constituer le potentiel de l'entreprise (traduit dans le bilan)."
+      "explication": "Gérer opérationnellement, c'est rechercher l'efficience dans l'usage des ressources (traduit dans le compte de résultat) ; gérer stratégiquement, c'est constituer le potentiel de l'entreprise (traduit dans le bilan)[span_23](start_span)[span_23](end_span)."
     },
     {
       "id": 24,
@@ -263,7 +263,7 @@
         "Le manager de production, le manager commercial, le manager financier"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours distingue le manager local (animation opérationnelle d'équipe), le manager intermédiaire (relais stratégie/reporting) et les managers généraux ou dirigeants (politique générale)."
+      "explication": "Le cours distingue le manager local (animation opérationnelle d'équipe), le manager intermédiaire (relais stratégie/reporting) et les managers généraux ou dirigeants (politique générale)[span_24](start_span)[span_24](end_span)."
     },
     {
       "id": 25,
@@ -274,7 +274,7 @@
         "Une clause de non-concurrence obligatoire"
       ],
       "reponse_correcte": 0,
-      "explication": "Au-delà du contrat de travail, il existe un « contrat psychologique » largement implicite sur les contributions attendues des individus et les rétributions attendues en retour."
+      "explication": "Au-delà du contrat de travail, il existe un « contrat psychologique » largement implicite sur les contributions attendues des individus et les rétributions attendues en retour[span_25](start_span)[span_25](end_span)."
     },
     {
       "id": 26,
@@ -285,7 +285,7 @@
         "Stratégie, Winning, Opérations, Talent"
       ],
       "reponse_correcte": 0,
-      "explication": "SWOT signifie Strengths (forces), Weaknesses (faiblesses), Opportunities (opportunités), Threats (menaces)."
+      "explication": "SWOT signifie Strengths (forces), Weaknesses (faiblesses), Opportunities (opportunités), Threats (menaces)[span_26](start_span)[span_26](end_span)."
     },
     {
       "id": 27,
@@ -296,7 +296,7 @@
         "Un indicateur validé par un audit externe indépendant"
       ],
       "reponse_correcte": 0,
-      "explication": "Les indicateurs « pastèques » affichent le vert en façade alors qu'ils masquent une réalité bien rouge, car les indicateurs orientent les comportements et peuvent conduire à « jouer l'indicateur »."
+      "explication": "Les indicateurs « pastèques » affichent le vert en façade alors qu'ils masquent une réalité bien rouge, car les indicateurs orientent les comportements et peuvent conduire à « jouer l'indicateur »[span_27](start_span)[span_27](end_span)."
     },
     {
       "id": 28,
@@ -307,7 +307,7 @@
         "Une disparition complète des managers intermédiaires"
       ],
       "reponse_correcte": 0,
-      "explication": "Dujarier identifie le risque de « planneurs » qui élaborent des plans abstraits loin du terrain, instaurant un management désincarné jugé maladroit, voire inhumain, par les salariés opérationnels."
+      "explication": "Dujarier identifie le risque de « planneurs » qui élaborent des plans abstraits loin du terrain, instaurant un management désincarné jugé maladroit, voire inhumain, par les salariés opérationnels[span_28](start_span)[span_28](end_span)."
     },
     {
       "id": 29,
@@ -318,7 +318,7 @@
         "La part de marché visée à horizon 5 ans"
       ],
       "reponse_correcte": 0,
-      "explication": "L'entreprise développe une Proposition de Valeur (problèmes traités / bénéfices apportés / preuves de valeur) que la communication traduit en une Promesse (slogan/style)."
+      "explication": "L'entreprise développe une Proposition de Valeur (problèmes traités / bénéfices apportés / preuves de valeur) que la communication traduit en une Promesse (slogan/style)[span_29](start_span)[span_29](end_span)."
     },
     {
       "id": 30,
@@ -329,7 +329,7 @@
         "Le commercial définit la stratégie de prix, le marketing gère la logistique"
       ],
       "reponse_correcte": 0,
-      "explication": "Le marketing n'est pas le commercial : le commercial est en charge de l'acte de vente et de la relation avec les clients, tandis que le marketing facilite et accompagne la vente."
+      "explication": "Le marketing n'est pas le commercial : le commercial est en charge de l'acte de vente et de la relation avec les clients, tandis que le marketing facilite et accompagne la vente[span_30](start_span)[span_30](end_span)."
     },
     {
       "id": 31,
@@ -340,7 +340,7 @@
         "Prévision, Pilotage, Prospection, Profit"
       ],
       "reponse_correcte": 0,
-      "explication": "Le Marketing Mix vise la cohérence entre les 4P : Produit, Prix, ainsi que Place/Position (canaux et points de vente) et Promotion (communication)."
+      "explication": "Le Marketing Mix vise la cohérence entre les 4P : Produit, Prix, ainsi que Place/Position (canaux et points de vente) et Promotion (communication)[span_31](start_span)[span_31](end_span)."
     },
     {
       "id": 32,
@@ -351,7 +351,7 @@
         "Repair, Rebuild, Resell"
       ],
       "reponse_correcte": 0,
-      "explication": "La logique des 3R est : d'abord réduire, ensuite réutiliser, enfin recycler (Reduce, Reuse, Recycle), le recyclage ne devant venir qu'en dernier recours."
+      "explication": "La logique des 3R est : d'abord réduire, ensuite réutiliser, enfin recycler (Reduce, Reuse, Recycle), le recyclage ne devant venir qu'en dernier recours[span_32](start_span)[span_32](end_span)."
     },
     {
       "id": 33,
@@ -362,7 +362,7 @@
         "Environ 500 euros"
       ],
       "reponse_correcte": 0,
-      "explication": "Il est estimé que les ressources récupérables dans un smartphone valent environ 1 €, ce qui illustre les limites économiques du recyclage."
+      "explication": "Il est estimé que les ressources récupérables dans un smartphone valent environ 1 €, ce qui illustre les limites économiques du recyclage[span_33](start_span)[span_33](end_span)."
     },
     {
       "id": 34,
@@ -373,7 +373,7 @@
         "Marges brutes x nombre de clients"
       ],
       "reponse_correcte": 0,
-      "explication": "Le point mort se calcule ainsi : PM = charges fixes / (prix de vente unitaire – charges variables unitaires). C'est le niveau d'activité où le résultat est nul."
+      "explication": "Le point mort se calcule ainsi : PM = charges fixes / (prix de vente unitaire – charges variables unitaires). C'est le niveau d'activité où le résultat est nul[span_34](start_span)[span_34](end_span)."
     },
     {
       "id": 35,
@@ -384,7 +384,7 @@
         "Marge nette / nombre de commerciaux"
       ],
       "reponse_correcte": 0,
-      "explication": "CAC = Dépenses Marketing / Nouveaux Clients acquis. Le cours rappelle qu'il coûte souvent moins cher de fidéliser un client que d'en acquérir un nouveau."
+      "explication": "CAC = Dépenses Marketing / Nouveaux Clients acquis. Le cours rappelle qu'il coûte souvent moins cher de fidéliser un client que d'en acquérir un nouveau[span_35](start_span)[span_35](end_span)."
     },
     {
       "id": 36,
@@ -395,7 +395,7 @@
         "L'externalisation est interdite pour les activités stratégiques"
       ],
       "reponse_correcte": 0,
-      "explication": "L'intégration permet le développement de compétences mais augmente les charges fixes ; l'externalisation permet de variabiliser les charges au risque de dépendance et de perte de contrôle."
+      "explication": "L'intégration permet le développement de compétences mais augmente les charges fixes ; l'externalisation permet de variabiliser les charges au risque de dépendance et de perte de contrôle[span_36](start_span)[span_36](end_span)."
     },
     {
       "id": 37,
@@ -406,7 +406,7 @@
         "La supply chain concerne uniquement les entreprises publiques"
       ],
       "reponse_correcte": 0,
-      "explication": "La supply chain correspond aux flux d'informations, de produits, de matériels et financiers, tandis que la chaîne de valeur (value chain) analyse les acteurs, transactions et la valeur créée, captée ou perdue."
+      "explication": "La supply chain correspond aux flux d'informations, de produits, de matériels et financiers, tandis que la chaîne de valeur (value chain) analyse les acteurs, transactions et la valeur créée, captée ou perdue[span_37](start_span)[span_37](end_span)."
     },
     {
       "id": 38,
@@ -417,7 +417,7 @@
         "Car les lois environnementales sont identiques partout dans le monde"
       ],
       "reponse_correcte": 0,
-      "explication": "La « prime au vice » désigne le fait que plus une entreprise pollue et produit dans des pays aux lois permissives, moins sa production coûte cher et plus elle est compétitive : il existe un avantage économique à produire de manière irresponsable."
+      "explication": "La « prime au vice » désigne le fait que plus une entreprise pollue et produit dans des pays aux lois permissives, moins sa production coûte cher et plus elle est compétitive : il existe un avantage économique à produire de manière irresponsable[span_38](start_span)[span_38](end_span)."
     },
     {
       "id": 39,
@@ -428,7 +428,7 @@
         "Une obligation de vérifier l'identité des actionnaires étrangers"
       ],
       "reponse_correcte": 0,
-      "explication": "La loi sur le devoir de vigilance (n°2017-399) impose trois obligations préventives : établir un plan de vigilance, le publier, et le mettre en œuvre, suite notamment à la catastrophe du Rana Plaza."
+      "explication": "La loi sur le devoir de vigilance (n°2017-399) impose trois obligations préventives : établir un plan de vigilance, le publier, et le mettre en œuvre, suite notamment à la catastrophe du Rana Plaza[span_39](start_span)[span_39](end_span)."
     },
     {
       "id": 40,
@@ -439,7 +439,7 @@
         "Le scandale Enron"
       ],
       "reponse_correcte": 0,
-      "explication": "La loi sur le devoir de vigilance est intervenue en réaction à l'effondrement du Rana Plaza au Bangladesh en avril 2013, qui a causé la mort de plus de 1100 ouvriers."
+      "explication": "La loi sur le devoir de vigilance est intervenue en réaction à l'effondrement du Rana Plaza au Bangladesh en avril 2013, qui a causé la mort de plus de 1100 ouvriers[span_40](start_span)[span_40](end_span)."
     },
     {
       "id": 41,
@@ -450,7 +450,7 @@
         "Le coût de formation des nouveaux salariés"
       ],
       "reponse_correcte": 0,
-      "explication": "Selon Kapp, les coûts sociétaux correspondent à l'ensemble des pertes et dépenses, directes et indirectes, présentes et futures, supportées par des tiers ou la collectivité du fait des impacts de la production, et qui auraient pu être évitées."
+      "explication": "Selon Kapp, les coûts sociétaux correspondent à l'ensemble des pertes et dépenses, directes et indirectes, présentes et futures, supportées par des tiers ou la collectivité du fait des impacts de la production, et qui auraient pu être évitées[span_41](start_span)[span_41](end_span)."
     },
     {
       "id": 42,
@@ -461,7 +461,7 @@
         "Le montant des matières premières consommées chaque année"
       ],
       "reponse_correcte": 0,
-      "explication": "La matérialité définit en comptabilité ce qui peut avoir un impact significatif sur les activités d'une organisation et sur sa capacité à créer de la valeur."
+      "explication": "La matérialité définit en comptabilité ce qui peut avoir un impact significatif sur les activités d'une organisation et sur sa capacité à créer de la valeur[span_42](start_span)[span_42](end_span)."
     },
     {
       "id": 43,
@@ -472,7 +472,7 @@
         "Les risques de transition ne concernent que les entreprises publiques"
       ],
       "reponse_correcte": 0,
-      "explication": "Le risque climat comprend des risques physiques (dommages, baisse de productivité, perturbation des chaînes d'approvisionnement) et des risques de transition (pertes financières liées aux politiques climatiques défavorables à certains secteurs)."
+      "explication": "Le risque climat comprend des risques physiques (dommages, baisse de productivité, perturbation des chaînes d'approvisionnement) et des risques de transition (pertes financières liées aux politiques climatiques défavorables à certains secteurs)[span_43](start_span)[span_43](end_span)."
     },
     {
       "id": 44,
@@ -483,7 +483,7 @@
         "L'obligation de produire deux rapports financiers distincts chaque année"
       ],
       "reponse_correcte": 0,
-      "explication": "La double matérialité (CSRD) prend en compte à la fois la matérialité financière (impacts du climat sur l'entreprise) et la matérialité d'impact (impacts de l'entreprise sur des enjeux ESG)."
+      "explication": "La double matérialité (CSRD) prend en compte à la fois la matérialité financière (impacts du climat sur l'entreprise) et la matérialité d'impact (impacts de l'entreprise sur des enjeux ESG)[span_44](start_span)[span_44](end_span)."
     },
     {
       "id": 45,
@@ -494,7 +494,7 @@
         "Interdire totalement les énergies fossiles dès 2030"
       ],
       "reponse_correcte": 0,
-      "explication": "La SNBC vise à atteindre la neutralité carbone à l'horizon 2050 et une division par six des émissions nationales entre 1990 et 2050 (ainsi qu'une réduction de 40% entre 1990 et 2030)."
+      "explication": "La SNBC vise à atteindre la neutralité carbone à l'horizon 2050 et une division par six des émissions nationales entre 1990 et 2050 (ainsi qu'une réduction de 40% entre 1990 et 2030)[span_45](start_span)[span_45](end_span)."
     },
     {
       "id": 46,
@@ -505,7 +505,7 @@
         "Un objectif purement volontaire sans référence internationale"
       ],
       "reponse_correcte": 0,
-      "explication": "La neutralité carbone désigne l'équilibre entre émissions et absorptions de CO2 anthropiques à l'échelle mondiale ; elle ne s'applique pas à une organisation individuelle, qui ne peut que contribuer à cette trajectoire."
+      "explication": "La neutralité carbone désigne l'équilibre entre émissions et absorptions de CO2 anthropiques à l'échelle mondiale ; elle ne s'applique pas à une organisation individuelle, qui ne peut que contribuer à cette trajectoire[span_46](start_span)[span_46](end_span)."
     },
     {
       "id": 47,
@@ -516,7 +516,7 @@
         "L'automatisation complète des usines et la suppression des syndicats"
       ],
       "reponse_correcte": 0,
-      "explication": "Deux autres leviers de décarbonation sont identifiés : l'amélioration de l'efficacité énergétique et la sobriété. Seule la sobriété permet d'éviter les effets rebond liés à l'efficacité."
+      "explication": "Deux autres leviers de décarbonation sont identifiés : l'amélioration de l'efficacité énergétique et la sobriété. Seule la sobriété permet d'éviter les effets rebond liés à l'efficacité[span_47](start_span)[span_47](end_span)."
     },
     {
       "id": 48,
@@ -527,7 +527,7 @@
         "Le montant des subventions publiques reçues"
       ],
       "reponse_correcte": 0,
-      "explication": "La structure de coûts distingue les modèles cost-driven (focalisés sur la minimisation des coûts) et value-driven (moins concernés par le coût, focalisés sur la création de valeur)."
+      "explication": "La structure de coûts distingue les modèles cost-driven (focalisés sur la minimisation des coûts) et value-driven (moins concernés par le coût, focalisés sur la création de valeur)[span_48](start_span)[span_48](end_span)."
     },
     {
       "id": 49,
@@ -538,7 +538,7 @@
         "Un agent immobilier facturant une commission"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours donne l'exemple d'UPS pour illustrer le revenu par « usage fee » (argent généré par l'utilisation d'un service particulier), à distinguer de l'abonnement (Netflix) ou du courtage (agent immobilier)."
+      "explication": "Le cours donne l'exemple d'UPS pour illustrer le revenu par « usage fee » (argent généré par l'utilisation d'un service particulier), à distinguer de l'abonnement (Netflix) ou du courtage (agent immobilier)[span_49](start_span)[span_49](end_span)."
     },
     {
       "id": 50,
@@ -549,7 +549,7 @@
         "Redistribuer l'intégralité de ses bénéfices aux salariés"
       ],
       "reponse_correcte": 0,
-      "explication": "Friedman affirme que l'entreprise a une seule responsabilité sociale : utiliser ses ressources et s'engager dans des activités visant à accroître ses profits, à condition de respecter les règles du jeu."
+      "explication": "Friedman affirme que l'entreprise a une seule responsabilité sociale : utiliser ses ressources et s'engager dans des activités visant à accroître ses profits, à condition de respecter les règles du jeu[span_50](start_span)[span_50](end_span)."
     },
     {
       "id": 51,
@@ -560,7 +560,7 @@
         "Elle repose sur le principe « un euro investi, une voix »"
       ],
       "reponse_correcte": 0,
-      "explication": "Pour être qualifiée d'ESS, une entreprise doit poursuivre un but d'utilité sociale autre que le partage des bénéfices et avoir une gouvernance démocratique (« un homme, une voix »)."
+      "explication": "Pour être qualifiée d'ESS, une entreprise doit poursuivre un but d'utilité sociale autre que le partage des bénéfices et avoir une gouvernance démocratique (« un homme, une voix »)[span_51](start_span)[span_51](end_span)."
     },
     {
       "id": 52,
@@ -571,7 +571,7 @@
         "À verser un salaire minimum identique dans tous les pays"
       ],
       "reponse_correcte": 0,
-      "explication": "Dans le commerce équitable, l'acheteur s'engage à payer un prix juste couvrant les coûts de production et d'exploitation (y compris environnementaux) et à garantir une relation commerciale durable."
+      "explication": "Dans le commerce équitable, l'acheteur s'engage à payer un prix juste couvrant les coûts de production et d'exploitation (y compris environnementaux) et à garantir une relation commerciale durable[span_52](start_span)[span_52](end_span)."
     },
     {
       "id": 53,
@@ -582,7 +582,7 @@
         "Modifier le prix, changer le nom, revendre et sous-traiter le programme"
       ],
       "reponse_correcte": 0,
-      "explication": "Les quatre libertés du logiciel libre sont : la liberté d'exécuter le programme (liberté 0), de l'étudier (liberté 1), de redistribuer des copies (liberté 2), et de l'améliorer et publier ses améliorations (liberté 3)."
+      "explication": "Les quatre libertés du logiciel libre sont : la liberté d'exécuter le programme (liberté 0), de l'étudier (liberté 1), de redistribuer des copies (liberté 2), et de l'améliorer et publier ses améliorations (liberté 3)[span_53](start_span)[span_53](end_span)."
     },
     {
       "id": 54,
@@ -593,7 +593,7 @@
         "Une entreprise publique financée uniquement par l'État"
       ],
       "reponse_correcte": 0,
-      "explication": "Une entreprise régénérative est celle dont les activités contribuent à la régénération de l'environnement et à l'amélioration de la qualité de vie des citoyens, tout en restant économiquement viable — au-delà de la simple réduction d'impact."
+      "explication": "Une entreprise régénérative est celle dont les activités contribuent à la régénération de l'environnement et à l'amélioration de la qualité de vie des citoyens, tout en restant économiquement viable — au-delà de la simple réduction d'impact[span_54](start_span)[span_54](end_span)."
     },
     {
       "id": 55,
@@ -604,7 +604,7 @@
         "Une politique fiscale favorisant les exportations de produits manufacturés"
       ],
       "reponse_correcte": 0,
-      "explication": "L'extractivisme désigne un mode d'accumulation de richesses reposant sur des activités qui extraient de grandes quantités de ressources naturelles peu ou pas transformées, principalement destinées à l'export."
+      "explication": "L'extractivisme désigne un mode d'accumulation de richesses reposant sur des activités qui extraient de grandes quantités de ressources naturelles peu ou pas transformées, principalement destinées à l'export[span_55](start_span)[span_55](end_span)."
     },
     {
       "id": 56,
@@ -615,7 +615,7 @@
         "Une taxe internationale prélevée sur l'exportation de matières premières"
       ],
       "reponse_correcte": 0,
-      "explication": "La malédiction des ressources désigne le fait que l'exploitation de ressources naturelles abondantes ne se traduit pas nécessairement par une amélioration du bien-être des populations locales."
+      "explication": "La malédiction des ressources désigne le fait que l'exploitation de ressources naturelles abondantes ne se traduit pas nécessairement par une amélioration du bien-être des populations locales[span_56](start_span)[span_56](end_span)."
     },
     {
       "id": 57,
@@ -626,7 +626,7 @@
         "Parce qu'elles nécessitent une maintenance humaine constante"
       ],
       "reponse_correcte": 0,
-      "explication": "José Halloy explique que les technologies modernes reposent sur une chimie différente du vivant, se déployant linéairement de l'extraction minière à la décharge ; par construction, elles ne sont pas soutenables sur la longue durée : ce sont des « technologies zombies »."
+      "explication": "José Halloy explique que les technologies modernes reposent sur une chimie différente du vivant, se déployant linéairement de l'extraction minière à la décharge ; par construction, elles ne sont pas soutenables sur la longue durée : ce sont des « technologies zombies »[span_57](start_span)[span_57](end_span)."
     },
     {
       "id": 58,
@@ -637,7 +637,7 @@
         "La durabilité faible interdit toute activité industrielle"
       ],
       "reponse_correcte": 0,
-      "explication": "La durabilité faible (Solow) considère que la destruction du capital naturel peut être compensée par la création de capital reproductible/technologique ; la durabilité forte affirme qu'une grande part du capital naturel n'est pas technologiquement substituable."
+      "explication": "La durabilité faible (Solow) considère que la destruction du capital naturel peut être compensée par la création de capital reproductible/technologique ; la durabilité forte affirme qu'une grande part du capital naturel n'est pas technologiquement substituable[span_58](start_span)[span_58](end_span)."
     },
     {
       "id": 59,
@@ -648,7 +648,7 @@
         "Un simple hébergeur de données sans traitement algorithmique"
       ],
       "reponse_correcte": 0,
-      "explication": "La loi définit une plateforme comme toute personne proposant un service de communication au public en ligne reposant sur le classement/référencement algorithmique de contenus, ou la mise en relation de parties pour une transaction."
+      "explication": "La loi définit une plateforme comme toute personne proposant un service de communication au public en ligne reposant sur le classement/référencement algorithmique de contenus, ou la mise en relation de parties pour une transaction[span_59](start_span)[span_59](end_span)."
     },
     {
       "id": 60,
@@ -659,7 +659,7 @@
         "La fusion de plusieurs plateformes concurrentes en un seul groupe"
       ],
       "reponse_correcte": 0,
-      "explication": "L'ubérisation désigne la transformation d'un secteur d'activité par une offre digitale, le plus souvent portée par une plateforme, qui remet en cause la place des entreprises établies grâce à des propositions de valeur plus attractives et des structures de coûts plus légères."
+      "explication": "L'ubérisation désigne la transformation d'un secteur d'activité par une offre digitale, le plus souvent portée par une plateforme, qui remet en cause la place des entreprises établies grâce à des propositions de valeur plus attractives et des structures de coûts plus légères[span_60](start_span)[span_60](end_span)."
     },
     {
       "id": 61,
@@ -670,7 +670,7 @@
         "Elle supprime totalement le travail indépendant"
       ],
       "reponse_correcte": 0,
-      "explication": "Les personnes travaillant pour les plateformes le font le plus souvent sous statut de micro-entrepreneur, ce qui donne une illusion de liberté mais offre moins de protection que le statut de salarié et des revenus plus faibles."
+      "explication": "Les personnes travaillant pour les plateformes le font le plus souvent sous statut de micro-entrepreneur, ce qui donne une illusion de liberté mais offre moins de protection que le statut de salarié et des revenus plus faibles[span_61](start_span)[span_61](end_span)."
     },
     {
       "id": 62,
@@ -681,7 +681,7 @@
         "L'énergie nucléaire, l'espace, et les télécommunications"
       ],
       "reponse_correcte": 0,
-      "explication": "La Commission Européenne définit la souveraineté numérique par trois piliers : la puissance de calcul, le contrôle par les Européens de leurs données, et une connectivité sécurisée."
+      "explication": "La Commission Européenne définit la souveraineté numérique par trois piliers : la puissance de calcul, le contrôle par les Européens de leurs données, et une connectivité sécurisée[span_62](start_span)[span_62](end_span)."
     },
     {
       "id": 63,
@@ -692,7 +692,7 @@
         "Exclusivement financière, sans lien avec les infrastructures physiques"
       ],
       "reponse_correcte": 0,
-      "explication": "Rouvroy souligne que l'IA générative est avant tout une vaste entreprise de réorganisation énergétique, territoriale et industrielle (data centers, centrales électriques, réseaux, refroidissement), contrairement à l'idée que l'information remplacerait la matière."
+      "explication": "Rouvroy souligne que l'IA générative est avant tout une vaste entreprise de réorganisation énergétique, territoriale et industrielle (data centers, centrales électriques, réseaux, refroidissement), contrairement à l'idée que l'information remplacerait la matière[span_63](start_span)[span_63](end_span)."
     },
     {
       "id": 64,
@@ -703,7 +703,7 @@
         "Imposer un moratoire de 10 ans sur la construction de data centers"
       ],
       "reponse_correcte": 0,
-      "explication": "Le CADA vise à lever les obstacles réglementaires, énergétiques, fonciers et administratifs qui ralentissent le déploiement des infrastructures numériques, et fixe un objectif de triplement de la capacité européenne."
+      "explication": "Le CADA vise à lever les obstacles réglementaires, énergétiques, fonciers et administratifs qui ralentissent le déploiement des infrastructures numériques, et fixe un objectif de triplement de la capacité européenne[span_64](start_span)[span_64](end_span)."
     },
     {
       "id": 65,
@@ -714,7 +714,7 @@
         "Près de 75%"
       ],
       "reponse_correcte": 0,
-      "explication": "Selon le texte, les investissements en infrastructures d'IA auraient représenté près de 39% de la croissance du PIB réel américain sur les trois premiers trimestres de 2025, après avoir atteint près de 92% au premier semestre."
+      "explication": "Selon le texte, les investissements en infrastructures d'IA auraient représenté près de 39% de la croissance du PIB réel américain sur les trois premiers trimestres de 2025, après avoir atteint près de 92% au premier semestre[span_65](start_span)[span_65](end_span)."
     },
     {
       "id": 66,
@@ -725,7 +725,7 @@
         "100% basé sur un unique projet de groupe noté"
       ],
       "reponse_correcte": 0,
-      "explication": "L'évaluation se répartit ainsi : 35% de contrôle continu (7/20), 30% pour l'examen obligatoire en groupe de 3 en séance 5 (6/20), et 35% pour le quiz final individuel (7/20)."
+      "explication": "L'évaluation se répartit ainsi : 35% de contrôle continu (7/20), 30% pour l'examen obligatoire en groupe de 3 en séance 5 (6/20), et 35% pour le quiz final individuel (7/20)[span_66](start_span)[span_66](end_span)."
     },
     {
       "id": 67,
@@ -736,7 +736,7 @@
         "En groupe de 6, avec accès libre à internet"
       ],
       "reponse_correcte": 0,
-      "explication": "L'examen obligatoire de la séance 5 se déroule en groupe de 3, sur document mais sans connexion internet, et représente 30% de la note finale."
+      "explication": "L'examen obligatoire de la séance 5 se déroule en groupe de 3, sur document mais sans connexion internet, et représente 30% de la note finale[span_67](start_span)[span_67](end_span)."
     },
     {
       "id": 68,
@@ -747,7 +747,7 @@
         "Avec un accès internet limité à 10 minutes"
       ],
       "reponse_correcte": 0,
-      "explication": "Le quiz final individuel est un examen sans document ; il faut réviser les sections « Que retenir » et connaître les cas étudiés en classe intégrée."
+      "explication": "Le quiz final individuel est un examen sans document ; il faut réviser les sections « Que retenir » et connaître les cas étudiés en classe intégrée[span_68](start_span)[span_68](end_span)."
     },
     {
       "id": 69,
@@ -758,7 +758,7 @@
         "La compétence C5.3 : gérer un projet en méthode agile"
       ],
       "reponse_correcte": 0,
-      "explication": "Le cours permet de valider la compétence C9.2 : percevoir le champ de responsabilité des structures auxquelles on contribue, en intégrant les dimensions environnementales, sociales et éthiques."
+      "explication": "Le cours permet de valider la compétence C9.2 : percevoir le champ de responsabilité des structures auxquelles on contribue, en intégrant les dimensions environnementales, sociales et éthiques[span_69](start_span)[span_69](end_span)."
     },
     {
       "id": 70,
@@ -769,7 +769,7 @@
         "Aucune conséquence n'est prévue"
       ],
       "reponse_correcte": 0,
-      "explication": "L'absence non justifiée en classe intégrée entraîne un point malus sur la note de contrôle continu."
+      "explication": "L'absence non justifiée en classe intégrée entraîne un point malus sur la note de contrôle continu[span_70](start_span)[span_70](end_span)."
     }
   ]
 }

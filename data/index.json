@@ -30,11 +30,17 @@
       ]
     },
     {
-      "nom": "Autres",
-      "dossier": "autres",
+      "nom": "Climat",
+      "dossier": "climat",
       "chapitres": [
         { "titre": "Climat 1", "fichier": "climat1.json"},
-        { "titre": "Climat 2", "fichier": "climat2.json"},
+        { "titre": "Climat 2", "fichier": "climat2.json"}
+      ]
+    },
+    {
+      "nom": "Gestion et transformation des entreprises",
+      "dossier": "gte",
+      "chapitres": [
         { "titre": "Entreprise 1", "fichier": "gte_qcm1.json"},
         { "titre": "Entreprise 2", "fichier": "gte_qcm2.json"}
       ]

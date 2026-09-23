@@ -1,124 +1,175 @@
 {
-  "titre_chapitre": "Espaces de Hilbert - Produit scalaire, séparabilité et dual",
+  "titre_chapitre": "Espaces de Hilbert, produit scalaire, séparabilité et dual - ECTA",
   "questions": [
     {
       "id": 1,
       "enonce": "Citer 6 propriétés du produit scalaire.",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "On peut citer : (1) la bilinéarité dans le cas réel, ou la sesquilinéarité dans le cas complexe ; (2) la norme induite par le produit scalaire, définie par \\\\(\\\\|x\\\\|=\\\\sqrt{\\\\langle x,x\\\\rangle}\\\\) ; (3) la relation de Pythagore, lorsque \\\\(x\\\\perp y\\\\), donnant \\\\(\\\\|x+y\\\\|^2=\\\\|x\\\\|^2+\\\\|y\\\\|^2\\\\) ; (4) l'inégalité de Cauchy-Schwarz, \\\\( |\\\\langle x,y\\\\rangle|\\\\leq\\\\|x\\\\|\\\\,\\\\|y\\\\|\\\\) ; (5) l'identité du parallélogramme, \\\\(\\\\|x+y\\\\|^2+\\\\|x-y\\\\|^2=2\\\\|x\\\\|^2+2\\\\|y\\\\|^2\\\\) ; (6) l'identité de polarisation, qui permet de reconstruire le produit scalaire à partir de la norme. Dans le cas réel, \\\\(\\\\langle x,y\\\\rangle=\\\\frac14(\\\\|x+y\\\\|^2-\\\\|x-y\\\\|^2)\\\\), tandis que dans le cas complexe, \\\\(\\\\langle x,y\\\\rangle=\\\\frac14\\\\left(\\\\|x+y\\\\|^2-\\\\|x-y\\\\|^2+i\\\\|x+iy\\\\|^2-i\\\\|x-iy\\\\|^2\\\\right)\\\\), avec la convention de linéarité dans la première variable."
+      "explication": "On peut citer : (1) la bilinéarité dans le cas réel, ou la sesquilinéarité dans le cas complexe ; (2) la norme induite par le produit scalaire, définie par \\(\\|x\\|=\\sqrt{\\langle x,x\\rangle}\\) ; (3) la relation de Pythagore, lorsque \\(x\\perp y\\), donnant \\(\\|x+y\\|^2=\\|x\\|^2+\\|y\\|^2\\) ; (4) l'inégalité de Cauchy-Schwarz, \\(|\\langle x,y\\rangle|\\leq\\|x\\|\\,\\|y\\|\\) ; (5) l'identité du parallélogramme, \\(\\|x+y\\|^2+\\|x-y\\|^2=2\\|x\\|^2+2\\|y\\|^2\\) ; (6) l'identité de polarisation, qui permet de reconstruire le produit scalaire à partir de la norme. Dans le cas réel, \\(\\langle x,y\\rangle=\\frac14(\\|x+y\\|^2-\\|x-y\\|^2)\\), tandis que dans le cas complexe, \\(\\langle x,y\\rangle=\\frac14\\left(\\|x+y\\|^2-\\|x-y\\|^2+i\\|x+iy\\|^2-i\\|x-iy\\|^2\\right)\\), avec la convention de linéarité dans la première variable."
     },
     {
       "id": 2,
       "enonce": "Que montre l'identité de polarisation sur le produit scalaire associé à une norme donnée ?",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "L'identité de polarisation montre que, lorsqu'une norme provient d'un produit scalaire, ce produit scalaire est entièrement déterminé par la norme. Autrement dit, s'il existe un produit scalaire dont la norme associée est \\\\(\\\\|\\\\cdot\\\\|\\\\), alors ce produit scalaire est unique. Dans le cas réel, \\\\(\\\\langle x,y\\\\rangle=\\\\frac14(\\\\|x+y\\\\|^2-\\\\|x-y\\\\|^2)\\\\). Dans le cas complexe, la formule de polarisation permet également de reconstruire la partie imaginaire du produit scalaire. Ainsi, une norme ne peut pas être associée à deux produits scalaires différents."
+      "explication": "L'identité de polarisation montre que, lorsqu'une norme provient d'un produit scalaire, ce produit scalaire est entièrement déterminé par la norme. Autrement dit, s'il existe un produit scalaire dont la norme associée est \\(\\|\\cdot\\|\\), alors ce produit scalaire est unique. Dans le cas réel, \\(\\langle x,y\\rangle=\\frac14(\\|x+y\\|^2-\\|x-y\\|^2)\\). Dans le cas complexe, la formule de polarisation permet également de reconstruire la partie imaginaire du produit scalaire. Ainsi, une norme ne peut pas être associée à deux produits scalaires différents."
     },
     {
       "id": 3,
       "enonce": "Définir l'espace des suites de carré sommables et son produit scalaire.",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Pour \\\\(\\\\mathbb K=\\\\mathbb R\\\\) ou \\\\(\\\\mathbb C\\\\), l'espace des suites de carré sommable est \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\), défini par \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)=\\\\left\\\\{x=(x_n)_{n\\\\in\\\\mathbb N}\\\\;:\\\\;\\\\sum_{n=0}^{\\\\infty}|x_n|^2<\\\\infty\\\\right\\\\}\\\\). C'est un espace vectoriel. On le munit du produit scalaire \\\\(\\\\langle x,y\\\\rangle=\\\\sum_{n=0}^{\\\\infty}x_n\\\\overline{y_n}\\\\), où la conjugaison est inutile dans le cas réel. La norme associée est \\\\(\\\\|x\\\\|_2=\\\\sqrt{\\\\langle x,x\\\\rangle}=\\\\left(\\\\sum_{n=0}^{\\\\infty}|x_n|^2\\\\right)^{1/2}\\\\). Muni de cette norme, \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\) est un espace de Hilbert, c'est-à-dire un espace préhilbertien complet."
+      "explication": "Pour \\(\\mathbb K=\\mathbb R\\) ou \\(\\mathbb C\\), l'espace des suites de carré sommable est \\(\\ell^2(\\mathbb N,\\mathbb K)\\), défini par \\(\\ell^2(\\mathbb N,\\mathbb K)=\\left\\{x=(x_n)_{n\\in\\mathbb N}\\ ;\\ \\sum_{n=0}^{\\infty}|x_n|^2<\\infty\\right\\}\\). C'est un espace vectoriel. On le munit du produit scalaire \\(\\langle x,y\\rangle=\\sum_{n=0}^{\\infty}x_n\\overline{y_n}\\), où la conjugaison est inutile dans le cas réel. La norme associée est \\(\\|x\\|_2=\\sqrt{\\langle x,x\\rangle}=\\left(\\sum_{n=0}^{\\infty}|x_n|^2\\right)^{1/2}\\). Muni de cette norme, \\(\\ell^2(\\mathbb N,\\mathbb K)\\) est un espace de Hilbert, c'est-à-dire un espace préhilbertien complet."
     },
     {
       "id": 4,
       "enonce": "Rappeler l'inégalité de Cauchy-Schwarz.",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Dans tout espace préhilbertien, pour tous \\\\(x,y\\\\), on a \\\\(\\\\boxed{|\\\\langle x,y\\\\rangle|\\\\leq\\\\|x\\\\|\\\\,\\\\|y\\\\|}\\\\). L'égalité a lieu si et seulement si \\\\(x\\\\) et \\\\(y\\\\) sont linéairement dépendants, c'est-à-dire s'il existe \\\\(\\\\lambda\\\\in\\\\mathbb K\\\\) tel que \\\\(x=\\\\lambda y\\\\) ou l'un des deux vecteurs est nul. Dans le cas réel, on peut la démontrer en considérant \\\\(P(t)=\\\\|x+ty\\\\|^2\\\\geq0\\\\) et en imposant que son discriminant soit négatif ou nul. Dans le cas complexe, on choisit convenablement un scalaire de module 1 pour ramener le problème au cas réel."
+      "explication": "Dans tout espace préhilbertien, pour tous \\(x,y\\), on a \\(\\boxed{|\\langle x,y\\rangle|\\leq\\|x\\|\\,\\|y\\|}\\). L'égalité a lieu si et seulement si \\(x\\) et \\(y\\) sont linéairement dépendants, c'est-à-dire s'il existe \\(\\lambda\\in\\mathbb K\\) tel que \\(x=\\lambda y\\) ou l'un des deux vecteurs est nul. Dans le cas réel, on peut la démontrer en considérant \\(P(t)=\\|x+ty\\|^2\\geq0\\) et en imposant que son discriminant soit négatif ou nul. Dans le cas complexe, on choisit convenablement un scalaire de module 1 pour ramener le problème au cas réel."
     },
     {
       "id": 5,
-      "enonce": "Quelle est la base canonique de \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\) ?",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "Quelle est la base canonique de \\(\\ell^2(\\mathbb N,\\mathbb K)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "La base canonique est la famille \\\\(\\\\left(e^{(k)}\\\\right)_{k\\\\in\\\\mathbb N}\\\\), où, pour tous \\\\(k,n\\\\in\\\\mathbb N\\\\), \\\\(e_n^{(k)}=\\\\delta_{k,n}\\\\). Ici \\\\(\\\\delta_{k,n}\\\\) est le symbole de Kronecker : \\\\(\\\\delta_{k,n}=1\\\\) si \\\\(k=n\\\\), et \\\\(\\\\delta_{k,n}=0\\\\) sinon. Ainsi, \\\\(e^{(0)}=(1,0,0,\\\\ldots)\\\\), \\\\(e^{(1)}=(0,1,0,\\\\ldots)\\\\), etc. Toute suite \\\\(x=(x_n)_{n\\\\in\\\\mathbb N}\\\\) peut s'écrire formellement \\\\(x=\\\\sum_{k=0}^{\\\\infty}x_k e^{(k)}\\\\), la convergence de cette série étant entendue au sens de la norme de \\\\(\\\\ell^2\\\\)."
+      "explication": "La base canonique est la famille \\(\\left(e^{(k)}\\right)_{k\\in\\mathbb N}\\), où, pour tous \\(k,n\\in\\mathbb N\\), \\(e_n^{(k)}=\\delta_{k,n}\\). Ici \\(\\delta_{k,n}\\) est le symbole de Kronecker : \\(\\delta_{k,n}=1\\) si \\(k=n\\), et \\(\\delta_{k,n}=0\\) sinon. Ainsi, \\(e^{(0)}=(1,0,0,\\ldots)\\), \\(e^{(1)}=(0,1,0,\\ldots)\\), etc. Toute suite \\(x=(x_n)_{n\\in\\mathbb N}\\) peut s'écrire formellement \\(x=\\sum_{k=0}^{\\infty}x_k e^{(k)}\\), la convergence de cette série étant entendue au sens de la norme de \\(\\ell^2\\)."
     },
     {
       "id": 6,
-      "enonce": "La base canonique de \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\) est-elle une famille orthonormée ?",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "La base canonique de \\(\\ell^2(\\mathbb N,\\mathbb K)\\) est-elle une famille orthonormée ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Oui. Pour tous \\\\(k,l\\\\in\\\\mathbb N\\\\), on a \\\\(\\\\langle e^{(k)},e^{(l)}\\\\rangle=\\\\sum_{n=0}^{\\\\infty}e_n^{(k)}\\\\overline{e_n^{(l)}}=\\\\delta_{k,l}\\\\). En particulier, \\\\(\\\\|e^{(k)}\\\\|=1\\\\) pour tout \\\\(k\\\\), et \\\\(\\\\langle e^{(k)},e^{(l)}\\\\rangle=0\\\\) lorsque \\\\(k\\\\neq l\\\\). La famille \\\\(\\\\left(e^{(k)}\\\\right)_{k\\\\in\\\\mathbb N}\\\\) est donc orthonormée."
+      "explication": "Oui. Pour tous \\(k,l\\in\\mathbb N\\), on a \\(\\langle e^{(k)},e^{(l)}\\rangle=\\sum_{n=0}^{\\infty}e_n^{(k)}\\overline{e_n^{(l)}}=\\delta_{k,l}\\). En particulier, \\(\\|e^{(k)}\\|=1\\) pour tout \\(k\\), et \\(\\langle e^{(k)},e^{(l)}\\rangle=0\\) lorsque \\(k\\neq l\\). La famille \\(\\left(e^{(k)}\\right)_{k\\in\\mathbb N}\\) est donc orthonormée."
     },
     {
       "id": 7,
-      "enonce": "La base canonique de \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\) est-elle une famille totale ?",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "La base canonique de \\(\\ell^2(\\mathbb N,\\mathbb K)\\) est-elle une famille totale ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Oui. Une famille \\\\(\\\\mathcal F\\\\) est totale dans un espace normé si l'adhérence de l'espace vectoriel engendré par \\\\(\\\\mathcal F\\\\) est tout l'espace. Ici, l'espace engendré par la base canonique est l'ensemble des suites à support fini. Pour tout \\\\(x=(x_n)_{n\\\\in\\\\mathbb N}\\\\in\\\\ell^2\\\\), posons \\\\(x^{(N)}=\\\\sum_{k=0}^{N}x_k e^{(k)}\\\\). Alors \\\\(x^{(N)}\\\\) est à support fini et \\\\(\\\\|x-x^{(N)}\\\\|_2^2=\\\\sum_{k=N+1}^{\\\\infty}|x_k|^2\\\\xrightarrow[N\\\\to\\\\infty]{}0\\\\). Ainsi, toute suite de \\\\(\\\\ell^2\\\\) est limite, pour la norme \\\\(\\\\ell^2\\\\), de combinaisons linéaires finies des vecteurs \\\\(e^{(k)}\\\\). La famille canonique est donc totale."
+      "explication": "Oui. Une famille \\(\\mathcal F\\) est totale dans un espace normé si l'adhérence de l'espace vectoriel engendré par \\(\\mathcal F\\) est tout l'espace. Ici, l'espace engendré par la base canonique est l'ensemble des suites à support fini. Pour tout \\(x=(x_n)_{n\\in\\mathbb N}\\in\\ell^2\\), posons \\(x^{(N)}=\\sum_{k=0}^{N}x_k e^{(k)}\\). Alors \\(x^{(N)}\\) est à support fini et \\(\\|x-x^{(N)}\\|_2^2=\\sum_{k=N+1}^{\\infty}|x_k|^2\\xrightarrow[N\\to\\infty]{}0\\). Ainsi, toute suite de \\(\\ell^2\\) est limite, pour la norme \\(\\ell^2\\), de combinaisons linéaires finies des vecteurs \\(e^{(k)}\\). La famille canonique est donc totale."
     },
     {
       "id": 8,
       "enonce": "Si on a une famille orthonormée et une famille totale, alors on obtient quelle notion ?",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Une famille qui est à la fois orthonormée et totale est appelée une base hilbertienne, ou base orthonormale complète. Elle joue dans un espace de Hilbert le rôle analogue de la base orthonormée usuelle en dimension finie. Si \\\\(\\\\left(e_n\\\\right)_{n\\\\in\\\\mathbb N}\\\\) est une base hilbertienne de \\\\(H\\\\), alors tout \\\\(x\\\\in H\\\\) admet un développement \\\\(x=\\\\sum_{n=0}^{\\\\infty}\\\\langle x,e_n\\\\rangle e_n\\\\), avec convergence dans la norme de \\\\(H\\\\), et l'identité de Parseval donne \\\\(\\\\|x\\\\|^2=\\\\sum_{n=0}^{\\\\infty}|\\\\langle x,e_n\\\\rangle|^2\\\\)."
+      "explication": "Une famille qui est à la fois orthonormée et totale est appelée une base hilbertienne, ou base orthonormale complète. Elle joue dans un espace de Hilbert le rôle analogue de la base orthonormée usuelle en dimension finie. Si \\(\\left(e_n\\right)_{n\\in\\mathbb N}\\) est une base hilbertienne de \\(H\\), alors tout \\(x\\in H\\) admet un développement \\(x=\\sum_{n=0}^{\\infty}\\langle x,e_n\\rangle e_n\\), avec convergence dans la norme de \\(H\\), et l'identité de Parseval donne \\(\\|x\\|^2=\\sum_{n=0}^{\\infty}|\\langle x,e_n\\rangle|^2\\)."
     },
     {
       "id": 9,
       "enonce": "Dans l'ensemble des suites de carré sommable, comment montrer que la famille formée par la base canonique est totale ?",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "On utilise la notion de densité. Il faut montrer que l'adhérence de l'espace vectoriel engendré par la famille canonique est \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\). Pour \\\\(x=(x_n)_{n\\\\in\\\\mathbb N}\\\\in\\\\ell^2\\\\), on considère les sommes partielles \\\\(x^{(N)}=\\\\sum_{k=0}^{N}x_k e^{(k)}\\\\). Alors \\\\(x^{(N)}\\\\) appartient à \\\\(\\\\operatorname{Vect}\\\\{e^{(0)},\\\\ldots,e^{(N)}\\\\}\\\\), et \\\\(\\\\|x-x^{(N)}\\\\|_2^2=\\\\sum_{k=N+1}^{\\\\infty}|x_k|^2\\\\to0\\\\). Les combinaisons linéaires finies des \\\\(e^{(k)}\\\\) sont donc denses dans \\\\(\\\\ell^2\\\\). Ainsi, \\\\(\\\\overline{\\\\operatorname{Vect}\\\\{e^{(k)}:k\\\\in\\\\mathbb N\\\\}}=\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\), ce qui prouve que la famille est totale."
+      "explication": "On utilise la notion de densité. Il faut montrer que l'adhérence de l'espace vectoriel engendré par la famille canonique est \\(\\ell^2(\\mathbb N,\\mathbb K)\\). Pour \\(x=(x_n)_{n\\in\\mathbb N}\\in\\ell^2\\), on considère les sommes partielles \\(x^{(N)}=\\sum_{k=0}^{N}x_k e^{(k)}\\). Alors \\(x^{(N)}\\) appartient à \\(\\operatorname{Vect}\\{e^{(0)},\\ldots,e^{(N)}\\}\\), et \\(\\|x-x^{(N)}\\|_2^2=\\sum_{k=N+1}^{\\infty}|x_k|^2\\to0\\). Les combinaisons linéaires finies des \\(e^{(k)}\\) sont donc denses dans \\(\\ell^2\\). Ainsi, \\(\\overline{\\operatorname{Vect}\\{e^{(k)}:k\\in\\mathbb N\\}}=\\ell^2(\\mathbb N,\\mathbb K)\\), ce qui prouve que la famille est totale."
     },
     {
       "id": 10,
-      "enonce": "Définir un espace métrique \\\\(E,d\\\\) séparable.",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "Définir un espace métrique \\(E,d\\) séparable.",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Un espace métrique \\\\(E,d\\\\) est dit séparable s'il possède un sous-ensemble dénombrable dense. Autrement dit, il existe une famille dénombrable \\\\(D=\\\\{x_0,x_1,\\\\ldots\\\\}\\\\subset E\\\\) telle que \\\\(\\\\overline{D}=E\\\\). De manière équivalente, pour tout \\\\(x\\\\in E\\\\) et tout \\\\(\\\\varepsilon>0\\\\), il existe \\\\(y\\\\in D\\\\) tel que \\\\(d(x,y)<\\\\varepsilon\\\\). Dans un espace vectoriel normé, la distance est généralement \\\\(d(x,y)=\\\\|x-y\\\\|\\\\), et la séparabilité signifie donc qu'il existe un ensemble dénombrable permettant d'approximer arbitrairement bien tout élément de l'espace."
+      "explication": "Un espace métrique \\(E,d\\) est dit séparable s'il possède un sous-ensemble dénombrable dense. Autrement dit, il existe une famille dénombrable \\(D=\\{x_0,x_1,\\ldots\\}\\subset E\\) telle que \\(\\overline{D}=E\\). De manière équivalente, pour tout \\(x\\in E\\) et tout \\(\\varepsilon>0\\), il existe \\(y\\in D\\) tel que \\(d(x,y)<\\varepsilon\\). Dans un espace vectoriel normé, la distance est généralement \\(d(x,y)=\\|x-y\\|\\), et la séparabilité signifie donc qu'il existe un ensemble dénombrable permettant d'approximer arbitrairement bien tout élément de l'espace."
     },
     {
       "id": 11,
       "enonce": "Tout espace vectoriel normé de dimension finie est …",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Tout espace vectoriel normé de dimension finie est séparable. En effet, si \\\\(E\\\\) est de dimension \\\\(n\\\\), on choisit une base \\\\(e_1,\\\\ldots,e_n\\\\). L'ensemble des combinaisons linéaires à coefficients rationnels, \\\\(D=\\\\left\\\\{\\\\sum_{i=1}^{n}q_i e_i : q_i\\\\in\\\\mathbb Q\\\\right\\\\}\\\\), est dénombrable et dense dans \\\\(E\\\\) lorsque le corps est \\\\(\\\\mathbb R\\\\). Dans le cas complexe, on prend des coefficients dans \\\\(\\\\mathbb Q+i\\\\mathbb Q\\\\). Ainsi, tout espace vectoriel normé de dimension finie admet un sous-ensemble dénombrable dense."
+      "explication": "Tout espace vectoriel normé de dimension finie est séparable. En effet, si \\(E\\) est de dimension \\(n\\), on choisit une base \\(e_1,\\ldots,e_n\\). L'ensemble des combinaisons linéaires à coefficients rationnels, \\(D=\\left\\{\\sum_{i=1}^{n}q_i e_i : q_i\\in\\mathbb Q\\right\\}\\), est dénombrable et dense dans \\(E\\) lorsque le corps est \\(\\mathbb R\\). Dans le cas complexe, on prend des coefficients dans \\(\\mathbb Q+i\\mathbb Q\\). Ainsi, tout espace vectoriel normé de dimension finie admet un sous-ensemble dénombrable dense."
     },
     {
       "id": 12,
       "enonce": "Un espace de Hilbert de dimension infinie est séparable si, et seulement si, il admet …",
-      "options": ["COMPRIS", "À REVOIR"],
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
       "explication": "Un espace de Hilbert de dimension infinie est séparable si et seulement s'il admet une base hilbertienne dénombrable. Une base hilbertienne est une famille orthonormée totale. Le caractère dénombrable permet de construire un sous-ensemble dense en prenant les combinaisons linéaires à coefficients rationnels (ou rationnels complexes). Réciproquement, à partir d'un ensemble dénombrable dense, on peut construire par le procédé de Gram-Schmidt une famille orthonormée dénombrable dont l'espace engendré est dense."
     },
     {
       "id": 13,
-      "enonce": "Soit \\\\(H\\\\) un espace de Hilbert de dimension infinie. Alors \\\\(H\\\\) est séparable si et seulement si \\\\(H\\\\) est …",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "Soit \\(H\\) un espace de Hilbert de dimension infinie. Alors \\(H\\) est séparable si et seulement si \\(H\\) est …",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "On a \\\\(H\\\\) séparable si et seulement si \\\\(H\\\\) est isométriquement isomorphe à \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\). Plus précisément, si \\\\(H\\\\) possède une base hilbertienne dénombrable \\\\(\\\\left(e_n\\\\right)_{n\\\\in\\\\mathbb N}\\\\), l'application \\\\(T:H\\\\to\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\) définie par \\\\(T(x)=\\\\left(\\\\langle x,e_n\\\\rangle\\\\right)_{n\\\\in\\\\mathbb N}\\\\) est linéaire (avec la convention appropriée dans le cas complexe), bijective et isométrique grâce à l'identité de Parseval : \\\\(\\\\|x\\\\|^2=\\\\sum_{n=0}^{\\\\infty}|\\\\langle x,e_n\\\\rangle|^2\\\\). Ainsi, tout espace de Hilbert séparable de dimension infinie est, à isométrie linéaire près, le modèle \\\\(\\\\ell^2(\\\\mathbb N,\\\\mathbb K)\\\\)."
+      "explication": "On a \\(H\\) séparable si et seulement si \\(H\\) est isométriquement isomorphe à \\(\\ell^2(\\mathbb N,\\mathbb K)\\). Plus précisément, si \\(H\\) possède une base hilbertienne dénombrable \\(\\left(e_n\\right)_{n\\in\\mathbb N}\\), l'application \\(T:H\\to\\ell^2(\\mathbb N,\\mathbb K)\\) définie par \\(T(x)=\\left(\\langle x,e_n\\rangle\\right)_{n\\in\\mathbb N}\\) est linéaire (avec la convention appropriée dans le cas complexe), bijective et isométrique grâce à l'identité de Parseval : \\(\\|x\\|^2=\\sum_{n=0}^{\\infty}|\\langle x,e_n\\rangle|^2\\). Ainsi, tout espace de Hilbert séparable de dimension infinie est, à isométrie linéaire près, le modèle \\(\\ell^2(\\mathbb N,\\mathbb K)\\)."
     },
     {
       "id": 14,
-      "enonce": "Définir la norme subordonnée d'un dual topologique \\\\(H'\\\\).",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "Définir la norme subordonnée d'un dual topologique \\(H'\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "Le dual topologique \\\\(H'\\\\), aussi appelé dual continu, est l'ensemble des formes linéaires continues de \\\\(H\\\\) dans \\\\(\\\\mathbb K\\\\). Pour \\\\(\\\\varphi\\\\in H'\\\\), sa norme subordonnée est définie par \\\\(\\\\boxed{\\\\|\\\\varphi\\\\|_{H'}=\\\\sup_{x\\\\neq0}\\\\frac{|\\\\varphi(x)|}{\\\\|x\\\\|}}\\\\). De manière équivalente, \\\\(\\\\|\\\\varphi\\\\|_{H'}=\\\\sup_{\\\\|x\\\\|\\\\leq1}|\\\\varphi(x)|=\\\\sup_{\\\\|x\\\\|=1}|\\\\varphi(x)|\\\\). Cette norme mesure donc la plus grande valeur absolue que peut prendre \\\\(\\\\varphi(x)\\\\) sur la boule unité. La continuité de \\\\(\\\\varphi\\\\) est équivalente à l'existence d'une constante \\\\(C\\\\geq0\\\\) telle que \\\\( |\\\\varphi(x)|\\\\leq C\\\\|x\\\\|\\\\) pour tout \\\\(x\\\\in H\\\\), et la plus petite telle constante est précisément \\\\(\\\\|\\\\varphi\\\\|_{H'}\\\\)."
+      "explication": "Le dual topologique \\(H'\\), aussi appelé dual continu, est l'ensemble des formes linéaires continues de \\(H\\) dans \\(\\mathbb K\\). Pour \\(\\varphi\\in H'\\), sa norme subordonnée est définie par \\(\\boxed{\\|\\varphi\\|_{H'}=\\sup_{x\\neq0}\\frac{|\\varphi(x)|}{\\|x\\|}}\\). De manière équivalente, \\(\\|\\varphi\\|_{H'}=\\sup_{\\|x\\|\\leq1}|\\varphi(x)|=\\sup_{\\|x\\|=1}|\\varphi(x)|\\). Cette norme mesure donc la plus grande valeur absolue que peut prendre \\(\\varphi(x)\\) sur la boule unité. La continuité de \\(\\varphi\\) est équivalente à l'existence d'une constante \\(C\\geq0\\) telle que \\(|\\varphi(x)|\\leq C\\|x\\|\\) pour tout \\(x\\in H\\), et la plus petite telle constante est précisément \\(\\|\\varphi\\|_{H'}\\)."
     },
     {
       "id": 15,
-      "enonce": "Soit \\\\(\\\\varphi\\\\in H'\\\\) et soit \\\\(y\\\\in H\\\\) son unique représentant par le théorème de Riesz-Fréchet. Alors …",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "Soit \\(\\varphi\\in H'\\) et soit \\(y\\in H\\) son unique représentant par le théorème de Riesz-Fréchet. Alors …",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "D'après le théorème de représentation de Riesz-Fréchet, il existe un unique \\\\(y\\\\in H\\\\) tel que \\\\(\\\\varphi(x)=\\\\langle x,y\\\\rangle\\\\) pour tout \\\\(x\\\\in H\\\\) (avec cette convention dans le cas complexe). De plus, \\\\(\\\\boxed{\\\\|\\\\varphi\\\\|_{H'}=\\\\|y\\\\|_H}\\\\). En effet, par Cauchy-Schwarz, \\\\( |\\\\varphi(x)|=|\\\\langle x,y\\\\rangle|\\\\leq\\\\|x\\\\|\\\\,\\\\|y\\\\|\\\\), donc \\\\(\\\\|\\\\varphi\\\\|_{H'}\\\\leq\\\\|y\\\\|\\\\). L'égalité est atteinte en prenant, si \\\\(y\\\\neq0\\\\), \\\\(x=y/\\\\|y\\\\|\\\\), ce qui donne \\\\( |\\\\varphi(x)|=\\\\|y\\\\|\\\\). Ainsi, la représentation de Riesz est une isométrie."
+      "explication": "D'après le théorème de représentation de Riesz-Fréchet, il existe un unique \\(y\\in H\\) tel que \\(\\varphi(x)=\\langle x,y\\rangle\\) pour tout \\(x\\in H\\) (avec cette convention dans le cas complexe). De plus, \\(\\boxed{\\|\\varphi\\|_{H'}=\\|y\\|_H}\\). En effet, par Cauchy-Schwarz, \\(|\\varphi(x)|=|\\langle x,y\\rangle|\\leq\\|x\\|\\,\\|y\\|\\), donc \\(\\|\\varphi\\|_{H'}\\leq\\|y\\|\\). L'égalité est atteinte en prenant, si \\(y\\neq0\\), \\(x=y/\\|y\\|\\), ce qui donne \\(|\\varphi(x)|=\\|y\\|\\). Ainsi, la représentation de Riesz est une isométrie."
     },
     {
       "id": 16,
-      "enonce": "\\\\(H\\\\) est un espace de Hilbert réel. L'application \\\\(J:y\\\\mapsto\\\\langle\\\\cdot,y\\\\rangle\\\\) est une … de \\\\(H\\\\) dans \\\\(H'\\\\).",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "\\(H\\) est un espace de Hilbert réel. L'application \\(J:y\\mapsto\\langle\\cdot,y\\rangle\\) est une … de \\(H\\) dans \\(H'\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "L'application \\\\(J:H\\\\to H'\\\\), définie par \\\\(J(y)(x)=\\\\langle x,y\\\\rangle\\\\), est une isométrie linéaire surjective. Elle est linéaire car, dans le cas réel, le produit scalaire est bilinéaire : \\\\(J(\\\\lambda y_1+\\\\mu y_2)(x)=\\\\langle x,\\\\lambda y_1+\\\\mu y_2\\\\rangle=\\\\lambda\\\\langle x,y_1\\\\rangle+\\\\mu\\\\langle x,y_2\\\\rangle\\\\). Elle est isométrique puisque, par Riesz-Fréchet, \\\\(\\\\|J(y)\\\\|_{H'}=\\\\|y\\\\|_H\\\\). Elle est surjective car toute forme linéaire continue \\\\(\\\\varphi\\\\in H'\\\\) possède un unique représentant \\\\(y\\\\in H\\\\) tel que \\\\(\\\\varphi(x)=\\\\langle x,y\\\\rangle\\\\). Ainsi, \\\\(H\\\\) et son dual topologique \\\\(H'\\\\) sont isométriquement isomorphes."
+      "explication": "L'application \\(J:H\\to H'\\), définie par \\(J(y)(x)=\\langle x,y\\rangle\\), est une isométrie linéaire surjective. Elle est linéaire car, dans le cas réel, le produit scalaire est bilinéaire : \\(J(\\lambda y_1+\\mu y_2)(x)=\\langle x,\\lambda y_1+\\mu y_2\\rangle=\\lambda\\langle x,y_1\\rangle+\\mu\\langle x,y_2\\rangle\\). Elle est isométrique puisque, par Riesz-Fréchet, \\(\\|J(y)\\|_{H'}=\\|y\\|_H\\). Elle est surjective car toute forme linéaire continue \\(\\varphi\\in H'\\) possède un unique représentant \\(y\\in H\\) tel que \\(\\varphi(x)=\\langle x,y\\rangle\\). Ainsi, \\(H\\) et son dual topologique \\(H'\\) sont isométriquement isomorphes."
     },
     {
       "id": 17,
-      "enonce": "\\\\(H'\\\\), muni de la norme subordonnée, est …",
-      "options": ["COMPRIS", "À REVOIR"],
+      "enonce": "\\(H'\\), muni de la norme subordonnée, est …",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
       "reponse_correcte": 0,
-      "explication": "\\\\(H'\\\\), muni de la norme subordonnée \\\\(\\\\|\\\\varphi\\\\|_{H'}=\\\\sup_{\\\\|x\\\\|\\\\leq1}|\\\\varphi(x)|\\\\), est lui-même un espace de Hilbert. En effet, le théorème de Riesz-Fréchet fournit une isométrie surjective entre \\\\(H\\\\) et \\\\(H'\\\\). On peut donc transférer le produit scalaire de \\\\(H\\\\) sur \\\\(H'\\\\). Dans le cas réel, si \\\\(\\\\varphi=J(y)\\\\) et \\\\(\\\\psi=J(z)\\\\), on peut définir \\\\(\\\\langle\\\\varphi,\\\\psi\\\\rangle_{H'}=\\\\langle y,z\\\\rangle_H\\\\). Comme \\\\(H\\\\) est complet et que \\\\(J\\\\) est une isométrie surjective, \\\\(H'\\\\) est complet pour sa norme. Il possède donc une structure d'espace de Hilbert."
+      "explication": "\\(H'\\), muni de la norme subordonnée \\(\\|\\varphi\\|_{H'}=\\sup_{\\|x\\|\\leq1}|\\varphi(x)|\\), est lui-même un espace de Hilbert. En effet, le théorème de Riesz-Fréchet fournit une isométrie surjective entre \\(H\\) et \\(H'\\). On peut donc transférer le produit scalaire de \\(H\\) sur \\(H'\\). Dans le cas réel, si \\(\\varphi=J(y)\\) et \\(\\psi=J(z)\\), on peut définir \\(\\langle\\varphi,\\psi\\rangle_{H'}=\\langle y,z\\rangle_H\\). Comme \\(H\\) est complet et que \\(J\\) est une isométrie surjective, \\(H'\\) est complet pour sa norme. Il possède donc une structure d'espace de Hilbert."
     }
   ]
 }
