@@ -3,66 +3,66 @@
   "questions": [
     {
       "id": 1,
-      "enonce": "Citer quatre propriétés fondamentales d'une mesure \\\\(\\mu\\\\) sur un espace mesurable \\\\((E,\\\\mathcal{A})\\\\).",
+      "enonce": "Citer quatre propriétés fondamentales d'une mesure \\(\\mu\\) sur un espace mesurable \\((E,\\mathcal{A})\\).",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "Quatre propriétés fondamentales sont : (1) la monotonie : si \\\\(A\\\\subset B\\\\), alors \\\\(\\mu(A)\\\\leq \\mu(B)\\\\); (2) la formule d'additivité à deux ensembles, lorsque \\\\(\\mu(A\\\\cap B)<+\\\\infty\\\\) : \\\\(\\mu(A\\\\cup B)+\\mu(A\\\\cap B)=\\mu(A)+\\mu(B)\\\\); (3) la sous-additivité : \\\\(\\mu\\\\left(\\\\bigcup_{n\\\\geq 1}A_n\\\\right)\\\\leq\\\\sum_{n\\\\geq 1}\\mu(A_n)\\\\); (4) la continuité monotone : si \\\\(A_n\\\\uparrow A\\\\), alors \\\\(\\mu(A_n)\\\\uparrow\\mu(A)\\\\), et si \\\\(A_n\\\\downarrow A\\\\) avec \\\\(\\mu(A_1)<+\\\\infty\\\\), alors \\\\(\\mu(A_n)\\\\downarrow\\mu(A)\\\\)."
+      "explication": "Quatre propriétés fondamentales sont : (1) la monotonie : si \\(A\\subset B\\), alors \\(\\mu(A)\\leq \\mu(B)\\); (2) la formule d'additivité à deux ensembles, lorsque \\(\\mu(A\\cap B)<+\\infty\\) : \\(\\mu(A\\cup B)+\\mu(A\\cap B)=\\mu(A)+\\mu(B)\\); (3) la sous-additivité : \\(\\mu\\left(\\bigcup_{n\\geq 1}A_n\\right)\\leq\\sum_{n\\geq 1}\\mu(A_n)\\); (4) la continuité monotone : si \\(A_n\\uparrow A\\), alors \\(\\mu(A_n)\\uparrow\\mu(A)\\), et si \\(A_n\\downarrow A\\) avec \\(\\mu(A_1)<+\\infty\\), alors \\(\\mu(A_n)\\downarrow\\mu(A)\\)."
     },
     {
       "id": 2,
-      "enonce": "Si \\\\(A,B\\\\in\\\\mathcal{A}\\\\) et \\\\(\\mu(A\\\\cap B)<+\\\\infty\\\\), sous quelle forme peut-on écrire la relation \\\\(\\mu(A\\\\cup B)+\\mu(A\\\\cap B)=\\mu(A)+\\mu(B)\\\\) ?",
+      "enonce": "Si \\(A,B\\in\\mathcal{A}\\) et \\(\\mu(A\\cap B)<+\\infty\\), sous quelle forme peut-on écrire la relation \\(\\mu(A\\cup B)+\\mu(A\\cap B)=\\mu(A)+\\mu(B)\\) ?",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "On obtient la formule d'inclusion-exclusion à deux ensembles : \\\\(\\mu(A\\\\cup B)=\\mu(A)+\\mu(B)-\\mu(A\\\\cap B)\\\\). Cette formule se généralise à un nombre fini d'ensembles par la formule du crible de Poincaré. Plus précisément, pour \\\\(A_1,\\\\ldots,A_n\\\\in\\\\mathcal{A}\\\\), si toutes les intersections non vides d'ensembles parmi les \\\\(A_i\\\\) sont de mesure finie, alors \\\\(\\displaystyle \\mu\\\\left(\\\\bigcup_{i=1}^n A_i\\\\right)=\\\\sum_{k=1}^n(-1)^{k-1}\\\\sum_{1\\\\leq i_1<\\\\cdots<i_k\\\\leq n}\\mu(A_{i_1}\\\\cap\\\\cdots\\\\cap A_{i_k})\\\\). L'hypothèse plus forte \\\\(\\mu(A_i\\\\cap A_j)<+\\\\infty\\\\) pour tout \\\\(i\\\\neq j\\\\) suffit également, car toute intersection multiple est alors incluse dans une intersection à deux ensembles."
+      "explication": "On obtient la formule d'inclusion-exclusion à deux ensembles : \\(\\mu(A\\cup B)=\\mu(A)+\\mu(B)-\\mu(A\\cap B)\\). Cette formule se généralise à un nombre fini d'ensembles par la formule du crible de Poincaré. Plus précisément, pour \\(A_1,\\ldots,A_n\\in\\mathcal{A}\\), si toutes les intersections non vides d'ensembles parmi les \\(A_i\\) sont de mesure finie, alors \\(\\displaystyle \\mu\\left(\\bigcup_{i=1}^n A_i\\right)=\\sum_{k=1}^n(-1)^{k-1}\\sum_{1\\leq i_1<\\cdots<i_k\\leq n}\\mu(A_{i_1}\\cap\\cdots\\cap A_{i_k})\\). L'hypothèse plus forte \\(\\mu(A_i\\cap A_j)<+\\infty\\) pour tout \\(i\\neq j\\) suffit également, car toute intersection multiple est alors incluse dans une intersection à deux ensembles."
     },
     {
       "id": 3,
-      "enonce": "Donner la formule du crible de Poincaré, ou principe d'inclusion-exclusion, pour une famille finie \\\\(A_1,\\\\ldots,A_n\\\\\\\\).",
+      "enonce": "Donner la formule du crible de Poincaré, ou principe d'inclusion-exclusion, pour une famille finie \\(A_1,\\ldots,A_n\\).",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "La formule est \\\\(\\displaystyle \\mu\\\\left(\\\\bigcup_{i=1}^n A_i\\\\right)=\\\\sum_{k=1}^n(-1)^{k-1}\\\\sum_{1\\\\leq i_1<\\\\cdots<i_k\\\\leq n}\\mu(A_{i_1}\\\\cap\\\\cdots\\\\cap A_{i_k})\\\\). Pour \\\\(n=3\\\\), elle devient \\\\(\\mu(A_1\\\\cup A_2\\\\cup A_3)=\\mu(A_1)+\\mu(A_2)+\\mu(A_3)-\\mu(A_1\\\\cap A_2)-\\mu(A_1\\\\cap A_3)-\\mu(A_2\\\\cap A_3)+\\mu(A_1\\\\cap A_2\\\\cap A_3)\\\\)."
+      "explication": "La formule est \\(\\displaystyle \\mu\\left(\\bigcup_{i=1}^n A_i\\right)=\\sum_{k=1}^n(-1)^{k-1}\\sum_{1\\leq i_1<\\cdots<i_k\\leq n}\\mu(A_{i_1}\\cap\\cdots\\cap A_{i_k})\\). Pour \\(n=3\\), elle devient \\(\\mu(A_1\\cup A_2\\cup A_3)=\\mu(A_1)+\\mu(A_2)+\\mu(A_3)-\\mu(A_1\\cap A_2)-\\mu(A_1\\cap A_3)-\\mu(A_2\\cap A_3)+\\mu(A_1\\cap A_2\\cap A_3)\\)."
     },
     {
       "id": 4,
       "enonce": "Donner trois propriétés importantes des fonctions mesurables.",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "Parmi les propriétés fondamentales : (1) la composition : si \\\\(f:(E,\\\\mathcal{A})\\\\to(F,\\\\mathcal{B})\\\\) et \\\\(g:(F,\\\\mathcal{B})\\\\to(G,\\\\mathcal{C})\\\\) sont mesurables, alors \\\\(g\\\\circ f\\\\) est mesurable ; (2) si \\\\(f,g:E\\\\to\\\\mathbb{R}\\\\) sont mesurables, alors \\\\(f+g\\\\), \\\\(fg\\\\), \\\\(\\\\max(f,g)\\\\) et \\\\(\\\\min(f,g)\\\\) sont mesurables ; (3) si \\\\(f_n:E\\\\to\\\\overline{\\\\mathbb{R}}\\\\) sont mesurables, alors \\\\(\\\\sup_n f_n\\\\), \\\\(\\\\inf_n f_n\\\\), \\\\(\\\\limsup_n f_n\\\\) et \\\\(\\\\liminf_n f_n\\\\) sont mesurables. En particulier, si \\\\(f_n\\\\to f\\\\) simplement, alors \\\\(f\\\\) est mesurable."
+      "explication": "Parmi les propriétés fondamentales : (1) la composition : si \\(f:(E,\\mathcal{A})\\to(F,\\mathcal{B})\\) et \\(g:(F,\\mathcal{B})\\to(G,\\mathcal{C})\\) sont mesurables, alors \\(g\\circ f\\) est mesurable ; (2) si \\(f,g:E\\to\\mathbb{R}\\) sont mesurables, alors \\(f+g\\), \\(fg\\), \\(\\max(f,g)\\) et \\(\\min(f,g)\\) sont mesurables ; (3) si \\(f_n:E\\to\\overline{\\mathbb{R}}\\) sont mesurables, alors \\(\\sup_n f_n\\), \\(\\inf_n f_n\\), \\(\\limsup_n f_n\\) et \\(\\liminf_n f_n\\) sont mesurables. En particulier, si \\(f_n\\to f\\) simplement, alors \\(f\\) est mesurable."
     },
     {
       "id": 5,
       "enonce": "Comment montrer que la limite simple d'une suite de fonctions mesurables est mesurable ?",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "Soit \\\\(f_n:E\\\\to\\\\overline{\\\\mathbb{R}}\\\\) une suite de fonctions mesurables telle que \\\\(f_n\\\\to f\\\\) simplement. On utilise \\\\(\\displaystyle f=\\\\lim_{n\\\\to\\\\infty}f_n=\\\\liminf_{n\\\\to\\\\infty}f_n=\\\\limsup_{n\\\\to\\\\infty}f_n\\\\). Or \\\\(\\\\liminf f_n\\\\) et \\\\(\\\\limsup f_n\\\\) sont mesurables car \\\\(\\displaystyle \\\\liminf_{n\\\\to\\\\infty}f_n=\\\\sup_{N\\\\geq1}\\\\inf_{n\\\\geq N}f_n\\\\) et \\\\(\\displaystyle \\\\limsup_{n\\\\to\\\\infty}f_n=\\\\inf_{N\\\\geq1}\\\\sup_{n\\\\geq N}f_n\\\\). Donc \\\\(f\\\\) est mesurable."
+      "explication": "Soit \\(f_n:E\\to\\overline{\\mathbb{R}}\\) une suite de fonctions mesurables telle que \\(f_n\\to f\\) simplement. On utilise \\(\\displaystyle f=\\lim_{n\\to\\infty}f_n=\\liminf_{n\\to\\infty}f_n=\\limsup_{n\\to\\infty}f_n\\). Or \\(\\liminf f_n\\) et \\(\\limsup f_n\\) sont mesurables car \\(\\displaystyle \\liminf_{n\\to\\infty}f_n=\\sup_{N\\geq1}\\inf_{n\\geq N}f_n\\) et \\(\\displaystyle \\limsup_{n\\to\\infty}f_n=\\inf_{N\\geq1}\\sup_{n\\geq N}f_n\\). Donc \\(f\\) est mesurable."
     },
     {
       "id": 6,
-      "enonce": "Écrire les expressions de \\\\(\\\\liminf f_n\\\\) et \\\\(\\\\limsup f_n\\\\) à l'aide de \\\\(\\\\inf\\\\) et \\\\(\\\\sup\\\\).",
+      "enonce": "Écrire les expressions de \\(\\liminf f_n\\) et \\(\\limsup f_n\\) à l'aide de \\(\\inf\\) et \\(\\sup\\).",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "Pour toute suite de fonctions \\\\(f_n\\\\), on a \\\\(\\displaystyle \\\\liminf_{n\\\\to\\\\infty}f_n=\\\\sup_{N\\\\geq1}\\\\inf_{n\\\\geq N}f_n\\\\) et \\\\(\\displaystyle \\\\limsup_{n\\\\to\\\\infty}f_n=\\\\inf_{N\\\\geq1}\\\\sup_{n\\\\geq N}f_n\\\\). Ces formules sont à comprendre point par point. Elles permettent notamment de démontrer que les limites inférieure et supérieure de fonctions mesurables sont mesurables."
+      "explication": "Pour toute suite de fonctions \\(f_n\\), on a \\(\\displaystyle \\liminf_{n\\to\\infty}f_n=\\sup_{N\\geq1}\\inf_{n\\geq N}f_n\\) et \\(\\displaystyle \\limsup_{n\\to\\infty}f_n=\\inf_{N\\geq1}\\sup_{n\\geq N}f_n\\). Ces formules sont à comprendre point par point. Elles permettent notamment de démontrer que les limites inférieure et supérieure de fonctions mesurables sont mesurables."
     },
     {
       "id": 7,
-      "enonce": "Si \\\\(f,g:E\\\\to\\\\mathbb{R}\\\\) sont mesurables, quelles fonctions obtenues à partir de \\\\(f\\\\) et \\\\(g\\\\) sont automatiquement mesurables ?",
+      "enonce": "Si \\(f,g:E\\to\\mathbb{R}\\) sont mesurables, quelles fonctions obtenues à partir de \\(f\\) et \\(g\\) sont automatiquement mesurables ?",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "Les fonctions \\\\(f+g\\\\), \\\\(f-g\\\\), \\\\(fg\\\\) et, lorsque \\\\(g\\\\) ne s'annule pas, \\\\(f/g\\\\) sont mesurables. De plus, \\\\(\\\\max(f,g)\\\\) et \\\\(\\\\min(f,g)\\\\) sont mesurables car \\\\(\\\\max(f,g)=\\\\frac{f+g+|f-g|}{2}\\\\) et \\\\(\\\\min(f,g)=\\\\frac{f+g-|f-g|}{2}\\\\). Plus généralement, si \\\\(\\\\varphi:\\\\mathbb{R}^2\\\\to\\\\mathbb{R}\\\\) est borélienne, alors \\\\(x\\\\mapsto\\\\varphi(f(x),g(x))\\\\) est mesurable."
+      "explication": "Les fonctions \\(f+g\\), \\(f-g\\), \\(fg\\) et, lorsque \\(g\\) ne s'annule pas, \\(f/g\\) sont mesurables. De plus, \\(\\max(f,g)\\) et \\(\\min(f,g)\\) sont mesurables car \\(\\max(f,g)=\\frac{f+g+|f-g|}{2}\\) et \\(\\min(f,g)=\\frac{f+g-|f-g|}{2}\\). Plus généralement, si \\(\\varphi:\\mathbb{R}^2\\to\\mathbb{R}\\) est borélienne, alors \\(x\\mapsto\\varphi(f(x),g(x))\\) est mesurable."
     },
     {
       "id": 8,
       "enonce": "La monotonie d'une mesure permet-elle de déduire la continuité monotone ? Distinguer précisément les deux propriétés.",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "La monotonie affirme seulement que \\\\(A\\\\subset B\\\\Rightarrow\\\\mu(A)\\\\leq\\\\mu(B)\\\\). La continuité monotone est une propriété plus forte concernant les suites croissantes ou décroissantes d'ensembles. Si \\\\(A_n\\\\uparrow A\\\\), alors \\\\(\\displaystyle\\\\lim_{n\\\\to\\\\infty}\\mu(A_n)=\\\\mu(A)\\\\). Si \\\\(A_n\\\\downarrow A\\\\) et \\\\(\\mu(A_1)<+\\\\infty\\\\), alors \\\\(\\displaystyle\\\\lim_{n\\\\to\\\\infty}\\mu(A_n)=\\\\mu(A)\\\\)."
+      "explication": "La monotonie affirme seulement que \\(A\\subset B\\Rightarrow\\mu(A)\\leq\\mu(B)\\). La continuité monotone est une propriété plus forte concernant les suites croissantes ou décroissantes d'ensembles. Si \\(A_n\\uparrow A\\), alors \\(\\displaystyle\\lim_{n\\to\\infty}\\mu(A_n)=\\mu(A)\\). Si \\(A_n\\downarrow A\\) et \\(\\mu(A_1)<+\\infty\\), alors \\(\\displaystyle\\lim_{n\\to\\infty}\\mu(A_n)=\\mu(A)\\)."
     },
     {
       "id": 9,
-      "enonce": "Quelle est la différence entre la sous-additivité et la \\\\(\\\\sigma\\\\)-additivité d'une mesure ?",
+      "enonce": "Quelle est la différence entre la sous-additivité et la \\(\\sigma\\)-additivité d'une mesure ?",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "La sous-additivité donne seulement \\\\(\\displaystyle\\\\mu\\\\left(\\\\bigcup_{n\\\\geq1}A_n\\\\right)\\\\leq\\\\sum_{n\\\\geq1}\\\\mu(A_n)\\\\). La \\\\(\\\\sigma\\\\)-additivité, qui constitue la propriété fondamentale définissant une mesure, affirme que si les \\\\(A_n\\\\) sont deux à deux disjoints, alors \\\\(\\displaystyle\\\\mu\\\\left(\\\\bigcup_{n\\\\geq1}A_n\\\\right)=\\\\sum_{n\\\\geq1}\\\\mu(A_n)\\\\). La sous-additivité s'en déduit de la \\\\(\\\\sigma\\\\)-additivité en décomposant les ensembles en morceaux deux à deux disjoints."
+      "explication": "La sous-additivité donne seulement \\(\\displaystyle\\mu\\left(\\bigcup_{n\\geq1}A_n\\right)\\leq\\sum_{n\\geq1}\\mu(A_n)\\). La \\(\\sigma\\)-additivité, qui constitue la propriété fondamentale définissant une mesure, affirme que si les \\(A_n\\) sont deux à deux disjoints, alors \\(\\displaystyle\\mu\\left(\\bigcup_{n\\geq1}A_n\\right)=\\sum_{n\\geq1}\\mu(A_n)\\). La sous-additivité s'en déduit de la \\(\\sigma\\)-additivité en décomposant les ensembles en morceaux deux à deux disjoints."
     }
   ]
 }
