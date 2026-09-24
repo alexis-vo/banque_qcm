@@ -2,22 +2,41 @@
    Banque de QCM — styles
    ========================================================================== */
 
+/* Geist Sans / Geist Mono, served from the Fontsource CDN so no build step
+   or local font files are needed on this static site. */
+@font-face {
+  font-family: "Geist Sans";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/geist:vf@latest/latin-wght-normal.woff2) format(woff2) tech(variations);
+}
+
+@font-face {
+  font-family: "Geist Mono";
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/geist-mono:vf@latest/latin-wght-normal.woff2) format(woff2) tech(variations);
+}
+
 :root {
-  --color-bg: #f4f6f9;
+  --color-bg: #f9fafb;
   --color-surface: #ffffff;
-  --color-border: #dfe3ea;
-  --color-text: #1f2937;
-  --color-text-muted: #5b6472;
-  --color-primary: #2f5aa8;
-  --color-primary-hover: #24478a;
-  --color-success: #1f8a53;
-  --color-success-bg: #e7f6ee;
-  --color-error: #b3372c;
-  --color-error-bg: #fbeceb;
+  --color-border: #e5e7eb;
+  --color-text: #111827;
+  --color-text-muted: #6b7280;
+  --color-primary: #111827;
+  --color-primary-hover: #374151;
+  --color-success: #16a34a;
+  --color-success-bg: #f0fdf4;
+  --color-error: #dc2626;
+  --color-error-bg: #fef2f2;
   --radius: 10px;
   --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
   --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
-  --font-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-base: "Geist Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --action-bar-height: 64px;
 }
 
@@ -98,7 +117,7 @@ h3 {
 
 .chapitre-btn:hover {
   border-color: var(--color-primary);
-  background: #fff;
+  background: var(--color-surface);
 }
 
 .chapitre-btn:active {
@@ -246,6 +265,7 @@ h3 {
   border: 1px solid var(--color-border);
   border-radius: 8px;
   padding: 10px 14px;
+  font-family: var(--font-mono);
   font-size: 0.9rem;
   font-weight: 600;
   color: var(--color-text);
@@ -290,7 +310,7 @@ h3 {
 
 .options label:hover {
   border-color: var(--color-primary);
-  background: #f9fbfd;
+  background: var(--color-bg);
 }
 
 .options input[type="radio"] {
@@ -344,7 +364,34 @@ h3 {
 /* ---------- Résultats ---------- */
 
 #results-container h3 {
+  font-family: var(--font-mono);
   font-size: 1.2rem;
+}
+
+/* ---------- Barre de site (retour / contact) ---------- */
+
+.site-bar {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 20px clamp(16px, 4vw, 24px) 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.site-bar-link {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.site-bar-link:hover {
+  color: var(--color-text);
 }
 
 .results-actions {
