@@ -1,0 +1,222 @@
+{
+  "titre_chapitre": "C4 - ECTA",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit \\\\(f:\\\\Omega\\\\to E\\\\) une fonction mesurable, où \\\\(E\\\\) est muni de sa tribu borélienne et d'une norme \\\\(\\\\|\\\\cdot\\\\|\\\\). Quand dit-on que \\\\(f\\\\) est \\\\(\\\\mu\\\\)-intégrable ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(f\\\\) est \\\\(\\\\mu\\\\)-intégrable si \\\\(\\\\displaystyle \\\\int_{\\\\Omega}\\\\|f(\\\\omega)\\\\|\\\\,\\\\mathrm{d}\\\\mu(\\\\omega)<+\\\\infty\\\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "En dimension finie, que peut-on dire des différentes normes définies sur un espace vectoriel réel ou complexe ? Quelles conséquences cela a-t-il sur la tribu borélienne ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "En dimension finie, toutes les normes sont équivalentes : pour deux normes \\\\(\\\\|\\\\cdot\\\\|_1\\\\) et \\\\(\\\\|\\\\cdot\\\\|_2\\\\), il existe \\\\(c,C>0\\\\) tels que \\\\(c\\\\|x\\\\|_1\\\\leq\\\\|x\\\\|_2\\\\leq C\\\\|x\\\\|_1\\\\) pour tout \\\\(x\\\\). Elles définissent donc la même topologie, les mêmes ouverts et, par conséquent, la même tribu borélienne. La définition de l'intégrabilité est ainsi indépendante de la norme choisie. Par exemple, sur \\\\(\\\\mathbb{C}\\\\), on peut utiliser le module \\\\(z\\\\mapsto |z|\\\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Que peut-on dire de \\\\(L^1(\\\\Omega,\\\\mathcal{A},\\\\mu;E)\\\\), l'ensemble des fonctions \\\\(\\\\mu\\\\)-intégrables à valeurs dans \\\\(E\\\\), muni des opérations usuelles ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "L'ensemble \\\\(L^1(\\\\Omega,\\\\mathcal{A},\\\\mu;E)\\\\) est un \\\\(\\\\mathbb{R}\\\\)-espace vectoriel lorsque \\\\(E\\\\) est un espace vectoriel réel. Dans le cas complexe, il s'agit naturellement d'un \\\\(\\\\mathbb{C}\\\\)-espace vectoriel. Si l'on identifie les fonctions égales \\\\(\\\\mu\\\\)-presque partout, on obtient l'espace \\\\(L^1\\\\) usuel."
+    },
+    {
+      "id": 4,
+      "enonce": "Soit \\\\(E\\\\) un espace vectoriel de dimension finie, muni d'une base \\\\( (e_1,\\\\ldots,e_d)\\\\). Soit \\\\(f:\\\\Omega\\\\to E\\\\), \\\\(f=\\\\sum_{i=1}^d f_i e_i\\\\). À quelle condition \\\\(f\\\\) est-elle \\\\(\\\\mu\\\\)-intégrable ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\\\(f\\\\) est \\\\(\\\\mu\\\\)-intégrable si et seulement si chacune de ses composantes \\\\(f_i:\\\\Omega\\\\to\\\\mathbb{R}\\\\) est \\\\(\\\\mu\\\\)-intégrable. En dimension finie, l'équivalence des normes permet de passer de l'intégrabilité de \\\\(\\\\|f\\\\|\\\\) à celle des composantes et réciproquement."
+    },
+    {
+      "id": 5,
+      "enonce": "Soit \\\\(f:\\\\Omega\\\\to E\\\\) une fonction \\\\(\\\\mu\\\\)-intégrable et \\\\( (e_1,\\\\ldots,e_d)\\\\) une base de \\\\(E\\\\). Comment définit-on \\\\(\\\\displaystyle\\\\int_{\\\\Omega}f\\\\,\\\\mathrm{d}\\\\mu\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\\\(f=\\\\sum_{i=1}^d f_i e_i\\\\), on définit \\\\(\\\\displaystyle \\\\int_{\\\\Omega}f\\\\,\\\\mathrm{d}\\\\mu=\\\\sum_{i=1}^d\\\\left(\\\\int_{\\\\Omega}f_i\\\\,\\\\mathrm{d}\\\\mu\\\\right)e_i\\\\). Cette définition est indépendante de la base choisie."
+    },
+    {
+      "id": 6,
+      "enonce": "Soit \\\\(\\\\Omega\\\\) un ensemble au plus dénombrable et \\\\(\\\\mu\\\\) une mesure sur \\\\( (\\\\Omega,\\\\mathcal{P}(\\\\Omega))\\\\). Comment caractériser \\\\(\\\\mu\\\\) à partir de ses valeurs sur les singletons ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "En posant \\\\(p_\\\\omega=\\\\mu(\\\\{\\\\omega\\\\})\\\\) pour \\\\(\\\\omega\\\\in\\\\Omega\\\\), on a, pour tout \\\\(A\\\\subset\\\\Omega\\\\), \\\\(\\\\displaystyle \\\\mu(A)=\\\\sum_{\\\\omega\\\\in A}p_\\\\omega\\\\). Autrement dit, \\\\(\\\\displaystyle \\\\mu=\\\\sum_{\\\\omega\\\\in\\\\Omega}p_\\\\omega\\\\delta_\\\\omega\\\\), où \\\\(\\\\delta_\\\\omega\\\\) désigne la mesure de Dirac en \\\\(\\\\omega\\\\). La mesure est donc entièrement déterminée par ses valeurs sur les singletons."
+    },
+    {
+      "id": 7,
+      "enonce": "Réciproquement, soit \\\\( (p_\\\\omega)_{\\\\omega\\\\in\\\\Omega}\\\\) une famille d'éléments de \\\\(\\\\mathbb{R}_+\\\\), avec \\\\(\\\\Omega\\\\) au plus dénombrable. Que peut-on construire ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Il existe une unique mesure \\\\(\\\\mu\\\\) sur \\\\( (\\\\Omega,\\\\mathcal{P}(\\\\Omega))\\\\) telle que \\\\(\\\\mu(\\\\{\\\\omega\\\\})=p_\\\\omega\\\\) pour tout \\\\(\\\\omega\\\\in\\\\Omega\\\\). Elle est donnée par \\\\(\\\\displaystyle \\\\mu=\\\\sum_{\\\\omega\\\\in\\\\Omega}p_\\\\omega\\\\delta_\\\\omega\\\\), c'est-à-dire \\\\(\\\\displaystyle \\\\mu(A)=\\\\sum_{\\\\omega\\\\in A}p_\\\\omega\\\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Dans le cadre précédent, à quelle condition \\\\(\\\\mu\\\\) est-elle une mesure de probabilité ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\\\(\\\\mu\\\\) est une mesure de probabilité si et seulement si \\\\(\\\\mu(\\\\Omega)=1\\\\), ce qui équivaut à \\\\(\\\\displaystyle \\\\sum_{\\\\omega\\\\in\\\\Omega}p_\\\\omega=1\\\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Soit \\\\(X:(\\\\Omega,\\\\mathcal{F},\\\\mathbb{P})\\\\to(E,\\\\mathcal{E})\\\\) une variable aléatoire. Comment définit-on sa loi, notée \\\\(\\\\mathbb{P}_X\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La loi de \\\\(X\\\\), ou mesure image de \\\\(\\\\mathbb{P}\\\\) par \\\\(X\\\\), est la mesure \\\\(\\\\mathbb{P}_X\\\\) définie sur \\\\( (E,\\\\mathcal{E})\\\\) par \\\\(\\\\displaystyle \\\\mathbb{P}_X(A)=\\\\mathbb{P}(X\\\\in A)=\\\\mathbb{P}(X^{-1}(A))\\\\), pour tout \\\\(A\\\\in\\\\mathcal{E}\\\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Quand dit-on qu'une variable aléatoire \\\\(X\\\\) à valeurs dans \\\\(E\\\\) est discrète ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(X\\\\) est une variable aléatoire discrète si son image \\\\(X(\\\\Omega)=\\\\{X(\\\\omega):\\\\omega\\\\in\\\\Omega\\\\}\\\\) est un sous-ensemble au plus dénombrable de \\\\(E\\\\). Dans ce cas, sa loi \\\\(\\\\mathbb{P}_X\\\\) est une mesure discrète."
+    },
+    {
+      "id": 11,
+      "enonce": "Que signifie la notation \\\\(\\\\mathbb{P}(X=x)\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Par définition, \\\\(\\\\displaystyle \\\\mathbb{P}(X=x)=\\\\mathbb{P}(X^{-1}(\\\\{x\\\\}))\\\\). De manière équivalente, \\\\(\\\\displaystyle \\\\mathbb{P}(X=x)=\\\\mathbb{P}_X(\\\\{x\\\\})\\\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Supposons que \\\\(E_0\\\\subset E\\\\) soit fini de cardinal \\\\(N\\\\). Quand dit-on que \\\\(X\\\\) est uniforme sur \\\\(E_0\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(X\\\\) est uniforme sur \\\\(E_0\\\\) si \\\\(X(\\\\Omega)\\\\subset E_0\\\\) et si, pour tout \\\\(x\\\\in E_0\\\\), \\\\(\\\\displaystyle \\\\mathbb{P}(X=x)=\\\\frac{1}{N}\\\\)."
+    },
+    {
+      "id": 13,
+      "enonce": "Supposons \\\\(\\\\{0,1\\\\}\\\\subset E\\\\). Soit \\\\(p\\\\in[0,1]\\\\). Donner la définition d'une variable aléatoire de Bernoulli de paramètre \\\\(p\\\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(X\\\\) suit une loi de Bernoulli de paramètre \\\\(p\\\\), notée \\\\(X\\\\sim\\\\mathcal{B}(p)\\\\), si \\\\(X(\\\\Omega)\\\\subset\\\\{0,1\\\\}\\\\) et \\\\(\\\\displaystyle \\\\mathbb{P}(X=1)=p\\\\), \\\\(\\\\displaystyle \\\\mathbb{P}(X=0)=1-p\\\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Supposons \\\\(\\\\{0,1,\\\\ldots,n\\\\}\\\\subset E\\\\), avec \\\\(n\\\\in\\\\mathbb{N}^*\\\\). Donner la définition d'une variable aléatoire binomiale de paramètres \\\\(n\\\\) et \\\\(p\\\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(X\\\\) suit une loi binomiale de paramètres \\\\(n\\\\) et \\\\(p\\\\), notée \\\\(X\\\\sim\\\\mathcal{B}(n,p)\\\\), si \\\\(X(\\\\Omega)\\\\subset\\\\{0,1,\\\\ldots,n\\\\}\\\\) et, pour tout \\\\(k\\\\in\\\\{0,1,\\\\ldots,n\\\\}\\\\), \\\\(\\\\displaystyle \\\\mathbb{P}(X=k)=\\\\binom{n}{k}p^k(1-p)^{n-k}\\\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Supposons \\\\(\\\\mathbb{N}\\\\subset E\\\\). Soit \\\\(\\\\lambda>0\\\\). Donner la définition d'une variable aléatoire de Poisson de paramètre \\\\(\\\\lambda\\\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(X\\\\) suit une loi de Poisson de paramètre \\\\(\\\\lambda\\\\), notée \\\\(X\\\\sim\\\\mathcal{P}(\\\\lambda)\\\\), si \\\\(X(\\\\Omega)\\\\subset\\\\mathbb{N}\\\\) et, pour tout \\\\(k\\\\in\\\\mathbb{N}\\\\), \\\\(\\\\displaystyle \\\\mathbb{P}(X=k)=e^{-\\\\lambda}\\\\frac{\\\\lambda^k}{k!}\\\\)."
+    },
+    {
+      "id": 16,
+      "enonce": "Rappeler la construction de l'intégrale de Lebesgue d'une fonction mesurable positive \\\\(f:E\\\\to[0,+\\\\infty]\\\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On commence par les fonctions indicatrices : \\\\(\\\\displaystyle \\\\int_E\\\\mathbf{1}_A\\\\,\\\\mathrm{d}\\\\mu=\\\\mu(A)\\\\). Pour une fonction étagée positive \\\\(f=\\\\sum_{k=1}^n a_k\\\\mathbf{1}_{A_k}\\\\), avec les \\\\(A_k\\\\) mesurables deux à deux disjoints et \\\\(a_k\\\\geq0\\\\), on pose \\\\(\\\\displaystyle \\\\int_E f\\\\,\\\\mathrm{d}\\\\mu=\\\\sum_{k=1}^n a_k\\\\mu(A_k)\\\\). Pour une fonction mesurable positive quelconque, on définit \\\\(\\\\displaystyle \\\\int_E f\\\\,\\\\mathrm{d}\\\\mu=\\\\sup\\\\left\\\\{\\\\int_E g\\\\,\\\\mathrm{d}\\\\mu:\\\\ g\\\\text{ étagée positive},\\\\ 0\\\\leq g\\\\leq f\\\\right\\\\}\\\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Comment définit-on l'intégrale d'une fonction réelle mesurable \\\\(f:E\\\\to\\\\mathbb{R}\\\\) à partir de sa partie positive et de sa partie négative ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On écrit \\\\(f=f^+-f^-\\\\), avec \\\\(f^+=\\\\max(f,0)\\\\) et \\\\(f^-=\\\\max(-f,0)\\\\). Si au moins une des deux intégrales est finie, on peut définir \\\\(\\\\displaystyle \\\\int_E f\\\\,\\\\mathrm{d}\\\\mu=\\\\int_E f^+\\\\,\\\\mathrm{d}\\\\mu-\\\\int_E f^-\\\\,\\\\mathrm{d}\\\\mu\\\\). La fonction est intégrable si et seulement si \\\\(\\\\displaystyle \\\\int_E|f|\\\\,\\\\mathrm{d}\\\\mu<+\\\\infty\\\\), auquel cas les deux intégrales sont finies."
+    },
+    {
+      "id": 18,
+      "enonce": "On dit qu'une mesure \\\\(\\\\mu\\\\) sur \\\\(E\\\\) est discrète si elle est concentrée sur un ensemble au plus dénombrable. Donner une définition précise.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure \\\\(\\\\mu\\\\) est dite discrète s'il existe un sous-ensemble \\\\(E_0\\\\subset E\\\\), au plus dénombrable, tel que \\\\(\\\\displaystyle \\\\mu(E\\\\setminus E_0)=0\\\\). On dit alors que \\\\(\\\\mu\\\\) est concentrée sur \\\\(E_0\\\\)."
+    },
+    {
+      "id": 19,
+      "enonce": "Pour \\\\(x\\\\in E\\\\), qu'est-ce que la mesure de Dirac en \\\\(x\\\\), notée \\\\(\\\\delta_x\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure de Dirac en \\\\(x\\\\) est la mesure définie sur \\\\(E\\\\) par \\\\(\\\\displaystyle \\\\delta_x(A)=\\\\mathbf{1}_A(x)\\\\) pour tout ensemble mesurable \\\\(A\\\\). C'est une mesure de probabilité discrète, concentrée sur \\\\(E_0=\\\\{x\\\\}\\\\). De plus, pour toute fonction mesurable positive, \\\\(\\\\displaystyle \\\\int_E f\\\\,\\\\mathrm{d}\\\\delta_x=f(x)\\\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Que peut-on dire de la loi d'une variable aléatoire de Poisson de paramètre \\\\(\\\\lambda>0\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La loi d'une variable aléatoire de Poisson est une mesure de probabilité discrète sur \\\\(\\\\mathbb{N}\\\\), avec \\\\(\\\\displaystyle \\\\mathbb{P}(X=k)=e^{-\\\\lambda}\\\\frac{\\\\lambda^k}{k!}\\\\). Elle est donc concentrée sur \\\\(E_0=\\\\mathbb{N}\\\\)."
+    },
+    {
+      "id": 21,
+      "enonce": "Soit \\\\(X\\\\) une variable aléatoire réelle discrète, de valeurs prises dans un ensemble au plus dénombrable \\\\(E_0\\\\subset\\\\mathbb{R}\\\\). Si \\\\(\\\\displaystyle \\\\sum_{x\\\\in E_0}|x|p_x<+\\\\infty\\\\), où \\\\(p_x=\\\\mathbb{P}(X=x)\\\\), que peut-on dire de \\\\(X\\\\) et de son espérance ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La variable aléatoire \\\\(X\\\\) est intégrable, c'est-à-dire \\\\(\\\\mathbb{E}(|X|)<+\\\\infty\\\\). Son espérance est donnée par \\\\(\\\\displaystyle \\\\mathbb{E}(X)=\\\\sum_{x\\\\in E_0}xp_x\\\\). On dit également que \\\\(X\\\\) admet un moment absolu d'ordre \\\\(1\\\\)."
+    },
+    {
+      "id": 22,
+      "enonce": "Si \\\\(E_0=\\\\{x_0,x_1,x_2,\\\\ldots\\\\}\\\\) est dénombrable et que \\\\(X\\\\) est intégrable, comment s'écrit \\\\(\\\\mathbb{E}(X)\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\\\(\\\\displaystyle \\\\mathbb{E}(X)=\\\\sum_{n=0}^{+\\\\infty}x_n p_{x_n}\\\\), où \\\\(p_{x_n}=\\\\mathbb{P}(X=x_n)\\\\). La convergence est assurée par l'intégrabilité de \\\\(X\\\\), c'est-à-dire par \\\\(\\\\displaystyle \\\\sum_{n=0}^{+\\\\infty}|x_n|p_{x_n}<+\\\\infty\\\\)."
+    },
+    {
+      "id": 23,
+      "enonce": "Si \\\\(X\\\\) est une variable aléatoire discrète, que peut-on dire de sa loi \\\\(\\\\mathbb{P}_X\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La loi \\\\(\\\\mathbb{P}_X\\\\) est une mesure discrète. Elle est concentrée sur l'ensemble au plus dénombrable \\\\(X(\\\\Omega)\\\\). Plus précisément, \\\\(\\\\displaystyle \\\\mathbb{P}_X=\\\\sum_{x\\\\in X(\\\\Omega)}\\\\mathbb{P}(X=x)\\\\,\\\\delta_x\\\\)."
+    },
+    {
+      "id": 24,
+      "enonce": "Rappeler la définition de la variance d'une variable aléatoire réelle \\\\(X\\\\) telle que \\\\(\\\\mathbb{E}(X^2)<+\\\\infty\\\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La variance est définie par \\\\(\\\\displaystyle \\\\operatorname{Var}(X)=\\\\mathbb{E}\\\\left[(X-\\\\mathbb{E}(X))^2\\\\right]\\\\). En développant, on obtient la formule de Koenig-Huygens : \\\\(\\\\displaystyle \\\\operatorname{Var}(X)=\\\\mathbb{E}(X^2)-\\\\mathbb{E}(X)^2\\\\)."
+    },
+    {
+      "id": 25,
+      "enonce": "Soit \\\\(X\\\\) uniforme sur \\\\(E=\\\\{1,2,\\\\ldots,N\\\\}\\\\). Quelle est son espérance et quelle est sa variance ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\\\(\\\\displaystyle \\\\mathbb{E}(X)=\\\\frac{N+1}{2}\\\\) et \\\\(\\\\displaystyle \\\\operatorname{Var}(X)=\\\\frac{N^2-1}{12}\\\\). En effet, \\\\(\\\\displaystyle \\\\mathbb{E}(X^2)=\\\\frac{1}{N}\\\\sum_{k=1}^N k^2=\\\\frac{(N+1)(2N+1)}{6}\\\\), puis on applique \\\\(\\\\operatorname{Var}(X)=\\\\mathbb{E}(X^2)-\\\\mathbb{E}(X)^2\\\\)."
+    },
+    {
+      "id": 26,
+      "enonce": "Soit \\\\(X\\\\sim\\\\mathcal{B}(p)\\\\) une variable aléatoire de Bernoulli de paramètre \\\\(p\\\\). Quelle est son espérance et sa variance ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Comme \\\\(X\\\\in\\\\{0,1\\\\}\\\\), on a \\\\(\\\\displaystyle \\\\mathbb{E}(X)=p\\\\). De plus, \\\\(X^2=X\\\\), donc \\\\(\\\\displaystyle \\\\operatorname{Var}(X)=\\\\mathbb{E}(X^2)-\\\\mathbb{E}(X)^2=p-p^2=p(1-p)\\\\)."
+    },
+    {
+      "id": 27,
+      "enonce": "Soit \\\\(X\\\\sim\\\\mathcal{B}(n,p)\\\\) une variable aléatoire binomiale. Quelle est son espérance et sa variance ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\\\(\\\\displaystyle \\\\mathbb{E}(X)=np\\\\) et \\\\(\\\\displaystyle \\\\operatorname{Var}(X)=np(1-p)\\\\). Une manière de le retrouver consiste à écrire \\\\(X=\\\\sum_{i=1}^n X_i\\\\), où les \\\\(X_i\\\\) sont indépendantes et suivent une loi de Bernoulli \\\\(\\\\mathcal{B}(p)\\\\). Alors \\\\(\\\\mathbb{E}(X)=\\\\sum_i\\\\mathbb{E}(X_i)=np\\\\) et \\\\(\\\\operatorname{Var}(X)=\\\\sum_i\\\\operatorname{Var}(X_i)=np(1-p)\\\\)."
+    },
+    {
+      "id": 28,
+      "enonce": "Soit \\\\(X\\\\sim\\\\mathcal{P}(\\\\lambda)\\\\) une variable aléatoire de Poisson. Quelle est son espérance et sa variance ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour une loi de Poisson de paramètre \\\\(\\\\lambda>0\\\\), on a \\\\(\\\\displaystyle \\\\mathbb{E}(X)=\\\\lambda\\\\) et \\\\(\\\\displaystyle \\\\operatorname{Var}(X)=\\\\lambda\\\\). En particulier, \\\\(\\\\mathbb{E}(X^2)=\\\\lambda^2+\\\\lambda\\\\)."
+    },
+    {
+      "id": 29,
+      "enonce": "Citer le théorème de continuité des intégrales à paramètres.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Soit \\\\(U\\\\) un ouvert d'un espace normé, \\\\(u_0\\\\in U\\\\), et \\\\(f:U\\\\times E\\\\to\\\\mathbb{R}\\\\) une fonction telle que : (i) pour tout \\\\(u\\\\in U\\\\), \\\\(x\\\\mapsto f(u,x)\\\\) est mesurable ; (ii) pour \\\\(\\\\mu\\\\)-presque tout \\\\(x\\\\), \\\\(u\\\\mapsto f(u,x)\\\\) est continue en \\\\(u_0\\\\) ; (iii) il existe \\\\(g\\\\in L^1(E,\\\\mathcal{E},\\\\mu)\\\\) telle que, pour tout \\\\(u\\\\in U\\\\), \\\\(\\\\lvert f(u,x)\\\\rvert\\\\leq g(x)\\\\) pour \\\\(\\\\mu\\\\)-presque tout \\\\(x\\\\). Alors \\\\(\\\\displaystyle F(u)=\\\\int_E f(u,x)\\\\,\\\\mathrm{d}\\\\mu(x)\\\\) est bien définie et continue en \\\\(u_0\\\\)."
+    },
+    {
+      "id": 30,
+      "enonce": "Soit \\\\(f:\\\\mathbb{R}\\\\to\\\\mathbb{R}\\\\) continue et bornée, et \\\\(g\\\\in L^1(\\\\mathbb{R},\\\\mathcal{B}(\\\\mathbb{R}),\\\\mu)\\\\). Donner la formule du produit de convolution \\\\(f*g\\\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Lorsque l'on travaille avec la mesure de Lebesgue, le produit de convolution est défini par \\\\(\\\\displaystyle (f*g)(x)=\\\\int_{\\\\mathbb{R}}f(x-y)g(y)\\\\,\\\\mathrm{d}y\\\\). De manière équivalente, par changement de variable, \\\\(\\\\displaystyle (f*g)(x)=\\\\int_{\\\\mathbb{R}}f(y)g(x-y)\\\\,\\\\mathrm{d}y\\\\), lorsque les hypothèses d'intégrabilité sont satisfaites."
+    },
+    {
+      "id": 31,
+      "enonce": "Citer le théorème de dérivabilité des intégrales à paramètres permettant de dériver sous le signe intégral.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Soit \\\\(I\\\\) un intervalle, \\\\(u_0\\\\in I\\\\), et \\\\(f:I\\\\times E\\\\to\\\\mathbb{R}\\\\). On suppose que : (i) pour tout \\\\(u\\\\in I\\\\), \\\\(x\\\\mapsto f(u,x)\\\\) est intégrable ; (ii) pour \\\\(\\\\mu\\\\)-presque tout \\\\(x\\\\), \\\\(u\\\\mapsto f(u,x)\\\\) est dérivable en \\\\(u_0\\\\) ; (iii) il existe \\\\(g\\\\in L^1(E,\\\\mathcal{E},\\\\mu)\\\\) telle que, pour tout \\\\(u\\\\) suffisamment proche de \\\\(u_0\\\\), \\\\(\\\\displaystyle |f(u,x)-f(u_0,x)|\\\\leq g(x)|u-u_0|\\\\) pour \\\\(\\\\mu\\\\)-presque tout \\\\(x\\\\). Alors \\\\(F(u)=\\\\int_E f(u,x)\\\\,\\\\mathrm{d}\\\\mu(x)\\\\) est dérivable en \\\\(u_0\\\\) et \\\\(\\\\displaystyle F'(u_0)=\\\\int_E\\\\frac{\\\\partial f}{\\\\partial u}(u_0,x)\\\\,\\\\mathrm{d}\\\\mu(x)\\\\)."
+    }
+  ]
+}
