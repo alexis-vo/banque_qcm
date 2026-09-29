@@ -1,0 +1,123 @@
+{
+  "titre_chapitre": "Réseaux informatiques et Protocoles TCP/IP",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Dans un réseau filaire Ethernet, quels sont les types d'équipement qui doivent nécessairement mettre en oeuvre le protocole IP (v4 ou v6) ?",
+      "options": [
+        "Les routeurs.",
+        "Les commutateurs.",
+        "Les postes de travail (PC)."
+      ],
+      "reponse_correcte": [0, 2],
+      "explication": "Les routeurs et les postes de travail doivent obligatoirement implémenter le protocole IP pour communiquer, contrairement aux commutateurs de niveau 2."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle est l'adresse de réseau pour une machine configurée avec l'adresse IP et le masque 192.168.35.57/19 ?",
+      "options": [
+        "192.168.0.0",
+        "192.168.32.0",
+        "192.168.35.0",
+        "192.168.64.0"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le masque /19 (255.255.224.0) appliqué à l'adresse 192.168.35.57 donne l'adresse réseau 192.168.32.0."
+    },
+    {
+      "id": 3,
+      "enonce": "La machine A (172.16.1.27/24) souhaite envoyer un ping vers 172.16.2.28. Quel est le premier paquet envoyé ?",
+      "options": [
+        "Une requête DNS.",
+        "Une requête ARP concernant l'adresse de la passerelle 172.16.1.1.",
+        "Un paquet ICMP adressé directement à 172.16.2.28.",
+        "Une requête ARP concernant l'adresse 172.16.2.28."
+      ],
+      "reponse_correcte": 1,
+      "explication": "La cible étant sur un sous-réseau distant, la machine A doit d'abord résoudre l'adresse MAC de sa passerelle par défaut via une requête ARP."
+    },
+    {
+      "id": 4,
+      "enonce": "Quel mécanisme peut être mis en oeuvre lorsque le MTU est plus faible sur l'un des réseaux traversés qu'aux extrémités ?",
+      "options": [
+        "La fragmentation.",
+        "La translation d'adresse.",
+        "Le contrôle de flux.",
+        "Le routage dynamique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La fragmentation permet de diviser un paquet en morceaux plus petits pour s'adapter à un MTU inférieur."
+    },
+    {
+      "id": 5,
+      "enonce": "Un routeur reçoit un datagramme IPv4 de longueur 100 octets (DF=0, MF=0, offset=500) et le MTU sortant est de 1500 octets. Que fait le routeur ?",
+      "options": [
+        "Il envoie un message ICMP 'needs fragmentation'.",
+        "Il fragmente le datagramme.",
+        "Il envoie le datagramme sur le réseau désigné tel quel.",
+        "Il supprime le paquet."
+      ],
+      "reponse_correcte": 2,
+      "explication": "La taille du paquet (100 octets) étant inférieure au MTU de sortie (1500 octets), il est transmis normalement sans modification."
+    },
+    {
+      "id": 6,
+      "enonce": "Dans un routeur, quel mécanisme interne occasionne le plus de délai ?",
+      "options": [
+        "La décision de routage d'un paquet.",
+        "La suppression d'un paquet.",
+        "La commutation d'un paquet.",
+        "Le déplacement d'un paquet à l'intérieur d'un tampon."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La décision de routage (analyse de l'en-tête et consultation de la table de routage) est le principal mécanisme interne source de délai."
+    },
+    {
+      "id": 7,
+      "enonce": "Dans un réseau filaire Ethernet, quels équipements doivent nécessairement mettre en oeuvre les protocoles de transport (UDP/TCP) ?",
+      "options": [
+        "Les commutateurs.",
+        "Les routeurs.",
+        "Les postes de travail (PC)."
+      ],
+      "reponse_correcte": 2,
+      "explication": "Les postes de travail (hôtes) mettent en œuvre les protocoles de transport de bout en bout pour les applications."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelles sont les propriétés et garanties assurées par UDP ?",
+      "options": [
+        "Contrôle de congestion et de flux.",
+        "Mode non connecté et remise en best effort (sans garantie de fiabilité ni détection d'erreurs).",
+        "Fiabilité et garantie de remise.",
+        "Mode connecté et ordonnancement."
+      ],
+      "reponse_correcte": 1,
+      "explication": "UDP est un protocole non connecté fonctionnant en mode best-effort, sans garantie de fiabilité."
+    },
+    {
+      "id": 9,
+      "enonce": "Dans une capture TCP, après un segment avec SEQ=300, ACK=600 et length=0, quel est le sequence number d'un nouveau segment de B contenant 100 octets ?",
+      "options": [
+        "100",
+        "300",
+        "600",
+        "1000"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Puisque le segment précédent avait une taille de données nulle, le numéro de séquence pour les prochaines données envoyées reste à 300."
+    },
+    {
+      "id": 10,
+      "enonce": "Dans la même communication TCP, si le dernier segment reçu de A a un SEQ=1000 et length=200, quelle sera la valeur de l'acknowledgement number renvoyé par B ?",
+      "options": [
+        "1000",
+        "1199",
+        "1200",
+        "1300"
+      ],
+      "reponse_correcte": 2,
+      "explication": "L'accusé de réception correspond au prochain octet attendu, soit 1000 + 200 = 1200."
+    }
+  ]
+}

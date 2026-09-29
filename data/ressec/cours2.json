@@ -1,0 +1,128 @@
+{
+  "titre_chapitre": "Couches bases : Couches liaison, Ethernet, Wi-Fi et Commutation",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Cochez les phrases vraies concernant les réseaux 802.11 :",
+      "options": [
+        "a. Dans un réseau 802.11 en mode infrastructure, la station doit obligatoirement émettre des trames de découverte (PROBE REQUEST).",
+        "b. Dans un réseau 802.11, le destinataire peut s'assurer de l'absence d'erreurs de transmission dans une trame reçue en vérifiant son CRC.",
+        "c. Le mode de contrôle d'accès au support CSMA/CD (détection de collision) est utilisé dans les réseaux 802.11.",
+        "d. Dans un réseau 802.11, l'émetteur retransmet les données tant que le destinataire ne les a pas acquittées."
+      ],
+      "reponses_correctes": [1, 3],
+      "explication": "Les stations peuvent faire de l'écoute passive (Beacons) sans Probe Request (a faux). Le CRC permet de détecter les erreurs (b vrai). Le Wi-Fi utilise CSMA/CA et non CSMA/CD (c faux). L'acquittement (ACK) est obligatoire et déclenche une retransmission en cas d'absence (d vrai)."
+    },
+    {
+      "id": 2,
+      "enonce": "Dans un réseau filaire Ethernet, quels sont les types d'équipement qui doivent mettre en oeuvre le protocole Ethernet ?",
+      "options": [
+        "a. Les commutateurs.",
+        "b. Les routeurs.",
+        "c. Les postes de travail (PC)."
+      ],
+      "reponses_correctes": [0, 1, 2],
+      "explication": "Tous ces équipements mettent en œuvre Ethernet : les commutateurs au niveau 2, les routeurs via leurs interfaces physiques connectées au réseau local, et les postes de travail via leurs cartes réseau."
+    },
+    {
+      "id": 3,
+      "enonce": "Dans quel cas un routeur transfèrera-t-il une trame de niveau 2 sans modification d'un réseau au réseau voisin ?",
+      "options": [
+        "a. En aucun cas.",
+        "b. Si l'émetteur et le destinataire sont sur le même réseau.",
+        "c. Si l'adresse MAC de destination est l'adresse de diffusion (FF:FF:FF:FF:FF:FF).",
+        "d. Si la trame provient d'un autre routeur.",
+        "e. Si la trame encapsule un datagramme IP destiné à un réseau distant."
+      ],
+      "reponses_correctes": [0],
+      "explication": "Un routeur termine systématiquement la couche 2 : il désencapsule le paquet IP et crée une toute nouvelle trame pour le réseau suivant. Il ne transfère jamais une trame de niveau 2 telle quelle."
+    },
+    {
+      "id": 4,
+      "enonce": "Cochez les phrases correctes concernant les adresses MAC :",
+      "options": [
+        "a. Pour envoyer un paquet à une machine B sur un réseau distant, la source A doit obtenir l'adresse MAC de B via ARP.",
+        "b. Une adresse MAC peut identifier un groupe de multi-diffusion.",
+        "c. En Ethernet, l'adresse MAC du destinataire est transmise avant celle de la source.",
+        "d. Les trois premiers octets d'une adresse MAC correspondent toujours au code unique (OUI) d'un fabricant.",
+        "e. Un adaptateur Ethernet ou Wi-Fi n'a qu'une seule adresse MAC, définie à sa construction, qui ne peut être modifiée.",
+        "f. Une adresse MAC peut être sur 48 ou 64 bits."
+      ],
+      "reponses_correctes": [1, 2, 5],
+      "explication": "Les adresses MAC gèrent le multicast (b vrai), le destinataire est placé avant la source dans l'en-tête (c vrai), et les formats existent en 48 bits (EUI-48) ou 64 bits (EUI-64, f vrai). Les autres propositions sont fausses (ARP cible la passerelle pour le distant, l'OUI n'est pas universel à cause du MAC randomizing, et une MAC est modifiable)."
+    },
+    {
+      "id": 5,
+      "enonce": "Cochez les phrases correctes concernant les codes détecteurs ou correcteurs d'erreur :",
+      "options": [
+        "a. La détection d'erreur dans la couche 2 se fait à l'aide d'un bit de parité.",
+        "b. Le code de détection d'erreur utilisé dans la couche 2 est le code de Hamming.",
+        "c. Le code de détection d'erreur utilisé dans la couche 2 est le contrôle de redondance cyclique.",
+        "d. Si un code est capable de détecter une erreur, alors il est capable de la corriger.",
+        "e. La détection d'erreur dans la couche 2 est conçue pour détecter plus efficacement les erreurs sur des bits consécutifs."
+      ],
+      "reponses_correctes": [2, 4],
+      "explication": "Le contrôle de redondance cyclique (CRC) est le standard de la couche 2 (c vrai) et est particulièrement efficace contre les erreurs en rafale sur des bits consécutifs (e vrai)."
+    },
+    {
+      "id": 6,
+      "enonce": "Cochez les supports physiques sur lesquels Ethernet peut fonctionner :",
+      "options": [
+        "a. Câble HDMI.",
+        "b. Câble DVI.",
+        "c. Câble à paires de cuivre torsadées.",
+        "d. Câble série (RS232).",
+        "e. Fibre optique.",
+        "f. Câble coaxial.",
+        "g. Câble console Cisco."
+      ],
+      "reponses_correctes": [0, 2, 4, 5],
+      "explication": "Ethernet fonctionne historiquement et traditionnellement sur paires torsadées (c), fibre optique (e) et câble coaxial (f). De plus, depuis la norme HDMI 1.4 (HEC - HDMI Ethernet Channel), un canal Ethernet peut également être transporté sur un câble HDMI (a)."
+    },
+    {
+      "id": 7,
+      "enonce": "Cochez les affirmations correctes concernant le protocole Ethernet :",
+      "options": [
+        "a. Une trame Ethernet encapsule toujours un datagramme IPv4 ou IPv6.",
+        "b. Le mécanisme CSMA/CD est inutile sur un réseau commuté en full-duplex.",
+        "c. Le champ EtherType permet de savoir quel est le protocole de couche 3 utilisé.",
+        "d. Les protocoles Ethernet II (DIX II) et Ethernet 802.3 ont des formats de trame identiques.",
+        "e. Avec CSMA/CD, un équipement n'envoie de données que lorsqu'il a reçu un message CTS.",
+        "f. Les domaines de collision sont plus étendus sur un réseau avec concentrateurs que sur un réseau avec commutateurs.",
+        "g. Lorsque personne n'émet sur une liaison Ethernet, une succession de 1 et de 0 est diffusée en permanence."
+      ],
+      "reponses_correctes": [1, 2, 5],
+      "explication": "Le CSMA/CD est inutile en full-duplex (b vrai), le champ EtherType identifie le protocole de niveau supérieur (c vrai), et les concentrateurs (hubs) étendent le domaine de collision à l'inverse des commutateurs (f vrai)."
+    },
+    {
+      "id": 8,
+      "enonce": "Cochez les affirmations correctes concernant le fonctionnement d'un commutateur :",
+      "options": [
+        "a. Lorsque l'adresse MAC de destination est une adresse de diffusion ou de multi-diffusion, le commutateur l'envoie sur tous ses ports actifs à l'exclusion du port d'origine.",
+        "b. Lorsqu'on configure une adresse IP sur un commutateur, cela doit nécessairement être la même adresse IP que la passerelle par défaut.",
+        "c. Lorsqu'un commutateur doit transmettre une trame à une adresse MAC absente de sa table CAM, il l'envoie sur tous ses ports actifs à l'exclusion du port d'origine.",
+        "d. Lorsqu'un commutateur a enregistré un couple adresse MAC / port dans sa table CAM, aucune adresse MAC ne sera plus autorisée sur ce port.",
+        "e. Un commutateur ne peut pas avoir d'adresse IP, sauf si un routeur est présent sur le réseau.",
+        "f. Un commutateur envoie des messages ARP pour savoir quelles adresses MAC sont accessibles via quels ports.",
+        "g. La table CAM d'un commutateur est renseignée en s'appuyant sur les adresses MAC source, et non destination."
+      ],
+      "reponses_correctes": [0, 2, 6],
+      "explication": "Diffusion/Multicast et adresses inconnues provoquent une inondation (flooding) sur tous les ports sauf l'origine (a et c vrais). La table CAM s'apprend à partir des adresses MAC source (g vrai)."
+    },
+    {
+      "id": 9,
+      "enonce": "Cochez les affirmations exactes concernant les réseaux Wi-Fi :",
+      "options": [
+        "a. Les trames RTS/CTS constituent un protocole distinct, avec un format de trames différent.",
+        "b. Dans un réseau Wi-Fi, il peut y avoir une collision sans que la source d'aucune des trames ne puisse le détecter.",
+        "c. À la différence d'Ethernet, le Wi-Fi inclut un mécanisme d'acquittement des trames.",
+        "d. Le mécanisme RTS/CTS permet d'empêcher toute collision.",
+        "e. Le BSSID identifie un point d'accès unique, associé à un nom de réseau (SSID) unique sur une fréquence et un canal donnés.",
+        "f. Le mécanisme CSMA/CD est utilisé pour détecter les collisions sur un réseau Wi-Fi.",
+        "g. Un réseau Wi-Fi comporte nécessairement un point d'accès."
+      ],
+      "reponses_correctes": [1, 4],
+      "explication": "Le problème des nœuds cachés peut provoquer des collisions indétectables par les sources (b vrai). Le BSSID identifie de manière unique l'interface radio du point d'accès (e vrai)."
+    }
+  ]
+}

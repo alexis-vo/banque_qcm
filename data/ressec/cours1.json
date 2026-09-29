@@ -1,0 +1,95 @@
+{
+  "titre_chapitre": "Introduction : architectures des réseaux, Modèle OSI et Protocoles",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Cochez les affirmations correctes concernant les topologies et modes de transmission :",
+      "options": [
+        "Un réseau maillé contient n(n-1)/2 liens.",
+        "Un réseau en étoile nécessite un équipement d'interconnexion.",
+        "Il est plus facile d'ajouter de nouveaux noeuds dans un réseau en étoile que dans un réseau en anneau.",
+        "Dans un réseau complètement connecté en full-duplex, il ne peut pas y avoir de collisions.",
+        "Un réseau radio est nécessairement organisé suivant une topologie en bus."
+      ],
+      "reponse_correcte": [1, 2, 3],
+      "explication": "Un réseau en étoile nécessite un équipement central, facilite l'ajout de nœuds sans couper l'anneau, et un réseau pleinement maillé en full-duplex possède des liens dédiés évitant les collisions. La formule n(n-1)/2 s'applique uniquement au maillage complet, et les réseaux radio ne se limitent pas à une topologie en bus."
+    },
+    {
+      "id": 2,
+      "enonce": "Un équipement sur un réseau d'entreprise doit envoyer un message à l'ensemble des routeurs de l'organisation. Quel est le mode de communication le plus indiqué ?",
+      "options": [
+        "Multi-diffusion (Multicast)",
+        "Unidiffusion (Unicast)",
+        "Diffusion (Broadcast)",
+        "Unidiffusion aléatoire (Anycast)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La multidiffusion (multicast) permet d'envoyer un message unique vers un groupe spécifique de destinataires (comme les routeurs d'un domaine de routage) sans surcharger l'ensemble du réseau."
+    },
+    {
+      "id": 3,
+      "enonce": "Quelle stratégie de multiplexage est traditionnellement utilisée pour la transmission de signaux analogiques ?",
+      "options": [
+        "Le multiplexage fréquentiel",
+        "Le multiplexage statistique",
+        "Le multiplexage temporel",
+        "Le multiplexage spatial"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le multiplexage fréquentiel (FDM) divise la bande passante en plusieurs bandes de fréquences distinctes, ce qui est traditionnellement utilisé pour les signaux analogiques (radio, télévision)."
+    },
+    {
+      "id": 4,
+      "enonce": "Cochez les affirmations correctes concernant la commutation de paquets :",
+      "options": [
+        "La commutation de paquets établit un circuit avant que les noeuds ne puissent communiquer.",
+        "La commutation de paquets optimise l'utilisation de la capacité des liens.",
+        "La commutation de paquets utilise par défaut un multiplexage statistique.",
+        "La commutation de paquets garantit par défaut les performances."
+      ],
+      "reponse_correcte": [1, 2],
+      "explication": "La commutation de paquets partage dynamiquement les liens selon les besoins (multiplexage statistique) et optimise ainsi l'utilisation de la capacité, sans garantir de performances par défaut (best-effort) ni nécessiter d'établissement de circuit."
+    },
+    {
+      "id": 5,
+      "enonce": "Cochez les affirmations correctes concernant les opérateurs de transport (fournisseurs d'accès) :",
+      "options": [
+        "Seuls les opérateurs de niveau 1 ont accès aux points d'échange Internet (IXP).",
+        "Un opérateur de niveau 2 utilise à la fois des liens de transit et de peering.",
+        "Un opérateur de niveau 2 ne fournit pas de liens de transit.",
+        "Un opérateur de niveau 1 peut joindre n'importe quel point d'Internet sans avoir à payer une souscription pour un lien de transit.",
+        "Un opérateur de niveau 3 n'utilise pas de lien de peering.",
+        "Tous les clients des opérateurs de niveau 1 sont des opérateurs de niveau 2 ou de niveau 3."
+      ],
+      "reponse_correcte": [1, 3, 4],
+      "explication": "Un opérateur de niveau 2 combine transit et peering. Un opérateur de niveau 1 joint l'ensemble d'Internet sans payer de transit (grâce au peering global). Enfin, un opérateur de niveau 3 (accès final) n'utilise pas de liens de peering."
+    },
+    {
+      "id": 6,
+      "enonce": "Cochez les affirmations correctes concernant la grammaire ASN.1 fournie :",
+      "options": [
+        "Cette grammaire autorise des messages de taille arbitrairement longue.",
+        "Cette grammaire permet d'affirmer qu'un message de type M1 sera toujours suivi d'un message M2 en réponse.",
+        "Il y a trois types de messages possibles.",
+        "Un message syntaxiquement correct contient toujours un triplet de coordonnées (x, y, z).",
+        "Cette grammaire ne permet pas de savoir si le protocole qu'elle décrit définit l'existence d'un client et d'un serveur."
+      ],
+      "reponse_correcte": [0, 4],
+      "explication": "La récursion sur M2 permet des structures de taille arbitrairement longue, et l'ASN.1 décrit uniquement la syntaxe des données sans spécifier les rôles applicatifs (client/serveur) ou l'enchaînement temporel."
+    },
+    {
+      "id": 7,
+      "enonce": "Cochez les affirmations correctes concernant le modèle OSI :",
+      "options": [
+        "Lors de la réception de données, les PDU sont passés des couches inférieures vers les couches supérieures.",
+        "Lors de l'émission de données, les PDU sont passés des couches inférieures vers les couches supérieures.",
+        "Dans le paquet qui transite sur le lien, les en-têtes des protocoles de couches inférieures se trouvent vers l'extérieur du paquet, et les en-têtes des couches supérieures vers l'intérieur.",
+        "Lors de l'émission de données, au niveau de la couche N, le PDU de la couche N est encapsulé avec les en-têtes du protocole de couche N+1.",
+        "Lors de l'émission de données, au niveau de la couche N, le PDU de la couche N+1 est encapsulé avec les en-têtes du protocole de la couche N.",
+        "Dans le paquet qui transite sur le lien, les en-têtes des couches inférieures se trouvent vers l'intérieur et les supérieures vers l'extérieur."
+      ],
+      "reponse_correcte": [0, 2, 4],
+      "explication": "À la réception, les données remontent des couches basses vers les hautes (décapsulation). Les en-têtes des couches basses enveloppent l'extérieur du paquet, et chaque couche N encapsule le PDU de la couche N+1 avec son propre en-tête."
+    }
+  ]
+}

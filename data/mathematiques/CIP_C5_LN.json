@@ -1,0 +1,165 @@
+{
+  "titre_chapitre": "C5 - Mesures et intégration II - Cours",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit \\(f:(\\Omega,\\mathcal A)\\to(E,\\mathcal E)\\) une application mesurable et \\(\\mu\\) une mesure sur \\((\\Omega,\\mathcal A)\\). Comment définit-on la mesure image de \\(\\mu\\) par \\(f\\), notée \\(\\mu_f\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La mesure image de \\(\\mu\\) par \\(f\\) est la mesure \\(\\mu_f\\) définie sur \\((E,\\mathcal E)\\) par \\(\\mu_f(B)=\\mu\\bigl(f^{-1}(B)\\bigr)\\) pour tout \\(B\\in\\mathcal E\\). On peut aussi noter \\(\\mu_f=f_\\#\\mu\\). La mesurabilité de \\(f\\) garantit que \\(f^{-1}(B)\\in\\mathcal A\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Citer le théorème de transfert dans sa version générale pour une application mesurable \\(f:(\\Omega,\\mathcal A,\\mu)\\to(E,\\mathcal E)\\) et une fonction mesurable \\(h:E\\to\\mathbb K\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On a \\(h\\in L^1(E,\\mathcal E,\\mu_f)\\) si et seulement si \\(h\\circ f\\in L^1(\\Omega,\\mathcal A,\\mu)\\). Si \\(h\\geq 0\\) ou si \\(h\\) est \\(\\mu_f\\)-intégrable, alors \\(\\displaystyle\\int_E h\\,d\\mu_f=\\int_\\Omega h\\circ f\\,d\\mu\\). Autrement dit, \\(\\displaystyle\\int_E h(x)\\,\\mu_f(dx)=\\int_\\Omega h(f(\\omega))\\,\\mu(d\\omega)\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Soit \\((\\Omega,\\mathcal A,P)\\) un espace probabilisé et \\(X:(\\Omega,\\mathcal A)\\to(E,\\mathcal E)\\) une variable aléatoire. Comment définit-on la loi de \\(X\\), notée \\(P_X\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi de \\(X\\) est la mesure image de \\(P\\) par \\(X\\). Pour tout \\(B\\in\\mathcal E\\), on a \\(P_X(B)=P\\bigl(X^{-1}(B)\\bigr)=P(X\\in B)\\). On peut écrire \\(P_X=X_\\#P\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Citer le théorème de transfert dans sa version probabiliste pour une variable aléatoire \\(X\\) à valeurs dans \\((E,\\mathcal E)\\) et une fonction mesurable \\(h:E\\to\\mathbb K\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On a \\(h\\in L^1(E,\\mathcal E,P_X)\\) si et seulement si \\(h\\circ X\\in L^1(\\Omega,\\mathcal A,P)\\), c'est-à-dire \\(\\mathbb E\\bigl[|h(X)|\\bigr]<+\\infty\\). Si \\(h\\geq 0\\) ou si \\(h\\) est \\(P_X\\)-intégrable, alors \\(\\displaystyle\\int_E h\\,dP_X=\\mathbb E[h(X)]=\\int_\\Omega h(X(\\omega))\\,dP(\\omega)\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Soient \\(\\mu\\) et \\(\\nu\\) deux mesures sur un espace mesurable \\((\\Omega,\\mathcal A)\\). Comment caractériser l'égalité \\(\\mu=\\nu\\) à l'aide des intégrales de fonctions mesurables positives ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\mu=\\nu\\) si et seulement si, pour toute fonction mesurable \\(h:\\Omega\\to[0,+\\infty]\\), \\(\\displaystyle\\int_\\Omega h\\,d\\mu=\\int_\\Omega h\\,d\\nu\\). En particulier, en prenant \\(h=\\mathbf 1_A\\), on retrouve \\(\\mu(A)=\\nu(A)\\) pour tout \\(A\\in\\mathcal A\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Soit \\((\\Omega,\\mathcal A,P)\\) un espace probabilisé et \\(X,Y\\) deux variables aléatoires à valeurs dans \\((E,\\mathcal E)\\). À quelle condition \\(X\\) et \\(Y\\) ont-elles la même loi ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les variables aléatoires \\(X\\) et \\(Y\\) ont la même loi si et seulement si \\(P_X=P_Y\\). De manière équivalente, pour tout \\(B\\in\\mathcal E\\), on a \\(P(X\\in B)=P(Y\\in B)\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Soient \\(p\\in[1,+\\infty]\\), \\(f\\in L^p\\) et \\(\\alpha\\in\\mathbb K\\). Quelle propriété vérifie la norme \\(L^p\\) concernant la multiplication par un scalaire ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(p\\in[1,+\\infty]\\), on a \\(\\|\\alpha f\\|_p=|\\alpha|\\,\\|f\\|_p\\). Pour \\(p<+\\infty\\), cela découle de \\(\\displaystyle\\|\\alpha f\\|_p=\\left(\\int|\\alpha f|^p\\,d\\mu\\right)^{1/p}=|\\alpha|\\,\\|f\\|_p\\). Pour \\(p=+\\infty\\), cette propriété découle de la définition du supremum essentiel."
+    },
+    {
+      "id": 8,
+      "enonce": "Donner l'inégalité de Hölder. Soient \\(p,q\\in[1,+\\infty]\\) des exposants conjugués vérifiant \\(\\frac{1}{p}+\\frac{1}{q}=1\\), et soient \\(f\\in L^p\\) et \\(g\\in L^q\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'inégalité de Hölder affirme que \\(\\displaystyle\\int_\\Omega |fg|\\,d\\mu\\leq\\|f\\|_p\\,\\|g\\|_q\\). En particulier, le produit \\(fg\\) appartient à \\(L^1\\). Les cas \\(p=1,q=+\\infty\\) et \\(p=+\\infty,q=1\\) sont également inclus."
+    },
+    {
+      "id": 9,
+      "enonce": "Que devient l'inégalité de Hölder lorsque \\(p=q=2\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsque \\(p=q=2\\), l'inégalité de Hölder devient l'inégalité de Cauchy-Schwarz : \\(\\displaystyle\\int_\\Omega |fg|\\,d\\mu\\leq\\left(\\int_\\Omega|f|^2\\,d\\mu\\right)^{1/2}\\left(\\int_\\Omega|g|^2\\,d\\mu\\right)^{1/2}\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Citer le théorème de Minkowski pour \\(p\\in[1,+\\infty]\\) et \\(f,g\\in L^p\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Minkowski donne l'inégalité triangulaire \\(\\|f+g\\|_p\\leq\\|f\\|_p+\\|g\\|_p\\). Cette propriété est l'une des propriétés fondamentales de la norme \\(L^p\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Après identification des fonctions égales \\(\\mu\\)-presque partout, que peut-on dire de \\(L^p\\) muni de ses opérations usuelles et de la norme \\(\\|\\cdot\\|_p\\), pour \\(p\\in[1,+\\infty]\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(p\\in[1,+\\infty]\\), \\(L^p\\) est un espace vectoriel normé complet, donc un espace de Banach. On identifie deux fonctions lorsqu'elles sont égales \\(\\mu\\)-presque partout, ce qui permet notamment d'avoir \\(\\|f\\|_p=0\\) si et seulement si \\(f=0\\) dans \\(L^p\\). La complétude est donnée par le théorème de Riesz-Fischer."
+    },
+    {
+      "id": 12,
+      "enonce": "Montrer que \\(L^2\\) est un espace de Hilbert. Quel est le produit scalaire naturel sur \\(L^2\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sur \\(L^2\\), le produit scalaire est défini par \\(\\displaystyle\\langle f,g\\rangle=\\int_\\Omega f\\,\\overline{g}\\,d\\mu\\). Dans le cas réel, cela devient \\(\\displaystyle\\langle f,g\\rangle=\\int_\\Omega fg\\,d\\mu\\). La norme associée est \\(\\|f\\|_2=\\sqrt{\\langle f,f\\rangle}\\). Comme \\(L^2\\) est complet pour cette norme, c'est un espace de Hilbert."
+    },
+    {
+      "id": 13,
+      "enonce": "Énoncer la propriété caractérisant la mesure de Lebesgue \\(\\lambda\\) sur \\((\\mathbb R,\\mathcal B(\\mathbb R))\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Il existe une unique mesure \\(\\lambda\\) sur \\((\\mathbb R,\\mathcal B(\\mathbb R))\\), appelée mesure de Lebesgue, telle que pour tous \\(a,b\\in\\mathbb R\\) avec \\(a<b\\), on ait \\(\\lambda(]a,b[)=b-a\\). Plus généralement, la mesure de tout intervalle est égale à sa longueur."
+    },
+    {
+      "id": 14,
+      "enonce": "Soit \\(f:\\mathbb R\\to\\mathbb K\\) une fonction mesurable. Que signifie \\(f\\in L^1_{\\mathrm{loc}}(\\mathbb R,\\lambda)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La fonction \\(f\\) est localement intégrable si elle est intégrable sur tout compact de \\(\\mathbb R\\). Autrement dit, pour tout compact \\(K\\subset\\mathbb R\\), \\(\\displaystyle\\int_K|f|\\,d\\lambda<+\\infty\\). De manière équivalente, \\(\\displaystyle\\int_a^b|f|\\,d\\lambda<+\\infty\\) pour tous \\(a<b\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Énoncer la première partie du théorème fondamental de l'analyse dans le cadre de Lebesgue. Soit \\(f\\in L^1_{\\mathrm{loc}}(\\mathbb R,\\lambda)\\) et \\(a\\in\\mathbb R\\). On définit \\(F\\) à partir de l'intégrale de \\(f\\). Quelles propriétés vérifie \\(F\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On définit \\(\\displaystyle F(x)=\\int_{[a,x]}f\\,d\\lambda\\) si \\(x\\geq a\\), et \\(\\displaystyle F(x)=-\\int_{[x,a]}f\\,d\\lambda\\) si \\(x<a\\). Alors \\(F\\) est continue sur \\(\\mathbb R\\), dérivable \\(\\lambda\\)-presque partout, et \\(F'(x)=f(x)\\) pour \\(\\lambda\\)-presque tout \\(x\\in\\mathbb R\\)."
+    },
+    {
+      "id": 16,
+      "enonce": "Énoncer la deuxième partie du théorème fondamental de l'analyse. Soit \\(F:\\mathbb R\\to\\mathbb R\\) dérivable en tout point et supposons \\(F'\\in L^1_{\\mathrm{loc}}(\\mathbb R,\\lambda)\\). Que peut-on dire de \\(F(b)-F(a)\\) pour \\(a<b\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tous \\(a<b\\), on a \\(\\displaystyle F(b)-F(a)=\\int_{[a,b]}F'(x)\\,d\\lambda(x)\\). C'est la formule de Newton-Leibniz dans le cadre de l'intégration de Lebesgue. L'hypothèse \\(F'\\in L^1_{\\mathrm{loc}}\\) garantit que \\(F'\\) est intégrable sur tout segment compact."
+    }
+  ]
+}
