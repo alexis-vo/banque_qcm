@@ -1,0 +1,65 @@
+{
+  "titre_chapitre": "Demand Forecasting and Time Horizons",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "What are the three time horizons used in demand forecasting processes?",
+      "options": [
+        "Short-term, medium-term, and long-term",
+        "Production cycle, commercial cycle, and financial cycle",
+        "Green zone, orange zone, and red zone",
+        "Level P1, P2, and P3"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Demand forecasts are divided into three horizons: long-term (> 3 years for strategy), medium-term (6 months to 3 years for capacities), and short-term (< 6 months for loads and schedules)[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "What is the main objective of medium-term demand forecasting (between 6 months and 3 years)?",
+      "options": [
+        "Define the company's overall strategy and major investments",
+        "Help define the capacities and production means to be used (equipment, lines, personnel)",
+        "Set the schedules and workloads for the coming week",
+        "Manage only the physical transportation flows between suppliers"
+      ],
+      "reponse_correcte": 1,
+      "explication": "The medium-term helps define capacities and production means (equipment and human resources), whereas the long-term serves strategy and the short-term defines operational loads[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "How many main types of demand are distinguished in market trend analysis?",
+      "options": [
+        "2 types (standard and specific)",
+        "3 types (simple, complex, random)",
+        "4 types (constant, with trend, seasonal, seasonal with trend)",
+        "5 types based on procurement BOMs"
+      ],
+      "reponse_correcte": 2,
+      "explication": "The course identifies four types of demand: constant demand, demand with a trend, seasonal demand, and seasonal demand with a trend (the most general case)[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "What is the principle and objective of a Delphi study among qualitative methods?",
+      "options": [
+        "Conduct a statistical survey among thousands of end customers",
+        "Conduct surveys with domain experts holding divergent viewpoints to help them build a consensus",
+        "Apply a linear regression on sales history in Excel",
+        "Estimate production costs from the retail price"
+      ],
+      "reponse_correcte": 1,
+      "explication": "The Delphi method consists of interviewing experts with sometimes conflicting opinions in order to guide them toward a qualitative consensus[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Which Excel functions are used to calculate the parameters of a linear regression (Y = aX + b) in English and French?",
+      "options": [
+        "LINEST / DROITEREG for the slope (a) and INTERCEPT / ORDONNE.ORIGINE for the y-intercept (b)",
+        "AVERAGE / MOYENNE and SUM / SOMME",
+        "VLOOKUP / RECHERCHEV and INDEX",
+        "STDEV / ECARTYPE and VAR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "For linear regression, LINEST (DROITEREG in French) is used for the slope and INTERCEPT (ORDONNE.ORIGINE in French) for the y-intercept[span_4](start_span)[span_4](end_span)."
+    }
+  ]
+}

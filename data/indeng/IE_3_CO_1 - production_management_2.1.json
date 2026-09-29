@@ -1,0 +1,65 @@
+{
+  "titre_chapitre": "Control of Production Costs and Paradigm Shift",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "What was the traditional historical economic relationship regarding production costs and retail price?",
+      "options": [
+        "Production Costs + Profit Margin = Retail Price[span_0](start_span)[span_0](end_span)",
+        "Retail Price - Desired Profit Margin = Production Costs[span_1](start_span)[span_1](end_span)",
+        "Retail Price + Production Costs = Profit Margin",
+        "Profit Margin - Production Costs = Retail Price"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Historically, companies determined their retail price by adding their production costs and desired profit margin together[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "What represents the modern paradigm shift in the pricing equation described in the course?",
+      "options": [
+        "Production costs are fixed by the company and retail price adjusts freely.",
+        "Retail Price - Desired Profit Margin = Production Costs[span_3](start_span)[span_3](end_span)",
+        "Profit margin becomes zero, making production costs equal to retail price.",
+        "The market sets production costs directly as an input."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The equation was reversed because retail prices are increasingly constrained and set by the market, making production costs a target to achieve[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "Why is a good demand forecast essential for controlling production costs?",
+      "options": [
+        "It eliminates the need for workforce training.",
+        "It prevents overproduction (which creates costly excess stock) and underproduction (which causes lost sales), both of which negatively impact unit production costs[span_5](start_span)[span_5](end_span).",
+        "It allows the company to ignore market competition completely.",
+        "It guarantees that equipment will always operate at exactly 30% capacity."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Poor demand forecasting leads either to costly excess stock from overproducing or lost sales from underproducing, both of which worsen unit production costs[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "How does equipment utilization affect production costs, as discussed in the introduction?",
+      "options": [
+        "Using expensive equipment at a low rate (e.g., 30% capacity) makes for a bad investment that negatively affects costs[span_7](start_span)[span_7](end_span).",
+        "Low equipment utilization improves product quality and lowers costs.",
+        "Equipment utilization has no impact on production costs as long as the retail price is fixed.",
+        "Higher utilization always guarantees zero inventory."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Investing in super equipment and only using it at a fraction of its capacity (like 30%) represents a poor investment that harms production costs[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Why is flexibility required in a company's production capacities over the year?",
+      "options": [
+        "Because market demand and required workloads vary across different seasons[span_9](start_span)[span_9](end_span).",
+        "Because equipment never experiences maintenance or breakdowns.",
+        "To ensure that all employees work fixed, unchanging hours every single day.",
+        "Because retail prices change every hour."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Flexibility is needed because different seasons may require higher or lower workloads to match varying market demand[span_10](start_span)[span_10](end_span)."
+    }
+  ]
+}

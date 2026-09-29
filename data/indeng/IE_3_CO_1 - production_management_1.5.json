@@ -1,0 +1,65 @@
+{
+  "titre_chapitre": "Make-to-Order Production and MRP Logic",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Which system is generally required to manage and calculate material requirements in a make-to-order production?",
+      "options": [
+        "An MRP (Material Requirement Planning) system[span_0](start_span)[span_0](end_span)",
+        "A pull-flow Kanban system[span_1](start_span)[span_1](end_span)",
+        "An MTM timing method[span_2](start_span)[span_2](end_span)",
+        "A random batch quality control[span_3](start_span)[span_3](end_span)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Make-to-order production requires the use of MRP systems to calculate in real time the requirements for the various production operations needed[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Who theorized the MRP logic in the 1960s?",
+      "options": [
+        "Taylor[span_5](start_span)[span_5](end_span)",
+        "Orlicky[span_6](start_span)[span_6](end_span)",
+        "Ford[span_7](start_span)[span_7](end_span)",
+        "Fayol[span_8](start_span)[span_8](end_span)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Orlicky, in the 1960s, theorized the MRP logic based on the distinction between independent demand and dependent demand[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "What are the three main inputs required to feed the MRP calculator?",
+      "options": [
+        "Forecasted customer orders, product bills of materials (BOM), and inventory stocks at time t[span_10](start_span)[span_10](end_span)",
+        "Employee salaries, social climate, and scrap rates[span_11](start_span)[span_11](end_span)",
+        "Transportation costs, workshop sizes, and profit margins[span_12](start_span)[span_12](end_span)",
+        "Number of suppliers, working hours, and machine capacities[span_13](start_span)[span_13](end_span)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "The MRP computer takes as inputs forecast customer orders, product bills of materials (manufacturing and purchasing), and inventory stocks at time t[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "How is dependent demand defined within the MRP logic?",
+      "options": [
+        "It corresponds to direct customer orders[span_15](start_span)[span_15](end_span)",
+        "It is deduced and calculated mathematically based on independent demand (forecasts)[span_16](start_span)[span_16](end_span)",
+        "It represents only stored finished products[span_17](start_span)[span_17](end_span)",
+        "It is totally random and independent of production[span_18](start_span)[span_18](end_span)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Independent demand comes from customers, whereas dependent demand is the one that can be deduced and calculated based on that previous independent demand[span_19](start_span)[span_19](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "What practical exercise (serious game) is used to experience how the MRP logic works?",
+      "options": [
+        "Assembling cars using Lego bricks[span_20](start_span)[span_20](end_span)",
+        "Building wooden airplane models[span_21](start_span)[span_21](end_span)",
+        "Manufacturing colored pencils[span_22](start_span)[span_22](end_span)",
+        "Maintaining heavy industrial equipment[span_23](start_span)[span_23](end_span)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "The course uses a practical workshop in the form of a serious game consisting of assembling cars using Lego bricks to apply MRP calculations[span_24](start_span)[span_24](end_span)."
+    }
+  ]
+}

@@ -1,19 +1,6 @@
 {
   "matieres": [
     {
-      "nom": "Informatique",
-      "dossier": "informatique",
-      "chapitres": [
-        { "titre": "Architecture des ordinateurs et SE 1", "fichier": "arch_os_cm.json" },
-        { "titre": "Architecture des ordinateurs et SE 2", "fichier": "arch_os_td.json" },
-        { "titre": "Visual Studio Code", "fichier": "vsc.json" },
-        { "titre": "Réseaux 1", "fichier": "reseaux_cm.json" },
-        { "titre": "Réseaux 2", "fichier": "reseaux_td.json" },
-        { "titre": "Cybersécurité 1", "fichier": "cyber_cm.json" },
-        { "titre": "Cybersécurité 2", "fichier": "cyber_td.json" }
-      ]
-    },
-    {
       "nom": "Mathématiques",
       "dossier": "mathematiques",
       "chapitres": [
@@ -27,6 +14,38 @@
         { "titre": "Chapitre 3 - Espaces mesurés et fonctions mesurables, ECTA", "fichier": "CIP_C3_ECTA.json"},
         { "titre": "Chapitre 4 - Mesures et intégration, cours", "fichier": "CIP_C4_LN.json"},
         { "titre": "Chapitre 4 - Mesures et intégration, ECTA", "fichier": "CIP_C4_ECTA.json"}
+      ]
+    },
+    {
+      "nom": "Informatique",
+      "dossier": "informatique",
+      "chapitres": [
+        { "titre": "Architecture des ordinateurs et SE 1", "fichier": "arch_os_cm.json" },
+        { "titre": "Architecture des ordinateurs et SE 2", "fichier": "arch_os_td.json" },
+        { "titre": "Visual Studio Code", "fichier": "vsc.json" },
+        { "titre": "Réseaux 1", "fichier": "reseaux_cm.json" },
+        { "titre": "Réseaux 2", "fichier": "reseaux_td.json" },
+        { "titre": "Cybersécurité 1", "fichier": "cyber_cm.json" },
+        { "titre": "Cybersécurité 2", "fichier": "cyber_td.json" }
+      ]
+    },
+    {
+      "nom": "Industrial Engineering",
+      "dossier": "indeng",
+      "chapitres": [
+        { "titre": "Production Management - Final Exam Preparation", "fichier": "IE_3_CO_1 - Production - Part 1 - Production Organization.json" },
+        { "titre": "Production Management - Introduction and Sub-processes", "fichier": "IE_3_CO_1 - production_management_1.1.json" },
+        { "titre": "Production Management - Vocabulary and Production Function", "fichier": "IE_3_CO_1 - production_management_1.2.json" },
+        { "titre": "Production Cycles, Product Types, and Bills of Materials (BOM)", "fichier": "IE_3_CO_1 - production_management_1.3.json" },
+        { "titre": "Production Cycles, Product Types, and Bills of Materials (BOM)", "fichier": "IE_3_CO_1 - production_management_1.4.json" },
+        { "titre": "Make-to-Order Production and MRP Logic", "fichier": "IE_3_CO_1 - production_management_1.5.json" },
+        { "titre": "Make-to-Stock Production and the Kanban System", "fichier": "IE_3_CO_1 - production_management_1.6.json" },
+        { "titre": "Production Management - Cost, Demand, and Capacities", "fichier": "IE_3_CO_2 - Production - Part 1 - Demand  capacity.json" },
+        { "titre": "Control of Production Costs and Paradigm Shift", "fichier": "IE_3_CO_1 - production_management_2.1.json" },
+        { "titre": "Demand Forecasting and Time Horizons", "fichier": "IE_3_CO_1 - production_management_2.2.json" },
+        { "titre": "Demand Forecasting - Seasonal Trends, Methods, and Forecast Errors", "fichier": "IE_3_CO_1 - production_management_2.3.json" },
+        { "titre": "Balance Between Load and Production Capacity", "fichier": "IE_3_CO_1 - production_management_2.4.json" },
+        { "titre": "Production Line Capacity and Balancing", "fichier": "IE_3_CO_1 - production_management_2.5.json" }
       ]
     },
     {

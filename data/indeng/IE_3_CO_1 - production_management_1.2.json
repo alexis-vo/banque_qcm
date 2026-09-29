@@ -1,0 +1,65 @@
+{
+  "titre_chapitre": "Production Management - Vocabulary and Production Function",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "What precisely characterizes stock from the company's perspective?",
+      "options": [
+        "All stored products, parts, assemblies, and materials that belong to the company[span_0](start_span)[span_0](end_span).",
+        "Everything physically present in the factory, including spaces rented to other companies[span_1](start_span)[span_1](end_span).",
+        "Only finished products intended for immediate sale[span_2](start_span)[span_2](end_span).",
+        "Raw materials that have been ordered but not yet delivered[span_3](start_span)[span_3](end_span)."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Stock strictly corresponds to the products, parts, assemblies, and materials stored in the company and belonging to it (for example, a rented space containing goods from another company is not part of your stock)[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "What condition must an element imperatively fulfill to be classified as an 'assembly'?",
+      "options": [
+        "Be an elementary component impossible to divide[span_5](start_span)[span_5](end_span).",
+        "Be a combination or assembly of parts that constitutes an element that can be stored in that state[span_6](start_span)[span_6](end_span).",
+        "Be directly sold to the final customer without transformation[span_7](start_span)[span_7](end_span).",
+        "Have a market value higher than that of spare parts[span_8](start_span)[span_8](end_span)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "An assembly is a combination or assembly of elementary parts that constitutes an element that can be stored in that specific state[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "What is the primary purpose of a manufacturing order (MO / OF) in the workshop?",
+      "options": [
+        "To order new raw materials from external suppliers[span_10](start_span)[span_10](end_span).",
+        "To give the order to the workshop to manufacture a specific product, often attached to a product unit and a precise date[span_11](start_span)[span_11](end_span).",
+        "To set the final retail price of the product for the customer[span_12](start_span)[span_12](end_span).",
+        "To evaluate the overall satisfaction of the factory employees[span_13](start_span)[span_13](end_span)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The manufacturing order is a document that gives the order in the workshop to manufacture a product for a given quantity (usually a product unit) at a precise date[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "What is the linguistic trap (false friend) regarding the term 'gamme de fabrication' in English (manufacturing process)?[span_15](start_span)[span_15](end_span)",
+      "options": [
+        "It translates to 'product range' which designates product diversity[span_16](start_span)[span_16](end_span).",
+        "It does not refer to the product range (diversity offered to customers), but rather to the different steps of the production process[span_17](start_span)[span_17](end_span).",
+        "It necessarily implies an external subcontractor[span_18](start_span)[span_18](end_span).",
+        "It is synonymous with a purchase order[span_19](start_span)[span_19](end_span)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The 'gamme de fabrication' (manufacturing process) must not be confused with the product range (product range); it designates the successive steps of the manufacturing process[span_20](start_span)[span_20](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "What are the four main sub-functions that generally subdivide the production department?",
+      "options": [
+        "Marketing, accounting, human resources, and logistics[span_21](start_span)[span_21](end_span).",
+        "The methods department (bureau des méthodes), the workshop, scheduling and launching, and quality[span_22](start_span)[span_22](end_span).",
+        "R&D, purchasing, sales, and after-sales service[span_23](start_span)[span_23](end_span).",
+        "General management, maintenance, security, and communication[span_24](start_span)[span_24](end_span)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The production department is generally subdivided into four sub-functions: the methods department, the workshop, scheduling and launching, and quality[span_25](start_span)[span_25](end_span)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "titre_chapitre": "Balance Between Load and Production Capacity",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "How is production capacity primarily measured and expressed for the purposes of this course?",
+      "options": [
+        "In terms of the quantity of products manufactured[span_0](start_span)[span_0](end_span)",
+        "In terms of total electricity consumed per shift[span_1](start_span)[span_1](end_span)",
+        "In terms of total floor space in square meters[span_2](start_span)[span_2](end_span)",
+        "In terms of net profit margin per unit[span_3](start_span)[span_3](end_span)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Production capacity corresponds to the size of the operational production system and is expressed in terms of the quantity of products manufactured[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "What is the general formula for workstation capacity ($C$) given operation time ($t$) and reference time unit ($U$)?",
+      "options": [
+        "$C = U \\times t$[span_5](start_span)[span_5](end_span)",
+        "$C = U / t$[span_6](start_span)[span_6](end_span)",
+        "$C = t / U$[span_7](start_span)[span_7](end_span)",
+        "$C = U - t$[span_8](start_span)[span_8](end_span)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "The capacity of a workstation expressed in product units is given by $C = U / t$, where $U$ is the reference time unit and $t$ is the operation time[span_9](start_span)[span_9](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "What action should be taken if there is too much dispersion in the measured times when timing an operation?",
+      "options": [
+        "Simply average all values blindly[span_10](start_span)[span_10](end_span)",
+        "Identify and solve process dysfunctions, such as changing the method or station design[span_11](start_span)[span_11](end_span)",
+        "Ignore the operation entirely[span_12](start_span)[span_12](end_span)",
+        "Multiply the times by the worker's experience factor[span_13](start_span)[span_13](end_span)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "If there is too much dispersion in measurement times, it indicates a process dysfunction that needs to be identified and resolved rather than blindly taking an average[span_14](start_span)[span_14](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "Which predetermined time standards method is explicitly cited in the course materials?",
+      "options": [
+        "MRP (Material Requirement Planning)[span_15](start_span)[span_15](end_span)",
+        "MTM (Motion Time Measurement)[span_16](start_span)[span_16](end_span)",
+        "Kanban[span_17](start_span)[span_17](end_span)",
+        "ERP (Enterprise Resource Planning)[span_18](start_span)[span_18](end_span)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "MTM (Motion Time Measurement) is a known predetermined time standards method that breaks operations down into elementary steps using a reference chart[span_19](start_span)[span_19](end_span)."
+    }
+  ]
+}

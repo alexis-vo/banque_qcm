@@ -1,0 +1,185 @@
+{
+  "titre_chapitre": "Production Management - Final Exam Preparation",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "What are the primary processes involved in managing raw materials within production management?",
+      "options": [
+        "Defining the list of necessary raw materials, forecasting global demand, and ensuring timely availability through procurement and storage.",
+        "Scheduling production work on equipment and balancing workstation loads.",
+        "Managing physical and information flows of semi-finished and finished products.",
+        "Training the workforce and continuously improving production processes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Managing raw materials consists of defining the required components, forecasting global demand to determine quantities, and ensuring availability through effective procurement and storage."
+    },
+    {
+      "id": 2,
+      "enonce": "Which worker category in the workshop is defined as being capable of establishing and carrying out manufacturing phases based on a process description, typically equivalent to a CAP level?",
+      "options": [
+        "Specialized Worker (OS)",
+        "Professional Worker Level 1 (P1)",
+        "Professional Worker Level 2 (P2)",
+        "High Quality Worker (OHQ)"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Professional Worker Level 2 (P2) is capable of establishing and carrying out manufacturing phases based on the description of a manufacturing process, whereas P1 performs tasks without adjusting workstations or reading plans."
+    },
+    {
+      "id": 3,
+      "enonce": "In the context of elementary production cycles, which cycle starts with a Customer Order and ends with the receipt of customer payment?",
+      "options": [
+        "The production cycle (1)",
+        "The commercial cycle (2)",
+        "The financial cycle (3)",
+        "The procurement cycle"
+      ],
+      "reponse_correcte": 1,
+      "explication": "The commercial cycle (2) spans from the customer order and purchase order through to the delivery and receipt of customer payment."
+    },
+    {
+      "id": 4,
+      "enonce": "How does product complexity affect the probability of successful manufacturing, according to probabilistic principles discussed in the course?",
+      "options": [
+        "Complexity has no impact on component availability or flaw rates.",
+        "As the number of components and technical operations increases, the overall probability of having all components available or zero flaws decreases exponentially.",
+        "Complexity increases the probability of zero flaws due to strict supervision.",
+        "It only affects the financial cycle, leaving manufacturing success unaffected."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Probabilistic issues show that multiplying high individual success probabilities over thousands of components or operations significantly drops the aggregate success probability (e.g., \\(0.9999^{3000} = 74%\\))."
+    },
+    {
+      "id": 5,
+      "enonce": "What is the primary difference between a production (manufacturing) tree nomenclature and a procurement (purchase) nomenclature?",
+      "options": [
+        "The production tree describes the step-by-step assembly decomposition, whereas the procurement nomenclature groups and sums up identical components found across multiple places in the product structure.",
+        "The procurement nomenclature is created by the methods department while the production tree is managed entirely by suppliers.",
+        "The procurement nomenclature ignores scrap rates while the production tree accounts for them.",
+        "There is no difference; both terms are interchangeable."
+      ],
+      "reponse_correcte": 0,
+      "explication": "The production tree nomenclature outlines hierarchical assembly steps, whereas the purchasing nomenclature groups identical parts across the structure by multiplying coefficients and adding quantities."
+    },
+    {
+      "id": 6,
+      "enonce": "How are extraction operations (such as digging or profiling) represented in the manufacturing nomenclature?",
+      "options": [
+        "As a positive coefficient affecting both production and procurement.",
+        "As a negative coefficient in the manufacturing nomenclature, which has no incident on the procurement nomenclature since the initial material was already purchased.",
+        "They are completely omitted from all bills of materials.",
+        "As a multiplier equal to the scrap rate."
+      ],
+      "reponse_correcte": 1,
+      "explication": "When an operation consists of extracting quantity, it appears as a negative coefficient in the manufacturing nomenclature but does not affect the procurement nomenclature."
+    },
+    {
+      "id": 7,
+      "enonce": "Which classification category best fits the production of paper journals and fashion items?",
+      "options": [
+        "Unit production with little repetition",
+        "Small and medium series production",
+        "Large series production with repetitive processes",
+        "Continuous chemical processing"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Paper journals and fashion items are classified under large series production because of high repetitiveness and volume."
+    },
+    {
+      "id": 8,
+      "enonce": "What are the main characteristics of production organized in 'islands' (workcells)?",
+      "options": [
+        "Means of production are physically grouped together in a continuous line for mass production.",
+        "Means of production are grouped mostly according to a business logic, generating a discontinuous flow suitable for high-variety, flexible production.",
+        "Means of production are moved directly to the product site, like in shipbuilding.",
+        "It eliminates all intermediate inventories completely."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Production islands group equipment by business logic, causing discontinuous flows that offer high flexibility for high-variety products."
+    },
+    {
+      "id": 9,
+      "enonce": "What is a primary benefit of a Make-to-Order (MTO) production strategy?",
+      "options": [
+        "Finished product inventory is completely avoided (barring cancellation clauses), and products are customized to customer requests.",
+        "Customer delivery lead time is reduced to zero.",
+        "Demand forecasting becomes entirely unnecessary.",
+        "Production equipment never experiences idle time."
+      ],
+      "reponse_correcte": 0,
+      "explication": "MTO avoids finished goods stock and allows full customization, though it introduces a lead time between order and delivery."
+    },
+    {
+      "id": 10,
+      "enonce": "According to Joseph Orlicky's theory in the 1960s, what is the distinction between independent and dependent demand in MRP logic?",
+      "options": [
+        "Independent demand comes from customers and is forecasted, while dependent demand is deduced and calculated from independent demand using product structures.",
+        "Independent demand is calculated by the MRP computer, while dependent demand is forecasted manually.",
+        "Independent demand applies only to raw materials, while dependent demand applies only to finished goods.",
+        "There is no functional distinction between the two in MRP systems."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Independent demand is external customer demand (forecasted), whereas dependent demand is internal component demand calculated via BOMs."
+    },
+    {
+      "id": 11,
+      "enonce": "In a Make-to-Stock (MTS) production system using Kanban, what triggers the production of a component at an upstream workstation?",
+      "options": [
+        "A direct forecast from the marketing department.",
+        "The arrival of an empty Kanban label or container from the downstream workstation indicating consumption.",
+        "The expiration of a fixed time schedule regardless of stock levels.",
+        "A special purchase order sent by an external supplier."
+      ],
+      "reponse_correcte": 1,
+      "explication": "In a Kanban pull system, production or replenishment is triggered locally by the consumption of stock and the return/transfer of an empty Kanban label."
+    },
+    {
+      "id": 12,
+      "enonce": "In the Kanban sizing formula \\(K = \\frac{D \\times (TA + TB) \\times (1 + X)}{Q}\\), what does the variable \\(X\\) represent?",
+      "options": [
+        "The production batch size multiplier",
+        "The hazard rate or failure rate at the upstream station",
+        "The average conveying time between stations",
+        "The daily customer demand rate"
+      ],
+      "reponse_correcte": 1,
+      "explication": "In the Kanban formula, \\(X\\) represents the hazard or safety rate at the upstream workstation to account for potential disruptions."
+    },
+    {
+      "id": 13,
+      "enonce": "What does the 'Orange Zone' on a Kanban board represent?",
+      "options": [
+        "A critical condition where stock rupture is imminent and production is strictly mandatory.",
+        "A buffer zone that absorbs workload variations, where production is authorized if the workstation is available.",
+        "A zone indicating excess inventory where production is strictly forbidden.",
+        "The minimum order quantity level."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The orange zone acts as a buffer zone absorbing load variations, permitting production when the workstation is free."
+    },
+    {
+      "id": 14,
+      "enonce": "How does Industry 4.0 (Smart Factory) impact modern production management?",
+      "options": [
+        "It increases paper usage and eliminates digital tracking.",
+        "It enables real-time monitoring of equipment, process optimization, and flexible or self-learning connected tools to react faster to market changes.",
+        "It forces companies to abandon lean manufacturing and Kanban systems entirely.",
+        "It relies exclusively on manual scheduling."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Industry 4.0 leverages digital technologies, real-time monitoring, and connected equipment to boost operational efficiency and personalization."
+    },
+    {
+      "id": 15,
+      "enonce": "Which of the following actions contributes directly to environmental added value in sustainable industrial production?",
+      "options": [
+        "Increasing fossil fuel consumption to speed up assembly lines.",
+        "Improving energy efficiency, recycling raw materials, recovering energy from waste, and integrating renewable energies.",
+        "Eliminating preventative maintenance to save lubricating oils.",
+        "Outsourcing all manufacturing steps to countries with lower environmental standards."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Sustainable production focuses on energy efficiency, raw material recycling, waste energy recovery, and renewable energy integration."
+    }
+  ]
+}

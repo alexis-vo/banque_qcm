@@ -1,0 +1,185 @@
+{
+  "titre_chapitre": "Production Management - Cost, Demand, and Capacities",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "What represents the modern paradigm shift in retail and production pricing compared to the historical approach?",
+      "options": [
+        "Retail Price - Desired Profit Margin = Production Cost",
+        "Production Cost + Profit Margin = Retail Price",
+        "Retail Price + Production Cost = Desired Profit Margin",
+        "Desired Profit Margin - Production Cost = Retail Price"
+      ],
+      "reponse_correcte": 0,
+      "explication": "The modern paradigm calculates the target production cost by subtracting the desired profit margin from the retail price set by the market."
+    },
+    {
+      "id": 2,
+      "enonce": "What time horizon is typically associated with long-term demand forecasting (\\(d > 3\\) years)?",
+      "options": [
+        "Assistance in defining loads, schedules, and operational stock levels",
+        "Assistance in defining the company's strategy, new products, and heavy investments",
+        "Assistance in defining short-term workstation assignments",
+        "Daily operational maintenance planning"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Long-term forecasts (over 3 years) assist in shaping company strategy, long-term investments, and new product definitions."
+    },
+    {
+      "id": 3,
+      "enonce": "Which of the following belongs to qualitative demand forecasting methods?",
+      "options": [
+        "Linear regression based on sales history",
+        "Exponential smoothing models",
+        "Data from Delphi studies and intuitive expert estimates",
+        "Moving averages over past quarterly sales"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Qualitative methods include market studies, Delphi studies, analogical approaches, and intuitive expert estimates, whereas regression and smoothing are quantitative."
+    },
+    {
+      "id": 4,
+      "enonce": "In linear regression demand forecasting \\(Y = aX + b\\), what function corresponds to calculating slope \\(a\\) in Excel (in French)?",
+      "options": [
+        "ORDONNE.ORIGINE",
+        "DROITEREG",
+        "MOYENNE",
+        "PREVISION"
+      ],
+      "reponse_correcte": 1,
+      "explication": "In Excel, slope \\(a\\) is calculated via LINEST, which corresponds to DROITEREG in French, while INTERCEPT corresponds to ORDONNE.ORIGINE."
+    },
+    {
+      "id": 5,
+      "enonce": "How is a seasonal demand with a trend commonly modeled using decomposition factors?",
+      "options": [
+        "\\(D(i) = T(i) + S(i)\\)",
+        "\\(D(i) = T(i) \\times S(i)\\)",
+        "\\(D(i) = \\frac{T(i)}{S(i)}\\)",
+        "\\(D(i) = T(i)^2 \\times S(i)^2\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Demand at time \\(i\\) with trend and seasonality is expressed as the product of the trend factor \\(T(i)\\) and the seasonality factor \\(S(i)\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "In exponential smoothing forecasting, how is the new forecast \\(P(i)\\) calculated from the previous period forecast \\(P(i-1)\\) and actual demand \\(D(i-1)\\)?",
+      "options": [
+        "\\(P(i) = P(i-1) + \\alpha(D(i-1) - P(i-1))\\)",
+        "\\(P(i) = \\alpha P(i-1) + (1-\\alpha) D(i)\\)",
+        "\\(P(i) = \\frac{P(i-1) + D(i-1)}{2}\\)",
+        "\\(P(i) = P(i-1) \\times \\alpha \\times D(i-1)\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Exponential smoothing updates the forecast by adding a correction factor proportional to the error from the previous period."
+    },
+    {
+      "id": 7,
+      "enonce": "What does the Mean Absolute Deviation (MAD) measure in forecast error evaluation?",
+      "options": [
+        "Only the positive bias of the model",
+        "Both positive and negative model errors without cancellation",
+        "The quadratic variance of historical data",
+        "The exact trend slope of sales"
+      ],
+      "reponse_correcte": 1,
+      "explication": "MAD assesses model errors considering both positive and negative absolute deviations, serving as an alternative to standard deviation."
+    },
+    {
+      "id": 8,
+      "enonce": "What factor is explicitly used when adjusting timed operations based on worker speed during station capacity measurement?",
+      "options": [
+        "The \\(\\beta\\) rate (e.g., \\(\\beta = 1\\) for average worker, \\(1.2\\) for experienced, \\(0.8\\) for inexperienced)",
+        "The learning curve coefficient \\(b\\)",
+        "The hazard rate \\(X\\)",
+        "The inventory turnover ratio"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Observed timing is weighted by a \\(\\beta\\) rate reflecting the worker's execution speed."
+    },
+    {
+      "id": 9,
+      "enonce": "What is the formula governing learning curves where \\(T(1)\\) is the time for the first unit and \\(a\\) is the learning percentage?",
+      "options": [
+        "\\(T(n) = T(1) \\times n^b\\) with \\(b = \\frac{\\ln(a)}{\\ln(2)}\\)",
+        "\\(T(n) = T(1) - n \\times a\\)",
+        "\\(T(n) = \\frac{T(1)}{n \\times a}\\)",
+        "\\(T(n) = T(1) \\times e^{a \\times n}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "The learning curve equation states that the production time for unit \\(n\\) decreases according to the power law \\(T(n) = n^b T(1)\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "How are the capacities of two independent workstations placed in parallel combined?",
+      "options": [
+        "Their capacities are multiplied together.",
+        "Their capacities are added together.",
+        "Only the capacity of the slower workstation dictates total capacity.",
+        "Total capacity equals the average of the two."
+      ],
+      "reponse_correcte": 1,
+      "explication": "When two independent workstations perform the same operation in parallel without upstream bottlenecks, their individual capacities add up."
+    },
+    {
+      "id": 11,
+      "enonce": "In an unbuffered production line, what determines the overall capacity and output rate of the entire line?",
+      "options": [
+        "The fastest workstation",
+        "The average capacity of all workstations",
+        "The limiting workstation, also known as the bottleneck",
+        "The initial input rate from suppliers"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Without intermediate buffers, the overall capacity of a production line is dictated strictly by its bottleneck (the limiting workstation)."
+    },
+    {
+      "id": 12,
+      "enonce": "How is the projected workload calculated for a line consisting of \\(n\\) operations with times \\(t_i\\) to produce quantity \\(Q\\)?",
+      "options": [
+        "\\(Q \\times \\sum_{i=1}^{n} t_i\\)",
+        "\\(\\frac{Q}{\\sum_{i=1}^{n} t_i}\\)",
+        "\\(\\sum_{i=1}^{n} (Q \\times t_i^2)\\)",
+        "\\(Q + \\sum_{i=1}^{n} t_i\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "The projected workload is the product of the total quantity \\(Q\\) and the sum of operation times across all stations."
+    },
+    {
+      "id": 13,
+      "enonce": "What range of the balance measure \\(\\varepsilon\\) is typically considered a correct balancing for a production line?",
+      "options": [
+        "Between 50% and 100%",
+        "Between 0% and 5%",
+        "Between 20% and 30%",
+        "Exactly 50%"
+      ],
+      "reponse_correcte": 1,
+      "explication": "A correct line balancing yields a balance measure \\(\\varepsilon\\) between 0% and 5%."
+    },
+    {
+      "id": 14,
+      "enonce": "What does the coefficient of use (operating rate) represent for a production station?",
+      "options": [
+        "The ratio of actual productive operating hours to total available time, accounting for maintenance, breakdowns, and losses.",
+        "The ratio of raw material waste to total input.",
+        "The percentage of workers who are trainees.",
+        "The profit margin generated per hour."
+      ],
+      "reponse_correcte": 0,
+      "explication": "The coefficient of use reflects the proportion of available time actually utilized for production, dropping below 100% due to downtime or inefficiencies."
+    },
+    {
+      "id": 15,
+      "enonce": "What system of predetermined time standards divides upper limb movements into ten categories such as Reach, Grasp, and Move?",
+      "options": [
+        "MRP (Material Requirements Planning)",
+        "MTM (Motion Time Measurement)",
+        "Kanban",
+        "CAPM (Computer Assisted Production Management)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "MTM (Motion Time Measurement) is a predetermined time standards method that breaks down manual tasks into elementary motions like reach, grasp, and move."
+    }
+  ]
+}

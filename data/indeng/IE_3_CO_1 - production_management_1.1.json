@@ -1,0 +1,77 @@
+{
+  "titre_chapitre": "Production Management - Introduction and Sub-processes",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "According to the introductory lecture, what are the four main sub-processes into which production management is divided?",
+      "options": [
+        "Managing raw materials, managing production resources, managing flows, and managing people.",
+        "Sales forecasting, product design, financial auditing, and human resources recruitment.",
+        "Purchasing raw materials, equipment maintenance, quality testing, and customer delivery.",
+        "Inventory control, facility layout, marketing strategy, and cost accounting."
+      ],
+      "reponse_correcte": 0,
+      "explication": "The lecture clearly outlines four main sub-processes: managing raw materials, managing production resources, managing flows, and managing people[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Why is the forecasting of global demand considered one of the most important processes in production management?",
+      "options": [
+        "Because without it, a company cannot assemble and manufacture the products necessary for its market and customers[span_1](start_span)[span_1](end_span).",
+        "Because it eliminates the need for any inventory storage.",
+        "Because it dictates the exact salary of every factory worker.",
+        "Because it replaces the need for procurement processes."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Demand forecasting is critical because failing to forecast demand means the company cannot properly assemble and manufacture products for its market and customers[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "What does the task of scheduling production work involve on a day-to-day basis?",
+      "options": [
+        "Defining the activities to be performed on production lines and workshops, specifying what is manufactured on each equipment at specific times[span_3](start_span)[span_3](end_span).",
+        "Negotiating long-term contracts with external raw material suppliers.",
+        "Calculating the annual profit margins for retail prices.",
+        "Recruiting specialized workers and planning training schedules."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Scheduling work means day-to-day definition of activities on production lines, specifying which products are made on specific equipment at designated times[span_4](start_span)[span_4](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "What negative consequence can arise from unbalanced workloads between equipment or employees?",
+      "options": [
+        "Low rentability of equipment investments, underuse, and stress/frustration among employees working at different capacities[span_5](start_span)[span_5](end_span).",
+        "An immediate increase in overall product quality and customer satisfaction.",
+        "The total elimination of information flows within the company.",
+        "A reduction in the time needed for raw material procurement."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Unbalanced workloads lead to poor equipment rentability when idle, and can create stress between employees who feel overworked versus underutilized[span_6](start_span)[span_6](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "Besides managing physical flows of parts and products, what crucial type of flow must be managed in production?",
+      "options": [
+        "Information flows, such as tracking customer orders, manufacturing orders, and workforce data[span_7](start_span)[span_7](end_span).",
+        "Financial cash flows managed exclusively by the marketing department.",
+        "External political flows regarding international trade laws.",
+        "Direct consumer feedback gathered via social media."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Information flows are vital and include tracking customer orders, manufacturing orders, and workforce data like training and health[span_8](start_span)[span_8](end_span)."
+    },
+    {
+      "id": 6,
+      "enonce": "What is one of the key benefits of maintaining a continuous dialogue and collaboration with production teams regarding people management?",
+      "options": [
+        "It enables the continuous improvement of production processes because frontline workers know what is missing or not working properly[span_9](start_span)[span_9](end_span).",
+        "It completely removes the need for equipment maintenance.",
+        "It allows workers to set their own retail prices.",
+        "It guarantees that no employee will ever take a leave of absence."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Collaborating with production teams helps continuously improve processes because workers on the line know firsthand what is missing or failing[span_10](start_span)[span_10](end_span)."
+    }
+  ]
+}

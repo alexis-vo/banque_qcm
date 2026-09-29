@@ -1,0 +1,53 @@
+{
+  "titre_chapitre": "Demand Forecasting - Seasonal Trends, Methods, and Forecast Errors",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "How is demand decomposed in the general case of a seasonal demand with a trend?",
+      "options": [
+        "D = T + S",
+        "D = T times S",
+        "D = T / S",
+        "D = T - S"
+      ],
+      "reponse_correcte": 1,
+      "explication": "In the general case of seasonal demand with a trend, demand is expressed as the product of the trend factor (T) and the seasonal factor (S), written as D = T times S[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "What does the average forecast error (E) primarily allow you to assess in a forecasting model?",
+      "options": [
+        "The centering of the model, since positive and negative errors can compensate each other",
+        "The absolute total magnitude of all errors combined",
+        "The exact seasonal factor S for future periods",
+        "The inventory turnover ratio"
+      ],
+      "reponse_correcte": 0,
+      "explication": "The average forecast error allows you to assess the centering of the model because positive and negative errors can compensate for each other[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "When is the moving average method typically used, and what is its limitation?",
+      "options": [
+        "It is used when there is a very small history of sales (such as a startup), but it smooths results quickly and should not be used over a large time horizon[span_2](start_span)[span_2](end_span).",
+        "It is used exclusively for long-term strategic planning over 3 years.",
+        "It requires at least 50 years of seasonal sales data.",
+        "It replaces linear regression entirely for growing trends."
+      ],
+      "reponse_correcte": 0,
+      "explication": "The moving average is used when you only have a very small sales history (like a startup), but it smooths results quickly and making large time horizons with it makes no sense[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "What does the Mean Absolute Deviation (MAD) measure when evaluating forecasting performance?",
+      "options": [
+        "Only the positive forecast errors",
+        "The global extent and amount of errors made, considering both positive and negative values in absolute terms[span_4](start_span)[span_4](end_span)",
+        "The slope of the linear trend line",
+        "The exact inventory holding cost"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Mean Absolute Deviation (MAD) uses absolute values to study the performance of the model and the overall magnitude of errors made, both positive and negative[span_5](start_span)[span_5](end_span)."
+    }
+  ]
+}

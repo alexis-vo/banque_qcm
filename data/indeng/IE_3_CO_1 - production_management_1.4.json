@@ -1,0 +1,65 @@
+{
+  "titre_chapitre": "Production Cycles, Product Types, and Bills of Materials (BOM)",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "What are the three distinct cycles that make up the generic model of production processes?",
+      "options": [
+        "The production cycle, the commercial cycle, and the financial cycle.",
+        "The purchasing cycle, the manufacturing cycle, and the distribution cycle.",
+        "The short-term, medium-term, and long-term cycles.",
+        "The planning cycle, the scheduling cycle, and the quality cycle."
+      ],
+      "reponse_correcte": 0,
+      "explication": "The generic model relies on three fundamental cycles to take into account: the production cycle, the commercial cycle, and the financial cycle[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "Why is the commercial cycle considered the most critical from the customer's perspective?",
+      "options": [
+        "Because it completely excludes manufacturing lead times.",
+        "Because it is the only cycle known to the customer, measured between their order and delivery, and serves as a basis for comparison with competitors.",
+        "Because it directly determines the salary of workshop operators.",
+        "Because it guarantees the total absence of intermediate inventories."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The commercial cycle is the only one known to the customer (from the moment of order to receipt of the product), making it a key competitive advantage to optimize[span_2](start_span)[span_2](end_span)[span_3](start_span)[span_3](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "What is the main distinction between a standard product and a specific product?",
+      "options": [
+        "A standard product is manufactured for a single customer, whereas a specific product is intended for a broad audience.",
+        "A standard product is purchased by a large number of customers without distinction, whereas a specific product is made according to the wishes of a particular customer.",
+        "There is no technical difference between the two.",
+        "A standard product necessarily incorporates intangible services."
+      ],
+      "reponse_correcte": 1,
+      "explication": "A standard product is acquired by many customers without modification (e.g., a laundry pack), while a specific product is designed according to the requirements of a particular customer (e.g., a custom-made suit)[span_4](start_span)[span_4](end_span)[span_5](start_span)[span_5](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "How does product complexity (measured by the number of components) impact the probability of manufacturing according to the course?",
+      "options": [
+        "It increases the probability of overall success.",
+        "It has no effect on production risks.",
+        "It multiplies unavailability risks, causing the overall probability of having all components gathered at the same time to drop.",
+        "It eliminates the need to use purchasing BOMs."
+      ],
+      "reponse_correcte": 2,
+      "explication": "Complexity introduces risks: for example, with 3,000 components each having an excellent availability of 99.99%, the overall probability of having all components available is only 74%[span_6](start_span)[span_6](end_span)[span_7](start_span)[span_7](end_span)."
+    },
+    {
+      "id": 5,
+      "enonce": "What rule applies to negative coefficients (resulting from an extraction operation, such as digging) when calculating the purchasing BOM?",
+      "options": [
+        "They must be subtracted from the purchased quantities.",
+        "They must not be taken into account (no negative coefficient) when calculating the overall quantities to be purchased.",
+        "They are multiplied by the scrap rate.",
+        "They completely replace the financial cycle."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Negative coefficients should not be used in calculating final purchasing quantities, because just because a quantity was extracted does not mean it did not have to be purchased initially[span_8](start_span)[span_8](end_span)[span_9](start_span)[span_9](end_span)."
+    }
+  ]
+}

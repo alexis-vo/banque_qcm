@@ -1,0 +1,53 @@
+{
+  "titre_chapitre": "Production Line Capacity and Balancing",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "How is the total capacity of two independent workstations placed in parallel calculated?",
+      "options": [
+        "By summing their respective capacities.",
+        "By taking the capacity of the slowest workstation.",
+        "By multiplying their capacities.",
+        "By taking the average of both."
+      ],
+      "reponse_correcte": 0,
+      "explication": "When two workstations performing the same operation are in parallel and independent (without risk of upstream shortage), their capacities are added together[span_0](start_span)[span_0](end_span)."
+    },
+    {
+      "id": 2,
+      "enonce": "What determines the overall capacity of a production line composed of workstations in series without intermediate inventory?",
+      "options": [
+        "The fastest workstation on the line.",
+        "The limiting workstation, i.e., the bottleneck.",
+        "The arithmetic mean of the capacities of all workstations.",
+        "The total number of operators assigned to the line."
+      ],
+      "reponse_correcte": 1,
+      "explication": "The overall capacity of a production line is determined by the limiting capacity of the limiting workstation (the bottleneck)[span_1](start_span)[span_1](end_span)."
+    },
+    {
+      "id": 3,
+      "enonce": "How is the projected workload calculated for a quantity Q of products passing through a line of n operations with times t_i?",
+      "options": [
+        "Q multiplied by the sum of the operation times (Q × Σ t_i).",
+        "Q divided by the sum of the operation times.",
+        "The sum of (Q × t_i squared).",
+        "Q plus the sum of the operation times."
+      ],
+      "reponse_correcte": 0,
+      "explication": "The projected workload is equal to the quantity Q multiplied by the sum of all operation times, since each product must pass through all steps[span_2](start_span)[span_2](end_span)."
+    },
+    {
+      "id": 4,
+      "enonce": "What range for the balancing measure (epsilon, ε) indicates that a production line is properly balanced?",
+      "options": [
+        "Between 50% and 100%",
+        "Between 20% and 30%",
+        "Between 0% and 5%",
+        "Exactly 50%"
+      ],
+      "reponse_correcte": 2,
+      "explication": "A correct line balancing gives an epsilon (ε) measure between 0% and 5%[span_3](start_span)[span_3](end_span)."
+    }
+  ]
+}
