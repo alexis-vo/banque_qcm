@@ -14,7 +14,8 @@
         { "titre": "Chapitre 3 - Espaces mesurés et fonctions mesurables, ECTA", "fichier": "CIP_C3_ECTA.json"},
         { "titre": "Chapitre 4 - Mesures et intégration, cours", "fichier": "CIP_C4_LN.json"},
         { "titre": "Chapitre 4 - Mesures et intégration, ECTA", "fichier": "CIP_C4_ECTA.json"},
-        { "titre": "Chapitre 5 - Mesures et intégration II, cours", "fichier": "CIP_C5_LN.json"}
+        { "titre": "Chapitre 5 - Mesures et intégration II, cours", "fichier": "CIP_C5_LN.json"},
+        { "titre": "Chapitre 5 - Mesures et intégration II, ECTA", "fichier": "CIP_C5_ECTA.json"}
       ]
     },
     {

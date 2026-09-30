@@ -160,6 +160,16 @@
       ],
       "reponse_correcte": 0,
       "explication": "Pour tous \\(a<b\\), on a \\(\\displaystyle F(b)-F(a)=\\int_{[a,b]}F'(x)\\,d\\lambda(x)\\). C'est la formule de Newton-Leibniz dans le cadre de l'intégration de Lebesgue. L'hypothèse \\(F'\\in L^1_{\\mathrm{loc}}\\) garantit que \\(F'\\) est intégrable sur tout segment compact."
+    },
+    {
+      "id": 17,
+      "enonce": "Donner la définition d'exposant conjugué",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Soit \\(p \\in [1, +\\infty]\\). On appelle exposant conjugué de \\(p\\) l'unique \\(q \\in [1, +\\infty]\\) tel que \\(\\frac{1}{p}+\\frac{1}{q}=1\\)"
     }
   ]
 }

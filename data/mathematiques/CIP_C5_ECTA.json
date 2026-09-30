@@ -1,0 +1,201 @@
+{
+  "titre_chapitre": "C5 - ECTA",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit \\(X\\) une variable aléatoire réelle et \\(k\\in\\mathbb N^*\\). Que signifie : « \\(X\\) admet un moment d’ordre \\(k\\) » ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\(X\\) admet un moment d’ordre \\(k\\) si \\(X\\in L^k(\\Omega,\\mathcal A,\\mathbb P)\\), c’est-à-dire si \\(\\displaystyle \\mathbb E\\left(|X|^k\\right)<+\\infty\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Si \\(X\\) admet un moment d’ordre \\(k\\), comment définit-on le moment d’ordre \\(k\\) de \\(X\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le moment d’ordre \\(k\\) de \\(X\\) est la quantité \\(\\displaystyle m_k=\\mathbb E(X^k)\\). Attention : l'existence du moment signifie \\(\\mathbb E(|X|^k)<+\\infty\\), tandis que le moment lui-même est \\(\\mathbb E(X^k)\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Que représente le moment d’ordre \\(1\\) d’une variable aléatoire réelle ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le moment d’ordre \\(1\\) est simplement l’espérance : \\(\\displaystyle m_1=\\mathbb E(X)\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Si \\(X\\) admet un moment d’ordre \\(k\\), quels autres moments peut-on immédiatement affirmer qu’elle admet ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\(X\\) admet un moment d’ordre \\(k\\), alors elle admet également un moment d’ordre \\(l\\) pour tout entier \\(l<k\\), avec \\(l\\in\\mathbb N^*\\). En particulier, l’existence du moment d’ordre \\(k\\) implique l’existence de l’espérance dès que \\(k\\geq 1\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Soit \\(k\\geq 2\\) et soit \\(X\\) une variable aléatoire admettant un moment d’ordre \\(k\\). Comment définit-on le moment centré d’ordre \\(k\\) ? Quelle est la définition de la variance ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le moment centré d’ordre \\(k\\) est \\(\\displaystyle \\mu_k=\\mathbb E\\left((X-\\mathbb E(X))^k\\right)\\). En particulier, la variance est le moment centré d’ordre \\(2\\) : \\(\\displaystyle \\operatorname{Var}(X)=\\mathbb E\\left((X-\\mathbb E(X))^2\\right)\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Quand dit-on qu’une variable aléatoire réelle est centrée ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Une variable aléatoire réelle \\(X\\) est dite centrée lorsque son espérance est nulle : \\(\\displaystyle \\mathbb E(X)=0\\). En particulier, \\(X-\\mathbb E(X)\\) est toujours centrée."
+    },
+    {
+      "id": 7,
+      "enonce": "Soit \\(m_j=\\mathbb E(X^j)\\). Comment exprimer les moments centrés à partir des moments non centrés ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\(X\\) admet un moment d’ordre \\(k\\geq 2\\), alors, par le binôme de Newton, \\(\\displaystyle \\mu_k=\\sum_{j=0}^{k}(-1)^{k-j}\\binom{k}{j}m_jm_1^{k-j}\\), avec la convention \\(m_0=1\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelle est la formule de König-Huygens pour la variance ? Donner également sa forme la plus lisible.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La formule de König-Huygens donne \\(\\displaystyle \\mu_2=m_2-m_1^2\\). Comme \\(m_1=\\mathbb E(X)\\) et \\(m_2=\\mathbb E(X^2)\\), on obtient \\(\\boxed{\\operatorname{Var}(X)=\\mathbb E(X^2)-\\mathbb E(X)^2}\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Énoncer la formule générale reliant le moment centré \\(\\mu_k\\) aux moments non centrés \\(m_j\\), pour \\(k\\geq 2\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\displaystyle \\mu_k=\\mathbb E\\left((X-m_1)^k\\right)=\\sum_{j=0}^{k}(-1)^{k-j}\\binom{k}{j}m_jm_1^{k-j}\\), avec \\(m_j=\\mathbb E(X^j)\\) et \\(m_0=1\\). Cette formule provient directement du développement de \\((X-m_1)^k\\) par le binôme de Newton."
+    },
+    {
+      "id": 10,
+      "enonce": "Soit \\(f:[a,b]\\to\\mathbb R\\). Quelle est la définition précise d’une fonction en escalier ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction \\(f\\) est une fonction en escalier s’il existe une subdivision \\(a=x_0<x_1<\\cdots<x_n=b\\) telle que \\(f\\) soit constante sur chaque intervalle ouvert \\(]x_{i-1},x_i[\\), pour \\(1\\leq i\\leq n\\). Les valeurs de \\(f\\) aux points de subdivision ne sont pas imposées et ne jouent aucun rôle dans la construction de l’intégrale."
+    },
+    {
+      "id": 11,
+      "enonce": "Pour une fonction en escalier \\(f\\) sur \\([a,b]\\), comment définit-on l’intégrale \\(\\displaystyle\\int_a^b f(t)\\,dt\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Géométriquement, \\(\\displaystyle\\int_a^b f(t)\\,dt\\) est l’aire située entre l’axe des abscisses et la courbe représentative de \\(f\\), comptée avec un signe moins sur les zones où \\(f\\) est négative. Si \\(f=\\alpha_i\\) sur \\(]x_{i-1},x_i[\\), alors \\(\\displaystyle\\int_a^b f(t)\\,dt=\\sum_{i=1}^{n}\\alpha_i(x_i-x_{i-1})\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Soit \\(f:[a,b]\\to\\mathbb R\\) une fonction en escalier et soit \\(\\widetilde f\\) son prolongement par \\(0\\) en dehors de \\([a,b]\\). Quel est le lien entre son intégrale classique et son intégrale de Lebesgue ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle \\int_a^b f(t)\\,dt=\\int_{\\mathbb R}\\widetilde f(t)\\,\\lambda(dt)=\\int_{[a,b]}\\widetilde f(t)\\,\\lambda(dt)\\). Ainsi, pour les fonctions en escalier, l’intégrale classique coïncide exactement avec l’intégrale de Lebesgue par rapport à la mesure de Lebesgue."
+    },
+    {
+      "id": 13,
+      "enonce": "Proposition 5.2.19 : soit \\(E=[0,2\\pi]\\), muni de la tribu borélienne et de la mesure normalisée \\(\\displaystyle\\mu(A)=\\frac{1}{2\\pi}\\lambda(A)\\). Quel est le lien entre l’intégrale par rapport à \\(\\mu\\) et l’intégrale de Lebesgue ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour toute fonction \\(f:E\\to\\mathbb C\\) mesurable, positive ou \\(\\mu\\)-intégrable, et pour tout prolongement mesurable \\(\\widetilde f\\) de \\(f\\) à \\(\\mathbb R\\), on a \\(\\displaystyle \\int_E f\\,d\\mu=\\frac{1}{2\\pi}\\int_{[0,2\\pi]}\\widetilde f\\,d\\lambda\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Proposition 5.2.19 : pourquoi peut-on utiliser n’importe quel prolongement mesurable \\(\\widetilde f\\) de \\(f\\) à \\(\\mathbb R\\) dans la formule précédente ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "L’intégrale porte sur \\([0,2\\pi]\\), donc seules les valeurs du prolongement sur cet intervalle interviennent. Deux prolongements qui coïncident avec \\(f\\) sur \\([0,2\\pi]\\) donnent donc la même intégrale."
+    },
+    {
+      "id": 15,
+      "enonce": "Corollaire 5.2.20 : exprimer précisément le produit scalaire de \\(H=L^2_{\\mathbb C}(E,\\mathcal B(E),\\mu)\\) à l’aide de la mesure de Lebesgue.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tous \\(f,g\\in H\\), \\(\\displaystyle \\langle f,g\\rangle=\\frac{1}{2\\pi}\\int_{[0,2\\pi]}f(x)g^*(x)\\,\\lambda(dx)\\), où \\(g^*\\) désigne le conjugué complexe de \\(g\\)."
+    },
+    {
+      "id": 16,
+      "enonce": "Comment définit-on la base de Fourier de \\(H=L^2_{\\mathbb C}([0,2\\pi],\\mathcal B([0,2\\pi]),\\mu)\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La base de Fourier est la famille \\((e_n)_{n\\in\\mathbb Z}\\), où, pour tout \\(n\\in\\mathbb Z\\), \\(\\displaystyle e_n(x)=e^{inx}\\). Avec la mesure normalisée \\(\\mu=\\frac{1}{2\\pi}\\lambda\\), chaque fonction \\(e_n\\) est de norme \\(1\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Énoncer le théorème de Riesz-Fischer dans le cadre de la base de Fourier considérée.",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Riesz-Fischer affirme que la famille \\(\\displaystyle (e_n)_{n\\in\\mathbb Z}\\), avec \\(e_n(x)=e^{inx}\\), est une base hilbertienne de \\(H\\). Autrement dit, elle est orthonormée et totale dans \\(H\\)."
+    },
+    {
+      "id": 18,
+      "enonce": "Pour \\(f\\in H\\), quelle est la définition du coefficient de Fourier \\(c_n(f)\\) associé à \\(e_n\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On définit \\(\\displaystyle c_n(f)=\\langle f,e_n\\rangle=\\frac{1}{2\\pi}\\int_{[0,2\\pi]}f(x)e^{-inx}\\,\\lambda(dx)\\), pour tout \\(n\\in\\mathbb Z\\)."
+    },
+    {
+      "id": 19,
+      "enonce": "Pour \\(f\\in H\\), comment définit-on la somme partielle \\(S_N(f)\\) de sa série de Fourier ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour \\(N\\in\\mathbb N\\), on définit \\(\\displaystyle S_N(f)=\\sum_{n=-N}^{N}c_n(f)e_n\\). Comme \\(e_n(x)=e^{inx}\\), on peut également écrire \\(\\displaystyle S_N(f)(x)=\\sum_{n=-N}^{N}c_n(f)e^{inx}\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Proposition 5.2.27 : que peut-on dire de la convergence des sommes partielles de Fourier \\(S_N(f)\\) pour \\(f\\in H\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(f\\in H\\), les sommes partielles convergent vers \\(f\\) dans \\(H\\) : \\(\\displaystyle \\lim_{N\\to+\\infty}\\|f-S_N(f)\\|_2^2=0\\). De manière équivalente, \\(\\displaystyle \\lim_{N\\to+\\infty}\\frac{1}{2\\pi}\\int_{[0,2\\pi]}|f-S_N(f)|^2\\,d\\lambda=0\\)."
+    },
+    {
+      "id": 21,
+      "enonce": "Quelle identité de Parseval découle du corollaire 5.2.27 pour tout \\(f\\in H\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle \\frac{1}{2\\pi}\\int_{[0,2\\pi]}|f|^2\\,d\\lambda=\\lim_{N\\to+\\infty}\\sum_{n=-N}^{N}|c_n(f)|^2\\). Autrement dit, la norme quadratique de \\(f\\) est entièrement déterminée par ses coefficients de Fourier."
+    },
+    {
+      "id": 22,
+      "enonce": "À quelle condition une fonction \\(\\varphi:U\\to V\\), où \\(U\\) et \\(V\\) sont deux ouverts de \\(\\mathbb R\\), est-elle un \\(C^1\\)-difféomorphisme de \\(U\\) dans \\(V\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "D’après la proposition 5.2.31, \\(\\varphi\\) est un \\(C^1\\)-difféomorphisme de \\(U\\) dans \\(V\\) si et seulement si : \\(i)\\) \\(\\varphi\\) est une bijection de \\(U\\) dans \\(V\\) ; \\(ii)\\) \\(\\varphi\\) est de classe \\(C^1\\) ; \\(iii) \\(\\varphi'(x)\\neq0\\) pour tout \\(x\\in U\\)."
+    },
+    {
+      "id": 23,
+      "enonce": "Pourquoi la condition \\(\\varphi'(x)\\neq0\\) est-elle nécessaire dans la caractérisation du \\(C^1\\)-difféomorphisme en dimension \\(1\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La condition \\(\\varphi'\\neq0\\) garantit que \\(\\varphi\\) est localement inversible avec un inverse de classe \\(C^1\\). Par exemple, \\(\\varphi(x)=x^3\\) est bijective et de classe \\(C^1\\) sur \\(\\mathbb R\\), mais \\(\\varphi'(0)=0\\) et son inverse \\(x\\mapsto x^{1/3}\\) n’est pas dérivable en \\(0\\)."
+    },
+    {
+      "id": 24,
+      "enonce": "Énoncer précisément le théorème de changement de variable en dimension \\(1\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Soient \\(U,V\\) des ouverts de \\(\\mathbb R\\) et \\(\\varphi:U\\to V\\) un \\(C^1\\)-difféomorphisme. Pour toute fonction \\(h:\\mathbb R\\to\\mathbb R\\) borélienne : \\(i)\\) \\(h\\circ\\varphi\\) est \\(\\lambda\\)-intégrable sur \\(U\\) si et seulement si \\(\\displaystyle \\frac{h}{\\varphi'\\circ\\varphi^{-1}}\\) est \\(\\lambda\\)-intégrable sur \\(V\\) ; \\(ii) si \\(h\\circ\\varphi\\) est positive ou \\(\\lambda\\)-intégrable sur \\(U\\), alors \\(\\displaystyle \\int_U h(\\varphi(x))\\,\\lambda(dx)=\\int_V h(y)\\frac{1}{|\\varphi'(\\varphi^{-1}(y))|}\\,\\lambda(dy)\\)."
+    },
+    {
+      "id": 25,
+      "enonce": "Dans le théorème de changement de variable, pourquoi apparaît-il une valeur absolue devant \\(\\varphi'\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le facteur jacobien en dimension \\(1\\) est \\(\\displaystyle \\frac{1}{|\\varphi'(\\varphi^{-1}(y))|}\\). La valeur absolue est nécessaire pour que le facteur de changement de mesure soit positif, indépendamment du signe de \\(\\varphi'\\)."
+    },
+    {
+      "id": 26,
+      "enonce": "Énoncer précisément le corollaire du théorème de changement de variable concernant la densité de \\(Y=\\varphi(X)\\).",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Soient \\(U,V\\) des ouverts de \\(\\mathbb R\\), \\(\\varphi:U\\to V\\) un \\(C^1\\)-difféomorphisme et \\(X\\) une variable aléatoire réelle à valeurs dans \\(U\\), admettant une densité \\(f_X\\) par rapport à \\(\\lambda\\). Alors \\(Y=\\varphi(X)\\) admet la densité \\(\\displaystyle f_Y(y)=\\frac{f_X(\\varphi^{-1}(y))}{|\\varphi'(\\varphi^{-1}(y))|}\\mathbf 1_V(y)\\)."
+    },
+    {
+      "id": 27,
+      "enonce": "Dans le corollaire sur la densité de \\(Y=\\varphi(X)\\), quel rôle joue l’indicatrice \\(\\mathbf 1_V\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La variable \\(Y=\\varphi(X)\\) prend ses valeurs dans \\(V\\). La densité est donc nulle en dehors de \\(V\\), ce que traduit le facteur \\(\\mathbf 1_V(y)\\). Ainsi \\(\\displaystyle f_Y(y)=\\frac{f_X(\\varphi^{-1}(y))}{|\\varphi'(\\varphi^{-1}(y))|}\\mathbf 1_V(y)\\)."
+    },
+    {
+      "id": 28,
+      "enonce": "Application : si \\(X\\) suit la loi uniforme sur \\(]0,1[\\) et si \\(Y=-\\ln(X)\\), quelle est la densité de \\(Y\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On prend \\(U=]0,1[\\), \\(V=]0,+\\infty[\\) et \\(\\varphi(x)=-\\ln x\\). Alors \\(\\varphi^{-1}(y)=e^{-y}\\) et \\(|\\varphi'(e^{-y})|=e^y\\). Comme \\(f_X(x)=\\mathbf 1_{]0,1[}(x)\\), on obtient \\(\\displaystyle f_Y(y)=e^{-y}\\mathbf 1_{]0,+\\infty[}(y)\\). Ainsi \\(Y\\) suit une loi exponentielle de paramètre \\(1\\)."
+    }
+  ]
+}
