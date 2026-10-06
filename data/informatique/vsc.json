@@ -10,7 +10,7 @@
         "Alt + F4"
       ],
       "reponse_correcte": 0,
-      "explication": "Sous Windows, la palette de commandes s'ouvre en appuyant simultanément sur les touches Ctrl + Maj + P[span_0](start_span)[span_0](end_span)."
+      "explication": "Sous Windows, la palette de commandes s'ouvre en appuyant simultanément sur les touches Ctrl + Maj + P."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "Le bouton Extensions"
       ],
       "reponse_correcte": 0,
-      "explication": "Le bouton Explorateur dans la barre d'activité donne accès au panneau Explorateur où apparaissent les fichiers[span_1](start_span)[span_1](end_span)."
+      "explication": "Le bouton Explorateur dans la barre d'activité donne accès au panneau Explorateur où apparaissent les fichiers."
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
         "Un paquet"
       ],
       "reponse_correcte": 0,
-      "explication": "Un fichier source est appelé un script s'il peut être exécuté directement[span_2](start_span)[span_2](end_span)."
+      "explication": "Un fichier source est appelé un script s'il peut être exécuté directement."
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
         "Un outil graphique de compilation binaire"
       ],
       "reponse_correcte": 0,
-      "explication": "Un module est un fichier contenant des variables et des fonctions pouvant être importées dans d'autres sources[span_3](start_span)[span_3](end_span)."
+      "explication": "Un module est un fichier contenant des variables et des fonctions pouvant être importées dans d'autres sources."
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
         "pylint"
       ],
       "reponse_correcte": 0,
-      "explication": "L'installation comprend un gestionnaire de paquets appelé pip pour installer des paquets supplémentaires[span_4](start_span)[span_4](end_span)."
+      "explication": "L'installation comprend un gestionnaire de paquets appelé pip pour installer des paquets supplémentaires."
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
         "Le numéro de correctif (patch) pour les bugs"
       ],
       "reponse_correcte": 0,
-      "explication": "Y correspond au numéro de version mineure, incrémenté lorsqu'une nouvelle fonctionnalité rétro-compatible est ajoutée[span_5](start_span)[span_5](end_span)."
+      "explication": "Y correspond au numéro de version mineure, incrémenté lorsqu'une nouvelle fonctionnalité rétro-compatible est ajoutée."
     },
     {
       "id": 7,
@@ -76,7 +76,7 @@
         "Modifier directement les sources de la bibliothèque standard"
       ],
       "reponse_correcte": 0,
-      "explication": "Créer un environnement virtuel (venv) pour chaque projet permet d'isoler les dépendances sans altérer l'environnement global[span_6](start_span)[span_6](end_span)."
+      "explication": "Créer un environnement virtuel (venv) pour chaque projet permet d'isoler les dépendances sans altérer l'environnement global."
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
         "git init venv"
       ],
       "reponse_correcte": 0,
-      "explication": "La commande appelle le module venv via python -m venv venv pour créer le dossier de l'environnement virtuel[span_7](start_span)[span_7](end_span)."
+      "explication": "La commande appelle le module venv via python -m venv venv pour créer le dossier de l'environnement virtuel."
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
         "stop"
       ],
       "reponse_correcte": 0,
-      "explication": "Taper la commande deactivate dans le terminal permet de quitter l'environnement virtuel[span_8](start_span)[span_8](end_span)."
+      "explication": "Taper la commande deactivate dans le terminal permet de quitter l'environnement virtuel."
     },
     {
       "id": 10,
@@ -109,7 +109,7 @@
         "Un commentaire masqué dans le code source Python"
       ],
       "reponse_correcte": 0,
-      "explication": "Un point d'arrêt pointe vers une instruction où le débogueur met en pause l'exécution pour inspecter les variables[span_9](start_span)[span_9](end_span)."
+      "explication": "Un point d'arrêt pointe vers une instruction où le débogueur met en pause l'exécution pour inspecter les variables."
     },
     {
       "id": 11,
@@ -120,7 +120,7 @@
         "Redémarrer (Restart)"
       ],
       "reponse_correcte": 0,
-      "explication": "Le bouton Continuer/Pause permet de laisser s'exécuter le programme jusqu'au prochain point d'arrêt[span_10](start_span)[span_10](end_span)."
+      "explication": "Le bouton Continuer/Pause permet de laisser s'exécuter le programme jusqu'au prochain point d'arrêt."
     },
     {
       "id": 12,
@@ -131,7 +131,7 @@
         "Il n'y a aucune différence technique entre les deux boutons."
       ],
       "reponse_correcte": 0,
-      "explication": "Step Over passe par-dessus les appels de fonctions, alors que Step Into entre dans le détail de l'implémentation de la fonction[span_11](start_span)[span_11](end_span)."
+      "explication": "Step Over passe par-dessus les appels de fonctions, alors que Step Into entre dans le détail de l'implémentation de la fonction."
     },
     {
       "id": 13,
@@ -142,7 +142,7 @@
         "À compiler le code source en langage machine"
       ],
       "reponse_correcte": 0,
-      "explication": "Le panneau Espion permet d'ajouter des expressions spécifiques à surveiller lors de l'exécution du code[span_12](start_span)[span_12](end_span)."
+      "explication": "Le panneau Espion permet d'ajouter des expressions spécifiques à surveiller lors de l'exécution du code."
     },
     {
       "id": 14,
@@ -153,7 +153,7 @@
         "Un fichier texte répertoriant les mots de passe saisis"
       ],
       "reponse_correcte": 0,
-      "explication": "Un point de journalisation sert à afficher un message avec des variables sans interrompre l'exécution[span_13](start_span)[span_13](end_span)."
+      "explication": "Un point de journalisation sert à afficher un message avec des variables sans interrompre l'exécution."
     },
     {
       "id": 15,
@@ -164,7 +164,7 @@
         "Un outil de formatage automatique des disques durs"
       ],
       "reponse_correcte": 0,
-      "explication": "Un linter lit et analyse le code source (analyse statique) pour détecter des erreurs potentielles sans exécuter le programme[span_14](start_span)[span_14](end_span)."
+      "explication": "Un linter lit et analyse le code source (analyse statique) pour détecter des erreurs potentielles sans exécuter le programme."
     },
     {
       "id": 16,
@@ -175,7 +175,7 @@
         "Un type de données réservé aux nombres décimaux"
       ],
       "reponse_correcte": 0,
-      "explication": "Une docstring est une chaîne de caractères utilisée comme commentaire pour documenter un segment de code[span_15](start_span)[span_15](end_span)."
+      "explication": "Une docstring est une chaîne de caractères utilisée comme commentaire pour documenter un segment de code."
     },
     {
       "id": 17,
@@ -186,7 +186,7 @@
         "Via la fonction input() interactive"
       ],
       "reponse_correcte": 0,
-      "explication": "Les arguments de la ligne de commande sont accessibles via sys.argv sous forme d'une liste de chaînes de caractères[span_16](start_span)[span_16](end_span)."
+      "explication": "Les arguments de la ligne de commande sont accessibles via sys.argv sous forme d'une liste de chaînes de caractères."
     },
     {
       "id": 18,
@@ -197,7 +197,7 @@
         "Le chemin complet de l'interpréteur Python global"
       ],
       "reponse_correcte": 0,
-      "explication": "sys.argv[0] correspond toujours au nom du script exécuté[span_17](start_span)[span_17](end_span)."
+      "explication": "sys.argv[0] correspond toujours au nom du script exécuté."
     },
     {
       "id": 19,
@@ -208,7 +208,7 @@
         "C'est le nom du premier microprocesseur d'Intel"
       ],
       "reponse_correcte": 0,
-      "explication": "Le nom provient des peluches de pull-over (lint) récoltées à la sortie de la machine à laver, symbolisant la chasse aux petits résidus indésirables[span_18](start_span)[span_18](end_span)."
+      "explication": "Le nom provient des peluches de pull-over (lint) récoltées à la sortie de la machine à laver, symbolisant la chasse aux petits résidus indésirables."
     },
     {
       "id": 20,
@@ -219,7 +219,7 @@
         "Dans le dossier temporaire du système d'exploitation"
       ],
       "reponse_correcte": 0,
-      "explication": "Le fichier de configuration launch.json est stocké dans le dossier .vscode du projet[span_19](start_span)[span_19](end_span)."
+      "explication": "Le fichier de configuration launch.json est stocké dans le dossier .vscode du projet."
     }
   ]
 }

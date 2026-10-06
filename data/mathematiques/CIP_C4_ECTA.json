@@ -73,7 +73,7 @@
     },
     {
       "id": 8,
-      "enonce": "Dans le cadre précédent, à quelle condition \\(\\mu\\) est-elle une mesure de probabilité ?",
+      "enonce": "Pour une famille \\((p_\\omega)_{\\omega\\in\\Omega}\\) d'éléments de \\(\\mathbb R_+\\) sur un ensemble \\(\\Omega\\) au plus dénombrable, à quelle condition la mesure \\(\\mu = \\sum_{\\omega\\in\\Omega}p_\\omega\\delta_\\omega\\) est-elle une mesure de probabilité ?",
       "options": [
         "COMPRIS",
         "À REVOIR"

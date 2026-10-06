@@ -1,0 +1,152 @@
+{
+  "titre_chapitre": "C6 - Mesure et intégration III",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit \\\\(X : (\\Omega,\\mathcal F,P)\\to(\\mathbb R,\\mathcal B(\\mathbb R))\\\\) une variable aléatoire réelle. Comment définit-on sa fonction de répartition ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction de répartition de \\\\(X\\\\), notée \\\\(F_X\\\\), est définie par \\\\(\\displaystyle F_X(x)=P(X\\le x)\\\\), pour tout \\\\(x\\in\\mathbb R\\\\). Elle est également la fonction de répartition de la loi de \\\\(X\\\\), c'est-à-dire de la mesure image \\\\(P_X=P\\circ X^{-1}\\\\) : \\\\(\\displaystyle F_X(x)=P_X(]-\\infty,x])\\\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Vocabulaire : si \\\\(X\\\\) est une variable aléatoire réelle et \\\\(P_X\\\\) sa loi, que signifie « fonction de répartition de \\\\(P_X\\\\) » ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction de répartition de la mesure de probabilité \\\\(P_X\\\\) est la fonction \\\\(F_X:\\mathbb R\\to[0,1]\\\\) définie par \\\\(\\displaystyle F_X(x)=P_X(]-\\infty,x])\\\\). Comme \\\\(P_X(A)=P(X\\in A)\\\\), on retrouve \\\\(\\displaystyle F_X(x)=P(X\\le x)\\\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Soit \\\\(F:\\mathbb R\\to\\mathbb R\\\\). À quelles conditions \\\\(F\\\\) est-elle la fonction de répartition d'une mesure de probabilité sur \\\\(\\bigl(\\mathbb R,\\mathcal B(\\mathbb R)\\bigr)\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\\\(F\\\\) est une fonction de répartition si et seulement si \\\\(F\\\\) est croissante au sens large, continue à droite, vérifie \\\\(\\displaystyle\\lim_{x\\to-\\infty}F(x)=0\\\\) et \\\\(\\displaystyle\\lim_{x\\to+\\infty}F(x)=1\\\\). Ces conditions caractérisent exactement les fonctions de répartition des mesures de probabilité sur \\\\(\\mathbb R\\\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Pour une fonction de répartition \\\\(F\\\\), comment exprimer la probabilité que la variable aléatoire prenne exactement la valeur \\\\(x\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\\\(\\displaystyle P(X=x)=P(X\\le x)-P(X<x)=F(x)-F(x^-)\\\\), où \\\\(\\displaystyle F(x^-)=\\lim_{t\\uparrow x}F(t)\\\\). Ainsi, les sauts de la fonction de répartition correspondent exactement aux masses ponctuelles de la loi."
+    },
+    {
+      "id": 5,
+      "enonce": "Quelle est la fonction de répartition d'une loi de Bernoulli \\\\(\\mathcal B(p)\\\\), avec \\\\(p\\in[0,1]\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\\\(X\\sim\\mathcal B(p)\\\\), alors \\\\(P(X=0)=1-p\\\\) et \\\\(P(X=1)=p\\\\). Sa fonction de répartition est \\\\(\\displaystyle F_X(x)=\\begin{cases}0,&x<0,\\\\1-p,&0\\le x<1,\\\\1,&x\\ge1.\\end{cases}\\\\)"
+    },
+    {
+      "id": 6,
+      "enonce": "Soit une mesure de probabilité discrète \\\\(P=\\sum_{k=0}^{\\infty}\\alpha_k\\delta_{x_k}\\\\), avec \\\\(\\alpha_k\\ge0\\\\) et \\\\(\\sum_{k=0}^{\\infty}\\alpha_k=1\\\\). Quelle est sa fonction de répartition ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\\\(x\\in\\mathbb R\\\\), on a \\\\(\\displaystyle F(x)=P(]-\\infty,x])=\\sum_{k:\\,x_k\\le x}\\alpha_k\\\\). La fonction de répartition est donc une somme cumulée des masses situées en des points inférieurs ou égaux à \\\\(x\\\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Quelle est la fonction de répartition d'une loi uniforme sur \\\\[a,b\\\\], avec \\\\(a<b\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\\\(X\\sim\\mathcal U([a,b])\\\\), alors \\\\(\\displaystyle F_X(x)=\\begin{cases}0,&x<a,\\\\\\frac{x-a}{b-a},&a\\le x<b,\\\\1,&x\\ge b.\\end{cases}\\\\). Elle croît linéairement de \\\\(0\\\\) à \\\\(1\\\\) sur \\\\([a,b]\\\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelle est la fonction de répartition d'une loi exponentielle de paramètre de taux \\\\(\\theta>0\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\\\(X\\sim\\mathcal E(\\theta)\\\\), avec \\\\(\\theta>0\\\\) le paramètre de taux, alors \\\\(\\displaystyle F_X(x)=\\begin{cases}0,&x<0,\\\\1-e^{-\\theta x},&x\\ge0.\\end{cases}\\\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Soit \\\\(f:E\\to[0,+\\infty]\\\\) mesurable et \\\\(\\mu\\\\) une mesure sur \\\\( (E,\\mathcal E)\\\\). On définit \\\\(\\nu_f(A)=\\int_A f\\,d\\mu=\\int_E f\\mathbf 1_A\\,d\\mu\\\\). Que peut-on dire de \\\\(\\nu_f\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction d'ensemble \\\\(\\displaystyle\\nu_f:\\mathcal E\\to[0,+\\infty],\\quad A\\mapsto\\int_A f\\,d\\mu\\\\), est une mesure sur \\\\( (E,\\mathcal E)\\\\). Il s'agit de la mesure obtenue en pondérant \\\\(\\mu\\\\) par la fonction positive \\\\(f\\\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Avec \\\\(\\nu_f(A)=\\int_A f\\,d\\mu\\\\), à quelle condition \\\\(\\nu_f\\\\) est-elle une mesure de probabilité ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Une mesure est une mesure de probabilité si sa masse totale vaut \\\\(1\\\\). Or \\\\(\\displaystyle\\nu_f(E)=\\int_E f\\,d\\mu\\\\). Ainsi, \\\\(\\nu_f\\\\) est une probabilité si et seulement si \\\\(\\displaystyle\\int_E f\\,d\\mu=1\\\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Soient \\\\(f_1,f_2:E\\to[0,+\\infty]\\\\) mesurables. Si \\\\(\\displaystyle\\int_A f_1\\,d\\mu=\\int_A f_2\\,d\\mu\\\\) pour tout \\\\(A\\in\\mathcal E\\\\), que peut-on conclure ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On conclut que \\\\(f_1=f_2\\\\) \\\\(\\mu\\\\)-presque partout, c'est-à-dire que \\\\(\\mu(\\{x\\in E:f_1(x)\\ne f_2(x)\\})=0\\\\). Une densité définie par rapport à une mesure est donc unique à égalité \\\\(\\mu\\\\)-presque partout près."
+    },
+    {
+      "id": 12,
+      "enonce": "Soit \\\\(\\nu\\\\) une mesure sur \\\\( (E,\\mathcal E)\\\\). S'il existe une fonction mesurable \\\\(f:E\\to[0,+\\infty]\\\\) telle que \\\\(\\displaystyle\\nu(A)=\\int_A f\\,d\\mu\\\\) pour tout \\\\(A\\in\\mathcal E\\\\), comment appelle-t-on \\\\(f\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On dit que \\\\(\\nu\\\\) admet \\\\(f\\\\) comme densité par rapport à \\\\(\\mu\\\\). On note alors \\\\(\\displaystyle f=\\frac{d\\nu}{d\\mu}\\\\), lorsque cette dérivée de Radon--Nikodym existe. La densité est unique \\\\(\\mu\\\\)-presque partout."
+    },
+    {
+      "id": 13,
+      "enonce": "Si \\\\(\\nu\\\\) est une mesure de probabilité et \\\\(\\nu(A)=\\int_A f\\,d\\mu\\\\) pour tout \\\\(A\\\\), comment appelle-t-on \\\\(f\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On appelle \\\\(f\\\\) une densité de probabilité par rapport à \\\\(\\mu\\\\). Elle doit être mesurable, positive ou nulle, et vérifier \\\\(\\displaystyle\\int_E f\\,d\\mu=1\\\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "À quelles conditions une fonction \\\\(f:E\\to[0,+\\infty]\\\\) est-elle une densité de probabilité par rapport à une mesure \\\\(\\mu\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Il faut que \\\\(f\\\\) soit mesurable, que \\\\(f\\ge0\\\\) et que \\\\(\\displaystyle\\int_E f\\,d\\mu=1\\\\). Dans ce cas, \\\\(\\displaystyle\\nu(A)=\\int_A f\\,d\\mu\\\\) définit une mesure de probabilité."
+    },
+    {
+      "id": 15,
+      "enonce": "Comment note-t-on la dérivée de Radon--Nikodym de \\\\(\\nu\\\\) par rapport à \\\\(\\mu\\\\), lorsqu'elle existe ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La dérivée de Radon--Nikodym de \\\\(\\nu\\\\) par rapport à \\\\(\\mu\\\\) se note \\\\(\\displaystyle\\frac{d\\nu}{d\\mu}\\\\). C'est une fonction définie \\\\(\\mu\\\\)-presque partout telle que \\\\(\\displaystyle\\nu(A)=\\int_A\\frac{d\\nu}{d\\mu}\\,d\\mu\\\\) pour tout \\\\(A\\in\\mathcal E\\\\), sous les hypothèses appropriées."
+    },
+    {
+      "id": 16,
+      "enonce": "Soit \\\\(P\\\\) une mesure de probabilité sur \\\\( (\\mathbb R,\\mathcal B(\\mathbb R))\\\\), de fonction de répartition \\\\(F\\\\). Si \\\\(P\\\\) admet une densité \\\\(f\\\\) par rapport à \\\\(\\mu\\\\), quelle relation vérifie \\\\(F\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\\\(x\\in\\mathbb R\\\\), \\\\(\\displaystyle F(x)=P(]-\\infty,x])=\\int_{]-\\infty,x]}f\\,d\\mu\\\\). En notation intégrale, \\\\(\\displaystyle F(x)=\\int_{-\\infty}^{x}f\\,d\\mu\\\\), lorsque cette notation est appropriée."
+    },
+    {
+      "id": 17,
+      "enonce": "Si une mesure de probabilité \\\\(P\\\\) sur \\\\(\\mathbb R\\\\) admet une densité \\\\(f\\\\) par rapport à la mesure de Lebesgue \\\\(\\lambda\\\\), quelle expression peut-on donner pour sa fonction de répartition ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\\\(\\displaystyle F(x)=P(]-\\infty,x])=\\int_{]-\\infty,x]}f(t)\\,d\\lambda(t)=\\int_{-\\infty}^{x}f(t)\\,dt\\\\). Ainsi, lorsque la densité est une densité par rapport à Lebesgue, la fonction de répartition est l'intégrale de la densité."
+    },
+    {
+      "id": 18,
+      "enonce": "Quelle est la densité par rapport à la mesure de Lebesgue d'une loi uniforme sur \\\\[a,b\\\\], avec \\\\(a<b\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La densité est \\\\(\\displaystyle f(x)=\\frac{1}{b-a}\\mathbf 1_{[a,b]}(x)\\\\). Elle est nulle en dehors de \\\\([a,b]\\\\), constante sur \\\\([a,b]\\\\), et son intégrale sur \\\\(\\mathbb R\\\\) vaut \\\\(1\\\\)."
+    },
+    {
+      "id": 19,
+      "enonce": "Quelle est la densité par rapport à la mesure de Lebesgue d'une loi exponentielle de paramètre de taux \\\\(\\theta>0\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si \\\\(X\\sim\\mathcal E(\\theta)\\\\), alors sa densité est \\\\(\\displaystyle f(x)=\\theta e^{-\\theta x}\\mathbf 1_{[0,+\\infty[}(x)\\\\). On vérifie bien \\\\(\\displaystyle\\int_0^{+\\infty}\\theta e^{-\\theta x}\\,dx=1\\\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Quelle est la densité par rapport à la mesure de Lebesgue d'une loi gaussienne \\\\(\\mathcal N(m,\\sigma^2)\\\\), avec \\\\(\\sigma>0\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La densité de \\\\(\\mathcal N(m,\\sigma^2)\\\\) est \\\\(\\displaystyle f(x)=\\frac{1}{\\sigma\\sqrt{2\\pi}}\\exp\\left(-\\frac{(x-m)^2}{2\\sigma^2}\\right)\\\\), pour tout \\\\(x\\in\\mathbb R\\\\). Son intégrale sur \\\\(\\mathbb R\\\\) vaut \\\\(1\\\\)."
+    },
+    {
+      "id": 21,
+      "enonce": "Soit \\\\(f:E\\to[0,+\\infty]\\\\) mesurable et \\\\(\\nu_f(A)=\\int_A f\\,d\\mu\\\\). Pour une fonction mesurable \\\\(g:E\\to[0,+\\infty]\\\\), quelle formule relie \\\\(\\int_E g\\,d\\nu_f\\\\) et \\\\(\\mu\\\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\\\(\\displaystyle\\int_E g\\,d\\nu_f=\\int_E g f\\,d\\mu\\\\). Il s'agit de la formule de changement de mesure associée à \\\\(d\\nu_f=f\\,d\\mu\\\\). Plus généralement, si \\\\(g\\\\) est \\\\(\\nu_f\\\\)-intégrable, les deux côtés sont finis et cette égalité reste valable."
+    }
+  ]
+}

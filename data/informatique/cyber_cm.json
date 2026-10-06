@@ -10,7 +10,7 @@
         "Une méthode de développement logiciel agile sans faille."
       ],
       "reponse_correcte": 0,
-      "explication": "La cybersécurité est l'ensemble des mesures prises pour protéger un système informatique contre les accès non autorisés ou les attaques[span_0](start_span)[span_0](end_span)."
+      "explication": "La cybersécurité est l'ensemble des mesures prises pour protéger un système informatique contre les accès non autorisés ou les attaques."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "Gérer uniquement les licences des applications bureautiques."
       ],
       "reponse_correcte": 0,
-      "explication": "La sécurité de l'information consiste à protéger l'intégrité et la non-divulgation des données, quand elles sont stockées ou transmises via un lien de communication[span_1](start_span)[span_1](end_span)."
+      "explication": "La sécurité de l'information consiste à protéger l'intégrité et la non-divulgation des données, quand elles sont stockées ou transmises via un lien de communication."
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
         "Un outil de diagnostic pour tester la vitesse de la mémoire RAM."
       ],
       "reponse_correcte": 0,
-      "explication": "Un logiciel malveillant (malware) est un programme qui vise à nuire à un système informatique ou à ses utilisateurs[span_2](start_span)[span_2](end_span)."
+      "explication": "Un logiciel malveillant (malware) est un programme qui vise à nuire à un système informatique ou à ses utilisateurs."
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
         "Une clé USB cryptée contenant des correctifs de sécurité."
       ],
       "reponse_correcte": 0,
-      "explication": "Un cheval de Troie est un programme qui se présente comme légitime alors qu'il inclut une partie malveillante, s'appuyant sur l'ingénierie sociale[span_3](start_span)[span_3](end_span)."
+      "explication": "Un cheval de Troie est un programme qui se présente comme légitime alors qu'il inclut une partie malveillante, s'appuyant sur l'ingénierie sociale."
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
         "Des faiblesses mathématiques dans les fonctions de hachage MD5."
       ],
       "reponse_correcte": 0,
-      "explication": "Les chevaux de Troie n'utilisent pas de vulnérabilités pour s'installer ; ils s'appuient sur les erreurs humaines et la crédulité[span_4](start_span)[span_4](end_span)."
+      "explication": "Les chevaux de Troie n'utilisent pas de vulnérabilités pour s'installer ; ils s'appuient sur les erreurs humaines et la crédulité."
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
         "Il sert exclusivement à chiffrer les disques durs contre rançon."
       ],
       "reponse_correcte": 0,
-      "explication": "Un virus est un logiciel malveillant qui est caché à l'intérieur d'un autre programme (hôte) et qui s'auto-réplique d'un ordinateur à l'autre[span_5](start_span)[span_5](end_span)."
+      "explication": "Un virus est un logiciel malveillant qui est caché à l'intérieur d'un autre programme (hôte) et qui s'auto-réplique d'un ordinateur à l'autre."
     },
     {
       "id": 7,
@@ -76,7 +76,7 @@
         "Il est inoffensif et sert uniquement à mesurer le trafic réseau."
       ],
       "reponse_correcte": 0,
-      "explication": "Un ver est un programme autonome qui se réplique et infecte le système sans action de l'utilisateur, combinant les aspects d'un cheval de Troie et d'un virus[span_6](start_span)[span_6](end_span)."
+      "explication": "Un ver est un programme autonome qui se réplique et infecte le système sans action de l'utilisateur, combinant les aspects d'un cheval de Troie et d'un virus."
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
         "Un pare-feu payant bloquant les connexions non sécurisées."
       ],
       "reponse_correcte": 0,
-      "explication": "Un rançongiciel est un logiciel malveillant qui chiffre les données de la victime et demande le paiement d'une rançon pour les rendre de nouveau lisibles[span_7](start_span)[span_7](end_span)."
+      "explication": "Un rançongiciel est un logiciel malveillant qui chiffre les données de la victime et demande le paiement d'une rançon pour les rendre de nouveau lisibles."
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
         "Un auditeur spécialisé dans les tests de pénétration bancaires."
       ],
       "reponse_correcte": 0,
-      "explication": "Les attaquants non expérimentés qui utilisent des outils sans les comprendre sont appelés des script kiddies[span_8](start_span)[span_8](end_span)."
+      "explication": "Les attaquants non expérimentés qui utilisent des outils sans les comprendre sont appelés des script kiddies."
     },
     {
       "id": 10,
@@ -109,7 +109,7 @@
         "Contrôle, Isolation, Distribution"
       ],
       "reponse_correcte": 0,
-      "explication": "Les politiques de cybersécurité sont centrées autour des propriétés CID (Confidentialité, Intégrité, Disponibilité)[span_9](start_span)[span_9](end_span)."
+      "explication": "Les politiques de cybersécurité sont centrées autour des propriétés CID (Confidentialité, Intégrité, Disponibilité)."
     },
     {
       "id": 11,
@@ -120,7 +120,7 @@
         "Une modification non autorisée de la base de hachage"
       ],
       "reponse_correcte": 0,
-      "explication": "Une attaque en déni de service (Denial of Service, DoS) vise à compromettre la disponibilité des services[span_10](start_span)[span_10](end_span)."
+      "explication": "Une attaque en déni de service (Denial of Service, DoS) vise à compromettre la disponibilité des services."
     },
     {
       "id": 12,
@@ -131,7 +131,7 @@
         "Supprimer complètement les mots de passe pour simplifier la connexion."
       ],
       "reponse_correcte": 0,
-      "explication": "Le principe du privilège minimum consiste à ne donner aux utilisateurs que les droits dont ils ont besoin[span_11](start_span)[span_11](end_span)."
+      "explication": "Le principe du privilège minimum consiste à ne donner aux utilisateurs que les droits dont ils ont besoin."
     },
     {
       "id": 13,
@@ -142,7 +142,7 @@
         "Il s'exactement de la même notion technique sans aucune distinction."
       ],
       "reponse_correcte": 0,
-      "explication": "L'identification demande à l'utilisateur de s'identifier, et l'authentification vérifie cette identité[span_12](start_span)[span_12](end_span)."
+      "explication": "L'identification demande à l'utilisateur de s'identifier, et l'authentification vérifie cette identité."
     },
     {
       "id": 14,
@@ -153,7 +153,7 @@
         "En clair dans un tableau croisé dynamique chiffré par clé symétrique."
       ],
       "reponse_correcte": 0,
-      "explication": "Le système applique une fonction de hachage cryptographique au mot de passe et stocke uniquement le résultat hashé[span_13](start_span)[span_13](end_span)."
+      "explication": "Le système applique une fonction de hachage cryptographique au mot de passe et stocke uniquement le résultat hashé."
     },
     {
       "id": 15,
@@ -164,7 +164,7 @@
         "Un protocole d'échange de clés publiques entre deux entités distantes."
       ],
       "reponse_correcte": 0,
-      "explication": "Une fonction de hachage cryptographique transforme des données de longueur variable en un tableau de bits de taille fixe de manière déterministe et à sens unique[span_14](start_span)[span_14](end_span)."
+      "explication": "Une fonction de hachage cryptographique transforme des données de longueur variable en un tableau de bits de taille fixe de manière déterministe et à sens unique."
     },
     {
       "id": 16,
@@ -175,7 +175,7 @@
         "HTTP, FTP, SSH"
       ],
       "reponse_correcte": 0,
-      "explication": "Les exemples de fonctions de hachage incluent MD5, SHA1 et SHA256[span_15](start_span)[span_15](end_span)."
+      "explication": "Les exemples de fonctions de hachage incluent MD5, SHA1 et SHA256."
     },
     {
       "id": 17,
@@ -186,7 +186,7 @@
         "Modifier directement la table des utilisateurs dans la base de données sans authentification."
       ],
       "reponse_correcte": 0,
-      "explication": "Une attaque par force brute essaie un très grand nombre de mots de passe (combinaisons ou mots connus)[span_16](start_span)[span_16](end_span)."
+      "explication": "Une attaque par force brute essaie un très grand nombre de mots de passe (combinaisons ou mots connus)."
     },
     {
       "id": 18,
@@ -197,7 +197,7 @@
         "À l'aide d'une liste de contrôle d'accès basée sur les adresses IP."
       ],
       "reponse_correcte": 0,
-      "explication": "Sous Unix, les droits sont représentés par les permissions de lecture (r), d'écriture (w) et d'exécution (x) pour le propriétaire, le groupe et les autres[span_17](start_span)[span_17](end_span)."
+      "explication": "Sous Unix, les droits sont représentés par les permissions de lecture (r), d'écriture (w) et d'exécution (x) pour le propriétaire, le groupe et les autres."
     },
     {
       "id": 19,
@@ -208,7 +208,7 @@
         "Un certificat numérique délivré par une autorité externe obligatoire."
       ],
       "reponse_correcte": 0,
-      "explication": "Dans le chiffrement symétrique, Bob et Alice partagent la même clé utilisée à la fois pour le chiffrement et le déchiffrement[span_18](start_span)[span_18](end_span)."
+      "explication": "Dans le chiffrement symétrique, Bob et Alice partagent la même clé utilisée à la fois pour le chiffrement et le déchiffrement."
     },
     {
       "id": 20,
@@ -219,7 +219,7 @@
         "L'impossibilité totale d'utiliser des blocs de données de taille fixe."
       ],
       "reponse_correcte": 0,
-      "explication": "Alice et Bob n'ont aucun moyen sûr de se mettre d'accord sur une clé partagée s'ils ne peuvent pas se rencontrer physiquement[span_19](start_span)[span_19](end_span)."
+      "explication": "Alice et Bob n'ont aucun moyen sûr de se mettre d'accord sur une clé partagée s'ils ne peuvent pas se rencontrer physiquement."
     },
     {
       "id": 21,
@@ -230,7 +230,7 @@
         "2004"
       ],
       "reponse_correcte": 0,
-      "explication": "En 1976, Diffie et Hellman ont décrit un algorithme permettant à Bob et Alice de trouver une clé secrète commune sans qu'elle ne soit échangée[span_20](start_span)[span_20](end_span)."
+      "explication": "En 1976, Diffie et Hellman ont décrit un algorithme permettant à Bob et Alice de trouver une clé secrète commune sans qu'elle ne soit échangée."
     },
     {
       "id": 22,
@@ -241,7 +241,7 @@
         "Les deux utilisateurs échangent une clé symétrique temporaire via un canal non sécurisé."
       ],
       "reponse_correcte": 0,
-      "explication": "Alice chiffre le message en clair avec la clé publique de Bob, et Bob déchiffre le message chiffré avec sa clé privée[span_21](start_span)[span_21](end_span)."
+      "explication": "Alice chiffre le message en clair avec la clé publique de Bob, et Bob déchiffre le message chiffré avec sa clé privée."
     },
     {
       "id": 23,
@@ -252,7 +252,7 @@
         "À masquer l'adresse IP source de l'ordinateur attaquant."
       ],
       "reponse_correcte": 0,
-      "explication": "Les signatures numériques permettent de s'assurer de l'identité de l'expéditeur et de l'intégrité du document, en combinant clé publique et hachage[span_22](start_span)[span_22](end_span)."
+      "explication": "Les signatures numériques permettent de s'assurer de l'identité de l'expéditeur et de l'intégrité du document, en combinant clé publique et hachage."
     },
     {
       "id": 24,
@@ -263,7 +263,7 @@
         "L'éditeur du navigateur web par défaut"
       ],
       "reponse_correcte": 0,
-      "explication": "Une autorité de certification (CA) est un tiers de confiance permettant de certifier qu'une clé publique appartient bien à une entité donnée[span_23](start_span)[span_23](end_span)."
+      "explication": "Une autorité de certification (CA) est un tiers de confiance permettant de certifier qu'une clé publique appartient bien à une entité donnée."
     },
     {
       "id": 25,
@@ -274,7 +274,7 @@
         "Une fuite de numéros de téléphone due à une base de données non protégée"
       ],
       "reponse_correcte": 0,
-      "explication": "L'université Paris-Saclay a été victime d'une cyberattaque par rançongiciel en août 2024[span_24](start_span)[span_24](end_span)."
+      "explication": "L'université Paris-Saclay a été victime d'une cyberattaque par rançongiciel en août 2024."
     }
   ]
 }

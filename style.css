@@ -35,9 +35,29 @@
   --radius: 10px;
   --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
   --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
+  --color-primary-text: #ffffff;
   --font-base: "Geist Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --action-bar-height: 64px;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --color-bg: #030712;
+  --color-surface: #111827;
+  --color-border: #1f2937;
+  --color-text: #f3f4f6;
+  --color-text-muted: #9ca3af;
+  --color-primary: #f9fafb;
+  --color-primary-hover: #e5e7eb;
+  --color-primary-text: #111827;
+  --color-success: #4ade80;
+  --color-success-bg: rgba(74, 222, 128, 0.12);
+  --color-error: #f87171;
+  --color-error-bg: rgba(248, 113, 113, 0.12);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.6);
+  color-scheme: dark;
 }
 
 * {
@@ -129,7 +149,7 @@ h3 {
 .btn {
   display: inline-block;
   background: var(--color-primary);
-  color: #fff;
+  color: var(--color-primary-text);
   border: none;
   border-radius: 8px;
   padding: 13px 22px;
@@ -380,6 +400,12 @@ h3 {
   gap: 16px;
 }
 
+.site-bar-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .site-bar-link {
   font-size: 0.75rem;
   font-weight: 600;
@@ -392,6 +418,36 @@ h3 {
 
 .site-bar-link:hover {
   color: var(--color-text);
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  background: none;
+  border: none;
+  color: var(--color-text-muted);
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.theme-toggle:hover {
+  color: var(--color-text);
+}
+
+.theme-toggle .icon-moon {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle .icon-sun {
+  display: none;
+}
+
+[data-theme="dark"] .theme-toggle .icon-moon {
+  display: block;
 }
 
 .results-actions {
@@ -467,7 +523,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 30;
+    z-index: 30;  
     background: var(--color-surface);
     border-top: 1px solid var(--color-border);
     padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0));

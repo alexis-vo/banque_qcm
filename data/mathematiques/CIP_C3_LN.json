@@ -62,7 +62,7 @@
       "enonce": "Donner 4 exemples de mesures.",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "La mesure nulle ; la mesure de Dirac en un point \\(a\\), \\(\\delta_a\\) ; la mesure de comptage ; la mesure (ou loi) uniforme sur un ensemble \\(\\Omega\\) fini."
+      "explication": "On peut définir explicitement ces mesures ainsi : (1) la mesure nulle \\(\\mathbf{0}\\) est définie par \\(\\mathbf{0}(A)=0\\) pour tout \\(A\\in\\mathcal E\\). (2) La mesure de Dirac en \\(a\\in E\\), notée \\(\\delta_a\\), est définie par \\(\\displaystyle\\delta_a(A)=\\mathbf{1}_A(a)=\\begin{cases}1,&a\\in A,\\\\0,&a\\notin A.\\end{cases}\\) pour tout \\(A\\in\\mathcal E\\). (3) La mesure de comptage \\(\\#\\) est définie par \\(\\displaystyle\\#(A)=\\operatorname{card}(A)\\in\\mathbb N\\cup\\{+\\infty\\}\\) pour tout \\(A\\in\\mathcal E\\). (4) Si \\(\\Omega\\) est un ensemble fini non vide, la mesure uniforme \\(\\mathcal U_\\Omega\\) est définie par \\(\\displaystyle\\mathcal U_\\Omega(A)=\\frac{\\operatorname{card}(A)}{\\operatorname{card}(\\Omega)}\\) pour tout \\(A\\subseteq\\Omega\\). De manière équivalente, \\(\\displaystyle\\mathcal U_\\Omega=\\frac{1}{\\operatorname{card}(\\Omega)}\\sum_{\\omega\\in\\Omega}\\delta_\\omega\\)."
     },
     {
       "id": 10,
@@ -129,10 +129,10 @@
     },
     {
       "id": 19,
-      "enonce": "Donner les deux notations équivalentes pour \\(f^{-1}(A)\\).",
+      "enonce": "Soient \\((\\Omega,\\mathcal F)\\) et \\((E,\\mathcal E)\\) deux espaces mesurables et soit \\(f:\\Omega\\to E\\) une application. Pour un ensemble \\(A\\in\\mathcal E\\), donner les deux notations équivalentes de l'image réciproque \\(f^{-1}(A)\\).",
       "options": ["COMPRIS", "À REVOIR"],
       "reponse_correcte": 0,
-      "explication": "\\(f^{-1}(A)=\\{\\omega\\in\\Omega \\mid f(\\omega)\\in A\\}=\\{f\\in A\\}\\)."
+      "explication": "Par définition, l'image réciproque de \\(A\\subseteq E\\) par \\(f:\\Omega\\to E\\) est \\(\\displaystyle f^{-1}(A)=\\{\\omega\\in\\Omega\\mid f(\\omega)\\in A\\}\\). On peut également la noter \\(\\displaystyle\\{f\\in A\\}\\), avec la convention \\(\\{f\\in A\\}=\\{\\omega\\in\\Omega\\mid f(\\omega)\\in A\\}\\). Ainsi, \\(f^{-1}(A)\\) est toujours un sous-ensemble de l'espace de départ \\(\\Omega\\), tandis que \\(A\\) est un sous-ensemble de l'espace d'arrivée \\(E\\)."
     },
     {
       "id": 20,

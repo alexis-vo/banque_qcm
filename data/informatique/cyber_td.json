@@ -10,7 +10,7 @@
         "Il s'agit du même organisme gouvernemental divisé en deux branches régionales."
       ],
       "reponse_correcte": 0,
-      "explication": "La CNIL contribue au cadre réglementaire et veille au respect, et l'ANSSI assiste techniquement les administrations, entreprises et particuliers[span_0](start_span)[span_0](end_span)."
+      "explication": "La CNIL contribue au cadre réglementaire et veille au respect, et l'ANSSI assiste techniquement les administrations, entreprises et particuliers."
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "F = log10(L * N)"
       ],
       "reponse_correcte": 0,
-      "explication": "Dans le cas où le mot de passe est choisi de façon aléatoire, la mesure de la force correspond à l'entropie et se calcule par la formule F = log2(N^L)[span_1](start_span)[span_1](end_span)."
+      "explication": "Dans le cas où le mot de passe est choisi de façon aléatoire, la mesure de la force correspond à l'entropie et se calcule par la formule F = log2(N^L)."
     },
     {
       "id": 3,
@@ -32,7 +32,7 @@
         "F >= 80"
       ],
       "reponse_correcte": 0,
-      "explication": "On estime que la force d'un mot de passe est très faible si F < 64, faible si F < 80, moyen si F < 100, et fort si F >= 100[span_2](start_span)[span_2](end_span)."
+      "explication": "On estime que la force d'un mot de passe est très faible si F < 64, faible si F < 80, moyen si F < 100, et fort si F >= 100."
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
         "8 symboles"
       ],
       "reponse_correcte": 0,
-      "explication": "Il faut seulement 13 symboles pour un mot de passe utilisant chiffres, lettres minuscules, majuscules et ponctuations pour atteindre une force moyenne[span_3](start_span)[span_3](end_span)."
+      "explication": "Il faut seulement 13 symboles pour un mot de passe utilisant chiffres, lettres minuscules, majuscules et ponctuations pour atteindre une force moyenne."
     },
     {
       "id": 5,
@@ -54,7 +54,7 @@
         "Parce que secrets chiffre automatiquement le résultat avec AES-256."
       ],
       "reponse_correcte": 0,
-      "explication": "Le module random fournit des fonctions pseudo-aléatoires rapides adaptées à la simulation mais mauvaises en cryptographie, contrairement au module secrets qui est moins prédictible[span_4](start_span)[span_4](end_span)."
+      "explication": "Le module random fournit des fonctions pseudo-aléatoires rapides adaptées à la simulation mais mauvaises en cryptographie, contrairement au module secrets qui est moins prédictible."
     },
     {
       "id": 6,
@@ -65,7 +65,7 @@
         "Une erreur de syntaxe si l'accent n'est pas échappé"
       ],
       "reponse_correcte": 0,
-      "explication": "L'instruction convertit la chaîne en une série d'octets sous forme condensée, reconnaissable grâce à la lettre b à gauche du premier apostrophe[span_5](start_span)[span_5](end_span)."
+      "explication": "L'instruction convertit la chaîne en une série d'octets sous forme condensée, reconnaissable grâce à la lettre b à gauche du premier apostrophe."
     },
     {
       "id": 7,
@@ -76,7 +76,7 @@
         "MD5"
       ],
       "reponse_correcte": 0,
-      "explication": "Le module Fernet de la bibliothèque cryptography implémente l'algorithme AES avec des clés de 128 bits[span_6](start_span)[span_6](end_span)."
+      "explication": "Le module Fernet de la bibliothèque cryptography implémente l'algorithme AES avec des clés de 128 bits."
     },
     {
       "id": 8,
@@ -87,7 +87,7 @@
         "SHA256Hash"
       ],
       "reponse_correcte": 0,
-      "explication": "PBKDF2HMAC génère une clé en concaténant le mot de passe avec un sel et en le hashant itérativement (par exemple 100000 fois)[span_7](start_span)[span_7](end_span)."
+      "explication": "PBKDF2HMAC génère une clé en concaténant le mot de passe avec un sel et en le hashant itérativement (par exemple 100000 fois)."
     },
     {
       "id": 9,
@@ -98,7 +98,7 @@
         "Parce que le module Fernet supprime automatiquement le fichier keychain.dat en cas de changement de sel."
       ],
       "reponse_correcte": 0,
-      "explication": "Deux clés générées à partir d'un unique mot de passe mais de deux sels différents ne sont pas identiques, il ne faut donc pas changer de sel au risque de ne plus pouvoir déchiffrer[span_8](start_span)[span_8](end_span)."
+      "explication": "Deux clés générées à partir d'un unique mot de passe mais de deux sels différents ne sont pas identiques, il ne faut donc pas changer de sel au risque de ne plus pouvoir déchiffrer."
     },
     {
       "id": 10,
@@ -109,7 +109,7 @@
         "hidden_input()"
       ],
       "reponse_correcte": 0,
-      "explication": "La fonction getpass du module éponyme permet de demander à l'utilisateur de saisir son mot de passe sans qu'il ne soit visible contrairement à input()[span_9](start_span)[span_9](end_span)."
+      "explication": "La fonction getpass du module éponyme permet de demander à l'utilisateur de saisir son mot de passe sans qu'il ne soit visible contrairement à input()."
     },
     {
       "id": 11,
@@ -120,7 +120,7 @@
         "WrongKeyException"
       ],
       "reponse_correcte": 0,
-      "explication": "Lorsque la clé de déchiffrement ne correspond pas à celle du chiffrement, la fonction génère l'exception InvalidToken qu'il faut importer depuis cryptography.fernet[span_10](start_span)[span_10](end_span)."
+      "explication": "Lorsque la clé de déchiffrement ne correspond pas à celle du chiffrement, la fonction génère l'exception InvalidToken qu'il faut importer depuis cryptography.fernet."
     },
     {
       "id": 12,
@@ -131,7 +131,7 @@
         "pysteal"
       ],
       "reponse_correcte": 0,
-      "explication": "Le module pyperclip est utilisé pour copier une chaîne de caractères directement dans le presse-papier via pyperclip.copy()[span_11](start_span)[span_11](end_span)."
+      "explication": "Le module pyperclip est utilisé pour copier une chaîne de caractères directement dans le presse-papier via pyperclip.copy()."
     },
     {
       "id": 13,
@@ -142,7 +142,7 @@
         "À répéter un mot de passe court jusqu'à atteindre 128 caractères."
       ],
       "reponse_correcte": 0,
-      "explication": "La méthode Diceware s'appuie sur une liste de mots où un mot de passe est une sélection aléatoire de plusieurs mots, produisant une passphrase à la fois robuste et plus facile à mémoriser[span_12](start_span)[span_12](end_span)."
+      "explication": "La méthode Diceware s'appuie sur une liste de mots où un mot de passe est une sélection aléatoire de plusieurs mots, produisant une passphrase à la fois robuste et plus facile à mémoriser."
     },
     {
       "id": 14,
@@ -153,7 +153,7 @@
         "Un fichier XML structuré en balises"
       ],
       "reponse_correcte": 0,
-      "explication": "La base est un dictionnaire associant un nom de site à un mot de passe, converti en lignes séparées par un délimiteur avant d'être encodé et chiffré[span_13](start_span)[span_13](end_span)."
+      "explication": "La base est un dictionnaire associant un nom de site à un mot de passe, converti en lignes séparées par un délimiteur avant d'être encodé et chiffré."
     },
     {
       "id": 15,
@@ -164,7 +164,7 @@
         "Il supprime définitivement le fichier keychain.dat."
       ],
       "reponse_correcte": 0,
-      "explication": "L'action get name permet de retrouver le mot de passe associé au site name dans la base de données[span_14](start_span)[span_14](end_span)."
+      "explication": "L'action get name permet de retrouver le mot de passe associé au site name dans la base de données."
     }
   ]
 }
