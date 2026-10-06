@@ -1,0 +1,130 @@
+{
+  "titre_chapitre": "Limites planétaires 2026-2027 - QCM 2",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Le concept de \"climat\" fait depuis toujours appel à deux notions clefs (2 bonnes réponses)",
+      "options": [
+        "Les choix socio-économiques et politiques",
+        "Le chaos, le hasard, l'aléa",
+        "La circulation atmosphérique",
+        "L'habitabilité de l'environnement humain",
+        "La prédiction et le déterminisme"
+      ],
+      "reponse_correcte": [3, 4],
+      "explication": "Proposition à vérifier avec le cours. Le climat est un concept né de l'idée d'habitabilité (les zones climatiques des Grecs) et il renvoie à ce qui est prévisible et déterministe, par opposition au chaos de la météo au jour le jour."
+    },
+    {
+      "id": 2,
+      "enonce": "On sait qu'il fait froid au pôle Sud",
+      "options": [
+        "depuis les expéditions qui y sont parvenues (R. Scott 1911; R. Amundsen 1912)",
+        "depuis l'antiquité grecque pour des raisons géométriques simples",
+        "depuis l'expédition de James Scott (1773) dans l'océan Austral"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On sait qu'il fait froid au pôle Sud depuis que des expéditions y sont parvenues (Scott en 1911, Amundsen en 1912) ; avant cela, il n'y avait pas de mesure directe."
+    },
+    {
+      "id": 3,
+      "enonce": "La figure ci-dessous représente un bilan radiatif pour une planète différente de la Terre. Quelles sont les deux affirmations exactes ? (Figure : rayonnement solaire incident 300 W/m², rayonnement solaire réfléchi 120 W/m², rayonnement infrarouge sortant 180 W/m²)",
+      "options": [
+        "L'albédo est de 0,4",
+        "L'albédo est de 0,16",
+        "La constante solaire (stellaire) est de 300 W.m⁻²",
+        "La constante solaire (stellaire) est de 342 W.m⁻²",
+        "La constante solaire (stellaire) est de 1368 W.m⁻²",
+        "L'albédo est de 0,31",
+        "La constante solaire (stellaire) est de 1200 W.m⁻²"
+      ],
+      "reponse_correcte": [0, 6],
+      "explication": "L'albédo est le rapport entre le rayonnement réfléchi et le rayonnement incident : 120/300 = 0,4. Le rayonnement incident moyen (300 W/m²) vaut S/4, donc la constante solaire est S = 4 × 300 = 1200 W.m⁻²."
+    },
+    {
+      "id": 4,
+      "enonce": "Au premier ordre, l'effet de serre sur Terre est lié (1 bonne réponse) :",
+      "options": [
+        "au CO2 qui absorbe le rayonnement infra-rouge dans la haute atmosphère",
+        "à la vapeur d'eau qui absorbe le rayonnement infra-rouge dans la basse atmosphère",
+        "aux nuages dans la moyenne atmosphère",
+        "à la vapeur d'eau qui absorbe le rayonnement infra-rouge dans la haute atmosphère"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Proposition à vérifier avec le cours. L'effet de serre vient de gaz comme le CO2 qui absorbent l'infrarouge dans la haute atmosphère, où il fait froid et d'où le rayonnement s'échappe vers l'espace. La vapeur d'eau se concentre dans la basse atmosphère, et les nuages ne sont pas des gaz."
+    },
+    {
+      "id": 5,
+      "enonce": "On attribue aux différents gaz à effets de serre un PRG (Potentiel de Réchauffement Global) afin de les comparer entre eux (et de fixer un prix ou une taxe). Par exemple, le méthane à un PRG de 28. Le CO2 sert de référence (PRG = 1) et la durée considérée est en général de 100 ans. Pourquoi 100 ans ?",
+      "options": [
+        "100 ans n'est pas un temps physico-chimique: c'est l'horizon temporel des choix politiques",
+        "100 ans, c'est la durée de vie du CO2 dans l'atmosphère",
+        "100 ans n'est pas un temps physico-chimique: c'est une échelle humaine et l'horizon temporel des projections climatiques dans le cadre du GIEC",
+        "100 ans, c'est le temps de résidence du CO2 dans l'atmosphère"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Proposition à vérifier avec le cours. Le CO2 n'a pas de durée de vie unique de 100 ans dans l'atmosphère. L'horizon de 100 ans est une convention à échelle humaine, qui correspond à celui des projections climatiques du GIEC."
+    },
+    {
+      "id": 6,
+      "enonce": "Quel est le temps de résidence du carbone à la surface de la Terre ?",
+      "options": [
+        "3 ans",
+        "200 000 ans",
+        "100 ans",
+        "1000 ans",
+        "3 mois"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Proposition à vérifier avec le cours : à la surface de la Terre (biosphère, sols, océan de surface), le carbone reste de l'ordre d'un siècle."
+    },
+    {
+      "id": 7,
+      "enonce": "Le principal réservoir de carbone sur Terre est:",
+      "options": [
+        "la biosphère",
+        "l'atmosphère",
+        "l'océan"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Parmi les propositions, l'océan est de loin le plus grand réservoir de carbone, très au-dessus de l'atmosphère et de la biosphère."
+    },
+    {
+      "id": 8,
+      "enonce": "A quelle masse de carbone (environ) correspond 1 ppm de méthane (CH4) ?",
+      "options": [
+        "2.8 GtC",
+        "2.1 GtC",
+        "0.75 GtC",
+        "1.1 GtC"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Une molécule de CH4 contient un seul atome de carbone, comme une molécule de CO2. 1 ppm de CH4 contient donc autant d'atomes de carbone que 1 ppm de CO2, soit environ 2,1 GtC."
+    },
+    {
+      "id": 9,
+      "enonce": "Effet de serre: Cochez les 2 affirmations exactes -",
+      "options": [
+        "le diazote atmosphérique est l'un des principaux gaz à effet de serre.",
+        "L'effet de serre était opérant avant la révolution industrielle, les activités humaines l'ont amplifié.",
+        "Sans effet de serre, la température moyenne globale à la surface de la Terre serait de 0°C.",
+        "La vapeur d'eau est l'un des principaux gaz à effet de serre émis par les activités humaines.",
+        "L'effet de serre est lié à l'interaction, dans l'atmosphère, entre le rayonnement émis par la Terre et l'atmosphère et les gaz à effet de serre."
+      ],
+      "reponse_correcte": [1, 4],
+      "explication": "L'effet de serre existait avant l'ère industrielle (les activités humaines l'ont renforcé) et résulte de l'interaction entre le rayonnement émis par la Terre et les gaz à effet de serre. Le diazote n'est pas un gaz à effet de serre, la vapeur d'eau n'est pas principalement émise par les activités humaines, et sans effet de serre la température serait d'environ -18°C et non 0°C."
+    },
+    {
+      "id": 10,
+      "enonce": "Effet de serre: Cochez les 2 affirmations exactes -",
+      "options": [
+        "L'effet de serre est uniquement dû aux activités anthropiques.",
+        "Les nuages sont des gaz à effet de serre.",
+        "La vapeur d'eau est un des principaux gaz à effet de serre.",
+        "L'effet de serre est lié à l'interaction, dans l'atmosphère, entre rayonnement solaire et gaz à effet de serre.",
+        "Sans effet de serre, la température moyenne globale à la surface de la Terre serait inférieure à -10°C."
+      ],
+      "reponse_correcte": [2, 4],
+      "explication": "La vapeur d'eau est l'un des principaux gaz à effet de serre, et sans effet de serre la température de surface serait d'environ -18°C, donc inférieure à -10°C. L'effet de serre n'est pas uniquement anthropique, les nuages ne sont pas des gaz, et l'interaction concerne le rayonnement émis par la Terre plutôt que le rayonnement solaire."
+    }
+  ]
+}

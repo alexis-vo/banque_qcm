@@ -1,0 +1,211 @@
+{
+  "titre_chapitre": "Limites planétaires 2026-2027 - QCM 2",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "La figure ci-dessous représente un bilan radiatif pour une planète différente de la Terre. Quelles sont les deux affirmations exactes ? (Figure : rayonnement solaire incident 300 W/m², rayonnement solaire réfléchi 120 W/m², rayonnement infrarouge sortant 180 W/m²)",
+      "options": [
+        "L'albédo est de 0,16",
+        "La constante solaire (stellaire) est de 1368 W.m⁻²",
+        "L'albédo est de 0,4",
+        "La constante solaire (stellaire) est de 342 W.m⁻²",
+        "La constante solaire (stellaire) est de 300 W.m⁻²",
+        "La constante solaire (stellaire) est de 1200 W.m⁻²",
+        "L'albédo est de 0,31"
+      ],
+      "reponse_correcte": [2, 5],
+      "explication": "L'albédo est le rapport entre le rayonnement réfléchi et le rayonnement incident : 120/300 = 0,4. Le rayonnement incident moyen (300 W/m²) vaut S/4, donc la constante solaire est S = 4 × 300 = 1200 W.m⁻²."
+    },
+    {
+      "id": 2,
+      "enonce": "Le principal réservoir de carbone sur Terre est :",
+      "options": [
+        "la biosphère",
+        "l'atmosphère",
+        "l'océan"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Parmi les propositions, l'océan est de loin le plus grand réservoir de carbone, très au-dessus de l'atmosphère et de la biosphère."
+    },
+    {
+      "id": 3,
+      "enonce": "Comptabilité carbone - Les émissions anthropiques de CO2 sont actuellement de l'ordre de... (2 bonnes réponses)",
+      "options": [
+        "5 GtC/an",
+        "2,5 ppm/an",
+        "10 GtC/an",
+        "10 ppm/an",
+        "37 GtCO2/an",
+        "37 GtC/an",
+        "10 GtCO2/an"
+      ],
+      "reponse_correcte": [2, 4],
+      "explication": "Les émissions anthropiques actuelles sont d'environ 37 GtCO2/an, ce qui équivaut à environ 10 GtC/an (1 GtC = 3,67 GtCO2)."
+    },
+    {
+      "id": 4,
+      "enonce": "On sait qu'il fait froid au pôle Sud",
+      "options": [
+        "depuis l'expédition de James Scott (1773) dans l'océan Austral",
+        "depuis l'antiquité grecque pour des raisons géométriques simples",
+        "depuis les expéditions qui y sont parvenues (R. Scott 1911 ; R. Amundsen 1912)"
+      ],
+      "reponse_correcte": 2,
+      "explication": "On sait qu'il fait froid au pôle Sud depuis que des expéditions y sont parvenues (Scott en 1911, Amundsen en 1912) ; avant cela, il n'y avait pas de mesure directe."
+    },
+    {
+      "id": 5,
+      "enonce": "La hausse de température associée à un doublement de CO2 est calculée pour la première fois par",
+      "options": [
+        "Svante Arrhenius (1896)",
+        "Syukuro Manabe (1964)",
+        "Joseph Fourier (1824)",
+        "Milutin Milankovitch (1941)",
+        "Hipparque (environ 130 av J.-C.)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Svante Arrhenius a calculé en 1896 l'effet d'un doublement du CO2 atmosphérique sur la température de surface."
+    },
+    {
+      "id": 6,
+      "enonce": "Effet de serre : Cochez les 2 affirmations exactes -",
+      "options": [
+        "L'effet de serre est lié à l'interaction, dans l'atmosphère, entre le rayonnement émis par la Terre et l'atmosphère et les gaz à effet de serre.",
+        "L'effet de serre était opérant avant la révolution industrielle, les activités humaines l'ont amplifié.",
+        "La vapeur d'eau est l'un des principaux gaz à effet de serre émis par les activités humaines.",
+        "Sans effet de serre, la température moyenne globale à la surface de la Terre serait de 0°C.",
+        "le diazote atmosphérique est l'un des principaux gaz à effet de serre."
+      ],
+      "reponse_correcte": [0, 1],
+      "explication": "L'effet de serre résulte de l'interaction entre le rayonnement terrestre et les gaz à effet de serre, et il existait avant l'ère industrielle (les activités humaines l'ont renforcé). La vapeur d'eau n'est pas principalement émise par les activités humaines, la température sans effet de serre serait d'environ -18°C et non 0°C, et le diazote n'est pas un gaz à effet de serre."
+    },
+    {
+      "id": 7,
+      "enonce": "Effet de serre : Cochez les 2 affirmations exactes -",
+      "options": [
+        "Si la température était uniforme sur la verticale, on ne pourrait pas avoir un effet de serre significatif",
+        "L'effet de serre est lié à un point de vue anthropocentrique: on s'intéresse à la température en bas de l'atmosphère.",
+        "L'effet de serre est lié à la couche d'ozone dans la stratosphère qui retient les rayonnements les plus énergétiques dans les basses couches",
+        "La tropopause retient la chaleur qui ne peut plus s'échapper par convection"
+      ],
+      "reponse_correcte": [0, 1],
+      "explication": "L'effet de serre repose sur la baisse de la température avec l'altitude : si la température était uniforme sur la verticale, il n'y aurait pas d'effet de serre significatif. Il est aussi défini du point de vue de la température près de la surface. L'ozone et la tropopause ne l'expliquent pas."
+    },
+    {
+      "id": 8,
+      "enonce": "Au premier ordre, l'effet de serre sur Terre est lié (1 bonne réponse) :",
+      "options": [
+        "aux nuages dans la haute atmosphère",
+        "au méthane qui absorbe le rayonnement infra-rouge dans la haute atmosphère",
+        "au trou d'ozone dans la stratosphère",
+        "au gradient de vapeur d'eau entre le bas et le haut de l'atmosphère"
+      ],
+      "reponse_correcte": 3,
+      "explication": "Proposition à vérifier avec le cours. Au premier ordre, l'effet de serre est dû à des gaz (surtout la vapeur d'eau) qui absorbent l'infrarouge et dont la concentration décroît avec l'altitude. Le méthane est secondaire et le trou d'ozone n'a pas de lien avec l'effet de serre."
+    },
+    {
+      "id": 9,
+      "enonce": "Quel est le temps de résidence du carbone dans l'océan profond ?",
+      "options": [
+        "3 ans",
+        "300 ans",
+        "30 ans",
+        "200 000 ans",
+        "100 ans",
+        "1000 ans"
+      ],
+      "reponse_correcte": 5,
+      "explication": "Le carbone reste de l'ordre de 1000 ans dans l'océan profond, qui se renouvelle lentement."
+    },
+    {
+      "id": 10,
+      "enonce": "Quel est le temps de résidence du carbone à la surface de la Terre ?",
+      "options": [
+        "200 000 ans",
+        "3 ans",
+        "100 ans",
+        "1000 ans",
+        "3 mois"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Proposition à vérifier avec le cours : à la surface de la Terre (biosphère, sols, océan de surface), le carbone reste de l'ordre d'un siècle."
+    },
+    {
+      "id": 11,
+      "enonce": "Effet de serre : Cochez les 2 affirmations exactes -",
+      "options": [
+        "L'effet de serre est lié à l'interaction, dans l'atmosphère, entre le rayonnement solaire et gaz à effet de serre.",
+        "L'effet de serre est uniquement dû aux activités anthropiques.",
+        "Sans effet de serre, la température moyenne globale à la surface de la Terre serait inférieure à -10°C.",
+        "Les nuages sont des gaz à effet de serre.",
+        "La vapeur d'eau est un des principaux gaz à effet de serre."
+      ],
+      "reponse_correcte": [2, 4],
+      "explication": "Proposition à vérifier avec le cours. Sans effet de serre, la température de surface serait très inférieure à 0°C. La vapeur d'eau est l'un des principaux gaz à effet de serre. L'effet de serre n'est pas uniquement anthropique, et les nuages ne sont pas des gaz."
+    },
+    {
+      "id": 12,
+      "enonce": "Quel est le temps de résidence du carbone dans l'atmosphère ?",
+      "options": [
+        "3 ans",
+        "100 ans",
+        "1000 ans",
+        "3 mois",
+        "200 000 ans"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le temps de résidence du carbone dans l'atmosphère est de l'ordre de quelques années (environ 3 ans)."
+    },
+    {
+      "id": 13,
+      "enonce": "Les premières théories physiques sur les changements climatiques apparaissent ... - The first physical theories regarding climate change emerged...",
+      "options": [
+        "au milieu du XIXe siècle, suite à la découverte des glaciations",
+        "au XXe siècle, suite à la hausse des températures",
+        "au XVIIIe siècle, suite à la révolution industrielle",
+        "à la fin du XIXe siècle, suite aux progrès de la physique et de la thermodynamique"
+      ],
+      "reponse_correcte": 3,
+      "explication": "Proposition à vérifier avec le cours. Les premières théories physiques du climat (Fourier, Tyndall, Arrhenius) s'appuient sur les progrès de la physique et de la thermodynamique au XIXe siècle."
+    },
+    {
+      "id": 14,
+      "enonce": "Au premier ordre, l'effet de serre sur Terre est lié à (1 bonne réponse) :",
+      "options": [
+        "à la vapeur d'eau qui absorbe le rayonnement infra-rouge dans la haute atmosphère",
+        "aux nuages dans la moyenne atmosphère",
+        "à la vapeur d'eau qui absorbe le rayonnement infra-rouge dans la basse atmosphère",
+        "au CO2 qui absorbe le rayonnement infra-rouge dans la haute atmosphère"
+      ],
+      "reponse_correcte": 3,
+      "explication": "Proposition à vérifier avec le cours : l'effet de serre vient de gaz comme le CO2 qui absorbent l'infrarouge dans la haute atmosphère, où il fait froid et d'où le rayonnement s'échappe vers l'espace."
+    },
+    {
+      "id": 15,
+      "enonce": "L'augmentation de CO2 dans l'atmosphère depuis le début de la révolution industrielle est... (2 bonnes réponses)",
+      "options": [
+        "de +45%",
+        "plus grande que lors des transitions glaciaire-interglaciaire (ie. > +100 ppm)",
+        "plus petite que lors des transitions glaciaire-interglaciaire (ie. < +100 ppm)",
+        "de +30%"
+      ],
+      "reponse_correcte": [0, 1],
+      "explication": "Le CO2 est passé d'environ 280 ppm à environ 420 ppm, soit environ +45% (plus de +100 ppm). C'est plus que lors des transitions glaciaire-interglaciaire."
+    },
+    {
+      "id": 16,
+      "enonce": "La figure ci-dessous représente un bilan radiatif pour une planète différente de la Terre. Quelles sont les deux affirmations exactes ? (Figure : rayonnement solaire incident 1000 W/m², rayonnement solaire réfléchi 190 W/m², rayonnement infrarouge sortant 810 W/m²)",
+      "options": [
+        "L'albédo est de 0,029",
+        "La constante solaire (stellaire) est de 1368 W.m⁻²",
+        "L'albédo est de 0,31",
+        "L'albédo est de 0,19",
+        "La constante solaire (stellaire) est de 4000 W.m⁻²",
+        "La constante solaire (stellaire) est de 400 W.m⁻²",
+        "La constante solaire (stellaire) est de 1000 W.m⁻²"
+      ],
+      "reponse_correcte": [3, 4],
+      "explication": "L'albédo est le rapport entre le rayonnement réfléchi et le rayonnement incident : 190/1000 = 0,19. Le rayonnement incident moyen (1000 W/m²) vaut S/4, donc la constante solaire est S = 4 × 1000 = 4000 W.m⁻²."
+    }
+  ]
+}
