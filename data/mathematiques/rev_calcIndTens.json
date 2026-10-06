@@ -1,0 +1,125 @@
+{
+  "titre_chapitre": "Mathématiques I - Calcul indiciel et Tenseurs",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Dans un espace tridimensionnel, que représente l'expression indicielle \\(u_i v_i\\) en appliquant la convention de sommation d'Einstein ?",
+      "options": [
+        "Un vecteur de composantes \\((u_1 v_1, u_2 v_2, u_3 v_3)\\)",
+        "Le produit scalaire \\(\\vec{u} \\cdot \\vec{v} = u_1 v_1 + u_2 v_2 + u_3 v_3\\)",
+        "Une matrice 3x3 formée par les produits des composantes",
+        "La composante \\(i\\) du produit vectoriel \\(\\vec{u} \\times \\vec{v}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Selon la convention de sommation d'Einstein, lorsqu'un indice est répété deux fois dans un même terme (ici l'indice \\(i\\)), il implique une somme explicite de 1 à 3 : \\(u_i v_i = \\sum_{i=1}^3 u_i v_i = u_1 v_1 + u_2 v_2 + u_3 v_3\\), ce qui correspond exactement au produit scalaire \\(\\vec{u} \\cdot \\vec{v}\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle est la valeur du symbole de Levi-Civita \\(\\epsilon_{132}\\) ?",
+      "options": [
+        "\\(1\\)",
+        "\\(-1\\)",
+        "\\(0\\)",
+        "\\(3\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le symbole de Levi-Civita \\(\\epsilon_{ijk}\\) vaut \\(+1\\) si les indices \\((i,j,k)\\) forment une permutation cyclique de \\((1,2,3)\\) (123, 231, 312), \\(-1\\) s'ils forment une permutation anti-cyclique (132, 213, 321), et \\(0\\) si au moins deux indices sont égaux. Ici, 132 est une permutation impaire (anti-cyclique), donc \\(\\epsilon_{132} = -1\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Soit \\(A_i\\) les composantes d'un vecteur et \\(\\delta_{ij}\\) le symbole de Kronecker. Que vaut la contraction indicielle \\(A_i \\delta_{ij}\\) ?",
+      "options": [
+        "\\(A_i\\)",
+        "\\(A_j\\)",
+        "\\(0\\)",
+        "\\(3 A_i\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le symbole de Kronecker \\(\\delta_{ij}\\) vaut 1 si \\(i=j\\) et 0 si \\(i \\neq j\\). Dans la somme sur \\(i\\) : \\(A_i \\delta_{ij} = A_1 \\delta_{1j} + A_2 \\delta_{2j} + A_3 \\delta_{3j}\\). Seul le terme où \\(i=j\\) est non nul, ce qui donne \\(A_j\\). \\(\\delta_{ij}\\) agit comme un opérateur de substitution d'indice."
+    },
+    {
+      "id": 4,
+      "enonce": "Quelle est la formulation indicielle correcte de la \\(i\\)-ème composante du produit vectoriel \\(\\vec{u} \\times \\vec{v}\\) dans une base orthonormée directe ?",
+      "options": [
+        "\\(u_i v_i\\)",
+        "\\(\\epsilon_{ijk} u_j v_k\\)",
+        "\\(\\delta_{ij} u_j v_k\\)",
+        "\\(\\epsilon_{ijk} u_i v_j\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Par définition de l'algèbre vectorielle en notation indicielle, le produit vectoriel s'écrit \\(\\vec{u} \\times \\vec{v} = \\epsilon_{ijk} u_j v_k \\vec{e}_i\\). Sa \\(i\\)-ème composante selon le vecteur de base \\(\\vec{e}_i\\) est donc \\((\\vec{u} \\times \\vec{v})_i = \\epsilon_{ijk} u_j v_k\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Quelle est la propriété de contraction reliant le produit de deux symboles de Levi-Civita ayant un indice sommé en commun \\(\\epsilon_{ijk} \\epsilon_{ilm}\\) ?",
+      "options": [
+        "\\(\\delta_{jl} \\delta_{km} - \\delta_{jm} \\delta_{kl}\\)",
+        "\\(\\delta_{jk} \\delta_{lm} + \\delta_{jl} \\delta_{km}\\)",
+        "\\(\\epsilon_{jklm}\\)",
+        "\\(\\delta_{ij} \\delta_{kl}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La propriété de contraction fondamentale de Levi-Civita s'écrit \\(\\epsilon_{ijk} \\epsilon_{ilm} = \\delta_{jl} \\delta_{km} - \\delta_{jm} \\delta_{kl}\\). Elle permet de transformer le produit de deux symboles d'antisymétrie ayant l'indice \\(i\\) en commun en une différence de produits de deltas de Kronecker."
+    },
+    {
+      "id": 6,
+      "enonce": "En coordonnées cartésiennes, comment s'exprime la divergence d'un champ vectoriel \\(\\vec{u}\\) en notation indicielle ?",
+      "options": [
+        "\\(\\epsilon_{ijk} \\frac{\\partial u_k}{\\partial x_j}\\)",
+        "\\(\\frac{\\partial u_i}{\\partial x_i}\\)",
+        "\\(\\frac{\\partial^2 u_i}{\\partial x_j \\partial x_j}\\)",
+        "\\(\\frac{\\partial u_i}{\\partial x_j} \\vec{e}_i\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La divergence d'un champ vectoriel \\(\\vec{u}\\) est un champ scalaire. En notation indicielle avec la convention de sommation d'Einstein, elle s'écrit \\(\\vec{\\nabla} \\cdot \\vec{u} = \\frac{\\partial u_1}{\\partial x_1} + \\frac{\\partial u_2}{\\partial x_2} + \\frac{\\partial u_3}{\\partial x_3} = \\frac{\\partial u_i}{\\partial x_i}\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Que vaut la trace \\(\\text{tr}(\\bar{\\bar{1}})\\) du tenseur identité \\(\\bar{\\bar{1}}\\) dans un espace à 3 dimensions ?",
+      "options": [
+        "\\(1\\)",
+        "\\(3\\)",
+        "\\(0\\)",
+        "\\(9\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La représentation matricielle du tenseur identité \\(\\bar{\\bar{1}}\\) dans une base orthonormée tridimensionnelle est la matrice identité \\(I_3 = \\text{diag}(1, 1, 1)\\). Sa trace s'exprime par \\(\\text{tr}(\\bar{\\bar{1}}) = \\delta_{ii} = \\delta_{11} + \\delta_{22} + \\delta_{33} = 1 + 1 + 1 = 3\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Soit \\(\\bar{\\bar{T}}\\) un tenseur d'ordre 2 de composantes \\(T_{ij}\\). Comment est définie sa partie symétrique \\(T_{(ij)}\\) ?",
+      "options": [
+        "\\(T_{(ij)} = T_{ij} - T_{ji}\\)",
+        "\\(T_{(ij)} = \\frac{1}{2}(T_{ij} + T_{ji})\\)",
+        "\\(T_{(ij)} = T_{ii} \\delta_{ij}\\)",
+        "\\(T_{(ij)} = \\frac{1}{2}(T_{ij} - T_{ji})\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Tout tenseur d'ordre 2 se décompose de manière unique en une partie symétrique et une partie anti-symétrique : \\(T_{ij} = \\frac{1}{2}(T_{ij} + T_{ji}) + \\frac{1}{2}(T_{ij} - T_{ji})\\). La partie symétrique est donc \\(T_{(ij)} = \\frac{1}{2}(T_{ij} + T_{ji})\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "En mécanique des milieux continus, quelle relation lie la force surfacique infinitésimale interne \\(d\\vec{F}\\) s'exerçant sur une surface \\(d\\vec{S}\\) au tenseur des contraintes \\(\\bar{\\bar{\\sigma}}\\) ?",
+      "options": [
+        "\\(d\\vec{F} = \\bar{\\bar{\\sigma}} \\times d\\vec{S}\\)",
+        "\\(d\\vec{F} = \\bar{\\bar{\\sigma}} \\cdot d\\vec{S}\\)",
+        "\\(d\\vec{F} = \\text{tr}(\\bar{\\bar{\\sigma}}) d\\vec{S}\\)",
+        "\\(d\\vec{F} = \\vec{\\nabla} \\cdot \\bar{\\bar{\\sigma}}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le tenseur des contraintes \\(\\bar{\\bar{\\sigma}}\\) relie le vecteur force infinitésimal \\(d\\vec{F}\\) au vecteur élément de surface \\(d\\vec{S}\\) par le produit contracté à droite : \\(d\\vec{F} = \\bar{\\bar{\\sigma}} \\cdot d\\vec{S}\\), ce qui s'écrit en composantes \\(dF_i = \\sigma_{ij} dS_j\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "En coordonnées curvilignes orthogonales (comme les coordonnées cylindriques ou sphériques), pourquoi le calcul du gradient d'un champ vectoriel fait-il apparaître des termes supplémentaires par rapport aux coordonnées cartésiennes ?",
+      "options": [
+        "Parce que le champ vectoriel n'est plus dérivable",
+        "Parce que les vecteurs de la base locale varient en direction selon la position spatiale",
+        "Parce que la métrique de l'espace devient non-euclidienne",
+        "Parce que la divergence d'un champ vectoriel y est toujours nulle"
+      ],
+      "reponse_correcte": 1,
+      "explication": "En coordonnées cartésiennes, les vecteurs de base \\((\\vec{e}_x, \\vec{e}_y, \\vec{e}_z)\\) sont constants dans tout l'espace (dérivées partielles nulles). En coordonnées curvilignes, les vecteurs de base locale (par exemple \\(\\vec{e}_r, \\vec{e}_\\theta\\)) dépendent du point de l'espace. Lors de la dérivation d'un vecteur \\(\\vec{F} = F_i \\vec{e}_i\\), la règle de Leibniz impose de dériver à la fois les composantes \\(F_i\\) et les vecteurs de base \\(\\vec{e}_i\\), ce qui engendre des termes correctifs (symboles de type Christoffel)."
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "titre_chapitre": "Algèbre linéaire et Espaces de Hilbert",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Soit \\(E\\) un espace vectoriel sur \\(\\mathbb{C}\\) et \\(M\\) un opérateur linéaire sur \\(E\\). Que vaut l'image du vecteur nul \\(|0\\rangle\\) par \\(M\\) ?",
+      "options": [
+        "\\(M|0\\rangle = |0\\rangle\\)",
+        "\\(M|0\\rangle = 1\\)",
+        "\\(M|0\\rangle\\) n'est pas défini",
+        "\\(M|0\\rangle = |u_\\lambda\\rangle\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Par linéarité de l'opérateur \\(M\\), on a \\(M|0\\rangle = M(0|0\\rangle) = 0(M|0\\rangle) = |0\\rangle\\). L'image du vecteur nul par un opérateur linéaire est toujours le vecteur nul."
+    },
+    {
+      "id": 2,
+      "enonce": "Soit \\(A\\) un opérateur linéaire sur un espace vectoriel de dimension finie. Quelle est la condition nécessaire et suffisante pour qu'un scalaire \\(\\lambda\\) soit une valeur propre de \\(A\\) ?",
+      "options": [
+        "\\(\\det(A - \\lambda I) = 0\\)",
+        "\\(\\operatorname{tr}(A) = \\lambda\\)",
+        "\\(A = \\lambda I\\)",
+        "\\(\\det(A) = \\lambda\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les valeurs propres de \\(A\\) sont exactement les racines du polynôme caractéristique \\(\\chi(X) = \\det(A - XI)\\). L'équation \\(\\det(A - \\lambda I) = 0\\) garantit l'existence d'un vecteur propre non nul \\(|u_\\lambda\\rangle\\) tel que \\(A|u_\\lambda\\rangle = \\lambda|u_\\lambda\\rangle\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Dans un espace hermitien muni d'un produit hermitien \\(\\langle u|v\\rangle\\), quelle inégalité fondamentale relie le produit hermitien de deux vecteurs \\(|u\\rangle\\) et \\(|v\\rangle\\) à leurs normes ?",
+      "options": [
+        "\\(|\\langle u|v\\rangle| \\le \\|u\\| \\|v\\|\\)",
+        "\\(|\\langle u|v\\rangle| \\ge \\|u\\| + \\|v\\|\\)",
+        "\\(\\langle u|v\\rangle = \\|u\\| \\|v\\|\\)",
+        "\\(|\\langle u|v\\rangle|^2 \\le \\|u\\| + \\|v\\|\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Il s'agit de l'inégalité de Cauchy-Schwarz : pour tous vecteurs \\(|u\\rangle\\) et \\(|v\\rangle\\), le module de leur produit hermitien est toujours inférieur ou égal au produit de leurs normes respectives, avec égalité si et seulement si les vecteurs sont colinéaires."
+    },
+    {
+      "id": 4,
+      "enonce": "Soit \\(\\mathcal{B} = (|e_1\\rangle, \\dots, |e_n\\rangle)\\) une base d'un espace vectoriel de dimension \\(n\\). Comment est définie sa base réciproque \\(\\tilde{\\mathcal{B}} = (|e_1^*\\rangle, \\dots, |e_n^*\\rangle)\\) ?",
+      "options": [
+        "\\(\\langle e_i^* | e_j \\rangle = \\delta_{ij}\\)",
+        "\\(\\langle e_i^* | e_j \\rangle = 0\\) pour tout \\(i, j\\)",
+        "\\(|e_i^*\\rangle = -|e_i\\rangle\\)",
+        "\\(\\langle e_i^* | e_j \\rangle = 1\\) pour tout \\(i, j\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La base réciproque est définie de manière unique par la relation de dualité \\(\\langle e_i^* | e_j \\rangle = \\delta_{ij}\\), où \\(\\delta_{ij}\\) est le symbole de Kronecker (égal à 1 si \\(i=j\\) et 0 sinon)."
+    },
+    {
+      "id": 5,
+      "enonce": "Un opérateur \\(P\\) est un projecteur si et seulement s'il vérifie quelle relation ?",
+      "options": [
+        "\\(P^2 = P\\)",
+        "\\(P^* = P^{-1}\\)",
+        "\\(\\det(P) = 1\\)",
+        "\\(P^2 = I\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un projecteur est caractérisé par son idempotence, c'est-à-dire \\(P \\circ P = P\\) (ou \\(P^2 = P\\)). Ses seules valeurs propres possibles sont 0 et 1."
+    },
+    {
+      "id": 6,
+      "enonce": "Quelle propriété caractérise un projecteur orthogonal \\(P\\) dans un espace hermitien ?",
+      "options": [
+        "\\(P^* = P\\) (l'opérateur est auto-adjoint)",
+        "\\(P^* = P^{-1}\\)",
+        "\\(\\operatorname{tr}(P) = 0\\)",
+        "\\(P^2 = -I\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un projecteur \\(P\\) est dit orthogonal si le noyau \\(\\ker(P)\\) et l'image \\(\\operatorname{Im}(P)\\) sont orthogonaux, ce qui équivaut à la condition qu'il soit auto-adjoint : \\(P^* = P\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Un opérateur \\(A\\) est une isométrie (ou opérateur unitaire) si et seulement si son adjoint \\(A^*\\) vérifie quelle relation ?",
+      "options": [
+        "\\(A^* = A^{-1}\\)",
+        "\\(A^* = A\\)",
+        "\\(A^* = -A\\)",
+        "\\(A^* = 0\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une isométrie conserve le produit hermitien et les normes. Elle est caractérisée par la relation \\(A^* A = I\\), c'est-à-dire \\(A^* = A^{-1}\\). Toutes ses valeurs propres sont de module 1."
+    },
+    {
+      "id": 8,
+      "enonce": "Que peut-on affirmer sur les valeurs propres d'un opérateur hermitien (auto-adjoint, vérifiant \\(A^* = A\\)) ?",
+      "options": [
+        "Elles sont toutes réelles",
+        "Elles sont toutes imaginaires pures",
+        "Elles sont toutes de module 1",
+        "Elles sont toutes strictly négatives"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Tout opérateur hermitien a des valeurs propres réelles et est diagonalisable dans une base orthonormée."
+    },
+    {
+      "id": 9,
+      "enonce": "Un opérateur \\(N\\) est dit nilpotent s'il existe un entier \\(m \\ge 1\\) tel que \\(N^m = 0\\). Quelle est la seule valeur propre d'un opérateur nilpotent ?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Il n'en possède aucune"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Si \\(\\lambda\\) est une valeur propre de \\(N\\) associée au vecteur propre \\(|u\\rangle \\neq 0\\), alors \\(N^m |u\\rangle = \\lambda^m |u\\rangle = 0\\), ce qui implique \\(\\lambda^m = 0\\) et donc \\(\\lambda = 0\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Dans l'espace \\(L^1(\\mathbb{R})\\) des fonctions intégrables au sens de Lebesgue, comment est définie la norme \\(\\|f\\|_1\\) d'une fonction \\(f\\) ?",
+      "options": [
+        "\\(\\|f\\|_1 = \\int_{\\mathbb{R}} |f(x)|\\,dx\\)",
+        "\\(\\|f\\|_1 = \\sqrt{\\int_{\\mathbb{R}} |f(x)|^2\\,dx}\\)",
+        "\\(\\|f\\|_1 = \\sup_{x \\in \\mathbb{R}} |f(x)|\\)",
+        "\\(\\|f\\|_1 = \\int_{\\mathbb{R}} f(x)^2\\,dx\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Par définition, l'espace \\(L^1(\\mathbb{R})\\) rassemble les fonctions mesurables telles que la norme \\(\\|f\\|_1 = \\int_{\\mathbb{R}} |f(x)|\\,dx\\) est finie."
+    },
+    {
+      "id": 11,
+      "enonce": "Soit \\(f\\) une fonction mesurable. À quelle condition \\(f\\) appartient-elle à l'espace de Hilbert \\(L^2(\\mathbb{R})\\) ?",
+      "options": [
+        "Lorsque sa norme \\(\\|f\\|_2 = \\left(\\int_{\\mathbb{R}} |f(x)|^2\\,dx\\right)^{1/2}\\) est finie",
+        "Lorsque \\(f\\) est bornée et continue partout",
+        "Lorsque \\(\\int_{\\mathbb{R}} f(x)\\,dx = 0\\)",
+        "Lorsque \\(f\\) est un polynôme de degré fini"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'espace \\(L^2(\\mathbb{R})\\) est l'espace des fonctions de carré sommable au sens de Lebesgue, c'est-à-dire celles dont le carré du module a une intégrale de Lebesgue finie."
+    },
+    {
+      "id": 12,
+      "enonce": "Dans l'espace de Hilbert \\(L^2(\\mathbb{R})\\), comment est défini le produit hermitien entre deux fonctions \\(f\\) et \\(g\\) ?",
+      "options": [
+        "\\(\\langle f | g \\rangle = \\int_{\\mathbb{R}} \\overline{f(x)} g(x)\\,dx\\)",
+        "\\(\\langle f | g \\rangle = \\int_{\\mathbb{R}} (f(x) + g(x))\\,dx\\)",
+        "\\(\\langle f | g \\rangle = \\sup_{x\\in\\mathbb{R}} (f(x)g(x))\\)",
+        "\\(\\langle f | g \\rangle = \\int_{\\mathbb{R}} |f(x)g(x)|^2\\,dx\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le produit hermitien canonique dans \\(L^2(\\mathbb{R})\\) est donné par l'intégrale du produit de \\(g(x)\\) par le complexe conjugué de \\(f(x)\\), ce qui assure la semi-linéarité à gauche et la linéarité à droite."
+    },
+    {
+      "id": 13,
+      "enonce": "Que garantit le théorème de représentation de Riesz pour tout espace de Hilbert tel que \\(L^2(\\mathbb{R})\\) ?",
+      "options": [
+        "Toute forme linéaire continue \\(\\phi\\) s'exprime de manière unique sous la forme \\(\\phi(g) = \\langle f | g \\rangle\\) pour une fonction \\(f \\in L^2(\\mathbb{R})\\)",
+        "Toute fonction de \\(L^2(\\mathbb{R})\\) est nécessairement dérivable",
+        "Toute matrice d'opérateur est diagonale",
+        "Toute suite de fonctions converge uniformément"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de représentation de Riesz établit un isomophisme (isométrie semi-linéaire) entre tout espace de Hilbert et son dual topologique : toute forme linéaire continue s'identifie au produit hermitien avec un élément unique de l'espace."
+    },
+    {
+      "id": 14,
+      "enonce": "Pour quelle métrique (poids) les polynômes d'Hermite \\(H_n\\) forment-ils une famille orthogonale sur \\(\\mathbb{R}\\) ?",
+      "options": [
+        "\\(w(x) = e^{-x^2}\\)",
+        "\\(w(x) = e^{-x}\\)",
+        "\\(w(x) = 1\\)",
+        "\\(w(x) = \\frac{1}{1+x^2}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les polynômes d'Hermite \\(H_n\\) satisfont la relation d'orthogonalité \\(\\int_{\\mathbb{R}} H_m(x) H_n(x) e^{-x^2}\\,dx = \\sqrt{\\pi}\\, 2^n n!\\, \\delta_{mn}\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Pour quelle métrique (poids) et sur quel intervalle les polynômes de Legendre \\(P_n\\) sont-ils orthogonaux ?",
+      "options": [
+        "Sur \\([-1, 1]\\) avec le poids \\(w(x) = 1\\)",
+        "Sur \\([0, +\\infty[\\) avec le poids \\(w(x) = e^{-x}\\)",
+        "Sur \\(\\mathbb{R}\\) avec le poids \\(w(x) = e^{-x^2}\\)",
+        "Sur \\([0, 1]\\) avec le poids \\(w(x) = x\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les polynômes de Legendre \\(P_n\\) forment une base orthonormée (à normalisation près) de \\(L^2([-1, 1])\\) pour le produit scalaire usuel sans poids (poids \\(w(x) = 1\\)), vérifiant \\(\\int_{-1}^1 P_m(x) P_n(x)\\,dx = \\frac{2}{2n+1}\\delta_{mn}\\)."
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "titre_chapitre": "Équations Différentielles Ordinaires et aux Dérivées Partielles",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quelle est la définition générale de l'ordre d'une équation différentielle ordinaire (EDO) ?",
+      "options": [
+        "L'ordre est le degré du polynôme formé par les variables.",
+        "L'ordre est fixé par la plus haute dérivée présente dans l'équation.",
+        "L'ordre correspond au nombre de variables indépendantes dans l'équation.",
+        "L'ordre est le nombre de conditions initiales nécessaires pour annuler la solution."
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'ordre d'une EDO est déterminé par l'ordre de la plus haute dérivée de la fonction inconnue \\(y(x)\\) apparaissant dans l'équation \\(F[x, y(x), y'(x), \\dots, y^{(n)}(x)] = 0\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle est la différence fondamentale entre une solution explicite et une solution implicite d'une EDO ?",
+      "options": [
+        "Une solution explicite dépend de constantes arbitraires, tandis qu'une solution implicite n'en contient aucune.",
+        "Une solution explicite est toujours de forme polynomiale, alors qu'une solution implicite contient des exponentielles.",
+        "Une solution explicite exprime directement \\(y = \\phi(x)\\) (monovaluée), tandis qu'une relation implicite \\(g(x,y) = 0\\) peut être multivaluée.",
+        "Une solution implicite est uniquement valable aux limites du domaine de définition."
+      ],
+      "reponse_correcte": 2,
+      "explication": "Une solution explicite \\(y = \\phi(x)\\) associe une unique valeur de \\(y\\) à chaque \\(x\\) (fonction monovaluée). À l'inverse, une solution implicite définie par \\(g(x,y) = 0\\) peut admettre plusieurs valeurs de \\(y\\) pour un même \\(x\\) (relation multivaluée)."
+    },
+    {
+      "id": 3,
+      "enonce": "Pour une EDO linéaire d'ordre 1 à coefficients constants de la forme \\(y' + a y = b(x)\\), quel facteur intégrant permet de résoudre directement l'équation ?",
+      "options": [
+        "\\(e^{-ax}\\)",
+        "\\(e^{ax}\\)",
+        "\\(a x\\)",
+        "\\(\\ln(ax)\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "En multipliant l'équation \\(y' + a y = b(x)\\) par le facteur intégrant \\(e^{ax}\\), le membre de gauche devient la dérivée d'un produit : \\(\\frac{d}{dx}[y e^{ax}] = b(x) e^{ax}\\). Il suffit ensuite d'intégrer par rapport à \\(x\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Soit l'EDO linéaire homogène d'ordre 2 à coefficients constants \\(y'' - 3y' + 2y = 0\\). Quelles sont les solutions fondamentales de cette équation ?",
+      "options": [
+        "\\(e^{-x}\\) et \\(e^{-2x}\\)",
+        "\\(e^{x}\\) et \\(e^{2x}\\)",
+        "\\(\\cos(x)\\) et \\(\\sin(2x)\\)",
+        "\\(x e^{x}\\) et \\(e^{2x}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le polynôme caractéristique associé est \\(P(\\lambda) = \\lambda^2 - 3\\lambda + 2 = 0\\), dont les racines simples sont \\(\\lambda_1 = 1\\) et \\(\\lambda_2 = 2\\). La solution homogène générale s'écrit donc \\(y_h(x) = C_1 e^x + C_2 e^{2x}\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Lorsque le polynôme caractéristique d'une EDO linéaire homogène d'ordre \\(n\\) possède une racine réelle \\(\\lambda\\) de multiplicité \\(k > 1\\), quelle est la forme des solutions associées à cette racine ?",
+      "options": [
+        "Une combinaison linéaire d'exponentielles \\(\\sum_{j=1}^k C_j e^{j \\lambda x}\\).",
+        "Un polynôme d'ordre \\(k-1\\) multiplié par la fonction exponentielle : \\(P_{k-1}(x) e^{\\lambda x}\\).",
+        "Une fonction trigonométrique de la forme \\(\\cos(k \\lambda x) + \\sin(k \\lambda x)\\).",
+        "Une somme de termes logarithmiques \\(\\sum_{j=1}^k C_j \\ln(x) e^{\\lambda x}\\)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Pour une racine \\(\\lambda\\) de multiplicité \\(k\\), la famille de solutions linéairement indépendantes est \\(\\{e^{\\lambda x}, x e^{\\lambda x}, x^2 e^{\\lambda x}, \\dots, x^{k-1} e^{\\lambda x}\\}\\). La combinaison linéaire correspondante s'écrit \\(P_{k-1}(x) e^{\\lambda x}\\), où \\(P_{k-1}\\) est un polynôme de degré \\(k-1\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Dans la méthode de variation de la constante pour une EDO linéaire d'ordre 1 \\(y' + a(x)y = b(x)\\), quelle forme cherche-t-on pour la solution particulière \\(y_p(x)\\) ?",
+      "options": [
+        "\\(y_p(x) = A(x) + y_h(x)\\)",
+        "\\(y_p(x) = A(x) y_h(x)\\) où \\(y_h(x)\\) est une solution de l'équation homogène.",
+        "\\(y_p(x) = \\frac{b(x)}{a(x)}\\)",
+        "\\(y_p(x) = A(x) e^{a(x)x}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La méthode consiste à remplacer la constante arbitraire \\(C\\) de la solution homogène \\(y_h(x) = C e^{-\\int a(x)dx}\\) par une fonction variable \\(A(x)\\), d'où \\(y_p(x) = A(x) y_h(x)\\). En injectant cette forme dans l'EDO, les termes en \\(A(x)\\) s'annulent et l'on obtient \\(A'(x) y_h(x) = b(x)\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "À quelle condition une équation différentielle sous forme différentielle \\(f(x,y)dx + g(x,y)dy = 0\\) est-elle dite exacte ?",
+      "options": [
+        "Si et seulement si \\(f(x,y) = g(x,y)\\) pour tout \\((x,y)\\).",
+        "Si et seulement si \\(\\frac{\\partial f}{\\partial x} = \\frac{\\partial g}{\\partial y}\\).",
+        "Si et seulement si \\(\\frac{\\partial f}{\\partial y} = \\frac{\\partial g}{\\partial x}\\).",
+        "Si et seulement si \\(f\\) et \\(g\\) sont des fonctions linéaires de \\(x\\) et \\(y\\)."
+      ],
+      "reponse_correcte": 2,
+      "explication": "L'équation est exacte s'il existe une fonction potentiel \\(\\Psi(x,y)\\) telle que \\(d\\Psi = f dx + g dy\\), ce qui implique \\(\\partial_x \\Psi = f\\) et \\(\\partial_y \\Psi = g\\). Par l'égalité des dérivées croisées (théorème de Schwarz), la condition nécessaire et suffisante est \\(\\frac{\\partial f}{\\partial y} = \\frac{\\partial g}{\\partial x}\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "L'EDO non linéaire de Bernoulli est de la forme \\(y' = a(x)y + b(x)y^k\\) avec \\(k \\neq 1\\). Quel changement de variable permet de la transformer en une EDO linéaire ?",
+      "options": [
+        "\\(u = y^k\\)",
+        "\\(u = y^{1-k}\\)",
+        "\\(u = \\ln(y)\\)",
+        "\\(u = \\frac{1}{y}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "En divisant l'équation par \\(y^k\\), on obtient \\(y^{-k}y' - a(x)y^{1-k} = b(x)\\). En posant \\(u = y^{1-k}\\), sa dérivée vaut \\(u' = (1-k)y^{-k}y'\\). L'équation devient alors une EDO linéaire en \\(u\\) : \\(\\frac{u'}{1-k} - a(x)u = b(x)\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Selon le théorème de Cauchy-Lipschitz, quelle condition sur \\(f(x,y)\\) garantit l'existence et l'unicité d'une solution au problème à condition initiale \\(y' = f(x,y)\\) avec \\(y(x_0) = y_0\\) ?",
+      "options": [
+        "\\(f(x,y)\\) doit être un polynôme en \\(x\\) et \\(y\\).",
+        "\\(f(x,y)\\) doit être continue, bornée et vérifier une condition de Lipschitz par rapport à \\(y\\) au voisinage de \\((x_0,y_0)\\).",
+        "\\(f(x,y)\\) doit être une fonction uniquement dépendante de \\(x\\).",
+        "La dérivée seconde \\(\\frac{\\partial^2 f}{\\partial x^2}\\) doit être strictement positive."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le théorème de Cauchy-Lipschitz assure qu'il existe une unique solution si la fonction \\(f(x,y)\\) est continue, bornée et k-lipschitzienne par rapport à sa seconde variable \\(y\\) sur un rectangle autour du point initial \\((x_0,y_0)\\) (ce qui est notamment vérifié dès que \\(f\\) est de classe \\(\\mathcal{C}^1\\))."
+    },
+    {
+      "id": 10,
+      "enonce": "Dans un problème aux valeurs propres de Sturm-Liouville défini par \\(-\\frac{d}{dx}\\left(p(x)\\frac{dy}{dx}\\right) + q(x)y = \\lambda w(x)y\\), quelle est la propriété fondamentale des fonctions propres associées à des valeurs propres distinctes ?",
+      "options": [
+        "Elles sont toutes égales à une constante près.",
+        "Elles sont orthogonales deux à deux pour le produit scalaire avec fonction de poids \\(w(x)\\) : \\(\\int_a^b \\psi_n(x) \\psi_m(x) w(x) dx = 0\\) pour \\(n \\neq m\\).",
+        "Leur somme est toujours égale à zéro sur l'intervalle \\([a,b]\\).",
+        "Elles sont toujours sous forme d'exponentielles réelles."
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'opérateur différentiel de Sturm-Liouville est auto-adjoint pour le produit hermitien pondéré par \\(w(x) > 0\\). Par conséquent, deux fonctions propres \\(\\psi_n\\) et \\(\\psi_m\\) correspondant à des valeurs propres distinctes \\(\\lambda_n \\neq \\lambda_m\\) sont orthogonales pour le produit scalaire avec le poids \\(w(x)\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Soit un système différentiel linéaire d'ordre 1 de la forme \\(\\frac{dY}{dt} = A Y\\), où \\(A\\) est une matrice carrée à coefficients réels. À quelle condition un point d'équilibre est-il linéairement stable à long terme (\\(t \\to +\\infty\\)) ?",
+      "options": [
+        "Si toutes les valeurs propres de \\(A\\) ont une partie réelle strictement négative : \\(\\text{Re}(\\lambda_k) < 0\\).",
+        "Si toutes les valeurs propres de \\(A\\) sont strictement positives.",
+        "Si le déterminant de la matrice \\(A\\) est nul.",
+        "Si la trace de la matrice \\(A\\) est égale à 1."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les solutions du système linéaire sont des combinaisons de modes de la forme \\(q_k e^{\\lambda_k t}\\). Si toutes les valeurs propres \\(\\lambda_k\\) satisfont \\(\\text{Re}(\\lambda_k) < 0\\), l'amplitude des modes décroît exponentiellement vers 0 lorsque \\(t \\to +\\infty\\), assurant la stabilité linéaire de l'état d'équilibre."
+    },
+    {
+      "id": 12,
+      "enonce": "Comment classifie-t-on l'équation d'onde \\(\\frac{1}{c^2}\\frac{\\partial^2 u}{\\partial t^2} - \\Delta u = 0\\) parmi les équations aux dérivées partielles (EDP) linéaires d'ordre 2 ?",
+      "options": [
+        "C'est une EDP elliptique.",
+        "C'est une EDP parabolique.",
+        "C'est une EDP hyperbolique.",
+        "C'est une EDP non linéaire."
+      ],
+      "reponse_correcte": 2,
+      "explication": "Lors du changement de coordonnées canonique réducteur de la forme quadratique des dérivées secondes, les coefficients des dérivées secondes sont tous non nuls mais de signes opposés (un signe positif pour la dérivée temporelle, des signes négatifs pour les dérivées spatiales), ce qui caractérise une EDP hyperbolique."
+    },
+    {
+      "id": 13,
+      "enonce": "Parmi les équations suivantes, laquelle est une EDP parabolique classique ?",
+      "options": [
+        "L'équation de Laplace : \\(\\Delta u = 0\\)",
+        "L'équation de diffusion/chaleur : \\(\\frac{\\partial u}{\\partial t} - D \\frac{\\partial^2 u}{\\partial x^2} = 0\\)",
+        "L'équation d'onde : \\(\\frac{1}{c^2}\\frac{\\partial^2 u}{\\partial t^2} - \\frac{\\partial^2 u}{\\partial x^2} = 0\\)",
+        "L'équation de Helmholtz : \\(\\Delta u + k^2 u = 0\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'équation de diffusion/chaleur possède une dérivée première en temps et une dérivée seconde en espace. L'un des coefficients de dérivée seconde temporelle est nul (valeur propre nulle), ce qui définit la classe des EDP paraboliques."
+    },
+    {
+      "id": 14,
+      "enonce": "Dans la méthode des caractéristiques appliquée à une EDP linéaire d'ordre 1 \\(a(x,y) \\frac{\\partial f}{\\partial x} + b(x,y) \\frac{\\partial f}{\\partial y} = 0\\), quelle relation différentielle définit la famille des lignes caractéristiques ?",
+      "options": [
+        "\\(\\frac{dy}{dx} = \\frac{a(x,y)}{b(x,y)}\\)",
+        "\\(\\frac{dy}{dx} = \\frac{b(x,y)}{a(x,y)}\\)",
+        "\\(\\frac{dy}{dx} = a(x,y) b(x,y)\\)",
+        "\\(\\frac{dy}{dx} = a(x,y) + b(x,y)\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le long d'une courbe paramétrée \\((x(s), y(s))\\) telle que \\(\\frac{dx}{ds} = a\\) et \\(\\frac{dy}{ds} = b\\), l'EDP se réduit à \\(\\frac{df}{ds} = 0\\) (conservation de \\(f\\)). En éliminant le paramètre \\(s\\), l'équation de la pente des lignes caractéristiques dans le plan \\((x,y)\\) est \\(\\frac{dy}{dx} = \\frac{b(x,y)}{a(x,y)}\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Que stipule le principe du min-max (ou principe du maximum) pour une fonction harmonique \\(f\\) vérifiant l'équation de Laplace \\(\\Delta f = 0\\) sur un domaine borné \\(D\\) ?",
+      "options": [
+        "La fonction \\(f\\) atteint son maximum strict uniquement au centre géométrique du domaine \\(D\\).",
+        "Les valeurs minimale et maximale de \\(f\\) sont nécessairement atteintes sur le bord \\(\\partial D\\) du domaine, et jamais à l'intérieur sauf si \\(f\\) est constante.",
+        "La fonction \\(f\\) s'annule toujours sur l'ensemble du domaine \\(D\\).",
+        "La valeur moyenne de \\(f\\) sur le bord est toujours nulle."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Si \\(f\\) atteignait un maximum local strict à l'intérieur de \\(D\\), toutes ses dérivées secondes \\(\\frac{\\partial^2 f}{\\partial x_j^2}\\) seraient strictement négatives, ce qui contredirait la condition de Laplace \\(\\Delta f = \\sum_j \\frac{\\partial^2 f}{\\partial x_j^2} = 0\\). Ainsi, les extrema sont toujours situés sur le bord du domaine."
+    },
+    {
+      "id": 16,
+      "enonce": "Quelle est la définition d'une condition aux limites de type Dirichlet pour une EDP définie sur un domaine \\(D\\) ?",
+      "options": [
+        "On impose la valeur de la dérivée normale de la fonction sur le bord : \\(\\vec{n} \\cdot \\vec{\\nabla} f|_{\\partial D} = H\\).",
+        "On impose directement la valeur de la fonction sur le bord : \\(f|_{\\partial D} = h\\).",
+        "On impose une combinaison linéaire de la fonction et de sa dérivée seconde sur le bord.",
+        "On impose que la fonction soit périodique sur tout le domaine \\(D\\)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "La condition de Dirichlet consiste à fixer la valeur du champ \\(f\\) sur le bord \\(\\partial D\\) du domaine (par exemple la température imposée sur la surface d'un solide). La condition de Neumann fixe quant à elle la dérivée normale (le flux)."
+    },
+    {
+      "id": 17,
+      "enonce": "Lorsqu'on cherche les solutions séparables de l'équation de Laplace en coordonnées polaires \\(f(r,\\theta) = R(r)\\Theta(\\theta)\\), quelle contrainte physique/géométrique impose que la constante de séparation \\(m^2\\) soit le carré d'un entier \\(m \\in \\mathbb{Z}\\) ?",
+      "options": [
+        "La condition de régularité à l'origine \\(r = 0\\).",
+        "La périodicité de la coordonnée angulaire : \\(\\Theta(\\theta + 2\\pi) = \\Theta(\\theta)\\).",
+        "La conservation du flux sur le bord extérieur.",
+        "L'invariance par translation selon l'axe \\(z\\)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'angle polar \\(\\theta\\) représente la même position géométrique après une rotation de \\(2\\pi\\). Pour que la fonction \\(\\Theta(\\theta) = C_1 e^{i m \\theta} + C_2 e^{-i m \\theta}\\) soit univoque et \\(2\\pi\\)-périodique, il faut impérativement que \\(m\\) soit un nombre entier."
+    },
+    {
+      "id": 18,
+      "enonce": "Dans le problème de Poisson \\(\\Delta f = g\\), comment peut-on obtenir la solution générale à partir d'une solution particulière et du problème de Laplace ?",
+      "options": [
+        "On dérive la fonction source \\(g\\) par rapport à toutes les coordonnées.",
+        "On écrit \\(f = f_1 + f_2\\), où \\(f_1\\) satisfait l'équation de Laplace \\(\\Delta f_1 = 0\\) avec les conditions aux limites réelles, et \\(f_2\\) satisfait \\(\\Delta f_2 = g\\) avec des conditions aux limites homogènes.",
+        "On multiplie la source \\(g\\) par le volume du domaine.",
+        "On applique directement la formule de Taylor à la fonction \\(g\\)."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Grâce à la linéarité de l'opérateur Laplacien, on décompose le problème en deux sous-problèmes : \\(f_1\\) absorbe l'inhomogénéité des conditions aux limites (problème de Laplace \\(\\Delta f_1 = 0\\)), tandis que \\(f_2\\) absorbe le terme source \\(g\\) avec des conditions aux limites nulle sur le bord (problème de Poisson homogène aux bords)."
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "titre_chapitre": "Mécanique des Fluides - Hydrostatique et Cinématique",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "À quelle condition l'approche du milieu continu est-elle valable pour décrire un système fluide de taille macroscopique \\(L\\), constitué de molécules de taille \\(a\\), en définissant des grandeurs thermodynamiques locales à une échelle mésoscopique \\(\\ell\\) ?",
+      "options": [
+        "\\(a \\ll \\ell \\ll L\\)",
+        "\\(\\ell \\ll a \\ll L\\)",
+        "\\(a \\ll L \\ll \\ell\\)",
+        "\\(L \\ll \\ell \\ll a\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'approche du milieu continu repose sur une hiérarchie d'échelles strictes \\(a \\ll \\ell \\ll L\\). L'échelle mésoscopique \\(\\ell\\) doit être suffisamment grande devant la taille moléculaire \\(a\\) pour pouvoir moyenner le comportement des molécules et définir des grandeurs continues (masse volumique, pression), tout en restant très petite devant la taille caractéristique \\(L\\) du système macroscopique."
+    },
+    {
+      "id": 2,
+      "enonce": "Soit un élément de surface \\(\\mathrm{d}S\\) délimitant un volume de fluide, orienté par le vecteur élémentaire normal extérieur \\(\\mathrm{d}\\vec{S}\\). Quelle est l'expression de la force élémentaire de pression \\(\\mathrm{d}\\vec{F}_p\\) exercée par le fluide extérieur sur cet élément de surface ?",
+      "options": [
+        "\\(\\mathrm{d}\\vec{F}_p = -P \\,\\mathrm{d}\\vec{S}\\)",
+        "\\(\\mathrm{d}\\vec{F}_p = +P \\,\\mathrm{d}\\vec{S}\\)",
+        "\\(\\mathrm{d}\\vec{F}_p = -\\vec{\\nabla}P \\,\\mathrm{d}S\\)",
+        "\\(\\mathrm{d}\\vec{F}_p = P \\,\\vec{\\nabla}S\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La force de pression exercée par le fluide extérieur presse perpendiculairement vers l'intérieur du volume. Comme le vecteur surface \\(\\mathrm{d}\\vec{S}\\) est conventionnellement orienté vers l'extérieur du volume, la force est dirigée en sens opposé, ce qui impose le signe moins : \\(\\mathrm{d}\\vec{F}_p = -P \\,\\mathrm{d}\\vec{S}\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Dans un référentiel galiléen, quelle est la loi fondamentale de l'hydrostatique régissant le champ de pression \\(P\\) d'un fluide au repos de masse volumique \\(\\rho\\) soumis au champ de pesanteur \\(\\vec{g}\\) ?",
+      "options": [
+        "\\(\\vec{\\nabla}P = \\rho \\,\\vec{g}\\)",
+        "\\(\\vec{\\nabla}P = -\\rho \\,\\vec{g}\\)",
+        "\\(\\Delta P = \\rho \\,\\vec{g}\\)",
+        "\\(\\vec{\\nabla}\\cdot P = \\rho \\,\\vec{g}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'équilibre mécanique local des forces (forces de pression et poids) s'écrit \\(-\\vec{\\nabla}P + \\rho \\,\\vec{g} = \\vec{0}\\), soit \\(\\vec{\\nabla}P = \\rho \\,\\vec{g}\\). En choisissant un axe vertical \\(z\\) orienté vers le haut (où \\(\\vec{g} = -g \\,\\vec{e}_z\\)), cela se projette en \\(\\frac{\\mathrm{d}P}{\\mathrm{d}z} = -\\rho g\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Dans un liquide incompressible et homogène de masse volumique \\(\\rho\\) au repos dans un champ de pesanteur uniforme \\(\\vec{g} = -g \\,\\vec{e}_z\\) (axe \\(z\\) vertical vers le haut, origine \\(z=0\\) à la surface libre sous pression atmosphérique \\(P_{atm}\\)), quelle est l'expression de la pression \\(P(z)\\) à la position \\(z \\le 0\\) (profondeur \\(h = -z\\)) ?",
+      "options": [
+        "\\(P(z) = P_{atm} - \\rho g z = P_{atm} + \\rho g h\\)",
+        "\\(P(z) = P_{atm} + \\rho g z = P_{atm} - \\rho g h\\)",
+        "\\(P(z) = P_{atm} e^{-\\rho g z}\\)",
+        "\\(P(z) = \\rho g z\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En intégrant la relation de l'hydrostatique \\(\\frac{\\mathrm{d}P}{\\mathrm{d}z} = -\\rho g\\) avec la condition aux limites \\(P(0) = P_{atm}\\), on obtient \\(P(z) = P_{atm} - \\rho g z\\). Comme sous la surface \\(z < 0\\), en posant la profondeur \\(h = -z\\), la pression s'écrit \\(P(h) = P_{atm} + \\rho g h\\), augmentant linéairement avec la profondeur."
+    },
+    {
+      "id": 5,
+      "enonce": "Un être humain peut exercer avec ses poumons une dépression maximale telle que la pression minimale supportable soit \\(P_{min} = 0{,}85 \\times 10^5 \\text{ Pa}\\) (soit une différence maximale avec la surface de \\(\\Delta P = 0{,}15 \\times 10^5 \\text{ Pa}\\)). Avec \\(P_{atm} = 1{,}00 \\times 10^5 \\text{ Pa}\\), \\(\\rho_{eau} = 10^3 \\text{ kg}\\cdot\\text{m}^{-3}\\) et \\(g = 10 \\text{ m}\\cdot\\text{s}^{-2}\\), jusqu'à quelle profondeur maximale un plongeur peut-il respirer à travers un tuba ?",
+      "options": [
+        "\\(1{,}5 \\text{ m}\\)",
+        "\\(15 \\text{ m}\\)",
+        "\\(0{,}15 \\text{ m}\\)",
+        "\\(10 \\text{ m}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La pression de l'eau s'exerçant sur la cage thoracique à la profondeur \\(h\\) est \\(P(h) = P_{atm} + \\rho g h\\). La limite de respiration impose que l'écart de pression entre la cage thoracique et la bouche (à \\(P_{atm}\\)) ne dépasse pas \\(\\Delta P_{max} = 0{,}15 \\times 10^5 \\text{ Pa}\\). D'où \\(h_{max} = \\frac{\\Delta P_{max}}{\\rho g} = \\frac{0{,}15 \\times 10^5}{10^3 \\times 10} = 1{,}5 \\text{ m}\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Dans le modèle d'une atmosphère isotherme considérée comme un gaz parfait de masse molaire \\(M\\) à température \\(T\\), la pression diminue avec l'altitude \\(z\\) selon \\(P(z) = P_{atm} \\, e^{-z/h}\\). Quelle est l'expression de la hauteur caractéristique d'atmosphère \\(h\\) ?",
+      "options": [
+        "\\(h = \\frac{RT}{Mg}\\)",
+        "\\(h = \\frac{Mg}{RT}\\)",
+        "\\(h = \\frac{\\rho g}{P_{atm}}\\)",
+        "\\(h = \\frac{RT}{P_{atm} g}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En utilisant l'équation d'état des gaz parfaits \\(\\rho(P) = \\frac{P M}{R T}\\) dans la loi hydrostatique \\(\\frac{\\mathrm{d}P}{\\mathrm{d}z} = -\\rho g\\), on obtient l'équation différentielle \\(\\frac{\\mathrm{d}P}{\\mathrm{d}z} = -\\frac{M g}{R T} P\\). Sa résolution donne \\(P(z) = P_{atm} e^{-z/h}\\) avec la longueur d'échelle \\(h = \\frac{RT}{Mg}\\) (environ \\(9 \\text{ km}\\) à \\(300 \\text{ K}\\))."
+    },
+    {
+      "id": 7,
+      "enonce": "Quelle est l'expression vectorielle de la poussée d'Archimède \\(\\vec{\\Pi}\\) exercée par un fluide incompressible homogène de masse volumique \\(\\rho_{fluide}\\) sur un objet totalement immergé de volume \\(V_{objet}\\) dans le champ de pesanteur \\(\\vec{g}\\) ?",
+      "options": [
+        "\\(\\vec{\\Pi} = -\\rho_{fluide} \\, V_{objet} \\,\\vec{g}\\)",
+        "\\(\\vec{\\Pi} = +\\rho_{objet} \\, V_{objet} \\,\\vec{g}\\)",
+        "\\(\\vec{\\Pi} = -\\rho_{objet} \\, V_{objet} \\,\\vec{g}\\)",
+        "\\(\\vec{\\Pi} = +\\rho_{fluide} \\, V_{objet} \\,\\vec{g}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La poussée d'Archimède est la résultante des forces de pression exercées par le fluide sur la surface fermée de l'objet : \\(\\vec{\\Pi} = \\iint -P \\mathrm{d}\\vec{S}\\). Par le théorème de Green-Ostrogradski et la loi hydrostatique \\(\\vec{\\nabla}P = \\rho_{fluide}\\vec{g}\\), on obtient \\(\\vec{\\Pi} = \\iiint -\\vec{\\nabla}P \\mathrm{d}V = -\\rho_{fluide} V_{objet} \\vec{g}\\). Elle est opposée au poids du fluide déplacé."
+    },
+    {
+      "id": 8,
+      "enonce": "Un vérin hydraulique est composé de deux pistons de surfaces \\(S_1\\) et \\(S_2\\) tels que \\(S_2 = 100 \\, S_1\\). Quelle force \\(F_1\\) faut-il appliquer sur le petit piston \\(S_1\\) pour maintenir en équilibre une charge exerçant une force \\(F_2\\) sur le grand piston \\(S_2\\) ?",
+      "options": [
+        "\\(F_1 = \\frac{F_2}{100}\\)",
+        "\\(F_1 = 100 \\, F_2\\)",
+        "\\(F_1 = F_2\\)",
+        "\\(F_1 = \\frac{F_2}{10000}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le fluide au repos transmet intégralement la pression : \\(P_1 = P_2\\). Or les pressions sous chaque piston s'écrivent \\(P_1 = \\frac{F_1}{S_1}\\) et \\(P_2 = \\frac{F_2}{S_2}\\). L'égalité des pressions donne \\(F_1 = F_2 \\frac{S_1}{S_2} = \\frac{F_2}{100}\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Dans un référentiel non galiléen animé d'une accélération d'entraînement \\(\\vec{a}_i\\) par rapport à un référentiel galiléen, quelle est la loi de l'hydrostatique pour un fluide au repos dans ce référentiel non galiléen ?",
+      "options": [
+        "\\(\\vec{\\nabla}P = \\rho (\\vec{g} - \\vec{a}_i)\\)",
+        "\\(\\vec{\\nabla}P = \\rho (\\vec{g} + \\vec{a}_i)\\)",
+        "\\(\\vec{\\nabla}P = -\\rho \\,\\vec{a}_i\\)",
+        "\\(\\vec{\\nabla}P = \\rho \\,\\vec{g} \\cdot \\vec{a}_i\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le référentiel relatif non galiléen, il faut ajouter la force d'inertie d'entraînement volumique \\(-\\rho \\vec{a}_i\\) au bilan des forces. L'équilibre s'écrit \\(-\\vec{\\nabla}P + \\rho \\vec{g} - \\rho \\vec{a}_i = \\vec{0}\\), ce qui donne \\(\\vec{\\nabla}P = \\rho (\\vec{g} - \\vec{a}_i)\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Quelle est la différence fondamentale entre les descriptions Lagrangienne et Eulérienne du mouvement d'un fluide ?",
+      "options": [
+        "La description Lagrangienne suit la trajectoire de chaque particule de fluide au cours du temps, tandis que la description Eulérienne observe le champ de vitesse en des points fixes de l'espace.",
+        "La description Eulérienne suit la trajectoire de chaque particule de fluide au cours du temps, tandis que la description Lagrangienne observe le champ de vitesse en des points fixes de l'espace.",
+        "La description Lagrangienne s'applique uniquement aux fluides incompressibles et la description Eulérienne aux fluides compressibles.",
+        "La description Lagrangienne s'utilise en statique des fluides et la description Eulérienne en dynamique des solides."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'approche Lagrangienne consiste à suivre l'histoire et la position \\(\\vec{r}(t)\\) d'une particule matérielle identifiée. L'approche Eulérienne, quant à elle, décrit les grandeurs du fluide (vitesse \\(\\vec{u}(\\vec{r},t)\\), pression, température) en un point de coordonnées fixes \\(\\vec{r}\\) au cours du temps \\(t\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Pour un champ scalaire \\(T(\\vec{r}, t)\\) (par exemple la température), quelle est l'expression de la dérivée particulaire (ou totale / lagrangienne) \\(\\frac{\\mathrm{d}T}{\\mathrm{d}t}\\) subie par une particule de fluide se déplaçant à la vitesse \\(\\vec{u}\\) ?",
+      "options": [
+        "\\(\\frac{\\mathrm{d}T}{\\mathrm{d}t} = \\frac{\\partial T}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})T\\)",
+        "\\(\\frac{\\mathrm{d}T}{\\mathrm{d}t} = \\frac{\\partial T}{\\partial t}\\)",
+        "\\(\\frac{\\mathrm{d}T}{\\mathrm{d}t} = (\\vec{u} \\cdot \\vec{\\nabla})T\\)",
+        "\\(\\frac{\\mathrm{d}T}{\\mathrm{d}t} = \\vec{\\nabla} \\cdot (T \\vec{u})\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La dérivée particulaire \\(\\frac{\\mathrm{d}T}{\\mathrm{d}t}\\) exprime la variation de \\(T\\) le long du mouvement de la particule. Elle est la somme de la dérivée locale \\(\\frac{\\partial T}{\\partial t}\\) (variation temporelle au point fixe) et de la dérivée convective \\((\\vec{u} \\cdot \\vec{\\nabla})T\\) (variation due au déplacement de la particule à travers un champ non uniforme)."
+    },
+    {
+      "id": 12,
+      "enonce": "À un instant \\(t\\) donné, une ligne de courant est une courbe tangente en tout point au champ de vitesse \\(\\vec{u}\\). Quelle condition différentielle vérifie l'élément de déplacement \\(\\mathrm{d}\\vec{l} = (\\mathrm{d}x, \\mathrm{d}y, \\mathrm{d}z)\\) le long d'une ligne de courant ?",
+      "options": [
+        "\\(\\mathrm{d}\\vec{l} \\wedge \\vec{u} = \\vec{0}\\), soit \\(\\frac{\\mathrm{d}x}{u_x} = \\frac{\\mathrm{d}y}{u_y} = \\frac{\\mathrm{d}z}{u_z}\\)",
+        "\\(\\mathrm{d}\\vec{l} \\cdot \\vec{u} = 0\\)",
+        "\\(\\mathrm{d}\\vec{l} = \\vec{u} \\,\\mathrm{d}t\\)",
+        "\\(\\vec{\\nabla} \\cdot \\vec{u} = 0\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Par définition, le vecteur tangent \\(\\mathrm{d}\\vec{l}\\) à la ligne de courant à l'instant \\(t\\) est colinéaire au vecteur vitesse \\(\\vec{u}\\). Leur produit vectoriel est donc nul \\(\\mathrm{d}\\vec{l} \\wedge \\vec{u} = \\vec{0}\\), ce qui donne les équations caractéristiques \\(\\frac{\\mathrm{d}x}{u_x} = \\frac{\\mathrm{d}y}{u_y} = \\frac{\\mathrm{d}z}{u_z}\\)."
+    },
+    {
+      "id": 13,
+      "enonce": "Dans le cas particulier d'un écoulement stationnaire (où le champ de vitesse ne dépend pas du temps, \\(\\frac{\\partial \\vec{u}}{\\partial t} = \\vec{0}\\)), quelle propriété remarquable relie les lignes de courant et les trajectoires ?",
+      "options": [
+        "Les lignes de courant et les trajectoires des particules de fluide sont confondues.",
+        "Les lignes de courant et les trajectoires sont toujours orthogonales.",
+        "Les lignes de courant varient dans le temps alors que les trajectoires restent fixes.",
+        "Il n'existe aucune ligne de courant dans un écoulement stationnaire."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans un écoulement stationnaire, la carte des vitesses ne change pas au cours du temps. La direction du vecteur vitesse en chaque point reste fixe dans le temps, de sorte que le chemin parcouru par une particule au fil du temps (trajectoire) suit exactement la ligne de courant géométrique à cet instant."
+    },
+    {
+      "id": 14,
+      "enonce": "Quelle est l'équation locale de conservation de la masse (équation de continuité) pour un fluide de masse volumique \\(\\rho\\) et de champ de vitesse \\(\\vec{u}\\) ?",
+      "options": [
+        "\\(\\frac{\\partial \\rho}{\\partial t} + \\vec{\\nabla} \\cdot (\\rho \\vec{u}) = 0\\)",
+        "\\(\\frac{\\partial \\rho}{\\partial t} + \\vec{\\nabla} \\cdot \\vec{u} = 0\\)",
+        "\\(\\vec{\\nabla} \\cdot (\\rho \\vec{u}) = 0\\)",
+        "\\(\\frac{\\mathrm{d}\\rho}{\\mathrm{d}t} = 0\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bilan de masse sur un volume fixe \\(V\\) de frontière fermée \\(S\\) s'écrit \\(\\frac{\\partial}{\\partial t} \\iiint_V \\rho \\mathrm{d}V = - \\iint_S \\rho \\vec{u} \\cdot \\mathrm{d}\\vec{S}\\). En appliquant le théorème de Green-Ostrogradski, on obtient la forme différentielle locale \\(\\frac{\\partial \\rho}{\\partial t} + \\vec{\\nabla} \\cdot (\\rho \\vec{u}) = 0\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Pour un écoulement incompressible (où la masse volumique d'une particule reste constante au cours de son déplacement, \\(\\frac{\\mathrm{d}\\rho}{\\mathrm{d}t} = 0\\)), quelle forme prend la condition géométrique sur le champ de vitesse \\(\\vec{u}\\) ?",
+      "options": [
+        "\\(\\vec{\\nabla} \\cdot \\vec{u} = 0\\)",
+        "\\(\\vec{\\nabla} \\wedge \\vec{u} = \\vec{0}\\)",
+        "\\(\\frac{\\partial \\vec{u}}{\\partial t} = \\vec{0}\\)",
+        "\\(\\Delta \\vec{u} = \\vec{0}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En développant le terme de divergence \\(\\vec{\\nabla} \\cdot (\\rho \\vec{u}) = \\rho \\vec{\\nabla} \\cdot \\vec{u} + \\vec{u} \\cdot \\vec{\\nabla}\\rho\\), l'équation de continuité se réécrit \\(\\frac{\\mathrm{d}\\rho}{\\mathrm{d}t} + \\rho \\vec{\\nabla} \\cdot \\vec{u} = 0\\). Pour un fluide incompressible (\\(\\frac{\\mathrm{d}\\rho}{\\mathrm{d}t} = 0\\)), on en déduit la condition d'incompressibilité : \\(\\vec{\\nabla} \\cdot \\vec{u} = 0\\) (champ solénoïdal)."
+    },
+    {
+      "id": 16,
+      "enonce": "Un liquide incompressible s'écoule dans une conduite dont la section passe de \\(S_1 = 20 \\text{ cm}^2\\) à \\(S_2 = 5 \\text{ cm}^2\\). Si la vitesse moyenne dans la section 1 est \\(U_1 = 2 \\text{ m}\\cdot\\text{s}^{-1}\\), quelle est la vitesse moyenne \\(U_2\\) dans la section 2 ?",
+      "options": [
+        "\\(8 \\text{ m}\\cdot\\text{s}^{-1}\\)",
+        "\\(0{,}5 \\text{ m}\\cdot\\text{s}^{-1}\\)",
+        "\\(4 \\text{ m}\\cdot\\text{s}^{-1}\\)",
+        "\\(2 \\text{ m}\\cdot\\text{s}^{-1}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour un écoulement incompressible, le débit volumique \\(Q_v\\) se conserve entre deux sections d'un tube de courant : \\(Q_v = U_1 S_1 = U_2 S_2\\). La vitesse dans la section rétrécie vaut donc \\(U_2 = U_1 \\frac{S_1}{S_2} = 2 \\times \\frac{20}{5} = 8 \\text{ m}\\cdot\\text{s}^{-1}\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "En cinématique des fluides, le tenseur des gradients de vitesse \\(G_{ij} = \\frac{\\partial u_i}{\\partial x_j}\\) se décompose en une partie symétrique \\(D_{ij}\\) et une partie antisymétrique \\(W_{ij}\\). Quelle est l'interprétation physique de ces deux tenseurs ?",
+      "options": [
+        "\\(D_{ij}\\) est le tenseur des taux de déformation pure et \\(W_{ij}\\) est le tenseur des taux de rotation pure (ou de spin).",
+        "\\(D_{ij}\\) est le tenseur des taux de rotation pure et \\(W_{ij}\\) est le tenseur des taux de déformation pure.",
+        "\\(D_{ij}\\) représente la pression hydrostatique et \\(W_{ij}\\) la viscosité dynamique.",
+        "\\(D_{ij}\\) représente l'accélération convective et \\(W_{ij}\\) l'accélération locale."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La décomposition symétrique/antisymétrique s'écrit \\(G_{ij} = D_{ij} + W_{ij}\\) avec \\(D_{ij} = \\frac{1}{2}\\left(\\frac{\\partial u_i}{\\partial x_j} + \\frac{\\partial u_j}{\\partial x_i}\\right)\\) (taux de déformation pure du volume) et \\(W_{ij} = \\frac{1}{2}\\left(\\frac{\\partial u_i}{\\partial x_j} - \\frac{\\partial u_j}{\\partial x_i}\\right)\\) (rotation solide pure sans déformation, relié au vecteur rotationnel)."
+    },
+    {
+      "id": 18,
+      "enonce": "Que vaut la trace du tenseur taux de déformation \\(D_{ij}\\) pour un champ de vitesse \\(\\vec{u}\\) ?",
+      "options": [
+        "\\(\\mathrm{Tr}(D) = \\vec{\\nabla} \\cdot \\vec{u}\\)",
+        "\\(\\mathrm{Tr}(D) = \\vec{\\nabla} \\wedge \\vec{u}\\)",
+        "\\(\\mathrm{Tr}(D) = 0\\) pour tous les écoulements",
+        "\\(\\mathrm{Tr}(D) = \\Delta \\vec{u}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La trace du tenseur \\(D\\) est la somme des termes diagonaux : \\(\\mathrm{Tr}(D) = D_{xx} + D_{yy} + D_{zz} = \\frac{\\partial u_x}{\\partial x} + \\frac{\\partial u_y}{\\partial y} + \\frac{\\partial u_z}{\\partial z} = \\vec{\\nabla} \\cdot \\vec{u}\\). Elle mesure le taux de variation relative de volume de la particule de fluide. Pour un fluide incompressible, \\(\\mathrm{Tr}(D) = 0\\)."
+    },
+    {
+      "id": 19,
+      "enonce": "Dans l'équation de Navier-Stokes pour un fluide incompressible de viscosité cinématique \\(\\nu\\) : \\(\\frac{\\partial \\vec{u}}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u} = \\frac{1}{\\rho}\\vec{f} - \\frac{1}{\\rho}\\vec{\\nabla}P + \\nu \\Delta \\vec{u}\\), quel terme correspond à la diffusion de la quantité de mouvement due aux frottements visqueux ?",
+      "options": [
+        "\\(\\nu \\Delta \\vec{u}\\)",
+        "\\((\\vec{u} \\cdot \\vec{\\nabla})\\vec{u}\\)",
+        "\\(-\\frac{1}{\\rho}\\vec{\\nabla}P\\)",
+        "\\(\\frac{\\partial \\vec{u}}{\\partial t}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le terme \\(\\nu \\Delta \\vec{u}\\) (où \\(\\nu = \\frac{\\mu}{\\rho}\\) est la viscosité cinématique et \\(\\Delta\\) le laplacien vectoriel) représente les forces de frottement visqueux par unité de masse, décrivant la diffusion de la quantité de mouvement au sein de l'écoulement."
+    }
+  ]
+}

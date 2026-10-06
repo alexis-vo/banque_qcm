@@ -15,7 +15,12 @@
         { "titre": "Chapitre 4 - Mesures et intégration, cours", "fichier": "CIP_C4_LN.json"},
         { "titre": "Chapitre 4 - Mesures et intégration, ECTA", "fichier": "CIP_C4_ECTA.json"},
         { "titre": "Chapitre 5 - Mesures et intégration II, cours", "fichier": "CIP_C5_LN.json"},
-        { "titre": "Chapitre 5 - Mesures et intégration II, ECTA", "fichier": "CIP_C5_ECTA.json"}
+        { "titre": "Chapitre 5 - Mesures et intégration II, ECTA", "fichier": "CIP_C5_ECTA.json"},
+        { "titre": "Chapitre 5 - Mesures et intégration II, ECTA", "fichier": "CIP_C5_ECTA.json"},
+        { "titre": "Révisions équations différentielles", "fichier": "rev_ed.json"},
+        { "titre": "Révisions algèbre", "fichier": "rev_alg.json"},
+        { "titre": "Révisions calculus", "fichier": "rev_calculus.json"},
+        { "titre": "Révisions calcul indiciel et tenseur", "fichier": "rev_calcIndTens.json"}
       ]
     },
     {
@@ -48,6 +53,15 @@
         { "titre": "Demand Forecasting - Seasonal Trends, Methods, and Forecast Errors", "fichier": "IE_3_CO_1 - production_management_2.3.json" },
         { "titre": "Balance Between Load and Production Capacity", "fichier": "IE_3_CO_1 - production_management_2.4.json" },
         { "titre": "Production Line Capacity and Balancing", "fichier": "IE_3_CO_1 - production_management_2.5.json" }
+      ]
+    },
+    {
+      "nom": "Physique",
+      "dossier": "physique",
+      "chapitres": [
+        { "titre": "Hydro", "fichier": "qcm_hydro_2024.json"},
+        { "titre": "Méca flu", "fichier": "qcm_meca_flu.json"},
+        { "titre": "Quantique", "fichier": "qcm_quantique.json"}
       ]
     },
     {

@@ -1,0 +1,185 @@
+{
+  "titre_chapitre": "Physique Quantique - QCM Pédagogique Synthétique",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quelle est la longueur d'onde de de Broglie \\(\\lambda\\) associée à une particule libre non relativiste de masse \\(m\\) et d'énergie cinétique \\(E\\) ?",
+      "options": [
+        "\\(\\lambda = \\frac{h}{\\sqrt{2mE}}\\)",
+        "\\(\\lambda = \\frac{\\hbar}{2mE}\\)",
+        "\\(\\lambda = \\frac{h E}{2m}\\)",
+        "\\(\\lambda = \\frac{2\\pi m E}{h}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Selon l'hypothèse de de Broglie (1924), la longueur d'onde associée à une particule d'impulsion \\(p\\) est \\(\\lambda = \\frac{h}{p}\\). Pour une particule non relativiste libre de masse \\(m\\) et d'énergie cinétique \\(E = \\frac{p^2}{2m}\\), l'impulsion s'exprime par \\(p = \\sqrt{2mE}\\), ce qui conduit directement à la relation \\(\\lambda = \\frac{h}{\\sqrt{2mE}}\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Pour une particule libre non relativiste de masse \\(m\\), quelle est la relation de dispersion entre la pulsation \\(\\omega\\) et le vecteur d'onde \\(k\\), ainsi que l'expression de sa vitesse de groupe \\(v_g\\) ?",
+      "options": [
+        "\\(\\omega = kc\\) et \\(v_g = c\\)",
+        "\\(\\omega = \\frac{\\hbar k^2}{2m}\\) et \\(v_g = \\frac{\\hbar k}{m}\\)",
+        "\\(\\omega = \\frac{\\hbar k}{m}\\) et \\(v_g = \\frac{\\hbar k^2}{2m}\\)",
+        "\\(\\omega = \\sqrt{k^2 c^2 + m^2}\\) et \\(v_g = \\frac{c}{2}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'énergie de la particule est \\(E = \\frac{\\hbar^2 k^2}{2m} = \\hbar \\omega\\), ce qui donne la relation de dispersion \\(\\omega(k) = \\frac{\\hbar k^2}{2m}\\). La vitesse de groupe est la dérivée de \\(\\omega\\) par rapport à \\(k\\) : \\(v_g = \\frac{d\\omega}{dk} = \\frac{\\hbar k}{m}\\), ce qui correspond à la vitesse classique de la particule \\(v = \\frac{p}{m}\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Quelle est la relation d'incertitude d'Heisenberg reliant les dispersions de la position \\(\\Delta x\\) et de l'impulsion \\(\\Delta p_x\\) d'une particule quantique selon le même axe ?",
+      "options": [
+        "\\(\\Delta x \\cdot \\Delta p_x \\ge h\\)",
+        "\\(\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}\\)",
+        "\\(\\Delta x \\cdot \\Delta p_x = 0\\)",
+        "\\(\\Delta x \\cdot \\Delta p_x \\ge 2\\pi \\hbar\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La relation d'incertitude d'Heisenberg exprime l'incompatibilité de la mesure simultanée précise de deux observables dont le commutateur est non nul. Pour la position et l'impulsion conjuguée, le produit de leurs écarts-types vérifie obligatoirement \\(\\Delta x \\cdot \\Delta p_x \\ge \\frac{\\hbar}{2}\\). La borne inférieure \\(\\frac{\\hbar}{2}\\) est atteinte pour un paquet d'ondes gaussien."
+    },
+    {
+      "id": 4,
+      "enonce": "Dans l'interprétation probabiliste de Max Born, que représente la quantité \\(|\\psi(\\mathbf{r}, t)|^2 d^3\\mathbf{r}\\) pour une particule décrite par la fonction d'onde \\(\\psi(\\mathbf{r}, t)\\) ?",
+      "options": [
+        "La vitesse moyenne de la particule dans le volume \\(d^3\\mathbf{r}\\).",
+        "La densité d'énergie électromagnétique au point \\(\\mathbf{r}\\).",
+        "La probabilité de trouver la particule à l'instant \\(t\\) dans le volume elementaire \\(d^3\\mathbf{r}\\) autour du point \\(\\mathbf{r}\\).",
+        "La force exercée sur la particule au point \\(\\mathbf{r}\\)."
+      ],
+      "reponse_correcte": 2,
+      "explication": "Max Born a établi en 1926 que la fonction d'onde \\(\\psi(\\mathbf{r}, t)\\) n'a pas de réalité physique directe, mais que le carré de son module \\(|\\psi(\\mathbf{r}, t)|^2\\) représente la densité de probabilité de présence. La quantité \\(|\\psi(\\mathbf{r}, t)|^2 d^3\\mathbf{r}\\) mesure donc la probabilité de présence de la particule dans un volume infinitésimal \\(d^3\\mathbf{r}\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "En représentation position à une dimension, quelle est la forme de l'opérateur quantique impulsion \\(\\hat{p}_x\\) ?",
+      "options": [
+        "\\(\\hat{p}_x = -i\\hbar \\frac{\\partial}{\\partial x}\\)",
+        "\\(\\hat{p}_x = \\hbar \\frac{\\partial^2}{\\partial x^2}\\)",
+        "\\(\\hat{p}_x = i\\hbar x\\)",
+        "\\(\\hat{p}_x = -\\frac{\\hbar^2}{2m} \\frac{\\partial}{\\partial x}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En mécanique quantique dans l'espace des positions, l'opérateur associé à l'impulsion selon l'axe \\(x\\) est l'opérateur différentiel \\(\\hat{p}_x = -i\\hbar \\frac{\\partial}{\\partial x}\\). Son carré conduit à l'opérateur énergie cinétique \\(\\hat{T} = \\frac{\\hat{p}_x^2}{2m} = -\\frac{\\hbar^2}{2m} \\frac{\\partial^2}{\\partial x^2}\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Que vaut le commutateur canonique \\([\\hat{x}, \\hat{p}_x]\\) entre l'opérateur position \\(\\hat{x}\\) et l'opérateur impulsion \\(\\hat{p}_x\\) ?",
+      "options": [
+        "\\([\\hat{x}, \\hat{p}_x] = 0\\)",
+        "\\([\\hat{x}, \\hat{p}_x] = i\\hbar\\)",
+        "\\([\\hat{x}, \\hat{p}_x] = -\\hbar^2\\)",
+        "\\([\\hat{x}, \\hat{p}_x] = \\frac{\\hbar}{2m}\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "En appliquant le commutateur \\([\\hat{x}, \\hat{p}_x]\\) à une fonction d'onde arbitraire \\(\\phi(x)\\) : \\(\\hat{x}\\hat{p}_x\\phi(x) - \\hat{p}_x\\hat{x}\\phi(x) = x\\left(-i\\hbar \\phi'(x)\\right) - \\left(-i\\hbar (x\\phi(x))'\\right) = i\\hbar \\phi(x)\\). On en déduit la relation fondamentale de commutation quantique \\([\\hat{x}, \\hat{p}_x] = i\\hbar\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Pourquoi les grandeurs physiques observables sont-elles représentées par des opérateurs hermitiens (auto-adjoints) ?",
+      "options": [
+        "Car leurs vecteurs propres ont tous une norme nulle.",
+        "Car les valeurs propres d'un opérateur hermitien sont nécessairement réelles et ses vecteurs propres associés à des valeurs propres distinctes sont orthogonaux.",
+        "Car un opérateur hermitien commute obligatoirement avec tous les autres opérateurs.",
+        "Car un opérateur hermitien possède des valeurs propres complexes conjuguées."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le postulat sur la mesure exige que le résultat de toute mesure d'une grandeur physique soit un nombre réel. Les opérateurs hermitiens garantissent la réalité physique de leurs valeurs propres (les résultats possibles de mesure) et la possibilité de décomposer tout état sur une base d'états propres orthogonaux."
+    },
+    {
+      "id": 8,
+      "enonce": "Pour une particule de masse \\(m\\) piégée dans un puits de potentiel carré infini à une dimension de largeur \\(a\\) (sur \\(0 < x < a\\)), quelles sont les énergies propres quantifiées \\(E_n\\) ?",
+      "options": [
+        "\\(E_n = n \\hbar \\omega\\) pour \\(n \\ge 0\\)",
+        "\\(E_n = \\frac{n^2 \\pi^2 \\hbar^2}{2m a^2}\\) pour \\(n = 1, 2, 3, \\dots\\)",
+        "\\(E_n = -\\frac{13{,}6}{n^2}\\text{ eV}\\) pour \\(n \\ge 1\\)",
+        "\\(E_n = \\frac{n \\pi \\hbar}{m a}\\) pour \\(n \\ge 1\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'annulation de la fonction d'onde aux parois impénétrables du puits (\\(x=0\\) et \\(x=a\\)) impose la quantification des vecteurs d'onde : \\(k_n = \\frac{n\\pi}{a}\\) avec \\(n \\in \\mathbb{N}^*\\). L'énergie associée est \\(E_n = \\frac{\\hbar^2 k_n^2}{2m} = \\frac{n^2 \\pi^2 \\hbar^2}{2m a^2}\\). La valeur \\(n=0\\) est exclue car elle conduirait à une fonction d'onde nulle partout."
+    },
+    {
+      "id": 9,
+      "enonce": "Quels sont les niveaux d'énergie propres \\(E_n\\) d'un oscillateur harmonique quantique à une dimension de pulsation \\(\\omega\\) ?",
+      "options": [
+        "\\(E_n = n \\hbar \\omega\\) pour \\(n = 0, 1, 2, \\dots\\)",
+        "\\(E_n = \\left(n + \\frac{1}{2}\\right) \\hbar \\omega\\) pour \\(n = 0, 1, 2, \\dots\\)",
+        "\\(E_n = \\left(n^2 + \\frac{1}{2}\\right) \\hbar \\omega\\) pour \\(n = 1, 2, 3, \\dots\\)",
+        "\\(E_n = \\frac{\\hbar \\omega}{2^n}\\) pour \\(n = 0, 1, 2, \\dots\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "La résolution de l'équation de Schrödinger pour le potentiel harmonique \\(V(x) = \\frac{1}{2}m\\omega^2 x^2\\) (notamment via l'algèbre des opérateurs d'échelle) donne une suite de niveaux d'énergie récurrente et discrète : \\(E_n = \\left(n + \\frac{1}{2}\\right) \\hbar \\omega\\) avec \\(n \\in \\mathbb{N}\\). L'état fondamental (\\(n=0\\)) possède une énergie fondamentale non nulle \\(E_0 = \\frac{1}{2}\\hbar\\omega\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Si \\(|n\\rangle\\) est un état propre de l'opérateur nombre de quanta \\(\\hat{N} = \\hat{a}^\\dagger \\hat{a}\\) de valeur propre \\(n\\), quelle est l'action de l'opérateur de création \\(\\hat{a}^\\dagger\\) sur cet état ?",
+      "options": [
+        "\\(\\hat{a}^\\dagger |n\\rangle = \\sqrt{n} |n-1\\rangle\\)",
+        "\\(\\hat{a}^\\dagger |n\\rangle = \\sqrt{n+1} |n+1\\rangle\\)",
+        "\\(\\hat{a}^\\dagger |n\\rangle = n |n\\rangle\\)",
+        "\\(\\hat{a}^\\dagger |n\\rangle = 0\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'opérateur de création \\(\\hat{a}^\\dagger\\) augmente le nombre de quanta d'énergie d'une unité. Sa norme au carré étant \\(||\\hat{a}^\\dagger |n\\rangle||^2 = \\langle n| \\hat{a} \\hat{a}^\\dagger |n\\rangle = \\langle n| (\\hat{N} + 1) |n\\rangle = n+1\\), l'état normalisé obtenu est \\(\\hat{a}^\\dagger |n\\rangle = \\sqrt{n+1} |n+1\\rangle\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "D'après le postulat de la réduction du paquet d'onde, quel est l'état d'un système quantique immédiatement après qu'une mesure de l'observable \\(\\hat{A}\\) a donné la valeur propre non dégénérée \\(a_n\\) associée au ket propre \\(|\\alpha_n\\rangle\\) ?",
+      "options": [
+        "Le système revient instantanément à son état initial d'avant la mesure.",
+        "Le système se trouve dans l'état propre \\(|\\alpha_n\\rangle\\).",
+        "Le système se retrouve dans une superposition uniforme de tous les états propres.",
+        "L'état du système devient indéterminé."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Lors de la mesure d'une grandeur physique, l'état quantique subit une projection orthogonale sur le sous-espace propre associé à la valeur propre obtenue. Si la valeur propre \\(a_n\\) est non dégénérée, l'état du système s'effondre (se réduit) exactement sur le ket propre \\(|\\alpha_n\\rangle\\). Une nouvelle mesure immédiate de \\(\\hat{A}\\) donnera la même valeur \\(a_n\\) avec une certitude absolue."
+    },
+    {
+      "id": 12,
+      "enonce": "Quelle relation fondamentale constitue le théorème d'Ehrenfest pour la dérivée temporelle de la valeur moyenne \\(\\langle A \\rangle\\) d'une observable \\(\\hat{A}\\) ?",
+      "options": [
+        "\\(\\frac{d}{dt}\\langle A \\rangle = 0\\)",
+        "\\(\\frac{d}{dt}\\langle A \\rangle = \\frac{1}{i\\hbar} \\langle [\\hat{A}, \\hat{H}] \\rangle + \\left\\langle \\frac{\\partial \\hat{A}}{\\partial t} \\right\\rangle\\)",
+        "\\(\\frac{d}{dt}\\langle A \\rangle = i\\hbar \\langle \\hat{A} \\hat{H} \\rangle\\)",
+        "\\(\\frac{d}{dt}\\langle A \\rangle = \\langle \\hat{H} \\rangle \\langle \\hat{A} \\rangle\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le théorème d'Ehrenfest relie le comportement moyen quantique aux équations classiques du mouvement : \\(\\frac{d}{dt}\\langle A \\rangle = \\frac{1}{i\\hbar} \\langle [\\hat{A}, \\hat{H}] \\rangle + \\left\\langle \\frac{\\partial \\hat{A}}{\\partial t} \\right\\rangle\\). Une observable constante dans le temps qui commute avec l'hamiltonien \\(\\hat{H}\\) correspond à une constante du mouvement."
+    },
+    {
+      "id": 13,
+      "enonce": "Pour un moment cinétique orbital \\(\\mathbf{\\hat{L}}\\), quelles sont les valeurs propres des opérateurs \\(\\hat{L}^2\\) et \\(\\hat{L}_z\\) associées aux états propres \\(|l, m\\rangle\\) ?",
+      "options": [
+        "\\(\\hat{L}^2 |l, m\\rangle = l^2 \\hbar^2 |l, m\\rangle\\) et \\(\\hat{L}_z |l, m\\rangle = m^2 \\hbar |l, m\\rangle\\)",
+        "\\(\\hat{L}^2 |l, m\\rangle = l(l+1)\\hbar^2 |l, m\\rangle\\) et \\(\\hat{L}_z |l, m\\rangle = m\\hbar |l, m\\rangle\\) avec \\(l \\in \\mathbb{N}\\) et \\(m \\in \\{-l, \\dots, +l\\}\\)",
+        "\\(\\hat{L}^2 |l, m\\rangle = (2l+1)\\hbar^2 |l, m\\rangle\\) et \\(\\hat{L}_z |l, m\\rangle = \\left(m+\\frac{1}{2}\\right)\\hbar |l, m\\rangle\\)",
+        "\\(\\hat{L}^2 |l, m\\rangle = \\hbar^2 |l, m\\rangle\\) et \\(\\hat{L}_z |l, m\\rangle = 0\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les règles de commutation de l'algèbre du moment cinétique imposent que la norme au carré de l'opérateur vaut \\(l(l+1)\\hbar^2\\) et la projection sur un axe vaut \\(m\\hbar\\). Dans le cas du moment orbital spatial \\(\\mathbf{\\hat{L}} = \\mathbf{\\hat{r}} \\times \\mathbf{\\hat{p}}\\), l'unicité de la fonction d'onde lors d'une rotation de \\(2\\pi\\) exige que \\(l\\) soit un nombre entier positif ou nul et \\(m\\) varie de \\(-l\\) à \\(+l\\) par pas entier."
+    },
+    {
+      "id": 14,
+      "enonce": "L'expérience de Stern et Gerlach menée avec un jet d'atomes d'argent produit la séparation du jet en deux faisceaux sur l'écran. Quelle propriété fondamentale de l'électron cette expérience met-elle en évidence ?",
+      "options": [
+        "Un moment cinétique orbital quantifié avec \\(l=1\\).",
+        "L'existence d'un spin intrinsèque \\(s = 1/2\\), dont la projection \\(S_z\\) ne peut prendre que deux valeurs quantifiées : \\(\\pm \\frac{\\hbar}{2}\\).",
+        "La quantification de la charge électrique atomique.",
+        "Le principe de décomposition de la vitesse thermique des atomes."
+      ],
+      "reponse_correcte": 1,
+      "explication": "La division du jet en exactement deux taches montre que la projection de la grandeur magnétique intrinsèque sur l'axe du champ magnétique ne possède que deux états quantiques (spin UP et spin DOWN). Cela correspond à un nombre quantique de spin \\(s = 1/2\\) et à des valeurs de projection \\(S_z = m_s \\hbar = \\pm \\frac{\\hbar}{2}\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Dans le modèle non relativiste de l'atome d'hydrogène, quelle est l'expression de l'énergie de l'état caractérisé par le nombre quantique principal \\(n\\) (avec \\(E_i \\approx 13{,}6\\text{ eV}\\)), et quelle est sa dégénérescence spatiale (hors spin) ?",
+      "options": [
+        "\\(E_n = -E_i \\cdot n^2\\) avec une dégénérescence de \\(2n\\)",
+        "\\(E_n = -\\frac{E_i}{n^2}\\) avec une dégénérescence spatiale de \\(n^2\\)",
+        "\\(E_n = -\\frac{E_i}{2n+1}\\) avec une dégénérescence spatiale de \\(n\\)",
+        "\\(E_n = E_i \\left(n + \\frac{1}{2}\\right)\\) avec une dégénérescence spatiale de \\(n!\\)"
+      ],
+      "reponse_correcte": 1,
+      "explication": "En résolvant l'équation de Schrödinger pour le potentiel coulombien \\(V(r) = -\\frac{e^2}{4\\pi\\varepsilon_0 r}\\), les niveaux d'énergie quantifiés s'écrivent \\(E_n = -\\frac{E_i}{n^2}\\) où \\(E_i \\approx 13{,}6\\text{ eV}\\) est l'énergie d'ionisation. Pour une valeur de \\(n\\) fixée, le nombre quantique orbital \\(l\\) varie de \\(0\\) à \\(n-1\\) et pour chaque \\(l\\), \\(m\\) prend \\(2l+1\\) valeurs, conduisant à une dégénérescence spatiale totale de \\(\\sum_{l=0}^{n-1} (2l+1) = n^2\\) (soit \\(2n^2\\) états avec le spin)."
+    }
+  ]
+}

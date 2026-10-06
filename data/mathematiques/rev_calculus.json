@@ -1,0 +1,185 @@
+{
+  "titre_chapitre": "QCM - Calculus, Méthodes Mathématiques et Hydrostatique",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Dans un fluide incompressible de masse volumique \\( \\rho \\) au repos dans un champ de pesanteur uniforme \\( \\vec{g} = -g \\vec{e}_z \\), quelle est la relation fondamentale de l'hydrostatique régissant la variation de la pression \\( p(z) \\) en fonction de l'altitude \\( z \\) ?",
+      "options": [
+        "\\( \\frac{dp}{dz} = -\\rho g \\)",
+        "\\( \\frac{dp}{dz} = \\rho g \\)",
+        "\\( \\frac{dp}{dz} = -\\frac{\\rho}{g} \\)",
+        "\\( \\Delta p = -\\rho g z^2 \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'équilibre hydrostatique d'un fluide soumis à la gravité s'écrit \\( \\vec{\\nabla} p = \\rho \\vec{g} \\). Selon l'axe vertical ascendant \\( z \\), la projection donne \\( \\frac{dp}{dz} = -\\rho g \\), ce qui traduit le fait que la pression augmente quand l'altitude diminue (\\( p(z) = p_0 - \\rho g z \\))."
+    },
+    {
+      "id": 2,
+      "enonce": "Une sphère de rayon \\( R \\) est entièrement immergée dans un fluide homogène de masse volumique \\( \\rho \\) soumis à la pesanteur \\( \\vec{g} = -g \\vec{e}_z \\). Quelle est l'expression vectorielle de la force de poussée d'Archimède \\( \\vec{F}_A \\) exercée par le fluide sur la sphère ?",
+      "options": [
+        "\\( \\vec{F}_A = \\frac{4}{3}\\pi R^3 \\rho g \\vec{e}_z \\)",
+        "\\( \\vec{F}_A = -\\frac{4}{3}\\pi R^3 \\rho g \\vec{e}_z \\)",
+        "\\( \\vec{F}_A = 4\\pi R^2 \\rho g \\vec{e}_z \\)",
+        "\\( \\vec{F}_A = \\frac{1}{3}\\pi R^3 \\rho g \\vec{e}_z \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La poussée d'Archimède est égale à l'opposé du poids du volume de fluide déplacé. Le volume d'une sphère de rayon \\( R \\) vaut \\( V = \\frac{4}{3}\\pi R^3 \\). Le poids du fluide déplacé s'écrit \\( \\vec{P}_{fluide} = -V \\rho g \\vec{e}_z \\), d'où une poussée d'Archimède verticale vers le haut : \\( \\vec{F}_A = -\\vec{P}_{fluide} = \\frac{4}{3}\\pi R^3 \\rho g \\vec{e}_z \\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Soit le champ vectoriel \\( \\vec{F}(x,y,z) = x^2 \\vec{e}_x + y z \\vec{e}_y + z^3 \\vec{e}_z \\). Que vaut la divergence de ce champ, \\( \\vec{\\nabla} \\cdot \\vec{F} \\), en coordonnées cartésiennes ?",
+      "options": [
+        "\\( \\vec{\\nabla} \\cdot \\vec{F} = 2x + z + 3z^2 \\)",
+        "\\( \\vec{\\nabla} \\cdot \\vec{F} = 2x + y + 3z^2 \\)",
+        "\\( \\vec{\\nabla} \\cdot \\vec{F} = 2x \\vec{e}_x + z \\vec{e}_y + 3z^2 \\vec{e}_z \\)",
+        "\\( \\vec{\\nabla} \\cdot \\vec{F} = x^2 + yz + z^3 \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En coordonnées cartésiennes, la divergence est donnée par la somme des dérivées partielles des composantes : \\( \\vec{\\nabla} \\cdot \\vec{F} = \\frac{\\partial F_x}{\\partial x} + \\frac{\\partial F_y}{\\partial y} + \\frac{\\partial F_z}{\\partial z} \\). On calcule \\( \\frac{\\partial (x^2)}{\\partial x} = 2x \\), \\( \\frac{\\partial (yz)}{\\partial y} = z \\), et \\( \\frac{\\partial (z^3)}{\\partial z} = 3z^2 \\), d'où \\( \\vec{\\nabla} \\cdot \\vec{F} = 2x + z + 3z^2 \\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Un fluide tourne comme un corps solide autour de l'axe \\( Oz \\) avec une vitesse angulaire constante \\( \\Omega \\). Son champ de vitesse s'écrit \\( \\vec{u} = -\\Omega y \\vec{e}_x + \\Omega x \\vec{e}_y \\). Que vaut son rotationnel \\( \\vec{\\nabla} \\times \\vec{u} \\)?",
+      "options": [
+        "\\( \\vec{\\nabla} \\times \\vec{u} = 2\\Omega \\vec{e}_z \\)",
+        "\\( \\vec{\\nabla} \\times \\vec{u} = \\Omega \\vec{e}_z \\)",
+        "\\( \\vec{\\nabla} \\times \\vec{u} = \\vec{0} \\)",
+        "\\( \\vec{\\nabla} \\times \\vec{u} = -2\\Omega \\vec{e}_z \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La composante selon \\( z \\) du rotationnel en cartésiennes est \\( (\\vec{\\nabla} \\times \\vec{u})_z = \\frac{\\partial u_y}{\\partial x} - \\frac{\\partial u_x}{\\partial y} \\). Ici \\( \\frac{\\partial (\\Omega x)}{\\partial x} = \\Omega \\) et \\( \\frac{\\partial (-\\Omega y)}{\\partial y} = -\\Omega \\). Ainsi \\( (\\vec{\\nabla} \\times \\vec{u})_z = \\Omega - (-\\Omega) = 2\\Omega \\), d'où \\( \\vec{\\nabla} \\times \\vec{u} = 2\\Omega \\vec{e}_z \\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Que stipule le théorème de la divergence (Green-Ostrogradski) pour un champ vectoriel régulier \\( \\vec{F} \\) défini sur un volume \\( V \\) délimité par une surface fermée \\( S \\) orientée vers l'extérieur par \\( d\\vec{S} \\)?",
+      "options": [
+        "\\( \\iint_S \\vec{F} \\cdot d\\vec{S} = \\iiint_V (\\vec{\\nabla} \\cdot \\vec{F}) \\, dV \\)",
+        "\\( \\iint_S \\vec{F} \\cdot d\\vec{S} = \\iiint_V (\\vec{\\nabla} \\times \\vec{F}) \\, dV \\)",
+        "\\( \\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\vec{\\nabla} \\cdot \\vec{F}) \\, dS \\)",
+        "\\( \\iint_S \\vec{F} \\times d\\vec{S} = \\iiint_V (\\vec{\\nabla} f) \\, dV \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de la divergence relie le flux d'un champ vectoriel \\( \\vec{F} \\) à travers une surface fermée \\( S \\) à l'intégrale volumique de la divergence de ce champ sur le volume englobé \\( V \\) : \\( \\iint_S \\vec{F} \\cdot d\\vec{S} = \\iiint_V (\\vec{\\nabla} \\cdot \\vec{F}) \\, dV \\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Soit un champ vectoriel \\( \\vec{F} \\). Quelle est l'expression du théorème de Stokes reliant la circulation de \\( \\vec{F} \\) le long d'un contour fermé orienté \\( C \\) au flux de son rotationnel à travers une surface \\( S \\) bordée par \\( C \\)?",
+      "options": [
+        "\\( \\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\vec{\\nabla} \\times \\vec{F}) \\cdot d\\vec{S} \\)",
+        "\\( \\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\vec{\\nabla} \\cdot \\vec{F}) \\, dS \\)",
+        "\\( \\oint_C \\vec{F} \\cdot d\\vec{r} = \\iiint_V (\\vec{\\nabla} \\times \\vec{F}) \\, dV \\)",
+        "\\( \\oint_C \\vec{F} \\times d\\vec{r} = \\iint_S (\\vec{\\nabla} f) \\cdot d\\vec{S} \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Stokes établit que la circulation d'un champ vectoriel \\( \\vec{F} \\) sur un contour fermé \\( C \\) est égale au flux du rotationnel \\( \\vec{\\nabla} \\times \\vec{F} \\) à travers toute surface \\( S \\) orientée dont le bord est \\( C \\) : \\( \\oint_C \\vec{F} \\cdot d\\vec{r} = \\iint_S (\\vec{\\nabla} \\times \\vec{F}) \\cdot d\\vec{S} \\)."
+    },
+    {
+      "id": 7,
+      "enonce": "En coordonnées cylindriques \\( (r, \\theta, z) \\), quelle est l'expression correcte de l'opérateur gradient \\( \\vec{\\nabla} f \\) appliqué à une fonction scalaire \\( f(r,\\theta,z) \\)?",
+      "options": [
+        "\\( \\vec{\\nabla} f = \\frac{\\partial f}{\\partial r} \\vec{e}_r + \\frac{1}{r} \\frac{\\partial f}{\\partial \\theta} \\vec{e}_\\theta + \\frac{\\partial f}{\\partial z} \\vec{e}_z \\)",
+        "\\( \\vec{\\nabla} f = \\frac{\\partial f}{\\partial r} \\vec{e}_r + \\frac{\\partial f}{\\partial \\theta} \\vec{e}_\\theta + \\frac{\\partial f}{\\partial z} \\vec{e}_z \\)",
+        "\\( \\vec{\\nabla} f = \\frac{1}{r} \\frac{\\partial f}{\\partial r} \\vec{e}_r + \\frac{1}{r} \\frac{\\partial f}{\\partial \\theta} \\vec{e}_\\theta + \\frac{\\partial f}{\\partial z} \\vec{e}_z \\)",
+        "\\( \\vec{\\nabla} f = \\frac{\\partial f}{\\partial r} \\vec{e}_r + r \\frac{\\partial f}{\\partial \\theta} \\vec{e}_\\theta + \\frac{\\partial f}{\\partial z} \\vec{e}_z \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En coordonnées cylindriques, les facteurs d'échelle sont \\( h_r = 1 \\), \\( h_\\theta = r \\), \\( h_z = 1 \\). L'élément de longueur est \\( d\\vec{r} = dr \\vec{e}_r + r d\\theta \\vec{e}_\\theta + dz \\vec{e}_z \\). Comme \\( df = \\vec{\\nabla} f \\cdot d\\vec{r} \\), on obtient \\( \\vec{\\nabla} f = \\frac{\\partial f}{\\partial r} \\vec{e}_r + \\frac{1}{r} \\frac{\\partial f}{\\partial \\theta} \\vec{e}_\\theta + \\frac{\\partial f}{\\partial z} \\vec{e}_z \\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Pour une fonction scalaire \\( f(r) \\) possédant une symétrie sphérique (ne dépendant que de la distance radiale \\( r \\)), que vaut le Laplacien \\( \\Delta f = \\vec{\\nabla}^2 f \\) en coordonnées sphériques ?",
+      "options": [
+        "\\( \\Delta f = \\frac{1}{r^2} \\frac{d}{dr} \\left( r^2 \\frac{df}{dr} \\right) \\)",
+        "\\( \\Delta f = \\frac{d^2 f}{dr^2} \\)",
+        "\\( \\Delta f = \\frac{1}{r} \\frac{d^2 f}{dr^2} \\)",
+        "\\( \\Delta f = \\frac{2}{r} \\frac{df}{dr} \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En coordonnées sphériques, la partie radiale du Laplacien s'écrit \\( \\Delta f = \\frac{1}{r^2} \\frac{d}{dr}\\left( r^2 \\frac{df}{dr} \\right) \\), ce qui se développe aussi sous la forme \\( \\frac{d^2 f}{dr^2} + \\frac{2}{r}\\frac{df}{dr} \\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Quel est le développement limité à l'ordre 3 au voisinage de 0 de la fonction \\( \\tan(x) \\)?",
+      "options": [
+        "\\( \\tan(x) = x + \\frac{x^3}{3} + O(x^5) \\)",
+        "\\( \\tan(x) = x - \\frac{x^3}{6} + O(x^5) \\)",
+        "\\( \\tan(x) = x + \\frac{x^3}{6} + O(x^5) \\)",
+        "\\( \\tan(x) = x - \\frac{x^3}{3} + O(x^5) \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En effectuant le quotient des développements limités \\( \\sin(x) = x - \\frac{x^3}{6} + O(x^5) \\) et \\( \\cos(x) = 1 - \\frac{x^2}{2} + O(x^4) \\), on calcule \\( \\tan(x) = \\frac{x - x^3/6}{1 - x^2/2} = (x - x^3/6)(1 + x^2/2 + O(x^4)) = x + x^3/3 + O(x^5) \\)."
+    },
+    {
+      "id": 10,
+      "enonce": "Soit l'équation différentielle du premier ordre \\( \\frac{dy}{dx} - 3y = 0 \\) avec la condition initiale \\( y(0) = 2 \\). Quelle est l'unique solution \\( y(x) \\)?",
+      "options": [
+        "\\( y(x) = 2 e^{3x} \\)",
+        "\\( y(x) = 3 e^{2x} \\)",
+        "\\( y(x) = 2 e^{-3x} \\)",
+        "\\( y(x) = e^{3x} + 1 \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La solution générale d'une équation de la forme \\( y' - a y = 0 \\) est \\( y(x) = C e^{ax} \\). Ici avec \\( a = 3 \\), \\( y(x) = C e^{3x} \\). La condition initiale \\( y(0) = 2 \\) impose \\( C e^0 = 2 \\implies C = 2 \\). La solution est donc \\( y(x) = 2 e^{3x} \\)."
+    },
+    {
+      "id": 11,
+      "enonce": "L'équation caractéristique d'une équation différentielle linéaire homogène du second ordre \\( y'' + 2y' + 5y = 0 \\) admet pour racines complexes conjuguées \\( \\lambda = -1 \\pm 2i \\). Quelle est la forme générale des solutions réelles \\( y(x) \\)?",
+      "options": [
+        "\\( y(x) = e^{-x} \\left( C_1 \\cos(2x) + C_2 \\sin(2x) \\right) \\)",
+        "\\( y(x) = e^{x} \\left( C_1 \\cos(2x) + C_2 \\sin(2x) \\right) \\)",
+        "\\( y(x) = e^{-2x} \\left( C_1 \\cos(x) + C_2 \\sin(x) \\right) \\)",
+        "\\( y(x) = C_1 e^{-x} + C_2 e^{2x} \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Lorsque le polynôme caractéristique possède deux racines complexes conjuguées \\( \\lambda = \\alpha \\pm i \\beta \\) (avec \\( \\alpha = -1 \\) et \\( \\beta = 2 \\)), la solution réelle s'écrit \\( y(x) = e^{\\alpha x} \\left( C_1 \\cos(\\beta x) + C_2 \\sin(\\beta x) \\right) \\), c'est-à-dire \\( y(x) = e^{-x} \\left( C_1 \\cos(2x) + C_2 \\sin(2x) \\right) \\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Selon le critère de Riemann, pour quelle condition sur le paramètre réel \\( \\alpha \\) l'intégrale impropre \\( \\int_{1}^{+\\infty} \\frac{dx}{x^\\alpha} \\) est-elle convergente ?",
+      "options": [
+        "\\( \\alpha > 1 \\)",
+        "\\( \\alpha < 1 \\)",
+        "\\( \\alpha \\ge 1 \\)",
+        "\\( \\alpha > 0 \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégrale de Riemann \\( \\int_{1}^{T} x^{-\\alpha} dx = \\left[ \\frac{x^{1-\\alpha}}{1-\\alpha} \\right]_1^T = \\frac{T^{1-\\alpha}-1}{1-\\alpha} \\). Lorsque \\( T \\to +\\infty \\), cette expression admet une limite finie si et seulement si \\( 1 - \\alpha < 0 \\), c'est-à-dire \\( \\alpha > 1 \\)."
+    },
+    {
+      "id": 13,
+      "enonce": "Soit l'intégrale \\( I = \\int_{0}^{1} \\frac{dx}{1+x^2} \\). Quelle est la valeur exacte de cette intégrale ?",
+      "options": [
+        "\\( \\frac{\\pi}{4} \\)",
+        "\\( \\frac{\\pi}{2} \\)",
+        "\\( 1 \\)",
+        "\\( \\ln(2) \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Une primitive de la fonction lorentzienne \\( f(x) = \\frac{1}{1+x^2} \\) est la fonction \\( \\arctan(x) \\). On calcule donc \\( I = [\\arctan(x)]_0^1 = \\arctan(1) - \\arctan(0) = \\frac{\\pi}{4} - 0 = \\frac{\\pi}{4} \\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Quelles sont les valeurs propres de la matrice \\( A = \\begin{pmatrix} 1 & 2 \\ 4 & 3 \\end{pmatrix} \\)?",
+      "options": [
+        "\\( \\lambda_1 = 5 \\) et \\( \\lambda_2 = -1 \\)",
+        "\\( \\lambda_1 = 1 \\) et \\( \\lambda_2 = 3 \\)",
+        "\\( \\lambda_1 = 4 \\) et \\( \\lambda_2 = 2 \\)",
+        "\\( \\lambda_1 = 5 \\) et \\( \\lambda_2 = 1 \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le polynôme caractéristique d'une matrice 2x2 s'écrit \\( P(\\lambda) = \\lambda^2 - \\text{Tr}(A)\\lambda + \\det(A) \\). On a \\( \\text{Tr}(A) = 1 + 3 = 4 \\) et \\( \\det(A) = 1 \\times 3 - 2 \\times 4 = -5 \\). Les racines de \\( \\lambda^2 - 4\\lambda - 5 = 0 \\) sont \\( \\lambda_1 = 5 \\) et \\( \\lambda_2 = -1 \\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Dans une base orthonormée directe \\( (\\vec{i}, \\vec{j}, \\vec{k}) \\), soient deux vecteurs \\( \\vec{a} = -\\vec{i} + 3\\vec{j} + \\vec{k} \\) et \\( \\vec{b} = 2\\vec{i} - 3\\vec{k} \\). Que vaut leur produit vectoriel \\( \\vec{v} = \\vec{a} \\times \\vec{b} \\)?",
+      "options": [
+        "\\( \\vec{v} = -9\\vec{i} - \\vec{j} - 3\\vec{k} \\)",
+        "\\( \\vec{v} = -9\\vec{i} + \\vec{j} - 3\\vec{k} \\)",
+        "\\( \\vec{v} = -2\\vec{i} - 9\\vec{j} + 3\\vec{k} \\)",
+        "\\( \\vec{v} = 9\\vec{i} + \\vec{j} + 3\\vec{k} \\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le produit vectoriel se calcule via le déterminant : \\( \\vec{a} \\times \\vec{b} = \\begin{vmatrix} \\vec{i} & \\vec{j} & \\vec{k} \\ -1 & 3 & 1 \\ 2 & 0 & -3 \\end{vmatrix} = \\vec{i}(3(-3) - 0) - \\vec{j}((-1)(-3) - 2(1)) + \\vec{k}(0 - 3(2)) = -9\\vec{i} - \\vec{j} - 3\\vec{k} \\)."
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "titre_chapitre": "Poly Hydro 2024 - Mécanique des Fluides",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Quelle est la caractéristique fondamentale qui distingue le comportement d'un fluide de celui d'un solide sous l'action d'une contrainte de cisaillement \\(\\tau\\) ?",
+      "options": [
+        "Un fluide se déforme de manière continue et indéfinie sous l'effet d'une force de cisaillement, même très faible (\\(\\tau > 0\\)).",
+        "Un fluide reprend toujours sa forme initiale une fois la contrainte \\(\\tau\\) supprimée.",
+        "Un fluide possède une rigidité lui permettant de résister au cisaillement tant que \\(\\tau\\) reste inférieure à un seuil élastique.",
+        "Un fluide subit uniquement des déformations élastiques réversibles sans jamais s'écouler."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Contrairement à un solide qui présente de la rigidité et subit des déformations élastiques ou plastiques finies, un fluide est incapable de s'opposer à un cisaillement et s'écoule continuellement sous l'action de toute contrainte \\(\\tau \\neq 0\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle condition de séparation d'échelles caractérise la validité de l'hypothèse du milieu continu pour une particule fluide de taille caractéristique \\(d\\) ?",
+      "options": [
+        "\\(\\ell \\ll d \\ll L\\), où \\(\\ell\\) est le libre parcours moyen moléculaire et \\(L\\) est l'échelle macroscopique de l'écoulement.",
+        "\\(d \\ll \\ell \\ll L\\), où \\(\\ell\\) est le libre parcours moyen et \\(L\\) l'échelle macroscopique.",
+        "\\(\\ell = d = L\\), les trois échelles devant être rigoureusement identiques pour éviter les fluctuations.",
+        "\\(L \\ll d \\ll \\ell\\), la particule fluide devant être plus grande que le domaine d'étude macroscopique."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'approche en milieu continu exige une échelle mésoscopique \\(d\\) telle que \\(d \\gg \\ell\\) (pour contenir un très grand nombre de molécules et moyenner les fluctuations thermiques) et \\(d \\ll L\\) (pour pouvoir définir des grandeurs physiques locales continues)."
+    },
+    {
+      "id": 3,
+      "enonce": "Comment s'exprime le nombre de Reynolds \\(Re\\) et que représente-t-il physiquement dans un écoulement de vitesse \\(U\\), de taille \\(L\\), de masse volumique \\(\\rho\\) et de viscosité dynamique \\(\\eta\\) ?",
+      "options": [
+        "\\(Re = \\frac{\\rho U L}{\\eta}\\), il quantifie le rapport entre les forces d'inertie et les forces visqueuses.",
+        "\\(Re = \\frac{\\eta U}{\\rho L}\\), il quantifie le rapport entre la pression statique et la pression dynamique.",
+        "\\(Re = \\frac{U}{\\sqrt{g L}}\\), il quantifie le rapport entre les forces d'inertie et les forces de pesanteur.",
+        "\\(Re = \\frac{\\rho g L}{\\eta}\\), il quantifie le rapport entre les forces de gravité et la viscosité."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le nombre de Reynolds est un nombre sans dimension défini par \\(Re = \\frac{\\rho U L}{\\eta} = \\frac{U L}{\\nu}\\) (où \\(\\nu = \\frac{\\eta}{\\rho}\\) est la viscosité cinématique). Il mesure l'importance relative des effets inertiels par rapport aux effets visqueux dissipatifs."
+    },
+    {
+      "id": 4,
+      "enonce": "Dans un référentiel galiléen, quelle est la forme vectorielle de l'équation fondamentale de l'hydrostatique pour un fluide au repos de masse volumique \\(\\rho\\) soumis au champ de pesanteur \\(\\vec{g}\\) ?",
+      "options": [
+        "\\(\\vec{\\nabla} p = \\rho \\vec{g}\\)",
+        "\\(\\vec{\\nabla} p + \\rho \\vec{g} = \\vec{0}\\)",
+        "\\(\\vec{\\nabla} \\cdot \\vec{p} = \\rho \\vec{g}\\)",
+        "\\(\\vec{\\nabla} \\wedge \\vec{p} = \\rho \\vec{g}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La somme des forces de pression et de pesanteur appliquées à un élément de volume fluide au repos s'annule : \\(-\\vec{\\nabla} p + \\rho \\vec{g} = \\vec{0}\\), ce qui s'écrit \\(\\vec{\\nabla} p = \\rho \\vec{g}\\). Si l'axe \\(Oz\\) est orienté vers le haut, \\(\\vec{g} = -g \\vec{e}_z\\), d'où \\(\\frac{\\mathrm{d}p}{\\mathrm{d}z} = -\\rho g\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Pour un fluide incompressible de masse volumique \\(\\rho\\) constante au repos dans un champ de pesanteur uniforme \\(\\vec{g} = -g \\vec{e}_z\\), quelle est l'expression de la pression \\(p(z)\\) en fonction de l'altitude \\(z\\) ?",
+      "options": [
+        "\\(p(z) = p_0 - \\rho g (z - z_0)\\)",
+        "\\(p(z) = p_0 + \\rho g (z - z_0)\\)",
+        "\\(p(z) = p_0 \\exp\\left(-\\frac{\\rho g z}{p_0}\\right)\\)",
+        "\\(p(z) = p_0 - \\frac{1}{2} \\rho g z^2\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En intégrant \\(\\frac{\\mathrm{d}p}{\\mathrm{d}z} = -\\rho g\\) avec \\(\\rho\\) et \\(g\\) constants, on obtient la relation fondamentale de la statique des fluides incompressibles : \\(p(z_1) - p(z_2) = \\rho g (z_2 - z_1)\\), soit \\(p(z) = p_0 - \\rho g (z - z_0)\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Dans un baromètre à mercure de Torricelli à l'air libre, à quoi est égale la pression atmosphérique \\(p_{\\mathrm{atm}}\\) en fonction de la hauteur de mercure \\(h\\) et de sa masse volumique \\(\\rho_{\\mathrm{Hg}}\\) ?",
+      "options": [
+        "\\(p_{\\mathrm{atm}} = \\rho_{\\mathrm{Hg}} g h\\) (en négligeant la pression de vapeur saturante du mercure)",
+        "\\(p_{\\mathrm{atm}} = \\frac{\\rho_{\\mathrm{Hg}} g}{h}\\)",
+        "\\(p_{\\mathrm{atm}} = \\frac{1}{2} \\rho_{\\mathrm{Hg}} g h^2\\)",
+        "\\(p_{\\mathrm{atm}} = \\rho_{\\mathrm{Hg}} g h + p_0\\) avec \\(p_0 = 10^5\\text{ Pa}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le tube au-dessus de la colonne de mercure, la pression du vide est quasi nulle (\\(p \\approx 0\\)). La relation d'hydrostatique entre le sommet de la colonne et la surface libre de la cuve donne \\(p_{\\mathrm{atm}} - 0 = \\rho_{\\mathrm{Hg}} g h\\). Pour \\(p_{\\mathrm{atm}} = 1013\\text{ hPa}\\), cela donne \\(h \\approx 760\\text{ mm\\,Hg}\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Dans une presse hydraulique constituée de deux pistons de sections respectives \\(S_1\\) et \\(S_2\\) (\\(S_2 > S_1\\)), quelle force \\(F_2\\) est exercée sur le grand piston lorsqu'une force \\(F_1\\) est appliquée sur le petit piston ?",
+      "options": [
+        "\\(F_2 = F_1 \\frac{S_2}{S_1}\\)",
+        "\\(F_2 = F_1 \\frac{S_1}{S_2}\\)",
+        "\\(F_2 = F_1 \\sqrt{\\frac{S_2}{S_1}}\\)",
+        "\\(F_2 = F_1\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Selon le principe de Pascal, la pression appliquée se transmet intégralement dans tout le fluide au même niveau horizontal : \\(p = \\frac{F_1}{S_1} = \\frac{F_2}{S_2}\\). On en déduit l'amplification de force : \\(F_2 = F_1 \\frac{S_2}{S_1}\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Quelle est l'expression vectorielle de la poussée d'Archimède \\(\\vec{\\Pi}_A\\) subie par un solide totalement immergé de volume \\(V\\) dans un fluide au repos de masse volumique \\(\\rho_f\\) ?",
+      "options": [
+        "\\(\\vec{\\Pi}_A = -\\rho_f V \\vec{g}\\)",
+        "\\(\\vec{\\Pi}_A = \\rho_f V \\vec{g}\\)",
+        "\\(\\vec{\\Pi}_A = -\\rho_s V \\vec{g}\\) (où \\(\\rho_s\\) est la masse volumique du solide)",
+        "\\(\\vec{\\Pi}_A = \\rho_s V \\vec{g}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La poussée d'Archimède est égale au contraire du poids du volume de fluide déplacé : \\(\\vec{\\Pi}_A = - m_f \\vec{g} = -\\rho_f V \\vec{g}\\). Elle s'applique au centre de poussée et est orientée verticalement vers le haut."
+    },
+    {
+      "id": 9,
+      "enonce": "Dans un cylindre contenant un liquide en rotation uniforme à la vitesse angulaire \\(\\Omega\\) autour de l'axe vertical \\(Oz\\), quelle est la forme géométrique des surfaces isobares (d'égale pression) ?",
+      "options": [
+        "Des paraboloides de révolution d'équation \\(z(r) = z_0 + \\frac{\\Omega^2 r^2}{2g}\\)",
+        "Des plans horizontaux d'équation \\(z = \\text{constante}\\)",
+        "Des cônes de révolution d'équation \\(z(r) = z_0 + \\frac{\\Omega r}{g}\\)",
+        "Des sphères centrées sur l'axe de rotation"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans le référentiel tournant non galiléen, le fluide subit la force centrifuge massique \\(\\Omega^2 r \\vec{e}_r\\). L'équation \\(\\vec{\\nabla} p = \\rho (\\vec{g} + \\Omega^2 r \\vec{e}_r)\\) s'écrit \\(\\mathrm{d}p = -\\rho g \\mathrm{d}z + \\rho \\Omega^2 r \\mathrm{d}r\\). Sur une isobare (\\(\\mathrm{d}p=0\\)), \\(\\mathrm{d}z = \\frac{\\Omega^2 r}{g} \\mathrm{d}r\\), d'où la parabole \\(z(r) = z_0 + \\frac{\\Omega^2 r^2}{2g}\\)."
+    },
+    {
+      "id": 10,
+      "enonce": "En cinématique des fluides, quelle est la spécificité de la description eulérienne par rapport à la description lagrangienne ?",
+      "options": [
+        "La description eulérienne étudie le champ des grandeurs fluides (vitesse \\(\\vec{u}(\\vec{r},t)\\), pression \\(p(\\vec{r},t)\\)) en des points fixes \\(\\vec{r}\\) de l'espace au cours du temps \\(t\\).",
+        "La description eulérienne suit le mouvement individuel de chaque particule fluide repérée par sa position initiale \\(\\vec{r}_0\\).",
+        "La description eulérienne est restreinte aux écoulements stationnaires et incompressibles.",
+        "La description eulérienne calcule les trajectoires des particules sans mesurer le champ de vitesse."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La description lagrangienne suit chaque particule individualisée par sa position initiale \\(\\vec{r}_0\\). La description eulérienne s'intéresse au champ spatial des propriétés du fluide \\(\\vec{u}(\\vec{r},t)\\) passant par un point fixe \\(\\vec{r}\\) à l'instant \\(t\\)."
+    },
+    {
+      "id": 11,
+      "enonce": "Comment s'exprime la dérivée particulaire (ou totale) \\(\\frac{\\mathrm{D}A}{\\mathrm{D}t}\\) d'une grandeur scalaire \\(A(\\vec{r},t)\\) en description eulérienne ?",
+      "options": [
+        "\\(\\frac{\\mathrm{D}A}{\\mathrm{D}t} = \\frac{\\partial A}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})A\\)",
+        "\\(\\frac{\\mathrm{D}A}{\\mathrm{D}t} = \\frac{\\partial A}{\\partial t} + \\vec{\\nabla} \\cdot (A \\vec{u})\\)",
+        "\\(\\frac{\\mathrm{D}A}{\\mathrm{D}t} = (\\vec{u} \\cdot \\vec{\\nabla})A\\)",
+        "\\(\\frac{\\mathrm{D}A}{\\mathrm{D}t} = \\frac{\\partial A}{\\partial t}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La variation temporelle subie par une particule fluide associe le terme local d'instationnarité \\(\\frac{\\partial A}{\\partial t}\\) et le terme advectif / convectif \\((\\vec{u} \\cdot \\vec{\\nabla})A = u_x \\frac{\\partial A}{\\partial x} + u_y \\frac{\\partial A}{\\partial y} + u_z \\frac{\\partial A}{\\partial z}\\) dû au déplacement de la particule dans un milieu spatialement non uniforme."
+    },
+    {
+      "id": 12,
+      "enonce": "Quelle est l'expression du vecteur accélération \\(\\vec{a}\\) d'une particule fluide en représentation eulérienne ?",
+      "options": [
+        "\\(\\vec{a} = \\frac{\\partial \\vec{u}}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u}\\)",
+        "\\(\\vec{a} = \\frac{\\partial \\vec{u}}{\\partial t}\\)",
+        "\\(\\vec{a} = (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u}\\)",
+        "\\(\\vec{a} = \\vec{\\nabla}\\left(\\frac{u^2}{2}\\right)\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'accélération d'une particule fluide est la dérivée particulaire de sa vitesse \\(\\vec{u}\\) : \\(\\vec{a} = \\frac{\\mathrm{D}\\vec{u}}{\\mathrm{D}t} = \\frac{\\partial \\vec{u}}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u}\\). Elle combine l'accélération locale et l'accélération convective."
+    },
+    {
+      "id": 13,
+      "enonce": "Quelle est la forme différentielle générale de l'équation de conservation de la masse (équation de continuité) pour un fluide de masse volumique \\(\\rho(\\vec{r},t)\\) de vitesse \\(\\vec{u}(\\vec{r},t)\\) ?",
+      "options": [
+        "\\(\\frac{\\partial \\rho}{\\partial t} + \\vec{\\nabla} \\cdot (\\rho \\vec{u}) = 0\\)",
+        "\\(\\frac{\\partial \\rho}{\\partial t} + \\vec{u} \\cdot \\vec{\\nabla}\\rho = 0\\)",
+        "\\(\\vec{\\nabla} \\cdot \\vec{u} = 0\\)",
+        "\\(\\frac{\\mathrm{D}\\vec{u}}{\\mathrm{D}t} = \\vec{0}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le bilan de masse appliqué à un volume de contrôle fixe donne \\(\\frac{\\partial \\rho}{\\partial t} + \\vec{\\nabla} \\cdot (\\rho \\vec{u}) = 0\\). Sous forme particulaire, cela s'écrit également \\(\\frac{\\mathrm{D}\\rho}{\\mathrm{D}t} + \\rho \\vec{\\nabla} \\cdot \\vec{u} = 0\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Quelle condition cinématique sur le champ de vitesse \\(\\vec{u}\\) caractérise un écoulement incompressible (\\(\\rho = \\text{constante}\\)) ?",
+      "options": [
+        "\\(\\vec{\\nabla} \\cdot \\vec{u} = 0\\) (champ de vitesse à divergence nulle / solénoïdal)",
+        "\\(\\vec{\\nabla} \\wedge \\vec{u} = \\vec{0}\\) (champ irrotationnel)",
+        "\\(\\frac{\\partial \\vec{u}}{\\partial t} = \\vec{0}\\) (écoulement stationnaire)",
+        "\\(\\vec{u} \\cdot \\vec{\\nabla}\\vec{u} = \\vec{0}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour un écoulement incompressible, la masse volumique des particules est conservée au cours du temps (\\(\\frac{\\mathrm{D}\\rho}{\\mathrm{D}t} = 0\\)). L'équation de continuité \\(\\frac{\\mathrm{D}\\rho}{\\mathrm{D}t} + \\rho \\vec{\\nabla} \\cdot \\vec{u} = 0\\) se simplifie donc en \\(\\vec{\\nabla} \\cdot \\vec{u} = 0\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Dans un tube de courant pour un écoulement stationnaire incompressible de sections transversales \\(S_1\\) et \\(S_2\\), quelle relation lie les vitesses moyennes \\(U_1\\) et \\(U_2\\) ?",
+      "options": [
+        "\\(Q_v = U_1 S_1 = U_2 S_2 = \\text{constante}\\)",
+        "\\(U_1 S_2 = U_2 S_1\\)",
+        "\\(U_1 + S_1 = U_2 + S_2\\)",
+        "\\(\\frac{U_1}{S_1} = \\frac{U_2}{S_2}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La conservation du débit volumique \\(Q_v = \\iint_S \\vec{u} \\cdot \\mathrm{d}\\vec{S}\\) imposée par l'incompressibilité implique la conservation du produit section-vitesse : \\(U_1 S_1 = U_2 S_2\\)."
+    },
+    {
+      "id": 16,
+      "enonce": "Comment est défini le vecteur tourbillon (ou vorticité) \\(\\vec{\\omega}\\) à partir du champ de vitesse \\(\\vec{u}\\) ?",
+      "options": [
+        "\\(\\vec{\\omega} = \\vec{\\nabla} \\wedge \\vec{u}\\) (le rotational du champ de vitesse)",
+        "\\(\\vec{\\omega} = \\vec{\\nabla} \\cdot \\vec{u}\\)",
+        "\\(\\vec{\\omega} = \\vec{\\nabla} u^2\\)",
+        "\\(\\vec{\\omega} = \\frac{1}{2} \\vec{\\nabla} \\cdot (\\vec{u} \\wedge \\vec{r})\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le vecteur tourbillon est défini par \\(\\vec{\\omega} = \\vec{\\nabla} \\wedge \\vec{u} = \\mathbf{rot}(\\vec{u})\\). Il quantifie la rotation locale du fluide : la vitesse angulaire instantanée de rotation de la particule est \\(\\vec{\\Omega} = \\frac{1}{2} \\vec{\\omega}\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Quelle est l'équation du mouvement (équation d'Euler) pour un fluide parfait (viscosité \\(\\eta = 0\\)) de masse volumique \\(\\rho\\) soumis aux forces de pesanteur \\(\\vec{g}\\) ?",
+      "options": [
+        "\\(\\rho \\left( \\frac{\\partial \\vec{u}}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u} \\right) = -\\vec{\\nabla} p + \\rho \\vec{g}\\)",
+        "\\(\\rho \\frac{\\partial \\vec{u}}{\\partial t} = -\\vec{\\nabla} p + \\eta \\Delta \\vec{u}\\)",
+        "\\(\\frac{\\partial \\vec{u}}{\\partial t} + \\vec{u} \\cdot \\vec{\\nabla}\\vec{u} = \\vec{0}\\)",
+        "\\(\\vec{\\nabla} p + \\rho \\vec{g} + \\eta \\Delta \\vec{u} = \\vec{0}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'équation d'Euler dérive directement du principe fondamental de la dynamique appliqué à une particule de fluide parfait : \\(\\rho \\frac{\\mathrm{D}\\vec{u}}{\\mathrm{D}t} = -\\vec{\\nabla} p + \\rho \\vec{g}\\)."
+    },
+    {
+      "id": 18,
+      "enonce": "Quelles sont les 4 hypothèses requises pour que la quantité \\(p + \\frac{1}{2}\\rho u^2 + \\rho g z\\) soit constante le long d'une ligne de courant ?",
+      "options": [
+        "Fluide parfait (\\(\\eta=0\\)), incompressible (\\(\\rho=\\text{const}\\)), écoulement stationnaire (\\(\\frac{\\partial \\vec{u}}{\\partial t}=\\vec{0}\\)) et forces dérivant d'un potentiel (\\(\\vec{g}\\)).",
+        "Fluide visqueux, compressible, écoulement instationnaire, sans pesanteur.",
+        "Fluide newtonien, écoulement turbulent, compressible et instationnaire.",
+        "Fluide parfait, écoulement supersonique et compressible."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Bernoulli s'obtient par intégration de l'équation d'Euler le long d'une ligne de courant sous 4 conditions strictes : pas de frottements visqueux (\\(\\eta=0\\)), masse volumique constante (\\(\\rho=\\text{const}\\)), champ permanent (\\(\\frac{\\partial \\vec{u}}{\\partial t}=\\vec{0}\\)) et forces massiques conservatives."
+    },
+    {
+      "id": 19,
+      "enonce": "Dans un venturi horizontal parcouru par un fluide parfait incompressible, que se produit-il au niveau du rétrécissement de section (\\(S_2 < S_1\\)) ?",
+      "options": [
+        "La vitesse augmente (\\(U_2 > U_1\\)) et la pression diminue (\\(p_2 < p_1\\)).",
+        "La vitesse diminue (\\(U_2 < U_1\\)) et la pression augmente (\\(p_2 > p_1\\)).",
+        "La vitesse et la pression augmentent simultanément (\\(U_2 > U_1\\) et \\(p_2 > p_1\\)).",
+        "La vitesse augmente (\\(U_2 > U_1\\)) mais la pression reste strictement inchangée (\\(p_2 = p_1\\))."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Par conservation du débit (\\(U_2 = U_1 \\frac{S_1}{S_2} > U_1\\)), le fluide accélère au col. Selon le théorème de Bernoulli à altitude constante (\\(p_1 + \\frac{1}{2}\\rho U_1^2 = p_2 + \\frac{1}{2}\\rho U_2^2\\)), l'augmentation d'énergie cinétique provoque une chute de pression : \\(p_2 = p_1 - \\frac{1}{2}\\rho (U_2^2 - U_1^2) < p_1\\)."
+    },
+    {
+      "id": 20,
+      "enonce": "Un tube de Pitot mesure la pression totale au point d'arrêt \\(p_A\\) (\\(u_A = 0\\)) et la pression statique \\(p_\\infty\\) dans l'écoulement non perturbé. Quelle formule donne la vitesse \\(U_\\infty\\) ?",
+      "options": [
+        "\\(U_\\infty = \\sqrt{\\frac{2 (p_A - p_\\infty)}{\\rho}}\\)",
+        "\\(U_\\infty = \\frac{p_A - p_\\infty}{\\rho g}\\)",
+        "\\(U_\\infty = \\sqrt{\\frac{p_A - p_\\infty}{2 \\rho}}\\)",
+        "\\(U_\\infty = \\frac{2 (p_A - p_\\infty)}{\\rho}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En appliquant Bernoulli entre l'amont (\\(p_\\infty, U_\\infty\\)) et le point d'arrêt (\\(p_A, 0\\)) : \\(p_\\infty + \\frac{1}{2}\\rho U_\\infty^2 = p_A + 0\\). La pression dynamique vaut \\(p_A - p_\\infty = \\frac{1}{2}\\rho U_\\infty^2\\), d'où \\(U_\\infty = \\sqrt{\\frac{2 (p_A - p_\\infty)}{\\rho}}\\)."
+    },
+    {
+      "id": 21,
+      "enonce": "En quoi consiste le paradoxe de d'Alembert pour un obstacle fermé totalement immergé dans un écoulement de fluide parfait, incompressible et stationnaire ?",
+      "options": [
+        "La force de traînée théorique exercée par le fluide sur l'obstacle est strictement nulle (\\(\\vec{F}_{\\mathrm{traînée}} = \\vec{0}\\)).",
+        "La poussée d'Archimède s'annule dès que l'obstacle est mis en mouvement.",
+        "La portance aérodynamique est infinie quelle que soit la forme de l'obstacle.",
+        "Le fluide parfait s'arrête complètement en amont de l'obstacle."
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégration des pressions de Bernoulli autour d'un corps fermé dans un fluide parfait (\\(\\eta=0\\)) conduit à une résistance au mouvement totalement nulle (\\(\\vec{F} = \\vec{0}\\)). Ce résultat paradoxal montre que la viscosité et la formation d'une couche limite sont indispensables pour expliquer la traînée."
+    },
+    {
+      "id": 22,
+      "enonce": "Si une pompe fournit une puissance hydraulique \\(P_h > 0\\) à un fluide incompressible de débit volumique \\(Q_v\\), comment s'exprime la généralisation du théorème de Bernoulli entre l'entrée 1 et la sortie 2 ?",
+      "options": [
+        "\\(\\left(p_2 + \\frac{1}{2}\\rho U_2^2 + \\rho g z_2\\right) - \\left(p_1 + \\frac{1}{2}\\rho U_1^2 + \\rho g z_1\\right) = \\frac{P_h}{Q_v}\\)",
+        "\\(\\left(p_2 + \\frac{1}{2}\\rho U_2^2 + \\rho g z_2\\right) - \\left(p_1 + \\frac{1}{2}\\rho U_1^2 + \\rho g z_1\\right) = -\\frac{P_h}{Q_v}\\)",
+        "\\(\\left(p_2 + \\frac{1}{2}\\rho U_2^2 + \\rho g z_2\\right) = P_h Q_v\\)",
+        "\\(\\left(p_2 + \\frac{1}{2}\\rho U_2^2 + \\rho g z_2\\right) - \\left(p_1 + \\frac{1}{2}\\rho U_1^2 + \\rho g z_1\\right) = P_h\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La puissance reçue par le fluide par unité de volume s'ajoute à la charge volumique totale : \\(\\Delta \\mathcal{P}_T = \\frac{P_h}{Q_v}\\). Pour une turbine prélèvant de l'énergie, le terme de droite devient négatif (-\\frac{P_t}{Q_v})."
+    },
+    {
+      "id": 23,
+      "enonce": "Pour un fluide newtonien en écoulement de cisaillement unidirectionnel \\(\\vec{u} = u_x(y) \\vec{e}_x\\), quelle formule donne la contrainte tangencielle de cisaillement \\(\\tau_{yx}\\) ?",
+      "options": [
+        "\\(\\tau_{yx} = \\eta \\frac{\\mathrm{d}u_x}{\\mathrm{d}y}\\)",
+        "\\(\\tau_{yx} = \\eta \\left(\\frac{\\mathrm{d}u_x}{\\mathrm{d}y}\\right)^2\\)",
+        "\\(\\tau_{yx} = \\rho \\frac{\\mathrm{d}u_x}{\\mathrm{d}y}\\)",
+        "\\(\\tau_{yx} = \\eta u_x(y)\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La loi de Newton exprime la proportionnalité entre la contrainte de cisaillement \\(\\tau_{yx}\\) et le taux de déformation (gradient de vitesse) \\(\\frac{\\mathrm{d}u_x}{\\mathrm{d}y}\\), le coefficient de proportionnalité étant la viscosité dynamique \\(\\eta\\)."
+    },
+    {
+      "id": 24,
+      "enonce": "Quelle est la forme vectorielle complète des équations de Navier-Stokes pour un fluide newtonien incompressible de viscosité \\(\\eta\\) et de masse volumique \\(\\rho\\) ?",
+      "options": [
+        "\\(\\rho \\left( \\frac{\\partial \\vec{u}}{\\partial t} + (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u} \\right) = -\\vec{\\nabla} p + \\rho \\vec{g} + \\eta \\Delta \\vec{u}\\)",
+        "\\(\\rho \\frac{\\partial \\vec{u}}{\\partial t} = -\\vec{\\nabla} p + \\eta \\vec{\\nabla} \\cdot \\vec{u}\\)",
+        "\\(\\rho (\\vec{u} \\cdot \\vec{\\nabla})\\vec{u} = \\eta \\Delta \\vec{u}\\)",
+        "\\(\\frac{\\mathrm{D}\\vec{u}}{\\mathrm{D}t} = -\\vec{\\nabla} p + \\nu \\vec{\\nabla} \\wedge \\vec{u}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les équations de Navier-Stokes ajoutent le terme de diffusion visqueuse \\(\\eta \\Delta \\vec{u}\\) (où \\(\\Delta \\vec{u} = \\vec{\\nabla}^2 \\vec{u}\\) est le laplacien vectoriel de la vitesse) à l'équation d'Euler des fluides parfaits."
+    },
+    {
+      "id": 25,
+      "enonce": "Quelle condition aux limites cinématique s'applique à la vitesse \\(\\vec{u}\\) d'un fluide visqueux au contact d'une paroi solide immobile ?",
+      "options": [
+        "\\(\\vec{u} = \\vec{0}\\) (condition d'adhérence stricte / non-glissement à la paroi).",
+        "\\(\\vec{u} \\cdot \\vec{n} = 0\\) uniquement (composante normale nulle, mais glissement parfait le long de la paroi).",
+        "\\(\\vec{\\nabla} p = \\vec{0}\\) à la paroi.",
+        "\\(\\vec{u} = U_\\infty \\vec{e}_x\\) à la paroi."
+      ],
+      "reponse_correcte": 0,
+      "explication": "En fluide visqueux (\\(\\eta > 0\\)), les interactions moléculaires à la surface solide annulent la vitesse relative entre le fluide et la paroi : les composantes normale et tangencielle de la vitesse s'annulent toutes les deux (\\(\\vec{u} = \\vec{0}\\))."
+    },
+    {
+      "id": 26,
+      "enonce": "On considère l'écoulement de Couette plane entre une paroi fixe en \\(y=0\\) et une paroi mobile en \\(y=h\\) se déplaçant à la vitesse \\(U_0 \\vec{e}_x\\). En l'absence de gradient de pression, quel est le profil de vitesse \\(u_x(y)\\) ?",
+      "options": [
+        "\\(u_x(y) = U_0 \\frac{y}{h}\\) (profil linéaire)",
+        "\\(u_x(y) = U_0 \\left(1 - \\frac{y^2}{h^2}\\right)\\) (profil parabolique)",
+        "\\(u_x(y) = U_0 \\sin\\left(\\frac{\\pi y}{2h}\\right)\\)",
+        "\\(u_x(y) = U_0 \\frac{y^2}{h^2}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Sans gradient de pression (\\(\\frac{\\partial p}{\\partial x} = 0\\)), l'équation de Navier-Stokes se simplifie en \\(\\frac{\\mathrm{d}^2 u_x}{\\mathrm{d}y^2} = 0\\). L'intégration avec les conditions d'adhérence \\(u_x(0) = 0\\) et \\(u_x(h) = U_0\\) donne le profil linéaire \\(u_x(y) = U_0 \\frac{y}{h}\\)."
+    },
+    {
+      "id": 27,
+      "enonce": "Pour un écoulement stationnaire et laminaire de Poiseuille dans un tube cylindrique de rayon \\(R\\) soumis à un gradient de pression \\(\\frac{\\mathrm{d}p}{\\mathrm{d}z} = -\\frac{\\Delta p}{L}\\), quel est le profil de vitesse \\(u_z(r)\\) ?",
+      "options": [
+        "\\(u_z(r) = \\frac{\\Delta p}{4 \\eta L} (R^2 - r^2)\\) (profil parabolique)",
+        "\\(u_z(r) = \\frac{\\Delta p}{2 \\eta L} (R - r)\\) (profil linéaire)",
+        "\\(u_z(r) = U_{\\mathrm{max}} \\frac{r}{R}\\)",
+        "\\(u_z(r) = \\frac{\\Delta p}{8 \\eta L} \\frac{R^4}{r^2}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'intégration de Navier-Stokes en coordonnées cylindriques \\(\\frac{1}{r}\\frac{\\mathrm{d}}{\\mathrm{d}r}\\left(r \\frac{\\mathrm{d}u_z}{\\mathrm{d}r}\\right) = -\\frac{\\Delta p}{\\eta L}\\) avec la condition d'adhérence \\(u_z(R) = 0\\) donne le profil parabolique d'axe \\(r=0\\) : \\(u_z(r) = \\frac{\\Delta p}{4 \\eta L} (R^2 - r^2)\\)."
+    },
+    {
+      "id": 28,
+      "enonce": "Quelle est la loi de Hagen-Poiseuille exprimant le débit volumique \\(Q_v\\) d'un écoulement visqueux laminaire dans une conduite cylindrique de rayon \\(R\\) et de longueur \\(L\\) sous l'action d'une différence de pression \\(\\Delta p\\) ?",
+      "options": [
+        "\\(Q_v = \\frac{\\pi R^4 \\Delta p}{8 \\eta L}\\)",
+        "\\(Q_v = \\frac{\\pi R^2 \\Delta p}{4 \\eta L}\\)",
+        "\\(Q_v = \\frac{\\pi R^3 \\Delta p}{6 \\eta L}\\)",
+        "\\(Q_v = \\frac{8 \\eta L \\Delta p}{\\pi R^4}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "En intégrant le profil parabolique sur la section du tube \\(Q_v = \\int_0^R u_z(r) 2\\pi r \\mathrm{d}r\\), on obtient la formule de Hagen-Poiseuille \\(Q_v = \\frac{\\pi R^4 \\Delta p}{8 \\eta L}\\). Le débit est extrêmement sensible au rayon du tube car il dépend de la puissance 4 (\\(R^4\\))."
+    },
+    {
+      "id": 29,
+      "enonce": "Quelle est la force de traînée visqueuse de Stokes \\(\\vec{F}_D\\) exercée sur une sphère de rayon \\(r\\) se déplaçant à vitesse faible \\(\\vec{v}\\) dans un fluide de viscosité \\(\\eta\\) (régime rampant \\(Re \\ll 1\\)) ?",
+      "options": [
+        "\\(\\vec{F}_D = -6 \\pi \\eta r \\vec{v}\\)",
+        "\\(\\vec{F}_D = -\\frac{1}{2} \\rho \\pi r^2 v \\vec{v}\\)",
+        "\\(\\vec{F}_D = -3 \\pi \\eta r^2 \\vec{v}\\)",
+        "\\(\\vec{F}_D = -12 \\pi \\eta r \\vec{v}\\)"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La formule de Stokes \\(\\vec{F}_D = -6 \\pi \\eta r \\vec{v}\\) donne la force de frottement linéaire subie par une sphère en écoulement rampant à très bas nombre de Reynolds, où les forces d'inertie sont négligeables devant la viscosité."
+    },
+    {
+      "id": 30,
+      "enonce": "Comment qualifie-t-on un fluide dont la viscosité apparente diminue lorsque le taux de cisaillement augmente, et à quel nombre de Reynolds critique \\(Re_c\\) se produit la transition vers la turbulence dans une conduite ?",
+      "options": [
+        "Fluide rhéofluidifiant (ou pseudo-plastique) ; transition à \\(Re_c \\approx 2000\\) à \\(2300\\).",
+        "Fluide rhéoépaississant (ou dilatant) ; transition à \\(Re_c \\approx 100\\).",
+        "Fluide de Bingham (ou à seuil) ; transition à \\(Re_c \\approx 10^6\\).",
+        "Fluide newtonien parfait ; transition à \\(Re_c \\approx 10\\)."
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un fluide dont la viscosité diminue sous cisaillement est rhéofluidifiant (ex. sang, peinture). Dans une conduite cylindrique circulaire, la transition entre le régime laminaire ordonné et le régime turbulent instable intervient pour un nombre de Reynolds critique de l'ordre de \\(Re_c \\approx 2000 - 2300\\)."
+    }
+  ]
+}
