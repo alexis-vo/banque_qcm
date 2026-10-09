@@ -1,0 +1,137 @@
+{
+  "titre_chapitre": "Limites planétaires et biodiversité 2026 - QCM 3",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Les astronomes définissent parfois la « zone habitable » pour les exo-planètes à l'aide de la relation (1): 0.8 <= dUA / sqrt(L/Lo) <= 1.7, où dUA est la distance de la planète à l'étoile en unités astronomiques (1 UA = distance Terre-Soleil), et L/Lo est la luminosité (puissance radiative en W) de l'étoile par rapport à celle du Soleil. Mais certaines exoplanètes sont en rotation synchrone avec leur révolution (elles présentent toujours la même face au Soleil). Dans ce cas, que doit-on faire ?",
+      "options": [
+        "La face potentiellement habitable est au Soleil et reçoit 2 fois plus d'énergie. Il faut appliquer le nouveau critère : 0.8 <= dUA / sqrt(2 L/Lo) <= 1.7",
+        "La face potentiellement habitable est au Soleil et reçoit 2 fois plus d'énergie. Il faut appliquer le nouveau critère : 0.8 <= 2 dUA / sqrt(L/Lo) <= 1.7",
+        "Cette équation peut toujours être utilisée.",
+        "La face potentiellement habitable est au Soleil et reçoit 2 fois plus d'énergie. Il faut appliquer le nouveau critère : 0.8 <= sqrt(2) dUA / sqrt(L/Lo) <= 1.7"
+      ],
+      "reponse_correcte": 3,
+      "explication": "En rotation synchrone, la face éclairée reçoit en permanence le rayonnement de l'étoile, soit un flux surfacique moyen 2 fois supérieur à celui d'une planète en rotation rapide. Pour conserver le même bilan énergétique par unité de surface, la distance doit être ajustée d'un facteur sqrt(2), ce qui donne le critère 0.8 <= sqrt(2) dUA / sqrt(L/Lo) <= 1.7."
+    },
+    {
+      "id": 2,
+      "enonce": "Dans le cours, on a discuté des équilibres multiples du bilan radiatif liés à la rétroaction glace-albédo. Sur la figure, on voit que, pour le cas standard (epsilon = 0.4), le flux solaire (en rouge) équilibre le flux infra-rouge (en bleu) pour trois valeurs de température : il y a donc trois équilibres possibles (2 bonnes réponses).",
+      "options": [
+        "Les équilibres « chaud » et « froid » sont stables, mais l'équilibre intermédiaire est métastable : on peut imaginer rester très longtemps dans son voisinage.",
+        "Les équilibres « chaud » et « froid » sont stables, mais l'équilibre intermédiaire est très instable. En effet, une petite variation (par exemple) positive de température conduit à avoir plus de flux solaire que de flux infra-rouge, ce qui amplifie la perturbation et conduit rapidement vers l'équilibre « chaud ».",
+        "En réalité, seul l'équilibre « chaud » est stable à très long terme, car la rétroaction des silicates ne peut stabiliser le climat via l'effet de serre du CO2 que dans une configuration avec de l'eau liquide.",
+        "Les trois équilibres sont physiquement pertinents."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Les deux états extrêmes (« chaud » et « froid ») constituent des équilibres stables. L'état intermédiaire est instable en raison de la rétroaction positive glace-albédo : une perturbation thermique positive entraîne une absorption solaire supérieure à l'émission infrarouge, basculant vers l'état chaud. De plus, à très long terme, le thermostat des silicates nécessite la présence d'eau liquide pour neutraliser le CO2."
+    },
+    {
+      "id": 3,
+      "enonce": "La notion de « surprise climatique » est apparue pour la première fois dans le rapport du GIEC en 2001 car :",
+      "options": [
+        "C'est à ce moment que l'on a découvert que les variations climatiques passées montraient des changements très brutaux que les modèles ont aujourd'hui du mal à anticiper correctement.",
+        "C'est à ce moment que l'on a découvert que les modèles étaient très incertains et que le climat ne pouvait pas être prédit de façon robuste dans le futur.",
+        "C'est à ce moment que l'on a découvert que les modèles de climat pouvaient basculer vers des états différents.",
+        "C'est à ce moment que l'on a découvert que les variations climatiques passées montraient des changements très aléatoires qu'on ne pourra jamais prédire."
+      ],
+      "reponse_correcte": 0,
+      "explication": "La mise en évidence de variations climatiques abruptes (comme les événements de Dansgaard-Oeschger ou de Heinrich) dans les données paléoclimatiques a démontré que le système climatique peut basculer rapidement, introduisant la notion de « surprise climatique » dans le rapport 2001 du GIEC."
+    },
+    {
+      "id": 4,
+      "enonce": "La plus grande partie de l'eau douce sur Terre est :",
+      "options": [
+        "sous forme de vapeur d'eau dans l'atmosphère",
+        "dans les fleuves et les lacs",
+        "dans l'océan",
+        "en Antarctique, sous forme de glace"
+      ],
+      "reponse_correcte": 3,
+      "explication": "L'Antarctique concentre le plus grand réservoir d'eau douce de la planète, représentant environ 70 % des réserves mondiales d'eau douce immobilisées dans la calotte glaciaire."
+    },
+    {
+      "id": 5,
+      "enonce": "Quelles affirmations sont correctes concernant le gradient vertical de température dans l'atmosphère (2 bonnes réponses) ?",
+      "options": [
+        "Le gradient vertical de température dans la stratosphère est déterminé avant tout par le mélange des masses d'air.",
+        "Le gradient vertical de température dans la troposphère est déterminé avant tout par le mélange des masses d'air.",
+        "Le gradient vertical de température dans la stratosphère est déterminé avant tout par le bilan radiatif : les différentes couches absorbent et réémettent du rayonnement dans différentes longueurs d'onde.",
+        "Le gradient vertical de température dans la troposphère est déterminé avant tout par le bilan radiatif : les différentes couches absorbent et réémettent du rayonnement dans différentes longueurs d'onde."
+      ],
+      "reponse_correcte": 1,
+      "explication": "Le profil thermique de la troposphère est principalement gouverné par la convection et le mélange adiabatique des masses d'air. À l'inverse, la stratosphère est régie par l'équilibre radiatif lié à l'absorption du rayonnement ultraviolets par la couche d'ozone."
+    },
+    {
+      "id": 6,
+      "enonce": "Face aux menaces combinées du changement climatique, de la surpêche et du tourisme sur les récifs coralliens, quelle combinaison d'actions a le plus de chances d'être efficace pour leur préservation à long terme ?",
+      "options": [
+        "Interdire l'accès touristique aux récifs et créer des réserves intégrales sur toutes les zones coralliennes",
+        "Favoriser le tourisme durable et restaurer les coraux avec des structures artificielles à grande échelle",
+        "Combiner gestion adaptative locale (aires marines protégées, pêche régulée), restauration écologique, et réduction globale des émissions de gaz à effet de serre",
+        "Promouvoir l'aquaculture de poissons tropicaux pour détourner la pression sur les récifs naturels"
+      ],
+      "reponse_correcte": 2,
+      "explication": "Une préservation efficace des écosystèmes coralliens exige une approche intégrée associant des mesures locales de conservation (aires protégées, régulation de la pêche) et une réduction mondiale des émissions de gaz à effet de serre pour limiter le réchauffement et l'acidification des océans."
+    },
+    {
+      "id": 7,
+      "enonce": "Quel est le rôle principal de l'IPBES dans la gouvernance mondiale de la biodiversité ?",
+      "options": [
+        "Produire des expertises scientifiques interdisciplinaires pour éclairer les décisions politiques",
+        "Déterminer les espèces prioritaires à protéger au niveau international",
+        "Financer directement des projets de conservation dans les pays en développement",
+        "Gérer les bases de données sur les populations d'espèces à l'échelle mondiale"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'IPBES (Plateforme intergouvernementale scientifique et politique sur la biodiversité et les services écosystémiques) synthétise les connaissances scientifiques interdisciplinaires pour synthétiser des rapports d'évaluation à destination des décideurs politiques."
+    },
+    {
+      "id": 8,
+      "enonce": "Parmi les propositions suivantes, laquelle remet en question une vision strictement utilitariste de la biodiversité ?",
+      "options": [
+        "L'intégration de la biodiversité dans les chaînes de valeur économiques",
+        "L'approche fondée sur les droits intrinsèques des espèces à exister",
+        "L'évaluation monétaire des fonctions écologiques",
+        "La reconnaissance des services écosystémiques de régulation du climat"
+      ],
+      "reponse_correcte": 1,
+      "explication": "L'approche des droits intrinsèques attribue une valeur propre aux espèces vivantes indépendamment des bénéfices, services ou valeurs monétaires qu'elles apportent aux sociétés humaines, contredisant le paradigme utilitariste."
+    },
+    {
+      "id": 9,
+      "enonce": "Quelles affirmations sont correctes concernant la dynamique thermique de la troposphère et le rôle des nuages (2 bonnes réponses) ?",
+      "options": [
+        "En première approximation, le gradient vertical de température dans la troposphère correspond à l'absorption différentielle du rayonnement infrarouge et ultra-violet.",
+        "Les nuages ont à la fois un effet sur l'albédo et l'effet de serre, mais les nuages en haut de la troposphère ont avant tout un effet sur l'albédo en réémettant le rayonnement visible.",
+        "En première approximation, le gradient vertical de température dans la troposphère correspond à un mélange adiabatique.",
+        "Les nuages ont à la fois un effet sur l'albédo et l'effet de serre, mais les nuages en haut de la troposphère ont avant tout un effet sur l'effet de serre car ils piègent fortement le rayonnement infrarouge tout en influençant peu le bilan radiatif en albédo."
+      ],
+      "reponse_correcte": 2,
+      "explication": "Dans la troposphère, le profil de température est déterminé par le mélange adiabatique. Pour les nuages hauts (cirrus), froids et peu opaques au rayonnement visible, l'effet de serre (piégeage infrarouge) l'emporte nettement sur l'effet d'albédo."
+    },
+    {
+      "id": 10,
+      "enonce": "Dans une perspective interdisciplinaire, quel est l'intérêt principal de combiner des savoirs écologiques traditionnels avec les sciences naturelles ?",
+      "options": [
+        "Réduire l'incertitude liée aux modèles de distribution des espèces",
+        "Intégrer les valeurs spirituelles des peuples autochtones dans les calculs économiques",
+        "Co-construire des approches de gestion durable adaptées aux contextes locaux",
+        "Assurer un transfert de connaissances vers les politiques publiques"
+      ],
+      "reponse_correcte": 2,
+      "explication": "La combinaison des savoirs écologiques traditionnels et scientifiques permet de développer conjointement des pratiques de gestion durable et adaptative ancrées dans la réalité territoriale et culturelle des communautés."
+    },
+    {
+      "id": 11,
+      "enonce": "La notion de « point de bascule » (tipping-points) est discutée dans le contexte de la circulation océanique profonde de l'Atlantique nord (AMOC). Pourquoi ?",
+      "options": [
+        "Ce type d'événement s'est déjà déroulé dans le passé dans exactement le même contexte.",
+        "Les simulations numériques du climat futur montrent toutes que l'AMOC va bientôt s'effondrer.",
+        "C'est le scénario bien connu dans le film « Le Jour d'Après ».",
+        "Ce type d'événement s'est déjà déroulé dans le passé, dans un contexte différent. Ces événements passés nous renseignent sur la structure dynamique de l'océan : l'existence d'équilibres multiples implique qu'il existe un point de bascule."
+      ],
+      "reponse_correcte": 3,
+      "explication": "L'étude des événements paléoclimatiques démontre que la circulation océanique de l'Atlantique Nord possède une structure multistable. Des réorganisations abruptes passées confirment l'existence d'un seuil critique (point de bascule) au-delà duquel la circulation peut changer d'état."
+    }
+  ]
+}

@@ -69,7 +69,8 @@
         { "titre": "Climat 1", "fichier": "climat1.json"},
         { "titre": "Climat 2", "fichier": "climat2.json"},
         { "titre": "QCM 2 v1", "fichier": "qcm2-v1.json"},
-        { "titre": "QCM 2 v2", "fichier": "qcm2-v2.json"}
+        { "titre": "QCM 2 v2", "fichier": "qcm2-v2.json"},
+        { "titre": "QCM 3", "fichier": "qcm3.json"}
       ]
     },
     {
