@@ -1,0 +1,131 @@
+{
+  "titre_chapitre": "C7 - Mesure et intégration IV",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Définition d'un pavé mesurable : dans le produit d'espaces mesurables \\((E_1,\\mathcal E_1),\\ldots,(E_n,\\mathcal E_n)\\), un pavé mesurable est un ensemble de quelle forme ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Un pavé mesurable est un ensemble de la forme \\(A_1\\times\\cdots\\times A_n\\), où \\(A_i\\in\\mathcal E_i\\) pour tout \\(i\\in\\{1,\\ldots,n\\}\\). Par définition, un tel ensemble appartient à la tribu produit \\(\\mathcal E_1\\otimes\\cdots\\otimes\\mathcal E_n\\), car celle-ci contient tous les rectangles mesurables. Attention : le mot « pavé » désigne ici un rectangle mesurable au sens abstrait, et pas nécessairement un rectangle géométrique de \\(\\mathbb R^n\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Les pavés mesurables \\(A_1\\times\\cdots\\times A_n\\), avec \\(A_i\\in\\mathcal E_i\\), forment-ils nécessairement une tribu sur \\(E_1\\times\\cdots\\times E_n\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Non, les pavés mesurables ne forment généralement pas une tribu. Ils ne sont pas stables par complémentation ni par réunion dénombrable. Par exemple, dans \\(\\mathbb R^2\\), le complémentaire d'un rectangle \\(A\\times B\\) n'est généralement pas un rectangle. De même, une réunion de rectangles peut ne pas être un rectangle. C'est pourquoi on considère la tribu produit, qui est la plus petite tribu contenant tous les pavés mesurables. L'analogie avec les intervalles de \\(\\mathbb R\\) est pertinente : les intervalles ne forment pas non plus une tribu."
+    },
+    {
+      "id": 3,
+      "enonce": "Définition de la tribu produit : comment définit-on \\(\\mathcal E_1\\otimes\\cdots\\otimes\\mathcal E_n\\) sur \\(E_1\\times\\cdots\\times E_n\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La tribu produit est définie par \\(\\mathcal E_1\\otimes\\cdots\\otimes\\mathcal E_n=\\sigma\\bigl(\\{A_1\\times\\cdots\\times A_n\\mid A_i\\in\\mathcal E_i\\}\\bigr)\\). Ici, \\(\\sigma(\\cdot)\\) désigne la tribu engendrée par la famille d'ensembles considérée. Il s'agit donc de la plus petite tribu sur \\(E_1\\times\\cdots\\times E_n\\) contenant tous les pavés mesurables. Elle est aussi notée \\(\\bigotimes_{i=1}^{n}\\mathcal E_i\\)."
+    },
+    {
+      "id": 4,
+      "enonce": "Les applications de projection canoniques \\(\\pi_i:E_1\\times\\cdots\\times E_n\\to E_i\\), définies par \\(\\pi_i(x_1,\\ldots,x_n)=x_i\\), sont-elles mesurables pour la tribu produit au départ et \\(\\mathcal E_i\\) à l'arrivée ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Oui. Pour tout \\(B\\in\\mathcal E_i\\), on a \\(\\pi_i^{-1}(B)=E_1\\times\\cdots\\times E_{i-1}\\times B\\times E_{i+1}\\times\\cdots\\times E_n\\). Comme \\(E_j\\in\\mathcal E_j\\) pour chaque \\(j\\), cet ensemble est un pavé mesurable et appartient donc à la tribu produit. Ainsi, l'image réciproque de tout ensemble mesurable est mesurable, ce qui prouve que \\(\\pi_i\\) est mesurable."
+    },
+    {
+      "id": 5,
+      "enonce": "Associativité des tribus produits : pour trois espaces mesurables \\((E_1,\\mathcal E_1)\\), \\((E_2,\\mathcal E_2)\\) et \\((E_3,\\mathcal E_3)\\), quelle relation vérifie la tribu produit ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Sous l'identification canonique de \\((E_1\\times E_2)\\times E_3\\) avec \\(E_1\\times(E_2\\times E_3)\\), les tribus produits coïncident : \\((\\mathcal E_1\\otimes\\mathcal E_2)\\otimes\\mathcal E_3=\\mathcal E_1\\otimes(\\mathcal E_2\\otimes\\mathcal E_3)=\\mathcal E_1\\otimes\\mathcal E_2\\otimes\\mathcal E_3\\). Cette égalité s'entend après identification des espaces produits correspondants. Elle permet de définir sans ambiguïté la tribu produit de tout nombre fini d'espaces mesurables."
+    },
+    {
+      "id": 6,
+      "enonce": "Quelle est la structure mathématique naturelle de \\(\\mathbb R^n\\), muni de sa distance euclidienne usuelle ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "\\(\\mathbb R^n\\), muni de la distance euclidienne \\(d(x,y)=\\sqrt{\\sum_{i=1}^{n}(x_i-y_i)^2}\\), est un espace métrique. Cette distance induit une topologie, dont les ouverts engendrent la tribu borélienne \\(\\mathcal B(\\mathbb R^n)\\). La tribu borélienne de \\(\\mathbb R^n\\) est égale à la tribu produit des tribus boréliennes de \\(\\mathbb R\\) : \\(\\mathcal B(\\mathbb R^n)=\\bigotimes_{i=1}^{n}\\mathcal B(\\mathbb R)\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Sections d'un ensemble mesurable : soient \\((E_1,\\mathcal E_1)\\) et \\((E_2,\\mathcal E_2)\\) deux espaces mesurables, et \\(A\\in\\mathcal E_1\\otimes\\mathcal E_2\\). Pour \\(x\\in E_1\\), on définit \\(A_x=\\{y\\in E_2\\mid(x,y)\\in A\\}\\). À quelle tribu appartient \\(A_x\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(x\\in E_1\\), on a \\(A_x\\in\\mathcal E_2\\). On appelle \\(A_x\\) la section de \\(A\\) en \\(x\\). Pour démontrer ce résultat, on considère la famille des ensembles \\(A\\in\\mathcal E_1\\otimes\\mathcal E_2\\) dont toutes les sections sont dans \\(\\mathcal E_2\\). Cette famille contient les pavés mesurables et est stable par complémentation et réunion dénombrable. Elle contient donc la tribu engendrée par les pavés, c'est-à-dire la tribu produit."
+    },
+    {
+      "id": 8,
+      "enonce": "Sections d'un ensemble mesurable : soient \\(A\\in\\mathcal E_1\\otimes\\mathcal E_2\\) et \\(y\\in E_2\\). On définit \\(A^y=\\{x\\in E_1\\mid(x,y)\\in A\\}\\). Quel est le résultat de mesurabilité correct ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(y\\in E_2\\), la section \\(A^y\\) appartient à \\(\\mathcal E_1\\). La notation \\(A^y\\) est utilisée ici pour distinguer cette section de \\(A_x\\), définie en fixant la première coordonnée. Dans les deux cas, la section d'un ensemble mesurable pour la tribu produit est mesurable dans la tribu correspondant à la coordonnée qui reste variable. Dans l'énoncé initial, \\(E_x\\) doit être corrigé en \\(E_1\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Soient \\((E_1,\\mathcal E_1)\\), \\((E_2,\\mathcal E_2)\\) et \\((F,\\mathcal F)\\) des espaces mesurables. Si \\(f:E_1\\times E_2\\to F\\) est \\((\\mathcal E_1\\otimes\\mathcal E_2)/\\mathcal F\\)-mesurable, que peut-on affirmer de ses applications partielles ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Les deux applications partielles sont mesurables : (i) pour tout \\(x\\in E_1\\), l'application \\(f(x,\\cdot):E_2\\to F\\), définie par \\(y\\mapsto f(x,y)\\), est \\(\\mathcal E_2/\\mathcal F\\)-mesurable ; (ii) pour tout \\(y\\in E_2\\), l'application \\(f(\\cdot,y):E_1\\to F\\), définie par \\(x\\mapsto f(x,y)\\), est \\(\\mathcal E_1/\\mathcal F\\)-mesurable. En effet, pour tout \\(B\\in\\mathcal F\\), l'image réciproque de \\(B\\) par une application partielle est une section de \\(f^{-1}(B)\\), qui appartient à \\(\\mathcal E_1\\otimes\\mathcal E_2\\). Les sections étant mesurables, les applications partielles le sont également."
+    },
+    {
+      "id": 10,
+      "enonce": "Définition de la mesure produit : soient \\((E_i,\\mathcal E_i,\\mu_i)\\), pour \\(i\\in\\{1,\\ldots,n\\}\\), des espaces mesurés. Sous quelle hypothèse standard peut-on affirmer l'existence et l'unicité d'une mesure produit \\(\\mu_1\\otimes\\cdots\\otimes\\mu_n\\) vérifiant la formule sur les pavés mesurables ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Si les mesures \\(\\mu_1,\\ldots,\\mu_n\\) sont \\(\\sigma\\)-finies, il existe une unique mesure \\(\\mu\\) sur \\((E_1\\times\\cdots\\times E_n,\\mathcal E_1\\otimes\\cdots\\otimes\\mathcal E_n)\\) telle que, pour tous \\(A_i\\in\\mathcal E_i\\), \\(\\mu(A_1\\times\\cdots\\times A_n)=\\prod_{i=1}^{n}\\mu_i(A_i)\\). Cette mesure est appelée mesure produit et se note \\(\\mu_1\\otimes\\cdots\\otimes\\mu_n\\), ou \\(\\bigotimes_{i=1}^{n}\\mu_i\\). La \\(\\sigma\\)-finitude signifie que chaque espace \\(E_i\\) est réunion dénombrable d'ensembles mesurables de mesure finie. Elle garantit ici l'unicité de la mesure produit. L'existence peut être établie sous des hypothèses plus générales, mais la \\(\\sigma\\)-finitude constitue l'hypothèse classique du théorème."
+    },
+    {
+      "id": 11,
+      "enonce": "Mesure produit : dans la formule \\(\\mu(A_1\\times\\cdots\\times A_n)=\\prod_{i=1}^{n}\\mu_i(A_i)\\), quelle est la valeur de \\(\\mu(A_1\\times\\cdots\\times A_n)\\) si l'un des facteurs \\(\\mu_j(A_j)\\) est nul et que tous les autres facteurs sont finis ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure du pavé est le produit des mesures de ses facteurs. Si un facteur est nul et que tous les autres sont finis, ce produit vaut zéro. Par exemple, pour deux espaces mesurés, si \\(\\mu_1(A_1)=0\\) et \\(\\mu_2(A_2)<+\\infty\\), alors \\((\\mu_1\\otimes\\mu_2)(A_1\\times A_2)=0\\times\\mu_2(A_2)=0\\). La formule est à comprendre dans les conventions usuelles de l'arithmétique des mesures, notamment \\(0\\times(+\\infty)=0\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Exemple de mesure produit : si \\(\\lambda\\) désigne la mesure de Lebesgue sur \\(\\mathbb R\\), quelle est la mesure produit \\(\\lambda\\otimes\\lambda\\) sur \\(\\mathbb R^2\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure produit \\(\\lambda\\otimes\\lambda\\) est la mesure de Lebesgue usuelle sur \\(\\mathbb R^2\\). Pour tout rectangle mesurable \\(A\\times B\\), avec \\(A,B\\in\\mathcal B(\\mathbb R)\\), on a \\((\\lambda\\otimes\\lambda)(A\\times B)=\\lambda(A)\\lambda(B)\\). En particulier, l'aire d'un rectangle \\([a,b]\\times[c,d]\\) est \\((b-a)(d-c)\\) lorsque \\(a\\le b\\) et \\(c\\le d\\). Plus généralement, le produit de \\(n\\) mesures de Lebesgue sur \\(\\mathbb R\\) donne la mesure de Lebesgue sur \\(\\mathbb R^n\\)."
+    },
+    {
+      "id": 13,
+      "enonce": "Exemple de mesure produit : si \\(\\delta_a\\) est la mesure de Dirac en \\(a\\in E_1\\) et \\(\\nu\\) une mesure sur \\((E_2,\\mathcal E_2)\\), comment calcule-t-on \\((\\delta_a\\otimes\\nu)(A\\times B)\\) pour \\(A\\in\\mathcal E_1\\) et \\(B\\in\\mathcal E_2\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Par définition de la mesure produit, \\((\\delta_a\\otimes\\nu)(A\\times B)=\\delta_a(A)\\nu(B)=\\mathbf 1_A(a)\\nu(B)\\). La mesure de Dirac vérifie \\(\\delta_a(A)=1\\) si \\(a\\in A\\), et \\(\\delta_a(A)=0\\) sinon. Ainsi, la mesure du pavé vaut \\(\\nu(B)\\) lorsque \\(a\\in A\\), et zéro lorsque \\(a\\notin A\\). Cet exemple illustre une mesure produit dont la première coordonnée est concentrée en un point."
+    },
+    {
+      "id": 14,
+      "enonce": "Théorème de Fubini pour les fonctions positives : soient \\((E_1,\\mathcal E_1,\\mu_1)\\) et \\((E_2,\\mathcal E_2,\\mu_2)\\) deux espaces mesurés \\(\\sigma\\)-finis, et \\(f:E_1\\times E_2\\to[0,+\\infty]\\) une fonction \\((\\mathcal E_1\\otimes\\mathcal E_2)\\)-mesurable. Que permet d'affirmer le théorème de Tonelli, souvent appelé théorème de Fubini pour les fonctions positives ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Tonelli affirme que, pour toute fonction mesurable positive, les intégrales itérées existent dans \\([0,+\\infty]\\) et sont égales à l'intégrale par rapport à la mesure produit : \\(\\int_{E_1\\times E_2}f\\,d(\\mu_1\\otimes\\mu_2)=\\int_{E_1}\\left(\\int_{E_2}f(x,y)\\,d\\mu_2(y)\\right)d\\mu_1(x)=\\int_{E_2}\\left(\\int_{E_1}f(x,y)\\,d\\mu_1(x)\\right)d\\mu_2(y)\\). Les fonctions obtenues par intégration partielle sont mesurables. Contrairement au théorème de Fubini pour les fonctions intégrables, Tonelli ne requiert pas que l'intégrale soit finie : les égalités sont valables dans \\([0,+\\infty]\\)."
+    },
+    {
+      "id": 15,
+      "enonce": "Théorème de Fubini-Lebesgue : soient \\((E_1,\\mathcal E_1,\\mu_1)\\) et \\((E_2,\\mathcal E_2,\\mu_2)\\) deux espaces mesurés \\(\\sigma\\)-finis et \\(f:E_1\\times E_2\\to\\mathbb R\\) une fonction mesurable. Quelle hypothèse d'intégrabilité permet d'appliquer le théorème de Fubini-Lebesgue ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "L'hypothèse classique est que \\(f\\) est intégrable par rapport à la mesure produit, c'est-à-dire \\(\\int_{E_1\\times E_2}|f|\\,d(\\mu_1\\otimes\\mu_2)<+\\infty\\). Alors, pour presque tout \\(x\\in E_1\\), la fonction \\(y\\mapsto f(x,y)\\) est intégrable sur \\(E_2\\), et pour presque tout \\(y\\in E_2\\), la fonction \\(x\\mapsto f(x,y)\\) est intégrable sur \\(E_1\\). Les intégrales partielles sont mesurables et intégrables, et l'on a \\(\\int_{E_1\\times E_2}f\\,d(\\mu_1\\otimes\\mu_2)=\\int_{E_1}\\left(\\int_{E_2}f(x,y)\\,d\\mu_2(y)\\right)d\\mu_1(x)=\\int_{E_2}\\left(\\int_{E_1}f(x,y)\\,d\\mu_1(x)\\right)d\\mu_2(y)\\). La condition sur \\(|f|\\) évite les expressions indéterminées de type \\(+\\infty-\\infty\\)."
+    },
+    {
+      "id": 16,
+      "enonce": "Différence entre Tonelli et Fubini-Lebesgue : pour une fonction mesurable signée \\(f\\), peut-on toujours permuter l'ordre des intégrations sans vérifier une hypothèse d'intégrabilité ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Non. Le théorème de Tonelli s'applique directement aux fonctions mesurables positives, à valeurs dans \\([0,+\\infty]\\), et autorise une intégrale éventuellement infinie. Le théorème de Fubini-Lebesgue s'applique aux fonctions mesurables intégrables, notamment lorsque \\(\\int|f|\\,d(\\mu_1\\otimes\\mu_2)<+\\infty\\). Sans positivité ni intégrabilité absolue, les intégrales itérées peuvent ne pas exister ou dépendre de l'ordre d'intégration. Il faut donc vérifier les hypothèses du théorème utilisé avant de permuter les intégrales."
+    },
+    {
+      "id": 17,
+      "enonce": "Application de Fubini : pour une fonction mesurable positive \\(f:\\mathbb R^2\\to[0,+\\infty]\\), quelle égalité donne le théorème de Tonelli avec la mesure de Lebesgue ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Le théorème de Tonelli donne \\(\\int_{\\mathbb R^2}f(x,y)\\,d(x,y)=\\int_{\\mathbb R}\\left(\\int_{\\mathbb R}f(x,y)\\,dy\\right)dx=\\int_{\\mathbb R}\\left(\\int_{\\mathbb R}f(x,y)\\,dx\\right)dy\\). Ces égalités sont valables même si les intégrales valent \\(+\\infty\\). Elles permettent de calculer des intégrales doubles en intégrant successivement par rapport à chacune des variables. Pour une fonction réelle de signe quelconque, on doit vérifier les hypothèses de Fubini-Lebesgue, notamment l'intégrabilité absolue."
+    },
+    {
+      "id": 18,
+      "enonce": "Mesurabilité d'une fonction sur un produit : soit \\(f:E_1\\times E_2\\to\\mathbb R\\) une fonction mesurable pour \\(\\mathcal E_1\\otimes\\mathcal E_2\\) et \\(\\mathcal B(\\mathbb R)\\). Quelle propriété des fonctions partielles est nécessaire pour utiliser Fubini ou Tonelli ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Les fonctions partielles \\(y\\mapsto f(x,y)\\) et \\(x\\mapsto f(x,y)\\) sont mesurables pour chaque valeur fixée de l'autre variable. Cette propriété résulte de la mesurabilité de \\(f\\) et du théorème sur les applications partielles. Elle garantit que les intégrales partielles sont définies au sens de la théorie de la mesure, sous réserve des conditions d'intégrabilité pertinentes. Pour appliquer Tonelli, il faut en plus que \\(f\\) soit positive ; pour appliquer Fubini-Lebesgue, il faut notamment que \\(f\\) soit intégrable en valeur absolue."
+    }
+  ]
+}

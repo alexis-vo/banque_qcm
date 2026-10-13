@@ -1,0 +1,131 @@
+{
+  "titre_chapitre": "C6 - Mesure et intégration III - ECTA",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Fonction de répartition : soit \\(P\\) une mesure de probabilité sur \\((\\mathbb R,\\mathcal B(\\mathbb R))\\). Comment définit-on sa fonction de répartition \\(F\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction de répartition de \\(P\\) est définie par \\(F:\\mathbb R\\to[0,1]\\), \\(F(x)=P(]-\\infty,x])\\). Elle associe à chaque réel \\(x\\) la probabilité que la variable aléatoire considérée prenne une valeur inférieure ou égale à \\(x\\). Comme \\(P\\) est une mesure de probabilité, on a \\(0\\leq F(x)\\leq 1\\) pour tout \\(x\\in\\mathbb R\\). Les propriétés fondamentales de \\(F\\) découlent des propriétés générales des mesures : monotonie, additivité et continuité monotone."
+    },
+    {
+      "id": 2,
+      "enonce": "Monotonie de la fonction de répartition : soient \\(x,y\\in\\mathbb R\\) tels que \\(x\\leq y\\). Quelle relation vérifie \\(F(x)\\) et \\(F(y)\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction de répartition est croissante : \\(x\\leq y\\Rightarrow F(x)\\leq F(y)\\). En effet, \\(]-\\infty,x]\\subseteq]-\\infty,y]\\). Par monotonie de la mesure \\(P\\), on obtient \\(F(x)=P(]-\\infty,x])\\leq P(]-\\infty,y])=F(y)\\)."
+    },
+    {
+      "id": 3,
+      "enonce": "Limite en \\(-\\infty\\) : quelle est la limite de la fonction de répartition \\(F(x)=P(]-\\infty,x])\\) lorsque \\(x\\to-\\infty\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle\\lim_{x\\to-\\infty}F(x)=0\\). Pour le démontrer, considérons les ensembles \\(A_n=]-\\infty,-n]\\). La suite \\((A_n)\\) est décroissante et \\(\\bigcap_{n\\in\\mathbb N}A_n=\\varnothing\\). Comme \\(P(A_0)\\leq 1<+\\infty\\), la continuité monotone décroissante donne \\(P(A_n)\\to P(\\varnothing)=0\\). Ainsi, \\(F(-n)\\to0\\). Enfin, la croissance de \\(F\\) permet de conclure que \\(F(x)\\to0\\) lorsque \\(x\\to-\\infty\\). La finitude de la mesure de probabilité garantit l'application de la continuité monotone décroissante."
+    },
+    {
+      "id": 4,
+      "enonce": "Limite en \\(+\\infty\\) : quelle est la limite de la fonction de répartition \\(F(x)=P(]-\\infty,x])\\) lorsque \\(x\\to+\\infty\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle\\lim_{x\\to+\\infty}F(x)=1\\). Considérons \\(B_n=]-\\infty,n]\\). La suite \\((B_n)\\) est croissante et \\(\\bigcup_{n\\in\\mathbb N}B_n=\\mathbb R\\). Par continuité monotone croissante, \\(F(n)=P(B_n)\\to P(\\mathbb R)=1\\). La croissance de \\(F\\) permet ensuite de conclure que \\(F(x)\\to1\\) lorsque \\(x\\to+\\infty\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Limite à gauche : pour \\(x\\in\\mathbb R\\), on note \\(F(x^-)=\\displaystyle\\lim_{t\\to x,\\,t<x}F(t)\\). Quelle est l'expression de cette limite à l'aide de la mesure \\(P\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle F(x^-)=P(]-\\infty,x[)\\). En effet, la croissance de \\(F\\) garantit l'existence de sa limite à gauche. En considérant la suite \\(C_n=]-\\infty,x-1/n]\\), on obtient une suite croissante telle que \\(\\bigcup_{n\\geq1}C_n=]-\\infty,x[\\). Par continuité monotone croissante, \\(\\lim_{n\\to\\infty}F(x-1/n)=P(]-\\infty,x[)\\). Cette limite correspond à la limite à gauche de \\(F\\) en \\(x\\)."
+    },
+    {
+      "id": 6,
+      "enonce": "Masse ponctuelle : quel lien existe-t-il entre \\(F(x)\\), sa limite à gauche \\(F(x^-)\\) et la probabilité \\(P(\\{x\\})\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle F(x)-F(x^-)=P(\\{x\\})\\). En effet, \\(]-\\infty,x]=]-\\infty,x[\\,\\sqcup\\,\\{x\\}\\), où l'union est disjointe. Par additivité de la mesure, \\(P(]-\\infty,x])=P(]-\\infty,x[)+P(\\{x\\})\\). En utilisant les expressions de \\(F(x)\\) et de \\(F(x^-)\\), on obtient la formule annoncée. Le saut de la fonction de répartition en \\(x\\) correspond donc exactement à la masse attribuée au singleton \\(\\{x\\}\\)."
+    },
+    {
+      "id": 7,
+      "enonce": "Continuité de la fonction de répartition : sachant que \\(F\\) est continue à droite, quelle condition équivaut à la continuité de \\(F\\) en un point \\(x\\in\\mathbb R\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La fonction \\(F\\) est continue en \\(x\\) si et seulement si \\(P(\\{x\\})=0\\). En effet, une fonction croissante et continue à droite est continue en \\(x\\) si et seulement si sa limite à gauche est égale à sa valeur en \\(x\\). Or \\(F(x)-F(x^-)=P(\\{x\\})\\). La continuité en \\(x\\) équivaut donc à l'annulation de la masse du singleton \\(\\{x\\}\\). En particulier, si \\(P\\) admet une densité par rapport à la mesure de Lebesgue, alors \\(P(\\{x\\})=0\\) pour tout \\(x\\), et \\(F\\) est continue sur \\(\\mathbb R\\)."
+    },
+    {
+      "id": 8,
+      "enonce": "Mesure associée à une fonction positive : soit \\((E,\\mathcal E,\\mu)\\) un espace mesuré et \\(f:E\\to[0,+\\infty]\\) une fonction mesurable positive. On définit \\(\\omega_f(A)=\\displaystyle\\int_A f\\,d\\mu\\) pour tout \\(A\\in\\mathcal E\\). Quel est le résultat de la proposition 6.2.5, assertion i) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "L'application \\(\\omega_f:\\mathcal E\\to[0,+\\infty]\\), définie par \\(A\\mapsto\\int_A f\\,d\\mu\\), est une mesure sur \\((E,\\mathcal E)\\). Elle vérifie \\(\\omega_f(\\varnothing)=0\\) et, pour toute suite \\((A_n)_{n\\geq1}\\) d'ensembles mesurables deux à deux disjoints, \\(\\omega_f\\left(\\bigcup_{n\\geq1}A_n\\right)=\\sum_{n\\geq1}\\omega_f(A_n)\\). Cette dernière propriété découle de l'additivité de l'intégrale des fonctions positives et du théorème de convergence monotone. Aucune hypothèse de \\(\\sigma\\)-finitude sur \\(\\mu\\) n'est nécessaire pour cette assertion."
+    },
+    {
+      "id": 9,
+      "enonce": "Mesure associée à une fonction positive : pour \\(A\\in\\mathcal E\\), quelle formule permet de calculer \\(\\omega_f(A)\\) à partir de l'indicatrice \\(\\mathbb 1_A\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle\\omega_f(A)=\\int_A f\\,d\\mu=\\int_E\\mathbb 1_A f\\,d\\mu\\). L'indicatrice \\(\\mathbb 1_A\\) vaut \\(1\\) sur \\(A\\) et \\(0\\) en dehors de \\(A\\). Ainsi, le produit \\(\\mathbb 1_A f\\) conserve les valeurs de \\(f\\) sur \\(A\\) et s'annule en dehors de \\(A\\). Cette identité permet de ramener l'intégrale sur un ensemble à une intégrale sur tout l'espace mesuré."
+    },
+    {
+      "id": 10,
+      "enonce": "Unicité d'une densité : soient \\((E,\\mathcal E,\\mu)\\) un espace mesuré et \\(f_1,f_2:E\\to[0,+\\infty]\\) deux fonctions mesurables positives telles que \\(\\omega_{f_1}=\\omega_{f_2}\\). Quelle hypothèse supplémentaire du théorème 6.2.5, assertion ii), permet de conclure que \\(f_1=f_2\\) \\(\\mu\\)-presque partout ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Il faut supposer que \\(\\mu\\) est \\(\\sigma\\)-finie. Sous cette hypothèse, l'égalité \\(\\omega_{f_1}=\\omega_{f_2}\\) implique \\(f_1=f_2\\) \\(\\mu\\)-presque partout. La \\(\\sigma\\)-finitude signifie qu'il existe une suite \\((E_n)_{n\\geq1}\\) d'ensembles mesurables telle que \\(\\mu(E_n)<+\\infty\\) pour tout \\(n\\) et \\(\\bigcup_{n\\geq1}E_n=E\\). Cette hypothèse est essentielle : sans elle, l'assertion peut être fausse."
+    },
+    {
+      "id": 11,
+      "enonce": "Définition de la \\(\\sigma\\)-finitude : un espace mesuré \\((E,\\mathcal E,\\mu)\\) est dit \\(\\sigma\\)-fini si quelle propriété est vérifiée ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure \\(\\mu\\) est \\(\\sigma\\)-finie s'il existe une suite \\((E_n)_{n\\geq1}\\) d'éléments de \\(\\mathcal E\\) telle que \\(\\mu(E_n)<+\\infty\\) pour tout \\(n\\) et \\(E=\\bigcup_{n\\geq1}E_n\\). Autrement dit, l'espace est réunion dénombrable d'ensembles mesurables de mesure finie. Par exemple, la mesure de Lebesgue sur \\(\\mathbb R\\) est \\(\\sigma\\)-finie, car \\(\\mathbb R=\\bigcup_{n\\geq1}[-n,n]\\) et \\(\\lambda([-n,n])=2n<+\\infty\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Contre-exemple à l'unicité sans \\(\\sigma\\)-finitude : soit \\(E=\\{a\\}\\), \\(\\mathcal E=\\mathcal P(E)\\), et \\(\\mu(\\{a\\})=+\\infty\\). On pose \\(f_1(a)=1\\) et \\(f_2(a)=2\\). Pourquoi a-t-on \\(\\omega_{f_1}=\\omega_{f_2}\\) alors que \\(f_1\\neq f_2\\) \\(\\mu\\)-presque partout ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Les deux mesures associées coïncident : \\(\\omega_{f_1}(\\varnothing)=\\omega_{f_2}(\\varnothing)=0\\) et \\(\\omega_{f_1}(E)=\\omega_{f_2}(E)=+\\infty\\). Ainsi, \\(\\omega_{f_1}=\\omega_{f_2}\\), bien que \\(f_1(a)=1\\neq2=f_2(a)\\). De plus, le singleton \\(\\{a\\}\\) n'est pas \\(\\mu\\)-négligeable, car sa mesure vaut \\(+\\infty\\). Les fonctions ne sont donc pas égales \\(\\mu\\)-presque partout. La mesure \\(\\mu\\) n'est pas \\(\\sigma\\)-finie : le seul ensemble de mesure finie est l'ensemble vide, qui ne permet pas de recouvrir \\(E\\). Cet exemple montre que l'hypothèse de \\(\\sigma\\)-finitude est indispensable à l'assertion ii)."
+    },
+    {
+      "id": 13,
+      "enonce": "Démonstration de l'unicité d'une densité dans le cas où \\(\\omega_{f_1}\\) est une mesure de probabilité : on pose \\(A=\\{f_1>f_2\\}\\). Quelle propriété peut-on déduire de l'égalité \\(\\omega_{f_1}=\\omega_{f_2}\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Comme \\(A\\in\\mathcal E\\) et que \\(\\omega_{f_1}=\\omega_{f_2}\\), on a \\(\\int_A f_1\\,d\\mu=\\int_A f_2\\,d\\mu\\). Sur \\(A\\), on a \\(f_1=f_1-f_2+f_2\\), avec \\(f_1-f_2>0\\). Les intégrales de \\(f_1\\) et \\(f_2\\) sur \\(A\\) sont finies, car elles sont inférieures ou égales à leur intégrale sur \\(E\\), qui vaut \\(1\\). Par additivité de l'intégrale des fonctions positives, on obtient \\(\\int_A(f_1-f_2)\\,d\\mu=0\\). Une fonction mesurable positive dont l'intégrale est nulle est nulle \\(\\mu\\)-presque partout. Comme \\(f_1-f_2>0\\) sur \\(A\\), on en déduit \\(\\mu(A)=0\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Démonstration de l'unicité d'une densité : après avoir montré que \\(\\mu(\\{f_1>f_2\\})=0\\), quelle étape permet de conclure que \\(f_1=f_2\\) \\(\\mu\\)-presque partout dans le cas où les mesures associées sont des probabilités ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On échange les rôles de \\(f_1\\) et \\(f_2\\) et l'on démontre de la même façon que \\(\\mu(\\{f_2>f_1\\})=0\\). Or \\(\\{f_1\\neq f_2\\}=\\{f_1>f_2\\}\\cup\\{f_2>f_1\\}\\). Cette réunion de deux ensembles négligeables est négligeable. Ainsi, \\(\\mu(\\{f_1\\neq f_2\\})=0\\), ce qui équivaut à \\(f_1=f_2\\) \\(\\mu\\)-presque partout."
+    },
+    {
+      "id": 15,
+      "enonce": "Unicité d'une densité dans le cas général : lorsque \\(\\mu\\) est seulement supposée \\(\\sigma\\)-finie, pourquoi ne peut-on pas appliquer directement la démonstration précédente à \\(A=\\{f_1>f_2\\}\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "Dans le cas général, les intégrales \\(\\int_A f_1\\,d\\mu\\) et \\(\\int_A f_2\\,d\\mu\\) peuvent être infinies. L'égalité de ces deux intégrales ne permet alors pas de soustraire leurs valeurs pour conclure que \\(\\int_A(f_1-f_2)\\,d\\mu=0\\), car l'expression \\(+\\infty-(+\\infty)\\) est indéterminée. Il faut donc restreindre le raisonnement à des ensembles sur lesquels les intégrales considérées sont finies."
+    },
+    {
+      "id": 16,
+      "enonce": "Unicité d'une densité sous l'hypothèse de \\(\\sigma\\)-finitude : soient \\(\\mu\\) une mesure \\(\\sigma\\)-finie et \\(f_1,f_2:E\\to[0,+\\infty]\\) deux fonctions mesurables positives telles que \\(\\omega_{f_1}=\\omega_{f_2}\\). On pose \\(A=\\{f_1>f_2\\}\\). Quelle famille d'ensembles permet de ramener la démonstration au cas d'intégrales finies ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "On choisit une suite croissante \\((E_n)_{n\\geq1}\\) d'ensembles mesurables de mesure finie telle que \\(\\bigcup_{n\\geq1}E_n=E\\). On définit \\(A_n=A\\cap E_n\\cap\\{f_2\\leq n\\}\\). Sur \\(A_n\\), on a \\(0\\leq f_2\\leq n\\), donc \\(\\int_{A_n}f_2\\,d\\mu\\leq n\\mu(E_n)<+\\infty\\). Comme \\(\\omega_{f_1}=\\omega_{f_2}\\), les intégrales de \\(f_1\\) et de \\(f_2\\) sur \\(A_n\\) sont égales et finies. Le raisonnement du cas précédent s'applique alors à \\(A_n\\) et donne \\(\\mu(A_n)=0\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Fin de la démonstration sous l'hypothèse de \\(\\sigma\\)-finitude : avec \\(A_n=A\\cap E_n\\cap\\{f_2\\leq n\\}\\), où \\(A=\\{f_1>f_2\\}\\), pourquoi obtient-on \\(\\mu(A)=0\\) lorsque \\(\\mu(A_n)=0\\) pour tout \\(n\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La suite \\((A_n)\\) est croissante et \\(\\bigcup_{n\\geq1}A_n=A\\), car \\(\\bigcup_{n\\geq1}E_n=E\\) et \\(f_2\\) est à valeurs dans \\([0,+\\infty]\\) selon l'énoncé du document. Pour une fonction à valeurs finies, chaque point appartient à \\(\\{f_2\\leq n\\}\\) dès que \\(n\\) est suffisamment grand. Si les fonctions peuvent prendre la valeur \\(+\\infty\\), le raisonnement doit être adapté en tenant compte de ces points ; l'argument du document suppose des fonctions à valeurs réelles positives. Par continuité monotone croissante, \\(\\mu(A)=\\lim_{n\\to\\infty}\\mu(A_n)=0\\). En échangeant les rôles de \\(f_1\\) et \\(f_2\\), on montre également que \\(\\mu(\\{f_2>f_1\\})=0\\), d'où \\(f_1=f_2\\) \\(\\mu\\)-presque partout."
+    },
+    {
+      "id": 18,
+      "enonce": "Densité d'une mesure : si \\(f:E\\to[0,+\\infty]\\) est mesurable et si l'on définit \\(\\nu(A)=\\int_A f\\,d\\mu\\) pour tout \\(A\\in\\mathcal E\\), comment peut-on exprimer la relation entre \\(\\nu\\), \\(f\\) et \\(\\mu\\) ?",
+      "options": ["COMPRIS", "À REVOIR"],
+      "reponse_correcte": 0,
+      "explication": "La mesure \\(\\nu\\) est absolument continue par rapport à \\(\\mu\\), ce que l'on note \\(\\nu\\ll\\mu\\). En effet, si \\(\\mu(A)=0\\), alors \\(\\int_A f\\,d\\mu=0\\), donc \\(\\nu(A)=0\\). Lorsque cette relation s'inscrit dans le cadre du théorème de Radon-Nikodym, la fonction \\(f\\) est une densité de \\(\\nu\\) par rapport à \\(\\mu\\), également notée \\(\\frac{d\\nu}{d\\mu}\\). Le résultat d'unicité du document affirme que, lorsque \\(\\mu\\) est \\(\\sigma\\)-finie, deux densités définissant la même mesure sont égales \\(\\mu\\)-presque partout."
+    }
+  ]
+}
