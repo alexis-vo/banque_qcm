@@ -20,41 +20,64 @@
   src: url(https://cdn.jsdelivr.net/fontsource/fonts/geist-mono:vf@latest/latin-wght-normal.woff2) format(woff2) tech(variations);
 }
 
+/* Tokens copiés de globals.css (alexisvo-site) */
 :root {
-  --color-bg: #f9fafb;
-  --color-surface: #ffffff;
-  --color-border: #e5e7eb;
-  --color-text: #111827;
-  --color-text-muted: #6b7280;
-  --color-primary: #111827;
-  --color-primary-hover: #374151;
-  --color-success: #16a34a;
-  --color-success-bg: #f0fdf4;
-  --color-error: #dc2626;
-  --color-error-bg: #fef2f2;
-  --radius: 10px;
-  --shadow-sm: 0 1px 2px rgba(16, 24, 40, 0.06);
-  --shadow-md: 0 4px 12px rgba(16, 24, 40, 0.08);
+  --paper: #f5f3ed;
+  --paper-alt: #efeae0;
+  --ink: #1a1f2b;
+  --ink-soft: #3a4150;
+  --muted: #6b7280;
+  --garnet: #9a3d3d;
+  --axis: #2f4858;
+  --line: #d8d2c4;
+
+  /* Hover : absent de globals.css (Tailwind le gère par utilitaires), approximé à la main. */
+  --garnet-hover: #7f3232;
+
+  --color-bg: var(--paper-alt);
+  --color-surface: var(--paper);
+  --color-border: var(--line);
+  --color-text: var(--ink);
+  --color-text-muted: var(--muted);
+  --color-primary: var(--garnet);
+  --color-primary-hover: var(--garnet-hover);
   --color-primary-text: #ffffff;
+  --color-success: #2f6b4f;
+  --color-success-bg: #e8f0ea;
+  --color-error: #b3372c;
+  --color-error-bg: #f6e9e7;
+  --radius: 10px;
+  --shadow-sm: 0 1px 2px rgba(26, 31, 43, 0.08);
+  --shadow-md: 0 4px 12px rgba(26, 31, 43, 0.1);
   --font-base: "Geist Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
   --action-bar-height: 64px;
   color-scheme: light;
 }
 
-:root[data-theme="dark"] {
-  --color-bg: #030712;
-  --color-surface: #111827;
-  --color-border: #1f2937;
-  --color-text: #f3f4f6;
-  --color-text-muted: #9ca3af;
-  --color-primary: #f9fafb;
-  --color-primary-hover: #e5e7eb;
-  --color-primary-text: #111827;
-  --color-success: #4ade80;
-  --color-success-bg: rgba(74, 222, 128, 0.12);
-  --color-error: #f87171;
-  --color-error-bg: rgba(248, 113, 113, 0.12);
+.dark {
+  --paper: #17171a;
+  --paper-alt: #1f1f23;
+  --ink: #ececea;
+  --ink-soft: #b8b8b4;
+  --muted: #8a8a86;
+  --garnet: #d38686;
+  --axis: #6b8ba3;
+  --line: #2e2e32;
+  --garnet-hover: #c17373;
+
+  --color-bg: var(--paper-alt);
+  --color-surface: var(--paper);
+  --color-border: var(--line);
+  --color-text: var(--ink);
+  --color-text-muted: var(--muted);
+  --color-primary: var(--garnet);
+  --color-primary-hover: var(--garnet-hover);
+  --color-primary-text: #17171a;
+  --color-success: #6fbf96;
+  --color-success-bg: rgba(111, 191, 150, 0.12);
+  --color-error: #e08b7d;
+  --color-error-bg: rgba(224, 139, 125, 0.12);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.5);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.6);
   color-scheme: dark;
@@ -72,10 +95,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-base);
-  background: var(--color-bg);
+  background: radial-gradient(circle at top, #fafaf8 0%, #f2f1ee 100%);
   color: var(--color-text);
   line-height: 1.5;
   font-size: 16px;
+}
+
+.dark body {
+  background: radial-gradient(circle at top, #18181b 0%, #0a0a0b 100%);
 }
 
 .container {
@@ -333,7 +360,8 @@ h3 {
   background: var(--color-bg);
 }
 
-.options input[type="radio"] {
+.options input[type="radio"],
+.options input[type="checkbox"] {
   width: 18px;
   height: 18px;
   margin: 1px 0 0;
@@ -344,6 +372,13 @@ h3 {
 .options label.option-correcte {
   border-color: var(--color-success);
   background: var(--color-success-bg);
+}
+
+.multi-hint {
+  margin: -6px 0 10px;
+  font-size: 0.8rem;
+  font-style: italic;
+  color: var(--color-text-muted);
 }
 
 .badge-correcte {
@@ -375,6 +410,11 @@ h3 {
   border-radius: 0 8px 8px 0;
   font-size: 0.9rem;
   color: var(--color-text-muted);
+}
+
+.rationale ul {
+  margin: 6px 0 0;
+  padding-left: 20px;
 }
 
 .rationale strong {
@@ -442,11 +482,11 @@ h3 {
   display: none;
 }
 
-[data-theme="dark"] .theme-toggle .icon-sun {
+.dark .theme-toggle .icon-sun {
   display: none;
 }
 
-[data-theme="dark"] .theme-toggle .icon-moon {
+.dark .theme-toggle .icon-moon {
   display: block;
 }
 
@@ -523,7 +563,7 @@ h3 {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 30;  
+    z-index: 30;
     background: var(--color-surface);
     border-top: 1px solid var(--color-border);
     padding: 10px 14px calc(10px + env(safe-area-inset-bottom, 0));

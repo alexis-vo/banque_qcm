@@ -5,17 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 <title>Banque de QCM - Mon Portfolio</title>
 <script>
+  // Applique le thème avant le premier rendu pour éviter le flash clair/sombre.
   (function () {
     var stored = localStorage.getItem('qcm-theme');
-    var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-    document.documentElement.setAttribute('data-theme', theme);
+    var isDark = stored ? stored === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+    document.documentElement.classList.toggle('dark', isDark);
   })();
 
   function toggleTheme() {
-    var root = document.documentElement;
-    var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-    root.setAttribute('data-theme', next);
-    localStorage.setItem('qcm-theme', next);
+    var isDark = document.documentElement.classList.toggle('dark');
+    localStorage.setItem('qcm-theme', isDark ? 'dark' : 'light');
   }
 </script>
 <link rel="stylesheet" href="style.css">

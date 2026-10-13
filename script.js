@@ -29,6 +29,70 @@ function escapeHtml(str) {
     .replaceAll('>', '&gt;');
 }
 
+// ---------- Réponses simples ou multiples ----------
+// Format des JSON : "reponse_correcte": 2        -> une seule bonne réponse
+//                   "reponse_correcte": [0, 2]   -> plusieurs bonnes réponses
+
+function getCorrectes(q) {
+  return Array.isArray(q.reponse_correcte) ? q.reponse_correcte : [q.reponse_correcte];
+}
+
+function estMultiple(q) {
+  return getCorrectes(q).length > 1;
+}
+
+// HTML des options d'une question : cases à cocher si plusieurs bonnes réponses, radios sinon
+function optionsHtml(q, name) {
+  const multi = estMultiple(q);
+  const type = multi ? 'checkbox' : 'radio';
+  let html = '';
+  if (multi) {
+    html += `<p class="multi-hint">Plusieurs réponses possibles</p>`;
+  }
+  html += `<div class="options">`;
+  q.options.forEach((opt, oIndex) => {
+    html += `<label><input type="${type}" name="${name}" value="${oIndex}"> <span>${escapeHtml(opt)}</span></label>`;
+  });
+  html += `</div>`;
+  return html;
+}
+
+// Indices cochés pour un groupe d'inputs
+function lireSelection(name) {
+  return [...document.querySelectorAll(`input[name="${name}"]:checked`)]
+    .map(input => parseInt(input.value));
+}
+
+// 'correct' seulement si l'ensemble coché est exactement l'ensemble des bonnes réponses
+function evaluerSelection(q, selection) {
+  if (selection.length === 0) return 'unanswered';
+  const correctes = getCorrectes(q);
+  const ok = selection.length === correctes.length && correctes.every(c => selection.includes(c));
+  return ok ? 'correct' : 'incorrect';
+}
+
+// HTML de la correction (verdict + bonnes réponses si question multiple + explication)
+function feedbackHtml(q, statut) {
+  let html = '';
+  if (statut === 'correct') {
+    html += `<p class="correct">Bonne réponse.</p>`;
+  } else if (statut === 'incorrect') {
+    html += `<p class="incorrect">Mauvaise réponse.</p>`;
+  } else {
+    html += `<p class="incorrect">Aucune réponse sélectionnée.</p>`;
+  }
+
+  if (estMultiple(q) && statut !== 'correct') {
+    const liste = getCorrectes(q)
+      .map(i => `<li>${escapeHtml(q.options[i])}</li>`)
+      .join('');
+    html += `<div class="rationale"><strong>Bonnes réponses :</strong><ul>${liste}</ul></div>`;
+  }
+
+  html += `<div class="rationale"><strong>Explication :</strong> ${escapeHtml(q.explication)}</div>`;
+  return html;
+}
+
 // ---------- Menu principal ----------
 
 async function initMenu() {
@@ -214,14 +278,16 @@ function renderQuiz() {
   currentQuizData.questions.forEach((q, qIndex) => {
     html += `<div class="question-card" id="q-card-${qIndex}">`;
     html += `<div class="question-title">Question ${q.id} : ${escapeHtml(q.enonce)}</div>`;
-    html += `<div class="options">`;
-    q.options.forEach((opt, oIndex) => {
-      html += `<label><input type="radio" name="question-${qIndex}" value="${oIndex}"> <span>${escapeHtml(opt)}</span></label>`;
-    });
-    html += `</div><div id="feedback-${qIndex}"></div></div>`;
+    html += optionsHtml(q, `question-${qIndex}`);
+    html += `<div id="feedback-${qIndex}"></div></div>`;
   });
   container.innerHTML = html;
-  document.getElementById('submit-btn').style.display = 'block';
+
+  // Le bouton est réutilisé entre les modes : on remet son libellé et son action d'origine
+  const submitBtn = document.getElementById('submit-btn');
+  submitBtn.style.display = 'block';
+  submitBtn.innerText = 'Valider mes réponses';
+  submitBtn.onclick = () => validerQuiz();
 
   if (window.MathJax) {
     MathJax.typesetPromise([container]);
@@ -238,24 +304,10 @@ function validerQuiz() {
   arreterTimer();
   let score = 0;
   currentQuizData.questions.forEach((q, qIndex) => {
-    const selected = document.querySelector(`input[name="question-${qIndex}"]:checked`);
-    const feedbackDiv = document.getElementById(`feedback-${qIndex}`);
-    let feedbackHtml = '';
-
-    if (selected) {
-      const selectedVal = parseInt(selected.value);
-      if (selectedVal === q.reponse_correcte) {
-        score++;
-        feedbackHtml += `<p class="correct">Bonne réponse.</p>`;
-      } else {
-        feedbackHtml += `<p class="incorrect">Mauvaise réponse.</p>`;
-      }
-    } else {
-      feedbackHtml += `<p class="incorrect">Aucune réponse sélectionnée.</p>`;
-    }
-
-    feedbackHtml += `<div class="rationale"><strong>Explication :</strong> ${escapeHtml(q.explication)}</div>`;
-    feedbackDiv.innerHTML = feedbackHtml;
+    const selection = lireSelection(`question-${qIndex}`);
+    const statut = evaluerSelection(q, selection);
+    if (statut === 'correct') score++;
+    document.getElementById(`feedback-${qIndex}`).innerHTML = feedbackHtml(q, statut);
   });
 
   if (window.MathJax) {
@@ -273,14 +325,10 @@ function renderQuestionUnique(index) {
 
   let html = `<div class="question-card" id="q-card-0">`;
   html += `<div class="question-title">Question ${index + 1} / ${currentQuizData.questions.length} : ${escapeHtml(q.enonce)}</div>`;
-  html += `<div class="options">`;
-  q.options.forEach((opt, oIndex) => {
-    html += `<label><input type="radio" name="question-0" value="${oIndex}"> <span>${escapeHtml(opt)}</span></label>`;
-  });
-  html += `</div><div id="feedback-0"></div></div>`;
+  html += optionsHtml(q, 'question-0');
+  html += `<div id="feedback-0"></div></div>`;
 
   container.innerHTML = html;
-  document.getElementById('submit-btn').style.display = 'none';
 
   // le bouton de validation de la question réutilise submit-btn pour rester dans la barre d'action fixe
   const submitBtn = document.getElementById('submit-btn');
@@ -302,24 +350,10 @@ function renderQuestionUnique(index) {
 function evaluerQuestionUnique(index) {
   arreterTimer();
   const q = currentQuizData.questions[index];
-  const selected = document.querySelector(`input[name="question-0"]:checked`);
-  const feedbackDiv = document.getElementById('feedback-0');
-  let feedbackHtml = '';
+  const statut = evaluerSelection(q, lireSelection('question-0'));
+  if (statut === 'correct') scoreCourant++;
 
-  if (selected) {
-    const selectedVal = parseInt(selected.value);
-    if (selectedVal === q.reponse_correcte) {
-      scoreCourant++;
-      feedbackHtml += `<p class="correct">Bonne réponse.</p>`;
-    } else {
-      feedbackHtml += `<p class="incorrect">Mauvaise réponse.</p>`;
-    }
-  } else {
-    feedbackHtml += `<p class="incorrect">Aucune réponse sélectionnée.</p>`;
-  }
-
-  feedbackHtml += `<div class="rationale"><strong>Explication :</strong> ${escapeHtml(q.explication)}</div>`;
-  feedbackDiv.innerHTML = feedbackHtml;
+  document.getElementById('feedback-0').innerHTML = feedbackHtml(q, statut);
 
   if (window.MathJax) {
     MathJax.typesetPromise();
@@ -346,13 +380,18 @@ function renderRevision() {
   const container = document.getElementById('questions-container');
   let html = '';
   currentQuizData.questions.forEach((q) => {
+    const correctes = getCorrectes(q);
+    const type = estMultiple(q) ? 'checkbox' : 'radio';
     html += `<div class="question-card revision-card">`;
     html += `<div class="question-title">Question ${q.id} : ${escapeHtml(q.enonce)}</div>`;
+    if (estMultiple(q)) {
+      html += `<p class="multi-hint">Plusieurs réponses possibles</p>`;
+    }
     html += `<div class="options">`;
     q.options.forEach((opt, oIndex) => {
-      const estCorrecte = oIndex === q.reponse_correcte;
+      const estCorrecte = correctes.includes(oIndex);
       html += `<label class="${estCorrecte ? 'option-correcte' : ''}">
-        <input type="radio" disabled ${estCorrecte ? 'checked' : ''}>
+        <input type="${type}" disabled ${estCorrecte ? 'checked' : ''}>
         <span>${escapeHtml(opt)}</span>
         ${estCorrecte ? '<span class="badge-correcte">Réponse correcte</span>' : ''}
       </label>`;
