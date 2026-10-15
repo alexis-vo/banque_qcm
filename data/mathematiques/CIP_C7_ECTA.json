@@ -1,0 +1,305 @@
+{
+  "titre_chapitre": "C7 - Mesure produit - ECTA",
+  "questions": [
+    {
+      "id": 1,
+      "enonce": "Tribus sur \\(\\mathbb{R}^n\\) : en notant \\(\\mathcal E_1=\\mathcal B(\\mathbb{R}^n)\\) et \\(\\mathcal E_2=\\mathcal B(\\mathbb{R})^{\\otimes n}\\), comment montrer \\(\\mathcal E_2\\subseteq\\mathcal E_1\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Un pavé mesurable s'écrit \\(B=B_1\\times\\cdots\\times B_n=\\bigcap_{i=1}^n\\pi_i^{-1}(B_i)\\), où les projections \\(\\pi_i:\\mathbb R^n\\to\\mathbb R\\) sont continues, donc boréliennes. Ainsi chaque pavé appartient à \\(\\mathcal E_1\\). Comme \\(\\mathcal E_2\\) est engendrée par ces pavés, \\(\\mathcal E_2\\subseteq\\mathcal E_1\\)."
+    },
+    {
+      "id": 2,
+      "enonce": "Quelle norme permet d'exprimer les boules ouvertes de \\(\\mathbb{R}^n\\) comme des pavés ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Avec la norme infinie \\(\\|x\\|_\\infty=\\max_i|x_i|\\), la boule ouverte de centre \\(x=(x_1,\\ldots,x_n)\\) et de rayon \\(r>0\\) est \\(B_\\infty(x,r)=\\prod_{i=1}^n]x_i-r,x_i+r[\\), donc un pavé mesurable pour la tribu produit."
+    },
+    {
+      "id": 3,
+      "enonce": "Comment déduire \\(\\mathcal B(\\mathbb{R}^n)\\subseteq\\mathcal B(\\mathbb{R})^{\\otimes n}\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Dans \\(\\mathbb R^n\\), tout ouvert est une réunion dénombrable de boules ouvertes. Les normes étant équivalentes en dimension finie, les boules de la norme infinie engendrent la tribu borélienne. Or ces boules sont des pavés appartenant à la tribu produit. Donc \\(\\mathcal B(\\mathbb R^n)\\subseteq\\mathcal B(\\mathbb R)^{\\otimes n}\\). Avec l'inclusion précédente, les deux tribus sont égales."
+    },
+    {
+      "id": 4,
+      "enonce": "Soient \\((E_1,\\mathcal E_1)\\), \\((E_2,\\mathcal E_2)\\) des espaces mesurables et \\(A\\in\\mathcal E_1\\otimes\\mathcal E_2\\). Que vaut la section \\(A_x=\\{y\\in E_2:(x,y)\\in A\\}\\) du point de vue de la mesurabilité ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(x\\in E_1\\), on a \\(A_x\\in\\mathcal E_2\\). On considère la classe \\(\\mathcal C=\\{B\\subseteq E_1\\times E_2:B_x\\in\\mathcal E_2\\}\\). C'est une tribu contenant tous les pavés mesurables; elle contient donc \\(\\mathcal E_1\\otimes\\mathcal E_2\\)."
+    },
+    {
+      "id": 5,
+      "enonce": "Si \\(f:E_1\\times E_2\\to F\\) est \\((\\mathcal E_1\\otimes\\mathcal E_2)/\\mathcal F\\)-mesurable, que peut-on dire de \\(f_x(y)=f(x,y)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(x\\in E_1\\), la fonction partielle \\(f_x:E_2\\to F\\) est \\(\\mathcal E_2/\\mathcal F\\)-mesurable. Pour chaque \\(C\\in\\mathcal F\\), \\(f_x^{-1}(C)=(f^{-1}(C))_x\\), qui appartient à \\(\\mathcal E_2\\) grâce à la propriété de mesurabilité des sections."
+    },
+    {
+      "id": 6,
+      "enonce": "Les résultats sur les sections et les fonctions partielles s'appliquent-ils seulement lorsqu'on fixe la première variable ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Non. On peut fixer la seconde variable, et plus généralement fixer un sous-ensemble arbitraire de variables dans un produit fini de \\(n\\) espaces mesurables. Les sections correspondantes sont mesurables et les fonctions partielles héritent de la mesurabilité."
+    },
+    {
+      "id": 7,
+      "enonce": "Soient \\(X_i:(\\Omega,\\mathcal A,\\mathbb P)\\to(E_i,\\mathcal E_i)\\) des variables aléatoires et \\(X=(X_1,\\ldots,X_n)\\). Pourquoi \\(X\\) est-elle mesurable vers \\((E_1\\times\\cdots\\times E_n,\\mathcal E_1\\otimes\\cdots\\otimes\\mathcal E_n)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La tribu produit est engendrée par les pavés mesurables \\(B_1\\times\\cdots\\times B_n\\). Pour un tel pavé, \\(X^{-1}(B_1\\times\\cdots\\times B_n)=\\bigcap_{i=1}^n X_i^{-1}(B_i)\\in\\mathcal A\\), car chaque \\(X_i\\) est mesurable et \\(\\mathcal A\\) est stable par intersections finies. Le lemme de transport permet de conclure."
+    },
+    {
+      "id": 8,
+      "enonce": "Quel résultat relie l'indépendance de \\(X_1,\\ldots,X_n\\) à la loi du vecteur \\(X=(X_1,\\ldots,X_n)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Les variables \\(X_1,\\ldots,X_n\\) sont indépendantes si et seulement si \\(\\mathbb P_X=\\mathbb P_{X_1}\\otimes\\cdots\\otimes\\mathbb P_{X_n}\\), où \\(\\mathbb P_X\\) désigne la loi du vecteur et \\(\\mathbb P_{X_i}\\) la loi marginale de \\(X_i\\)."
+    },
+    {
+      "id": 9,
+      "enonce": "Si \\(X_1,\\ldots,X_n\\) sont indépendantes, quelle est la valeur de \\(\\mathbb P_X(B_1\\times\\cdots\\times B_n)\\) pour \\(B_i\\in\\mathcal E_i\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Par définition de l'indépendance, \\(\\mathbb P_X(B_1\\times\\cdots\\times B_n)=\\mathbb P(X_1\\in B_1,\\ldots,X_n\\in B_n)=\\prod_{i=1}^n\\mathbb P(X_i\\in B_i)=\\prod_{i=1}^n\\mathbb P_{X_i}(B_i)\\). L'unicité de la mesure produit, les lois étant des mesures finies donc \\(\\sigma\\)-finies, donne l'égalité des mesures sur tout l'espace produit."
+    },
+    {
+      "id": 10,
+      "enonce": "Réciproquement, si \\(\\mathbb P_X=\\mathbb P_{X_1}\\otimes\\cdots\\otimes\\mathbb P_{X_n}\\), comment conclure à l'indépendance ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tous \\(B_i\\in\\mathcal E_i\\), \\(\\mathbb P(X_1\\in B_1,\\ldots,X_n\\in B_n)=\\mathbb P_X(\\prod_iB_i)=\\prod_i\\mathbb P_{X_i}(B_i)=\\prod_i\\mathbb P(X_i\\in B_i)\\). Cette factorisation pour tous les ensembles mesurables caractérise l'indépendance des variables."
+    },
+    {
+      "id": 11,
+      "enonce": "Quelle est la tribu utilisée sur un ensemble au plus dénombrable \\(E\\) muni de la mesure de comptage ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On utilise la tribu discrète \\(\\mathcal P(E)\\). Toute fonction définie sur \\(E\\) vers un espace mesurable est alors mesurable, puisque l'image réciproque de tout ensemble mesurable est un sous-ensemble de \\(E\\), donc appartient à \\(\\mathcal P(E)\\)."
+    },
+    {
+      "id": 12,
+      "enonce": "Pour \\(f:E\\to[0,+\\infty]\\), quelle est l'intégrale de \\(f\\) par rapport à la mesure de comptage \\(\\varepsilon\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle\\int_E f\\,d\\varepsilon=\\sum_{x\\in E}f(x)\\). Cette somme, définie comme somme d'une famille dénombrable de termes positifs, appartient à \\([0,+\\infty]\\) et peut donc être infinie."
+    },
+    {
+      "id": 13,
+      "enonce": "Pour \\(f:E\\to\\mathbb K\\), avec \\(\\mathbb K=\\mathbb R\\) ou \\(\\mathbb C\\), quelle condition caractérise \\(f\\in L^1(E,\\mathcal P(E),\\varepsilon;\\mathbb K)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La condition nécessaire et suffisante est \\(\\displaystyle\\sum_{x\\in E}|f(x)|<+\\infty\\). Dans ce cas, la série \\(\\sum_{x\\in E}f(x)\\) converge absolument et \\(\\displaystyle\\int_E f\\,d\\varepsilon=\\sum_{x\\in E}f(x)\\in\\mathbb K\\)."
+    },
+    {
+      "id": 14,
+      "enonce": "Quel est le produit de deux mesures de comptage sur \\(\\mathbb N\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le produit \\(\\mu\\otimes\\mu\\) est la mesure de comptage sur \\((\\mathbb N^2,\\mathcal P(\\mathbb N^2))\\). En effet, chaque singleton \\(\\{(k,\\ell)\\}=\\{k\\}\\times\\{\\ell\\}\\) a pour mesure \\((\\mu\\otimes\\mu)(\\{(k,\\ell)\\})=\\mu(\\{k\\})\\mu(\\{\\ell\\})=1\\). Sur un ensemble dénombrable muni de sa tribu discrète, ces valeurs caractérisent la mesure."
+    },
+    {
+      "id": 15,
+      "enonce": "Pour \\(f:\\mathbb N^2\\to[0,+\\infty]\\), que dit Tonelli sur la somme double ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Toutes les fonctions sont mesurables sur les espaces dénombrables munis de leur tribu discrète. Tonelli donne \\(\\displaystyle\\sum_{(k,\\ell)\\in\\mathbb N^2}f(k,\\ell)=\\sum_{k\\in\\mathbb N}\\sum_{\\ell\\in\\mathbb N}f(k,\\ell)=\\sum_{\\ell\\in\\mathbb N}\\sum_{k\\in\\mathbb N}f(k,\\ell)\\). Les trois quantités sont égales dans \\([0,+\\infty]\\), éventuellement avec valeur \\(+\\infty\\)."
+    },
+    {
+      "id": 16,
+      "enonce": "Pour \\(f:\\mathbb N^2\\to\\mathbb K\\), quelle hypothèse permet d'appliquer Fubini-Lebesgue et d'intervertir les sommes ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Il faut que \\(f\\) soit intégrable par rapport à la mesure de comptage produit, c'est-à-dire \\(\\displaystyle\\sum_{(k,\\ell)\\in\\mathbb N^2}|f(k,\\ell)|<+\\infty\\). Cette condition équivaut à \\(\\sum_k\\sum_\\ell|f(k,\\ell)|<+\\infty\\) et à \\(\\sum_\\ell\\sum_k|f(k,\\ell)|<+\\infty\\), par Tonelli appliqué à \\(|f|\\)."
+    },
+    {
+      "id": 17,
+      "enonce": "Sous l'hypothèse \\(\\sum_{k,\\ell}|f(k,\\ell)|<+\\infty\\), que peut-on dire des séries par lignes et par colonnes ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour tout \\(k\\), la série \\(u_k=\\sum_{\\ell\\in\\mathbb N}f(k,\\ell)\\) converge absolument; pour tout \\(\\ell\\), la série \\(v_\\ell=\\sum_{k\\in\\mathbb N}f(k,\\ell)\\) converge absolument. De plus, \\(\\sum_k|u_k|<+\\infty\\) et \\(\\sum_\\ell|v_\\ell|<+\\infty\\)."
+    },
+    {
+      "id": 18,
+      "enonce": "Quelle égalité Fubini-Lebesgue donne-t-il pour une série double absolument convergente à termes réels ou complexes ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Avec \\(u_k=\\sum_{\\ell=0}^{\\infty}f(k,\\ell)\\) et \\(v_\\ell=\\sum_{k=0}^{\\infty}f(k,\\ell)\\), on a \\(\\displaystyle\\sum_{(k,\\ell)\\in\\mathbb N^2}f(k,\\ell)=\\sum_{k=0}^{\\infty}u_k=\\sum_{\\ell=0}^{\\infty}v_\\ell\\). L'absolue convergence garantit que l'ordre de sommation peut être interverti sans modifier la somme."
+    },
+    {
+      "id": 19,
+      "enonce": "Dans le cadre de la mesure de comptage, pourquoi peut-on omettre le qualificatif « presque partout » dans certaines conclusions de Fubini ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour la mesure de comptage, un ensemble de mesure nulle est nécessairement vide : si \\(\\mu(A)=0\\), alors \\(A=\\varnothing\\). Une propriété vraie presque partout est donc vraie en tout point du domaine concerné."
+    },
+    {
+      "id": 20,
+      "enonce": "Que signifie qu'une fonction \\(f:U\\to\\mathbb R^p\\), définie sur un ouvert \\(U\\subseteq\\mathbb R^d\\), est de classe \\(C^1\\) selon la définition de l'ECTA ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Toutes ses dérivées partielles \\(\\partial f_i/\\partial x_j\\), pour \\(1\\le i\\le p\\) et \\(1\\le j\\le d\\), existent et sont continues sur \\(U\\). C'est la notion de fonction continûment différentiable utilisée dans le document."
+    },
+    {
+      "id": 21,
+      "enonce": "Comment définit-on la matrice jacobienne d'une fonction \\(f:U\\subseteq\\mathbb R^d\\to\\mathbb R^p\\) en \\(x\\in U\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "La matrice jacobienne est la matrice \\(p\\times d\\) \\(\\displaystyle(Df)(x)_{i,j}=\\frac{\\partial f_i}{\\partial x_j}(x)\\), pour \\(1\\le i\\le p\\) et \\(1\\le j\\le d\\). Les lignes correspondent aux composantes de \\(f\\), et les colonnes aux variables d'entrée."
+    },
+    {
+      "id": 22,
+      "enonce": "Quand le déterminant jacobien \\(J\\varphi(x)\\) est-il défini, et quelle est sa formule ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour \\(\\varphi:U\\subseteq\\mathbb R^d\\to\\mathbb R^d\\), la matrice jacobienne est carrée et l'on définit \\(\\displaystyle(J\\varphi)(x)=\\det((D\\varphi)(x))\\). Pour une application de \\(\\mathbb R^d\\) vers \\(\\mathbb R^p\\) avec \\(p\\ne d\\), la matrice jacobienne est rectangulaire et son déterminant n'est pas défini."
+    },
+    {
+      "id": 23,
+      "enonce": "Quelles conditions définissent un \\(C^1\\)-difféomorphisme \\(\\varphi:U\\to V\\), où \\(U,V\\) sont des ouverts de \\(\\mathbb R^d\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Il faut que \\(\\varphi\\) soit une bijection de \\(U\\) sur \\(V\\), que \\(\\varphi\\) soit de classe \\(C^1\\) sur \\(U\\), et que sa réciproque \\(\\varphi^{-1}\\) soit de classe \\(C^1\\) sur \\(V\\). Les espaces de départ et d'arrivée ont ici la même dimension."
+    },
+    {
+      "id": 24,
+      "enonce": "Quelle caractérisation équivalente d'un \\(C^1\\)-difféomorphisme est donnée par la proposition 7.2.21 ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "L'application \\(\\varphi:U\\to V\\) est un \\(C^1\\)-difféomorphisme si et seulement si : (i) elle est bijective de \\(U\\) dans \\(V\\), (ii) elle est de classe \\(C^1\\) sur \\(U\\), et (iii) \\((D\\varphi)(x)\\) est inversible pour tout \\(x\\in U\\). Il ne faut surtout pas oublier de vérifier la bijectivité."
+    },
+    {
+      "id": 25,
+      "enonce": "Si \\(\\varphi:U\\to V\\) est un \\(C^1\\)-difféomorphisme et \\(y=\\varphi(x)\\), quelle relation lie les jacobiennes de \\(\\varphi\\) et de \\(\\varphi^{-1}\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "On a \\(\\displaystyle(D\\varphi)(x)^{-1}=D(\\varphi^{-1})(y)\\), avec \\(y=\\varphi(x)\\). À gauche, l'exposant \\(-1\\) désigne l'inverse matriciel; à droite, \\(\\varphi^{-1}\\) désigne l'application réciproque."
+    },
+    {
+      "id": 26,
+      "enonce": "Énoncer la formule de changement de variable associée à un \\(C^1\\)-difféomorphisme \\(\\varphi:U\\to V\\) et à une fonction mesurable \\(h:V\\to\\mathbb R\\).",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Si \\(h\\) est positive ou intégrable sur \\(V\\), alors \\(\\displaystyle\\int_V h(y)\\,\\lambda^{(d)}(dy)=\\int_U h(\\varphi(x))\\,|(J\\varphi)(x)|\\,\\lambda^{(d)}(dx)\\). Le facteur est la valeur absolue du déterminant jacobien, car le changement de variable transforme les volumes selon ce facteur."
+    },
+    {
+      "id": 27,
+      "enonce": "Quelle équivalence d'intégrabilité découle du théorème de changement de variable ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour un \\(C^1\\)-difféomorphisme \\(\\varphi:U\\to V\\) et une fonction mesurable \\(h:V\\to\\mathbb R\\), \\(h\\) est intégrable sur \\(V\\) si et seulement si la fonction \\((h\\circ\\varphi)\\,|J\\varphi|\\) est intégrable sur \\(U\\)."
+    },
+    {
+      "id": 28,
+      "enonce": "Quelle formule de changement de variable obtient-on en exprimant l'intégrale sur \\(U\\) à l'aide de \\(\\varphi^{-1}\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Pour \\(h:U\\to\\mathbb R\\) mesurable et positive ou intégrable, \\(\\displaystyle\\int_U h(x)\\,\\lambda^{(d)}(dx)=\\int_V\\frac{h(\\varphi^{-1}(y))}{|(J\\varphi)(\\varphi^{-1}(y))|}\\,\\lambda^{(d)}(dy)\\). Le dénominateur est non nul puisque la matrice jacobienne est inversible en tout point."
+    },
+    {
+      "id": 29,
+      "enonce": "Dans la formule de changement de variable, pourquoi utilise-t-on \\(\\lvert J\\varphi\\rvert\\) plutôt que \\(J\\varphi\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le déterminant jacobien peut être négatif si la transformation inverse l'orientation. Le facteur d'échelle des volumes doit rester positif : on utilise donc \\(|(J\\varphi)(x)|\\)."
+    },
+    {
+      "id": 30,
+      "enonce": "Comment interpréter formellement le facteur jacobien dans la formule \\(y=\\varphi(x)\\) ?",
+      "options": [
+        "COMPRIS",
+        "À REVOIR"
+      ],
+      "reponse_correcte": 0,
+      "explication": "Le document propose de retenir formellement \\(\\lambda^{(d)}(dy)=|(J\\varphi)(x)|\\,\\lambda^{(d)}(dx)\\). Dans la formule inverse, on utilise donc \\(\\displaystyle\\frac{1}{|(J\\varphi)(\\varphi^{-1}(y))|}\\). Il s'agit d'un moyen mnémotechnique pour retrouver les formules, pas d'une égalité autonome entre mesures sans le cadre du théorème."
+    }
+  ]
+}

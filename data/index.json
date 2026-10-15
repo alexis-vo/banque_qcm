@@ -19,6 +19,7 @@
         { "titre": "Chapitre 6 - Mesures et intégration III, cours", "fichier": "CIP_C6_LN.json"},
         { "titre": "Chapitre 6 - Mesures et intégration III, ECTA", "fichier": "CIP_C6_ECTA.json"},
         { "titre": "Chapitre 7 - Mesures et intégration IV, cours", "fichier": "CIP_C7_LN.json"},
+        { "titre": "Chapitre 7 - Mesures et intégration IV, ECTA", "fichier": "CIP_C7_ECTA.json"},
         { "titre": "Révisions équations différentielles", "fichier": "rev_ed.json"},
         { "titre": "Révisions algèbre", "fichier": "rev_alg.json"},
         { "titre": "Révisions calculus", "fichier": "rev_calculus.json"},
